@@ -29,7 +29,15 @@ def safe_filename(name):
     return name.strip("_") or "unknown"
 
 def get_items():
-    with urllib.request.urlopen(SOURCE_URL, timeout=45) as response:
+    req = urllib.request.Request(
+        SOURCE_URL,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36",
+            "Accept": "application/json,text/plain,*/*",
+            "Referer": "https://magnetic.website/",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=45) as response:
         return json.loads(response.read().decode("utf-8")).get("items", [])
 
 def write_m3u(items, file_path):
