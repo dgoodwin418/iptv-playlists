@@ -82,17 +82,44 @@ def load_cache_map():
 
 def match_epg(item, cache_map):
     title = clean_title(item.get("title", ""))
-    candidates = [normalize(title)]
+    domain1 = item.get("domain1", "")
+    domain = item.get("domain", "")
+
+    # Remove provider/domain text from titles
+    cleaned_title = title
+    for remove_text in [domain1, domain]:
+        if remove_text:
+            cleaned_title = cleaned_title.replace(remove_text, "")
+
+    cleaned_title = re.sub(r"\s+", " ", cleaned_title).strip()
+
+    candidates = [
+        normalize(title),
+        normalize(cleaned_title),
+    ]
 
     stream = item.get("stream", "")
+
+    # Match FREE3 style: /USA_CMT/index.m3u8
     match = re.search(r"/USA_([^/]+)/", stream)
     if match:
         stream_name = match.group(1)
         candidates.append(normalize(stream_name.replace("_", " ")))
         candidates.append(normalize(stream_name))
 
+    # Match Xtream style: last stream number or path is not useful, so rely more on title
     raw = item.get("raw_title", "")
-    candidates.append(normalize(raw))
+    raw_clean = raw
+
+    for remove_text in [domain1, domain]:
+        if remove_text:
+            raw_clean = raw_clean.replace(remove_text, "")
+
+    candidates.append(normalize(raw_clean))
+
+    # Extra cleanup for titles like "CMT - s.rocketdns.info:8080"
+    if " - " in title:
+        candidates.append(normalize(title.split(" - ")[0]))
 
     for key in candidates:
         if key in cache_map:
