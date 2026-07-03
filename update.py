@@ -80,18 +80,22 @@ def load_cache_map():
 
     return mapping
 
-def match_epg(item, cache_map):
+def clean_channel_name(item):
     title = clean_title(item.get("title", ""))
     domain1 = item.get("domain1", "")
     domain = item.get("domain", "")
 
-    # Remove provider/domain text from titles
-    cleaned_title = title
     for remove_text in [domain1, domain]:
         if remove_text:
-            cleaned_title = cleaned_title.replace(remove_text, "")
+            title = title.replace(remove_text, "")
 
-    cleaned_title = re.sub(r"\s+", " ", cleaned_title).strip()
+    title = re.sub(r"\s+", " ", title).strip()
+    return title or "Unknown"
+
+
+def match_epg(item, cache_map):
+    title = clean_title(item.get("title", ""))
+    cleaned_title = clean_channel_name(item)
 
     candidates = [
         normalize(title),
@@ -100,16 +104,17 @@ def match_epg(item, cache_map):
 
     stream = item.get("stream", "")
 
-    # Match FREE3 style: /USA_CMT/index.m3u8
     match = re.search(r"/USA_([^/]+)/", stream)
     if match:
         stream_name = match.group(1)
         candidates.append(normalize(stream_name.replace("_", " ")))
         candidates.append(normalize(stream_name))
 
-    # Match Xtream style: last stream number or path is not useful, so rely more on title
     raw = item.get("raw_title", "")
     raw_clean = raw
+
+    domain1 = item.get("domain1", "")
+    domain = item.get("domain", "")
 
     for remove_text in [domain1, domain]:
         if remove_text:
@@ -117,7 +122,6 @@ def match_epg(item, cache_map):
 
     candidates.append(normalize(raw_clean))
 
-    # Extra cleanup for titles like "CMT - s.rocketdns.info:8080"
     if " - " in title:
         candidates.append(normalize(title.split(" - ")[0]))
 
@@ -126,6 +130,7 @@ def match_epg(item, cache_map):
             return cache_map[key]
 
     return {}
+
 
 def write_m3u(items, file_path, cache_map):
     lines = ["#EXTM3U"]
@@ -140,7 +145,7 @@ def write_m3u(items, file_path, cache_map):
 
         epg = match_epg(item, cache_map)
 
-        fallback_name = clean_title(item.get("title"))
+        fallback_name = clean_channel_name(item)
         name = epg.get("name") or fallback_name
         tvg_id = epg.get("tvg_id", "")
         logo = epg.get("logo") or item.get("thumbnail", "")
@@ -153,7 +158,6 @@ def write_m3u(items, file_path, cache_map):
         lines.append(stream)
 
     file_path.write_text("\n".join(lines), encoding="utf-8")
-
 def write_domain_report(domain_map):
     lines = ["# Domain Report", "", "| Channels | Domain |", "|---:|---|"]
 
