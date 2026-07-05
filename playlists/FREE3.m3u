@@ -21,7 +21,7 @@ http://23.237.104.106:8080/USA_CMT/index.m3u8
 http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="Cooking.Channel.HD.us2" tvg-name="Cooking Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s68065_ll_h15_aa.png?w=360&h=270" group-title="US Entertainment",Cooking Channel HD
 http://23.237.104.106:8080/USA_COOKING/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Crime & Investigation Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61469_dark_360w_270h.png" group-title="TV",Crime & Investigation Network
+#EXTINF:-1 tvg-id="Crime.and.Investigation.Network.HD.us2" tvg-name="Crime and Investigation Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s61469_ll_h15_ab.png?w=360&h=270" group-title="US Entertainment",Crime and Investigation Network HD
 http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/mpegts
 #EXTINF:-1 tvg-id="Discovery.Channel.HD.us2" tvg-name="Discovery Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s56905_h3_ba.png?w=360&h=270" group-title="US Entertainment",Discovery Channel HD
 http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
@@ -83,7 +83,7 @@ http://23.237.104.106:8080/USA_SYFY/index.m3u8
 http://23.237.104.106:8080/USA_VH1/index.m3u8
 #EXTINF:-1 tvg-id="Vice.HD.us2" tvg-name="Vice HD" tvg-logo="http://dtil.tmsimg.com/assets/s104547_ll_h9_ab.png?w=360&h=270" group-title="US Entertainment",Vice HD
 http://23.237.104.106:8080/USA_VICETV/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="We Tv" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16409_dark_360w_270h.png" group-title="TV",We Tv
+#EXTINF:-1 tvg-id="WE.tv.HD.us2" tvg-name="WE tv HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16409_dark_360w_270h.png" group-title="TV",WE tv HD
 http://23.237.104.106:8080/USA_WE_TV/index.m3u8
 #EXTINF:-1 tvg-id="Yes.Network.us2" tvg-name="Yes Network" tvg-logo="http://dtil.tmsimg.com/assets/s30017_ll_h15_aa.png?w=360&h=270" group-title="Sports Networks Regional",Yes Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
