@@ -1,198 +1,246 @@
-import json
-import re
-import urllib.request
+import json, re, urllib.request, xml.etree.ElementTree as ET
 from html import unescape
 from pathlib import Path
 from collections import defaultdict
+from difflib import SequenceMatcher
 
-SOURCE_URL = "https://magnetic.website/MAD_TITAN_SPORTS/Keep_m3u_json/eplaylist.json"
+EPLAYLIST_URL = "https://magnetic.website/MAD_TITAN_SPORTS/Keep_m3u_json/eplaylist.json"
+EPG_URL = "https://magnetic.website/jet/epg/merged_epg.xml"
 CACHE_FILE = Path("m3u8_cache.json")
-
 OUTPUT_DIR = Path("playlists")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-SELECTED_DOMAINS = {
-    "FREE3": "FREE3.m3u",
-    "s.rocketdns.info:8080": "RocketDNS.m3u",
-    "technologycloud.eu:80": "TechnologyCloud.m3u",
-    "mainstreams.pro": "MainStreams.m3u",
-    "blog.xyzstreams.shop": "XYZStreams.m3u",
-}
+PROVIDER_PRIORITY = [
+    "FREE3",
+    "s.rocketdns.info:8080",
+    "technologycloud.eu:80",
+    "mainstreams.pro",
+    "blog.xyzstreams.shop",
+]
 
-def clean_title(title):
-    title = re.sub(r"\[/?[A-Z0-9]+[^\]]*\]", "", title or "")
-    title = unescape(title)
-    title = re.sub(r"\s+", " ", title).strip()
-    return title or "Unknown"
+def fetch(url):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "*/*",
+        "Referer": "https://magnetic.website/",
+    })
+    with urllib.request.urlopen(req, timeout=90) as r:
+        return r.read()
 
-def normalize(text):
-    text = clean_title(text).lower()
-    text = re.sub(r"\b(hd|sd|east|west|network|channel|tv|television)\b", "", text)
-    text = re.sub(r"[^a-z0-9]+", "", text)
-    return text
-
-def safe_filename(name):
-    name = re.sub(r"[^A-Za-z0-9._-]+", "_", name)
-    return name.strip("_") or "unknown"
-
-def get_items():
-    req = urllib.request.Request(
-        SOURCE_URL,
-        headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36",
-            "Accept": "application/json,text/plain,*/*",
-            "Referer": "https://magnetic.website/",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=45) as response:
-        return json.loads(response.read().decode("utf-8")).get("items", [])
-
-def load_cache_map():
-    if not CACHE_FILE.exists():
-        return {}
-
-    cache_items = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
-    mapping = {}
-
-    for ch in cache_items:
-        name = ch.get("name", "")
-        tvg_id = ch.get("tvg_id", "")
-        logo = ch.get("logo", "")
-        group = ch.get("group", "")
-        url = ch.get("url", "")
-
-        keys = {normalize(name)}
-
-        match = re.search(r"/CHANNEL_GUIDE/([^/?]+)\.json", url)
-        if match:
-            file_key = match.group(1)
-            keys.add(normalize(file_key.replace("_", " ")))
-            keys.add(normalize(file_key))
-
-        for key in keys:
-            if key and key not in mapping:
-                mapping[key] = {
-                    "name": name,
-                    "tvg_id": tvg_id,
-                    "logo": logo,
-                    "group": group,
-                }
-
-    return mapping
+def clean_title(text):
+    text = re.sub(r"\[/?[A-Z0-9]+[^\]]*\]", "", text or "")
+    text = unescape(text)
+    return re.sub(r"\s+", " ", text).strip() or "Unknown"
 
 def clean_channel_name(item):
     title = clean_title(item.get("title", ""))
-    domain1 = item.get("domain1", "")
-    domain = item.get("domain", "")
+    for remove in [item.get("domain1", ""), item.get("domain", "")]:
+        if remove:
+            title = title.replace(remove, "")
+    return re.sub(r"\s+", " ", title).strip() or "Unknown"
 
-    for remove_text in [domain1, domain]:
-        if remove_text:
-            title = title.replace(remove_text, "")
+def normalize(text):
+    text = clean_title(text).lower()
+    text = text.replace("&", "and")
+    text = re.sub(r"\b(hd|sd|east|west|channel|network|television|tv|us|usa)\b", "", text)
+    return re.sub(r"[^a-z0-9]+", "", text)
 
-    title = re.sub(r"\s+", " ", title).strip()
-    return title or "Unknown"
+def safe_filename(name):
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", name).strip("_") or "unknown"
 
+def load_eplaylist():
+    return json.loads(fetch(EPLAYLIST_URL).decode("utf-8")).get("items", [])
 
-def match_epg(item, cache_map):
-    title = clean_title(item.get("title", ""))
-    cleaned_title = clean_channel_name(item)
+def load_cache_channels():
+    if not CACHE_FILE.exists():
+        return []
 
-    candidates = [
-        normalize(title),
-        normalize(cleaned_title),
-    ]
+    data = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    channels = []
 
+    for ch in data:
+        name = ch.get("name", "")
+        tvg_id = ch.get("tvg_id", "")
+        if not name or not tvg_id:
+            continue
+
+        channels.append({
+            "name": name,
+            "tvg_id": tvg_id,
+            "logo": ch.get("logo", ""),
+            "group": ch.get("group", ""),
+            "keys": {normalize(name), normalize(ch.get("normalized_name", ""))}
+        })
+
+        url = ch.get("url", "")
+        m = re.search(r"/CHANNEL_GUIDE/([^/?]+)\.json", url)
+        if m:
+            guide_name = m.group(1)
+            channels[-1]["keys"].add(normalize(guide_name))
+            channels[-1]["keys"].add(normalize(guide_name.replace("_", " ")))
+
+    return channels
+
+def load_epg_channels():
+    channels = []
+    try:
+        xml_bytes = fetch(EPG_URL)
+        root = ET.fromstring(xml_bytes)
+
+        for channel in root.findall("channel"):
+            tvg_id = channel.attrib.get("id", "")
+            names = [d.text for d in channel.findall("display-name") if d.text]
+
+            for name in names:
+                channels.append({
+                    "name": name,
+                    "tvg_id": tvg_id,
+                    "logo": "",
+                    "group": "",
+                    "keys": {normalize(name)}
+                })
+    except Exception as e:
+        print(f"EPG load failed: {e}")
+
+    return channels
+
+def stream_based_names(item):
+    names = []
     stream = item.get("stream", "")
 
-    match = re.search(r"/USA_([^/]+)/", stream)
-    if match:
-        stream_name = match.group(1)
-        candidates.append(normalize(stream_name.replace("_", " ")))
-        candidates.append(normalize(stream_name))
+    m = re.search(r"/USA_([^/]+)/", stream)
+    if m:
+        names.append(m.group(1).replace("_", " "))
+
+    return names
+
+def build_match_sources():
+    sources = load_cache_channels() + load_epg_channels()
+
+    exact = {}
+    all_sources = []
+
+    for src in sources:
+        all_sources.append(src)
+        for key in src["keys"]:
+            if key and key not in exact:
+                exact[key] = src
+
+    return exact, all_sources
+
+def match_epg(item, exact_map, all_sources):
+    names = [clean_channel_name(item), clean_title(item.get("title", ""))]
+    names.extend(stream_based_names(item))
 
     raw = item.get("raw_title", "")
-    raw_clean = raw
+    if raw:
+        names.append(raw.split(" - ")[0])
 
-    domain1 = item.get("domain1", "")
-    domain = item.get("domain", "")
+    keys = [normalize(n) for n in names if n]
 
-    for remove_text in [domain1, domain]:
-        if remove_text:
-            raw_clean = raw_clean.replace(remove_text, "")
+    for key in keys:
+        if key in exact_map:
+            return exact_map[key]
 
-    candidates.append(normalize(raw_clean))
+    best = None
+    best_score = 0
 
-    if " - " in title:
-        candidates.append(normalize(title.split(" - ")[0]))
+    for key in keys:
+        if not key:
+            continue
 
-    for key in candidates:
-        if key in cache_map:
-            return cache_map[key]
+        for src in all_sources:
+            for src_key in src["keys"]:
+                score = SequenceMatcher(None, key, src_key).ratio()
+                if score > best_score:
+                    best_score = score
+                    best = src
+
+    if best and best_score >= 0.86:
+        return best
 
     return {}
 
-
-def write_m3u(items, file_path, cache_map):
+def write_m3u(items, file_path, exact_map, all_sources):
     lines = ["#EXTM3U"]
-    seen_streams = set()
+    seen = set()
 
     for item in items:
         stream = item.get("stream", "").strip()
-        if not stream or stream in seen_streams:
+        if not stream or stream in seen:
             continue
 
-        seen_streams.add(stream)
+        seen.add(stream)
+        epg = match_epg(item, exact_map, all_sources)
 
-        epg = match_epg(item, cache_map)
-
-        fallback_name = clean_channel_name(item)
-        name = epg.get("name") or fallback_name
+        name = epg.get("name") or clean_channel_name(item)
         tvg_id = epg.get("tvg_id", "")
         logo = epg.get("logo") or item.get("thumbnail", "")
         group = epg.get("group") or item.get("group") or item.get("category") or item.get("domain1", "Other")
 
-        lines.append(
-            f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}" '
-            f'tvg-logo="{logo}" group-title="{group}",{name}'
-        )
+        lines.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
         lines.append(stream)
 
     file_path.write_text("\n".join(lines), encoding="utf-8")
-def write_domain_report(domain_map):
-    lines = ["# Domain Report", "", "| Channels | Domain |", "|---:|---|"]
 
-    for domain, items in sorted(domain_map.items(), key=lambda x: len(x[1]), reverse=True):
-        lines.append(f"| {len(items)} | `{domain}` |")
+def channel_key(item):
+    epg_name = clean_channel_name(item)
+    stream_names = stream_based_names(item)
+
+    if stream_names:
+        return normalize(stream_names[0])
+
+    return normalize(epg_name)
+
+def build_priority_playlist(items):
+    selected = {}
+    provider_rank = {p: i for i, p in enumerate(PROVIDER_PRIORITY)}
+
+    for item in items:
+        domain = item.get("domain1", "")
+        if domain not in provider_rank:
+            continue
+
+        key = channel_key(item)
+        if not key:
+            continue
+
+        if key not in selected:
+            selected[key] = item
+        else:
+            current_rank = provider_rank.get(selected[key].get("domain1", ""), 999)
+            new_rank = provider_rank.get(domain, 999)
+            if new_rank < current_rank:
+                selected[key] = item
+
+    return list(selected.values())
+
+def write_domain_report(items):
+    domains = defaultdict(int)
+    for item in items:
+        domains[item.get("domain1") or item.get("domain") or "Unknown"] += 1
+
+    lines = ["# Domain Report", "", "| Channels | Domain |", "|---:|---|"]
+    for domain, count in sorted(domains.items(), key=lambda x: x[1], reverse=True):
+        lines.append(f"| {count} | `{domain}` |")
 
     Path("domain-report.md").write_text("\n".join(lines), encoding="utf-8")
 
 def main():
-    items = get_items()
-    cache_map = load_cache_map()
+    items = load_eplaylist()
+    exact_map, all_sources = build_match_sources()
+    write_domain_report(items)
 
-    domain_map = defaultdict(list)
-    for item in items:
-        domain = item.get("domain1") or item.get("domain") or "Unknown"
-        domain_map[domain].append(item)
+    selected_items = [i for i in items if i.get("domain1") in PROVIDER_PRIORITY]
+    priority_items = build_priority_playlist(items)
 
-    write_domain_report(domain_map)
+    write_m3u(selected_items, OUTPUT_DIR / "Combined_Selected.m3u", exact_map, all_sources)
+    write_m3u(priority_items, OUTPUT_DIR / "Priority_Clean.m3u", exact_map, all_sources)
 
-    combined_selected = []
-
-    for domain, filename in SELECTED_DOMAINS.items():
-        domain_items = domain_map.get(domain, [])
-        if domain_items:
-            write_m3u(domain_items, OUTPUT_DIR / filename, cache_map)
-            combined_selected.extend(domain_items)
-
-    write_m3u(combined_selected, OUTPUT_DIR / "Combined_Selected.m3u", cache_map)
-
-    for domain, domain_items in domain_map.items():
-        if len(domain_items) >= 10:
-            filename = safe_filename(domain) + ".m3u"
-            write_m3u(domain_items, OUTPUT_DIR / filename, cache_map)
-
-    write_m3u(items, OUTPUT_DIR / "Everything.m3u", cache_map)
+    for provider in PROVIDER_PRIORITY:
+        provider_items = [i for i in items if i.get("domain1") == provider]
+        if provider_items:
+            write_m3u(provider_items, OUTPUT_DIR / f"{safe_filename(provider)}.m3u", exact_map, all_sources)
 
 if __name__ == "__main__":
     main()
