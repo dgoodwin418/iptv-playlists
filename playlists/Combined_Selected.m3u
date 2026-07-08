@@ -74,11 +74,9 @@ http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="HBO2.HD.us2" tvg-name="HBO2 HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBSR.png?w=360&h=270" group-title="US Movies",HBO2 HD
 http://23.237.104.106:8080/USA_HBO2/index.m3u8
 #EXTINF:-1 tvg-id="HBO.Comedy.HD.us2" tvg-name="HBO Comedy HD" tvg-logo="http://dtil.tmsimg.com/assets/s59839_ll_h15_aa.png?w=360&h=270" group-title="US Movies",HBO Comedy HD
-http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648977.ts
 #EXTINF:-1 tvg-id="HBO.Zone.HD.us2" tvg-name="HBO Zone HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBXT.png?w=360&h=270" group-title="US Movies",HBO Zone HD
 http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
-#EXTINF:-1 tvg-id="HBO.East.us2" tvg-name="HBO East" tvg-logo="http://dtil.tmsimg.com/assets/s19548_ll_h15_aa.png?w=360&h=270" group-title="US Movies",HBO East
-http://23.237.104.106:8080/USA_HBO/index.m3u8
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="HLN HD" tvg-logo="http://dtil.tmsimg.com/assets/s64549_ll_h15_ac.png?w=360&h=270" group-title="News",HLN HD
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="ITV1 HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6504.png" group-title="UK Entertainment",ITV1 HD
@@ -130,7 +128,7 @@ http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Showtime.Extreme.HD.us2" tvg-name="Showtime Extreme HD" tvg-logo="http://dtil.tmsimg.com/assets/s60947_ll_h15_aa.png?w=360&h=270" group-title="US Movies",Showtime Extreme HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648984.ts
 #EXTINF:-1 tvg-id="Paramount+.with.Showtime.HD.us2" tvg-name="Paramount+ with Showtime HD" tvg-logo="http://dtil.tmsimg.com/assets/s21868_ll_h15_ad.png?w=360&h=270" group-title="US Movies",Paramount+ with Showtime HD
-http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2416.ts
 #EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="Sky Sports Football HD" tvg-logo="https://tv.assets.pressassociation.io/9ba334ca-b048-5119-9dfb-716b2b67ae8d.png" group-title="Sports Networks",Sky Sports Football HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2188.ts
 #EXTINF:-1 tvg-id="SkySp.News.HD.uk" tvg-name="SkySp News HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4049.png" group-title="Sports Networks",SkySp News HD
@@ -281,5 +279,7 @@ http://technologycloud.eu:80/play/live.php?mac=00:1A:79:84:B7:7B&stream=177303&e
 http://technologycloud.eu:80/play/live.php?mac=00:1A:79:84:B7:7B&stream=177304&extension=ts&play_token=0qJ1MIpPWd
 #EXTINF:-1 tvg-id="" tvg-name="RDS" tvg-logo="" group-title="technologycloud.eu:80",RDS
 http://technologycloud.eu:80/play/live.php?mac=00:1A:79:84:B7:7B&stream=177302&extension=ts&play_token=DY371EHiEX
+#EXTINF:-1 tvg-id="Paramount+.with.Showtime.HD.us2" tvg-name="Paramount+ with Showtime HD" tvg-logo="http://dtil.tmsimg.com/assets/s21868_ll_h15_ad.png?w=360&h=270" group-title="US Movies",Paramount+ with Showtime HD
+http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WGN 9 Chicago (#)" tvg-logo="" group-title="FREE3",WGN 9 Chicago (#)
 http://23.237.104.106:8080/USA_WGN/index.m3u8

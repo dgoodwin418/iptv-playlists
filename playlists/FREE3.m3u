@@ -43,12 +43,8 @@ http://23.237.104.106:8080/USA_FXX/index.m3u8
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="HBO2.HD.us2" tvg-name="HBO2 HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBSR.png?w=360&h=270" group-title="US Movies",HBO2 HD
 http://23.237.104.106:8080/USA_HBO2/index.m3u8
-#EXTINF:-1 tvg-id="HBO.Comedy.HD.us2" tvg-name="HBO Comedy HD" tvg-logo="http://dtil.tmsimg.com/assets/s59839_ll_h15_aa.png?w=360&h=270" group-title="US Movies",HBO Comedy HD
-http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
 #EXTINF:-1 tvg-id="HBO.Zone.HD.us2" tvg-name="HBO Zone HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBXT.png?w=360&h=270" group-title="US Movies",HBO Zone HD
 http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
-#EXTINF:-1 tvg-id="HBO.East.us2" tvg-name="HBO East" tvg-logo="http://dtil.tmsimg.com/assets/s19548_ll_h15_aa.png?w=360&h=270" group-title="US Movies",HBO East
-http://23.237.104.106:8080/USA_HBO/index.m3u8
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="HLN HD" tvg-logo="http://dtil.tmsimg.com/assets/s64549_ll_h15_ac.png?w=360&h=270" group-title="News",HLN HD
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-name="LMN HD" tvg-logo="http://dtil.tmsimg.com/assets/s55887_ll_h15_ag.png?w=360&h=270" group-title="US Entertainment",LMN HD
@@ -73,8 +69,6 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 http://23.237.104.106:8080/USA_REELZ/index.m3u8
 #EXTINF:-1 tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network HD" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s89714_h15_aa.png" group-title="Sports Networks",SEC Network HD
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="Paramount+.with.Showtime.HD.us2" tvg-name="Paramount+ with Showtime HD" tvg-logo="http://dtil.tmsimg.com/assets/s21868_ll_h15_ad.png?w=360&h=270" group-title="US Movies",Paramount+ with Showtime HD
-http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="Starz.HD.us2" tvg-name="Starz HD" tvg-logo="http://dtil.tmsimg.com/assets/s34941_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz HD
 http://23.237.104.106:8080/USA_STARZ/index.m3u8
 #EXTINF:-1 tvg-id="Syfy.HD.us2" tvg-name="Syfy HD" tvg-logo="http://dtil.tmsimg.com/assets/s58623_ll_h15_ae.png?w=360&h=270" group-title="US Entertainment",Syfy HD
@@ -91,5 +85,7 @@ http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="Disney.Junior.HD.us2" tvg-name="Disney Junior HD" tvg-logo="http://dtil.tmsimg.com/assets/s74885_ll_h15_ac.png?w=360&h=270" group-title="US Entertainment",Disney Junior HD
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
+#EXTINF:-1 tvg-id="Paramount+.with.Showtime.HD.us2" tvg-name="Paramount+ with Showtime HD" tvg-logo="http://dtil.tmsimg.com/assets/s21868_ll_h15_ad.png?w=360&h=270" group-title="US Movies",Paramount+ with Showtime HD
+http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WGN 9 Chicago (#)" tvg-logo="" group-title="FREE3",WGN 9 Chicago (#)
 http://23.237.104.106:8080/USA_WGN/index.m3u8
