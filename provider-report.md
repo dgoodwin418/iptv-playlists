@@ -9,35 +9,26 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 51 | `FREE3` | [Open](playlists/by-provider/FREE3.m3u) | ⬜ |  |  |
 | 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ⬜ |  |  |
 | 47 | `s.rocketdns.info:8080` | [Open](playlists/by-provider/s.rocketdns.info_8080.m3u) | ⬜ |  |  |
-| 42 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ⬜ |  |  |
 | 39 | `rpn.bozztv` | [Open](playlists/by-provider/rpn.bozztv.m3u) | ⬜ |  |  |
-| 33 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ⬜ |  |  |
+| 34 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ⬜ |  |  |
 | 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ⬜ |  |  |
 | 32 | `instreams.pro` | [Open](playlists/by-provider/instreams.pro.m3u) | ⬜ |  |  |
+| 32 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ⬜ |  |  |
 | 29 | `169.150.223.25` | [Open](playlists/by-provider/169.150.223.25.m3u) | ⬜ |  |  |
 | 28 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ⬜ |  |  |
-| 26 | `193.47.62.59` | [Open](playlists/by-provider/193.47.62.59.m3u) | ⬜ |  |  |
-| 26 | `pw.streamtp.sbs:443` | [Open](playlists/by-provider/pw.streamtp.sbs_443.m3u) | ⬜ |  |  |
+| 28 | `wp.streamtp.sbs:443` | [Open](playlists/by-provider/wp.streamtp.sbs_443.m3u) | ⬜ |  |  |
 | 26 | `webcast-origin.b-cdn.net` | [Open](playlists/by-provider/webcast-origin.b-cdn.net.m3u) | ⬜ |  |  |
 | 24 | `dai.google` | [Open](playlists/by-provider/dai.google.m3u) | ⬜ |  |  |
 | 22 | `adultswim-vodlive.cdn.turner` | [Open](playlists/by-provider/adultswim-vodlive.cdn.turner.m3u) | ⬜ |  |  |
-| 22 | `edgestream1.pro` | [Open](playlists/by-provider/edgestream1.pro.m3u) | ⬜ |  |  |
 | 21 | `2-fss-2.streamhoster` | [Open](playlists/by-provider/2-fss-2.streamhoster.m3u) | ⬜ |  |  |
-| 20 | `193.47.62.42` | [Open](playlists/by-provider/193.47.62.42.m3u) | ⬜ |  |  |
 | 20 | `a.jsrdn` | [Open](playlists/by-provider/a.jsrdn.m3u) | ⬜ |  |  |
-| 20 | `edgestream2.pro` | [Open](playlists/by-provider/edgestream2.pro.m3u) | ⬜ |  |  |
-| 20 | `edgestream3.pro` | [Open](playlists/by-provider/edgestream3.pro.m3u) | ⬜ |  |  |
 | 18 | `pacquiao.inproviszon.st` | [Open](playlists/by-provider/pacquiao.inproviszon.st.m3u) | ⬜ |  |  |
 | 17 | `77.137.40.221:8000` | [Open](playlists/by-provider/77.137.40.221_8000.m3u) | ⬜ |  |  |
-| 16 | `lb1.wfty.st` | [Open](playlists/by-provider/lb1.wfty.st.m3u) | ⬜ |  |  |
 | 14 | `2k.tstvs` | [Open](playlists/by-provider/2k.tstvs.m3u) | ⬜ |  |  |
+| 14 | `chatgpt.hereisman.net` | [Open](playlists/by-provider/chatgpt.hereisman.net.m3u) | ⬜ |  |  |
 | 14 | `trxad.top:80` | [Open](playlists/by-provider/trxad.top_80.m3u) | ⬜ |  |  |
-| 14 | `wp.streamtp.sbs:443` | [Open](playlists/by-provider/wp.streamtp.sbs_443.m3u) | ⬜ |  |  |
 | 13 | `live.corusdigitaldev` | [Open](playlists/by-provider/live.corusdigitaldev.m3u) | ⬜ |  |  |
 | 12 | `2-fss-1.streamhoster` | [Open](playlists/by-provider/2-fss-1.streamhoster.m3u) | ⬜ |  |  |
-| 12 | `cdnlivetv.tv` | [Open](playlists/by-provider/cdnlivetv.tv.m3u) | ⬜ |  |  |
-| 12 | `chatgpt.hereisman.net` | [Open](playlists/by-provider/chatgpt.hereisman.net.m3u) | ⬜ |  |  |
-| 12 | `lb4.wfty.st` | [Open](playlists/by-provider/lb4.wfty.st.m3u) | ⬜ |  |  |
 | 12 | `stream-us-east-1.getpublica` | [Open](playlists/by-provider/stream-us-east-1.getpublica.m3u) | ⬜ |  |  |
 | 12 | `townnews.g-mana.live` | [Open](playlists/by-provider/townnews.g-mana.live.m3u) | ⬜ |  |  |
 | 11 | `154.197.91.169:8000` | [Open](playlists/by-provider/154.197.91.169_8000.m3u) | ⬜ |  |  |
@@ -48,7 +39,6 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 11 | `wo0dyefk.dienalt` | [Open](playlists/by-provider/wo0dyefk.dienalt.m3u) | ⬜ |  |  |
 | 10 | `a-cdn.klowdtv` | [Open](playlists/by-provider/a-cdn.klowdtv.m3u) | ⬜ |  |  |
 | 10 | `abcnews-streams.akamaized.net` | [Open](playlists/by-provider/abcnews-streams.akamaized.net.m3u) | ⬜ |  |  |
-| 10 | `lb3.wfty.st` | [Open](playlists/by-provider/lb3.wfty.st.m3u) | ⬜ |  |  |
 | 10 | `qvc-amd-live.akamaized.net` | [Open](playlists/by-provider/qvc-amd-live.akamaized.net.m3u) | ⬜ |  |  |
 | 10 | `service-stitcher.clusters.pluto.tv` | [Open](playlists/by-provider/service-stitcher.clusters.pluto.tv.m3u) | ⬜ |  |  |
 | 10 | `video.oct.dc.gov` | [Open](playlists/by-provider/video.oct.dc.gov.m3u) | ⬜ |  |  |
@@ -56,12 +46,10 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 9 | `mediaserver.abnvideos` | [Open](playlists/by-provider/mediaserver.abnvideos.m3u) | ⬜ |  |  |
 | 9 | `turnerlive.warnermediacdn` | [Open](playlists/by-provider/turnerlive.warnermediacdn.m3u) | ⬜ |  |  |
 | 8 | `185.132.134.159:80` | [Open](playlists/by-provider/185.132.134.159_80.m3u) | ⬜ |  |  |
-| 8 | `193.47.62.51` | [Open](playlists/by-provider/193.47.62.51.m3u) | ⬜ |  |  |
 | 8 | `212.102.60.231` | [Open](playlists/by-provider/212.102.60.231.m3u) | ⬜ |  |  |
 | 8 | `cdn.vegasplus.us` | [Open](playlists/by-provider/cdn.vegasplus.us.m3u) | ⬜ |  |  |
-| 8 | `cdn13.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn13.zohanayaan.com_1686.m3u) | ⬜ |  |  |
-| 8 | `lb5.wfty.st` | [Open](playlists/by-provider/lb5.wfty.st.m3u) | ⬜ |  |  |
 | 8 | `lotus.stingray` | [Open](playlists/by-provider/lotus.stingray.m3u) | ⬜ |  |  |
+| 8 | `pul-tenm.gkykp` | [Open](playlists/by-provider/pul-tenm.gkykp.m3u) | ⬜ |  |  |
 | 8 | `Spanish` | [Open](playlists/by-provider/Spanish.m3u) | ⬜ |  |  |
 | 7 | `77.46.130.252:99` | [Open](playlists/by-provider/77.46.130.252_99.m3u) | ⬜ |  |  |
 | 7 | `bozztv` | [Open](playlists/by-provider/bozztv.m3u) | ⬜ |  |  |
@@ -72,12 +60,13 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 7 | `stitcheraws.unreel.me` | [Open](playlists/by-provider/stitcheraws.unreel.me.m3u) | ⬜ |  |  |
 | 7 | `stream.swagit` | [Open](playlists/by-provider/stream.swagit.m3u) | ⬜ |  |  |
 | 6 | `195.181.169.152:8080` | [Open](playlists/by-provider/195.181.169.152_8080.m3u) | ⬜ |  |  |
-| 6 | `41.205.93.154` | [Open](playlists/by-provider/41.205.93.154.m3u) | ⬜ |  |  |
 | 6 | `65.108.239.207` | [Open](playlists/by-provider/65.108.239.207.m3u) | ⬜ |  |  |
 | 6 | `bcovlive-a.akamaihd.net` | [Open](playlists/by-provider/bcovlive-a.akamaihd.net.m3u) | ⬜ |  |  |
 | 6 | `ca1.buximedia` | [Open](playlists/by-provider/ca1.buximedia.m3u) | ⬜ |  |  |
 | 6 | `cdn.klowdtv.net` | [Open](playlists/by-provider/cdn.klowdtv.net.m3u) | ⬜ |  |  |
-| 6 | `node-025d151e.4587.website` | [Open](playlists/by-provider/node-025d151e.4587.website.m3u) | ⬜ |  |  |
+| 6 | `lb2.wfty.st` | [Open](playlists/by-provider/lb2.wfty.st.m3u) | ⬜ |  |  |
+| 6 | `lb5.wfty.st` | [Open](playlists/by-provider/lb5.wfty.st.m3u) | ⬜ |  |  |
+| 6 | `pw.streamtp.sbs:443` | [Open](playlists/by-provider/pw.streamtp.sbs_443.m3u) | ⬜ |  |  |
 | 6 | `reflect-npa.cablecast.tv` | [Open](playlists/by-provider/reflect-npa.cablecast.tv.m3u) | ⬜ |  |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` | [Open](playlists/by-provider/reflect-stream-bronxnet.cablecast.tv.m3u) | ⬜ |  |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` | [Open](playlists/by-provider/reflect-vod-cmac.cablecast.tv.m3u) | ⬜ |  |  |
@@ -85,6 +74,7 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 6 | `tgn.bozztv` | [Open](playlists/by-provider/tgn.bozztv.m3u) | ⬜ |  |  |
 | 6 | `v-ny.theus6tv.tk` | [Open](playlists/by-provider/v-ny.theus6tv.tk.m3u) | ⬜ |  |  |
 | 5 | `3abn.bozztv` | [Open](playlists/by-provider/3abn.bozztv.m3u) | ⬜ |  |  |
+| 5 | `41.205.93.154` | [Open](playlists/by-provider/41.205.93.154.m3u) | ⬜ |  |  |
 | 5 | `78.108.251.7` | [Open](playlists/by-provider/78.108.251.7.m3u) | ⬜ |  |  |
 | 5 | `79.127.207.193` | [Open](playlists/by-provider/79.127.207.193.m3u) | ⬜ |  |  |
 | 5 | `88.212.15.19` | [Open](playlists/by-provider/88.212.15.19.m3u) | ⬜ |  |  |
@@ -100,7 +90,6 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 4 | `135.125.109.73:9000` | Not generated | ⬜ |  |  |
 | 4 | `178.23.88.55` | Not generated | ⬜ |  |  |
 | 4 | `188.191.160.238:7780` | Not generated | ⬜ |  |  |
-| 4 | `193.47.62.47` | Not generated | ⬜ |  |  |
 | 4 | `84.54.128.52:9090` | Not generated | ⬜ |  |  |
 | 4 | `agp-nimble.streamguys1` | Not generated | ⬜ |  |  |
 | 4 | `api.new.livestream` | Not generated | ⬜ |  |  |
@@ -110,17 +99,19 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 4 | `cbsnewshd-lh.akamaihd.net` | Not generated | ⬜ |  |  |
 | 4 | `cdn-unified-hls.streamspot` | Not generated | ⬜ |  |  |
 | 4 | `cdn.igocast` | Not generated | ⬜ |  |  |
-| 4 | `cdn12.zohanayaan.com:1686` | Not generated | ⬜ |  |  |
+| 4 | `cdn11.zohanayaan.com:1686` | Not generated | ⬜ |  |  |
+| 4 | `cdn13.zohanayaan.com:1686` | Not generated | ⬜ |  |  |
+| 4 | `cdn14.zohanayaan.com:1686` | Not generated | ⬜ |  |  |
 | 4 | `cdn4.skygo.mn` | Not generated | ⬜ |  |  |
 | 4 | `citynewsregional.akamaized.net` | Not generated | ⬜ |  |  |
 | 4 | `cnngo1.akamaized.net` | Not generated | ⬜ |  |  |
 | 4 | `fastly.live.brightcove` | Not generated | ⬜ |  |  |
 | 4 | `granicusliveus3-a.akamaihd.net` | Not generated | ⬜ |  |  |
 | 4 | `hls-cdn.tvstartup.net` | Not generated | ⬜ |  |  |
-| 4 | `lb6.wfty.st` | Not generated | ⬜ |  |  |
+| 4 | `lb4.wfty.st` | Not generated | ⬜ |  |  |
 | 4 | `live20.bozztv` | Not generated | ⬜ |  |  |
 | 4 | `moiptvhls-i.akamaihd.net` | Not generated | ⬜ |  |  |
-| 4 | `node-9b5feb01.4587.website` | Not generated | ⬜ |  |  |
+| 4 | `node-8bba18be.4587.website` | Not generated | ⬜ |  |  |
 | 4 | `reflect-bayarea.cablecast.tv` | Not generated | ⬜ |  |  |
 | 4 | `reflect-creatv.cablecast.tv` | Not generated | ⬜ |  |  |
 | 4 | `reflect-jacksonville.cablecast.tv` | Not generated | ⬜ |  |  |
@@ -165,6 +156,7 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 2 | `190.0.247.38:8000` | Not generated | ⬜ |  |  |
 | 2 | `190.117.20.37:8000` | Not generated | ⬜ |  |  |
 | 2 | `193.25.8.59:8000` | Not generated | ⬜ |  |  |
+| 2 | `193.47.62.59` | Not generated | ⬜ |  |  |
 | 2 | `201.230.121.85:8000` | Not generated | ⬜ |  |  |
 | 2 | `247.xyzstreams.st` | Not generated | ⬜ |  |  |
 | 2 | `247v2.xyzstreams.st` | Not generated | ⬜ |  |  |
@@ -175,7 +167,6 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 2 | `94.43.1.138:8081` | Not generated | ⬜ |  |  |
 | 2 | `99.27.51.147:8080` | Not generated | ⬜ |  |  |
 | 2 | `a-cdn.herringnetwork` | Not generated | ⬜ |  |  |
-| 2 | `a2lja3m.fubo18.com:443` | Not generated | ⬜ |  |  |
 | 2 | `ad-playlistserver.aws.syncbak` | Not generated | ⬜ |  |  |
 | 2 | `api.v3.invintus` | Not generated | ⬜ |  |  |
 | 2 | `app.viloud.tv` | Not generated | ⬜ |  |  |
@@ -184,31 +175,29 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 2 | `biblescreen.faithlifecdn` | Not generated | ⬜ |  |  |
 | 2 | `bit.ly` | Not generated | ⬜ |  |  |
 | 2 | `bl.video.matchtv.ru` | Not generated | ⬜ |  |  |
-| 2 | `bmf0aw9u.fubo18.com:443` | Not generated | ⬜ |  |  |
 | 2 | `brightonco.cablecast.tv` | Not generated | ⬜ |  |  |
 | 2 | `buenapark.cablecast.tv` | Not generated | ⬜ |  |  |
+| 2 | `c2nvdxq.fubo18.com:443` | Not generated | ⬜ |  |  |
 | 2 | `catchup.videoline.ru` | Not generated | ⬜ |  |  |
 | 2 | `cdn.appv.jagobd.com:444` | Not generated | ⬜ |  |  |
 | 2 | `cdn1.karwan.tv` | Not generated | ⬜ |  |  |
 | 2 | `cdn13.crtvnoc` | Not generated | ⬜ |  |  |
-| 2 | `cdn14.zohanayaan.com:1686` | Not generated | ⬜ |  |  |
 | 2 | `cdn15.zohanayaan.com:1686` | Not generated | ⬜ |  |  |
 | 2 | `cdnapisec.kaltura` | Not generated | ⬜ |  |  |
-| 2 | `cgxheq.fubo18.com:443` | Not generated | ⬜ |  |  |
 | 2 | `ch8.littletongov` | Not generated | ⬜ |  |  |
 | 2 | `champaign-cablecast.cablecast.tv` | Not generated | ⬜ |  |  |
 | 2 | `concordca.cablecast.tv` | Not generated | ⬜ |  |  |
 | 2 | `cors-proxy.cooks.fyi` | Not generated | ⬜ |  |  |
 | 2 | `cs.ebmcdn.net` | Not generated | ⬜ |  |  |
 | 2 | `ctntv.getstreamhosting.com:1936` | Not generated | ⬜ |  |  |
-| 2 | `dw5pdgvk.fubo18.com:443` | Not generated | ⬜ |  |  |
+| 2 | `edgestream1.pro` | Not generated | ⬜ |  |  |
 | 2 | `fl1002.bozztv` | Not generated | ⬜ |  |  |
 | 2 | `granicusliveus1-a.akamaihd.net` | Not generated | ⬜ |  |  |
 | 2 | `granicusliveus2-a.akamaihd.net` | Not generated | ⬜ |  |  |
 | 2 | `hls.youtb.workers.dev` | Not generated | ⬜ |  |  |
 | 2 | `install.akctvcontrol` | Not generated | ⬜ |  |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` | Not generated | ⬜ |  |  |
-| 2 | `lb2.wfty.st` | Not generated | ⬜ |  |  |
+| 2 | `lb6.wfty.st` | Not generated | ⬜ |  |  |
 | 2 | `lin12.isilive.ca` | Not generated | ⬜ |  |  |
 | 2 | `linear-11.frequency.stream` | Not generated | ⬜ |  |  |
 | 2 | `linear-253.frequency.stream` | Not generated | ⬜ |  |  |
@@ -226,7 +215,7 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 2 | `newyorkstream.ddns.net:1935` | Not generated | ⬜ |  |  |
 | 2 | `origin-http-delivery.isilive.ca` | Not generated | ⬜ |  |  |
 | 2 | `prod-fastly-eu-west-1.video.pscp.tv` | Not generated | ⬜ |  |  |
-| 2 | `pullsgp.yyzb456.top` | Not generated | ⬜ |  |  |
+| 2 | `raw.githubusercontent` | Not generated | ⬜ |  |  |
 | 2 | `rcavlive.akamaized.net` | Not generated | ⬜ |  |  |
 | 2 | `reflect-brookline-interactive-group.cablecast.tv` | Not generated | ⬜ |  |  |
 | 2 | `reflect-ccx.cablecast.tv` | Not generated | ⬜ |  |  |
@@ -615,7 +604,6 @@ Update `provider-notes.json` after testing. The generated report preserves those
 | 1 | `previewchannel-previewchannel-1.vizio.wurl` | Not generated | ⬜ |  |  |
 | 1 | `pubgfc.teleosmedia` | Not generated | ⬜ |  |  |
 | 1 | `rally-tv-live.akamaized.net` | Not generated | ⬜ |  |  |
-| 1 | `raw.githubusercontent` | Not generated | ⬜ |  |  |
 | 1 | `rebroadcast.mytvtogo.net` | Not generated | ⬜ |  |  |
 | 1 | `reflect-access-sacramento.cablecast.tv` | Not generated | ⬜ |  |  |
 | 1 | `reflect-applevalley.cablecast.tv` | Not generated | ⬜ |  |  |
