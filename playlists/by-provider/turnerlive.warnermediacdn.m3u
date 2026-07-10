@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="Adult Swim" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" group-title="TV",Adult Swim
+https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN HD" tvg-logo="http://dtil.tmsimg.com/assets/s58646_ll_h15_ac.png?w=360&amp;h=270" group-title="News",CNN HD
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="CNN.International.us2" tvg-name="CNN International" tvg-logo="http://dtil.tmsimg.com/assets/s10146_ll_h15_ac.png?w=360&amp;h=270" group-title="News",CNN International
+https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CNN On Demand" tvg-logo="" group-title="Other",CNN On Demand
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TBS.HD.us2" tvg-name="TBS HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11867_dark_360w_270h.png" group-title="US Entertainment",TBS HD
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.HD.us2" tvg-name="TNT HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="US Entertainment",TNT HD
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="truTV.HD.us2" tvg-name="truTV HD" tvg-logo="http://dtil.tmsimg.com/assets/s64490_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",truTV HD
+https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="Turner.Classic.Movies.HD.us2" tvg-name="Turner Classic Movies HD" tvg-logo="http://dtil.tmsimg.com/assets/s64312_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Turner Classic Movies HD
+https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
