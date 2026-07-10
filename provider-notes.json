@@ -1,1 +1,17 @@
-{}
+{
+  "FREE3": {
+    "tested": true,
+    "status": "working",
+    "notes": "Works well"
+  },
+  "s.rocketdns.info:8080": {
+    "tested": true,
+    "status": "working",
+    "notes": "Works in Kodi"
+  },
+  "193.47.62.41": {
+    "tested": true,
+    "status": "dead",
+    "notes": "403 and does not play in Kodi"
+  }
+}
