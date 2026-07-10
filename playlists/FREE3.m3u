@@ -13,6 +13,8 @@ http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s60048_ll_h15_ac.png?w=360&h=270" group-title="US Entertainment",Cartoon Network HD
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="Cinemax.Classics.us2" tvg-name="Cinemax Classics" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBLL.png?w=360&h=270" group-title="US Movies",Cinemax Classics
+http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 #EXTINF:-1 tvg-id="Cinemax.HD.us2" tvg-name="Cinemax HD" tvg-logo="http://dtil.tmsimg.com/assets/s34933_ll_h15_ab.png?w=360&h=270" group-title="US Movies",Cinemax HD
 http://23.237.104.106:8080/USA_CINEMAX/index.m3u8
 #EXTINF:-1 tvg-id="CMT.HD.us2" tvg-name="CMT HD" tvg-logo="http://dtil.tmsimg.com/assets/s59440_ll_h15_ad.png?w=360&h=270" group-title="US Entertainment",CMT HD
@@ -41,8 +43,6 @@ http://23.237.104.106:8080/USA_FX/index.m3u8
 http://23.237.104.106:8080/USA_FXX/index.m3u8
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-name="Hallmark Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s66268_ll_h15_ab.png?w=360&h=270" group-title="US Entertainment",Hallmark Channel HD
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
-#EXTINF:-1 tvg-id="HBO2.HD.us2" tvg-name="HBO2 HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBSR.png?w=360&h=270" group-title="US Movies",HBO2 HD
-http://23.237.104.106:8080/USA_HBO2/index.m3u8
 #EXTINF:-1 tvg-id="HBO.Zone.HD.us2" tvg-name="HBO Zone HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBXT.png?w=360&h=270" group-title="US Movies",HBO Zone HD
 http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="HLN HD" tvg-logo="http://dtil.tmsimg.com/assets/s64549_ll_h15_ac.png?w=360&h=270" group-title="News",HLN HD
@@ -69,6 +69,10 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 http://23.237.104.106:8080/USA_REELZ/index.m3u8
 #EXTINF:-1 tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network HD" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s89714_h15_aa.png" group-title="Sports Networks",SEC Network HD
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema HD" tvg-logo="http://dtil.tmsimg.com/assets/s67236_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz Cinema HD
+http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
+#EXTINF:-1 tvg-id="Starz.Comedy.HD.us2" tvg-name="Starz Comedy HD" tvg-logo="http://dtil.tmsimg.com/assets/s57569_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz Comedy HD
+http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-id="Starz.HD.us2" tvg-name="Starz HD" tvg-logo="http://dtil.tmsimg.com/assets/s34941_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz HD
 http://23.237.104.106:8080/USA_STARZ/index.m3u8
 #EXTINF:-1 tvg-id="Syfy.HD.us2" tvg-name="Syfy HD" tvg-logo="http://dtil.tmsimg.com/assets/s58623_ll_h15_ae.png?w=360&h=270" group-title="US Entertainment",Syfy HD

@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ABC.National.Feed.us2" tvg-name="ABC National Feed" tvg-logo="http://dtil.tmsimg.com/sources/generic/generic_sources_h3.png" group-title="US LOCAL",ABC National Feed
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/112234.ts
 #EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC Network" tvg-logo="http://dtil.tmsimg.com/assets/s111871_ll_h15_ac.png?w=360&h=270" group-title="Sports Networks",ACC Network
 http://23.237.104.106:8080/USA_ACCN/mpegts
 #EXTINF:-1 tvg-id="Altitude.Sports.us2" tvg-name="Altitude Sports" tvg-logo="http://dtil.tmsimg.com/assets/s44263_ll_h15_ab.png?w=360&h=270" group-title="Sports Networks Regional",Altitude Sports
@@ -21,6 +19,8 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/92792.ts
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s59250_ll_h15_ac.png?w=360&h=270" group-title="Sports Networks",CBS Sports Network HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3621.ts
+#EXTINF:-1 tvg-id="Cinemax.Classics.us2" tvg-name="Cinemax Classics" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBLL.png?w=360&h=270" group-title="US Movies",Cinemax Classics
+http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 #EXTINF:-1 tvg-id="Cinemax.HD.us2" tvg-name="Cinemax HD" tvg-logo="http://dtil.tmsimg.com/assets/s34933_ll_h15_ab.png?w=360&h=270" group-title="US Movies",Cinemax HD
 http://23.237.104.106:8080/USA_CINEMAX/index.m3u8
 #EXTINF:-1 tvg-id="CMT.HD.us2" tvg-name="CMT HD" tvg-logo="http://dtil.tmsimg.com/assets/s59440_ll_h15_ad.png?w=360&h=270" group-title="US Entertainment",CMT HD
@@ -71,8 +71,6 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648975.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2385.ts
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-name="Hallmark Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s66268_ll_h15_ab.png?w=360&h=270" group-title="US Entertainment",Hallmark Channel HD
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
-#EXTINF:-1 tvg-id="HBO2.HD.us2" tvg-name="HBO2 HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBSR.png?w=360&h=270" group-title="US Movies",HBO2 HD
-http://23.237.104.106:8080/USA_HBO2/index.m3u8
 #EXTINF:-1 tvg-id="HBO.Comedy.HD.us2" tvg-name="HBO Comedy HD" tvg-logo="http://dtil.tmsimg.com/assets/s59839_ll_h15_aa.png?w=360&h=270" group-title="US Movies",HBO Comedy HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648977.ts
 #EXTINF:-1 tvg-id="HBO.Zone.HD.us2" tvg-name="HBO Zone HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BBXT.png?w=360&h=270" group-title="US Movies",HBO Zone HD
@@ -151,6 +149,10 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3072.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3865.ts
 #EXTINF:-1 tvg-id="Sportsnet.One.ca2" tvg-name="Sportsnet One" tvg-logo="http://dtil.tmsimg.com/assets/s68858_ll_h15_aa.png?w=360&h=270" group-title="Sports Networks",Sportsnet One
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3071.ts
+#EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema HD" tvg-logo="http://dtil.tmsimg.com/assets/s67236_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz Cinema HD
+http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
+#EXTINF:-1 tvg-id="Starz.Comedy.HD.us2" tvg-name="Starz Comedy HD" tvg-logo="http://dtil.tmsimg.com/assets/s57569_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz Comedy HD
+http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-id="Starz.Encore.Classic.us2" tvg-name="Starz Encore Classic" tvg-logo="http://dtil.tmsimg.com/assets/s14764_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz Encore Classic
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3953.ts
 #EXTINF:-1 tvg-id="Starz.HD.us2" tvg-name="Starz HD" tvg-logo="http://dtil.tmsimg.com/assets/s34941_ll_h15_ac.png?w=360&h=270" group-title="US Movies",Starz HD
