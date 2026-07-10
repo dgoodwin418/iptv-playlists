@@ -3,31 +3,53 @@ name: Update IPTV Playlists
 on:
   schedule:
     - cron: "0 10 * * *"
+
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-iptv-playlists
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
       - name: Run playlist generator
         run: python update.py
 
+      - name: Show generated files
+        run: |
+          find playlists -type f -maxdepth 2 | sort
+          echo
+          echo "Provider playlists:"
+          find playlists/by-provider -type f -name "*.m3u" | wc -l
+
       - name: Commit updated playlists
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add playlists/*.m3u domain-report.md
-          git commit -m "Update IPTV playlists" || echo "No changes to commit"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            playlists \
+            provider-report.md \
+            provider-notes.json
+
+          if git diff --cached --quiet; then
+            echo "No playlist changes to commit."
+          else
+            git commit -m "Update IPTV playlists"
+            git push
+          fi
