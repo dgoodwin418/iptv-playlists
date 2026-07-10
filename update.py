@@ -448,6 +448,28 @@ def remove_old_provider_playlists():
         path.unlink()
 
 
+NOTES_FILE = Path("provider-notes.json")
+
+
+def load_provider_notes():
+    if not NOTES_FILE.exists():
+        return {}
+
+    try:
+        return json.loads(
+            NOTES_FILE.read_text(encoding="utf-8")
+        )
+    except Exception as error:
+        print(f"Warning: provider-notes.json could not be read: {error}")
+        return {}
+
+
+def provider_is_allowed(domain, provider_notes):
+    note = provider_notes.get(domain, {})
+    status = str(note.get("status", "untested")).lower()
+
+    return status != "dead"
+
 def main():
     print("Downloading source playlist...")
     source_items = load_eplaylist()
