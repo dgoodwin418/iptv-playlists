@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -30,26 +30,28 @@ jobs:
       - name: Run playlist generator
         run: python update.py
 
-      - name: Show generated files
+      - name: Show update summary
         run: |
-          find playlists -type f -maxdepth 2 | sort
-          echo
           echo "Provider playlists:"
           find playlists/by-provider -type f -name "*.m3u" | wc -l
 
-      - name: Commit updated playlists
+          echo "Generated reports:"
+          find reports -type f | sort
+
+      - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add \
             playlists \
-            provider-report.md \
-            provider-notes.json
+            reports \
+            provider-notes.json \
+            provider-report.md
 
           if git diff --cached --quiet; then
-            echo "No playlist changes to commit."
+            echo "No changes to commit."
           else
-            git commit -m "Update IPTV playlists"
+            git commit -m "Update IPTV playlists and provider reports"
             git push
           fi
