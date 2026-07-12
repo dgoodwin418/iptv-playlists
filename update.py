@@ -2,7 +2,9 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
+
 from collections import defaultdict
+from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from html import unescape
 from pathlib import Path
@@ -40,12 +42,14 @@ REPORTS_DIR.mkdir(exist_ok=True)
 # Settings
 # ---------------------------------------------------------------------
 
-# Providers with fewer channels than this will not receive an individual
-# provider playlist, but they will still appear in the reports.
+# Providers with fewer than this number of channels remain in the
+# reports and notes file but do not receive an individual M3U playlist.
 MIN_PROVIDER_CHANNELS = 5
 
-# Priority order used for Priority_Clean.m3u.
-# You can reorder this later after testing providers.
+# These providers are currently considered for Combined_Selected.m3u
+# and Priority_Clean.m3u.
+#
+# This can be changed later after more providers have been tested.
 PROVIDER_PRIORITY = [
     "FREE3",
     "s.rocketdns.info:8080",
@@ -57,8 +61,15 @@ PROVIDER_PRIORITY = [
 VALID_STATUSES = {
     "working",
     "partial",
-    "dead",
     "untested",
+    "dead",
+}
+
+STATUS_ORDER = {
+    "working": 0,
+    "partial": 1,
+    "untested": 2,
+    "dead": 3,
 }
 
 
@@ -88,23 +99,32 @@ def fetch(url):
 # ---------------------------------------------------------------------
 
 def clean_title(text):
-    text = re.sub(r"\[/?[A-Z0-9]+[^\]]*\]", "", text or "")
+    text = re.sub(
+        r"\[/?[A-Z0-9]+[^\]]*\]",
+        "",
+        text or "",
+    )
+
     text = unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
+
     return text or "Unknown"
 
 
 def clean_channel_name(item):
     title = clean_title(item.get("title", ""))
 
-    for provider_text in [
+    provider_values = [
         item.get("domain1", ""),
         item.get("domain", ""),
-    ]:
+    ]
+
+    for provider_text in provider_values:
         if provider_text:
             title = title.replace(provider_text, "")
 
     title = re.sub(r"\s+", " ", title).strip()
+
     return title or "Unknown"
 
 
@@ -125,8 +145,14 @@ def normalize(text):
 
 
 def safe_filename(name):
-    name = re.sub(r"[^A-Za-z0-9._-]+", "_", name)
+    name = re.sub(
+        r"[^A-Za-z0-9._-]+",
+        "_",
+        name,
+    )
+
     name = name.strip("._-")
+
     return name or "unknown"
 
 
@@ -142,7 +168,7 @@ def escape_attribute(value):
 
 
 # ---------------------------------------------------------------------
-# Provider notes
+# Provider notes and statuses
 # ---------------------------------------------------------------------
 
 def load_provider_notes():
@@ -155,13 +181,19 @@ def load_provider_notes():
         )
 
         if not isinstance(data, dict):
-            print("Warning: provider-notes.json must contain an object.")
+            print(
+                "Warning: provider-notes.json must contain "
+                "a JSON object."
+            )
             return {}
 
         return data
 
     except Exception as error:
-        print(f"Warning: provider-notes.json could not be read: {error}")
+        print(
+            "Warning: provider-notes.json could not be read: "
+            f"{error}"
+        )
         return {}
 
 
@@ -179,19 +211,50 @@ def provider_status(domain, provider_notes):
 
 
 def provider_is_allowed(domain, provider_notes):
-    return provider_status(domain, provider_notes) != "dead"
+    return provider_status(
+        domain,
+        provider_notes,
+    ) != "dead"
 
 
-def update_provider_notes(domain_map, provider_notes):
+def update_provider_notes(domain_map, existing_notes):
     """
-    Adds every provider to provider-notes.json without overwriting
-    statuses or notes that the user already entered.
+    Adds all current providers to provider-notes.json while preserving
+    statuses, tested values and notes already entered by the user.
+
+    Providers are sorted by:
+      1. Status
+      2. Channel count, highest first
+      3. Domain name
     """
+
+    providers = list(domain_map.keys())
+
+    def provider_sort_key(domain):
+        status = provider_status(
+            domain,
+            existing_notes,
+        )
+
+        channel_count = len(
+            domain_map.get(domain, [])
+        )
+
+        return (
+            STATUS_ORDER.get(status, 2),
+            -channel_count,
+            domain.lower(),
+        )
+
+    providers.sort(key=provider_sort_key)
 
     updated_notes = {}
 
-    for domain in sorted(domain_map, key=str.lower):
-        existing = provider_notes.get(domain, {})
+    for domain in providers:
+        existing = existing_notes.get(
+            domain,
+            {},
+        )
 
         status = str(
             existing.get("status", "untested")
@@ -201,16 +264,20 @@ def update_provider_notes(domain_map, provider_notes):
             status = "untested"
 
         updated_notes[domain] = {
-            "tested": bool(existing.get("tested", False)),
+            "tested": bool(
+                existing.get("tested", False)
+            ),
             "status": status,
-            "notes": str(existing.get("notes", "")),
+            "notes": str(
+                existing.get("notes", "")
+            ),
         }
 
     NOTES_FILE.write_text(
         json.dumps(
             updated_notes,
             indent=2,
-            sort_keys=True,
+            ensure_ascii=False,
         )
         + "\n",
         encoding="utf-8",
@@ -228,7 +295,14 @@ def load_eplaylist():
         fetch(EPLAYLIST_URL).decode("utf-8")
     )
 
-    return data.get("items", [])
+    items = data.get("items", [])
+
+    if not isinstance(items, list):
+        raise ValueError(
+            "The source JSON does not contain a valid items list."
+        )
+
+    return items
 
 
 # ---------------------------------------------------------------------
@@ -237,7 +311,9 @@ def load_eplaylist():
 
 def load_cache_channels():
     if not CACHE_FILE.exists():
-        print("Warning: m3u8_cache.json was not found.")
+        print(
+            "Warning: m3u8_cache.json was not found."
+        )
         return []
 
     data = json.loads(
@@ -255,7 +331,12 @@ def load_cache_channels():
 
         keys = {
             normalize(name),
-            normalize(channel.get("normalized_name", "")),
+            normalize(
+                channel.get(
+                    "normalized_name",
+                    "",
+                )
+            ),
         }
 
         url = channel.get("url", "")
@@ -268,16 +349,34 @@ def load_cache_channels():
         if match:
             guide_name = match.group(1)
 
-            keys.add(normalize(guide_name))
-            keys.add(normalize(guide_name.replace("_", " ")))
+            keys.add(
+                normalize(guide_name)
+            )
+
+            keys.add(
+                normalize(
+                    guide_name.replace(
+                        "_",
+                        " ",
+                    )
+                )
+            )
 
         channels.append(
             {
                 "name": name,
                 "tvg_id": tvg_id,
-                "logo": channel.get("logo", ""),
-                "group": channel.get("group", ""),
-                "keys": {key for key in keys if key},
+                "logo": channel.get(
+                    "logo",
+                    "",
+                ),
+                "group": channel.get(
+                    "group",
+                    "",
+                ),
+                "keys": {
+                    key for key in keys if key
+                },
             }
         )
 
@@ -292,22 +391,33 @@ def load_epg_channels():
     channels = []
 
     try:
-        root = ET.fromstring(fetch(EPG_URL))
+        root = ET.fromstring(
+            fetch(EPG_URL)
+        )
 
         for channel in root.findall("channel"):
-            tvg_id = channel.attrib.get("id", "")
+            tvg_id = channel.attrib.get(
+                "id",
+                "",
+            )
 
             display_names = [
                 element.text.strip()
-                for element in channel.findall("display-name")
-                if element.text and element.text.strip()
+                for element in channel.findall(
+                    "display-name"
+                )
+                if element.text
+                and element.text.strip()
             ]
 
-            icon = channel.find("icon")
+            icon_element = channel.find("icon")
             logo = ""
 
-            if icon is not None:
-                logo = icon.attrib.get("src", "")
+            if icon_element is not None:
+                logo = icon_element.attrib.get(
+                    "src",
+                    "",
+                )
 
             for name in display_names:
                 channels.append(
@@ -316,24 +426,35 @@ def load_epg_channels():
                         "tvg_id": tvg_id,
                         "logo": logo,
                         "group": "",
-                        "keys": {normalize(name)},
+                        "keys": {
+                            normalize(name)
+                        },
                     }
                 )
 
     except Exception as error:
-        print(f"Warning: EPG loading failed: {error}")
+        print(
+            "Warning: EPG loading failed: "
+            f"{error}"
+        )
 
     return channels
 
 
 # ---------------------------------------------------------------------
-# Extract channel names from stream URLs
+# Extract names from stream URLs
 # ---------------------------------------------------------------------
 
 def stream_based_names(item):
     names = []
-    stream = item.get("stream", "")
 
+    stream = item.get(
+        "stream",
+        "",
+    )
+
+    # Example:
+    # http://23.237.104.106:8080/USA_CMT/index.m3u8
     match = re.search(
         r"/USA_([^/]+)/",
         stream,
@@ -342,18 +463,29 @@ def stream_based_names(item):
 
     if match:
         stream_name = match.group(1)
-        names.append(stream_name.replace("_", " "))
+
+        names.append(
+            stream_name.replace(
+                "_",
+                " ",
+            )
+        )
+
         names.append(stream_name)
 
     return names
 
 
 # ---------------------------------------------------------------------
-# Build EPG matching sources
+# EPG matching
 # ---------------------------------------------------------------------
 
 def build_match_sources():
-    sources = load_cache_channels() + load_epg_channels()
+    sources = (
+        load_cache_channels()
+        + load_epg_channels()
+    )
+
     exact_map = {}
 
     for source in sources:
@@ -367,15 +499,24 @@ def build_match_sources():
 def match_epg(item, exact_map, all_sources):
     possible_names = [
         clean_channel_name(item),
-        clean_title(item.get("title", "")),
+        clean_title(
+            item.get("title", "")
+        ),
     ]
 
-    possible_names.extend(stream_based_names(item))
+    possible_names.extend(
+        stream_based_names(item)
+    )
 
-    raw_title = item.get("raw_title", "")
+    raw_title = item.get(
+        "raw_title",
+        "",
+    )
 
     if raw_title:
-        possible_names.append(raw_title.split(" - ")[0])
+        possible_names.append(
+            raw_title.split(" - ")[0]
+        )
 
     possible_keys = []
 
@@ -385,10 +526,12 @@ def match_epg(item, exact_map, all_sources):
         if key and key not in possible_keys:
             possible_keys.append(key)
 
+    # Exact matches first.
     for key in possible_keys:
         if key in exact_map:
             return exact_map[key]
 
+    # Conservative fuzzy matching.
     best_match = None
     best_score = 0.0
 
@@ -415,7 +558,11 @@ def match_epg(item, exact_map, all_sources):
 # Enrich source entries
 # ---------------------------------------------------------------------
 
-def enrich_item(item, exact_map, all_sources):
+def enrich_item(
+    item,
+    exact_map,
+    all_sources,
+):
     epg = match_epg(
         item,
         exact_map,
@@ -425,9 +572,21 @@ def enrich_item(item, exact_map, all_sources):
     fallback_name = clean_channel_name(item)
 
     return {
-        "name": epg.get("name") or fallback_name,
-        "tvg_id": epg.get("tvg_id", ""),
-        "logo": epg.get("logo") or item.get("thumbnail", ""),
+        "name": (
+            epg.get("name")
+            or fallback_name
+        ),
+        "tvg_id": epg.get(
+            "tvg_id",
+            "",
+        ),
+        "logo": (
+            epg.get("logo")
+            or item.get(
+                "thumbnail",
+                "",
+            )
+        ),
         "jet_group": (
             epg.get("group")
             or item.get("group")
@@ -439,13 +598,16 @@ def enrich_item(item, exact_map, all_sources):
             or item.get("domain")
             or "Unknown"
         ),
-        "stream": item.get("stream", "").strip(),
+        "stream": item.get(
+            "stream",
+            "",
+        ).strip(),
         "source": item,
     }
 
 
 # ---------------------------------------------------------------------
-# Write playlists
+# Write M3U playlists
 # ---------------------------------------------------------------------
 
 def write_m3u(
@@ -459,7 +621,10 @@ def write_m3u(
     for entry in enriched_items:
         stream = entry["stream"]
 
-        if not stream or stream in seen_streams:
+        if not stream:
+            continue
+
+        if stream in seen_streams:
             continue
 
         seen_streams.add(stream)
@@ -469,17 +634,28 @@ def write_m3u(
         else:
             group = entry["jet_group"]
 
-        name_attribute = escape_attribute(entry["name"])
-        tvg_id = escape_attribute(entry["tvg_id"])
-        logo = escape_attribute(entry["logo"])
-        group = escape_attribute(group)
+        name_attribute = escape_attribute(
+            entry["name"]
+        )
+
+        tvg_id = escape_attribute(
+            entry["tvg_id"]
+        )
+
+        logo = escape_attribute(
+            entry["logo"]
+        )
+
+        group_attribute = escape_attribute(
+            group
+        )
 
         lines.append(
             f'#EXTINF:-1 '
             f'tvg-id="{tvg_id}" '
             f'tvg-name="{name_attribute}" '
             f'tvg-logo="{logo}" '
-            f'group-title="{group}",'
+            f'group-title="{group_attribute}",'
             f'{entry["name"]}'
         )
 
@@ -491,11 +667,21 @@ def write_m3u(
     )
 
 
+# ---------------------------------------------------------------------
+# Deduplication and provider priority
+# ---------------------------------------------------------------------
+
 def channel_key(entry):
     if entry["tvg_id"]:
-        return "id:" + entry["tvg_id"].lower()
+        return (
+            "id:"
+            + entry["tvg_id"].lower()
+        )
 
-    return "name:" + normalize(entry["name"])
+    return (
+        "name:"
+        + normalize(entry["name"])
+    )
 
 
 def build_priority_playlist(
@@ -504,7 +690,8 @@ def build_priority_playlist(
 ):
     provider_rank = {
         provider: rank
-        for rank, provider in enumerate(PROVIDER_PRIORITY)
+        for rank, provider
+        in enumerate(PROVIDER_PRIORITY)
     }
 
     selected = {}
@@ -515,7 +702,10 @@ def build_priority_playlist(
         if provider not in provider_rank:
             continue
 
-        if not provider_is_allowed(provider, provider_notes):
+        if not provider_is_allowed(
+            provider,
+            provider_notes,
+        ):
             continue
 
         key = channel_key(entry)
@@ -555,42 +745,137 @@ def build_priority_playlist(
 # Reports
 # ---------------------------------------------------------------------
 
-def write_provider_report(domain_map, provider_notes):
+def get_status_counts(
+    domain_map,
+    provider_notes,
+):
+    counts = {
+        "working": 0,
+        "partial": 0,
+        "untested": 0,
+        "dead": 0,
+    }
+
+    for domain in domain_map:
+        status = provider_status(
+            domain,
+            provider_notes,
+        )
+
+        counts[status] += 1
+
+    return counts
+
+
+def write_provider_report(
+    domain_map,
+    provider_notes,
+    generated_provider_count,
+):
+    status_counts = get_status_counts(
+        domain_map,
+        provider_notes,
+    )
+
+    updated_time = datetime.now(
+        timezone.utc
+    ).strftime(
+        "%Y-%m-%d %H:%M UTC"
+    )
+
     lines = [
         "# Provider Testing Report",
         "",
-        "Edit `provider-notes.json` after testing each provider.",
+        f"**Last updated:** {updated_time}",
         "",
-        "| Channels | Provider | Playlist | Tested | Status | Notes |",
+        f"- Providers found: **{len(domain_map)}**",
+        (
+            "- Provider playlists generated: "
+            f"**{generated_provider_count}**"
+        ),
+        (
+            "- Working: "
+            f"**{status_counts['working']}**"
+        ),
+        (
+            "- Partial: "
+            f"**{status_counts['partial']}**"
+        ),
+        (
+            "- Untested: "
+            f"**{status_counts['untested']}**"
+        ),
+        (
+            "- Dead: "
+            f"**{status_counts['dead']}**"
+        ),
+        "",
+        (
+            "Edit `provider-notes.json` after "
+            "testing each provider."
+        ),
+        "",
+        (
+            "| Channels | Provider | Playlist | "
+            "Tested | Status | Notes |"
+        ),
         "|---:|---|---|:---:|---|---|",
     ]
 
-    for domain, entries in sorted(
-        domain_map.items(),
-        key=lambda pair: (-len(pair[1]), pair[0].lower()),
-    ):
+    sorted_domains = sorted(
+        domain_map,
+        key=lambda domain: (
+            STATUS_ORDER.get(
+                provider_status(
+                    domain,
+                    provider_notes,
+                ),
+                2,
+            ),
+            -len(domain_map[domain]),
+            domain.lower(),
+        ),
+    )
+
+    for domain in sorted_domains:
+        entries = domain_map[domain]
         filename = safe_filename(domain) + ".m3u"
 
         if len(entries) >= MIN_PROVIDER_CHANNELS:
             playlist_link = (
-                f"[Open](playlists/by-provider/{filename})"
+                "[Open]"
+                f"(playlists/by-provider/{filename})"
             )
         else:
             playlist_link = "Not generated"
 
-        note = provider_notes.get(domain, {})
+        note = provider_notes.get(
+            domain,
+            {},
+        )
 
-        tested = "✅" if note.get("tested") else "⬜"
-        status = provider_status(domain, provider_notes)
+        tested = (
+            "✅"
+            if note.get("tested")
+            else "⬜"
+        )
+
+        status = provider_status(
+            domain,
+            provider_notes,
+        )
 
         comments = str(
             note.get("notes", "")
         ).replace("|", "/")
 
         lines.append(
-            f"| {len(entries)} | `{domain}` | "
-            f"{playlist_link} | {tested} | "
-            f"{status} | {comments} |"
+            f"| {len(entries)} | "
+            f"`{domain}` | "
+            f"{playlist_link} | "
+            f"{tested} | "
+            f"{status} | "
+            f"{comments} |"
         )
 
     Path("provider-report.md").write_text(
@@ -613,23 +898,36 @@ def write_status_report(
         "|---:|---|---|",
     ]
 
-    matching_domains = []
+    matching_domains = [
+        domain
+        for domain in domain_map
+        if provider_status(
+            domain,
+            provider_notes,
+        ) == status
+    ]
 
-    for domain, entries in domain_map.items():
-        if provider_status(domain, provider_notes) == status:
-            matching_domains.append((domain, entries))
+    matching_domains.sort(
+        key=lambda domain: (
+            -len(domain_map[domain]),
+            domain.lower(),
+        )
+    )
 
-    for domain, entries in sorted(
-        matching_domains,
-        key=lambda pair: (-len(pair[1]), pair[0].lower()),
-    ):
-        note = provider_notes.get(domain, {})
+    for domain in matching_domains:
+        note = provider_notes.get(
+            domain,
+            {},
+        )
+
         comments = str(
             note.get("notes", "")
         ).replace("|", "/")
 
         lines.append(
-            f"| {len(entries)} | `{domain}` | {comments} |"
+            f"| {len(domain_map[domain])} | "
+            f"`{domain}` | "
+            f"{comments} |"
         )
 
     (REPORTS_DIR / filename).write_text(
@@ -640,11 +938,15 @@ def write_status_report(
 
 def write_epg_report(enriched_items):
     matched = [
-        entry for entry in enriched_items if entry["tvg_id"]
+        entry
+        for entry in enriched_items
+        if entry["tvg_id"]
     ]
 
     unmatched = [
-        entry for entry in enriched_items if not entry["tvg_id"]
+        entry
+        for entry in enriched_items
+        if not entry["tvg_id"]
     ]
 
     lines = [
@@ -668,10 +970,14 @@ def write_epg_report(enriched_items):
         ),
     ):
         lines.append(
-            f"| {entry['name']} | `{entry['domain']}` |"
+            f"| {entry['name']} | "
+            f"`{entry['domain']}` |"
         )
 
-    (REPORTS_DIR / "epg-report.md").write_text(
+    (
+        REPORTS_DIR
+        / "epg-report.md"
+    ).write_text(
         "\n".join(lines) + "\n",
         encoding="utf-8",
     )
@@ -695,10 +1001,15 @@ def main():
 
     source_items = load_eplaylist()
 
-    print(f"Source entries: {len(source_items)}")
+    print(
+        f"Source entries: {len(source_items)}"
+    )
+
     print("Loading EPG matching data...")
 
-    exact_map, all_sources = build_match_sources()
+    exact_map, all_sources = (
+        build_match_sources()
+    )
 
     enriched_items = [
         enrich_item(
@@ -713,31 +1024,41 @@ def main():
     domain_map = defaultdict(list)
 
     for entry in enriched_items:
-        domain_map[entry["domain"]].append(entry)
+        domain_map[
+            entry["domain"]
+        ].append(entry)
 
-    print(f"Unique domains: {len(domain_map)}")
+    print(
+        f"Unique domains: {len(domain_map)}"
+    )
 
-    provider_notes = load_provider_notes()
+    existing_notes = load_provider_notes()
 
     provider_notes = update_provider_notes(
         domain_map,
-        provider_notes,
+        existing_notes,
     )
 
     remove_old_provider_playlists()
 
     generated_provider_count = 0
 
+    # Generate one playlist per provider.
     for domain, entries in domain_map.items():
         if len(entries) < MIN_PROVIDER_CHANNELS:
             continue
 
-        filename = safe_filename(domain) + ".m3u"
+        filename = (
+            safe_filename(domain)
+            + ".m3u"
+        )
 
         write_m3u(
             sorted(
                 entries,
-                key=lambda entry: entry["name"].lower(),
+                key=lambda entry: (
+                    entry["name"].lower()
+                ),
             ),
             PROVIDER_DIR / filename,
             group_mode="jet",
@@ -750,6 +1071,7 @@ def main():
         f"{generated_provider_count}"
     )
 
+    # All streams grouped like Jet Guide.
     write_m3u(
         sorted(
             enriched_items,
@@ -762,6 +1084,7 @@ def main():
         group_mode="jet",
     )
 
+    # All streams grouped by domain/provider.
     write_m3u(
         sorted(
             enriched_items,
@@ -774,17 +1097,20 @@ def main():
         group_mode="domain",
     )
 
+    # All usable streams.
     write_m3u(
         enriched_items,
         OUTPUT_DIR / "Everything.m3u",
         group_mode="jet",
     )
 
+    # Combined playlist from providers currently in PROVIDER_PRIORITY.
     selected_entries = [
         entry
         for entry in enriched_items
         if (
-            entry["domain"] in PROVIDER_PRIORITY
+            entry["domain"]
+            in PROVIDER_PRIORITY
             and provider_is_allowed(
                 entry["domain"],
                 provider_notes,
@@ -804,6 +1130,7 @@ def main():
         group_mode="jet",
     )
 
+    # Deduplicated provider-priority playlist.
     priority_entries = build_priority_playlist(
         enriched_items,
         provider_notes,
@@ -818,6 +1145,7 @@ def main():
     write_provider_report(
         domain_map,
         provider_notes,
+        generated_provider_count,
     )
 
     write_status_report(
@@ -837,14 +1165,6 @@ def main():
     )
 
     write_status_report(
-        "dead-providers.md",
-        "Dead Providers",
-        "dead",
-        domain_map,
-        provider_notes,
-    )
-
-    write_status_report(
         "untested-providers.md",
         "Untested Providers",
         "untested",
@@ -852,16 +1172,37 @@ def main():
         provider_notes,
     )
 
+    write_status_report(
+        "dead-providers.md",
+        "Dead Providers",
+        "dead",
+        domain_map,
+        provider_notes,
+    )
+
     write_epg_report(enriched_items)
 
     matched_count = sum(
-        1 for entry in enriched_items if entry["tvg_id"]
+        1
+        for entry in enriched_items
+        if entry["tvg_id"]
+    )
+
+    status_counts = get_status_counts(
+        domain_map,
+        provider_notes,
     )
 
     print("")
     print("Update complete")
-    print(f"Usable streams: {len(enriched_items)}")
-    print(f"EPG matched: {matched_count}")
+    print(
+        f"Usable streams: "
+        f"{len(enriched_items)}"
+    )
+    print(
+        f"EPG matched: "
+        f"{matched_count}"
+    )
     print(
         f"EPG unmatched: "
         f"{len(enriched_items) - matched_count}"
@@ -869,6 +1210,22 @@ def main():
     print(
         f"Priority playlist entries: "
         f"{len(priority_entries)}"
+    )
+    print(
+        f"Working providers: "
+        f"{status_counts['working']}"
+    )
+    print(
+        f"Partial providers: "
+        f"{status_counts['partial']}"
+    )
+    print(
+        f"Untested providers: "
+        f"{status_counts['untested']}"
+    )
+    print(
+        f"Dead providers: "
+        f"{status_counts['dead']}"
     )
 
 
