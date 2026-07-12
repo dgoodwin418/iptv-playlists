@@ -1,16 +1,22 @@
 # Provider Testing Report
 
+**Last updated:** 2026-07-12 01:23 UTC
+
+- Providers found: **735**
+- Provider playlists generated: **86**
+- Working: **2**
+- Partial: **0**
+- Untested: **730**
+- Dead: **3**
+
 Edit `provider-notes.json` after testing each provider.
 
 | Channels | Provider | Playlist | Tested | Status | Notes |
 |---:|---|---|:---:|---|---|
-| 78 | `streams2.sofast.tv` | [Open](playlists/by-provider/streams2.sofast.tv.m3u) | ⬜ | untested |  |
-| 76 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ✅ | dead | 403 and does not play in Kodi |
-| 58 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ⬜ | untested |  |
-| 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ⬜ | untested |  |
 | 51 | `FREE3` | [Open](playlists/by-provider/FREE3.m3u) | ✅ | working | Works well |
-| 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ⬜ | untested |  |
 | 47 | `s.rocketdns.info:8080` | [Open](playlists/by-provider/s.rocketdns.info_8080.m3u) | ✅ | working | Works in Kodi |
+| 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ⬜ | untested |  |
+| 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ⬜ | untested |  |
 | 39 | `rpn.bozztv` | [Open](playlists/by-provider/rpn.bozztv.m3u) | ⬜ | untested |  |
 | 34 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ⬜ | untested |  |
 | 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ⬜ | untested |  |
@@ -739,3 +745,6 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `yta.unitedteleports.tv` | Not generated | ⬜ | untested |  |
 | 1 | `ztnr.rtve.es` | Not generated | ⬜ | untested |  |
 | 1 | `zypelive-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
+| 78 | `streams2.sofast.tv` | [Open](playlists/by-provider/streams2.sofast.tv.m3u) | ✅ | dead | Server for live sporting events. |
+| 76 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ✅ | dead | 403 and does not play in Kodi. Server for live sporting events |
+| 58 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |

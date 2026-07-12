@@ -2,8 +2,6 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 78 | `streams2.sofast.tv` |  |
-| 58 | `khala.skylivehd` |  |
 | 51 | `dai2.xumo` |  |
 | 49 | `technologycloud.eu:80` |  |
 | 39 | `rpn.bozztv` |  |
