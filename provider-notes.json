@@ -9,16 +9,6 @@
     "status": "working",
     "notes": "Works in Kodi"
   },
-  "dai2.xumo": {
-    "tested": true,
-    "status": "dead",
-    "notes": "none of the channels played in VLC"
-  },
-  "technologycloud.eu:80": {
-    "tested": true,
-    "status": "dead",
-    "notes": "none of the channels played in VLC"
-  },
   "rpn.bozztv": {
     "tested": true,
     "status": "working",
@@ -29,45 +19,20 @@
     "status": "working",
     "notes": "All of the tested channels worked in VLC"
   },
-  "79.127.207.193:80": {
+  "adultswim-vodlive.cdn.turner": {
     "tested": true,
-    "status": "dead",
-    "notes": "None of the channels played in VLC"
-  },
-  "webcast-origin.b-cdn.net": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports server"
-  },
-  "169.150.223.25": {
-    "tested": true,
-    "status": "dead",
-    "notes": "None of the channels played in VLC"
+    "status": "working",
+    "notes": "All channels played in VLC"
   },
   "dai.google": {
     "tested": true,
     "status": "partial",
     "notes": "Some of the chanels did not play in VLC"
   },
-  "adultswim-vodlive.cdn.turner": {
-    "tested": true,
-    "status": "working",
-    "notes": "All channels played in VLC"
-  },
-  "instreams.pro": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports streams. None played in VLC"
-  },
   "2-fss-2.streamhoster": {
     "tested": true,
     "status": "partial",
     "notes": "Some channels did not play in VLC"
-  },
-  "a.jsrdn": {
-    "tested": true,
-    "status": "dead",
-    "notes": "None of the channels played in VLC"
   },
   "chatgpt.hereisman.net": {
     "tested": false,
@@ -3673,5 +3638,40 @@
     "tested": true,
     "status": "dead",
     "notes": "Server for live sporting events."
+  },
+  "dai2.xumo": {
+    "tested": true,
+    "status": "dead",
+    "notes": "none of the channels played in VLC"
+  },
+  "technologycloud.eu:80": {
+    "tested": true,
+    "status": "dead",
+    "notes": "none of the channels played in VLC"
+  },
+  "79.127.207.193:80": {
+    "tested": true,
+    "status": "dead",
+    "notes": "None of the channels played in VLC"
+  },
+  "webcast-origin.b-cdn.net": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports server"
+  },
+  "169.150.223.25": {
+    "tested": true,
+    "status": "dead",
+    "notes": "None of the channels played in VLC"
+  },
+  "instreams.pro": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports streams. None played in VLC"
+  },
+  "a.jsrdn": {
+    "tested": true,
+    "status": "dead",
+    "notes": "None of the channels played in VLC"
   }
 }

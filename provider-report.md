@@ -1,13 +1,13 @@
 # Provider Testing Report
 
-**Last updated:** 2026-07-12 01:23 UTC
+**Last updated:** 2026-07-12 03:22 UTC
 
 - Providers found: **735**
 - Provider playlists generated: **86**
-- Working: **2**
-- Partial: **0**
-- Untested: **730**
-- Dead: **3**
+- Working: **5**
+- Partial: **2**
+- Untested: **718**
+- Dead: **10**
 
 Edit `provider-notes.json` after testing each provider.
 
@@ -15,18 +15,11 @@ Edit `provider-notes.json` after testing each provider.
 |---:|---|---|:---:|---|---|
 | 51 | `FREE3` | [Open](playlists/by-provider/FREE3.m3u) | ✅ | working | Works well |
 | 47 | `s.rocketdns.info:8080` | [Open](playlists/by-provider/s.rocketdns.info_8080.m3u) | ✅ | working | Works in Kodi |
-| 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ⬜ | untested |  |
-| 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ⬜ | untested |  |
-| 39 | `rpn.bozztv` | [Open](playlists/by-provider/rpn.bozztv.m3u) | ⬜ | untested |  |
-| 34 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ⬜ | untested |  |
-| 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ⬜ | untested |  |
-| 32 | `webcast-origin.b-cdn.net` | [Open](playlists/by-provider/webcast-origin.b-cdn.net.m3u) | ⬜ | untested |  |
-| 29 | `169.150.223.25` | [Open](playlists/by-provider/169.150.223.25.m3u) | ⬜ | untested |  |
-| 24 | `dai.google` | [Open](playlists/by-provider/dai.google.m3u) | ⬜ | untested |  |
-| 22 | `adultswim-vodlive.cdn.turner` | [Open](playlists/by-provider/adultswim-vodlive.cdn.turner.m3u) | ⬜ | untested |  |
-| 22 | `instreams.pro` | [Open](playlists/by-provider/instreams.pro.m3u) | ⬜ | untested |  |
-| 21 | `2-fss-2.streamhoster` | [Open](playlists/by-provider/2-fss-2.streamhoster.m3u) | ⬜ | untested |  |
-| 20 | `a.jsrdn` | [Open](playlists/by-provider/a.jsrdn.m3u) | ⬜ | untested |  |
+| 39 | `rpn.bozztv` | [Open](playlists/by-provider/rpn.bozztv.m3u) | ✅ | working | All of the tested channels worked in VLC |
+| 34 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ✅ | working | All of the tested channels worked in VLC |
+| 22 | `adultswim-vodlive.cdn.turner` | [Open](playlists/by-provider/adultswim-vodlive.cdn.turner.m3u) | ✅ | working | All channels played in VLC |
+| 24 | `dai.google` | [Open](playlists/by-provider/dai.google.m3u) | ✅ | partial | Some of the chanels did not play in VLC |
+| 21 | `2-fss-2.streamhoster` | [Open](playlists/by-provider/2-fss-2.streamhoster.m3u) | ✅ | partial | Some channels did not play in VLC |
 | 18 | `chatgpt.hereisman.net` | [Open](playlists/by-provider/chatgpt.hereisman.net.m3u) | ⬜ | untested |  |
 | 17 | `77.137.40.221:8000` | [Open](playlists/by-provider/77.137.40.221_8000.m3u) | ⬜ | untested |  |
 | 16 | `edgestream3.pro` | [Open](playlists/by-provider/edgestream3.pro.m3u) | ⬜ | untested |  |
@@ -748,3 +741,10 @@ Edit `provider-notes.json` after testing each provider.
 | 78 | `streams2.sofast.tv` | [Open](playlists/by-provider/streams2.sofast.tv.m3u) | ✅ | dead | Server for live sporting events. |
 | 76 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ✅ | dead | 403 and does not play in Kodi. Server for live sporting events |
 | 58 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |
+| 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ✅ | dead | none of the channels played in VLC |
+| 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ✅ | dead | none of the channels played in VLC |
+| 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ✅ | dead | None of the channels played in VLC |
+| 32 | `webcast-origin.b-cdn.net` | [Open](playlists/by-provider/webcast-origin.b-cdn.net.m3u) | ✅ | dead | Live sports server |
+| 29 | `169.150.223.25` | [Open](playlists/by-provider/169.150.223.25.m3u) | ✅ | dead | None of the channels played in VLC |
+| 22 | `instreams.pro` | [Open](playlists/by-provider/instreams.pro.m3u) | ✅ | dead | Live sports streams. None played in VLC |
+| 20 | `a.jsrdn` | [Open](playlists/by-provider/a.jsrdn.m3u) | ✅ | dead | None of the channels played in VLC |

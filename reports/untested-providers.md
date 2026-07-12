@@ -2,18 +2,6 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 51 | `dai2.xumo` |  |
-| 49 | `technologycloud.eu:80` |  |
-| 39 | `rpn.bozztv` |  |
-| 34 | `206.212.244.63` |  |
-| 32 | `79.127.207.193:80` |  |
-| 32 | `webcast-origin.b-cdn.net` |  |
-| 29 | `169.150.223.25` |  |
-| 24 | `dai.google` |  |
-| 22 | `adultswim-vodlive.cdn.turner` |  |
-| 22 | `instreams.pro` |  |
-| 21 | `2-fss-2.streamhoster` |  |
-| 20 | `a.jsrdn` |  |
 | 18 | `chatgpt.hereisman.net` |  |
 | 17 | `77.137.40.221:8000` |  |
 | 16 | `edgestream3.pro` |  |
