@@ -24,6 +24,16 @@
     "status": "working",
     "notes": "All channels played in VLC"
   },
+  "live.corusdigitaldev": {
+    "tested": true,
+    "status": "working",
+    "notes": "Channels play in VLC"
+  },
+  "2-fss-1.streamhoster": {
+    "tested": true,
+    "status": "working",
+    "notes": "Channels play in VLC"
+  },
   "dai.google": {
     "tested": true,
     "status": "partial",
@@ -34,30 +44,30 @@
     "status": "partial",
     "notes": "Some channels did not play in VLC"
   },
-  "77.137.40.221:8000": {
-    "tested": true,
-    "status": "dead",
-    "notes": "no channels played in VLC"
+  "193.47.62.44": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
   },
-  "2k.tstvs": {
-    "tested": true,
-    "status": "dead",
-    "notes": "no channels played in vlc"
+  "cdnlivetv.tv": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
   },
-  "trxad.top:80": {
-    "tested": true,
-    "status": "dead",
-    "notes": "no channels played in vlc"
+  "edgestream1.pro": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
   },
-  "live.corusdigitaldev": {
-    "tested": true,
-    "status": "working",
-    "notes": "Channels play in VLC"
+  "edgestream2.pro": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
   },
-  "2-fss-1.streamhoster": {
-    "tested": true,
-    "status": "working",
-    "notes": "Channels play in VLC"
+  "edgestream3.pro": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
   },
   "stream-us-east-1.getpublica": {
     "tested": false,
@@ -109,17 +119,7 @@
     "status": "untested",
     "notes": ""
   },
-  "cdn10.zohanayaan.com:1686": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "cdn8.zohanayaan.com:1686": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "cdnlivetv.tv": {
+  "node-8bba18be.4587.website": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -174,27 +174,17 @@
     "status": "untested",
     "notes": ""
   },
-  "cdn2.zohanayaan.com:1686": {
+  "cdn8.zohanayaan.com:1686": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
-  "cdn9.zohanayaan.com:1686": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "instreams.live": {
+  "lb2.wfty.st": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "lotus.stingray": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "pw.streamtp.sbs:443": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -244,22 +234,12 @@
     "status": "untested",
     "notes": ""
   },
-  "193.47.62.47": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "195.181.169.152:8080": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "65.108.239.207": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "b2ZmaWNpYWw.fubo18.com:443": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -279,17 +259,17 @@
     "status": "untested",
     "notes": ""
   },
-  "cdn3.zohanayaan.com:1686": {
+  "lb3.wfty.st": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
-  "cdn5.zohanayaan.com:1686": {
+  "node-025d151e.4587.website": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
-  "pul-tenm.gkykp": {
+  "pw.streamtp.sbs:443": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -409,7 +389,17 @@
     "status": "untested",
     "notes": ""
   },
+  "193.47.62.194": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
   "84.54.128.52:9090": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "a2lja3m.fubo18.com:443": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -454,6 +444,11 @@
     "status": "untested",
     "notes": ""
   },
+  "cdn10.zohanayaan.com:1686": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
   "cdn4.skygo.mn": {
     "tested": false,
     "status": "untested",
@@ -464,17 +459,17 @@
     "status": "untested",
     "notes": ""
   },
+  "cdn7.zohanayaan.com:1686": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
   "citynewsregional.akamaized.net": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "cnngo1.akamaized.net": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "edgestream2.pro": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -499,17 +494,22 @@
     "status": "untested",
     "notes": ""
   },
-  "live2.jxa76": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "live20.bozztv": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "moiptvhls-i.akamaihd.net": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "node-9b5feb01.4587.website": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "pul-tenm.gkykp": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -544,22 +544,12 @@
     "status": "untested",
     "notes": ""
   },
-  "trophystream": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "unlimited1-us.dps.live": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "www.bloomberg": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "y2fzdgxl.fubo18.com:443": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -749,11 +739,6 @@
     "status": "untested",
     "notes": ""
   },
-  "193.47.62.42": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "201.230.121.85:8000": {
     "tested": false,
     "status": "untested",
@@ -804,11 +789,6 @@
     "status": "untested",
     "notes": ""
   },
-  "am91cm5leQ.fubo18.com:443": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "api.v3.invintus": {
     "tested": false,
     "status": "untested",
@@ -844,11 +824,6 @@
     "status": "untested",
     "notes": ""
   },
-  "bmf0aw9u.fubo18.com:443": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "brightonco.cablecast.tv": {
     "tested": false,
     "status": "untested",
@@ -879,12 +854,12 @@
     "status": "untested",
     "notes": ""
   },
-  "cdn6.zohanayaan.com:1686": {
+  "cdn3.zohanayaan.com:1686": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
-  "cdn7.zohanayaan.com:1686": {
+  "cdn9.zohanayaan.com:1686": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -929,17 +904,7 @@
     "status": "untested",
     "notes": ""
   },
-  "edgestream1.pro": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "edgestream3.pro": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "eWVz.fubo18.com:443": {
+  "dw5pdgvk.fubo18.com:443": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -974,12 +939,12 @@
     "status": "untested",
     "notes": ""
   },
-  "lb3.wfty.st": {
+  "lb4.wfty.st": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
-  "lb4.wfty.st": {
+  "lb5.wfty.st": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -1064,22 +1029,12 @@
     "status": "untested",
     "notes": ""
   },
-  "node-025d151e.4587.website": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "origin-http-delivery.isilive.ca": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "prod-fastly-eu-west-1.video.pscp.tv": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "pullsgp.yyzb456.top": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -1209,11 +1164,6 @@
     "status": "untested",
     "notes": ""
   },
-  "somovpavlo.s3.us-west-2.amazonaws": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "str2.yodacdn.net": {
     "tested": false,
     "status": "untested",
@@ -1310,6 +1260,11 @@
     "notes": ""
   },
   "ythls.onrender": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "YXdlc29tZQ.fubo18.com:443": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -3629,30 +3584,35 @@
     "status": "untested",
     "notes": ""
   },
+  "khala.skylivehd": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Server for live sporting events."
+  },
   "streams2.sofast.tv": {
     "tested": true,
     "status": "dead",
     "notes": "Server for live sporting events."
+  },
+  "193.47.62.41": {
+    "tested": true,
+    "status": "dead",
+    "notes": "403 and does not play in Kodi. Server for live sporting events"
   },
   "dai2.xumo": {
     "tested": true,
     "status": "dead",
     "notes": "none of the channels played in VLC"
   },
-  "khala.skylivehd": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Server for live sporting events."
-  },
   "technologycloud.eu:80": {
     "tested": true,
     "status": "dead",
     "notes": "none of the channels played in VLC"
   },
-  "193.47.62.41": {
+  "chatgpt.hereisman.net": {
     "tested": true,
     "status": "dead",
-    "notes": "403 and does not play in Kodi. Server for live sporting events"
+    "notes": "Live sports server"
   },
   "79.127.207.193:80": {
     "tested": true,
@@ -3669,19 +3629,24 @@
     "status": "dead",
     "notes": "None of the channels played in VLC"
   },
-  "instreams.pro": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports streams. None played in VLC"
-  },
   "a.jsrdn": {
     "tested": true,
     "status": "dead",
     "notes": "None of the channels played in VLC"
   },
-  "chatgpt.hereisman.net": {
+  "77.137.40.221:8000": {
     "tested": true,
     "status": "dead",
-    "notes": "Live sports server"
+    "notes": "no channels played in VLC"
+  },
+  "2k.tstvs": {
+    "tested": true,
+    "status": "dead",
+    "notes": "no channels played in vlc"
+  },
+  "trxad.top:80": {
+    "tested": true,
+    "status": "dead",
+    "notes": "no channels played in vlc"
   }
 }
