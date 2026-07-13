@@ -1,13 +1,13 @@
 # Provider Testing Report
 
-**Last updated:** 2026-07-13 01:59 UTC
+**Last updated:** 2026-07-13 03:06 UTC
 
 - Providers found: **730**
 - Provider playlists generated: **88**
-- Working: **7**
-- Partial: **2**
-- Untested: **708**
-- Dead: **13**
+- Working: **13**
+- Partial: **3**
+- Untested: **687**
+- Dead: **27**
 
 Edit `provider-notes.json` after testing each provider.
 
@@ -20,29 +20,15 @@ Edit `provider-notes.json` after testing each provider.
 | 22 | `adultswim-vodlive.cdn.turner` | [Open](playlists/by-provider/adultswim-vodlive.cdn.turner.m3u) | ✅ | working | All channels played in VLC |
 | 13 | `live.corusdigitaldev` | [Open](playlists/by-provider/live.corusdigitaldev.m3u) | ✅ | working | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | [Open](playlists/by-provider/2-fss-1.streamhoster.m3u) | ✅ | working | Channels play in VLC |
+| 12 | `townnews.g-mana.live` | [Open](playlists/by-provider/townnews.g-mana.live.m3u) | ✅ | working | All channels played in VLC |
+| 11 | `cdntv.online` | [Open](playlists/by-provider/cdntv.online.m3u) | ✅ | working | All channels worked in VLC |
+| 11 | `jmp2.uk` | [Open](playlists/by-provider/jmp2.uk.m3u) | ✅ | working | All channels worked in VLC |
+| 10 | `qvc-amd-live.akamaized.net` | [Open](playlists/by-provider/qvc-amd-live.akamaized.net.m3u) | ✅ | working | All channels work in VLC |
+| 10 | `service-stitcher.clusters.pluto.tv` | [Open](playlists/by-provider/service-stitcher.clusters.pluto.tv.m3u) | ✅ | working | All channels work in VLC but the commercial screen is not in English |
+| 10 | `video.oct.dc.gov` | [Open](playlists/by-provider/video.oct.dc.gov.m3u) | ✅ | working | All channels work in VLC |
+| 38 | `cdnlivetv.tv` | [Open](playlists/by-provider/cdnlivetv.tv.m3u) | ✅ | partial | Live sports server CDNTV but if event is live channel works |
 | 24 | `dai.google` | [Open](playlists/by-provider/dai.google.m3u) | ✅ | partial | Some of the chanels did not play in VLC |
 | 21 | `2-fss-2.streamhoster` | [Open](playlists/by-provider/2-fss-2.streamhoster.m3u) | ✅ | partial | Some channels did not play in VLC |
-| 58 | `193.47.62.44` | [Open](playlists/by-provider/193.47.62.44.m3u) | ⬜ | untested |  |
-| 38 | `cdnlivetv.tv` | [Open](playlists/by-provider/cdnlivetv.tv.m3u) | ⬜ | untested |  |
-| 26 | `edgestream1.pro` | [Open](playlists/by-provider/edgestream1.pro.m3u) | ⬜ | untested |  |
-| 22 | `edgestream2.pro` | [Open](playlists/by-provider/edgestream2.pro.m3u) | ⬜ | untested |  |
-| 16 | `edgestream3.pro` | [Open](playlists/by-provider/edgestream3.pro.m3u) | ⬜ | untested |  |
-| 12 | `stream-us-east-1.getpublica` | [Open](playlists/by-provider/stream-us-east-1.getpublica.m3u) | ⬜ | untested |  |
-| 12 | `townnews.g-mana.live` | [Open](playlists/by-provider/townnews.g-mana.live.m3u) | ⬜ | untested |  |
-| 11 | `154.197.91.169:8000` | [Open](playlists/by-provider/154.197.91.169_8000.m3u) | ⬜ | untested |  |
-| 11 | `cdntv.online` | [Open](playlists/by-provider/cdntv.online.m3u) | ⬜ | untested |  |
-| 11 | `jmp2.uk` | [Open](playlists/by-provider/jmp2.uk.m3u) | ⬜ | untested |  |
-| 11 | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` | [Open](playlists/by-provider/still-mud-3642.nqanzvyuupxwcahtfq.workers.dev.m3u) | ⬜ | untested |  |
-| 11 | `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` | [Open](playlists/by-provider/wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev.m3u) | ⬜ | untested |  |
-| 11 | `wo0dyefk.dienalt` | [Open](playlists/by-provider/wo0dyefk.dienalt.m3u) | ⬜ | untested |  |
-| 10 | `a-cdn.klowdtv` | [Open](playlists/by-provider/a-cdn.klowdtv.m3u) | ⬜ | untested |  |
-| 10 | `abcnews-streams.akamaized.net` | [Open](playlists/by-provider/abcnews-streams.akamaized.net.m3u) | ⬜ | untested |  |
-| 10 | `node-8bba18be.4587.website` | [Open](playlists/by-provider/node-8bba18be.4587.website.m3u) | ⬜ | untested |  |
-| 10 | `qvc-amd-live.akamaized.net` | [Open](playlists/by-provider/qvc-amd-live.akamaized.net.m3u) | ⬜ | untested |  |
-| 10 | `service-stitcher.clusters.pluto.tv` | [Open](playlists/by-provider/service-stitcher.clusters.pluto.tv.m3u) | ⬜ | untested |  |
-| 10 | `video.oct.dc.gov` | [Open](playlists/by-provider/video.oct.dc.gov.m3u) | ⬜ | untested |  |
-| 10 | `wp.streamtp.sbs:443` | [Open](playlists/by-provider/wp.streamtp.sbs_443.m3u) | ⬜ | untested |  |
-| 9 | `free.fullspeed.tv` | [Open](playlists/by-provider/free.fullspeed.tv.m3u) | ⬜ | untested |  |
 | 9 | `mediaserver.abnvideos` | [Open](playlists/by-provider/mediaserver.abnvideos.m3u) | ⬜ | untested |  |
 | 9 | `turnerlive.warnermediacdn` | [Open](playlists/by-provider/turnerlive.warnermediacdn.m3u) | ⬜ | untested |  |
 | 8 | `185.132.134.159:80` | [Open](playlists/by-provider/185.132.134.159_80.m3u) | ⬜ | untested |  |
@@ -732,6 +718,7 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `zypelive-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
 | 80 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |
 | 78 | `streams2.sofast.tv` | [Open](playlists/by-provider/streams2.sofast.tv.m3u) | ✅ | dead | Server for live sporting events. |
+| 58 | `193.47.62.44` | [Open](playlists/by-provider/193.47.62.44.m3u) | ✅ | dead | Live sports server |
 | 52 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ✅ | dead | 403 and does not play in Kodi. Server for live sporting events |
 | 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ✅ | dead | none of the channels played in VLC |
 | 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ✅ | dead | none of the channels played in VLC |
@@ -739,7 +726,20 @@ Edit `provider-notes.json` after testing each provider.
 | 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ✅ | dead | None of the channels played in VLC |
 | 32 | `webcast-origin.b-cdn.net` | [Open](playlists/by-provider/webcast-origin.b-cdn.net.m3u) | ✅ | dead | Live sports server |
 | 29 | `169.150.223.25` | [Open](playlists/by-provider/169.150.223.25.m3u) | ✅ | dead | None of the channels played in VLC |
+| 26 | `edgestream1.pro` | [Open](playlists/by-provider/edgestream1.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
+| 22 | `edgestream2.pro` | [Open](playlists/by-provider/edgestream2.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
 | 20 | `a.jsrdn` | [Open](playlists/by-provider/a.jsrdn.m3u) | ✅ | dead | None of the channels played in VLC |
 | 17 | `77.137.40.221:8000` | [Open](playlists/by-provider/77.137.40.221_8000.m3u) | ✅ | dead | no channels played in VLC |
+| 16 | `edgestream3.pro` | [Open](playlists/by-provider/edgestream3.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
 | 14 | `2k.tstvs` | [Open](playlists/by-provider/2k.tstvs.m3u) | ✅ | dead | no channels played in vlc |
 | 14 | `trxad.top:80` | [Open](playlists/by-provider/trxad.top_80.m3u) | ✅ | dead | no channels played in vlc |
+| 12 | `stream-us-east-1.getpublica` | [Open](playlists/by-provider/stream-us-east-1.getpublica.m3u) | ✅ | dead | No channels played in VLC |
+| 11 | `154.197.91.169:8000` | [Open](playlists/by-provider/154.197.91.169_8000.m3u) | ✅ | dead | No channels worked in VLC |
+| 11 | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` | [Open](playlists/by-provider/still-mud-3642.nqanzvyuupxwcahtfq.workers.dev.m3u) | ✅ | dead | No channels worked in VLC |
+| 11 | `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` | [Open](playlists/by-provider/wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev.m3u) | ✅ | dead | No channels worked in VLC |
+| 11 | `wo0dyefk.dienalt` | [Open](playlists/by-provider/wo0dyefk.dienalt.m3u) | ✅ | dead | No channels worked in VLC |
+| 10 | `a-cdn.klowdtv` | [Open](playlists/by-provider/a-cdn.klowdtv.m3u) | ✅ | dead | All channels worked in VLC |
+| 10 | `abcnews-streams.akamaized.net` | [Open](playlists/by-provider/abcnews-streams.akamaized.net.m3u) | ✅ | dead | No channels work in VLC |
+| 10 | `node-8bba18be.4587.website` | [Open](playlists/by-provider/node-8bba18be.4587.website.m3u) | ✅ | dead | No channels work in VLC |
+| 10 | `wp.streamtp.sbs:443` | [Open](playlists/by-provider/wp.streamtp.sbs_443.m3u) | ✅ | dead | No channels played in VLC |
+| 9 | `free.fullspeed.tv` | [Open](playlists/by-provider/free.fullspeed.tv.m3u) | ✅ | dead | No channels work in VLC |

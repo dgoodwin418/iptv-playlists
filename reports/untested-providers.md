@@ -2,27 +2,6 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 58 | `193.47.62.44` |  |
-| 38 | `cdnlivetv.tv` |  |
-| 26 | `edgestream1.pro` |  |
-| 22 | `edgestream2.pro` |  |
-| 16 | `edgestream3.pro` |  |
-| 12 | `stream-us-east-1.getpublica` |  |
-| 12 | `townnews.g-mana.live` |  |
-| 11 | `154.197.91.169:8000` |  |
-| 11 | `cdntv.online` |  |
-| 11 | `jmp2.uk` |  |
-| 11 | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` |  |
-| 11 | `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` |  |
-| 11 | `wo0dyefk.dienalt` |  |
-| 10 | `a-cdn.klowdtv` |  |
-| 10 | `abcnews-streams.akamaized.net` |  |
-| 10 | `node-8bba18be.4587.website` |  |
-| 10 | `qvc-amd-live.akamaized.net` |  |
-| 10 | `service-stitcher.clusters.pluto.tv` |  |
-| 10 | `video.oct.dc.gov` |  |
-| 10 | `wp.streamtp.sbs:443` |  |
-| 9 | `free.fullspeed.tv` |  |
 | 9 | `mediaserver.abnvideos` |  |
 | 9 | `turnerlive.warnermediacdn` |  |
 | 8 | `185.132.134.159:80` |  |

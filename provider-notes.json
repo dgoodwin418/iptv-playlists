@@ -34,55 +34,10 @@
     "status": "working",
     "notes": "Channels play in VLC"
   },
-  "dai.google": {
-    "tested": true,
-    "status": "partial",
-    "notes": "Some of the chanels did not play in VLC"
-  },
-  "2-fss-2.streamhoster": {
-    "tested": true,
-    "status": "partial",
-    "notes": "Some channels did not play in VLC"
-  },
-  "193.47.62.44": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports server"
-  },
-  "cdnlivetv.tv": {
-    "tested": true,
-    "status": "partial",
-    "notes": "Live sports server CDNTV but if event is live channel works"
-  },
-  "edgestream1.pro": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports STRMCNTR no links working"
-  },
-  "edgestream2.pro": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports STRMCNTR no links working"
-  },
-  "edgestream3.pro": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports STRMCNTR no links working"
-  },
-  "stream-us-east-1.getpublica": {
-    "tested": true,
-    "status": "dead",
-    "notes": "No channels played in VLC"
-  },
   "townnews.g-mana.live": {
     "tested": true,
     "status": "working",
     "notes": "All channels played in VLC"
-  },
-  "154.197.91.169:8000": {
-    "tested": true,
-    "status": "dead",
-    "notes": "No channels worked in VLC"
   },
   "cdntv.online": {
     "tested": true,
@@ -93,36 +48,6 @@
     "tested": true,
     "status": "working",
     "notes": "All channels worked in VLC"
-  },
-  "still-mud-3642.nqanzvyuupxwcahtfq.workers.dev": {
-    "tested": true,
-    "status": "dead",
-    "notes": "No channels worked in VLC"
-  },
-  "wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev": {
-    "tested": true,
-    "status": "dead",
-    "notes": "No channels worked in VLC"
-  },
-  "wo0dyefk.dienalt": {
-    "tested": true,
-    "status": "dead",
-    "notes": "No channels worked in VLC"
-  },
-  "a-cdn.klowdtv": {
-    "tested": true,
-    "status": "dead",
-    "notes": "All channels worked in VLC"
-  },
-  "abcnews-streams.akamaized.net": {
-    "tested": true,
-    "status": "dead",
-    "notes": "No channels work in VLC"
-  },
-  "node-8bba18be.4587.website": {
-    "tested": true,
-    "status": "dead",
-    "notes": "No channels work in VLC"
   },
   "qvc-amd-live.akamaized.net": {
     "tested": true,
@@ -139,15 +64,20 @@
     "status": "working",
     "notes": "All channels work in VLC"
   },
-  "wp.streamtp.sbs:443": {
+  "cdnlivetv.tv": {
     "tested": true,
-    "status": "dead",
-    "notes": "No channels played in VLC"
+    "status": "partial",
+    "notes": "Live sports server CDNTV but if event is live channel works"
   },
-  "free.fullspeed.tv": {
+  "dai.google": {
     "tested": true,
-    "status": "dead",
-    "notes": "No channels work in VLC"
+    "status": "partial",
+    "notes": "Some of the chanels did not play in VLC"
+  },
+  "2-fss-2.streamhoster": {
+    "tested": true,
+    "status": "partial",
+    "notes": "Some channels did not play in VLC"
   },
   "mediaserver.abnvideos": {
     "tested": false,
@@ -3594,6 +3524,11 @@
     "status": "dead",
     "notes": "Server for live sporting events."
   },
+  "193.47.62.44": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports server"
+  },
   "193.47.62.41": {
     "tested": true,
     "status": "dead",
@@ -3629,6 +3564,16 @@
     "status": "dead",
     "notes": "None of the channels played in VLC"
   },
+  "edgestream1.pro": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports STRMCNTR no links working"
+  },
+  "edgestream2.pro": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports STRMCNTR no links working"
+  },
   "a.jsrdn": {
     "tested": true,
     "status": "dead",
@@ -3639,6 +3584,11 @@
     "status": "dead",
     "notes": "no channels played in VLC"
   },
+  "edgestream3.pro": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports STRMCNTR no links working"
+  },
   "2k.tstvs": {
     "tested": true,
     "status": "dead",
@@ -3648,5 +3598,55 @@
     "tested": true,
     "status": "dead",
     "notes": "no channels played in vlc"
+  },
+  "stream-us-east-1.getpublica": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels played in VLC"
+  },
+  "154.197.91.169:8000": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels worked in VLC"
+  },
+  "still-mud-3642.nqanzvyuupxwcahtfq.workers.dev": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels worked in VLC"
+  },
+  "wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels worked in VLC"
+  },
+  "wo0dyefk.dienalt": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels worked in VLC"
+  },
+  "a-cdn.klowdtv": {
+    "tested": true,
+    "status": "dead",
+    "notes": "All channels worked in VLC"
+  },
+  "abcnews-streams.akamaized.net": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels work in VLC"
+  },
+  "node-8bba18be.4587.website": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels work in VLC"
+  },
+  "wp.streamtp.sbs:443": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels played in VLC"
+  },
+  "free.fullspeed.tv": {
+    "tested": true,
+    "status": "dead",
+    "notes": "No channels work in VLC"
   }
 }
