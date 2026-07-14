@@ -1,22 +1,21 @@
 # Provider Testing Report
 
-**Last updated:** 2026-07-13 12:37 UTC
+**Last updated:** 2026-07-14 02:30 UTC
 
-- Providers found: **717**
-- Provider playlists generated: **83**
-- Working: **13**
-- Partial: **3**
-- Untested: **675**
-- Dead: **26**
+- Providers found: **722**
+- Provider playlists generated: **79**
+- Working: **15**
+- Partial: **2**
+- Untested: **674**
+- Dead: **31**
 
 Edit `provider-notes.json` after testing each provider.
 
 | Channels | Provider | Playlist | Tested | Status | Notes |
 |---:|---|---|:---:|---|---|
-| 51 | `FREE3` | [Open](playlists/by-provider/FREE3.m3u) | ✅ | working | Works well |
-| 47 | `s.rocketdns.info:8080` | [Open](playlists/by-provider/s.rocketdns.info_8080.m3u) | ✅ | working | Works in Kodi |
+| 62 | `s.rocketdns.info:8080` | [Open](playlists/by-provider/s.rocketdns.info_8080.m3u) | ✅ | working | Works in Kodi |
+| 57 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ✅ | working | All of the tested channels worked in VLC |
 | 39 | `rpn.bozztv` | [Open](playlists/by-provider/rpn.bozztv.m3u) | ✅ | working | All of the tested channels worked in VLC |
-| 34 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ✅ | working | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | [Open](playlists/by-provider/adultswim-vodlive.cdn.turner.m3u) | ✅ | working | All channels played in VLC |
 | 13 | `live.corusdigitaldev` | [Open](playlists/by-provider/live.corusdigitaldev.m3u) | ✅ | working | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | [Open](playlists/by-provider/2-fss-1.streamhoster.m3u) | ✅ | working | Channels play in VLC |
@@ -26,17 +25,11 @@ Edit `provider-notes.json` after testing each provider.
 | 10 | `qvc-amd-live.akamaized.net` | [Open](playlists/by-provider/qvc-amd-live.akamaized.net.m3u) | ✅ | working | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | [Open](playlists/by-provider/service-stitcher.clusters.pluto.tv.m3u) | ✅ | working | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | [Open](playlists/by-provider/video.oct.dc.gov.m3u) | ✅ | working | All channels work in VLC |
+| 9 | `turnerlive.warnermediacdn` | [Open](playlists/by-provider/turnerlive.warnermediacdn.m3u) | ✅ | working | All channels work in VLC |
+| 8 | `FREE3` | [Open](playlists/by-provider/FREE3.m3u) | ✅ | working | Works well |
+| 8 | `lotus.stingray` | [Open](playlists/by-provider/lotus.stingray.m3u) | ✅ | working | All channels work in VLC |
 | 24 | `dai.google` | [Open](playlists/by-provider/dai.google.m3u) | ✅ | partial | Some of the chanels did not play in VLC |
 | 21 | `2-fss-2.streamhoster` | [Open](playlists/by-provider/2-fss-2.streamhoster.m3u) | ✅ | partial | Some channels did not play in VLC |
-| 2 | `cdnlivetv.tv` | Not generated | ✅ | partial | Live sports server CDNTV but if event is live channel works |
-| 9 | `mediaserver.abnvideos` | [Open](playlists/by-provider/mediaserver.abnvideos.m3u) | ⬜ | untested |  |
-| 9 | `turnerlive.warnermediacdn` | [Open](playlists/by-provider/turnerlive.warnermediacdn.m3u) | ⬜ | untested |  |
-| 8 | `185.132.134.159:80` | [Open](playlists/by-provider/185.132.134.159_80.m3u) | ⬜ | untested |  |
-| 8 | `212.102.60.231` | [Open](playlists/by-provider/212.102.60.231.m3u) | ⬜ | untested |  |
-| 8 | `cdn.vegasplus.us` | [Open](playlists/by-provider/cdn.vegasplus.us.m3u) | ⬜ | untested |  |
-| 8 | `lotus.stingray` | [Open](playlists/by-provider/lotus.stingray.m3u) | ⬜ | untested |  |
-| 8 | `pw.streamtp.sbs:443` | [Open](playlists/by-provider/pw.streamtp.sbs_443.m3u) | ⬜ | untested |  |
-| 8 | `Spanish` | [Open](playlists/by-provider/Spanish.m3u) | ⬜ | untested |  |
 | 7 | `77.46.130.252:99` | [Open](playlists/by-provider/77.46.130.252_99.m3u) | ⬜ | untested |  |
 | 7 | `bozztv` | [Open](playlists/by-provider/bozztv.m3u) | ⬜ | untested |  |
 | 7 | `castus-vod-dev.s3.amazonaws` | [Open](playlists/by-provider/castus-vod-dev.s3.amazonaws.m3u) | ⬜ | untested |  |
@@ -50,7 +43,7 @@ Edit `provider-notes.json` after testing each provider.
 | 6 | `bcovlive-a.akamaihd.net` | [Open](playlists/by-provider/bcovlive-a.akamaihd.net.m3u) | ⬜ | untested |  |
 | 6 | `ca1.buximedia` | [Open](playlists/by-provider/ca1.buximedia.m3u) | ⬜ | untested |  |
 | 6 | `cdn.klowdtv.net` | [Open](playlists/by-provider/cdn.klowdtv.net.m3u) | ⬜ | untested |  |
-| 6 | `lb2.wfty.st` | [Open](playlists/by-provider/lb2.wfty.st.m3u) | ⬜ | untested |  |
+| 6 | `pul-tenm.gkykp` | [Open](playlists/by-provider/pul-tenm.gkykp.m3u) | ⬜ | untested |  |
 | 6 | `reflect-npa.cablecast.tv` | [Open](playlists/by-provider/reflect-npa.cablecast.tv.m3u) | ⬜ | untested |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` | [Open](playlists/by-provider/reflect-stream-bronxnet.cablecast.tv.m3u) | ⬜ | untested |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` | [Open](playlists/by-provider/reflect-vod-cmac.cablecast.tv.m3u) | ⬜ | untested |  |
@@ -74,6 +67,7 @@ Edit `provider-notes.json` after testing each provider.
 | 4 | `135.125.109.73:9000` | Not generated | ⬜ | untested |  |
 | 4 | `178.23.88.55` | Not generated | ⬜ | untested |  |
 | 4 | `188.191.160.238:7780` | Not generated | ⬜ | untested |  |
+| 4 | `193.47.62.194` | Not generated | ⬜ | untested |  |
 | 4 | `84.54.128.52:9090` | Not generated | ⬜ | untested |  |
 | 4 | `agp-nimble.streamguys1` | Not generated | ⬜ | untested |  |
 | 4 | `api.new.livestream` | Not generated | ⬜ | untested |  |
@@ -83,7 +77,9 @@ Edit `provider-notes.json` after testing each provider.
 | 4 | `cbsnewshd-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
 | 4 | `cdn-unified-hls.streamspot` | Not generated | ⬜ | untested |  |
 | 4 | `cdn.igocast` | Not generated | ⬜ | untested |  |
+| 4 | `cdn1.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
 | 4 | `cdn4.skygo.mn` | Not generated | ⬜ | untested |  |
+| 4 | `cdn9.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
 | 4 | `citynewsregional.akamaized.net` | Not generated | ⬜ | untested |  |
 | 4 | `cnngo1.akamaized.net` | Not generated | ⬜ | untested |  |
 | 4 | `fastly.live.brightcove` | Not generated | ⬜ | untested |  |
@@ -91,7 +87,6 @@ Edit `provider-notes.json` after testing each provider.
 | 4 | `hls-cdn.tvstartup.net` | Not generated | ⬜ | untested |  |
 | 4 | `live20.bozztv` | Not generated | ⬜ | untested |  |
 | 4 | `moiptvhls-i.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 4 | `pul-tenm.gkykp` | Not generated | ⬜ | untested |  |
 | 4 | `reflect-bayarea.cablecast.tv` | Not generated | ⬜ | untested |  |
 | 4 | `reflect-creatv.cablecast.tv` | Not generated | ⬜ | untested |  |
 | 4 | `reflect-jacksonville.cablecast.tv` | Not generated | ⬜ | untested |  |
@@ -106,11 +101,13 @@ Edit `provider-notes.json` after testing each provider.
 | 3 | `217.174.225.146` | Not generated | ⬜ | untested |  |
 | 3 | `23.88.66.93` | Not generated | ⬜ | untested |  |
 | 3 | `30a-tv` | Not generated | ⬜ | untested |  |
+| 3 | `40.160.24.55` | Not generated | ⬜ | untested |  |
 | 3 | `96.68.164.217` | Not generated | ⬜ | untested |  |
 | 3 | `99.27.51.147:8080` | Not generated | ⬜ | untested |  |
 | 3 | `ampmedia.secure.footprint.net` | Not generated | ⬜ | untested |  |
 | 3 | `cdn-atxn-01.vos360.video` | Not generated | ⬜ | untested |  |
 | 3 | `cdn.jaybirdtv` | Not generated | ⬜ | untested |  |
+| 3 | `cdn.telecloud.tv` | Not generated | ⬜ | untested |  |
 | 3 | `ch8reflector.longmontpublicmedia` | Not generated | ⬜ | untested |  |
 | 3 | `cineverse.g-mana.live` | Not generated | ⬜ | untested |  |
 | 3 | `dvr2.kablova.tv` | Not generated | ⬜ | untested |  |
@@ -137,7 +134,11 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `190.0.247.38:8000` | Not generated | ⬜ | untested |  |
 | 2 | `190.117.20.37:8000` | Not generated | ⬜ | untested |  |
 | 2 | `193.25.8.59:8000` | Not generated | ⬜ | untested |  |
+| 2 | `193.47.62.42` | Not generated | ⬜ | untested |  |
+| 2 | `193.47.62.54` | Not generated | ⬜ | untested |  |
 | 2 | `201.230.121.85:8000` | Not generated | ⬜ | untested |  |
+| 2 | `247.xyzstreams.st` | Not generated | ⬜ | untested |  |
+| 2 | `247v2.xyzstreams.st` | Not generated | ⬜ | untested |  |
 | 2 | `32tech0steam0dp01` | Not generated | ⬜ | untested |  |
 | 2 | `40.160.24.53` | Not generated | ⬜ | untested |  |
 | 2 | `46.149.191.217:9010` | Not generated | ⬜ | untested |  |
@@ -157,9 +158,11 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `catchup.videoline.ru` | Not generated | ⬜ | untested |  |
 | 2 | `cdn.appv.jagobd.com:444` | Not generated | ⬜ | untested |  |
 | 2 | `cdn1.karwan.tv` | Not generated | ⬜ | untested |  |
-| 2 | `cdn1.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
+| 2 | `cdn10.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
 | 2 | `cdn13.crtvnoc` | Not generated | ⬜ | untested |  |
+| 2 | `cdn2.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
 | 2 | `cdn4.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
+| 2 | `cdn5.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
 | 2 | `cdn6.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
 | 2 | `cdnapisec.kaltura` | Not generated | ⬜ | untested |  |
 | 2 | `ch8.littletongov` | Not generated | ⬜ | untested |  |
@@ -168,15 +171,14 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `cors-proxy.cooks.fyi` | Not generated | ⬜ | untested |  |
 | 2 | `cs.ebmcdn.net` | Not generated | ⬜ | untested |  |
 | 2 | `ctntv.getstreamhosting.com:1936` | Not generated | ⬜ | untested |  |
-| 2 | `eWVz.fubo18.com:443` | Not generated | ⬜ | untested |  |
 | 2 | `fl1002.bozztv` | Not generated | ⬜ | untested |  |
 | 2 | `granicusliveus1-a.akamaihd.net` | Not generated | ⬜ | untested |  |
 | 2 | `granicusliveus2-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 2 | `hls.live123.fans` | Not generated | ⬜ | untested |  |
 | 2 | `hls.youtb.workers.dev` | Not generated | ⬜ | untested |  |
 | 2 | `install.akctvcontrol` | Not generated | ⬜ | untested |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` | Not generated | ⬜ | untested |  |
-| 2 | `lb1.wfty.st` | Not generated | ⬜ | untested |  |
+| 2 | `lb2.wfty.st` | Not generated | ⬜ | untested |  |
+| 2 | `lb3.wfty.st` | Not generated | ⬜ | untested |  |
 | 2 | `lb6.wfty.st` | Not generated | ⬜ | untested |  |
 | 2 | `lin12.isilive.ca` | Not generated | ⬜ | untested |  |
 | 2 | `linear-11.frequency.stream` | Not generated | ⬜ | untested |  |
@@ -292,7 +294,6 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `2nbyjjx7y53k-hls-live.5centscdn` | Not generated | ⬜ | untested |  |
 | 1 | `369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
 | 1 | `3abn-live.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `40.160.24.55` | Not generated | ⬜ | untested |  |
 | 1 | `45.228.233.254:18000` | Not generated | ⬜ | untested |  |
 | 1 | `45.5.117.57:8200` | Not generated | ⬜ | untested |  |
 | 1 | `45.5.119.43:4000` | Not generated | ⬜ | untested |  |
@@ -578,7 +579,6 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `pb-jc9emctsujawo.akamaized.net` | Not generated | ⬜ | untested |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` | Not generated | ⬜ | untested |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `playztv.pages.dev` | Not generated | ⬜ | untested |  |
 | 1 | `plextv.ott-channels.stingray` | Not generated | ⬜ | untested |  |
 | 1 | `previewchannel-previewchannel-1.vizio.wurl` | Not generated | ⬜ | untested |  |
 | 1 | `pubgfc.teleosmedia` | Not generated | ⬜ | untested |  |
@@ -707,18 +707,17 @@ Edit `provider-notes.json` after testing each provider.
 | 78 | `streams2.sofast.tv` | [Open](playlists/by-provider/streams2.sofast.tv.m3u) | ✅ | dead | Server for live sporting events. |
 | 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ✅ | dead | none of the channels played in VLC |
 | 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ✅ | dead | none of the channels played in VLC |
-| 34 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |
 | 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ✅ | dead | None of the channels played in VLC |
-| 32 | `webcast-origin.b-cdn.net` | [Open](playlists/by-provider/webcast-origin.b-cdn.net.m3u) | ✅ | dead | Live sports server |
+| 30 | `193.47.62.44` | [Open](playlists/by-provider/193.47.62.44.m3u) | ✅ | dead | Live sports server |
 | 29 | `169.150.223.25` | [Open](playlists/by-provider/169.150.223.25.m3u) | ✅ | dead | None of the channels played in VLC |
-| 22 | `edgestream1.pro` | [Open](playlists/by-provider/edgestream1.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
+| 26 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |
 | 20 | `a.jsrdn` | [Open](playlists/by-provider/a.jsrdn.m3u) | ✅ | dead | None of the channels played in VLC |
-| 20 | `edgestream3.pro` | [Open](playlists/by-provider/edgestream3.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
 | 17 | `77.137.40.221:8000` | [Open](playlists/by-provider/77.137.40.221_8000.m3u) | ✅ | dead | no channels played in VLC |
-| 16 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ✅ | dead | 403 and does not play in Kodi. Server for live sporting events |
 | 14 | `2k.tstvs` | [Open](playlists/by-provider/2k.tstvs.m3u) | ✅ | dead | no channels played in vlc |
-| 14 | `edgestream2.pro` | [Open](playlists/by-provider/edgestream2.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
 | 14 | `trxad.top:80` | [Open](playlists/by-provider/trxad.top_80.m3u) | ✅ | dead | no channels played in vlc |
+| 12 | `edgestream1.pro` | [Open](playlists/by-provider/edgestream1.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
+| 12 | `edgestream2.pro` | [Open](playlists/by-provider/edgestream2.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
+| 12 | `pw.streamtp.sbs:443` | [Open](playlists/by-provider/pw.streamtp.sbs_443.m3u) | ✅ | dead | Live Sports Server |
 | 12 | `stream-us-east-1.getpublica` | [Open](playlists/by-provider/stream-us-east-1.getpublica.m3u) | ✅ | dead | No channels played in VLC |
 | 11 | `154.197.91.169:8000` | [Open](playlists/by-provider/154.197.91.169_8000.m3u) | ✅ | dead | No channels worked in VLC |
 | 11 | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` | [Open](playlists/by-provider/still-mud-3642.nqanzvyuupxwcahtfq.workers.dev.m3u) | ✅ | dead | No channels worked in VLC |
@@ -726,7 +725,13 @@ Edit `provider-notes.json` after testing each provider.
 | 11 | `wo0dyefk.dienalt` | [Open](playlists/by-provider/wo0dyefk.dienalt.m3u) | ✅ | dead | No channels worked in VLC |
 | 10 | `a-cdn.klowdtv` | [Open](playlists/by-provider/a-cdn.klowdtv.m3u) | ✅ | dead | All channels worked in VLC |
 | 10 | `abcnews-streams.akamaized.net` | [Open](playlists/by-provider/abcnews-streams.akamaized.net.m3u) | ✅ | dead | No channels work in VLC |
-| 10 | `chatgpt.hereisman.net` | [Open](playlists/by-provider/chatgpt.hereisman.net.m3u) | ✅ | dead | Live sports server |
 | 9 | `free.fullspeed.tv` | [Open](playlists/by-provider/free.fullspeed.tv.m3u) | ✅ | dead | No channels work in VLC |
-| 8 | `wp.streamtp.sbs:443` | [Open](playlists/by-provider/wp.streamtp.sbs_443.m3u) | ✅ | dead | No channels played in VLC |
-| 6 | `193.47.62.44` | [Open](playlists/by-provider/193.47.62.44.m3u) | ✅ | dead | Live sports server |
+| 9 | `mediaserver.abnvideos` | [Open](playlists/by-provider/mediaserver.abnvideos.m3u) | ✅ | dead | no channels work in VLC |
+| 8 | `185.132.134.159:80` | [Open](playlists/by-provider/185.132.134.159_80.m3u) | ✅ | dead | No channels work in VLC |
+| 8 | `212.102.60.231` | [Open](playlists/by-provider/212.102.60.231.m3u) | ✅ | dead | No channels work in VLC |
+| 8 | `cdn.vegasplus.us` | [Open](playlists/by-provider/cdn.vegasplus.us.m3u) | ✅ | dead | No channels work in VLC |
+| 8 | `Spanish` | [Open](playlists/by-provider/Spanish.m3u) | ✅ | dead | No channels work in VLC |
+| 6 | `edgestream3.pro` | [Open](playlists/by-provider/edgestream3.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
+| 4 | `wp.streamtp.sbs:443` | Not generated | ✅ | dead | No channels played in VLC |
+| 2 | `chatgpt.hereisman.net` | Not generated | ✅ | dead | Live sports server |
+| 2 | `webcast-origin.b-cdn.net` | Not generated | ✅ | dead | Live sports server |
