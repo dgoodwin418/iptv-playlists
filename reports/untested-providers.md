@@ -2,6 +2,7 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
+| 10 | `193.47.62.41` |  |
 | 7 | `77.46.130.252:99` |  |
 | 7 | `bozztv` |  |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
@@ -15,7 +16,6 @@
 | 6 | `bcovlive-a.akamaihd.net` |  |
 | 6 | `ca1.buximedia` |  |
 | 6 | `cdn.klowdtv.net` |  |
-| 6 | `pul-tenm.gkykp` |  |
 | 6 | `reflect-npa.cablecast.tv` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
@@ -39,7 +39,6 @@
 | 4 | `135.125.109.73:9000` |  |
 | 4 | `178.23.88.55` |  |
 | 4 | `188.191.160.238:7780` |  |
-| 4 | `193.47.62.194` |  |
 | 4 | `84.54.128.52:9090` |  |
 | 4 | `agp-nimble.streamguys1` |  |
 | 4 | `api.new.livestream` |  |
@@ -50,13 +49,15 @@
 | 4 | `cdn-unified-hls.streamspot` |  |
 | 4 | `cdn.igocast` |  |
 | 4 | `cdn1.zohanayaan.com:1686` |  |
+| 4 | `cdn2.zohanayaan.com:1686` |  |
 | 4 | `cdn4.skygo.mn` |  |
-| 4 | `cdn9.zohanayaan.com:1686` |  |
 | 4 | `citynewsregional.akamaized.net` |  |
 | 4 | `cnngo1.akamaized.net` |  |
 | 4 | `fastly.live.brightcove` |  |
 | 4 | `granicusliveus3-a.akamaihd.net` |  |
 | 4 | `hls-cdn.tvstartup.net` |  |
+| 4 | `lb2.wfty.st` |  |
+| 4 | `lb4.wfty.st` |  |
 | 4 | `live20.bozztv` |  |
 | 4 | `moiptvhls-i.akamaihd.net` |  |
 | 4 | `reflect-bayarea.cablecast.tv` |  |
@@ -106,11 +107,8 @@
 | 2 | `190.0.247.38:8000` |  |
 | 2 | `190.117.20.37:8000` |  |
 | 2 | `193.25.8.59:8000` |  |
-| 2 | `193.47.62.42` |  |
-| 2 | `193.47.62.54` |  |
+| 2 | `193.47.62.55` |  |
 | 2 | `201.230.121.85:8000` |  |
-| 2 | `247.xyzstreams.st` |  |
-| 2 | `247v2.xyzstreams.st` |  |
 | 2 | `32tech0steam0dp01` |  |
 | 2 | `40.160.24.53` |  |
 | 2 | `46.149.191.217:9010` |  |
@@ -130,13 +128,11 @@
 | 2 | `catchup.videoline.ru` |  |
 | 2 | `cdn.appv.jagobd.com:444` |  |
 | 2 | `cdn1.karwan.tv` |  |
-| 2 | `cdn10.zohanayaan.com:1686` |  |
 | 2 | `cdn13.crtvnoc` |  |
-| 2 | `cdn2.zohanayaan.com:1686` |  |
-| 2 | `cdn4.zohanayaan.com:1686` |  |
 | 2 | `cdn5.zohanayaan.com:1686` |  |
-| 2 | `cdn6.zohanayaan.com:1686` |  |
+| 2 | `cdn7.zohanayaan.com:1686` |  |
 | 2 | `cdnapisec.kaltura` |  |
+| 2 | `cdnlivetv.tv` |  |
 | 2 | `ch8.littletongov` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
 | 2 | `concordca.cablecast.tv` |  |
@@ -149,9 +145,6 @@
 | 2 | `hls.youtb.workers.dev` |  |
 | 2 | `install.akctvcontrol` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
-| 2 | `lb2.wfty.st` |  |
-| 2 | `lb3.wfty.st` |  |
-| 2 | `lb6.wfty.st` |  |
 | 2 | `lin12.isilive.ca` |  |
 | 2 | `linear-11.frequency.stream` |  |
 | 2 | `linear-253.frequency.stream` |  |
@@ -200,6 +193,7 @@
 | 2 | `tbn-jw.cdn.vustreams` |  |
 | 2 | `temp3.isilive.ca` |  |
 | 2 | `thegateway.app` |  |
+| 2 | `trophystream` |  |
 | 2 | `vallejo.cablecast.tv` |  |
 | 2 | `vbfast-c.viebit` |  |
 | 2 | `video1.getstreamhosting.com:1936` |  |
@@ -551,6 +545,7 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
+| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `previewchannel-previewchannel-1.vizio.wurl` |  |
 | 1 | `pubgfc.teleosmedia` |  |

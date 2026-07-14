@@ -84,6 +84,11 @@
     "status": "partial",
     "notes": "Some channels did not play in VLC"
   },
+  "193.47.62.41": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
   "77.46.130.252:99": {
     "tested": false,
     "status": "untested",
@@ -145,11 +150,6 @@
     "notes": ""
   },
   "cdn.klowdtv.net": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "pul-tenm.gkykp": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -269,11 +269,6 @@
     "status": "untested",
     "notes": ""
   },
-  "193.47.62.194": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "84.54.128.52:9090": {
     "tested": false,
     "status": "untested",
@@ -324,12 +319,12 @@
     "status": "untested",
     "notes": ""
   },
-  "cdn4.skygo.mn": {
+  "cdn2.zohanayaan.com:1686": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
-  "cdn9.zohanayaan.com:1686": {
+  "cdn4.skygo.mn": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -355,6 +350,16 @@
     "notes": ""
   },
   "hls-cdn.tvstartup.net": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "lb2.wfty.st": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "lb4.wfty.st": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -604,27 +609,12 @@
     "status": "untested",
     "notes": ""
   },
-  "193.47.62.42": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "193.47.62.54": {
+  "193.47.62.55": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "201.230.121.85:8000": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "247.xyzstreams.st": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "247v2.xyzstreams.st": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -724,22 +714,7 @@
     "status": "untested",
     "notes": ""
   },
-  "cdn10.zohanayaan.com:1686": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
   "cdn13.crtvnoc": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "cdn2.zohanayaan.com:1686": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "cdn4.zohanayaan.com:1686": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -749,12 +724,17 @@
     "status": "untested",
     "notes": ""
   },
-  "cdn6.zohanayaan.com:1686": {
+  "cdn7.zohanayaan.com:1686": {
     "tested": false,
     "status": "untested",
     "notes": ""
   },
   "cdnapisec.kaltura": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "cdnlivetv.tv": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -815,21 +795,6 @@
     "notes": ""
   },
   "jk3lzkn4lw79-hls-live.5centscdn": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "lb2.wfty.st": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "lb3.wfty.st": {
-    "tested": false,
-    "status": "untested",
-    "notes": ""
-  },
-  "lb6.wfty.st": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -1070,6 +1035,11 @@
     "notes": ""
   },
   "thegateway.app": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
+  "trophystream": {
     "tested": false,
     "status": "untested",
     "notes": ""
@@ -2829,6 +2799,11 @@
     "status": "untested",
     "notes": ""
   },
+  "playztv.pages.dev": {
+    "tested": false,
+    "status": "untested",
+    "notes": ""
+  },
   "plextv.ott-channels.stingray": {
     "tested": false,
     "status": "untested",
@@ -3474,20 +3449,15 @@
     "status": "dead",
     "notes": "None of the channels played in VLC"
   },
-  "193.47.62.44": {
+  "khala.skylivehd": {
     "tested": true,
     "status": "dead",
-    "notes": "Live sports server"
+    "notes": "Server for live sporting events."
   },
   "169.150.223.25": {
     "tested": true,
     "status": "dead",
     "notes": "None of the channels played in VLC"
-  },
-  "khala.skylivehd": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Server for live sporting events."
   },
   "a.jsrdn": {
     "tested": true,
@@ -3499,6 +3469,11 @@
     "status": "dead",
     "notes": "no channels played in VLC"
   },
+  "edgestream3.pro": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports STRMCNTR no links working"
+  },
   "2k.tstvs": {
     "tested": true,
     "status": "dead",
@@ -3509,20 +3484,15 @@
     "status": "dead",
     "notes": "no channels played in vlc"
   },
-  "edgestream1.pro": {
+  "wp.streamtp.sbs:443": {
     "tested": true,
     "status": "dead",
-    "notes": "Live sports STRMCNTR no links working"
+    "notes": "No channels played in VLC"
   },
-  "edgestream2.pro": {
+  "chatgpt.hereisman.net": {
     "tested": true,
     "status": "dead",
-    "notes": "Live sports STRMCNTR no links working"
-  },
-  "pw.streamtp.sbs:443": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live Sports Server"
+    "notes": "Live sports server"
   },
   "stream-us-east-1.getpublica": {
     "tested": true,
@@ -3548,6 +3518,11 @@
     "tested": true,
     "status": "dead",
     "notes": "No channels worked in VLC"
+  },
+  "193.47.62.44": {
+    "tested": true,
+    "status": "dead",
+    "notes": "Live sports server"
   },
   "a-cdn.klowdtv": {
     "tested": true,
@@ -3589,20 +3564,15 @@
     "status": "dead",
     "notes": "No channels work in VLC"
   },
-  "edgestream3.pro": {
+  "edgestream2.pro": {
     "tested": true,
     "status": "dead",
     "notes": "Live sports STRMCNTR no links working"
   },
-  "wp.streamtp.sbs:443": {
+  "pw.streamtp.sbs:443": {
     "tested": true,
     "status": "dead",
-    "notes": "No channels played in VLC"
-  },
-  "chatgpt.hereisman.net": {
-    "tested": true,
-    "status": "dead",
-    "notes": "Live sports server"
+    "notes": "Live Sports Server"
   },
   "webcast-origin.b-cdn.net": {
     "tested": true,
