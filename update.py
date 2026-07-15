@@ -996,6 +996,30 @@ def remove_old_provider_playlists():
 # Main
 # ---------------------------------------------------------------------
 
+def filter_entries_by_status(
+    enriched_items,
+    provider_notes,
+    allowed_statuses,
+):
+    """
+    Returns stream entries whose providers have one of the requested
+    statuses in provider-notes.json.
+    """
+
+    allowed_statuses = {
+        str(status).strip().lower()
+        for status in allowed_statuses
+    }
+
+    return [
+        entry
+        for entry in enriched_items
+        if provider_status(
+            entry["domain"],
+            provider_notes,
+        ) in allowed_statuses
+    ]
+
 def main():
     print("Downloading source playlist...")
 
