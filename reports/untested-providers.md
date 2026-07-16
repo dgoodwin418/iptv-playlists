@@ -2,8 +2,9 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 12 | `193.47.62.41` |  |
-| 8 | `lb5.wfty.st` |  |
+| 16 | `193.47.62.41` |  |
+| 10 | `edgestream1.pro` |  |
+| 8 | `pul-tenm.gkykp` |  |
 | 7 | `77.46.130.252:99` |  |
 | 7 | `bozztv` |  |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
@@ -17,7 +18,7 @@
 | 6 | `bcovlive-a.akamaihd.net` |  |
 | 6 | `ca1.buximedia` |  |
 | 6 | `cdn.klowdtv.net` |  |
-| 6 | `edgestream1.pro` |  |
+| 6 | `cdn10.zohanayaan.com:1686` |  |
 | 6 | `reflect-npa.cablecast.tv` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
@@ -51,15 +52,15 @@
 | 4 | `cdn-unified-hls.streamspot` |  |
 | 4 | `cdn.igocast` |  |
 | 4 | `cdn4.skygo.mn` |  |
+| 4 | `cdnlivetv.tv` |  |
 | 4 | `citynewsregional.akamaized.net` |  |
 | 4 | `cnngo1.akamaized.net` |  |
 | 4 | `fastly.live.brightcove` |  |
 | 4 | `granicusliveus3-a.akamaihd.net` |  |
 | 4 | `hls-cdn.tvstartup.net` |  |
-| 4 | `instreams.live` |  |
+| 4 | `instreams.pro` |  |
 | 4 | `live20.bozztv` |  |
 | 4 | `moiptvhls-i.akamaihd.net` |  |
-| 4 | `pul-tenm.gkykp` |  |
 | 4 | `reflect-bayarea.cablecast.tv` |  |
 | 4 | `reflect-creatv.cablecast.tv` |  |
 | 4 | `reflect-jacksonville.cablecast.tv` |  |
@@ -127,10 +128,11 @@
 | 2 | `catchup.videoline.ru` |  |
 | 2 | `cdn.appv.jagobd.com:444` |  |
 | 2 | `cdn1.karwan.tv` |  |
+| 2 | `cdn1.zohanayaan.com:1686` |  |
 | 2 | `cdn13.crtvnoc` |  |
-| 2 | `cdn2.zohanayaan.com:1686` |  |
 | 2 | `cdn6.zohanayaan.com:1686` |  |
 | 2 | `cdn7.zohanayaan.com:1686` |  |
+| 2 | `cdn8.zohanayaan.com:1686` |  |
 | 2 | `cdnapisec.kaltura` |  |
 | 2 | `ch8.littletongov` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
@@ -144,9 +146,10 @@
 | 2 | `hls.live123.fans` |  |
 | 2 | `hls.youtb.workers.dev` |  |
 | 2 | `install.akctvcontrol` |  |
-| 2 | `instreams.pro` |  |
+| 2 | `instreams.live` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
-| 2 | `lb4.wfty.st` |  |
+| 2 | `lb3.wfty.st` |  |
+| 2 | `lb5.wfty.st` |  |
 | 2 | `lin12.isilive.ca` |  |
 | 2 | `linear-11.frequency.stream` |  |
 | 2 | `linear-253.frequency.stream` |  |
@@ -195,7 +198,6 @@
 | 2 | `tbn-jw.cdn.vustreams` |  |
 | 2 | `temp3.isilive.ca` |  |
 | 2 | `thegateway.app` |  |
-| 2 | `ubuntu.fromthyheart.site` |  |
 | 2 | `vallejo.cablecast.tv` |  |
 | 2 | `vbfast-c.viebit` |  |
 | 2 | `video1.getstreamhosting.com:1936` |  |
@@ -249,7 +251,6 @@
 | 1 | `190.14.10.19:16000` |  |
 | 1 | `190.242.59.52:8000` |  |
 | 1 | `190.92.10.66:4000` |  |
-| 1 | `193.239.186.231` |  |
 | 1 | `2-fss-1.themediacdn` |  |
 | 1 | `201.230.121.186:8000` |  |
 | 1 | `209.182.219.50:1935` |  |
