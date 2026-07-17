@@ -2,9 +2,11 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 16 | `193.47.62.41` |  |
-| 10 | `edgestream1.pro` |  |
-| 8 | `pul-tenm.gkykp` |  |
+| 26 | `193.47.62.41` |  |
+| 10 | `lb3.wfty.st` |  |
+| 8 | `cdn10.zohanayaan.com:1686` |  |
+| 8 | `cdnlivetv.tv` |  |
+| 8 | `edgestream1.pro` |  |
 | 7 | `77.46.130.252:99` |  |
 | 7 | `bozztv` |  |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
@@ -18,7 +20,9 @@
 | 6 | `bcovlive-a.akamaihd.net` |  |
 | 6 | `ca1.buximedia` |  |
 | 6 | `cdn.klowdtv.net` |  |
-| 6 | `cdn10.zohanayaan.com:1686` |  |
+| 6 | `cdn4.zohanayaan.com:1686` |  |
+| 6 | `cdn9.zohanayaan.com:1686` |  |
+| 6 | `pul-tenm.gkykp` |  |
 | 6 | `reflect-npa.cablecast.tv` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
@@ -52,13 +56,14 @@
 | 4 | `cdn-unified-hls.streamspot` |  |
 | 4 | `cdn.igocast` |  |
 | 4 | `cdn4.skygo.mn` |  |
-| 4 | `cdnlivetv.tv` |  |
+| 4 | `cdn8.zohanayaan.com:1686` |  |
 | 4 | `citynewsregional.akamaized.net` |  |
 | 4 | `cnngo1.akamaized.net` |  |
 | 4 | `fastly.live.brightcove` |  |
 | 4 | `granicusliveus3-a.akamaihd.net` |  |
 | 4 | `hls-cdn.tvstartup.net` |  |
-| 4 | `instreams.pro` |  |
+| 4 | `lb4.wfty.st` |  |
+| 4 | `lb6.wfty.st` |  |
 | 4 | `live20.bozztv` |  |
 | 4 | `moiptvhls-i.akamaihd.net` |  |
 | 4 | `reflect-bayarea.cablecast.tv` |  |
@@ -75,13 +80,11 @@
 | 3 | `217.174.225.146` |  |
 | 3 | `23.88.66.93` |  |
 | 3 | `30a-tv` |  |
-| 3 | `40.160.24.55` |  |
 | 3 | `96.68.164.217` |  |
 | 3 | `99.27.51.147:8080` |  |
 | 3 | `ampmedia.secure.footprint.net` |  |
 | 3 | `cdn-atxn-01.vos360.video` |  |
 | 3 | `cdn.jaybirdtv` |  |
-| 3 | `cdn.telecloud.tv` |  |
 | 3 | `ch8reflector.longmontpublicmedia` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `dvr2.kablova.tv` |  |
@@ -108,6 +111,7 @@
 | 2 | `190.0.247.38:8000` |  |
 | 2 | `190.117.20.37:8000` |  |
 | 2 | `193.25.8.59:8000` |  |
+| 2 | `193.47.62.53` |  |
 | 2 | `201.230.121.85:8000` |  |
 | 2 | `32tech0steam0dp01` |  |
 | 2 | `40.160.24.53` |  |
@@ -123,16 +127,18 @@
 | 2 | `biblescreen.faithlifecdn` |  |
 | 2 | `bit.ly` |  |
 | 2 | `bl.video.matchtv.ru` |  |
+| 2 | `bmf0aw9u.fubo18.com:443` |  |
 | 2 | `brightonco.cablecast.tv` |  |
 | 2 | `buenapark.cablecast.tv` |  |
+| 2 | `c2nvdxq.fubo18.com:443` |  |
 | 2 | `catchup.videoline.ru` |  |
 | 2 | `cdn.appv.jagobd.com:444` |  |
+| 2 | `cdn.telecloud.tv` |  |
 | 2 | `cdn1.karwan.tv` |  |
 | 2 | `cdn1.zohanayaan.com:1686` |  |
 | 2 | `cdn13.crtvnoc` |  |
-| 2 | `cdn6.zohanayaan.com:1686` |  |
-| 2 | `cdn7.zohanayaan.com:1686` |  |
-| 2 | `cdn8.zohanayaan.com:1686` |  |
+| 2 | `cdn2.zohanayaan.com:1686` |  |
+| 2 | `cdn3.zohanayaan.com:1686` |  |
 | 2 | `cdnapisec.kaltura` |  |
 | 2 | `ch8.littletongov` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
@@ -140,15 +146,13 @@
 | 2 | `cors-proxy.cooks.fyi` |  |
 | 2 | `cs.ebmcdn.net` |  |
 | 2 | `ctntv.getstreamhosting.com:1936` |  |
+| 2 | `eWVz.fubo18.com:443` |  |
 | 2 | `fl1002.bozztv` |  |
 | 2 | `granicusliveus1-a.akamaihd.net` |  |
 | 2 | `granicusliveus2-a.akamaihd.net` |  |
-| 2 | `hls.live123.fans` |  |
 | 2 | `hls.youtb.workers.dev` |  |
 | 2 | `install.akctvcontrol` |  |
-| 2 | `instreams.live` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
-| 2 | `lb3.wfty.st` |  |
 | 2 | `lb5.wfty.st` |  |
 | 2 | `lin12.isilive.ca` |  |
 | 2 | `linear-11.frequency.stream` |  |
@@ -263,6 +267,7 @@
 | 1 | `2nbyjjx7y53k-hls-live.5centscdn` |  |
 | 1 | `369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws` |  |
 | 1 | `3abn-live.akamaized.net` |  |
+| 1 | `40.160.24.55` |  |
 | 1 | `45.228.233.254:18000` |  |
 | 1 | `45.5.117.57:8200` |  |
 | 1 | `45.5.119.43:4000` |  |

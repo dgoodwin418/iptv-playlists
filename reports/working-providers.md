@@ -2,9 +2,10 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 63 | `s.rocketdns.info:8080` | Works in Kodi |
-| 57 | `206.212.244.63` | All of the tested channels worked in VLC |
+| 51 | `FREE3` | Works well |
+| 46 | `s.rocketdns.info:8080` | Works in Kodi |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
+| 34 | `206.212.244.63` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
@@ -15,5 +16,4 @@
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
 | 9 | `turnerlive.warnermediacdn` | All channels work in VLC |
-| 8 | `FREE3` | Works well |
 | 8 | `lotus.stingray` | All channels work in VLC |
