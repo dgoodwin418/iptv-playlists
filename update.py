@@ -44,7 +44,7 @@ REPORTS_DIR.mkdir(exist_ok=True)
 
 # Providers with fewer than this number of streams remain in the
 # provider reports, but do not receive an individual provider playlist.
-MIN_PROVIDER_CHANNELS = 5
+MIN_PROVIDER_CHANNELS = 3
 
 # These providers are used for Combined_Selected.m3u and
 # Priority_Clean.m3u.
