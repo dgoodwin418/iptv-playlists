@@ -1,9 +1,9 @@
 # Provider Testing Report
 
-**Last updated:** 2026-07-18 11:12 UTC
+**Last updated:** 2026-07-18 18:20 UTC
 
 - Providers found: **732**
-- Provider playlists generated: **89**
+- Provider playlists generated: **154**
 - Working: **15**
 - Partial: **2**
 - Untested: **686**
@@ -74,71 +74,71 @@ Edit `provider-notes.json` after testing each provider.
 | 5 | `stream.cammonitorplus.net` | [Open](playlists/by-provider/stream.cammonitorplus.net.m3u) | ⬜ | untested |  |
 | 5 | `uvotv-aniview.global.ssl.fastly.net` | [Open](playlists/by-provider/uvotv-aniview.global.ssl.fastly.net.m3u) | ⬜ | untested |  |
 | 5 | `v-pi.theus6tv.tk` | [Open](playlists/by-provider/v-pi.theus6tv.tk.m3u) | ⬜ | untested |  |
-| 4 | `135.125.109.73:9000` | Not generated | ⬜ | untested |  |
-| 4 | `178.23.88.55` | Not generated | ⬜ | untested |  |
-| 4 | `188.191.160.238:7780` | Not generated | ⬜ | untested |  |
-| 4 | `84.54.128.52:9090` | Not generated | ⬜ | untested |  |
-| 4 | `a2lja3m.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 4 | `agp-nimble.streamguys1` | Not generated | ⬜ | untested |  |
-| 4 | `api.new.livestream` | Not generated | ⬜ | untested |  |
-| 4 | `api.toonamiaftermath.com:3000` | Not generated | ⬜ | untested |  |
-| 4 | `bloomberg` | Not generated | ⬜ | untested |  |
-| 4 | `c2nvdxq.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 4 | `cantv.streamguys1` | Not generated | ⬜ | untested |  |
-| 4 | `cbsnewshd-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 4 | `cdn-unified-hls.streamspot` | Not generated | ⬜ | untested |  |
-| 4 | `cdn.igocast` | Not generated | ⬜ | untested |  |
-| 4 | `cdn2.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
-| 4 | `cdn4.skygo.mn` | Not generated | ⬜ | untested |  |
-| 4 | `citynewsregional.akamaized.net` | Not generated | ⬜ | untested |  |
-| 4 | `cnngo1.akamaized.net` | Not generated | ⬜ | untested |  |
-| 4 | `dglvz29s.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 4 | `fastly.live.brightcove` | Not generated | ⬜ | untested |  |
-| 4 | `granicusliveus3-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 4 | `hls-cdn.tvstartup.net` | Not generated | ⬜ | untested |  |
-| 4 | `lb2.wfty.st` | Not generated | ⬜ | untested |  |
-| 4 | `lb3.wfty.st` | Not generated | ⬜ | untested |  |
-| 4 | `lb5.wfty.st` | Not generated | ⬜ | untested |  |
-| 4 | `live20.bozztv` | Not generated | ⬜ | untested |  |
-| 4 | `moiptvhls-i.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 4 | `reflect-bayarea.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 4 | `reflect-creatv.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 4 | `reflect-jacksonville.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 4 | `s3-us-west-2.amazonaws` | Not generated | ⬜ | untested |  |
-| 4 | `shls-masr-ak.akamaized.net` | Not generated | ⬜ | untested |  |
-| 4 | `stvlive.net:8080` | Not generated | ⬜ | untested |  |
-| 4 | `unlimited1-us.dps.live` | Not generated | ⬜ | untested |  |
-| 4 | `www.bloomberg` | Not generated | ⬜ | untested |  |
-| 3 | `167.250.223.26:8085` | Not generated | ⬜ | untested |  |
-| 3 | `185.112.249.46:9981` | Not generated | ⬜ | untested |  |
-| 3 | `200.115.120.1:8000` | Not generated | ⬜ | untested |  |
-| 3 | `217.174.225.146` | Not generated | ⬜ | untested |  |
-| 3 | `23.88.66.93` | Not generated | ⬜ | untested |  |
-| 3 | `30a-tv` | Not generated | ⬜ | untested |  |
-| 3 | `96.68.164.217` | Not generated | ⬜ | untested |  |
-| 3 | `99.27.51.147:8080` | Not generated | ⬜ | untested |  |
-| 3 | `ampmedia.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 3 | `cdn-atxn-01.vos360.video` | Not generated | ⬜ | untested |  |
-| 3 | `cdn.jaybirdtv` | Not generated | ⬜ | untested |  |
-| 3 | `ch8reflector.longmontpublicmedia` | Not generated | ⬜ | untested |  |
-| 3 | `cineverse.g-mana.live` | Not generated | ⬜ | untested |  |
-| 3 | `dvr2.kablova.tv` | Not generated | ⬜ | untested |  |
-| 3 | `dvrfl03.bozztv` | Not generated | ⬜ | untested |  |
-| 3 | `edge1.lifestreamcdn` | Not generated | ⬜ | untested |  |
-| 3 | `eventcdn02-nowe.akamaized.net` | Not generated | ⬜ | untested |  |
-| 3 | `frontdoor.wcat-tv` | Not generated | ⬜ | untested |  |
-| 3 | `hartford-ct.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 3 | `hdtv.prod2.ioio.tv` | Not generated | ⬜ | untested |  |
-| 3 | `hwlive.streamingmediahosting` | Not generated | ⬜ | untested |  |
-| 3 | `lenz.splus.ir` | Not generated | ⬜ | untested |  |
-| 3 | `livecdn.use1-0004.jwplive` | Not generated | ⬜ | untested |  |
-| 3 | `main.light-ott.net:80` | Not generated | ⬜ | untested |  |
-| 3 | `pasadenamed.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 3 | `Pass` | Not generated | ⬜ | untested |  |
-| 3 | `reflect-falmouth.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 3 | `streams.helnix` | Not generated | ⬜ | untested |  |
-| 3 | `temp2.isilive.ca` | Not generated | ⬜ | untested |  |
-| 3 | `video.ct-n` | Not generated | ⬜ | untested |  |
+| 4 | `135.125.109.73:9000` | [Open](playlists/by-provider/135.125.109.73_9000.m3u) | ⬜ | untested |  |
+| 4 | `178.23.88.55` | [Open](playlists/by-provider/178.23.88.55.m3u) | ⬜ | untested |  |
+| 4 | `188.191.160.238:7780` | [Open](playlists/by-provider/188.191.160.238_7780.m3u) | ⬜ | untested |  |
+| 4 | `84.54.128.52:9090` | [Open](playlists/by-provider/84.54.128.52_9090.m3u) | ⬜ | untested |  |
+| 4 | `a2lja3m.fubo18.com:443` | [Open](playlists/by-provider/a2lja3m.fubo18.com_443.m3u) | ⬜ | untested |  |
+| 4 | `agp-nimble.streamguys1` | [Open](playlists/by-provider/agp-nimble.streamguys1.m3u) | ⬜ | untested |  |
+| 4 | `api.new.livestream` | [Open](playlists/by-provider/api.new.livestream.m3u) | ⬜ | untested |  |
+| 4 | `api.toonamiaftermath.com:3000` | [Open](playlists/by-provider/api.toonamiaftermath.com_3000.m3u) | ⬜ | untested |  |
+| 4 | `bloomberg` | [Open](playlists/by-provider/bloomberg.m3u) | ⬜ | untested |  |
+| 4 | `c2nvdxq.fubo18.com:443` | [Open](playlists/by-provider/c2nvdxq.fubo18.com_443.m3u) | ⬜ | untested |  |
+| 4 | `cantv.streamguys1` | [Open](playlists/by-provider/cantv.streamguys1.m3u) | ⬜ | untested |  |
+| 4 | `cbsnewshd-lh.akamaihd.net` | [Open](playlists/by-provider/cbsnewshd-lh.akamaihd.net.m3u) | ⬜ | untested |  |
+| 4 | `cdn-unified-hls.streamspot` | [Open](playlists/by-provider/cdn-unified-hls.streamspot.m3u) | ⬜ | untested |  |
+| 4 | `cdn.igocast` | [Open](playlists/by-provider/cdn.igocast.m3u) | ⬜ | untested |  |
+| 4 | `cdn2.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn2.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
+| 4 | `cdn4.skygo.mn` | [Open](playlists/by-provider/cdn4.skygo.mn.m3u) | ⬜ | untested |  |
+| 4 | `citynewsregional.akamaized.net` | [Open](playlists/by-provider/citynewsregional.akamaized.net.m3u) | ⬜ | untested |  |
+| 4 | `cnngo1.akamaized.net` | [Open](playlists/by-provider/cnngo1.akamaized.net.m3u) | ⬜ | untested |  |
+| 4 | `dglvz29s.fubo18.com:443` | [Open](playlists/by-provider/dglvz29s.fubo18.com_443.m3u) | ⬜ | untested |  |
+| 4 | `fastly.live.brightcove` | [Open](playlists/by-provider/fastly.live.brightcove.m3u) | ⬜ | untested |  |
+| 4 | `granicusliveus3-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus3-a.akamaihd.net.m3u) | ⬜ | untested |  |
+| 4 | `hls-cdn.tvstartup.net` | [Open](playlists/by-provider/hls-cdn.tvstartup.net.m3u) | ⬜ | untested |  |
+| 4 | `lb2.wfty.st` | [Open](playlists/by-provider/lb2.wfty.st.m3u) | ⬜ | untested |  |
+| 4 | `lb3.wfty.st` | [Open](playlists/by-provider/lb3.wfty.st.m3u) | ⬜ | untested |  |
+| 4 | `lb5.wfty.st` | [Open](playlists/by-provider/lb5.wfty.st.m3u) | ⬜ | untested |  |
+| 4 | `live20.bozztv` | [Open](playlists/by-provider/live20.bozztv.m3u) | ⬜ | untested |  |
+| 4 | `moiptvhls-i.akamaihd.net` | [Open](playlists/by-provider/moiptvhls-i.akamaihd.net.m3u) | ⬜ | untested |  |
+| 4 | `reflect-bayarea.cablecast.tv` | [Open](playlists/by-provider/reflect-bayarea.cablecast.tv.m3u) | ⬜ | untested |  |
+| 4 | `reflect-creatv.cablecast.tv` | [Open](playlists/by-provider/reflect-creatv.cablecast.tv.m3u) | ⬜ | untested |  |
+| 4 | `reflect-jacksonville.cablecast.tv` | [Open](playlists/by-provider/reflect-jacksonville.cablecast.tv.m3u) | ⬜ | untested |  |
+| 4 | `s3-us-west-2.amazonaws` | [Open](playlists/by-provider/s3-us-west-2.amazonaws.m3u) | ⬜ | untested |  |
+| 4 | `shls-masr-ak.akamaized.net` | [Open](playlists/by-provider/shls-masr-ak.akamaized.net.m3u) | ⬜ | untested |  |
+| 4 | `stvlive.net:8080` | [Open](playlists/by-provider/stvlive.net_8080.m3u) | ⬜ | untested |  |
+| 4 | `unlimited1-us.dps.live` | [Open](playlists/by-provider/unlimited1-us.dps.live.m3u) | ⬜ | untested |  |
+| 4 | `www.bloomberg` | [Open](playlists/by-provider/www.bloomberg.m3u) | ⬜ | untested |  |
+| 3 | `167.250.223.26:8085` | [Open](playlists/by-provider/167.250.223.26_8085.m3u) | ⬜ | untested |  |
+| 3 | `185.112.249.46:9981` | [Open](playlists/by-provider/185.112.249.46_9981.m3u) | ⬜ | untested |  |
+| 3 | `200.115.120.1:8000` | [Open](playlists/by-provider/200.115.120.1_8000.m3u) | ⬜ | untested |  |
+| 3 | `217.174.225.146` | [Open](playlists/by-provider/217.174.225.146.m3u) | ⬜ | untested |  |
+| 3 | `23.88.66.93` | [Open](playlists/by-provider/23.88.66.93.m3u) | ⬜ | untested |  |
+| 3 | `30a-tv` | [Open](playlists/by-provider/30a-tv.m3u) | ⬜ | untested |  |
+| 3 | `96.68.164.217` | [Open](playlists/by-provider/96.68.164.217.m3u) | ⬜ | untested |  |
+| 3 | `99.27.51.147:8080` | [Open](playlists/by-provider/99.27.51.147_8080.m3u) | ⬜ | untested |  |
+| 3 | `ampmedia.secure.footprint.net` | [Open](playlists/by-provider/ampmedia.secure.footprint.net.m3u) | ⬜ | untested |  |
+| 3 | `cdn-atxn-01.vos360.video` | [Open](playlists/by-provider/cdn-atxn-01.vos360.video.m3u) | ⬜ | untested |  |
+| 3 | `cdn.jaybirdtv` | [Open](playlists/by-provider/cdn.jaybirdtv.m3u) | ⬜ | untested |  |
+| 3 | `ch8reflector.longmontpublicmedia` | [Open](playlists/by-provider/ch8reflector.longmontpublicmedia.m3u) | ⬜ | untested |  |
+| 3 | `cineverse.g-mana.live` | [Open](playlists/by-provider/cineverse.g-mana.live.m3u) | ⬜ | untested |  |
+| 3 | `dvr2.kablova.tv` | [Open](playlists/by-provider/dvr2.kablova.tv.m3u) | ⬜ | untested |  |
+| 3 | `dvrfl03.bozztv` | [Open](playlists/by-provider/dvrfl03.bozztv.m3u) | ⬜ | untested |  |
+| 3 | `edge1.lifestreamcdn` | [Open](playlists/by-provider/edge1.lifestreamcdn.m3u) | ⬜ | untested |  |
+| 3 | `eventcdn02-nowe.akamaized.net` | [Open](playlists/by-provider/eventcdn02-nowe.akamaized.net.m3u) | ⬜ | untested |  |
+| 3 | `frontdoor.wcat-tv` | [Open](playlists/by-provider/frontdoor.wcat-tv.m3u) | ⬜ | untested |  |
+| 3 | `hartford-ct.secure.footprint.net` | [Open](playlists/by-provider/hartford-ct.secure.footprint.net.m3u) | ⬜ | untested |  |
+| 3 | `hdtv.prod2.ioio.tv` | [Open](playlists/by-provider/hdtv.prod2.ioio.tv.m3u) | ⬜ | untested |  |
+| 3 | `hwlive.streamingmediahosting` | [Open](playlists/by-provider/hwlive.streamingmediahosting.m3u) | ⬜ | untested |  |
+| 3 | `lenz.splus.ir` | [Open](playlists/by-provider/lenz.splus.ir.m3u) | ⬜ | untested |  |
+| 3 | `livecdn.use1-0004.jwplive` | [Open](playlists/by-provider/livecdn.use1-0004.jwplive.m3u) | ⬜ | untested |  |
+| 3 | `main.light-ott.net:80` | [Open](playlists/by-provider/main.light-ott.net_80.m3u) | ⬜ | untested |  |
+| 3 | `pasadenamed.secure.footprint.net` | [Open](playlists/by-provider/pasadenamed.secure.footprint.net.m3u) | ⬜ | untested |  |
+| 3 | `Pass` | [Open](playlists/by-provider/Pass.m3u) | ⬜ | untested |  |
+| 3 | `reflect-falmouth.cablecast.tv` | [Open](playlists/by-provider/reflect-falmouth.cablecast.tv.m3u) | ⬜ | untested |  |
+| 3 | `streams.helnix` | [Open](playlists/by-provider/streams.helnix.m3u) | ⬜ | untested |  |
+| 3 | `temp2.isilive.ca` | [Open](playlists/by-provider/temp2.isilive.ca.m3u) | ⬜ | untested |  |
+| 3 | `video.ct-n` | [Open](playlists/by-provider/video.ct-n.m3u) | ⬜ | untested |  |
 | 2 | `0888934ec1a5.us-east-1.playback.live-video.net` | Not generated | ⬜ | untested |  |
 | 2 | `145.239.5.177:80` | Not generated | ⬜ | untested |  |
 | 2 | `151.80.18.177:86` | Not generated | ⬜ | untested |  |
