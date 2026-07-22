@@ -1,8 +1,8 @@
 # EPG Matching Report
 
-- Total streams: **2411**
-- Matched: **278**
-- Unmatched: **2133**
+- Total streams: **2594**
+- Matched: **280**
+- Unmatched: **2314**
 
 ## Unmatched channels
 
@@ -77,6 +77,8 @@
 | ACL Cornhole TV | `1815337252.rsc.cdn77` |
 | Actionable | `stitcheraws.unreel.me` |
 | ACTV | `castus-vod-dev.s3.amazonaws` |
+| Adolfo Daniel Vallejo vs Kilian Feldbausch | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Adolfo Daniel Vallejo vs Kilian Feldbausch | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Adult Swim | `turnerlive.warnermediacdn` |
 | Adult Swim Aqua Teen Hunger Force | `adultswim-vodlive.cdn.turner` |
 | Adult Swim Black Jesus | `adultswim-vodlive.cdn.turner` |
@@ -107,20 +109,28 @@
 | AFV | `dai.google` |
 | AFV en Español | `linear-46.frequency.stream` |
 | AFV Family | `ec4a5bcc9d664b48985de6095931aaa7.mediatailor.us-east-1.amazonaws` |
+| AGF Aarhus vs Lech Poznań | TV3+ HD Denmark (HOOFUT) | `hoofoot.ru` |
+| AGF Aarhus vs Lech Poznań | TV3+ HD Denmark (HOOFUT) | `hoofoot.ru` |
+| AGF Aarhus vs Lech Poznań | TV3+ HD Denmark (HOOFUT) | `hoofoot.ru` |
+| AGF Aarhus vs Lech Poznań | TV3+ HD Denmark (HOOFUT) | `hoofoot.ru` |
+| AGF Aarhus vs Lech Poznań | TVP Sport Poland (HOOFUT) | `hoofoot.ru` |
+| AGF Aarhus vs Lech Poznań | TVP Sport Poland (HOOFUT) | `hoofoot.ru` |
+| AGF Aarhus vs Lech Poznań | TVP Sport Poland (HOOFUT) | `hoofoot.ru` |
+| AGF Aarhus vs Lech Poznań | TVP Sport Poland (HOOFUT) | `hoofoot.ru` |
 | Akaku 53 Hawaii | `castus-vod-dev.s3.amazonaws` |
 | Akaku 54 Hawaii | `castus-vod-dev.s3.amazonaws` |
 | Akaku 55 Hawaii | `castus-vod-dev.s3.amazonaws` |
 | AKC TV | `install.akctvcontrol` |
 | AKC TV Meet The Breeds | `install.akctvcontrol` |
 | Al Horreya | `media.smc-host.com:1935` |
-| Alana Smith / Weronika Falkowska vs Peangtarn Plipuech / Prarthana Thombare | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alana Smith / Weronika Falkowska vs Peangtarn Plipuech / Prarthana Thombare | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alena Kovačková / Jana Kovačková vs Carmen Corley / Catherine Harrison | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alena Kovačková / Jana Kovačková vs Carmen Corley / Catherine Harrison | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alexandre Muller vs Mariano Navone | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alexandre Muller vs Mariano Navone | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alisa Oktiabreva vs Océane Dodin | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alisa Oktiabreva vs Océane Dodin | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alex Michelsen vs Arthur Gea | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alex Michelsen vs Arthur Gea | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alex Molčan vs Sebastian Ofner | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alex Molčan vs Sebastian Ofner | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alexandra Panova / Magali Kempen vs Liang En-shuo (Yu-Yun Li) / Rutuja Bhosale | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alexandra Panova / Magali Kempen vs Liang En-shuo (Yu-Yun Li) / Rutuja Bhosale | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alicia Barnett / Samantha Murray Sharan vs Nikola Bartůňková / Dominika Šalková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Alicia Barnett / Samantha Murray Sharan vs Nikola Bartůňková / Dominika Šalková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Alkarma TV North America | `uvotv-aniview.global.ssl.fastly.net` |
 | Alkeraza TV | `hwlive.streamingmediahosting` |
 | All Arts | `v-ny.theus6tv.tk` |
@@ -128,12 +138,12 @@
 | Almagd TV | `uvotv-aniview.global.ssl.fastly.net` |
 | Always Funny Videos | `cdn.klowdtv.net` |
 | Always Funny Videos (#) | `linear-12.frequency.stream` |
-| Alycia Parks vs Lucie Havlíčková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Alycia Parks vs Lucie Havlíčková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | AMC Absolute Reality | `amc-absolutereality-1-us.plex.wurl.tv` |
 | AMC All Weddings | `amc-allweddings-1-us.plex.wurl.tv` |
 | AMC Presents | `amc-amcpresents-1-us.plex.wurl.tv` |
 | AMC Thrillers | `bit.ly` |
+| America De Cali vs Cartagena (FAWA) | `193.47.62.41` |
+| America De Cali vs Cartagena (FAWA) | `193.47.62.41` |
 | America's Boating Channel | `streams2.sofast.tv` |
 | America's Test Kitchen | `service-stitcher.clusters.pluto.tv` |
 | America's Voice | `p1media-americasvoice-1.roku.wurl` |
@@ -144,18 +154,30 @@
 | American Stories (#) | `linear-1016.frequency.stream` |
 | AMGTV | `2-fss-2.streamhoster` |
 | Amu | `fl1002.bozztv` |
+| América de Cali vs Real Cartagena | ESPAÑOL 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
+| América de Cali vs Real Cartagena | ESPAÑOL 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
+| América de Cali vs Real Cartagena | ESPAÑOL 2 (PLIBRE) | `dglvz29s.fubo18.com:443` |
+| América de Cali vs Real Cartagena | ESPAÑOL 2 (PLIBRE) | `dglvz29s.fubo18.com:443` |
+| América de Cali vs Real Cartagena | Win Sports (STRMXHD) | `khala.skylivehd` |
+| América de Cali vs Real Cartagena | Win Sports (STRMXHD) | `khala.skylivehd` |
+| América de Cali vs Real Cartagena | Win Sports + (STRMXHD) | `khala.skylivehd` |
+| América de Cali vs Real Cartagena | Win Sports + (STRMXHD) | `khala.skylivehd` |
 | América Sports | `free.fullspeed.tv` |
 | América TeVé | `live.gideo.video` |
 | América TeVé | `tgn2.bozztv` |
-| Anna Bondár vs Moyuka Uchijima | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Anna Bondár vs Moyuka Uchijima | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Andrés Martin vs Dane Sweeny | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Andrés Martin vs Dane Sweeny | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Anna Blinkova vs Sara Bejlek | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Anna Blinkova vs Sara Bejlek | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Antenna TV Philadelphia | `v-pi.theus6tv.tk` |
-| Antonia Ružić vs Dominika Šalková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Antonia Ružić vs Dominika Šalková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Apple Valley Channel 180 | `reflect-applevalley.cablecast.tv` |
 | Arab Heritage | `streams2.sofast.tv` |
-| Arantxa Rus vs Chloé Paquet | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Arantxa Rus vs Chloé Paquet | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Arantxa Rus vs Elina Avanesyan | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Arantxa Rus vs Elina Avanesyan | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Ararat-Armenia vs Shamrock Rovers | Canal 11 Portugal (HOOFUT) | `hoofoot.ru` |
+| Ararat-Armenia vs Shamrock Rovers | Canal 11 Portugal (HOOFUT) | `hoofoot.ru` |
+| Ararat-Armenia vs Shamrock Rovers | Canal 11 Portugal (HOOFUT) | `hoofoot.ru` |
+| Ararat-Armenia vs Shamrock Rovers | Canal 11 Portugal (HOOFUT) | `hoofoot.ru` |
 | Architectural Digest | `dai2.xumo` |
 | Arena Premium 1 HD 🇷🇸 | `169.150.223.25` |
 | Arena Premium 1 HD 🇷🇸 | `169.150.223.25` |
@@ -192,12 +214,14 @@
 | Arena_Sport_3 HD 🇷🇸 | `78.108.251.7` |
 | Arena_Sport_4 HD 🇷🇸 | `78.108.251.7` |
 | Arena_Sport_5 HD 🇷🇸 | `78.108.251.7` |
-| Arizona Diamondbacks - Athletics (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
-| Arizona Diamondbacks - Athletics (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
-| Arizona Diamondbacks vs Athletics (FAWA) | `193.47.62.190` |
-| Arizona Diamondbacks vs Athletics (FAWA) | `193.47.62.190` |
+| Arizona Diamondbacks - Athletics (EMBEDHD) | `cdn11.zohanayaan.com:1686` |
+| Arizona Diamondbacks - Athletics (EMBEDHD) | `cdn11.zohanayaan.com:1686` |
+| Arizona Diamondbacks vs Athletics (FAWA) | `193.47.62.41` |
+| Arizona Diamondbacks vs Athletics (FAWA) | `193.47.62.41` |
 | Arizona Diamondbacks vs Athletics (iSTRMEAST) | `chatgpt.hereisman.net` |
 | Arizona Diamondbacks vs Athletics (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Arizona Diamondbacks vs Athletics (WATCHFTY) | `lb4.wfty.st` |
+| Arizona Diamondbacks vs Athletics (WATCHFTY) | `lb4.wfty.st` |
 | Arizona Diamondbacks vs Athletics | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Arizona Diamondbacks vs Athletics | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Arizona Diamondbacks vs Athletics | NBCS California USA (HOOFUT) | `hoofoot.ru` |
@@ -222,133 +246,91 @@
 | Asian Culture TV | `cdn.vegasplus.us` |
 | AsianCrush (#) | `linear-900.frequency.stream` |
 | Aspire | `206.212.244.63` |
-| Astro Cricket | `cdn9.zohanayaan.com:1686` |
+| Astro Cricket | `cdn8.zohanayaan.com:1686` |
 | Asylum | `dai2.xumo` |
 | At Home with Family Handyman | `linear-458.frequency.stream` |
-| Athletics @ Arizona Diamondbacks | English (STRMCNTR) | `edgestream2.pro` |
-| Athletics @ Arizona Diamondbacks | English (STRMCNTR) | `edgestream2.pro` |
+| Atert Bissen vs Győri ETO | M4 Sport Hungary (HOOFUT) | `hoofoot.ru` |
+| Atert Bissen vs Győri ETO | M4 Sport Hungary (HOOFUT) | `hoofoot.ru` |
+| Atert Bissen vs Győri ETO | M4 Sport Hungary (HOOFUT) | `hoofoot.ru` |
+| Atert Bissen vs Győri ETO | M4 Sport Hungary (HOOFUT) | `hoofoot.ru` |
+| Athletics @ Arizona Diamondbacks | English (STRMCNTR) | `edgestream3.pro` |
+| Athletics @ Arizona Diamondbacks | English (STRMCNTR) | `edgestream3.pro` |
+| Athletics at Arizona Diamondbacks (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
+| Athletics at Arizona Diamondbacks (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
 | Athletics vs Arizona Diamondbacks (CDNTV) | `cdnlivetv.tv` |
 | Athletics vs Arizona Diamondbacks (CDNTV) | `cdnlivetv.tv` |
-| Athletics vs Arizona Diamondbacks (MP66) | `node-8bba18be.4587.website` |
-| Athletics vs Arizona Diamondbacks (MP66) | `node-8bba18be.4587.website` |
+| Athletics vs Arizona Diamondbacks (MP66) | `node-025d151e.4587.website` |
+| Athletics vs Arizona Diamondbacks (MP66) | `node-025d151e.4587.website` |
 | Athletics vs Arizona Diamondbacks | EN (STRMSGATE) | `instreams.live` |
 | Athletics vs Arizona Diamondbacks | EN (STRMSGATE) | `instreams.live` |
 | Athletics vs Diamondbacks (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Athletics vs Diamondbacks (WEBCAST) | `webcast-origin.b-cdn.net` |
+| Atl Nacional vs Tigres (FAWA) | `193.47.62.41` |
+| Atl Nacional vs Tigres (FAWA) | `193.47.62.41` |
 | Atlanta 69 | `live20.bozztv` |
 | Atlanta 69 (#) | `dvrfl03.bozztv` |
-| Atlanta Braves vs San Diego Padres (FAWA) | `193.47.62.190` |
-| Atlanta Braves vs San Diego Padres (FAWA) | `193.47.62.190` |
+| Atlanta Braves vs San Diego Padres (FAWA) | `193.47.62.41` |
+| Atlanta Braves vs San Diego Padres (FAWA) | `193.47.62.41` |
+| Atlanta Braves vs San Diego Padres | ESPN Mexico (HOOFUT) | `hoofoot.ru` |
+| Atlanta Braves vs San Diego Padres | ESPN Mexico (HOOFUT) | `hoofoot.ru` |
+| Atlanta Braves vs San Diego Padres | ESPN2 Brazil (HOOFUT) | `hoofoot.ru` |
+| Atlanta Braves vs San Diego Padres | ESPN2 Brazil (HOOFUT) | `hoofoot.ru` |
+| Atlanta Braves vs San Diego Padres | ESPN3 Argentina (HOOFUT) | `hoofoot.ru` |
+| Atlanta Braves vs San Diego Padres | ESPN3 Argentina (HOOFUT) | `hoofoot.ru` |
+| Atlanta Braves vs San Diego Padres | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Atlanta Braves vs San Diego Padres | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Atlas | `cdn.whiplash.cc` |
-| ATP 250 Estoril, ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel, WTA 250 Hamburg & WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel, WTA 250 Hamburg & WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel, WTA 250 Hamburg & WTA 250 Prague | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel, WTA 250 Hamburg & WTA 250 Prague | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel, WTA 250 Hamburg & WTA 250 Prague | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Estoril, ATP 250 Kitzbühel, WTA 250 Hamburg & WTA 250 Prague | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Kitzbühel & WTA 250 Prague | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Los Cabos | Tennis Channel (HOOFUT) | `hoofoot.ru` |
-| ATP 250 Los Cabos | Tennis Channel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Arena Tennis (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Arena Tennis (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | beIN SPORTS Australia 1 (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | beIN SPORTS Australia 1 (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | beIN SPORTS Australia 2 (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | beIN SPORTS Australia 2 (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Canal+ Sport 2 Czechia (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Canal+ Sport 2 Czechia (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Canal+ Sport 2 Poland (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Canal+ Sport 2 Poland (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Cytavision Sports 5 Cyprus (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Cytavision Sports 5 Cyprus (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Digi Sport 2 Romania (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Digi Sport 2 Romania (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Digi Sport 4 Romania (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Digi Sport 4 Romania (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | ESPN2 Argentina (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | ESPN2 Argentina (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | ESPN2 Brazil (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | ESPN2 Brazil (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | MAX Sport 1 Bulgaria (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | MAX Sport 1 Bulgaria (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | MAX Sport 3 Bulgaria (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | MAX Sport 3 Bulgaria (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Movistar Deportes 2 Spain (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Movistar Deportes 2 Spain (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Polsat Sport 3 Poland (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Polsat Sport 3 Poland (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Polsat Sport Premium 2 Poland (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Polsat Sport Premium 2 Poland (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sport Tennis Italy (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sport Tennis Italy (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sport Uno Italy (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sport Uno Italy (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sports Tennis Germany (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sports Tennis Germany (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sports Tennis UK (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sports Tennis UK (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sports+ (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sky Sports+ (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | SONY TEN 2 HD (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | SONY TEN 2 HD (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | SONY TEN 3 HD (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | SONY TEN 3 HD (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sport 5 Live Israel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sport 5 Live Israel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sport 5 Plus Israel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sport 5 Plus Israel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sport 5 Star Israel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Sport 5 Star Israel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | SRF zwei (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | SRF zwei (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Tennis Channel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Tennis Channel (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | TV4 Tennis (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | TV4 Tennis (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | TyC Sports Argentina (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | TyC Sports Argentina (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Ziggo Sport 1 NL (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Ziggo Sport 1 NL (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Ziggo Sport 4 NL (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Ziggo Sport 4 NL (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Ziggo Sport 5 NL (HOOFUT) | `hoofoot.ru` |
-| ATP Kitzbühel, ATP Estoril, WTA Hamburg & WTA Prague – Early Rounds | Ziggo Sport 5 NL (HOOFUT) | `hoofoot.ru` |
+| Atletico-MG vs Bahia (FAWA) | `193.47.62.41` |
+| Atletico-MG vs Bahia (FAWA) | `193.47.62.41` |
+| Atlético Mineiro vs Bahia | #Vamos ES (HOOFUT) | `hoofoot.ru` |
+| Atlético Mineiro vs Bahia | #Vamos ES (HOOFUT) | `hoofoot.ru` |
+| Atlético Mineiro vs Bahia | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Atlético Mineiro vs Bahia | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Atlético Mineiro vs Bahia | PORTUGUÉS 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Atlético Mineiro vs Bahia | PORTUGUÉS 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Atlético Mineiro vs Bahia | PORTUGUÉS 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Atlético Mineiro vs Bahia | PORTUGUÉS 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Atlético Mineiro vs Bahia | Premiere (STRMXHD) | `khala.skylivehd` |
+| Atlético Mineiro vs Bahia | Premiere (STRMXHD) | `khala.skylivehd` |
+| Atlético Mineiro vs Bahia | Premiere BR (HOOFUT) | `hoofoot.ru` |
+| Atlético Mineiro vs Bahia | Premiere BR (HOOFUT) | `hoofoot.ru` |
+| Atlético Mineiro vs Bahia | SporTV (STRMXHD) | `khala.skylivehd` |
+| Atlético Mineiro vs Bahia | SporTV (STRMXHD) | `khala.skylivehd` |
+| Atlético Mineiro vs Bahia | SporTV BR (HOOFUT) | `hoofoot.ru` |
+| Atlético Mineiro vs Bahia | SporTV BR (HOOFUT) | `hoofoot.ru` |
+| Atlético Nacional vs Tigres FC | ESPAÑOL 1 (PLIBRE) | `dw5pdgvk.fubo18.com:443` |
+| Atlético Nacional vs Tigres FC | ESPAÑOL 1 (PLIBRE) | `dw5pdgvk.fubo18.com:443` |
+| Atlético Nacional vs Tigres FC | Win Sports + (STRMXHD) | `khala.skylivehd` |
+| Atlético Nacional vs Tigres FC | Win Sports + (STRMXHD) | `khala.skylivehd` |
+| ATP 250 Estoril • WTA 250 Prague • ATP 250 Kitzbühel • WTA 250 Hamburg | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
+| ATP 250 Estoril • WTA 250 Prague • ATP 250 Kitzbühel • WTA 250 Hamburg | SportKlub 2 Croatia (HOOFUT) | `hoofoot.ru` |
 | ATXN 1 | `cdn-atxn-01.vos360.video` |
 | ATXN 2 | `cdn-atxn-01.vos360.video` |
 | ATXN 3 | `cdn-atxn-01.vos360.video` |
 | AuroraTV (Aurora CO) (720p) | `reflect-aurora.cablecast.tv` |
 | Automotion | `streams2.sofast.tv` |
+| Avai vs America MG (FAWA) | `193.47.62.41` |
+| Avai vs America MG (FAWA) | `193.47.62.41` |
 | AWC TV | `arizonawesterncol.secure.footprint.net` |
 | AWE | `cdn.klowdtv.net` |
 | AWE Encore (#) | `a-cdn.herringnetwork` |
 | AWE Encore (#) | `a-cdn.klowdtv` |
 | AWE International | `a-cdn.klowdtv` |
 | Ayeneh TV | `2nbyjjx7y53k-hls-live.5centscdn` |
-| Ayla Aksu vs Sofia Costoulas | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Ayla Aksu vs Sofia Costoulas | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | AYM SPORT 🇺🇸 | `aym-as.otteravision` |
 | Az Star TV | `live.livestreamtv.ca` |
 | Azteca Deportes 🇲🇽 | `service-stitcher.clusters.pluto.tv` |
 | Baby Shark | `c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws` |
 | Baby Shark TV | `newidco-babysharktv-1-us.roku.wurl.tv` |
 | Baeble Music | `dai2.xumo` |
-| Baltimore Orioles @ Boston Red Sox | English (STRMCNTR) | `edgestream3.pro` |
-| Baltimore Orioles @ Boston Red Sox | English (STRMCNTR) | `edgestream3.pro` |
+| Baltimore Orioles @ Boston Red Sox | English (STRMCNTR) | `edgestream1.pro` |
+| Baltimore Orioles @ Boston Red Sox | English (STRMCNTR) | `edgestream1.pro` |
 | Baltimore Orioles vs Boston Red Sox | EN (STRMSGATE) | `instreams.pro` |
 | Baltimore Orioles vs Boston Red Sox | EN (STRMSGATE) | `instreams.pro` |
 | Bang Bang | `streams2.sofast.tv` |
 | Banning City TV | `vbfast-c.viebit` |
+| Banská Bystrica, Slovakia | SportKlub 3 Croatia (HOOFUT) | `hoofoot.ru` |
+| Banská Bystrica, Slovakia | SportKlub 3 Croatia (HOOFUT) | `hoofoot.ru` |
 | BBC World News | `vs-hls-push-ww-live.akamaized.net` |
 | Beach TV - CSULB | `stream04.amp.csulb.edu:1935` |
 | Beani | `streams2.sofast.tv` |
@@ -394,10 +376,18 @@
 | Bluegrass Music 4U | `rebroadcast.mytvtogo.net` |
 | Blues TV | `2-fss-2.streamhoster` |
 | BNT 3 HD SPORT 🇧🇬 | `84.54.128.52:9090` |
+| Boeheim | `hoofoot.ru` |
+| Boeheim | `hoofoot.ru` |
 | Bollywood 4U | `streams2.sofast.tv` |
 | Bollywood Masala | `streams2.sofast.tv` |
-| Boston Red Sox vs Baltimore Orioles (FAWA) | `193.47.62.190` |
-| Boston Red Sox vs Baltimore Orioles (FAWA) | `193.47.62.190` |
+| Boston Red Sox vs Baltimore Orioles | MASN USA (HOOFUT) | `hoofoot.ru` |
+| Boston Red Sox vs Baltimore Orioles | MASN USA (HOOFUT) | `hoofoot.ru` |
+| Boston Red Sox vs Baltimore Orioles | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Boston Red Sox vs Baltimore Orioles | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Boston Red Sox vs Baltimore Orioles | NESN USA (HOOFUT) | `hoofoot.ru` |
+| Boston Red Sox vs Baltimore Orioles | NESN USA (HOOFUT) | `hoofoot.ru` |
+| Botic van de Zandschulp vs Jaime Faria | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Botic van de Zandschulp vs Jaime Faria | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Bounce XL | `siloh.pluto.tv` |
 | Bowie TV | `granicusliveus3-a.akamaihd.net` |
 | Brat TV (#) | `streams2.sofast.tv` |
@@ -429,15 +419,11 @@
 | Canal 12 (XETW-TDT) | `hls.youtb.workers.dev` |
 | Canal Savoir | `hls.savoir.media` |
 | Canal+ Sport 360 🇫🇷 | `178.33.239.54:8080` |
-| Canoe Slalom World Championships | SporTV3 Brazil (HOOFUT) | `hoofoot.ru` |
-| Canoe Slalom World Championships | SporTV3 Brazil (HOOFUT) | `hoofoot.ru` |
 | CAPS Media Channel 15 Ventura CA | `reflect-stream15-capsmedia.cablecast.tv` |
 | CAPS Media Channel 6 Ventura CA | `reflect-stream6-capsmedia.cablecast.tv` |
 | Car Magazine TV | `number27.playout.vju.tv` |
 | Cardinals vs Angels (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Cardinals vs Angels (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Carolina Blaze vs Oklahoma City Spark | ESPN2 USA (HOOFUT) | `hoofoot.ru` |
-| Carolina Blaze vs Oklahoma City Spark | ESPN2 USA (HOOFUT) | `hoofoot.ru` |
 | Carolina TV | `unlimited1-us.dps.live` |
 | Cartoon Classics | `streams2.sofast.tv` |
 | Catholic TV | `catholictvhd-lh.akamaized.net` |
@@ -491,6 +477,8 @@
 | CCCO Aspire TV | `panel.freedomflixtv.org:3948` |
 | CCX | `reflect-ccx.cablecast.tv` |
 | CCX Media North Brooklyn Park | `reflect-ccx.cablecast.tv` |
+| CD Toluca vs Pumas UNAM (iSTRMEAST) | `chatgpt.hereisman.net` |
+| CD Toluca vs Pumas UNAM (iSTRMEAST) | `chatgpt.hereisman.net` |
 | Celebrity Scene TV | `rpn.bozztv` |
 | Cerritos TV3 | `granicusliveus4-a.akamaihd.net` |
 | Champaign Government Television (CGTV) (Champaign IL) | `champaign-cablecast.cablecast.tv` |
@@ -498,22 +486,22 @@
 | Cheddar Business | `live.chdrstatic` |
 | Chef Champion | `rpn1.bozztv` |
 | Chef Roc Show | `rpn1.bozztv` |
-| Chicago Cubs - Detroit Tigers (EMBEDHD) | `cdn11.zohanayaan.com:1686` |
-| Chicago Cubs - Detroit Tigers (EMBEDHD) | `cdn11.zohanayaan.com:1686` |
-| Chicago Cubs vs Detroit Tigers (FAWA) | `193.47.62.190` |
-| Chicago Cubs vs Detroit Tigers (FAWA) | `193.47.62.190` |
-| Chicago Cubs vs Detroit Tigers (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Chicago Cubs vs Detroit Tigers (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Chicago Cubs vs Detroit Tigers (WATCHFTY) | `lb5.wfty.st` |
-| Chicago Cubs vs Detroit Tigers (WATCHFTY) | `lb5.wfty.st` |
-| Chicago Cubs vs Detroit Tigers | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
-| Chicago Cubs vs Detroit Tigers | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
+| Chicago Cubs - Detroit Tigers (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
+| Chicago Cubs - Detroit Tigers (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
+| Chicago Cubs vs Detroit Tigers (FAWA) | `193.47.62.41` |
+| Chicago Cubs vs Detroit Tigers (FAWA) | `193.47.62.41` |
+| Chicago Cubs vs Detroit Tigers | Marquee Sports Network (HOOFUT) | `hoofoot.ru` |
+| Chicago Cubs vs Detroit Tigers | Marquee Sports Network (HOOFUT) | `hoofoot.ru` |
 | Chicago Cubs vs Detroit Tigers | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Chicago Cubs vs Detroit Tigers | MLB League Pass (HOOFUT) | `hoofoot.ru` |
-| Chicago White Sox @ Texas Rangers | English (STRMCNTR) | `edgestream1.pro` |
-| Chicago White Sox @ Texas Rangers | English (STRMCNTR) | `edgestream1.pro` |
-| Chicago White Sox at Texas Rangers (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| Chicago White Sox at Texas Rangers (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
+| Chicago Cubs vs Detroit Tigers | TSN1 (HOOFUT) | `hoofoot.ru` |
+| Chicago Cubs vs Detroit Tigers | TSN1 (HOOFUT) | `hoofoot.ru` |
+| Chicago Cubs vs Detroit Tigers | TSN3 (HOOFUT) | `hoofoot.ru` |
+| Chicago Cubs vs Detroit Tigers | TSN3 (HOOFUT) | `hoofoot.ru` |
+| Chicago Cubs vs Detroit Tigers | TSN4 (HOOFUT) | `hoofoot.ru` |
+| Chicago Cubs vs Detroit Tigers | TSN4 (HOOFUT) | `hoofoot.ru` |
+| Chicago White Sox @ Texas Rangers | English (STRMCNTR) | `edgestream2.pro` |
+| Chicago White Sox @ Texas Rangers | English (STRMCNTR) | `edgestream2.pro` |
 | Chicago White Sox vs Texas Rangers | EN (STRMSGATE) | `instreams.live` |
 | Chicago White Sox vs Texas Rangers | EN (STRMSGATE) | `instreams.live` |
 | Chive | `linear-941.frequency.stream` |
@@ -530,8 +518,8 @@
 | Cincinnati Reds vs Seattle Mariners (CDNTV) | `cdnlivetv.tv` |
 | Cincinnati Reds vs Seattle Mariners (MP66) | `node-8bba18be.4587.website` |
 | Cincinnati Reds vs Seattle Mariners (MP66) | `node-8bba18be.4587.website` |
-| Cincinnati Reds vs Seattle Mariners | EN (STRMSGATE) | `instreams.pro` |
-| Cincinnati Reds vs Seattle Mariners | EN (STRMSGATE) | `instreams.pro` |
+| Cincinnati Reds vs Seattle Mariners | EN (STRMSGATE) | `instreams.live` |
+| Cincinnati Reds vs Seattle Mariners | EN (STRMSGATE) | `instreams.live` |
 | Cinevault Classics | `gsn-cinevault-classics-1-us.roku.wurl.tv` |
 | Cinevault Murder and Mayhem | `gsn-cinevault-70s-2-us.roku.wurl.tv` |
 | City of Monroe Government Channel | `reflect-monroe-mi-ci.cablecast.tv` |
@@ -551,6 +539,8 @@
 | Classic TV 4U | `broadcast.mytvtogo.net` |
 | Cleveland Guardians vs Minnesota Twins (FAWA) | `193.47.62.41` |
 | Cleveland Guardians vs Minnesota Twins (FAWA) | `193.47.62.41` |
+| Cleveland Guardians vs Minnesota Twins | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Cleveland Guardians vs Minnesota Twins | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Cloudflare TV | `cloudflare.tv` |
 | CMC-USA | `cmctv.ios.internapcdn.net` |
 | CMC-USA (California Music Channel) | `hwlive.streamingmediahosting` |
@@ -566,12 +556,14 @@
 | Collier County Public Schools CCPS Education Channel Naples, Florida | `watch.collierschools` |
 | Collier Television CTV (Naples FL) | `reflect-collier-countyboc.cablecast.tv` |
 | Collier Television CTV (Naples FL) (720p) | `reflect-collier-countyboc.cablecast.tv` |
-| Colorado Rockies - Washington Nationals (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
-| Colorado Rockies - Washington Nationals (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
-| Colorado Rockies vs Washington Nationals (FAWA) | `193.47.62.190` |
-| Colorado Rockies vs Washington Nationals (FAWA) | `193.47.62.190` |
+| Colorado Rockies - Washington Nationals (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
+| Colorado Rockies - Washington Nationals (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
+| Colorado Rockies vs Washington Nationals (FAWA) | `193.47.62.41` |
+| Colorado Rockies vs Washington Nationals (FAWA) | `193.47.62.41` |
 | Colorado Rockies vs Washington Nationals (iSTRMEAST) | `chatgpt.hereisman.net` |
 | Colorado Rockies vs Washington Nationals (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Colorado Rockies vs Washington Nationals (WATCHFTY) | `lb3.wfty.st` |
+| Colorado Rockies vs Washington Nationals (WATCHFTY) | `lb3.wfty.st` |
 | Colorado Rockies vs Washington Nationals | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Colorado Rockies vs Washington Nationals | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Complex | `dai2.xumo` |
@@ -589,12 +581,6 @@
 | COPS | `langleyproductions-cops-2-eu.rakuten.wurl.tv` |
 | Cornerstone TV | `2-fss-1.themediacdn` |
 | Cornerstone TV | `cdn.media9.truegod.tv` |
-| Corvinul Hunedoara vs Csíkszereda | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| Corvinul Hunedoara vs Csíkszereda | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| Corvinul Hunedoara vs Csíkszereda | Digi Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Corvinul Hunedoara vs Csíkszereda | Digi Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Corvinul Hunedoara vs Csíkszereda | Prima Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Corvinul Hunedoara vs Csíkszereda | Prima Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
 | COStv | `irctv.cablecast.tv` |
 | Cowboy Movie Channel | `streams2.sofast.tv` |
 | Cox Enfield Public Access Channel 15 (Einfield CT) | `northcentral.coxctv` |
@@ -608,6 +594,20 @@
 | CreaTV The Outlet Channel 30 (San Jose CA) (720p) | `reflect-creatv.cablecast.tv` |
 | Cricket Gold | `streams2.sofast.tv` |
 | Crime and Thrillers | `topic-crimeandthrillers-1-us.freemoviesplus.wurl.tv` |
+| Cruz Azul vs Club Puebla (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Cruz Azul vs Club Puebla (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Cruz Azul vs Puebla (FAWA) | `193.47.62.41` |
+| Cruz Azul vs Puebla (FAWA) | `193.47.62.41` |
+| Cruz Azul vs Puebla (WATCHFTY) | `lb6.wfty.st` |
+| Cruz Azul vs Puebla (WATCHFTY) | `lb6.wfty.st` |
+| Cruz Azul vs Puebla | ES (PLYFST) | `cdn9.zohanayaan.com:1686` |
+| Cruz Azul vs Puebla | ES (PLYFST) | `cdn9.zohanayaan.com:1686` |
+| Cruz Azul vs Puebla | ESPAÑOL 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
+| Cruz Azul vs Puebla | ESPAÑOL 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
+| Cruz Azul vs Puebla | TUDN USA (STRMXHD) | `khala.skylivehd` |
+| Cruz Azul vs Puebla | TUDN USA (STRMXHD) | `khala.skylivehd` |
+| Cruz Azul vs Puebla | Vix 1 (STRMXHD) | `khala.skylivehd` |
+| Cruz Azul vs Puebla | Vix 1 (STRMXHD) | `khala.skylivehd` |
 | Cruz TV | `reflect-communitytv.cablecast.tv` |
 | Cruz TV | `reflect-communitytv.cablecast.tv` |
 | CT SPORT HD 🇨🇿 | `88.212.15.19` |
@@ -654,13 +654,15 @@
 | Cypress Public Access Channel 36 (Cypress CA) | `livestream-us-east-edge-2.granicusops` |
 | Cypress Public Access Channel 36 (Cypress CA) (360p) | `livestream-us-east-edge-2.granicusops` |
 | Da Vinci | `liveovh011.cda.pl` |
-| Dallas Wings vs New York Liberty (WATCHFTY) | `lb4.wfty.st` |
-| Dallas Wings vs New York Liberty (WATCHFTY) | `lb4.wfty.st` |
-| Dallas Wings vs New York Liberty | MY9TV USA (HOOFUT) | `hoofoot.ru` |
-| Dallas Wings vs New York Liberty | MY9TV USA (HOOFUT) | `hoofoot.ru` |
-| Dallas Wings W vs New York Liberty W (FAWA) | `193.47.62.190` |
-| Dallas Wings W vs New York Liberty W (FAWA) | `193.47.62.190` |
+| Dambulla Sixers vs Kandy Royals | Willow 2 Cricket (HOOFUT) | `hoofoot.ru` |
+| Dambulla Sixers vs Kandy Royals | Willow 2 Cricket (HOOFUT) | `hoofoot.ru` |
 | Danger Vision | `streams2.sofast.tv` |
+| Daniel Altmaier vs Raphaël Collignon | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Daniel Altmaier vs Raphaël Collignon | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Daniel Mérida Aguilar vs Kyrian Jacquet | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Daniel Mérida Aguilar vs Kyrian Jacquet | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| David Stevenson / Marcus Willis vs Sander Arends / David Pel | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| David Stevenson / Marcus Willis vs Sander Arends / David Pel | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Daystar Español | `live-mcl.cdn01.net` |
 | Daystar TV | `live-mcl.cdn01.net` |
 | Daystar TV Espanol | `hls-live-media-gc.cdn01.net` |
@@ -674,19 +676,13 @@
 | DC.gov DKN Washington DC | `video.oct.dc.gov` |
 | Deal or No Deal | `endemol-dealornodeal-1.sinclair.wurl` |
 | Decentric Media | `linear-68.frequency.stream` |
-| Defensor Sporting vs Liverpool | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
-| Defensor Sporting vs Liverpool | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
 | Defy TV | `scripps-defy-1-us.vizio.wurl.tv` |
 | Degrassi The Next Generation | `dhx-degrassi-1-us.samsung.wurl.tv` |
 | Denver 8 TV | `granicusliveus8-a.akamaihd.net` |
 | Detroit Tigers @ Chicago Cubs | English (STRMCNTR) | `edgestream2.pro` |
 | Detroit Tigers @ Chicago Cubs | English (STRMCNTR) | `edgestream2.pro` |
-| Detroit Tigers at Chicago Cubs (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| Detroit Tigers at Chicago Cubs (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
 | Detroit Tigers vs Chicago Cubs | EN (STRMSGATE) | `instreams.live` |
 | Detroit Tigers vs Chicago Cubs | EN (STRMSGATE) | `instreams.live` |
-| Diego Hidalgo / Alejandro Tabilo vs Ji-sung Nam / Takeru Yuzuki | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Diego Hidalgo / Alejandro Tabilo vs Ji-sung Nam / Takeru Yuzuki | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Disney International HD | `149.71.34.166:8002` |
 | District of Columbia Network | `video.oct.dc.gov` |
 | District of Columbia Network (DCN) (1080p) | `video.oct.dc.gov` |
@@ -696,6 +692,8 @@
 | Docu Vision | `streams2.sofast.tv` |
 | Dodgers vs Phillies (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Dodgers vs Phillies (WEBCAST) | `webcast-origin.b-cdn.net` |
+| Dominic Stricker vs Francesco Passaro | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Dominic Stricker vs Francesco Passaro | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Dove Channel | `linear-896.frequency.stream` |
 | Dove Channel (#) | `linear-896.frequency.stream` |
 | Dover TV Dover Detroit | `dover-de.secure.footprint.net` |
@@ -712,6 +710,8 @@
 | DSPORTS 🇦🇷 | `201.230.121.186:8000` |
 | Duck Hunting TV | `main.duckhunting.playout.vju.tv` |
 | Dungeon (#) | `stream-us-east-1.getpublica` |
+| Dylan Dietrich vs Tomás Barrios Vera | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Dylan Dietrich vs Tomás Barrios Vera | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | E+ TV 6 Jackson | `jacksonenergy.secure.footprint.net` |
 | Earthx TV | `ov.ottera.tv` |
 | EBS | `uvotv-aniview.global.ssl.fastly.net` |
@@ -721,11 +721,7 @@
 | Educa TV | `avm.ecuamedia.net` |
 | EKOL SPORTS 🇹🇷 | `ekoltv-live.ercdn.net` |
 | Electric Now | `elec-en-xumo.otteravision` |
-| Elena Pridankina vs Solana Sierra | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Elena Pridankina vs Solana Sierra | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Elevation Church | `linear-1066.frequency.stream` |
-| Ella Seidel vs Daria Snigur | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Ella Seidel vs Daria Snigur | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | EMT Media TV | `hls-cdn.tvstartup17.net` |
 | EMT Media TV Los Angeles | `hwlive.streamingmediahosting` |
 | Encore+ | `streams2.sofast.tv` |
@@ -736,17 +732,25 @@
 | Entrepreneur | `a.jsrdn` |
 | Entrepreneur TV | `cineverse-entrepreneurtv-entrepreneurtv-1-us.ono.wurl.tv` |
 | Escape TV | `streams2.sofast.tv` |
+| Espanyol vs Pau | Esport 3 Spain (HOOFUT) | `hoofoot.ru` |
+| Espanyol vs Pau | Esport 3 Spain (HOOFUT) | `hoofoot.ru` |
 | ESPN PREMIUM 🇦🇷 | `167.250.223.26:8085` |
 | ESR 24x7 eSports Network | `eyeonesports` |
+| Estudiantes vs Independiente Rivadavia | ESPN Argentina (HOOFUT) | `hoofoot.ru` |
+| Estudiantes vs Independiente Rivadavia | ESPN Argentina (HOOFUT) | `hoofoot.ru` |
+| Estudiantes vs Independiente Rivadavia | ESPN2 Mexico (HOOFUT) | `hoofoot.ru` |
+| Estudiantes vs Independiente Rivadavia | ESPN2 Mexico (HOOFUT) | `hoofoot.ru` |
+| Estudiantes vs Independiente Rivadavia | ESPN3 Brazil (HOOFUT) | `hoofoot.ru` |
+| Estudiantes vs Independiente Rivadavia | ESPN3 Brazil (HOOFUT) | `hoofoot.ru` |
+| Estudiantes vs Independiente Rivadavia | Sport TV1 Portugal (HOOFUT) | `hoofoot.ru` |
+| Estudiantes vs Independiente Rivadavia | Sport TV1 Portugal (HOOFUT) | `hoofoot.ru` |
 | ETB Deportes 🇪🇸 | `multimedia.eitb.eus` |
 | Eternal Life TV Network | `livecdn.live247stream` |
-| Eva Vedder vs Mona Barthel | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Eva Vedder vs Mona Barthel | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Evan Zhu vs Thanasi Kokkinakis | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Evan Zhu vs Thanasi Kokkinakis | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Everyday Heroes | `a.jsrdn` |
 | EVTV Miami | `streannliveevtv.cachefly.net` |
 | EYE95 America | `cdn20.liveonlineservices` |
-| Facundo Díaz Acosta vs Federico Cinà | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Facundo Díaz Acosta vs Federico Cinà | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Fail Army | `dai.google` |
 | Failarmy International | `failarmy-international-in.samsung.wurl.tv` |
 | Fairfax Public Access | `cs.ebmcdn.net` |
@@ -757,6 +761,10 @@
 | Faithlife TV | `biblescreen.faithlifecdn` |
 | Faithlife TV Bible Screen | `biblescreen.faithlifecdn` |
 | Faithlife TV Christmas Music | `vse2-na-us-ne24.secdn.net` |
+| Falkenberg vs Helsingborg | TV4 Fotball (HOOFUT) | `hoofoot.ru` |
+| Falkenberg vs Helsingborg | TV4 Fotball (HOOFUT) | `hoofoot.ru` |
+| Falkenberg vs Helsingborg | TV4 Fotboll Sweden (HOOFUT) | `hoofoot.ru` |
+| Falkenberg vs Helsingborg | TV4 Fotboll Sweden (HOOFUT) | `hoofoot.ru` |
 | Fallback Channel | `raw.githubusercontent` |
 | Falmouth Community Television Education Channel 14 | `reflect-falmouth.cablecast.tv` |
 | Falmouth Community Television Government Channel 15 | `reflect-falmouth.cablecast.tv` |
@@ -766,8 +774,10 @@
 | Fayetteville Public Television (FPTV) | `ythls.onrender` |
 | FC Public Media (Fort Collins CO) | `reflect-fcpublicmedia.cablecast.tv` |
 | FC Public Media (Fort Collins CO) (1080p) | `reflect-fcpublicmedia.cablecast.tv` |
-| Ferroviária vs Corinthians | SporTV Brazil (HOOFUT) | `hoofoot.ru` |
-| Ferroviária vs Corinthians | SporTV Brazil (HOOFUT) | `hoofoot.ru` |
+| Fenerbahçe vs Górnik Zabrze | Evento 1 (STRMXHD) | `khala.skylivehd` |
+| Fenerbahçe vs Górnik Zabrze | Evento 1 (STRMXHD) | `khala.skylivehd` |
+| Fenerbahçe vs Górnik Zabrze | TV100 Turkey (HOOFUT) | `hoofoot.ru` |
+| Fenerbahçe vs Górnik Zabrze | TV100 Turkey (HOOFUT) | `hoofoot.ru` |
 | Fight Sports | `shls-fight-sports-ak.akamaized.net` |
 | Fighting Spirit | `a.jsrdn` |
 | FilAmTV Network | `streams.comclark` |
@@ -787,11 +797,11 @@
 | FilmRise Mysteries | `dai2.xumo` |
 | FilmRise Mysteries 2 | `dai2.xumo` |
 | FilmRise Sci-Fi | `dai2.xumo` |
-| FIM Motocross World Championship | CBS Sports Network (HOOFUT) | `hoofoot.ru` |
-| FIM Motocross World Championship | CBS Sports Network (HOOFUT) | `hoofoot.ru` |
 | Fireplace Lounge | `a.jsrdn` |
 | Fireplace Vibes | `pb-rhq7yj8tne4rm.akamaized.net` |
 | Fish Tank | `a.jsrdn` |
+| Fluminense Women vs Cruzeiro Women | SporTV BR (HOOFUT) | `hoofoot.ru` |
+| Fluminense Women vs Cruzeiro Women | SporTV BR (HOOFUT) | `hoofoot.ru` |
 | FNX | `castus-vod-dev.s3.amazonaws` |
 | FNX | `v-ny.theus6tv.tk` |
 | Fontana Community Television (720p) | `reflect-watchkfon-fontana.cablecast.tv` |
@@ -802,20 +812,14 @@
 | Foursquare TV | `webstreaming-3.viewmedia.tv` |
 | FOX 11 Los Angeles (KTTV) | `2k.tstvs` |
 | FOX 5 New York (WNYW) | `2k.tstvs` |
-| Fox Cricket 501 HD | `cdn9.zohanayaan.com:1686` |
+| Fox Cricket 501 HD | `cdn8.zohanayaan.com:1686` |
 | Fox Weather | `247wlive.foxweather` |
-| Frederico Ferreira Silva vs Luca Van Assche | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Frederico Ferreira Silva vs Luca Van Assche | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Fresno CMAC 1 Public Channel | `reflect-vod-cmac.cablecast.tv` |
 | Fresno CMAC 1 Public Channel (720p) | `reflect-vod-cmac.cablecast.tv` |
 | Fresno CMAC 2 Education Channel | `reflect-vod-cmac.cablecast.tv` |
 | Fresno CMAC 2 Education Channel (720p) | `reflect-vod-cmac.cablecast.tv` |
 | Fresno CMAC 3 Government Channel | `reflect-vod-cmac.cablecast.tv` |
 | Fresno CMAC 3 Government Channel (720p) | `reflect-vod-cmac.cablecast.tv` |
-| FS Jelgava vs Rīgas FS | Sport 1 Baltic (HOOFUT) | `hoofoot.ru` |
-| FS Jelgava vs Rīgas FS | Sport 1 Baltic (HOOFUT) | `hoofoot.ru` |
-| FS Jelgava vs Rīgas FS | TV4 Latvia (HOOFUT) | `hoofoot.ru` |
-| FS Jelgava vs Rīgas FS | TV4 Latvia (HOOFUT) | `hoofoot.ru` |
 | FTF | `eleven-rebroadcast-samsung.roku.wurl` |
 | FTF Sports | `1657061170.rsc.cdn77` |
 | Fubo Sports Network | `wurlfubo.global.transmit.live` |
@@ -884,15 +888,9 @@
 | GOD TV (#) | `ott.god.tv` |
 | God's Learning Channel (480p) | `2-fss-1.streamhoster` |
 | Golden Community Television (GCO.tv) (Golden CO) (1080p) | `reflect-golden-co.cablecast.tv` |
-| Golden State Valkyries vs Washington Mystics (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Golden State Valkyries vs Washington Mystics (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Golden State Valkyries vs Washington Mystics (WATCHFTY) | `lb5.wfty.st` |
-| Golden State Valkyries vs Washington Mystics (WATCHFTY) | `lb5.wfty.st` |
-| Golden State Valkyries vs Washington Mystics | Monumental Sports Network (HOOFUT) | `hoofoot.ru` |
-| Golden State Valkyries vs Washington Mystics | Monumental Sports Network (HOOFUT) | `hoofoot.ru` |
-| Golden State Valkyries W vs Washington Mystics W (FAWA) | `193.47.62.190` |
-| Golden State Valkyries W vs Washington Mystics W (FAWA) | `193.47.62.190` |
 | Golden TV | `rpn.bozztv` |
+| Gonzalo Bueno vs Tiago Pereira | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Gonzalo Bueno vs Tiago Pereira | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | GoodLife 45 | `1-fss29-s0.streamhoster` |
 | Gospel Truth TV | `na.linear.zype` |
 | GQ | `dai2.xumo` |
@@ -902,8 +900,6 @@
 | Greensboro TV (Greensboro NC) (720p) | `lin12.isilive.ca` |
 | Grit Xtra | `scripps-gritxtra-1-us.vizio.wurl.tv` |
 | Grjngo Western Movies | `amogonetworx-grjngo-3-dk.samsung.wurl.tv` |
-| Group 6 | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
-| Group 6 | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
 | GTN Canada | `streamer12.vdn.dstreamone.net` |
 | Gusto TV (#) | `e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws` |
 | H20 TV | `linear-738.frequency.stream` |
@@ -916,8 +912,6 @@
 | HD Fashion & LifeStyle | `ch.iptvmate.net` |
 | HeartFelt TV | `streams2.sofast.tv` |
 | Heartland | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |
-| Henrique Rocha vs Pedro Martínez | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Henrique Rocha vs Pedro Martínez | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Heritage Tourism | `streams2.sofast.tv` |
 | Heritage+ | `streams2.sofast.tv` |
 | Hi-5 | `streams2.sofast.tv` |
@@ -941,8 +935,8 @@
 | Horse Shopping Channel | `uplynkcontent.sinclairstoryline` |
 | Houston Astros - Miami Marlins (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
 | Houston Astros - Miami Marlins (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
-| Houston Astros vs Miami Marlins (FAWA) | `193.47.62.190` |
-| Houston Astros vs Miami Marlins (FAWA) | `193.47.62.190` |
+| Houston Astros vs Miami Marlins (FAWA) | `193.47.62.41` |
+| Houston Astros vs Miami Marlins (FAWA) | `193.47.62.41` |
 | Houston Astros vs Miami Marlins | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Houston Astros vs Miami Marlins | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Houston Astros vs Miami Marlins | Space City Home Network (HOOFUT) | `hoofoot.ru` |
@@ -960,11 +954,17 @@
 | HTV 1 Houston Television (720p) | `stream.swagit` |
 | HTV 2 Houston Television | `stream.swagit` |
 | HTV 2 Houston Television (720p) | `stream.swagit` |
+| Hugo Gaston vs Damir Džumhur | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Hugo Gaston vs Damir Džumhur | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Hungry | `food-us.xumo.wurl.tv` |
 | Hunt Channel | `1111296894.rsc.cdn77` |
 | Hunt Fish TV | `streams2.sofast.tv` |
 | Huntington Beach TV Channel 3 (720p) | `reflect-huntingtonbeach.cablecast.tv` |
 | HYP 🇪🇸 | `latam-cache-sv2-cdn.latamlive.net` |
+| Iberia 1999 vs Slovan Bratislava | RTVS Sport Slovakia (HOOFUT) | `hoofoot.ru` |
+| Iberia 1999 vs Slovan Bratislava | RTVS Sport Slovakia (HOOFUT) | `hoofoot.ru` |
+| Iberia 1999 vs Slovan Bratislava | RTVS Šport Slovakia (HOOFUT) | `hoofoot.ru` |
+| Iberia 1999 vs Slovan Bratislava | RTVS Šport Slovakia (HOOFUT) | `hoofoot.ru` |
 | ICC Plus | `icchls.wns.live` |
 | ICI Montreal | `amdici.akamaized.net` |
 | ICI RDI | `rcavlive.akamaized.net` |
@@ -977,27 +977,31 @@
 | IDG | `a.jsrdn` |
 | IDMANTV 🇹🇷 | `str2.yodacdn.net` |
 | IDMANTV 🇹🇷 | `str2.yodacdn.net` |
-| IFK Mariehamn vs FC Lahti | Ruutu+ (HOOFUT) | `hoofoot.ru` |
-| IFK Mariehamn vs FC Lahti | Ruutu+ (HOOFUT) | `hoofoot.ru` |
-| IHSAA Baseball 1A Quarterfinals | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
-| IHSAA Baseball 1A Quarterfinals | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
+| IFK Göteborg vs Levadia Tallinn | Sport Bladet Play (HOOFUT) | `hoofoot.ru` |
+| IFK Göteborg vs Levadia Tallinn | Sport Bladet Play (HOOFUT) | `hoofoot.ru` |
 | In The Kitchen | `qvc-amd-live.akamaized.net` |
 | Ind TV USA | `indtv.secure.footprint.net` |
+| Independiente vs Real Potosi (FAWA) | `193.47.62.41` |
+| Independiente vs Real Potosi (FAWA) | `193.47.62.41` |
+| Indianerna vs Dackarna Malilla | Viaplay Sports 2 UK (HOOFUT) | `hoofoot.ru` |
+| Indianerna vs Dackarna Malilla | Viaplay Sports 2 UK (HOOFUT) | `hoofoot.ru` |
 | Info Wars | `wpc.9ec1.edgecastcdn.net` |
 | Info Wars (#) | `a-cdn.klowdtv` |
 | Informe TV | `vdo1.streamgato.us:3986` |
 | INFOSPORT 🇫🇷 | `212.102.60.80` |
-| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `wp.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `wp.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `wp.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `wp.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `pw.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `pw.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `wp.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `wp.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `wp.streamtp.sbs:443` |
-| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `wp.streamtp.sbs:443` |
+| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `si.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `si.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `se.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `se.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `s8.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `s8.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `sa.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `sa.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `sa.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `sa.domain156.xyz:443` |
 | Inspiration TV | `inspnetworks-lh.akamaihd.net` |
+| Inter Bogota vs Inter Palmira (FAWA) | `193.47.62.41` |
+| Inter Bogota vs Inter Palmira (FAWA) | `193.47.62.41` |
 | Intipacha | `bonudiemsa-intipacha-2-eu.freemoviesplus.wurl.tv` |
 | IRIB3 🇮🇷 | `lenz.splus.ir` |
 | Island Escape | `a.jsrdn` |
@@ -1016,23 +1020,19 @@
 | Jacksonville Onslow Government Television (G10TV) (Jacksonville NC) | `reflect-jacksonville.cablecast.tv` |
 | Jacksonville Onslow Government Television (G10TV) (Jacksonville NC) (1080p) | `reflect-jacksonville.cablecast.tv` |
 | Jail | `e85541db4ae943d9b5a09477d6b1d8ab.mediatailor.us-east-1.amazonaws` |
-| Jakob Schnaitter / Mark Wallner vs Hendrik Jebens / Matěj Vocel | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Jakob Schnaitter / Mark Wallner vs Hendrik Jebens / Matěj Vocel | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Jessica Pieri vs María Lourdes Carlé | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Jessica Pieri vs María Lourdes Carlé | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Jan Choinski vs Jesper de Jong | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Jan Choinski vs Jesper de Jong | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Jana Kovačková vs Lanlana Tararudee | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Jana Kovačková vs Lanlana Tararudee | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Jewelry Television | `cdn.jwplayer` |
 | Jewelry Television Espanol | `82934cf9c8696bd2.mediapackage.us-east-1.amazonaws` |
 | Jewish Life Television | `jlt-jltv-stirr.otteravision` |
 | Joel Osteen Network | `linear-860.frequency.stream` |
-| Joel Schwärzler vs Jurij Rodionov | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Joel Schwärzler vs Jurij Rodionov | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | JOJ Sport 1 🇸🇰 | `dvr2.kablova.tv` |
 | JOJ Sport 2 🇸🇰 | `dvr3.kablova.tv` |
 | Journy | `dai2.xumo` |
 | Judge Faith | `judge-faith-1.vizio.wurl` |
 | Judge Karen's Court | `cb5273f195a147f2bcf23544e4495f66.mediatailor.us-east-1.amazonaws` |
-| Jule Niemeier vs Elena Malygina | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Jule Niemeier vs Elena Malygina | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Jupiter TV | `streams2.sofast.tv` |
 | Just for Laughs Gags | `distributionsjustepourrire-justforlaughsgags-1-eu.freemoviesplus.wurl.tv` |
 | Just for Laughs Gags (#) | `streams2.sofast.tv` |
@@ -1040,21 +1040,15 @@
 | K36JH | 36.2 AMG-TV | `2-fss-2.streamhoster` |
 | K36JH | 36.3 NewsNet | `2-fss-2.streamhoster` |
 | Kabillion | `dai2.xumo` |
-| Kaitlin Quevedo vs Anhelina Kalinina | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Kaitlin Quevedo vs Anhelina Kalinina | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Kajou TV | `dvrfl03.bozztv` |
 | Kajou TV (#) | `video1.getstreamhosting.com:1936` |
-| Kalmar vs Malmö FF | MTV Max (HOOFUT) | `hoofoot.ru` |
-| Kalmar vs Malmö FF | MTV Max (HOOFUT) | `hoofoot.ru` |
-| Kalmar vs Malmö FF | TV4 Fotball Sweden (HOOFUT) | `hoofoot.ru` |
-| Kalmar vs Malmö FF | TV4 Fotball Sweden (HOOFUT) | `hoofoot.ru` |
-| Kalmar vs Malmö FF | TV4 Fotball Sweden (HOOFUT) | `hoofoot.ru` |
-| Kalmar vs Malmö FF | TV4 Fotball Sweden (HOOFUT) | `hoofoot.ru` |
 | KALO TV | `10380e91fda5e303.mediapackage.us-west-2.amazonaws` |
-| Kansas City Royals - San Francisco Giants (EMBEDHD) | `cdn13.zohanayaan.com:1686` |
-| Kansas City Royals - San Francisco Giants (EMBEDHD) | `cdn13.zohanayaan.com:1686` |
-| Kansas City Royals vs San Francisco Giants (FAWA) | `193.47.62.190` |
-| Kansas City Royals vs San Francisco Giants (FAWA) | `193.47.62.190` |
+| Kansas City Royals vs San Francisco Giants (FAWA) | `193.47.62.41` |
+| Kansas City Royals vs San Francisco Giants (FAWA) | `193.47.62.41` |
+| Kansas City Royals vs San Francisco Giants | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Kansas City Royals vs San Francisco Giants | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Kansas City Royals vs San Francisco Giants | NBCS Bay Area USA (HOOFUT) | `hoofoot.ru` |
+| Kansas City Royals vs San Francisco Giants | NBCS Bay Area USA (HOOFUT) | `hoofoot.ru` |
 | Kartoon Circus | `simultv.s.llnwi.net` |
 | KBEV Spectrum Channel 6 (1080p) | `s3-us-west-2.amazonaws` |
 | KBRI Brighton Channel 8 (Brighton CO) | `brightonco.cablecast.tv` |
@@ -1093,8 +1087,6 @@
 | L`Equipe 🇫🇷 | `jmp2.uk` |
 | LA CityView 35 | `reflect-losangeles.cablecast.tv` |
 | LA CityView 35 (1080p) | `reflect-losangeles.cablecast.tv` |
-| La Familia vs The Ville | FOX Sports 1 USA (HOOFUT) | `hoofoot.ru` |
-| La Familia vs The Ville | FOX Sports 1 USA (HOOFUT) | `hoofoot.ru` |
 | La liga Inside 🇪🇸 | `is.gd` |
 | La Nación+ | `free.fullspeed.tv` |
 | Laff Philadelphia | `v-pi.theus6tv.tk` |
@@ -1102,16 +1094,22 @@
 | Lakewood Channel 8 (Lakewood CO) (720p) | `live8fd.lakewood` |
 | Lakewood City TV | `s3-us-west-2.amazonaws` |
 | Laliga | `abie.009292` |
-| LaLiGA | `cdn7.zohanayaan.com:1686` |
+| LaLiGA | `cdn1.zohanayaan.com:1686` |
 | Largo LTV | `securestream3.champds` |
-| Las Vegas Aces @ Toronto Tempo | English (STRMCNTR) | `edgestream3.pro` |
-| Las Vegas Aces @ Toronto Tempo | English (STRMCNTR) | `edgestream3.pro` |
+| Larne vs Crvena Zvezda | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Larne vs Crvena Zvezda | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Larne vs Crvena Zvezda | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Larne vs Crvena Zvezda | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Larne vs Estrella Roja | Evento 3 (STRMXHD) | `khala.skylivehd` |
+| Larne vs Estrella Roja | Evento 3 (STRMXHD) | `khala.skylivehd` |
 | Las Vegas Tonight with Dale Davidson | `cdn.vegasplus.us` |
 | Latino Channel TV | `cdn.vegasplus.us` |
 | Latino Classic TV | `streams2.sofast.tv` |
 | Lawndale City TV | `67.53.122.248` |
 | Lawndale City TV (720p) | `reflect-live-lawndale.cablecast.tv` |
 | Lax Sports Network TV | `1840769862.rsc.cdn77` |
+| Lee Ya-hsuan / Ye Qiuyu vs Ena Shibahara / Vera Zvonareva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Lee Ya-hsuan / Ye Qiuyu vs Ena Shibahara / Vera Zvonareva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Leesburg Lakefront TV (Leesburg FL) | `reflect-lakefront-leesburgflorida.cablecast.tv` |
 | Leesburg Lakefront TV (Leesburg FL) (720p) | `reflect-lakefront-leesburgflorida.cablecast.tv` |
 | Legend Films | `cdn.klowdtv.net` |
@@ -1124,6 +1122,10 @@
 | Legislative Assembly TV Nunavut | `temp2.isilive.ca` |
 | Let's Make A Deal | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |
 | Lex TV | `granicusliveus2-a.akamaihd.net` |
+| Libertad vs Delfin (FAWA) | `193.47.62.41` |
+| Libertad vs Delfin (FAWA) | `193.47.62.41` |
+| Libertad vs Delfín | Zapping EC (STRMXHD) | `khala.skylivehd` |
+| Libertad vs Delfín | Zapping EC (STRMXHD) | `khala.skylivehd` |
 | Life! Christian Broadcasting Network | `2-fss-2.streamhoster` |
 | Life! Christian Broadcasting Network (360p) | `2-fss-2.streamhoster` |
 | Life! End Times TV | `2-fss-1.streamhoster` |
@@ -1141,8 +1143,12 @@
 | Lighting Lives Blessing Nations TV Latino (LLBN) | `brightstar-latino-pull-secure.akamaized.net` |
 | Lighting Lives Blessing Nations TV Romanian (LLBN) | `brightstar-romanian-pull-secure.akamaized.net` |
 | Lighting Lives Blessing Nations TV South Asia (LLBN) | `brightstar-southasia-pull-secure.akamaized.net` |
+| Linda Fruhvirtová vs Barbora Krejčíková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Linda Fruhvirtová vs Barbora Krejčíková | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Littleton 8 TV | `ch8.littletongov` |
 | Littleton 8 TV (Littleton CO) (1080p) | `ch8.littletongov` |
+| Live Racing from Around the UK | Sky Sports Racing UK (HOOFUT) | `hoofoot.ru` |
+| Live Racing from Around the UK | Sky Sports Racing UK (HOOFUT) | `hoofoot.ru` |
 | Lively Place | `aenetworks-ae-1.samsung.wurl` |
 | LIVExLIVE | `dai.google` |
 | Living Asia Channel | `cdn.vegasplus.us` |
@@ -1161,24 +1167,20 @@
 | Longmont Public Media Channel Channel 14 Longmont CO | `ch8reflector.longmontpublicmedia` |
 | Longmont Public Media Channel Channel 16 Longmont CO | `ch8reflector.longmontpublicmedia` |
 | Longmont Public Media Channel Channel 8 Longmont CO | `ch8reflector.longmontpublicmedia` |
-| Los Angeles Angels - St. Louis Cardinals (EMBEDHD) | `cdn13.zohanayaan.com:1686` |
-| Los Angeles Angels - St. Louis Cardinals (EMBEDHD) | `cdn13.zohanayaan.com:1686` |
-| Los Angeles Angels vs St Louis Cardinals (FAWA) | `193.47.62.190` |
-| Los Angeles Angels vs St Louis Cardinals (FAWA) | `193.47.62.190` |
+| Los Angeles Angels - St. Louis Cardinals (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
+| Los Angeles Angels - St. Louis Cardinals (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
+| Los Angeles Angels vs St Louis Cardinals (FAWA) | `193.47.62.41` |
+| Los Angeles Angels vs St Louis Cardinals (FAWA) | `193.47.62.41` |
 | Los Angeles Angels vs St. Louis Cardinals (iSTRMEAST) | `chatgpt.hereisman.net` |
 | Los Angeles Angels vs St. Louis Cardinals (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Los Angeles Angels vs St. Louis Cardinals (WATCHFTY) | `lb6.wfty.st` |
-| Los Angeles Angels vs St. Louis Cardinals (WATCHFTY) | `lb6.wfty.st` |
-| Los Angeles Angels vs St. Louis Cardinals | ESPN Deportes (HOOFUT) | `hoofoot.ru` |
-| Los Angeles Angels vs St. Louis Cardinals | ESPN Deportes (HOOFUT) | `hoofoot.ru` |
-| Los Angeles Angels vs St. Louis Cardinals | ESPN MX (HOOFUT) | `hoofoot.ru` |
-| Los Angeles Angels vs St. Louis Cardinals | ESPN MX (HOOFUT) | `hoofoot.ru` |
-| Los Angeles Angels vs St. Louis Cardinals | ESPN USA (HOOFUT) | `hoofoot.ru` |
-| Los Angeles Angels vs St. Louis Cardinals | ESPN USA (HOOFUT) | `hoofoot.ru` |
+| Los Angeles Angels vs St. Louis Cardinals (WATCHFTY) | `lb2.wfty.st` |
+| Los Angeles Angels vs St. Louis Cardinals (WATCHFTY) | `lb2.wfty.st` |
 | Los Angeles Angels vs St. Louis Cardinals | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Los Angeles Angels vs St. Louis Cardinals | MLB League Pass (HOOFUT) | `hoofoot.ru` |
-| Los Angeles Dodgers @ Philadelphia Phillies | English (STRMCNTR) | `edgestream3.pro` |
-| Los Angeles Dodgers @ Philadelphia Phillies | English (STRMCNTR) | `edgestream3.pro` |
+| Los Angeles Angels vs St. Louis Cardinals | TVA Sports CA (HOOFUT) | `hoofoot.ru` |
+| Los Angeles Angels vs St. Louis Cardinals | TVA Sports CA (HOOFUT) | `hoofoot.ru` |
+| Los Angeles Dodgers @ Philadelphia Phillies | English (STRMCNTR) | `edgestream2.pro` |
+| Los Angeles Dodgers @ Philadelphia Phillies | English (STRMCNTR) | `edgestream2.pro` |
 | Los Angeles Dodgers vs Philadelphia Phillies | EN (STRMSGATE) | `instreams.live` |
 | Los Angeles Dodgers vs Philadelphia Phillies | EN (STRMSGATE) | `instreams.live` |
 | Los Angeles Local Television Channel 36 | `reflect-channel36-la.cablecast.tv` |
@@ -1191,24 +1193,22 @@
 | Loveland TV (Loveland CO) (1080p) | `reflect-cityofloveland-co.cablecast.tv` |
 | Loveland TV Colorado | `reflect-cityofloveland-co.cablecast.tv` |
 | LSN | `asermedia-lacrossesportsnetwork-1-eu.rakuten.wurl` |
-| Lukas Neumayer vs Yannick Hanfmann | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Lukas Neumayer vs Yannick Hanfmann | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Luke Johnson / Jan Zieliński vs Mac Kiger / Reese Stalder | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Luke Johnson / Jan Zieliński vs Mac Kiger / Reese Stalder | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Luxury Dreams | `streams2.sofast.tv` |
 | Mad Dog and Merrill | `rpn1.bozztv` |
 | Magellan TV | `magellantv-1.vizio.wurl` |
 | Mama Benz TV | `streams2.sofast.tv` |
 | Manatee Schools Television MSTV (Manatee County FL) | `reflect-mcsb-vod.cablecast.tv` |
 | Manatee Schools Television MSTV (Manatee County FL) (1080p) | `reflect-mcsb-vod.cablecast.tv` |
-| Marie Bouzková vs Jessica Bouzas Maneiro | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Marie Bouzková vs Jessica Bouzas Maneiro | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Marin TV Community Channel (San Rafael CA) | `96.68.164.217` |
 | Marin TV Educational Channel (San Rafael CA) | `96.68.164.217` |
 | Marin TV Government Channel (San Rafael CA) | `96.68.164.217` |
 | Marina TV (Marina CA) | `ampmedia.secure.footprint.net` |
+| Mark Lajal vs Darwin Blanch | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Mark Lajal vs Darwin Blanch | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Marlins vs Astros (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Marlins vs Astros (WEBCAST) | `webcast-origin.b-cdn.net` |
+| María Lourdes Carlé vs Jule Niemeier | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| María Lourdes Carlé vs Jule Niemeier | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | MASR 🇶🇦 | `shls-masr-ak.akamaized.net` |
 | MASR 🇶🇦 | `shls-masr-ak.akamaized.net` |
 | MASR 🇶🇦 | `shls-masr-ak.akamaized.net` |
@@ -1224,8 +1224,6 @@
 | MAX SPORT 4 🇧🇬 | `77.46.130.252:99` |
 | MAXSPORT_1 🇭🇷 | `23.88.66.93` |
 | MAXSPORT_2 🇭🇷 | `23.88.66.93` |
-| Mayar Sherif vs Paula Badosa | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Mayar Sherif vs Paula Badosa | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | MCAET TV | `free.fullspeed.tv` |
 | Mega TV Florida | `mdstrm` |
 | Memorias TV | `mediacp.us:8081` |
@@ -1236,54 +1234,64 @@
 | Mets vs Brewers (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Mets vs Brewers (WEBCAST) | `webcast-origin.b-cdn.net` |
 | MHz Mysteries | `mhz-samsung-linear-us.samsung.wurl.tv` |
+| MI London vs Sunrisers Leeds | Astro Cricket (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Astro Cricket (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | BBC Two UK (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | BBC Two UK (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sport 2 NZ (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sport 2 NZ (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sports Cricket UK (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sports Cricket UK (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sports Main Event (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sports Main Event (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sports Mix UK (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Sky Sports Mix UK (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | SuperSport Cricket (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | SuperSport Cricket (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Willow Cricket (HOOFUT) | `hoofoot.ru` |
+| MI London vs Sunrisers Leeds | Willow Cricket (HOOFUT) | `hoofoot.ru` |
 | Mi Miedo Canal | `streams2.sofast.tv` |
 | Mi Pueblo Tv | `ds.tvabierta.net` |
 | Mi Raza Canal | `streams2.sofast.tv` |
 | Mi Raza Canal Plus | `streams2.sofast.tv` |
-| Miami Marlins @ Houston Astros | English (STRMCNTR) | `edgestream2.pro` |
-| Miami Marlins @ Houston Astros | English (STRMCNTR) | `edgestream2.pro` |
-| Miami Marlins at Houston Astros (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| Miami Marlins at Houston Astros (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| Miami Marlins vs Houston Astros | EN (STRMSGATE) | `instreams.live` |
-| Miami Marlins vs Houston Astros | EN (STRMSGATE) | `instreams.live` |
+| Miami Marlins @ Houston Astros | English (STRMCNTR) | `edgestream3.pro` |
+| Miami Marlins @ Houston Astros | English (STRMCNTR) | `edgestream3.pro` |
+| Miami Marlins vs Houston Astros | EN (STRMSGATE) | `instreams.pro` |
+| Miami Marlins vs Houston Astros | EN (STRMSGATE) | `instreams.pro` |
 | Midnight Pulp | `369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws` |
 | Midnight Pulp (#) | `linear-897.frequency.stream` |
 | Midnight Pulp 2 | `dmr-midnightpulp-3-us.samsung.wurl.tv` |
 | Midsomer Murders | `all3media-midsomer-1-us.roku.wurl.tv` |
 | Millennium TV 24 | `cdn.appv.jagobd.com:444` |
 | Millennium TV USA | `cdn.appv.jagobd.com:444` |
-| Milwaukee Brewers - New York Mets (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
-| Milwaukee Brewers - New York Mets (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
-| Milwaukee Brewers vs New York Mets (FAWA) | `193.47.62.190` |
-| Milwaukee Brewers vs New York Mets (FAWA) | `193.47.62.190` |
+| Milwaukee Brewers vs New York Mets (FAWA) | `193.47.62.41` |
+| Milwaukee Brewers vs New York Mets (FAWA) | `193.47.62.41` |
+| Milwaukee Brewers vs New York Mets | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | SportsNet New York USA (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | SportsNet New York USA (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | Sportsnet One (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | Sportsnet One (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | SportsNet Pittsburgh (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | SportsNet Pittsburgh (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | YES USA (HOOFUT) | `hoofoot.ru` |
+| Milwaukee Brewers vs New York Mets | YES USA (HOOFUT) | `hoofoot.ru` |
 | Mindanow Network | `cdn.vegasplus.us` |
 | Ministerio La Voz De Un Remanente | `vs20.live.opencaster` |
-| Minnesota Lynx @ Seattle Storm | English (STRMCNTR) | `edgestream2.pro` |
-| Minnesota Lynx @ Seattle Storm | English (STRMCNTR) | `edgestream2.pro` |
-| Minnesota Lynx vs Seattle Storm (CDNTV) | `cdnlivetv.tv` |
-| Minnesota Lynx vs Seattle Storm (CDNTV) | `cdnlivetv.tv` |
-| Minnesota Lynx vs Seattle Storm | DE (PLYFST) | `cdn1.zohanayaan.com:1686` |
-| Minnesota Lynx vs Seattle Storm | DE (PLYFST) | `cdn1.zohanayaan.com:1686` |
-| Minnesota Lynx vs Seattle Storm | EN (PLYFST) | `cdn10.zohanayaan.com:1686` |
-| Minnesota Lynx vs Seattle Storm | EN (PLYFST) | `cdn10.zohanayaan.com:1686` |
-| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream2.pro` |
-| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream2.pro` |
+| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream1.pro` |
+| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream1.pro` |
 | Minnesota Twins vs Cleveland Guardians | EN (STRMSGATE) | `instreams.pro` |
 | Minnesota Twins vs Cleveland Guardians | EN (STRMSGATE) | `instreams.pro` |
-| Misano Sprint Race 1 | Sky Sports F1 UK (HOOFUT) | `hoofoot.ru` |
-| Misano Sprint Race 1 | Sky Sports F1 UK (HOOFUT) | `hoofoot.ru` |
-| Misano Sprint Race 2 | Sky Sports F1 UK (HOOFUT) | `hoofoot.ru` |
-| Misano Sprint Race 2 | Sky Sports F1 UK (HOOFUT) | `hoofoot.ru` |
 | Mission TV | `stream.missiontv.com:1935` |
+| Mjällby vs Lincoln Red Imps | Sport Bladet Play (HOOFUT) | `hoofoot.ru` |
+| Mjällby vs Lincoln Red Imps | Sport Bladet Play (HOOFUT) | `hoofoot.ru` |
 | MMA Junkie | `a.jsrdn` |
 | MMC TV USA | `live.relentlessinnovations.net:1936` |
 | MMN | `a.jsrdn` |
 | MMN Sport 🇸🇦 | `mmn.mypsx.net:1935` |
 | Monarch Channel | `a.jsrdn` |
-| Monday Night Raw (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Monday Night Raw (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Monday Night Raw | English (STRMCNTR) | `edgestream1.pro` |
-| Monday Night Raw | English (STRMCNTR) | `edgestream1.pro` |
 | Monroe Community Media Education Channel | `reflect-monroe-public-access.cablecast.tv` |
 | Monroe Community Media Public Access Channel | `reflect-monroe-public-access.cablecast.tv` |
 | Monroe County Television MCTV | `castus-vod-dev.s3.amazonaws` |
@@ -1298,19 +1306,57 @@
 | Movie Kingdom | `a.jsrdn` |
 | Movie Mix | `moviemix.samsung.wurl` |
 | Movies! | `bozztv` |
+| Moyuka Uchijima / Nadia Podoroska vs Elena Pridankina / Maria Kozyreva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Moyuka Uchijima / Nadia Podoroska vs Elena Pridankina / Maria Kozyreva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | MST3K | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |
 | MTM TV | `angel.btbn.tv:5443` |
 | Mundo Series | `streams2.sofast.tv` |
+| Musselburgh, Nottingham & Salisbury | Ballinrobe | Racing TV UK (HOOFUT) | `hoofoot.ru` |
+| Musselburgh, Nottingham & Salisbury | Ballinrobe | Racing TV UK (HOOFUT) | `hoofoot.ru` |
 | MY 62 Kansas City (KSMO) | `2k.tstvs` |
 | MY 9 New York | `2k.tstvs` |
 | My Madison TV | `ad-playlistserver.aws.syncbak` |
 | My TV San Antonio | `65.36.6.216:1935` |
 | Mythos | `rpn1.bozztv` |
-| Nacional Potosi vs Real Oruro (FAWA) | `193.47.62.190` |
-| Nacional Potosi vs Real Oruro (FAWA) | `193.47.62.190` |
+| Nacional Montevideo vs Tigre | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN SPORTS en Español (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN SPORTS en Español (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN Sports Español (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN Sports Español (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN Sports MENA English 1 (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN Sports MENA English 1 (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | ESPN Brazil (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | ESPN Brazil (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Sport 2 Israel (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Sport 2 Israel (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Sportdigital FUSSBALL (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Sportdigital FUSSBALL (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Sportdigital FUSSBALL DE (HOOFUT) | `hoofoot.ru` |
+| Nacional Montevideo vs Tigre | Sportdigital FUSSBALL DE (HOOFUT) | `hoofoot.ru` |
+| Nacional vs Tigre (FAWA) | `193.47.62.41` |
+| Nacional vs Tigre (FAWA) | `193.47.62.41` |
+| Nacional vs Tigre | Disney+ (STRMXHD) | `khala.skylivehd` |
+| Nacional vs Tigre | Disney+ (STRMXHD) | `khala.skylivehd` |
+| Nacional vs Tigre | DSports (STRMXHD) | `khala.skylivehd` |
+| Nacional vs Tigre | DSports (STRMXHD) | `khala.skylivehd` |
+| Nacional vs Tigre | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
+| Nacional vs Tigre | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
+| Nacional vs Tigre | ESPAÑOL 2 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
+| Nacional vs Tigre | ESPAÑOL 2 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
+| Nacional vs Tigre | ESPAÑOL 3 (PLIBRE) | `c2nvdxq.fubo18.com:443` |
+| Nacional vs Tigre | ESPAÑOL 3 (PLIBRE) | `c2nvdxq.fubo18.com:443` |
+| Nacional vs Tigre | ESPN (STRMXHD) | `khala.skylivehd` |
+| Nacional vs Tigre | ESPN (STRMXHD) | `khala.skylivehd` |
+| Nacional vs Tigre | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Nacional vs Tigre | Fanatiz (STRMXHD) | `khala.skylivehd` |
 | NACTV | `stream.pivotalelements` |
-| Nadia Podoroska vs Julia Stusek | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Nadia Podoroska vs Julia Stusek | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Naija Gold Reels | `streams2.sofast.tv` |
 | Nationals vs Rockies (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Nationals vs Rockies (WEBCAST) | `webcast-origin.b-cdn.net` |
@@ -1338,27 +1384,17 @@
 | NETO SPORTS 🇸🇦 | `netohls.wns.live` |
 | New K-Pop | `newidco-newkid-1-eu.xiaomi.wurl.tv` |
 | New Kid TV | `b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws` |
-| New York Liberty @ Dallas Wings | English (STRMCNTR) | `edgestream1.pro` |
-| New York Liberty @ Dallas Wings | English (STRMCNTR) | `edgestream1.pro` |
-| New York Mets @ Milwaukee Brewers | English (STRMCNTR) | `edgestream1.pro` |
-| New York Mets @ Milwaukee Brewers | English (STRMCNTR) | `edgestream1.pro` |
-| New York Mets vs Milwaukee Brewers | EN (STRMSGATE) | `instreams.pro` |
-| New York Mets vs Milwaukee Brewers | EN (STRMSGATE) | `instreams.pro` |
-| New York Yankees vs Pittsburgh Pirates (FAWA) | `193.47.62.190` |
-| New York Yankees vs Pittsburgh Pirates (FAWA) | `193.47.62.190` |
+| New York Mets @ Milwaukee Brewers | English (STRMCNTR) | `edgestream2.pro` |
+| New York Mets @ Milwaukee Brewers | English (STRMCNTR) | `edgestream2.pro` |
+| New York Mets vs Milwaukee Brewers | EN (STRMSGATE) | `instreams.live` |
+| New York Mets vs Milwaukee Brewers | EN (STRMSGATE) | `instreams.live` |
 | Newfoundland Television | `2-fss-1.streamhoster` |
 | Newington Community Television Channel 14 | `s3-us-west-2.amazonaws` |
 | Newington Community Television Channel 16 | `s3-us-west-2.amazonaws` |
 | News 8 New Haven | `tkx.mp.lura.live` |
 | News4JAX+ | `dai.google` |
-| Nico Hipfl / Sandro Kopp vs Jean-Julien Rojer / Theodore Winegar | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Nico Hipfl / Sandro Kopp vs Jean-Julien Rojer / Theodore Winegar | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Nitro Circus | `dai2.xumo` |
 | Nitro TV | `streams2.sofast.tv` |
-| Norrby vs GIF Sundsvall | TV4 Sportkanalen Sweden (HOOFUT) | `hoofoot.ru` |
-| Norrby vs GIF Sundsvall | TV4 Sportkanalen Sweden (HOOFUT) | `hoofoot.ru` |
-| Norrby vs GIF Sundsvall | TV4 Sportkanalen Sweden (HOOFUT) | `hoofoot.ru` |
-| Norrby vs GIF Sundsvall | TV4 Sportkanalen Sweden (HOOFUT) | `hoofoot.ru` |
 | North Shore TV | `47.23.7.30:8080` |
 | Nosey | `dai2.xumo` |
 | Nosey 2 | `nosey-2-us.freemoviesplus.wurl.tv` |
@@ -1369,6 +1405,10 @@
 | NOVA SPORT 1 HD 🇨🇿 | `wo0dyefk.dienalt` |
 | Nova Sport 1 🇨🇿 | `dvr2.kablova.tv` |
 | Novelisima | `stream.ads.ottera.tv` |
+| Novorizontino vs Criciuma (FAWA) | `193.47.62.41` |
+| Novorizontino vs Criciuma (FAWA) | `193.47.62.41` |
+| Novorizontino vs Criciúma | ESPN4 Brazil (HOOFUT) | `hoofoot.ru` |
+| Novorizontino vs Criciúma | ESPN4 Brazil (HOOFUT) | `hoofoot.ru` |
 | NOW SPORTS 1 🇭🇰 | `eventcdn02-nowe.akamaized.net` |
 | NOW SPORTS 2 🇭🇰 | `eventcdn02-nowe.akamaized.net` |
 | NOW SPORTS 3 🇭🇰 | `eventcdn02-nowe.akamaized.net` |
@@ -1379,6 +1419,16 @@
 | NTD TV Canada | `live.ntdtv` |
 | NTD TV Canada West | `live.ntdtv` |
 | NTV+ | `2-fss-1.streamhoster` |
+| Nuno Borges vs Orlando Luz | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Nuno Borges vs Orlando Luz | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| NXT | CW PIX 11 USA (HOOFUT) | `hoofoot.ru` |
+| NXT | CW PIX 11 USA (HOOFUT) | `hoofoot.ru` |
+| NXT | CW USA (HOOFUT) | `hoofoot.ru` |
+| NXT | CW USA (HOOFUT) | `hoofoot.ru` |
+| NXT | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
+| NXT | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
+| NXT | SuperSport Variety 3 (HOOFUT) | `hoofoot.ru` |
+| NXT | SuperSport Variety 3 (HOOFUT) | `hoofoot.ru` |
 | NYC Gov | `v-ny.theus6tv.tk` |
 | NYC Life | `v-ny.theus6tv.tk` |
 | NYXT | `api.new.livestream` |
@@ -1390,6 +1440,16 @@
 | Oceanside Community Television (KOCT) Community Channel 18 (720p) | `securestream10.champds` |
 | Oceanside Community Television (KOCT) Education and Government Channel 19 | `securestream10.champds` |
 | Oceanside Community Television (KOCT) Education and Government Channel 19 (720p) | `securestream10.champds` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 1 | Polsat Sport Premium 2 Poland (HOOFUT) | `hoofoot.ru` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 1 | Polsat Sport Premium 2 Poland (HOOFUT) | `hoofoot.ru` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 1 | Sky Sports 3 NZ (HOOFUT) | `hoofoot.ru` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 1 | Sky Sports 3 NZ (HOOFUT) | `hoofoot.ru` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 2 | Polsat Sport Premium 2 Poland (HOOFUT) | `hoofoot.ru` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 2 | Polsat Sport Premium 2 Poland (HOOFUT) | `hoofoot.ru` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 2 | Sky Sports 3 NZ (HOOFUT) | `hoofoot.ru` |
+| Oklahoma City, Oklahoma, USA – Day 1 Session 2 | Sky Sports 3 NZ (HOOFUT) | `hoofoot.ru` |
+| Oleksandra Oliynykova vs Nastasja Schunk | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Oleksandra Oliynykova vs Nastasja Schunk | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | ON Sports+ 🇭🇰 | `freem3u` |
 | ONEPLAY 1 🇨🇿 | `185.112.249.46:9981` |
 | ONEPLAY 2 🇨🇿 | `185.112.249.46:9981` |
@@ -1401,10 +1461,28 @@
 | ORF+ 🇦🇹 | `212.186.45.34:9981` |
 | Orioles vs Red Sox (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Orioles vs Red Sox (WEBCAST) | `webcast-origin.b-cdn.net` |
+| Orlando Pirates vs Al-Ittihad | SuperSport Variety 4 (HOOFUT) | `hoofoot.ru` |
+| Orlando Pirates vs Al-Ittihad | SuperSport Variety 4 (HOOFUT) | `hoofoot.ru` |
 | OTT CLUB 🇷🇺 | `czrb8vng.ottclub` |
 | OUR TV | `hls-cdn.tvstartup.net` |
 | Outdoor America | `linear-600.frequency.stream` |
 | Outer Vision Channel | `streams2.sofast.tv` |
+| Oval Invincibles Women vs Northern Superchargers Women | Astro Cricket (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Astro Cricket (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | BBC Two UK (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | BBC Two UK (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sport 2 NZ (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sport 2 NZ (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sports Cricket UK (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sports Cricket UK (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sports Main Event (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sports Main Event (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sports Mix UK (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Sky Sports Mix UK (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | SuperSport Cricket (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | SuperSport Cricket (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Willow Cricket (HOOFUT) | `hoofoot.ru` |
+| Oval Invincibles Women vs Northern Superchargers Women | Willow Cricket (HOOFUT) | `hoofoot.ru` |
 | Oxygen | `s.rocketdns.info:8080` |
 | Oxygen Music | `oxygenmusic.hu:2443` |
 | Pacific Island Network | `cdn.vegasplus.us` |
@@ -1434,16 +1512,34 @@
 | Peoria Channel 11 | `free.fullspeed.tv` |
 | PERSIANA SPORTS 🇮🇷 | `ayassport.776740.ir.cdn.ir` |
 | Phil 17 | `v-pi.theus6tv.tk` |
-| Philadelphia Phillies vs Los Angeles Dodgers (FAWA) | `193.47.62.190` |
-| Philadelphia Phillies vs Los Angeles Dodgers (FAWA) | `193.47.62.190` |
+| Philadelphia Phillies vs Los Angeles Dodgers (FAWA) | `193.47.62.41` |
+| Philadelphia Phillies vs Los Angeles Dodgers (FAWA) | `193.47.62.41` |
+| Philadelphia Phillies vs Los Angeles Dodgers (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Philadelphia Phillies vs Los Angeles Dodgers (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Philadelphia Phillies vs Los Angeles Dodgers (WATCHFTY) | `lb6.wfty.st` |
+| Philadelphia Phillies vs Los Angeles Dodgers (WATCHFTY) | `lb6.wfty.st` |
+| Philadelphia Phillies vs Los Angeles Dodgers | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | NBC Sports Philadelphia (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | NBC Sports Philadelphia (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | Spectrum SportsNet LA (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | Spectrum SportsNet LA (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | TBS USA (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | TBS USA (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | TNT Sports 2 UK (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | TNT Sports 2 UK (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | truTV USA (HOOFUT) | `hoofoot.ru` |
+| Philadelphia Phillies vs Los Angeles Dodgers | truTV USA (HOOFUT) | `hoofoot.ru` |
+| Pierre-Hugues Herbert / Kevin Krawietz vs Jakub Paul / Ryan Seggerman | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Pierre-Hugues Herbert / Kevin Krawietz vs Jakub Paul / Ryan Seggerman | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Pinellas Park City TV | `reflect-pinellas-park-fl.cablecast.tv` |
 | Pinkfong Baby Shark | `fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws` |
 | Pirates vs Yankees (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Pirates vs Yankees (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Pittsburgh Pirates @ New York Yankees | English (STRMCNTR) | `edgestream1.pro` |
 | Pittsburgh Pirates @ New York Yankees | English (STRMCNTR) | `edgestream1.pro` |
-| Pittsburgh Pirates vs New York Yankees | EN (STRMSGATE) | `instreams.pro` |
-| Pittsburgh Pirates vs New York Yankees | EN (STRMSGATE) | `instreams.pro` |
+| Pittsburgh Pirates vs New York Yankees | EN (STRMSGATE) | `instreams.live` |
+| Pittsburgh Pirates vs New York Yankees | EN (STRMSGATE) | `instreams.live` |
 | Plant-Based Network HD | `hls-cdn.tvstartup.net` |
 | Play.Works | `b12eca572da7423284734ca3a6242ea2.mediatailor.us-east-1.amazonaws` |
 | Plymouth Rock TV | `hls-cdn.tvstartup.net` |
@@ -1462,7 +1558,7 @@
 | PSN 4 Sports 🇺🇸 | `cdn4.skygo.mn` |
 | PSN 5 Sports 🇺🇸 | `cdn4.skygo.mn` |
 | PTL Television Network | `storage.sardius.media` |
-| PTV Sports | `cdn7.zohanayaan.com:1686` |
+| PTV Sports | `cdn4.zohanayaan.com:1686` |
 | Qazaqstan Sport SD 🇰🇿 | `stream.qaztv.kz` |
 | Qello Concerts | `dai.google` |
 | Qello Concerts by Stingray | `lotus.stingray` |
@@ -1477,14 +1573,6 @@
 | Radar Tasikmalaya TV | `v2.siar.us` |
 | Rancho Cucamonga RCTV 3 (Rancho Cucamonga CA) | `vod.cityofrc.us` |
 | Rancho Cucamonga RCTV3 (Rancho Cucamonga CA) (480p) | `vod.cityofrc.us` |
-| Rapid București vs Sepsi | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| Rapid București vs Sepsi | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
-| Rapid București vs Sepsi | Digi Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Rapid București vs Sepsi | Digi Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Rapid București vs Sepsi | Digi Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Rapid București vs Sepsi | Digi Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Rapid București vs Sepsi | Prima Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
-| Rapid București vs Sepsi | Prima Sport 1 Romania (HOOFUT) | `hoofoot.ru` |
 | Rays vs Jays (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Rays vs Jays (WEBCAST) | `webcast-origin.b-cdn.net` |
 | RDS | `technologycloud.eu:80` |
@@ -1510,30 +1598,32 @@
 | RightNow TV | `a-cdn.klowdtv` |
 | Ring of Honor Wrestling HD | `stadium-ringofhonor-1.sinclair.wurl` |
 | RING 🇧🇬 | `84.54.128.52:9090` |
+| Roberto Carballés Baena vs Marc-Andrea Hüsler | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Roberto Carballés Baena vs Marc-Andrea Hüsler | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Robin Haase / Constantin Frantzen vs Petr Nouza / Neil Oberleitner | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Robin Haase / Constantin Frantzen vs Petr Nouza / Neil Oberleitner | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Rocky Hill Government Access Channel 16 | `securestream9.champds` |
 | Rocky Hill Government Access Channel 16 (480p) | `securestream9.champds` |
-| Rotor Volgograd vs SKA Khabarovsk | Match Premier Russia (HOOFUT) | `hoofoot.ru` |
-| Rotor Volgograd vs SKA Khabarovsk | Match Premier Russia (HOOFUT) | `hoofoot.ru` |
-| Rotor Volgograd vs SKA Khabarovsk | Match Premier Russia (HOOFUT) | `hoofoot.ru` |
-| Rotor Volgograd vs SKA Khabarovsk | Match Premier Russia (HOOFUT) | `hoofoot.ru` |
-| Rotor Volgograd vs SKA Khabarovsk | MATCH TV Russia (HOOFUT) | `hoofoot.ru` |
-| Rotor Volgograd vs SKA Khabarovsk | MATCH TV Russia (HOOFUT) | `hoofoot.ru` |
+| Roland-Story vs Durant | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
+| Roland-Story vs Durant | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
 | RSUTV Public Television | `2-fss-2.streamhoster` |
 | RTA SPORT 🇸🇦 | `rtatv.akamaized.net` |
 | RTSH Sport 🇦🇱 | `178.33.11.6:8696` |
 | RTSH Sport 🇦🇱 | `217.73.139.200:5443` |
 | RVTV | `sramsburg-hls.secdn.net` |
 | Safe TV | `18.191.91.130:1935` |
-| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream1.pro` |
-| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream1.pro` |
-| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.live` |
-| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.live` |
+| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream2.pro` |
+| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream2.pro` |
+| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.pro` |
+| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.pro` |
 | San Francisco Giants @ Kansas City Royals | English (STRMCNTR) | `edgestream3.pro` |
 | San Francisco Giants @ Kansas City Royals | English (STRMCNTR) | `edgestream3.pro` |
-| San Francisco Giants vs Kansas City Royals | EN (STRMSGATE) | `instreams.pro` |
-| San Francisco Giants vs Kansas City Royals | EN (STRMSGATE) | `instreams.pro` |
+| San Francisco Giants vs Kansas City Royals | EN (STRMSGATE) | `instreams.live` |
+| San Francisco Giants vs Kansas City Royals | EN (STRMSGATE) | `instreams.live` |
 | San Luis Obispo County Office of Education COE-TV Channel 19 | `vod.slocoe` |
 | San Luis Obispo County Office of Education COE-TV Channel 2 | `vod.slocoe` |
+| Sara Sorribes Tormo vs Alina Charaeva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Sara Sorribes Tormo vs Alina Charaeva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | SBN TV | `live20.bozztv` |
 | SBTN | `live20.bozztv` |
 | SC Currents | `reflect-communitytv.cablecast.tv` |
@@ -1548,28 +1638,20 @@
 | Seaside CA The Peninsula Channel | `ampmedia.secure.footprint.net` |
 | Seattle Mariners - Cincinnati Reds (EMBEDHD) | `cdn13.zohanayaan.com:1686` |
 | Seattle Mariners - Cincinnati Reds (EMBEDHD) | `cdn13.zohanayaan.com:1686` |
-| Seattle Mariners vs Cincinnati Reds (FAWA) | `193.47.62.190` |
-| Seattle Mariners vs Cincinnati Reds (FAWA) | `193.47.62.190` |
+| Seattle Mariners vs Cincinnati Reds (FAWA) | `193.47.62.41` |
+| Seattle Mariners vs Cincinnati Reds (FAWA) | `193.47.62.41` |
 | Seattle Mariners vs Cincinnati Reds (iSTRMEAST) | `chatgpt.hereisman.net` |
 | Seattle Mariners vs Cincinnati Reds (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Seattle Mariners vs Cincinnati Reds | beIN Sports 4 Max France (HOOFUT) | `hoofoot.ru` |
+| Seattle Mariners vs Cincinnati Reds | beIN Sports 4 Max France (HOOFUT) | `hoofoot.ru` |
 | Seattle Mariners vs Cincinnati Reds | MLB League Pass (HOOFUT) | `hoofoot.ru` |
 | Seattle Mariners vs Cincinnati Reds | MLB League Pass (HOOFUT) | `hoofoot.ru` |
-| Seattle Mariners vs Cincinnati Reds | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
-| Seattle Mariners vs Cincinnati Reds | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| Seattle Mariners vs Cincinnati Reds | MLB Network USA (HOOFUT) | `hoofoot.ru` |
+| Seattle Mariners vs Cincinnati Reds | MLB Network USA (HOOFUT) | `hoofoot.ru` |
 | Seattle Mariners vs Cincinnati Reds | TNT Sports 2 UK (HOOFUT) | `hoofoot.ru` |
 | Seattle Mariners vs Cincinnati Reds | TNT Sports 2 UK (HOOFUT) | `hoofoot.ru` |
-| Seattle Storm vs Minnesota Lynx (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Seattle Storm vs Minnesota Lynx (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Seattle Storm vs Minnesota Lynx (WATCHFTY) | `lb1.wfty.st` |
-| Seattle Storm vs Minnesota Lynx (WATCHFTY) | `lb1.wfty.st` |
-| Seattle Storm vs Minnesota Lynx | Sky Sport Mix DE (HOOFUT) | `hoofoot.ru` |
-| Seattle Storm vs Minnesota Lynx | Sky Sport Mix DE (HOOFUT) | `hoofoot.ru` |
-| Seattle Storm vs Minnesota Lynx | USA Network (HOOFUT) | `hoofoot.ru` |
-| Seattle Storm vs Minnesota Lynx | USA Network (HOOFUT) | `hoofoot.ru` |
-| Seattle Storm vs Minnesota Lynx | USA Network (HOOFUT) | `hoofoot.ru` |
-| Seattle Storm vs Minnesota Lynx | USA Network (HOOFUT) | `hoofoot.ru` |
-| Seattle Storm W vs Minnesota Lynx W (FAWA) | `193.47.62.190` |
-| Seattle Storm W vs Minnesota Lynx W (FAWA) | `193.47.62.190` |
+| Seattle Mariners vs Cincinnati Reds | TNT Sports 3 UK (HOOFUT) | `hoofoot.ru` |
+| Seattle Mariners vs Cincinnati Reds | TNT Sports 3 UK (HOOFUT) | `hoofoot.ru` |
 | Sent TV Global Network | `rpn1.bozztv` |
 | Sent TV Global Network Atlanta (SGTN-49) | `rpn.bozztv` |
 | Sent TV Global Network Atlanta (SGTN-49) (720p) | `rpn.bozztv` |
@@ -1586,43 +1668,35 @@
 | SF Commons Channel 76 San Francisco | `reflect-bayarea.cablecast.tv` |
 | SGTV (Seminole County FL) (1080p) | `live.seminolecountyfl.gov` |
 | SGTV Seminole County, Florida | `live.seminolecountyfl.gov` |
-| Shokichi Iwata vs Erik Badillo | Diema Sport 3 Bulgaria (HOOFUT) | `hoofoot.ru` |
-| Shokichi Iwata vs Erik Badillo | Diema Sport 3 Bulgaria (HOOFUT) | `hoofoot.ru` |
-| Shokichi Iwata vs Erik Badillo | TVP Sport Poland (HOOFUT) | `hoofoot.ru` |
-| Shokichi Iwata vs Erik Badillo | TVP Sport Poland (HOOFUT) | `hoofoot.ru` |
 | Shop HQ | `aos01-evine.secure.footprint.net` |
 | Shop LC | `cdn-shop-lc-01.akamaized.net` |
 | Shout! Cult | `837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws` |
 | Sightline | `linear-64.frequency.stream` |
 | SKWAD | `stream-us-east-1.getpublica` |
-| Sky Sport 6 Nz | `cdn10.zohanayaan.com:1686` |
+| Sky Sport 6 Nz | `cdn2.zohanayaan.com:1686` |
 | SKY SPORT LALIGA 🇲🇽 | `167.250.223.26:8085` |
 | SKY SPORT LALIGA 🇲🇽 | `179.60.224.196:8000` |
 | SKY SPORT LALIGA 🇲🇽 | `181.78.109.48:9998` |
 | SKY SPORT LALIGA 🇲🇽 | `190.14.10.19:16000` |
 | SKY SPORT LALIGA 🇲🇽 | `190.92.10.66:4000` |
 | SKY SPORT LALIGA 🇲🇽 | `45.5.117.57:8200` |
-| Sky Sport Nz 2 | `cdn10.zohanayaan.com:1686` |
-| Sky Sport Nz 3 | `cdn1.zohanayaan.com:1686` |
-| Sky Sport Nz 4 | `cdn7.zohanayaan.com:1686` |
-| Sky Sport Nz 5 | `cdn9.zohanayaan.com:1686` |
-| Sky Sport Nz 7 | `cdn4.zohanayaan.com:1686` |
-| Sky Sport Nz 8 | `cdn5.zohanayaan.com:1686` |
-| Sky Sport Nz 9 | `cdn3.zohanayaan.com:1686` |
-| Sky Sports Arena | `cdn6.zohanayaan.com:1686` |
-| Sky Sports Main Event | `cdn9.zohanayaan.com:1686` |
-| Sky Sports Plus | `cdn6.zohanayaan.com:1686` |
-| Sky Sports Premier League | `cdn2.zohanayaan.com:1686` |
+| Sky Sport Nz 2 | `cdn7.zohanayaan.com:1686` |
+| Sky Sport Nz 3 | `cdn6.zohanayaan.com:1686` |
+| Sky Sport Nz 4 | `cdn8.zohanayaan.com:1686` |
+| Sky Sport Nz 5 | `cdn2.zohanayaan.com:1686` |
+| Sky Sport Nz 7 | `cdn8.zohanayaan.com:1686` |
+| Sky Sport Nz 8 | `cdn7.zohanayaan.com:1686` |
+| Sky Sport Nz 9 | `cdn6.zohanayaan.com:1686` |
+| Sky Sports Arena | `cdn4.zohanayaan.com:1686` |
+| Sky Sports Main Event | `cdn1.zohanayaan.com:1686` |
+| Sky Sports Plus | `cdn4.zohanayaan.com:1686` |
+| Sky Sports Premier League | `cdn8.zohanayaan.com:1686` |
 | Sky Sports Premier League | `s.rocketdns.info:8080` |
-| Sky Sports Tennis | `cdn2.zohanayaan.com:1686` |
+| Sky Sports Tennis | `cdn9.zohanayaan.com:1686` |
 | Sky TV New York | `tvsw2-hls.secdn.net` |
 | Skye Community Media Center 13 (Waterbury CT) | `stream.mux` |
-| Slavia Sofia vs CSKA Sofia | Diema Sport Bulgaria (HOOFUT) | `hoofoot.ru` |
-| Slavia Sofia vs CSKA Sofia | Diema Sport Bulgaria (HOOFUT) | `hoofoot.ru` |
-| Slavia Sofia vs CSKA Sofia | Diema Sport Bulgaria (HOOFUT) | `hoofoot.ru` |
-| Slavia Sofia vs CSKA Sofia | Diema Sport Bulgaria (HOOFUT) | `hoofoot.ru` |
-| Slavia Sofia vs CSKA Sofia | SportKlub 3 Croatia (HOOFUT) | `hoofoot.ru` |
-| Slavia Sofia vs CSKA Sofia | SportKlub 3 Croatia (HOOFUT) | `hoofoot.ru` |
+| Slaven Belupo Koprivnica vs Shakhtar Donetsk | MAX Sport 1 Crotia (HOOFUT) | `hoofoot.ru` |
+| Slaven Belupo Koprivnica vs Shakhtar Donetsk | MAX Sport 1 Crotia (HOOFUT) | `hoofoot.ru` |
 | Slightly Off by IFC | `amc-slightly-off-by-amc-1.imdbtv.wurl` |
 | SLO County Channel 21 | `agp-nimble.streamguys1` |
 | SLO County Channel 21 (360p) | `agp-nimble.streamguys1` |
@@ -1634,13 +1708,11 @@
 | So... Real (720p) | `cineverse-all3-soreal-1-us.ono.wurl.tv` |
 | Sohail TV | `iptv.sohailtv` |
 | SoloCalcioᴴᴰ 🇮🇹 | `bit.ly` |
-| Sony Sports3 | `cdn6.zohanayaan.com:1686` |
+| Sony Sports3 | `cdn1.zohanayaan.com:1686` |
 | Sony Ten 1 🇮🇳 | `stvlive.net:8080` |
 | Sony Ten 2 🇮🇳 | `stvlive.net:8080` |
 | Sony Ten 5 🇮🇳 | `stvlive.net:8080` |
 | Sooriyan TV | `live20.bozztv` |
-| South Winneshiek vs Notre Dame | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
-| South Winneshiek vs Notre Dame | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
 | Southeastern Channel | `147.174.13.196` |
 | Space Science Now | `magellan-space-science-now-1-us.freemoviesplus.wurl.tv` |
 | Space Series | `streams2.sofast.tv` |
@@ -1653,14 +1725,6 @@
 | SPORT5LIVEHD 🇮🇱 | `77.137.40.221:8000` |
 | SPORT5PLUSHD 🇮🇱 | `77.137.40.221:8000` |
 | Sportdigital 🇩🇪 | `jmp2.uk` |
-| Sporting CP vs Strasbourg | DAZN Eleven 1 Portugal (HOOFUT) | `hoofoot.ru` |
-| Sporting CP vs Strasbourg | DAZN Eleven 1 Portugal (HOOFUT) | `hoofoot.ru` |
-| Sporting CP vs Strasbourg | DAZN Eleven 1 Portugal (HOOFUT) | `hoofoot.ru` |
-| Sporting CP vs Strasbourg | DAZN Eleven 1 Portugal (HOOFUT) | `hoofoot.ru` |
-| Sporting CP vs Strasbourg | Sporting TV Portugal (HOOFUT) | `hoofoot.ru` |
-| Sporting CP vs Strasbourg | Sporting TV Portugal (HOOFUT) | `hoofoot.ru` |
-| Sporting CP vs Strasbourg | TVI Portugal (HOOFUT) | `hoofoot.ru` |
-| Sporting CP vs Strasbourg | TVI Portugal (HOOFUT) | `hoofoot.ru` |
 | Sports Connect | `streamdot.broadpeak.io` |
 | SportsGrid | `dai2.xumo` |
 | Sportskool TV | `a.jsrdn` |
@@ -1671,12 +1735,14 @@
 | St. Louis Cardinals at Los Angeles Angels (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
 | St. Louis Cardinals vs Los Angeles Angels (CDNTV) | `cdnlivetv.tv` |
 | St. Louis Cardinals vs Los Angeles Angels (CDNTV) | `cdnlivetv.tv` |
-| St. Louis Cardinals vs Los Angeles Angels (MP66) | `node-8bba18be.4587.website` |
-| St. Louis Cardinals vs Los Angeles Angels (MP66) | `node-8bba18be.4587.website` |
+| St. Louis Cardinals vs Los Angeles Angels (MP66) | `node-025d151e.4587.website` |
+| St. Louis Cardinals vs Los Angeles Angels (MP66) | `node-025d151e.4587.website` |
 | St. Louis Cardinals vs Los Angeles Angels | EN (STRMSGATE) | `instreams.live` |
 | St. Louis Cardinals vs Los Angeles Angels | EN (STRMSGATE) | `instreams.live` |
-| Star Sports 1 | `cdn3.zohanayaan.com:1686` |
-| Star Sports 1 Hindi | `cdn8.zohanayaan.com:1686` |
+| Stan Wawrinka vs Román Andrés Burruchaga | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Stan Wawrinka vs Román Andrés Burruchaga | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Star Sports 1 | `cdn10.zohanayaan.com:1686` |
+| Star Sports 1 Hindi | `cdn1.zohanayaan.com:1686` |
 | Star Trek | `service-stitcher.clusters.pluto.tv` |
 | Stingray CMusic | `lotus.stingray` |
 | Stingray DJazz | `lotus.stingray` |
@@ -1690,14 +1756,26 @@
 | Stories by AMC | `amc-amcpresents-1-us.xumo.wurl.tv` |
 | Story Television | `2-fss-1.streamhoster` |
 | Stryk TV | `fffffff110156200.tvustream.com:8298` |
+| Sturm Graz vs Heart of Midlothian | Arena 2 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Arena 2 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Arena Sport 1 Slovakia (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Arena Sport 1 Slovakia (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | ORF1 Austria (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | ORF1 Austria (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Premier Sports 1 Ireland (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Premier Sports 1 Ireland (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Viaplay Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Viaplay Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Viaplay Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Heart of Midlothian | Viaplay Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| Sturm Graz vs Hearts | Evento 2 (STRMXHD) | `khala.skylivehd` |
+| Sturm Graz vs Hearts | Evento 2 (STRMXHD) | `khala.skylivehd` |
 | STV | `s.rocketdns.info:8080` |
 | SubRang TV | `cdn61.liveonlineservices` |
 | SUMtv English | `bozztv` |
 | SUMtv Latino | `bozztv` |
-| Super Football | `cdn6.zohanayaan.com:1686` |
+| Super Football | `cdn1.zohanayaan.com:1686` |
 | Super Nice Online | `video.ejeserver` |
-| Super Nova vs Grobiņa | TV4 Latvia (HOOFUT) | `hoofoot.ru` |
-| Super Nova vs Grobiņa | TV4 Latvia (HOOFUT) | `hoofoot.ru` |
 | Super Premier League | `cdn3.zohanayaan.com:1686` |
 | Super Simple Songs | `janson-supersimplesongs-1.vizio.wurl` |
 | Super Simple Songs (#) | `janson-supersimplesongs-1-us.roku.wurl.tv` |
@@ -1733,12 +1811,14 @@
 | Sword and Shield | `a.jsrdn` |
 | T-Vinet | `unlimited1-us.dps.live` |
 | Talkin Live Classics TV | `2-fss-1.streamhoster` |
+| Tamara Korpatsch vs Victoria Jiménez Kasintseva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Tamara Korpatsch vs Victoria Jiménez Kasintseva | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Tampa Bay Communnity Network TBCN | `reflect-tampa-bay-community.cablecast.tv` |
 | Tampa Bay Communnity Network TBCN (Tampa Bay FL) (480p) | `reflect-tampa-bay-community.cablecast.tv` |
-| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream2.pro` |
-| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream2.pro` |
-| Tampa Bay Rays vs Toronto Blue Jays | EN (STRMSGATE) | `instreams.live` |
-| Tampa Bay Rays vs Toronto Blue Jays | EN (STRMSGATE) | `instreams.live` |
+| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream3.pro` |
+| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream3.pro` |
+| Tampa Bay Rays vs Toronto Blue Jays | EN (STRMSGATE) | `instreams.pro` |
+| Tampa Bay Rays vs Toronto Blue Jays | EN (STRMSGATE) | `instreams.pro` |
 | Tampa Scientology | `stream-tampa.scientology` |
 | Tankee | `stream-us-east-1.getpublica` |
 | Tapesh 2 | `t2hls.wns.live` |
@@ -1751,6 +1831,8 @@
 | TBN Smile | `tbn-jw.cdn.vustreams` |
 | TCM East | `main.light-ott.net:80` |
 | TDM Desporto 🇲🇴 | `cdn6.163189` |
+| Teams TBA | ESPN USA (HOOFUT) | `hoofoot.ru` |
+| Teams TBA | ESPN USA (HOOFUT) | `hoofoot.ru` |
 | Tele Boston | `rtb.srfms.com:3333` |
 | Teleamazonas 🇻🇪 | `190.242.59.52:8000` |
 | TELECOSTA GUATEMALA 🇬🇹 | `tv91.hostingnuclear.com:19360` |
@@ -1771,15 +1853,15 @@
 | Tempe 11 | `granicusliveus1-a.akamaihd.net` |
 | Temple University TV | `templeuni.secure.footprint.net` |
 | Tempo Afric TV | `streamspace.live` |
-| Ten Sports | `cdn5.zohanayaan.com:1686` |
+| Ten Sports | `cdn9.zohanayaan.com:1686` |
 | Tensions TV | `streams2.sofast.tv` |
+| Tessa Johanna Brockmann vs Elsa Jacquemot | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Tessa Johanna Brockmann vs Elsa Jacquemot | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Test My Ride | `streams2.sofast.tv` |
-| Texas Rangers - Chicago White Sox (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
-| Texas Rangers - Chicago White Sox (EMBEDHD) | `cdn12.zohanayaan.com:1686` |
-| Texas Rangers vs Chicago White Sox (FAWA) | `193.47.62.190` |
-| Texas Rangers vs Chicago White Sox (FAWA) | `193.47.62.190` |
-| Texas Rangers vs Chicago White Sox (WATCHFTY) | `lb5.wfty.st` |
-| Texas Rangers vs Chicago White Sox (WATCHFTY) | `lb5.wfty.st` |
+| Texas Rangers - Chicago White Sox (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
+| Texas Rangers - Chicago White Sox (EMBEDHD) | `cdn15.zohanayaan.com:1686` |
+| Texas Rangers vs Chicago White Sox (FAWA) | `193.47.62.41` |
+| Texas Rangers vs Chicago White Sox (FAWA) | `193.47.62.41` |
 | Texas Rangers vs Chicago White Sox | Chicago Sports Network (HOOFUT) | `hoofoot.ru` |
 | Texas Rangers vs Chicago White Sox | Chicago Sports Network (HOOFUT) | `hoofoot.ru` |
 | Texas Rangers vs Chicago White Sox | MLB League Pass (HOOFUT) | `hoofoot.ru` |
@@ -1798,8 +1880,6 @@
 | The Cycling Channel | `cyclingtv.playout.vju.tv` |
 | The Design Network | `thedesignnetwork-tdn-6-ca.samsung.wurl.tv` |
 | The Dove TV | `thedovetv.bozztv` |
-| The Enchantment vs AfterShocks | FOX Sports 1 USA (HOOFUT) | `hoofoot.ru` |
-| The Enchantment vs AfterShocks | FOX Sports 1 USA (HOOFUT) | `hoofoot.ru` |
 | The Explorers | `streams2.sofast.tv` |
 | The Florida Channel | `cdnapisec.kaltura` |
 | The Grio | `cdn.igocast` |
@@ -1834,8 +1914,10 @@
 | Thmanyah 3 🇲🇦 | `154.197.91.169:8000` |
 | Thornton Government Access Channel 17 | `reflect-thornton.cablecast.tv` |
 | Thornton Government Access Channel 17 (Thornton CO) (1080p) | `reflect-thornton.cablecast.tv` |
-| Tiago Torres vs Nikoloz Basilashvili | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Tiago Torres vs Nikoloz Basilashvili | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Thun vs Dinamo Zagreb | RSI La 2 (HOOFUT) | `hoofoot.ru` |
+| Thun vs Dinamo Zagreb | RSI La 2 (HOOFUT) | `hoofoot.ru` |
+| Thun vs Dinamo Zagreb | SRF zwei (HOOFUT) | `hoofoot.ru` |
+| Thun vs Dinamo Zagreb | SRF zwei (HOOFUT) | `hoofoot.ru` |
 | Tigers vs Cubs (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Tigers vs Cubs (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Tigo Sports 🇦🇷 | `181.78.50.91:4000` |
@@ -1843,47 +1925,81 @@
 | Timeless | `v-pi.theus6tv.tk` |
 | Tin TV | `bozztv` |
 | Tin TV (#) | `tulixcdn.akamaized.net` |
-| Titouan Droguet vs Camilo Ugo Carabelli | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Titouan Droguet vs Camilo Ugo Carabelli | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Tivibu Spor 1 🇹🇷 | `65.108.239.207` |
 | Tivibu Spor 2 🇹🇷 | `65.108.239.207` |
 | Tivibu Spor 3 🇹🇷 | `65.108.239.207` |
 | Tivibu Spor 4 🇹🇷 | `65.108.239.207` |
-| TNT 1 | `cdn5.zohanayaan.com:1686` |
-| TNT 2 | `cdn4.zohanayaan.com:1686` |
-| TNT 3 | `cdn7.zohanayaan.com:1686` |
-| TNT 4 | `cdn5.zohanayaan.com:1686` |
+| TNT 1 | `cdn3.zohanayaan.com:1686` |
+| TNT 2 | `cdn8.zohanayaan.com:1686` |
+| TNT 3 | `cdn9.zohanayaan.com:1686` |
+| TNT 4 | `cdn7.zohanayaan.com:1686` |
 | TNT SPORTS PREMIUM 🇬🇧 | `200.115.120.1:8000` |
 | Todays Homeowner | `janson-todayshomeowner-1-us.freemoviesplus.wurl.tv` |
-| Tomás Martín Etcheverry / Mariano Kestelboim vs Sriram Balaji / André Göransson | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Tomás Martín Etcheverry / Mariano Kestelboim vs Sriram Balaji / André Göransson | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Toluca vs Pumas UNAM | ES (PLYFST) | `cdn5.zohanayaan.com:1686` |
+| Toluca vs Pumas UNAM | ES (PLYFST) | `cdn5.zohanayaan.com:1686` |
+| Toluca vs Pumas UNAM | ESPAÑOL 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Toluca vs Pumas UNAM | ESPAÑOL 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Toluca vs Pumas UNAM | ESPAÑOL 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Toluca vs Pumas UNAM | ESPAÑOL 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Toluca vs Pumas UNAM | FOX One (STRMXHD) | `khala.skylivehd` |
+| Toluca vs Pumas UNAM | FOX One (STRMXHD) | `khala.skylivehd` |
+| Toluca vs Pumas UNAM | TUDN USA (STRMXHD) | `khala.skylivehd` |
+| Toluca vs Pumas UNAM | TUDN USA (STRMXHD) | `khala.skylivehd` |
+| Toluca vs UNAM Pumas (FAWA) | `193.47.62.41` |
+| Toluca vs UNAM Pumas (FAWA) | `193.47.62.41` |
 | Toon Goggles | `stream-us-east-1.getpublica` |
 | Toonami Aftermath East | `api.toonamiaftermath.com:3000` |
 | Toonami Aftermath East | `api.toonamiaftermath.com:3000` |
 | Toonami Aftermath Movies | `api.toonamiaftermath.com:3000` |
 | Toonami Aftermath West | `api.toonamiaftermath.com:3000` |
 | Toronto 360 TV | `cdn3.toronto360.tv:8081` |
-| Toronto Blue Jays vs Tampa Bay Rays (FAWA) | `193.47.62.190` |
-| Toronto Blue Jays vs Tampa Bay Rays (FAWA) | `193.47.62.190` |
-| Toronto Tempo vs Las Vegas Aces (WATCHFTY) | `lb2.wfty.st` |
-| Toronto Tempo vs Las Vegas Aces (WATCHFTY) | `lb2.wfty.st` |
-| Toronto Tempo vs Las Vegas Aces | DE (PLYFST) | `cdn2.zohanayaan.com:1686` |
-| Toronto Tempo vs Las Vegas Aces | DE (PLYFST) | `cdn2.zohanayaan.com:1686` |
-| Toronto Tempo vs Las Vegas Aces | Sky Sport Mix DE (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | Sky Sport Mix DE (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | Sky Sports Action UK (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | Sky Sports Action UK (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | Sky Sports Main Event (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | Sky Sports Main Event (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | TSN1 (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | TSN1 (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | TSN4 (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo vs Las Vegas Aces | TSN4 (HOOFUT) | `hoofoot.ru` |
-| Toronto Tempo W vs Las Vegas Aces W (FAWA) | `193.47.62.190` |
-| Toronto Tempo W vs Las Vegas Aces W (FAWA) | `193.47.62.190` |
+| Toronto Blue Jays vs Tampa Bay Rays (FAWA) | `193.47.62.41` |
+| Toronto Blue Jays vs Tampa Bay Rays (FAWA) | `193.47.62.41` |
+| Toronto Blue Jays vs Tampa Bay Rays | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Toronto Blue Jays vs Tampa Bay Rays | MLB League Pass (HOOFUT) | `hoofoot.ru` |
+| Toronto Blue Jays vs Tampa Bay Rays | Sportsnet East (HOOFUT) | `hoofoot.ru` |
+| Toronto Blue Jays vs Tampa Bay Rays | Sportsnet East (HOOFUT) | `hoofoot.ru` |
+| Toronto Blue Jays vs Tampa Bay Rays | Sportsnet Ontario (HOOFUT) | `hoofoot.ru` |
+| Toronto Blue Jays vs Tampa Bay Rays | Sportsnet Ontario (HOOFUT) | `hoofoot.ru` |
+| Toronto Blue Jays vs Tampa Bay Rays | TVA Sports CA (HOOFUT) | `hoofoot.ru` |
+| Toronto Blue Jays vs Tampa Bay Rays | TVA Sports CA (HOOFUT) | `hoofoot.ru` |
+| Tour de France - Etapa #16 | ESPN2 (STRMXHD) | `khala.skylivehd` |
+| Tour de France - Etapa #16 | ESPN2 (STRMXHD) | `khala.skylivehd` |
+| Tour de France Stage 16 | beIN Sports 3 Malaysia (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | beIN Sports 3 Malaysia (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | ESPN3 Argentina (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | ESPN3 Argentina (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | ESPN3 Brazil (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | ESPN3 Brazil (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 France (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 France (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Greece (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Greece (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Italy (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Italy (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Poland (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Poland (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Spain (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Spain (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Sweden (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Eurosport 1 Sweden (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | France 2 (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | France 2 (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | M4 Sport Hungary (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | M4 Sport Hungary (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | RTP 2 Portugal (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | RTP 2 Portugal (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | S4C UK (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | S4C UK (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Sky Sports 1 NZ (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | Sky Sports 1 NZ (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | SRF zwei (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | SRF zwei (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | SuperSport Variety 1 (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | SuperSport Variety 1 (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| Tour de France Stage 16 | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
 | Town of Vienna Community Network | `granicusliveus2-a.akamaihd.net` |
-| TPS vs Ilves | Ruutu+ (HOOFUT) | `hoofoot.ru` |
-| TPS vs Ilves | Ruutu+ (HOOFUT) | `hoofoot.ru` |
 | TPT Now KTCA-DT5 | `api.new.livestream` |
 | TR Sport (480p) 🇮🇹 | `livetr.teleromagna.it` |
 | Tranquil Thunderstorms | `a.jsrdn` |
@@ -1947,9 +2063,65 @@
 | TVS Women Sports | `rpn.bozztv` |
 | Twins vs Guardians (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Twins vs Guardians (WEBCAST) | `webcast-origin.b-cdn.net` |
+| U Catolica vs Barcelona SC (FAWA) | `193.47.62.41` |
+| U Catolica vs Barcelona SC (FAWA) | `193.47.62.41` |
+| UCV FC vs Santos (WATCHFTY) | `lb3.wfty.st` |
+| UCV FC vs Santos (WATCHFTY) | `lb3.wfty.st` |
+| UCV vs Santos | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Arena 1 Premium Serbia (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Arena Sport 1 Croatia (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN SPORTS en Español (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN SPORTS en Español (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN Sports Español (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN Sports Español (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN Sports MENA 1 (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN Sports MENA 1 (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN Sports MENA English 1 (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN Sports MENA English 1 (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | beIN SPORTS USA (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | DE (PLYFST) | `cdn6.zohanayaan.com:1686` |
+| UCV vs Santos | DE (PLYFST) | `cdn6.zohanayaan.com:1686` |
+| UCV vs Santos | Disney+ (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | Disney+ (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | DSports (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | DSports (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | EN (PLYFST) | `cdn7.zohanayaan.com:1686` |
+| UCV vs Santos | EN (PLYFST) | `cdn7.zohanayaan.com:1686` |
+| UCV vs Santos | ES (PLYFST) | `cdn10.zohanayaan.com:1686` |
+| UCV vs Santos | ES (PLYFST) | `cdn10.zohanayaan.com:1686` |
+| UCV vs Santos | ESPAÑOL 1 (PLIBRE) | `c2nvdxq.fubo18.com:443` |
+| UCV vs Santos | ESPAÑOL 1 (PLIBRE) | `c2nvdxq.fubo18.com:443` |
+| UCV vs Santos | ESPAÑOL 2 (PLIBRE) | `dw5pdgvk.fubo18.com:443` |
+| UCV vs Santos | ESPAÑOL 2 (PLIBRE) | `dw5pdgvk.fubo18.com:443` |
+| UCV vs Santos | ESPN 1 NL (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | ESPN 1 NL (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | ESPN AR (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | ESPN AR (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | ESPN Brazil (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | ESPN Brazil (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | ESPN2 AR (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | ESPN2 AR (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | ESPN2 Argentina (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | ESPN2 Argentina (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| UCV vs Santos | Sport TV1 Portugal (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Sport TV1 Portugal (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Sportdigital FUSSBALL (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Sportdigital FUSSBALL (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Sportdigital FUSSBALL DE (HOOFUT) | `hoofoot.ru` |
+| UCV vs Santos | Sportdigital FUSSBALL DE (HOOFUT) | `hoofoot.ru` |
 | UN Web TV | `cdnapi.kaltura` |
 | Unbeaten (#) | `sc2022.stream-link` |
 | Unchained TV | `streams2.sofast.tv` |
+| Universidad Católica vs Barcelona | Zapping EC (STRMXHD) | `khala.skylivehd` |
+| Universidad Católica vs Barcelona | Zapping EC (STRMXHD) | `khala.skylivehd` |
+| Universidad Central vs Santos (FAWA) | `193.47.62.41` |
+| Universidad Central vs Santos (FAWA) | `193.47.62.41` |
 | University of Hartford Student Television Network Channel 2 | `free.fullspeed.tv` |
 | Urban Action TV | `streams2.sofast.tv` |
 | USA Network | `206.212.244.63` |
@@ -1957,17 +2129,21 @@
 | Vallejo Community Access Television | `vallejo.cablecast.tv` |
 | Vallejo Community Access Television (V-CAT) (Vallejo CA) (480p) | `vallejo.cablecast.tv` |
 | Valley Shore Community Television (VSCTV) (Clinton CT) (1080p) | `reflect-vsctv.cablecast.tv` |
+| Vancouver Bandits vs Calgary Surge (CDNTV) | `cdnlivetv.tv` |
+| Vancouver Bandits vs Calgary Surge (CDNTV) | `cdnlivetv.tv` |
 | Vanity Fair | `dai2.xumo` |
-| Varvara Lepchenko vs Elina Avanesyan | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Varvara Lepchenko vs Elina Avanesyan | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Varzesh TV 🇮🇷 | `lenz.splus.ir` |
 | Varzesh TV 🇸🇦 | `lenz.splus.ir` |
+| Vasco da Gama Women vs São Paulo Women | SporTV BR (HOOFUT) | `hoofoot.ru` |
+| Vasco da Gama Women vs São Paulo Women | SporTV BR (HOOFUT) | `hoofoot.ru` |
 | Vegas Life TV | `streams.comclark` |
 | Vegas Life TV (#) | `cdn.vegasplus.us` |
-| Veronika Podrez vs Carol Young Suh Lee | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Veronika Podrez vs Carol Young Suh Lee | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Victor Valley TV-3 Movies | `2-fss-1.streamhoster` |
 | Vida Mejor TV | `tgn.bozztv` |
+| Vila Nova FC vs Fortaleza (FAWA) | `193.47.62.41` |
+| Vila Nova FC vs Fortaleza (FAWA) | `193.47.62.41` |
+| Vilius Gaubas vs Pablo Carreño Busta | Tennis Stream (HOOFUT) | `hoofoot.ru` |
+| Vilius Gaubas vs Pablo Carreño Busta | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | Village of Hastings-On-Hudson | `stream.swagit` |
 | Vivo TV | `unlimited1-us.dps.live` |
 | VoA TV Africa | `voa-ingest.akamaized.net` |
@@ -1986,24 +2162,20 @@
 | Vsport Premium 🇸🇪 | `trxad.top:80` |
 | VTN Victory Television Network | `jk3lzkn4lw79-hls-live.5centscdn` |
 | VTN Victory Television Network (720p) | `jk3lzkn4lw79-hls-live.5centscdn` |
-| Vít Kopřiva vs Ignacio Buse | Tennis Stream (HOOFUT) | `hoofoot.ru` |
-| Vít Kopřiva vs Ignacio Buse | Tennis Stream (HOOFUT) | `hoofoot.ru` |
 | W14DK-D 14.1 TV Delmarva | `2-fss-2.streamhoster` |
 | W14DK-D 14.2 NEWSNET | `2-fss-2.streamhoster` |
 | W14DK-D 14.3 RetroTV | `2-fss-2.streamhoster` |
 | W14DK-D 14.5 All Sports Television Network | `2-fss-2.streamhoster` |
 | W14DK-D 14.7 Heartland Channel | `2-fss-2.streamhoster` |
 | War and Military Now | `alliantcontent-warandmilitarynow-1-us.freemoviesplus.wurl.tv` |
-| Washington Mystics @ Golden State Valkyries | English (STRMCNTR) | `edgestream3.pro` |
-| Washington Mystics @ Golden State Valkyries | English (STRMCNTR) | `edgestream3.pro` |
-| Washington Nationals @ Colorado Rockies | English (STRMCNTR) | `edgestream1.pro` |
-| Washington Nationals @ Colorado Rockies | English (STRMCNTR) | `edgestream1.pro` |
+| Washington Nationals @ Colorado Rockies | English (STRMCNTR) | `edgestream2.pro` |
+| Washington Nationals @ Colorado Rockies | English (STRMCNTR) | `edgestream2.pro` |
 | Washington Nationals at Colorado Rockies (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
 | Washington Nationals at Colorado Rockies (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| Washington Nationals vs Colorado Rockies (MP66) | `node-9b5feb01.4587.website` |
-| Washington Nationals vs Colorado Rockies (MP66) | `node-9b5feb01.4587.website` |
-| Washington Nationals vs Colorado Rockies | EN (STRMSGATE) | `instreams.live` |
-| Washington Nationals vs Colorado Rockies | EN (STRMSGATE) | `instreams.live` |
+| Washington Nationals vs Colorado Rockies (MP66) | `node-025d151e.4587.website` |
+| Washington Nationals vs Colorado Rockies (MP66) | `node-025d151e.4587.website` |
+| Washington Nationals vs Colorado Rockies | EN (STRMSGATE) | `instreams.pro` |
+| Washington Nationals vs Colorado Rockies | EN (STRMSGATE) | `instreams.pro` |
 | Watch it KID! | `stream-us-east-1.getpublica` |
 | WatchMojo | `watchmojo-1-eu.freemoviesplus.wurl.tv` |
 | WBBJ (Jackson TN) (432p) | `dai.google` |
@@ -2019,7 +2191,22 @@
 | WDEF-TV News Chattanooga TN (720p) | `townnews.g-mana.live` |
 | We TV All Weddings | `amc-allweddings-1.vizio.wurl` |
 | Weather Gone Viral | `linear-128.frequency.stream` |
+| Welcome to PlayZ TV | `playztv.pages.dev` |
 | WeShort | `streams2.sofast.tv` |
+| West Indies vs New Zealand (FAWA) | `193.47.62.41` |
+| West Indies vs New Zealand (FAWA) | `193.47.62.41` |
+| West Indies vs New Zealand | Sky Sport 2 NZ (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | Sky Sport 2 NZ (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | SuperSport Cricket (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | SuperSport Cricket (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | TNT Sports 1 UK (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | Willow Cricket (HOOFUT) | `hoofoot.ru` |
+| West Indies vs New Zealand | Willow Cricket (HOOFUT) | `hoofoot.ru` |
+| West Lyon vs Unity Christian | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
+| West Lyon vs Unity Christian | Marquee Sports Network USA (HOOFUT) | `hoofoot.ru` |
 | Westerns 4U | `broadcast.mytvtogo.net` |
 | WFMZ Dorney Park Camera | `cdn.jaybirdtv` |
 | WFMZ News 69 | `cdn.jaybirdtv` |
@@ -2042,8 +2229,8 @@
 | WHPS Detroit | `f-tx-edge-87.christianworldmedia` |
 | WHSG Monroe, Georgia | `dvrfl03.bozztv` |
 | Wild West TV | `linear-799.frequency.stream` |
-| Willow HD | `cdn9.zohanayaan.com:1686` |
-| Willow HD 2 | `cdn4.zohanayaan.com:1686` |
+| Willow HD | `cdn10.zohanayaan.com:1686` |
+| Willow HD 2 | `cdn1.zohanayaan.com:1686` |
 | WIN SPORT 🇨🇴 | `181.205.205.173:8888` |
 | WIN SPORT 🇨🇴 | `190.0.247.38:8000` |
 | Win Sports + 🇨🇴 | `live.btv.mx:2424` |
@@ -2071,23 +2258,21 @@
 | WSJ Live | `wsjlivehls-lh.akamaihd.net` |
 | WSTO Stoughton | `stoughton-wi.secure.footprint.net` |
 | WSVI-TV | `dcunilive30-lh.akamaihd.net` |
+| WTA 250 Hamburg • ATP 250 Estoril • ATP 250 Kitzbühel • WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
+| WTA 250 Hamburg • ATP 250 Estoril • ATP 250 Kitzbühel • WTA 250 Prague | SportKlub 1 Croatia (HOOFUT) | `hoofoot.ru` |
+| WTA 250 Prague • ATP 250 Kitzbühel • ATP 250 Estoril • WTA 250 Hamburg | SportKlub 4 Croatia (HOOFUT) | `hoofoot.ru` |
+| WTA 250 Prague • ATP 250 Kitzbühel • ATP 250 Estoril • WTA 250 Hamburg | SportKlub 4 Croatia (HOOFUT) | `hoofoot.ru` |
+| WTA 250 Prague • ATP 250 Kitzbühel • ATP 250 Estoril • WTA 250 Hamburg | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
+| WTA 250 Prague • ATP 250 Kitzbühel • ATP 250 Estoril • WTA 250 Hamburg | SportKlub 5 Croatia (HOOFUT) | `hoofoot.ru` |
+| WTA 250 Prague • WTA 250 Hamburg | SportKlub 10 Croatia (HOOFUT) | `hoofoot.ru` |
+| WTA 250 Prague • WTA 250 Hamburg | SportKlub 10 Croatia (HOOFUT) | `hoofoot.ru` |
 | WTVQ ABC 36 News (Lexington KY) | `townnews.g-mana.live` |
 | WTVQ ABC 36 News (Lexington KY) (720p) | `townnews.g-mana.live` |
 | Wu Tang Collection | `stream-us-east-1.getpublica` |
-| WWE Monday Night RAW 1 (FAWA) | `193.47.62.190` |
-| WWE Monday Night RAW 1 (FAWA) | `193.47.62.190` |
-| WWE Monday Night RAW 2 (FAWA) | `ubuntu.fromthyheart.site` |
-| WWE Monday Night RAW 2 (FAWA) | `ubuntu.fromthyheart.site` |
-| WWE Monday Night RAW | Netflix PPV (HOOFUT) | `hoofoot.ru` |
-| WWE Monday Night RAW | Netflix PPV (HOOFUT) | `hoofoot.ru` |
-| WWE Monday Night RAW | SuperSport Action (HOOFUT) | `hoofoot.ru` |
-| WWE Monday Night RAW | SuperSport Action (HOOFUT) | `hoofoot.ru` |
-| WWE Monday Night RAW | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
-| WWE Monday Night RAW | SuperSport Grandstand (HOOFUT) | `hoofoot.ru` |
-| WWE Monday Night RAW | SuperSport Variety 4 (HOOFUT) | `hoofoot.ru` |
-| WWE Monday Night RAW | SuperSport Variety 4 (HOOFUT) | `hoofoot.ru` |
-| WWE:Raw | Eventos (STRMXHD) | `khala.skylivehd` |
-| WWE:Raw | Eventos (STRMXHD) | `khala.skylivehd` |
+| WWE NXT 1 (FAWA) | `193.47.62.41` |
+| WWE NXT 1 (FAWA) | `193.47.62.41` |
+| WWE NXT 2 HD (FAWA) | `ubuntu.fromthyheart.site` |
+| WWE NXT 2 HD (FAWA) | `ubuntu.fromthyheart.site` |
 | WWON TV CH 48 | `tv2.fastcast4u.com:3943` |
 | WXXV-TV News (Biloxi MS) | `townnews.g-mana.live` |
 | WXXV-TV News (Biloxi MS) (720p) | `townnews.g-mana.live` |
@@ -2107,10 +2292,6 @@
 | ZIGGO SPORT 2 HD 🇳🇱 | `wo0dyefk.dienalt` |
 | ZIGGO SPORT 3 HD 🇳🇱 | `wo0dyefk.dienalt` |
 | ZIGGO SPORT LIVE 🇳🇱 | `wo0dyefk.dienalt` |
-| Örgryte vs Djurgården | TV4 Sport Live 1 Sweden (HOOFUT) | `hoofoot.ru` |
-| Örgryte vs Djurgården | TV4 Sport Live 1 Sweden (HOOFUT) | `hoofoot.ru` |
-| Örgryte vs Djurgården | TV4 Sport Live 1 Sweden (HOOFUT) | `hoofoot.ru` |
-| Örgryte vs Djurgården | TV4 Sport Live 1 Sweden (HOOFUT) | `hoofoot.ru` |
 | Матч! 4 HD 🇷🇺 | `46.149.191.217:9010` |
 | МАТЧ! ФУТБOЛ 1HD 🇷🇺 | `188.191.160.238:7780` |
 | МАТЧ! ФУТБOЛ 1HD 🇷🇺 | `193.25.8.59:8000` |

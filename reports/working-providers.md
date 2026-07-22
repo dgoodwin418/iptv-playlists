@@ -3,7 +3,7 @@
 | Channels | Provider | Notes |
 |---:|---|---|
 | 51 | `FREE3` | Works well |
-| 46 | `s.rocketdns.info:8080` | Works in Kodi |
+| 45 | `s.rocketdns.info:8080` | Works in Kodi |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 34 | `206.212.244.63` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |

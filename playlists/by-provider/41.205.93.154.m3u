@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="ABC News Live" tvg-logo="" group-title="Other",ABC News Live
 http://41.205.93.154/ABC/index.m3u8
+#EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPNEWS HD" tvg-logo="http://dtil.tmsimg.com/assets/s59976_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",ESPNEWS HD
+http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="Fox.Business.HD.us2" tvg-name="Fox Business HD" tvg-logo="http://dtil.tmsimg.com/assets/s58718_ll_h15_ac.png?w=360&amp;h=270" group-title="News",Fox Business HD
 http://41.205.93.154/FOXBUSINESS/index.m3u8
 #EXTINF:-1 tvg-id="Lifetime.HD.us2" tvg-name="Lifetime HD" tvg-logo="http://dtil.tmsimg.com/assets/s60150_ll_h15_ad.png?w=360&amp;h=270" group-title="US Entertainment",Lifetime HD
