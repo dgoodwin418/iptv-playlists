@@ -1,13 +1,13 @@
 # Provider Testing Report
 
-**Last updated:** 2026-07-24 11:48 UTC
+**Last updated:** 2026-07-24 17:12 UTC
 
 - Providers found: **730**
-- Provider playlists generated: **152**
-- Working: **15**
-- Partial: **2**
-- Untested: **687**
-- Dead: **26**
+- Provider playlists generated: **730**
+- Working: **273**
+- Partial: **20**
+- Untested: **0**
+- Dead: **437**
 
 Edit `provider-notes.json` after testing each provider.
 
@@ -18,6 +18,7 @@ Edit `provider-notes.json` after testing each provider.
 | 39 | `rpn.bozztv` | [Open](playlists/by-provider/rpn.bozztv.m3u) | ✅ | working | All of the tested channels worked in VLC |
 | 34 | `206.212.244.63` | [Open](playlists/by-provider/206.212.244.63.m3u) | ✅ | working | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | [Open](playlists/by-provider/adultswim-vodlive.cdn.turner.m3u) | ✅ | working | All channels played in VLC |
+| 20 | `ftv.xyzstreams.st` | [Open](playlists/by-provider/ftv.xyzstreams.st.m3u) | ✅ | working |  |
 | 13 | `live.corusdigitaldev` | [Open](playlists/by-provider/live.corusdigitaldev.m3u) | ✅ | working | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | [Open](playlists/by-provider/2-fss-1.streamhoster.m3u) | ✅ | working | Channels play in VLC |
 | 12 | `townnews.g-mana.live` | [Open](playlists/by-provider/townnews.g-mana.live.m3u) | ✅ | working | All channels played in VLC |
@@ -28,718 +29,717 @@ Edit `provider-notes.json` after testing each provider.
 | 10 | `video.oct.dc.gov` | [Open](playlists/by-provider/video.oct.dc.gov.m3u) | ✅ | working | All channels work in VLC |
 | 9 | `turnerlive.warnermediacdn` | [Open](playlists/by-provider/turnerlive.warnermediacdn.m3u) | ✅ | working | All channels work in VLC |
 | 8 | `lotus.stingray` | [Open](playlists/by-provider/lotus.stingray.m3u) | ✅ | working | All channels work in VLC |
+| 7 | `castus-vod-dev.s3.amazonaws` | [Open](playlists/by-provider/castus-vod-dev.s3.amazonaws.m3u) | ✅ | working |  |
+| 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` | [Open](playlists/by-provider/cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv.m3u) | ✅ | working |  |
+| 7 | `reflect-communitytv.cablecast.tv` | [Open](playlists/by-provider/reflect-communitytv.cablecast.tv.m3u) | ✅ | working |  |
+| 7 | `stream.swagit` | [Open](playlists/by-provider/stream.swagit.m3u) | ✅ | working |  |
+| 6 | `edgestream1.pro` | [Open](playlists/by-provider/edgestream1.pro.m3u) | ✅ | working |  |
+| 6 | `reflect-stream-bronxnet.cablecast.tv` | [Open](playlists/by-provider/reflect-stream-bronxnet.cablecast.tv.m3u) | ✅ | working |  |
+| 6 | `reflect-vod-cmac.cablecast.tv` | [Open](playlists/by-provider/reflect-vod-cmac.cablecast.tv.m3u) | ✅ | working |  |
+| 6 | `securestream10.champds` | [Open](playlists/by-provider/securestream10.champds.m3u) | ✅ | working |  |
+| 6 | `tgn.bozztv` | [Open](playlists/by-provider/tgn.bozztv.m3u) | ✅ | working |  |
+| 5 | `3abn.bozztv` | [Open](playlists/by-provider/3abn.bozztv.m3u) | ✅ | working |  |
+| 5 | `88.212.15.19` | [Open](playlists/by-provider/88.212.15.19.m3u) | ✅ | working |  |
+| 5 | `cdn.whiplash.cc` | [Open](playlists/by-provider/cdn.whiplash.cc.m3u) | ✅ | working |  |
+| 5 | `fast-channels.sinclairstoryline` | [Open](playlists/by-provider/fast-channels.sinclairstoryline.m3u) | ✅ | working |  |
+| 5 | `PBS` | [Open](playlists/by-provider/PBS.m3u) | ✅ | working |  |
+| 5 | `stream.cammonitorplus.net` | [Open](playlists/by-provider/stream.cammonitorplus.net.m3u) | ✅ | working |  |
+| 4 | `api.toonamiaftermath.com:3000` | [Open](playlists/by-provider/api.toonamiaftermath.com_3000.m3u) | ✅ | working |  |
+| 4 | `bloomberg` | [Open](playlists/by-provider/bloomberg.m3u) | ✅ | working |  |
+| 4 | `cantv.streamguys1` | [Open](playlists/by-provider/cantv.streamguys1.m3u) | ✅ | working |  |
+| 4 | `cdn-unified-hls.streamspot` | [Open](playlists/by-provider/cdn-unified-hls.streamspot.m3u) | ✅ | working |  |
+| 4 | `cdn.igocast` | [Open](playlists/by-provider/cdn.igocast.m3u) | ✅ | working |  |
+| 4 | `citynewsregional.akamaized.net` | [Open](playlists/by-provider/citynewsregional.akamaized.net.m3u) | ✅ | working |  |
+| 4 | `reflect-bayarea.cablecast.tv` | [Open](playlists/by-provider/reflect-bayarea.cablecast.tv.m3u) | ✅ | working |  |
+| 4 | `reflect-creatv.cablecast.tv` | [Open](playlists/by-provider/reflect-creatv.cablecast.tv.m3u) | ✅ | working |  |
+| 4 | `www.bloomberg` | [Open](playlists/by-provider/www.bloomberg.m3u) | ✅ | working |  |
+| 3 | `200.115.120.1:8000` | [Open](playlists/by-provider/200.115.120.1_8000.m3u) | ✅ | working |  |
+| 3 | `217.174.225.146` | [Open](playlists/by-provider/217.174.225.146.m3u) | ✅ | working |  |
+| 3 | `cdn-atxn-01.vos360.video` | [Open](playlists/by-provider/cdn-atxn-01.vos360.video.m3u) | ✅ | working |  |
+| 3 | `cineverse.g-mana.live` | [Open](playlists/by-provider/cineverse.g-mana.live.m3u) | ✅ | working |  |
+| 3 | `edge1.lifestreamcdn` | [Open](playlists/by-provider/edge1.lifestreamcdn.m3u) | ✅ | working |  |
+| 3 | `livecdn.use1-0004.jwplive` | [Open](playlists/by-provider/livecdn.use1-0004.jwplive.m3u) | ✅ | working |  |
+| 3 | `temp2.isilive.ca` | [Open](playlists/by-provider/temp2.isilive.ca.m3u) | ✅ | working |  |
+| 3 | `video.ct-n` | [Open](playlists/by-provider/video.ct-n.m3u) | ✅ | working |  |
+| 2 | `145.239.5.177:80` | [Open](playlists/by-provider/145.239.5.177_80.m3u) | ✅ | working |  |
+| 2 | `158.101.222.193:88` | [Open](playlists/by-provider/158.101.222.193_88.m3u) | ✅ | working |  |
+| 2 | `190.117.20.37:8000` | [Open](playlists/by-provider/190.117.20.37_8000.m3u) | ✅ | working |  |
+| 2 | `40.160.24.53` | [Open](playlists/by-provider/40.160.24.53.m3u) | ✅ | working |  |
+| 2 | `93.93.113.95:25461` | [Open](playlists/by-provider/93.93.113.95_25461.m3u) | ✅ | working |  |
+| 2 | `a-cdn.herringnetwork` | [Open](playlists/by-provider/a-cdn.herringnetwork.m3u) | ✅ | working |  |
+| 2 | `api.v3.invintus` | [Open](playlists/by-provider/api.v3.invintus.m3u) | ✅ | working |  |
+| 2 | `applevalley.coxctv` | [Open](playlists/by-provider/applevalley.coxctv.m3u) | ✅ | working |  |
+| 2 | `bit.ly` | [Open](playlists/by-provider/bit.ly.m3u) | ✅ | working |  |
+| 2 | `bl.video.matchtv.ru` | [Open](playlists/by-provider/bl.video.matchtv.ru.m3u) | ✅ | working |  |
+| 2 | `buenapark.cablecast.tv` | [Open](playlists/by-provider/buenapark.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `cdn.telecloud.tv` | [Open](playlists/by-provider/cdn.telecloud.tv.m3u) | ✅ | working |  |
+| 2 | `champaign-cablecast.cablecast.tv` | [Open](playlists/by-provider/champaign-cablecast.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `concordca.cablecast.tv` | [Open](playlists/by-provider/concordca.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `install.akctvcontrol` | [Open](playlists/by-provider/install.akctvcontrol.m3u) | ✅ | working |  |
+| 2 | `jk3lzkn4lw79-hls-live.5centscdn` | [Open](playlists/by-provider/jk3lzkn4lw79-hls-live.5centscdn.m3u) | ✅ | working |  |
+| 2 | `lin12.isilive.ca` | [Open](playlists/by-provider/lin12.isilive.ca.m3u) | ✅ | working |  |
+| 2 | `linear-11.frequency.stream` | [Open](playlists/by-provider/linear-11.frequency.stream.m3u) | ✅ | working |  |
+| 2 | `linear-253.frequency.stream` | [Open](playlists/by-provider/linear-253.frequency.stream.m3u) | ✅ | working |  |
+| 2 | `linear-896.frequency.stream` | [Open](playlists/by-provider/linear-896.frequency.stream.m3u) | ✅ | working |  |
+| 2 | `lineup.cbsivideo` | [Open](playlists/by-provider/lineup.cbsivideo.m3u) | ✅ | working |  |
+| 2 | `live-mcl.cdn01.net` | [Open](playlists/by-provider/live-mcl.cdn01.net.m3u) | ✅ | working |  |
+| 2 | `live.feed.thepalmbeaches.tv` | [Open](playlists/by-provider/live.feed.thepalmbeaches.tv.m3u) | ✅ | working |  |
+| 2 | `live.ntdtv` | [Open](playlists/by-provider/live.ntdtv.m3u) | ✅ | working |  |
+| 2 | `livestream-us-east-edge-2.granicusops` | [Open](playlists/by-provider/livestream-us-east-edge-2.granicusops.m3u) | ✅ | working |  |
+| 2 | `na.linear.zype` | [Open](playlists/by-provider/na.linear.zype.m3u) | ✅ | working |  |
+| 2 | `origin-http-delivery.isilive.ca` | [Open](playlists/by-provider/origin-http-delivery.isilive.ca.m3u) | ✅ | working |  |
+| 2 | `rcavlive.akamaized.net` | [Open](playlists/by-provider/rcavlive.akamaized.net.m3u) | ✅ | working |  |
+| 2 | `reflect-brookline-interactive-group.cablecast.tv` | [Open](playlists/by-provider/reflect-brookline-interactive-group.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `reflect-channel36-la.cablecast.tv` | [Open](playlists/by-provider/reflect-channel36-la.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `reflect-fcpublicmedia.cablecast.tv` | [Open](playlists/by-provider/reflect-fcpublicmedia.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `reflect-monroe-public-access.cablecast.tv` | [Open](playlists/by-provider/reflect-monroe-public-access.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `reflect-tuolumne.cablecast.tv` | [Open](playlists/by-provider/reflect-tuolumne.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `reflect-vod-fcgov.cablecast.tv` | [Open](playlists/by-provider/reflect-vod-fcgov.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `stream.talgov.net` | [Open](playlists/by-provider/stream.talgov.net.m3u) | ✅ | working |  |
+| 2 | `streamer1.connectto` | [Open](playlists/by-provider/streamer1.connectto.m3u) | ✅ | working |  |
+| 2 | `streams.comclark` | [Open](playlists/by-provider/streams.comclark.m3u) | ✅ | working |  |
+| 2 | `temp3.isilive.ca` | [Open](playlists/by-provider/temp3.isilive.ca.m3u) | ✅ | working |  |
+| 2 | `video1.getstreamhosting.com:1936` | [Open](playlists/by-provider/video1.getstreamhosting.com_1936.m3u) | ✅ | working |  |
+| 2 | `voa-ingest.akamaized.net` | [Open](playlists/by-provider/voa-ingest.akamaized.net.m3u) | ✅ | working |  |
+| 2 | `vod.cityofrc.us` | [Open](playlists/by-provider/vod.cityofrc.us.m3u) | ✅ | working |  |
+| 2 | `vs20.live.opencaster` | [Open](playlists/by-provider/vs20.live.opencaster.m3u) | ✅ | working |  |
+| 2 | `whittier.cablecast.tv` | [Open](playlists/by-provider/whittier.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `worcester.vod.castus.tv` | [Open](playlists/by-provider/worcester.vod.castus.tv.m3u) | ✅ | working |  |
+| 2 | `www-on-stirr.b-cdn.net` | [Open](playlists/by-provider/www-on-stirr.b-cdn.net.m3u) | ✅ | working |  |
+| 1 | `107.167.7.162:8081` | [Open](playlists/by-provider/107.167.7.162_8081.m3u) | ✅ | working |  |
+| 1 | `145.239.5.177` | [Open](playlists/by-provider/145.239.5.177.m3u) | ✅ | working |  |
+| 1 | `158.69.124.9:1935` | [Open](playlists/by-provider/158.69.124.9_1935.m3u) | ✅ | working |  |
+| 1 | `158.69.24.53:8080` | [Open](playlists/by-provider/158.69.24.53_8080.m3u) | ✅ | working |  |
+| 1 | `1657061170.rsc.cdn77` | [Open](playlists/by-provider/1657061170.rsc.cdn77.m3u) | ✅ | working |  |
+| 1 | `179.60.224.196:8000` | [Open](playlists/by-provider/179.60.224.196_8000.m3u) | ✅ | working |  |
+| 1 | `1840769862.rsc.cdn77` | [Open](playlists/by-provider/1840769862.rsc.cdn77.m3u) | ✅ | working |  |
+| 1 | `185.57.68.33` | [Open](playlists/by-provider/185.57.68.33.m3u) | ✅ | working |  |
+| 1 | `185.57.68.33:80` | [Open](playlists/by-provider/185.57.68.33_80.m3u) | ✅ | working |  |
+| 1 | `185.57.68.33:8091` | [Open](playlists/by-provider/185.57.68.33_8091.m3u) | ✅ | working |  |
+| 1 | `190.11.225.124:5000` | [Open](playlists/by-provider/190.11.225.124_5000.m3u) | ✅ | working |  |
+| 1 | `2-fss-1.themediacdn` | [Open](playlists/by-provider/2-fss-1.themediacdn.m3u) | ✅ | working |  |
+| 1 | `212.102.60.80` | [Open](playlists/by-provider/212.102.60.80.m3u) | ✅ | working |  |
+| 1 | `212.186.45.34:9981` | [Open](playlists/by-provider/212.186.45.34_9981.m3u) | ✅ | working |  |
+| 1 | `217.73.139.200:5443` | [Open](playlists/by-provider/217.73.139.200_5443.m3u) | ✅ | working |  |
+| 1 | `23.133.220.149` | [Open](playlists/by-provider/23.133.220.149.m3u) | ✅ | working |  |
+| 1 | `23.239.31.26:8989` | [Open](playlists/by-provider/23.239.31.26_8989.m3u) | ✅ | working |  |
+| 1 | `247preview.foxnews` | [Open](playlists/by-provider/247preview.foxnews.m3u) | ✅ | working |  |
+| 1 | `247wlive.foxweather` | [Open](playlists/by-provider/247wlive.foxweather.m3u) | ✅ | working |  |
+| 1 | `40.160.24.55` | [Open](playlists/by-provider/40.160.24.55.m3u) | ✅ | working |  |
+| 1 | `45.5.117.57:8200` | [Open](playlists/by-provider/45.5.117.57_8200.m3u) | ✅ | working |  |
+| 1 | `5.188.221.43:8080` | [Open](playlists/by-provider/5.188.221.43_8080.m3u) | ✅ | working |  |
+| 1 | `61ce5915.amazzin.pw` | [Open](playlists/by-provider/61ce5915.amazzin.pw.m3u) | ✅ | working |  |
+| 1 | `65.36.6.216:1935` | [Open](playlists/by-provider/65.36.6.216_1935.m3u) | ✅ | working |  |
+| 1 | `82934cf9c8696bd2.mediapackage.us-east-1.amazonaws` | [Open](playlists/by-provider/82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.m3u) | ✅ | working |  |
+| 1 | `91.201.172.14:35006` | [Open](playlists/by-provider/91.201.172.14_35006.m3u) | ✅ | working |  |
+| 1 | `95.47.155.244:8001` | [Open](playlists/by-provider/95.47.155.244_8001.m3u) | ✅ | working |  |
+| 1 | `africa24.vedge.infomaniak` | [Open](playlists/by-provider/africa24.vedge.infomaniak.m3u) | ✅ | working |  |
+| 1 | `airvuz-dronetv-1-us.ohlscdn.wurl.tv` | [Open](playlists/by-provider/airvuz-dronetv-1-us.ohlscdn.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `all3media-midsomer-1-us.roku.wurl.tv` | [Open](playlists/by-provider/all3media-midsomer-1-us.roku.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `alpha.tv.online.tm` | [Open](playlists/by-provider/alpha.tv.online.tm.m3u) | ✅ | working |  |
+| 1 | `amc-absolutereality-1-us.plex.wurl.tv` | [Open](playlists/by-provider/amc-absolutereality-1-us.plex.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `amc-allweddings-1-us.plex.wurl.tv` | [Open](playlists/by-provider/amc-allweddings-1-us.plex.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `amc-allweddings-1-us.xumo.wurl.tv` | [Open](playlists/by-provider/amc-allweddings-1-us.xumo.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `amc-amcpresents-1-us.plex.wurl.tv` | [Open](playlists/by-provider/amc-amcpresents-1-us.plex.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `amc-amcpresents-1-us.xumo.wurl.tv` | [Open](playlists/by-provider/amc-amcpresents-1-us.xumo.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `amc-twdfanexperience-1-us.xumo.wurl.tv` | [Open](playlists/by-provider/amc-twdfanexperience-1-us.xumo.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `amdici.akamaized.net` | [Open](playlists/by-provider/amdici.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `amogonetworx-artflix-1-nl.samsung.wurl.tv` | [Open](playlists/by-provider/amogonetworx-artflix-1-nl.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `amogonetworx-grjngo-3-dk.samsung.wurl.tv` | [Open](playlists/by-provider/amogonetworx-grjngo-3-dk.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `avm.ecuamedia.net` | [Open](playlists/by-provider/avm.ecuamedia.net.m3u) | ✅ | working |  |
+| 1 | `aym-as.otteravision` | [Open](playlists/by-provider/aym-as.otteravision.m3u) | ✅ | working |  |
+| 1 | `brightstar-arabic-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-arabic-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-chinese-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-chinese-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-hislight-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-hislight-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-hisword-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-hisword-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-korean-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-korean-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-latino-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-latino-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-romanian-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-romanian-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-sls-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-sls-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `brightstar-southasia-pull-secure.akamaized.net` | [Open](playlists/by-provider/brightstar-southasia-pull-secure.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `broadcast.tbnpacific.org.au:4430` | [Open](playlists/by-provider/broadcast.tbnpacific.org.au_4430.m3u) | ✅ | working |  |
+| 1 | `c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.m3u) | ✅ | working |  |
+| 1 | `capitalcityconnection.cablecast.tv` | [Open](playlists/by-provider/capitalcityconnection.cablecast.tv.m3u) | ✅ | working |  |
+| 1 | `catholictvhd-lh.akamaized.net` | [Open](playlists/by-provider/catholictvhd-lh.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `cbsn-mia.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-mia.cbsnstream.cbsnews.m3u) | ✅ | working |  |
+| 1 | `cdn-shop-lc-01.akamaized.net` | [Open](playlists/by-provider/cdn-shop-lc-01.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `cdn.jwplayer` | [Open](playlists/by-provider/cdn.jwplayer.m3u) | ✅ | working |  |
+| 1 | `cdn3.toronto360.tv:8081` | [Open](playlists/by-provider/cdn3.toronto360.tv_8081.m3u) | ✅ | working |  |
+| 1 | `cdn6.163189` | [Open](playlists/by-provider/cdn6.163189.m3u) | ✅ | working |  |
+| 1 | `cdn6.live247stream` | [Open](playlists/by-provider/cdn6.live247stream.m3u) | ✅ | working |  |
+| 1 | `cdn8.live247stream` | [Open](playlists/by-provider/cdn8.live247stream.m3u) | ✅ | working |  |
+| 1 | `cdnapi.kaltura` | [Open](playlists/by-provider/cdnapi.kaltura.m3u) | ✅ | working |  |
+| 1 | `cdnlive.myspirit.tv` | [Open](playlists/by-provider/cdnlive.myspirit.tv.m3u) | ✅ | working |  |
+| 1 | `ciner-live.ercdn.net` | [Open](playlists/by-provider/ciner-live.ercdn.net.m3u) | ✅ | working |  |
+| 1 | `ciner.daioncdn.net` | [Open](playlists/by-provider/ciner.daioncdn.net.m3u) | ✅ | working |  |
+| 1 | `cineverse-entrepreneurtv-entrepreneurtv-1-us.ono.wurl.tv` | [Open](playlists/by-provider/cineverse-entrepreneurtv-entrepreneurtv-1-us.ono.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `classicarts.akamaized.net` | [Open](playlists/by-provider/classicarts.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `cloudflare.tv` | [Open](playlists/by-provider/cloudflare.tv.m3u) | ✅ | working |  |
+| 1 | `d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws` | [Open](playlists/by-provider/d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.m3u) | ✅ | working |  |
+| 1 | `dash2.antik.sk` | [Open](playlists/by-provider/dash2.antik.sk.m3u) | ✅ | working |  |
+| 1 | `dms.redbull.tv` | [Open](playlists/by-provider/dms.redbull.tv.m3u) | ✅ | working |  |
+| 1 | `drybar-drybarcomedy-1-au.samsung.wurl.tv` | [Open](playlists/by-provider/drybar-drybarcomedy-1-au.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `drybar-drybarcomedy-1-ca.samsung.wurl.tv` | [Open](playlists/by-provider/drybar-drybarcomedy-1-ca.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.m3u) | ✅ | working |  |
+| 1 | `e85541db4ae943d9b5a09477d6b1d8ab.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/e85541db4ae943d9b5a09477d6b1d8ab.mediatailor.us-east-1.amazonaws.m3u) | ✅ | working |  |
+| 1 | `edge.fstv-live-linear-channel.top.comcast.net` | [Open](playlists/by-provider/edge.fstv-live-linear-channel.top.comcast.net.m3u) | ✅ | working |  |
+| 1 | `ekoltv-live.ercdn.net` | [Open](playlists/by-provider/ekoltv-live.ercdn.net.m3u) | ✅ | working |  |
+| 1 | `f-tx-edge-87.christianworldmedia` | [Open](playlists/by-provider/f-tx-edge-87.christianworldmedia.m3u) | ✅ | working |  |
+| 1 | `failarmy-international-in.samsung.wurl.tv` | [Open](playlists/by-provider/failarmy-international-in.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `fffffff110156200.tvustream.com:8298` | [Open](playlists/by-provider/fffffff110156200.tvustream.com_8298.m3u) | ✅ | working |  |
+| 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` | [Open](playlists/by-provider/gsn-cinevault-70s-2-us.roku.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` | [Open](playlists/by-provider/gsn-cinevault-classics-1-us.roku.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `hls.savoir.media` | [Open](playlists/by-provider/hls.savoir.media.m3u) | ✅ | working |  |
+| 1 | `icchls.wns.live` | [Open](playlists/by-provider/icchls.wns.live.m3u) | ✅ | working |  |
+| 1 | `iconfilmsdistribution-iconfilmchannelclassics-1-gb.samsung.wurl.tv` | [Open](playlists/by-provider/iconfilmsdistribution-iconfilmchannelclassics-1-gb.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `iptv.prosto.tv:7000` | [Open](playlists/by-provider/iptv.prosto.tv_7000.m3u) | ✅ | working |  |
+| 1 | `iptv.sohailtv` | [Open](playlists/by-provider/iptv.sohailtv.m3u) | ✅ | working |  |
+| 1 | `irctv.cablecast.tv` | [Open](playlists/by-provider/irctv.cablecast.tv.m3u) | ✅ | working |  |
+| 1 | `itiswrittentv.akamaized.net` | [Open](playlists/by-provider/itiswrittentv.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `janson-supersimplesongs-1-us.roku.wurl.tv` | [Open](playlists/by-provider/janson-supersimplesongs-1-us.roku.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `jlt-jltv-stirr.otteravision` | [Open](playlists/by-provider/jlt-jltv-stirr.otteravision.m3u) | ✅ | working |  |
+| 1 | `jstre.am` | [Open](playlists/by-provider/jstre.am.m3u) | ✅ | working |  |
+| 1 | `k20.usastreams.com:8081` | [Open](playlists/by-provider/k20.usastreams.com_8081.m3u) | ✅ | working |  |
+| 1 | `kwtspta.cdn.mangomolo` | [Open](playlists/by-provider/kwtspta.cdn.mangomolo.m3u) | ✅ | working |  |
+| 1 | `langleyproductions-cops-2-eu.rakuten.wurl.tv` | [Open](playlists/by-provider/langleyproductions-cops-2-eu.rakuten.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `lin10.isilive.ca` | [Open](playlists/by-provider/lin10.isilive.ca.m3u) | ✅ | working |  |
+| 1 | `lin13.isilive.ca` | [Open](playlists/by-provider/lin13.isilive.ca.m3u) | ✅ | working |  |
+| 1 | `linear-1016.frequency.stream` | [Open](playlists/by-provider/linear-1016.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-1066.frequency.stream` | [Open](playlists/by-provider/linear-1066.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-188.frequency.stream` | [Open](playlists/by-provider/linear-188.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-458.frequency.stream` | [Open](playlists/by-provider/linear-458.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-492.frequency.stream` | [Open](playlists/by-provider/linear-492.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-493.frequency.stream` | [Open](playlists/by-provider/linear-493.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-59.frequency.stream` | [Open](playlists/by-provider/linear-59.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-593.frequency.stream` | [Open](playlists/by-provider/linear-593.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-600.frequency.stream` | [Open](playlists/by-provider/linear-600.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-738.frequency.stream` | [Open](playlists/by-provider/linear-738.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-799.frequency.stream` | [Open](playlists/by-provider/linear-799.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-80.frequency.stream` | [Open](playlists/by-provider/linear-80.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-82.frequency.stream` | [Open](playlists/by-provider/linear-82.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-860.frequency.stream` | [Open](playlists/by-provider/linear-860.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-897.frequency.stream` | [Open](playlists/by-provider/linear-897.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `linear-900.frequency.stream` | [Open](playlists/by-provider/linear-900.frequency.stream.m3u) | ✅ | working |  |
+| 1 | `live.enhdtv.com:8081` | [Open](playlists/by-provider/live.enhdtv.com_8081.m3u) | ✅ | working |  |
+| 1 | `live.gideo.video` | [Open](playlists/by-provider/live.gideo.video.m3u) | ✅ | working |  |
+| 1 | `live.livestreamtv.ca` | [Open](playlists/by-provider/live.livestreamtv.ca.m3u) | ✅ | working |  |
+| 1 | `livecdn.enlace.plus` | [Open](playlists/by-provider/livecdn.enlace.plus.m3u) | ✅ | working |  |
+| 1 | `livehub-voidnet.onrender` | [Open](playlists/by-provider/livehub-voidnet.onrender.m3u) | ✅ | working |  |
+| 1 | `livetr.teleromagna.it` | [Open](playlists/by-provider/livetr.teleromagna.it.m3u) | ✅ | working |  |
+| 1 | `livetv.305streamhd.com:3504` | [Open](playlists/by-provider/livetv.305streamhd.com_3504.m3u) | ✅ | working |  |
+| 1 | `lowa8026-cmyk.github.io` | [Open](playlists/by-provider/lowa8026-cmyk.github.io.m3u) | ✅ | working |  |
+| 1 | `main.duckhunting.playout.vju.tv` | [Open](playlists/by-provider/main.duckhunting.playout.vju.tv.m3u) | ✅ | working |  |
+| 1 | `maverick-maverick-black-cinema-3-us.roku.wurl.tv` | [Open](playlists/by-provider/maverick-maverick-black-cinema-3-us.roku.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `mdstrm` | [Open](playlists/by-provider/mdstrm.m3u) | ✅ | working |  |
+| 1 | `media.smc-host.com:1935` | [Open](playlists/by-provider/media.smc-host.com_1935.m3u) | ✅ | working |  |
+| 1 | `media3.smc-host.com:1935` | [Open](playlists/by-provider/media3.smc-host.com_1935.m3u) | ✅ | working |  |
+| 1 | `mhz-samsung-linear-us.samsung.wurl.tv` | [Open](playlists/by-provider/mhz-samsung-linear-us.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `mmn.mypsx.net:1935` | [Open](playlists/by-provider/mmn.mypsx.net_1935.m3u) | ✅ | working |  |
+| 1 | `newidco-babysharktv-1-us.roku.wurl.tv` | [Open](playlists/by-provider/newidco-babysharktv-1-us.roku.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `newidco-newkid-1-eu.xiaomi.wurl.tv` | [Open](playlists/by-provider/newidco-newkid-1-eu.xiaomi.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `ott.god.tv` | [Open](playlists/by-provider/ott.god.tv.m3u) | ✅ | working |  |
+| 1 | `oxygenmusic.hu:2443` | [Open](playlists/by-provider/oxygenmusic.hu_2443.m3u) | ✅ | working |  |
+| 1 | `pb-ehs1glsha1juy.akamaized.net` | [Open](playlists/by-provider/pb-ehs1glsha1juy.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `pb-jc9emctsujawo.akamaized.net` | [Open](playlists/by-provider/pb-jc9emctsujawo.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `pb-rhq7yj8tne4rm.akamaized.net` | [Open](playlists/by-provider/pb-rhq7yj8tne4rm.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `pb-vt93jy06rfty1.akamaized.net` | [Open](playlists/by-provider/pb-vt93jy06rfty1.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `playztv.pages.dev` | [Open](playlists/by-provider/playztv.pages.dev.m3u) | ✅ | working |  |
+| 1 | `plextv.ott-channels.stingray` | [Open](playlists/by-provider/plextv.ott-channels.stingray.m3u) | ✅ | working |  |
+| 1 | `pubgfc.teleosmedia` | [Open](playlists/by-provider/pubgfc.teleosmedia.m3u) | ✅ | working |  |
+| 1 | `rally-tv-live.akamaized.net` | [Open](playlists/by-provider/rally-tv-live.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `reflect-huntingtonbeach.cablecast.tv` | [Open](playlists/by-provider/reflect-huntingtonbeach.cablecast.tv.m3u) | ✅ | working |  |
+| 1 | `reflect-monroe-mi-ci.cablecast.tv` | [Open](playlists/by-provider/reflect-monroe-mi-ci.cablecast.tv.m3u) | ✅ | working |  |
+| 1 | `reflect-tacm.cablecast.tv` | [Open](playlists/by-provider/reflect-tacm.cablecast.tv.m3u) | ✅ | working |  |
+| 1 | `reflector.watchtstv` | [Open](playlists/by-provider/reflector.watchtstv.m3u) | ✅ | working |  |
+| 1 | `rmtv.akamaized.net` | [Open](playlists/by-provider/rmtv.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `s5.mexside.net:1936` | [Open](playlists/by-provider/s5.mexside.net_1936.m3u) | ✅ | working |  |
+| 1 | `stitcher.pluto.tv` | [Open](playlists/by-provider/stitcher.pluto.tv.m3u) | ✅ | working |  |
+| 1 | `stream-losangeles.scientology` | [Open](playlists/by-provider/stream-losangeles.scientology.m3u) | ✅ | working |  |
+| 1 | `stream-tampa.scientology` | [Open](playlists/by-provider/stream-tampa.scientology.m3u) | ✅ | working |  |
+| 1 | `stream.missiontv.com:1935` | [Open](playlists/by-provider/stream.missiontv.com_1935.m3u) | ✅ | working |  |
+| 1 | `stream.pardesitv.online` | [Open](playlists/by-provider/stream.pardesitv.online.m3u) | ✅ | working |  |
+| 1 | `stream.qaztv.kz` | [Open](playlists/by-provider/stream.qaztv.kz.m3u) | ✅ | working |  |
+| 1 | `stream6.scientology` | [Open](playlists/by-provider/stream6.scientology.m3u) | ✅ | working |  |
+| 1 | `streamer12.vdn.dstreamone.net` | [Open](playlists/by-provider/streamer12.vdn.dstreamone.net.m3u) | ✅ | working |  |
+| 1 | `streaming.grupomediosdelnorte.com:19360` | [Open](playlists/by-provider/streaming.grupomediosdelnorte.com_19360.m3u) | ✅ | working |  |
+| 1 | `sy.wns.live` | [Open](playlists/by-provider/sy.wns.live.m3u) | ✅ | working |  |
+| 1 | `t2hls.wns.live` | [Open](playlists/by-provider/t2hls.wns.live.m3u) | ✅ | working |  |
+| 1 | `tgn2.bozztv` | [Open](playlists/by-provider/tgn2.bozztv.m3u) | ✅ | working |  |
+| 1 | `the-pet-collective-international-nl.samsung.wurl.tv` | [Open](playlists/by-provider/the-pet-collective-international-nl.samsung.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `thedovetv.bozztv` | [Open](playlists/by-provider/thedovetv.bozztv.m3u) | ✅ | working |  |
+| 1 | `thisoldhouse-2-us.roku.wurl.tv` | [Open](playlists/by-provider/thisoldhouse-2-us.roku.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `tkx.mp.lura.live` | [Open](playlists/by-provider/tkx.mp.lura.live.m3u) | ✅ | working |  |
+| 1 | `tulixcdn.akamaized.net` | [Open](playlists/by-provider/tulixcdn.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `tv.tuva.ru` | [Open](playlists/by-provider/tv.tuva.ru.m3u) | ✅ | working |  |
+| 1 | `tv2.fastcast4u.com:3943` | [Open](playlists/by-provider/tv2.fastcast4u.com_3943.m3u) | ✅ | working |  |
+| 1 | `tv91.hostingnuclear.com:19360` | [Open](playlists/by-provider/tv91.hostingnuclear.com_19360.m3u) | ✅ | working |  |
+| 1 | `ua.online24.pm` | [Open](playlists/by-provider/ua.online24.pm.m3u) | ✅ | working |  |
+| 1 | `unlimited6-cl.dps.live` | [Open](playlists/by-provider/unlimited6-cl.dps.live.m3u) | ✅ | working |  |
+| 1 | `v2.siar.us` | [Open](playlists/by-provider/v2.siar.us.m3u) | ✅ | working |  |
+| 1 | `vcp11.myplaytv` | [Open](playlists/by-provider/vcp11.myplaytv.m3u) | ✅ | working |  |
+| 1 | `videoelephant-limited-blackenterprisestreamingnetwork-1-us.ohlscdn.wurl.tv` | [Open](playlists/by-provider/videoelephant-limited-blackenterprisestreamingnetwork-1-us.ohlscdn.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `videoelephantlimited-beyondparanormal-1-us.ohlscdn.wurl.tv` | [Open](playlists/by-provider/videoelephantlimited-beyondparanormal-1-us.ohlscdn.wurl.tv.m3u) | ✅ | working |  |
+| 1 | `videostack1.cdnstream1.com:1936` | [Open](playlists/by-provider/videostack1.cdnstream1.com_1936.m3u) | ✅ | working |  |
+| 1 | `vs-hls-push-ww-live.akamaized.net` | [Open](playlists/by-provider/vs-hls-push-ww-live.akamaized.net.m3u) | ✅ | working |  |
+| 1 | `watch.collierschools` | [Open](playlists/by-provider/watch.collierschools.m3u) | ✅ | working |  |
+| 1 | `wurlfubo.global.transmit.live` | [Open](playlists/by-provider/wurlfubo.global.transmit.live.m3u) | ✅ | working |  |
+| 1 | `y3fqd48g.megatv.fun` | [Open](playlists/by-provider/y3fqd48g.megatv.fun.m3u) | ✅ | working |  |
+| 1 | `yta.unitedteleports.tv` | [Open](playlists/by-provider/yta.unitedteleports.tv.m3u) | ✅ | working |  |
+| 1 | `ztnr.rtve.es` | [Open](playlists/by-provider/ztnr.rtve.es.m3u) | ✅ | working |  |
 | 24 | `dai.google` | [Open](playlists/by-provider/dai.google.m3u) | ✅ | partial | Some of the chanels did not play in VLC |
 | 21 | `2-fss-2.streamhoster` | [Open](playlists/by-provider/2-fss-2.streamhoster.m3u) | ✅ | partial | Some channels did not play in VLC |
-| 28 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ⬜ | untested |  |
-| 20 | `ftv.xyzstreams.st` | [Open](playlists/by-provider/ftv.xyzstreams.st.m3u) | ⬜ | untested |  |
-| 11 | `cdn3.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn3.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 10 | `cdn10.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn10.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 8 | `a2lja3m.fubo18.com:443` | [Open](playlists/by-provider/a2lja3m.fubo18.com_443.m3u) | ⬜ | untested |  |
-| 7 | `77.46.130.252:99` | [Open](playlists/by-provider/77.46.130.252_99.m3u) | ⬜ | untested |  |
-| 7 | `bozztv` | [Open](playlists/by-provider/bozztv.m3u) | ⬜ | untested |  |
-| 7 | `castus-vod-dev.s3.amazonaws` | [Open](playlists/by-provider/castus-vod-dev.s3.amazonaws.m3u) | ⬜ | untested |  |
-| 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` | [Open](playlists/by-provider/cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv.m3u) | ⬜ | untested |  |
-| 7 | `reflect-communitytv.cablecast.tv` | [Open](playlists/by-provider/reflect-communitytv.cablecast.tv.m3u) | ⬜ | untested |  |
-| 7 | `rpn1.bozztv` | [Open](playlists/by-provider/rpn1.bozztv.m3u) | ⬜ | untested |  |
-| 7 | `stitcheraws.unreel.me` | [Open](playlists/by-provider/stitcheraws.unreel.me.m3u) | ⬜ | untested |  |
-| 7 | `stream.swagit` | [Open](playlists/by-provider/stream.swagit.m3u) | ⬜ | untested |  |
-| 6 | `193.47.62.46` | [Open](playlists/by-provider/193.47.62.46.m3u) | ⬜ | untested |  |
-| 6 | `195.181.169.152:8080` | [Open](playlists/by-provider/195.181.169.152_8080.m3u) | ⬜ | untested |  |
-| 6 | `65.108.239.207` | [Open](playlists/by-provider/65.108.239.207.m3u) | ⬜ | untested |  |
-| 6 | `bcovlive-a.akamaihd.net` | [Open](playlists/by-provider/bcovlive-a.akamaihd.net.m3u) | ⬜ | untested |  |
-| 6 | `bmf0aw9u.fubo18.com:443` | [Open](playlists/by-provider/bmf0aw9u.fubo18.com_443.m3u) | ⬜ | untested |  |
-| 6 | `ca1.buximedia` | [Open](playlists/by-provider/ca1.buximedia.m3u) | ⬜ | untested |  |
-| 6 | `cdn.klowdtv.net` | [Open](playlists/by-provider/cdn.klowdtv.net.m3u) | ⬜ | untested |  |
-| 6 | `cdn1.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn1.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 6 | `edgestream1.pro` | [Open](playlists/by-provider/edgestream1.pro.m3u) | ⬜ | untested |  |
-| 6 | `instreams.pro` | [Open](playlists/by-provider/instreams.pro.m3u) | ⬜ | untested |  |
-| 6 | `reflect-npa.cablecast.tv` | [Open](playlists/by-provider/reflect-npa.cablecast.tv.m3u) | ⬜ | untested |  |
-| 6 | `reflect-stream-bronxnet.cablecast.tv` | [Open](playlists/by-provider/reflect-stream-bronxnet.cablecast.tv.m3u) | ⬜ | untested |  |
-| 6 | `reflect-vod-cmac.cablecast.tv` | [Open](playlists/by-provider/reflect-vod-cmac.cablecast.tv.m3u) | ⬜ | untested |  |
-| 6 | `s2.domain156.xyz:443` | [Open](playlists/by-provider/s2.domain156.xyz_443.m3u) | ⬜ | untested |  |
-| 6 | `securestream10.champds` | [Open](playlists/by-provider/securestream10.champds.m3u) | ⬜ | untested |  |
-| 6 | `tgn.bozztv` | [Open](playlists/by-provider/tgn.bozztv.m3u) | ⬜ | untested |  |
-| 6 | `v-ny.theus6tv.tk` | [Open](playlists/by-provider/v-ny.theus6tv.tk.m3u) | ⬜ | untested |  |
-| 5 | `3abn.bozztv` | [Open](playlists/by-provider/3abn.bozztv.m3u) | ⬜ | untested |  |
-| 5 | `41.205.93.154` | [Open](playlists/by-provider/41.205.93.154.m3u) | ⬜ | untested |  |
-| 5 | `78.108.251.7` | [Open](playlists/by-provider/78.108.251.7.m3u) | ⬜ | untested |  |
-| 5 | `79.127.207.193` | [Open](playlists/by-provider/79.127.207.193.m3u) | ⬜ | untested |  |
-| 5 | `88.212.15.19` | [Open](playlists/by-provider/88.212.15.19.m3u) | ⬜ | untested |  |
-| 5 | `broadcast.mytvtogo.net` | [Open](playlists/by-provider/broadcast.mytvtogo.net.m3u) | ⬜ | untested |  |
-| 5 | `cdn.whiplash.cc` | [Open](playlists/by-provider/cdn.whiplash.cc.m3u) | ⬜ | untested |  |
-| 5 | `cdn2.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn2.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 5 | `fast-channels.sinclairstoryline` | [Open](playlists/by-provider/fast-channels.sinclairstoryline.m3u) | ⬜ | untested |  |
-| 5 | `nbcnews-lh.akamaihd.net` | [Open](playlists/by-provider/nbcnews-lh.akamaihd.net.m3u) | ⬜ | untested |  |
-| 5 | `PBS` | [Open](playlists/by-provider/PBS.m3u) | ⬜ | untested |  |
-| 5 | `stream.ads.ottera.tv` | [Open](playlists/by-provider/stream.ads.ottera.tv.m3u) | ⬜ | untested |  |
-| 5 | `stream.cammonitorplus.net` | [Open](playlists/by-provider/stream.cammonitorplus.net.m3u) | ⬜ | untested |  |
-| 5 | `uvotv-aniview.global.ssl.fastly.net` | [Open](playlists/by-provider/uvotv-aniview.global.ssl.fastly.net.m3u) | ⬜ | untested |  |
-| 5 | `v-pi.theus6tv.tk` | [Open](playlists/by-provider/v-pi.theus6tv.tk.m3u) | ⬜ | untested |  |
-| 4 | `135.125.109.73:9000` | [Open](playlists/by-provider/135.125.109.73_9000.m3u) | ⬜ | untested |  |
-| 4 | `178.23.88.55` | [Open](playlists/by-provider/178.23.88.55.m3u) | ⬜ | untested |  |
-| 4 | `188.191.160.238:7780` | [Open](playlists/by-provider/188.191.160.238_7780.m3u) | ⬜ | untested |  |
-| 4 | `84.54.128.52:9090` | [Open](playlists/by-provider/84.54.128.52_9090.m3u) | ⬜ | untested |  |
-| 4 | `agp-nimble.streamguys1` | [Open](playlists/by-provider/agp-nimble.streamguys1.m3u) | ⬜ | untested |  |
-| 4 | `api.new.livestream` | [Open](playlists/by-provider/api.new.livestream.m3u) | ⬜ | untested |  |
-| 4 | `api.toonamiaftermath.com:3000` | [Open](playlists/by-provider/api.toonamiaftermath.com_3000.m3u) | ⬜ | untested |  |
-| 4 | `bloomberg` | [Open](playlists/by-provider/bloomberg.m3u) | ⬜ | untested |  |
-| 4 | `cantv.streamguys1` | [Open](playlists/by-provider/cantv.streamguys1.m3u) | ⬜ | untested |  |
-| 4 | `cbsnewshd-lh.akamaihd.net` | [Open](playlists/by-provider/cbsnewshd-lh.akamaihd.net.m3u) | ⬜ | untested |  |
-| 4 | `cdn-unified-hls.streamspot` | [Open](playlists/by-provider/cdn-unified-hls.streamspot.m3u) | ⬜ | untested |  |
-| 4 | `cdn.igocast` | [Open](playlists/by-provider/cdn.igocast.m3u) | ⬜ | untested |  |
-| 4 | `cdn4.skygo.mn` | [Open](playlists/by-provider/cdn4.skygo.mn.m3u) | ⬜ | untested |  |
-| 4 | `cdn5.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn5.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 4 | `cdn6.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn6.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 4 | `cdn7.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn7.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 4 | `cdn8.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn8.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 4 | `cdnlivetv.tv` | [Open](playlists/by-provider/cdnlivetv.tv.m3u) | ⬜ | untested |  |
-| 4 | `citynewsregional.akamaized.net` | [Open](playlists/by-provider/citynewsregional.akamaized.net.m3u) | ⬜ | untested |  |
-| 4 | `cnngo1.akamaized.net` | [Open](playlists/by-provider/cnngo1.akamaized.net.m3u) | ⬜ | untested |  |
-| 4 | `fastly.live.brightcove` | [Open](playlists/by-provider/fastly.live.brightcove.m3u) | ⬜ | untested |  |
-| 4 | `granicusliveus3-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus3-a.akamaihd.net.m3u) | ⬜ | untested |  |
-| 4 | `hls-cdn.tvstartup.net` | [Open](playlists/by-provider/hls-cdn.tvstartup.net.m3u) | ⬜ | untested |  |
-| 4 | `instreams.live` | [Open](playlists/by-provider/instreams.live.m3u) | ⬜ | untested |  |
-| 4 | `live20.bozztv` | [Open](playlists/by-provider/live20.bozztv.m3u) | ⬜ | untested |  |
-| 4 | `moiptvhls-i.akamaihd.net` | [Open](playlists/by-provider/moiptvhls-i.akamaihd.net.m3u) | ⬜ | untested |  |
-| 4 | `reflect-bayarea.cablecast.tv` | [Open](playlists/by-provider/reflect-bayarea.cablecast.tv.m3u) | ⬜ | untested |  |
-| 4 | `reflect-creatv.cablecast.tv` | [Open](playlists/by-provider/reflect-creatv.cablecast.tv.m3u) | ⬜ | untested |  |
-| 4 | `reflect-jacksonville.cablecast.tv` | [Open](playlists/by-provider/reflect-jacksonville.cablecast.tv.m3u) | ⬜ | untested |  |
-| 4 | `s3-us-west-2.amazonaws` | [Open](playlists/by-provider/s3-us-west-2.amazonaws.m3u) | ⬜ | untested |  |
-| 4 | `shls-masr-ak.akamaized.net` | [Open](playlists/by-provider/shls-masr-ak.akamaized.net.m3u) | ⬜ | untested |  |
-| 4 | `stvlive.net:8080` | [Open](playlists/by-provider/stvlive.net_8080.m3u) | ⬜ | untested |  |
-| 4 | `unlimited1-us.dps.live` | [Open](playlists/by-provider/unlimited1-us.dps.live.m3u) | ⬜ | untested |  |
-| 4 | `www.bloomberg` | [Open](playlists/by-provider/www.bloomberg.m3u) | ⬜ | untested |  |
-| 3 | `167.250.223.26:8085` | [Open](playlists/by-provider/167.250.223.26_8085.m3u) | ⬜ | untested |  |
-| 3 | `185.112.249.46:9981` | [Open](playlists/by-provider/185.112.249.46_9981.m3u) | ⬜ | untested |  |
-| 3 | `200.115.120.1:8000` | [Open](playlists/by-provider/200.115.120.1_8000.m3u) | ⬜ | untested |  |
-| 3 | `217.174.225.146` | [Open](playlists/by-provider/217.174.225.146.m3u) | ⬜ | untested |  |
-| 3 | `23.88.66.93` | [Open](playlists/by-provider/23.88.66.93.m3u) | ⬜ | untested |  |
-| 3 | `30a-tv` | [Open](playlists/by-provider/30a-tv.m3u) | ⬜ | untested |  |
-| 3 | `96.68.164.217` | [Open](playlists/by-provider/96.68.164.217.m3u) | ⬜ | untested |  |
-| 3 | `ampmedia.secure.footprint.net` | [Open](playlists/by-provider/ampmedia.secure.footprint.net.m3u) | ⬜ | untested |  |
-| 3 | `cdn-atxn-01.vos360.video` | [Open](playlists/by-provider/cdn-atxn-01.vos360.video.m3u) | ⬜ | untested |  |
-| 3 | `cdn.jaybirdtv` | [Open](playlists/by-provider/cdn.jaybirdtv.m3u) | ⬜ | untested |  |
-| 3 | `cdn9.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn9.zohanayaan.com_1686.m3u) | ⬜ | untested |  |
-| 3 | `ch8reflector.longmontpublicmedia` | [Open](playlists/by-provider/ch8reflector.longmontpublicmedia.m3u) | ⬜ | untested |  |
-| 3 | `cineverse.g-mana.live` | [Open](playlists/by-provider/cineverse.g-mana.live.m3u) | ⬜ | untested |  |
-| 3 | `dvr2.kablova.tv` | [Open](playlists/by-provider/dvr2.kablova.tv.m3u) | ⬜ | untested |  |
-| 3 | `dvrfl03.bozztv` | [Open](playlists/by-provider/dvrfl03.bozztv.m3u) | ⬜ | untested |  |
-| 3 | `edge1.lifestreamcdn` | [Open](playlists/by-provider/edge1.lifestreamcdn.m3u) | ⬜ | untested |  |
-| 3 | `eventcdn02-nowe.akamaized.net` | [Open](playlists/by-provider/eventcdn02-nowe.akamaized.net.m3u) | ⬜ | untested |  |
-| 3 | `frontdoor.wcat-tv` | [Open](playlists/by-provider/frontdoor.wcat-tv.m3u) | ⬜ | untested |  |
-| 3 | `hartford-ct.secure.footprint.net` | [Open](playlists/by-provider/hartford-ct.secure.footprint.net.m3u) | ⬜ | untested |  |
-| 3 | `hdtv.prod2.ioio.tv` | [Open](playlists/by-provider/hdtv.prod2.ioio.tv.m3u) | ⬜ | untested |  |
-| 3 | `hwlive.streamingmediahosting` | [Open](playlists/by-provider/hwlive.streamingmediahosting.m3u) | ⬜ | untested |  |
-| 3 | `lenz.splus.ir` | [Open](playlists/by-provider/lenz.splus.ir.m3u) | ⬜ | untested |  |
-| 3 | `livecdn.use1-0004.jwplive` | [Open](playlists/by-provider/livecdn.use1-0004.jwplive.m3u) | ⬜ | untested |  |
-| 3 | `main.light-ott.net:80` | [Open](playlists/by-provider/main.light-ott.net_80.m3u) | ⬜ | untested |  |
-| 3 | `pasadenamed.secure.footprint.net` | [Open](playlists/by-provider/pasadenamed.secure.footprint.net.m3u) | ⬜ | untested |  |
-| 3 | `Pass` | [Open](playlists/by-provider/Pass.m3u) | ⬜ | untested |  |
-| 3 | `reflect-falmouth.cablecast.tv` | [Open](playlists/by-provider/reflect-falmouth.cablecast.tv.m3u) | ⬜ | untested |  |
-| 3 | `streams.helnix` | [Open](playlists/by-provider/streams.helnix.m3u) | ⬜ | untested |  |
-| 3 | `temp2.isilive.ca` | [Open](playlists/by-provider/temp2.isilive.ca.m3u) | ⬜ | untested |  |
-| 3 | `video.ct-n` | [Open](playlists/by-provider/video.ct-n.m3u) | ⬜ | untested |  |
-| 2 | `0888934ec1a5.us-east-1.playback.live-video.net` | Not generated | ⬜ | untested |  |
-| 2 | `145.239.5.177:80` | Not generated | ⬜ | untested |  |
-| 2 | `151.80.18.177:86` | Not generated | ⬜ | untested |  |
-| 2 | `158.101.222.193:88` | Not generated | ⬜ | untested |  |
-| 2 | `190.0.247.38:8000` | Not generated | ⬜ | untested |  |
-| 2 | `190.117.20.37:8000` | Not generated | ⬜ | untested |  |
-| 2 | `193.25.8.59:8000` | Not generated | ⬜ | untested |  |
-| 2 | `32tech0steam0dp01` | Not generated | ⬜ | untested |  |
-| 2 | `40.160.24.53` | Not generated | ⬜ | untested |  |
-| 2 | `46.149.191.217:9010` | Not generated | ⬜ | untested |  |
-| 2 | `93.93.113.95:25461` | Not generated | ⬜ | untested |  |
-| 2 | `94.43.1.138:8081` | Not generated | ⬜ | untested |  |
-| 2 | `99.27.51.147:8080` | Not generated | ⬜ | untested |  |
-| 2 | `a-cdn.herringnetwork` | Not generated | ⬜ | untested |  |
-| 2 | `ad-playlistserver.aws.syncbak` | Not generated | ⬜ | untested |  |
-| 2 | `api.v3.invintus` | Not generated | ⬜ | untested |  |
-| 2 | `app.viloud.tv` | Not generated | ⬜ | untested |  |
-| 2 | `applevalley.coxctv` | Not generated | ⬜ | untested |  |
-| 2 | `arizonawesterncol.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 2 | `b2ZmaWNpYWw.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 2 | `biblescreen.faithlifecdn` | Not generated | ⬜ | untested |  |
-| 2 | `bit.ly` | Not generated | ⬜ | untested |  |
-| 2 | `bl.video.matchtv.ru` | Not generated | ⬜ | untested |  |
-| 2 | `brightonco.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `buenapark.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `c2f2zq.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 2 | `catchup.videoline.ru` | Not generated | ⬜ | untested |  |
-| 2 | `cdn.appv.jagobd.com:444` | Not generated | ⬜ | untested |  |
-| 2 | `cdn.telecloud.tv` | Not generated | ⬜ | untested |  |
-| 2 | `cdn1.karwan.tv` | Not generated | ⬜ | untested |  |
-| 2 | `cdn13.crtvnoc` | Not generated | ⬜ | untested |  |
-| 2 | `cdnapisec.kaltura` | Not generated | ⬜ | untested |  |
-| 2 | `ch8.littletongov` | Not generated | ⬜ | untested |  |
-| 2 | `champaign-cablecast.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `concordca.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `cors-proxy.cooks.fyi` | Not generated | ⬜ | untested |  |
-| 2 | `cs.ebmcdn.net` | Not generated | ⬜ | untested |  |
-| 2 | `ctntv.getstreamhosting.com:1936` | Not generated | ⬜ | untested |  |
-| 2 | `dglvz29s.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 2 | `eWVz.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 2 | `fl1002.bozztv` | Not generated | ⬜ | untested |  |
-| 2 | `granicusliveus1-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 2 | `granicusliveus2-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 2 | `hls.youtb.workers.dev` | Not generated | ⬜ | untested |  |
-| 2 | `install.akctvcontrol` | Not generated | ⬜ | untested |  |
-| 2 | `jk3lzkn4lw79-hls-live.5centscdn` | Not generated | ⬜ | untested |  |
-| 2 | `lb6.wfty.st` | Not generated | ⬜ | untested |  |
-| 2 | `lin12.isilive.ca` | Not generated | ⬜ | untested |  |
-| 2 | `linear-11.frequency.stream` | Not generated | ⬜ | untested |  |
-| 2 | `linear-253.frequency.stream` | Not generated | ⬜ | untested |  |
-| 2 | `linear-896.frequency.stream` | Not generated | ⬜ | untested |  |
-| 2 | `lineup.cbsivideo` | Not generated | ⬜ | untested |  |
-| 2 | `live-h1.frontlayer.net` | Not generated | ⬜ | untested |  |
-| 2 | `live-mcl.cdn01.net` | Not generated | ⬜ | untested |  |
-| 2 | `live.chdrstatic` | Not generated | ⬜ | untested |  |
-| 2 | `live.feed.thepalmbeaches.tv` | Not generated | ⬜ | untested |  |
-| 2 | `live.ntdtv` | Not generated | ⬜ | untested |  |
-| 2 | `live.seminolecountyfl.gov` | Not generated | ⬜ | untested |  |
-| 2 | `liveh34.vtvprime.vn` | Not generated | ⬜ | untested |  |
-| 2 | `livestream-us-east-edge-2.granicusops` | Not generated | ⬜ | untested |  |
-| 2 | `na.linear.zype` | Not generated | ⬜ | untested |  |
-| 2 | `newyorkstream.ddns.net:1935` | Not generated | ⬜ | untested |  |
-| 2 | `origin-http-delivery.isilive.ca` | Not generated | ⬜ | untested |  |
-| 2 | `prod-fastly-eu-west-1.video.pscp.tv` | Not generated | ⬜ | untested |  |
-| 2 | `rcavlive.akamaized.net` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-brookline-interactive-group.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-ccx.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-channel36-la.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-cityofloveland-co.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-collier-countyboc.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-fcpublicmedia.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-lakefront-leesburgflorida.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-losangeles.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-mcsb-vod.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-monroe-public-access.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-tampa-bay-community.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-temecula.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-thornton.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-tuolumne.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `reflect-vod-fcgov.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `rgelive.akamaized.net` | Not generated | ⬜ | untested |  |
-| 2 | `rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net` | Not generated | ⬜ | untested |  |
-| 2 | `rtmp1.abnsat` | Not generated | ⬜ | untested |  |
-| 2 | `s1.domain156.xyz:443` | Not generated | ⬜ | untested |  |
-| 2 | `sa.domain156.xyz:443` | Not generated | ⬜ | untested |  |
-| 2 | `sc2022.stream-link` | Not generated | ⬜ | untested |  |
-| 2 | `securestream3.champds` | Not generated | ⬜ | untested |  |
-| 2 | `securestream9.champds` | Not generated | ⬜ | untested |  |
-| 2 | `siloh.pluto.tv` | Not generated | ⬜ | untested |  |
-| 2 | `simultv.s.llnwi.net` | Not generated | ⬜ | untested |  |
-| 2 | `str2.yodacdn.net` | Not generated | ⬜ | untested |  |
-| 2 | `stream.talgov.net` | Not generated | ⬜ | untested |  |
-| 2 | `streamer1.connectto` | Not generated | ⬜ | untested |  |
-| 2 | `streams.comclark` | Not generated | ⬜ | untested |  |
-| 2 | `tbn-jw.cdn.vustreams` | Not generated | ⬜ | untested |  |
-| 2 | `temp3.isilive.ca` | Not generated | ⬜ | untested |  |
-| 2 | `thegateway.app` | Not generated | ⬜ | untested |  |
-| 2 | `vallejo.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `vbfast-c.viebit` | Not generated | ⬜ | untested |  |
-| 2 | `video1.getstreamhosting.com:1936` | Not generated | ⬜ | untested |  |
-| 2 | `videodelivery.net` | Not generated | ⬜ | untested |  |
-| 2 | `voa-ingest.akamaized.net` | Not generated | ⬜ | untested |  |
-| 2 | `vod.cityofrc.us` | Not generated | ⬜ | untested |  |
-| 2 | `vod.slocoe` | Not generated | ⬜ | untested |  |
-| 2 | `vs20.live.opencaster` | Not generated | ⬜ | untested |  |
-| 2 | `whittier.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 2 | `worcester.vod.castus.tv` | Not generated | ⬜ | untested |  |
-| 2 | `www-on-stirr.b-cdn.net` | Not generated | ⬜ | untested |  |
-| 2 | `y2fzdgxl.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 2 | `ythls.armelin.one` | Not generated | ⬜ | untested |  |
-| 2 | `ythls.onrender` | Not generated | ⬜ | untested |  |
-| 2 | `YXdlc29tZQ.fubo18.com:443` | Not generated | ⬜ | untested |  |
-| 1 | `1-fss29-s0.streamhoster` | Not generated | ⬜ | untested |  |
-| 1 | `10380e91fda5e303.mediapackage.us-west-2.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `104.255.88.155` | Not generated | ⬜ | untested |  |
-| 1 | `107.167.7.162:8081` | Not generated | ⬜ | untested |  |
-| 1 | `10tv.lincoln.ne.gov` | Not generated | ⬜ | untested |  |
-| 1 | `1111296894.rsc.cdn77` | Not generated | ⬜ | untested |  |
-| 1 | `1189614805.rsc.cdn77` | Not generated | ⬜ | untested |  |
-| 1 | `145.239.5.177` | Not generated | ⬜ | untested |  |
-| 1 | `147.174.13.196` | Not generated | ⬜ | untested |  |
-| 1 | `149.71.34.166:8000` | Not generated | ⬜ | untested |  |
-| 1 | `149.71.34.166:8002` | Not generated | ⬜ | untested |  |
-| 1 | `157.143.44.195` | Not generated | ⬜ | untested |  |
-| 1 | `158.69.124.9:1935` | Not generated | ⬜ | untested |  |
-| 1 | `158.69.24.53:8080` | Not generated | ⬜ | untested |  |
-| 1 | `162.244.81.156:1935` | Not generated | ⬜ | untested |  |
-| 1 | `1657061170.rsc.cdn77` | Not generated | ⬜ | untested |  |
-| 1 | `170.178.189.66:1935` | Not generated | ⬜ | untested |  |
-| 1 | `176.65.146.237:8401` | Not generated | ⬜ | untested |  |
-| 1 | `178.33.11.6:8696` | Not generated | ⬜ | untested |  |
-| 1 | `178.33.239.54:8080` | Not generated | ⬜ | untested |  |
-| 1 | `179.60.224.196:8000` | Not generated | ⬜ | untested |  |
-| 1 | `18.191.91.130:1935` | Not generated | ⬜ | untested |  |
-| 1 | `181.114.57.246:4000` | Not generated | ⬜ | untested |  |
-| 1 | `181.205.205.173:8888` | Not generated | ⬜ | untested |  |
-| 1 | `181.209.194.14:8001` | Not generated | ⬜ | untested |  |
-| 1 | `181.78.109.48:9998` | Not generated | ⬜ | untested |  |
-| 1 | `181.78.50.91:4000` | Not generated | ⬜ | untested |  |
-| 1 | `1815337252.rsc.cdn77` | Not generated | ⬜ | untested |  |
-| 1 | `1840769862.rsc.cdn77` | Not generated | ⬜ | untested |  |
-| 1 | `185.46.48.18:80` | Not generated | ⬜ | untested |  |
-| 1 | `185.57.68.33` | Not generated | ⬜ | untested |  |
-| 1 | `185.57.68.33:80` | Not generated | ⬜ | untested |  |
-| 1 | `185.57.68.33:8091` | Not generated | ⬜ | untested |  |
-| 1 | `185.98.211.8:81` | Not generated | ⬜ | untested |  |
-| 1 | `190.11.225.124:5000` | Not generated | ⬜ | untested |  |
-| 1 | `190.117.20.39:8000` | Not generated | ⬜ | untested |  |
-| 1 | `190.14.10.19:16000` | Not generated | ⬜ | untested |  |
-| 1 | `190.242.59.52:8000` | Not generated | ⬜ | untested |  |
-| 1 | `190.92.10.66:4000` | Not generated | ⬜ | untested |  |
-| 1 | `2-fss-1.themediacdn` | Not generated | ⬜ | untested |  |
-| 1 | `201.230.121.186:8000` | Not generated | ⬜ | untested |  |
-| 1 | `201.230.121.85:8000` | Not generated | ⬜ | untested |  |
-| 1 | `209.182.219.50:1935` | Not generated | ⬜ | untested |  |
-| 1 | `212.102.60.80` | Not generated | ⬜ | untested |  |
-| 1 | `212.186.45.34:9981` | Not generated | ⬜ | untested |  |
-| 1 | `217.73.139.200:5443` | Not generated | ⬜ | untested |  |
-| 1 | `23.133.220.149` | Not generated | ⬜ | untested |  |
-| 1 | `23.239.31.26:8989` | Not generated | ⬜ | untested |  |
-| 1 | `247preview.foxnews` | Not generated | ⬜ | untested |  |
-| 1 | `247wlive.foxweather` | Not generated | ⬜ | untested |  |
-| 1 | `2nbyjjx7y53k-hls-live.5centscdn` | Not generated | ⬜ | untested |  |
-| 1 | `369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `3abn-live.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `40.160.24.55` | Not generated | ⬜ | untested |  |
-| 1 | `45.228.233.254:18000` | Not generated | ⬜ | untested |  |
-| 1 | `45.5.117.57:8200` | Not generated | ⬜ | untested |  |
-| 1 | `45.5.119.43:4000` | Not generated | ⬜ | untested |  |
-| 1 | `47.23.7.30:8080` | Not generated | ⬜ | untested |  |
-| 1 | `4ea7abcc97144832b81dc50c6e8d6330.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `5.188.221.43:8080` | Not generated | ⬜ | untested |  |
-| 1 | `5tv.lincoln.ne.gov` | Not generated | ⬜ | untested |  |
-| 1 | `61ce5915.amazzin.pw` | Not generated | ⬜ | untested |  |
-| 1 | `65.36.6.216:1935` | Not generated | ⬜ | untested |  |
-| 1 | `67.53.122.248` | Not generated | ⬜ | untested |  |
-| 1 | `7f4538d7.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `80tv.lincoln.ne.gov` | Not generated | ⬜ | untested |  |
-| 1 | `81988.global.ssl.fastly.net` | Not generated | ⬜ | untested |  |
-| 1 | `82934cf9c8696bd2.mediapackage.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `91.201.172.14:35006` | Not generated | ⬜ | untested |  |
-| 1 | `95.47.155.244:8001` | Not generated | ⬜ | untested |  |
-| 1 | `95.47.156.60:8000` | Not generated | ⬜ | untested |  |
-| 1 | `a7b60a6853d843dd9105acfa8d6e74c7.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `a8d3367c658948afb1901efdd9babe5b.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `abie.009292` | Not generated | ⬜ | untested |  |
-| 1 | `acceso.radiosportstv.online:3259` | Not generated | ⬜ | untested |  |
-| 1 | `aenetworks-ae-1.samsung.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `africa24.vedge.infomaniak` | Not generated | ⬜ | untested |  |
-| 1 | `airvuz-dronetv-1-us.ohlscdn.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `all3media-midsomer-1-us.roku.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `alliantcontent-truecrimenow-1-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `alliantcontent-warandmilitarynow-1-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `alpha.tv.online.tm` | Not generated | ⬜ | untested |  |
-| 1 | `amc-absolutereality-1-us.plex.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `amc-absolutereality-1.imdbtv.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `amc-allweddings-1-us.plex.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `amc-allweddings-1-us.xumo.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `amc-allweddings-1.vizio.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `amc-amcpresents-1-us.plex.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `amc-amcpresents-1-us.xumo.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `amc-slightly-off-by-amc-1.imdbtv.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `amc-twdfanexperience-1-us.xumo.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `amdici.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `amhorstream` | Not generated | ⬜ | untested |  |
-| 1 | `amogonetworx-artflix-1-nl.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `amogonetworx-grjngo-3-dk.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `angel.btbn.tv:5443` | Not generated | ⬜ | untested |  |
-| 1 | `aos01-evine.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `api.abcotvs` | Not generated | ⬜ | untested |  |
-| 1 | `asermedia-lacrossesportsnetwork-1-eu.rakuten.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `avm.ecuamedia.net` | Not generated | ⬜ | untested |  |
-| 1 | `ayassport.776740.ir.cdn.ir` | Not generated | ⬜ | untested |  |
-| 1 | `aym-as.otteravision` | Not generated | ⬜ | untested |  |
-| 1 | `azroe0x-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `b12eca572da7423284734ca3a6242ea2.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `b1570a6919f94bcfa2f061daee64c70f.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `b83608fe932143099bb8b25a66857730.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `babyfirst.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `bcliveunivsecure-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `bcsecurelivehls-i.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `bigcitytv.playout.vju.tv` | Not generated | ⬜ | untested |  |
-| 1 | `biglife.sinclair.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `bk7l2w4nlx53-hls-live.5centscdn` | Not generated | ⬜ | untested |  |
-| 1 | `bloodydisgusting-ingest-roku-us.cinedigm` | Not generated | ⬜ | untested |  |
-| 1 | `bluesport.fun` | Not generated | ⬜ | untested |  |
-| 1 | `bonudiemsa-intipacha-2-eu.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-arabic-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-chinese-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-hislight-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-hisword-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-korean-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-latino-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-romanian-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-sls-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-sls.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `brightstar-southasia-pull-secure.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `broadcast.tbnpacific.org.au:4430` | Not generated | ⬜ | untested |  |
-| 1 | `bspoketv.s.llnwi.net` | Not generated | ⬜ | untested |  |
-| 1 | `c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `capitalcityconnection.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `catholictvhd-lh.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `cb5273f195a147f2bcf23544e4495f66.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-bal1.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-bos.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-chi.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-den.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-det.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-la-cedexis.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-la.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-mia.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-min.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-ny.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-phi.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-pit.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsn-sf.cbsnstream.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `cbsnewshd-lh.akamaihd.net:80` | Not generated | ⬜ | untested |  |
-| 1 | `cbsnhls-i.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `cdn-shop-lc-01.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `cdn.jwplayer` | Not generated | ⬜ | untested |  |
-| 1 | `cdn.media9.truegod.tv` | Not generated | ⬜ | untested |  |
-| 1 | `cdn.mycloudstream.io` | Not generated | ⬜ | untested |  |
-| 1 | `cdn1-8p.teleuptv.net` | Not generated | ⬜ | untested |  |
-| 1 | `cdn20.liveonlineservices` | Not generated | ⬜ | untested |  |
-| 1 | `cdn3.toronto360.tv:8081` | Not generated | ⬜ | untested |  |
-| 1 | `cdn4.zohanayaan.com:1686` | Not generated | ⬜ | untested |  |
-| 1 | `cdn6.163189` | Not generated | ⬜ | untested |  |
-| 1 | `cdn6.live247stream` | Not generated | ⬜ | untested |  |
-| 1 | `cdn61.liveonlineservices` | Not generated | ⬜ | untested |  |
-| 1 | `cdn8.live247stream` | Not generated | ⬜ | untested |  |
-| 1 | `cdnapi.kaltura` | Not generated | ⬜ | untested |  |
-| 1 | `cdnenmain.telesur.ultrabase.net` | Not generated | ⬜ | untested |  |
-| 1 | `cdnlive.myspirit.tv` | Not generated | ⬜ | untested |  |
-| 1 | `cf-live29e5f8c.lwcdn` | Not generated | ⬜ | untested |  |
-| 1 | `ch.iptvmate.net` | Not generated | ⬜ | untested |  |
-| 1 | `cinedigm.vo.llnwd.net` | Not generated | ⬜ | untested |  |
-| 1 | `ciner-live.ercdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `ciner.daioncdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `cineverse-all3-soreal-1-us.ono.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `cineverse-entrepreneurtv-entrepreneurtv-1-us.ono.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `classicarts.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `cloudflare.streamgato.us:3125` | Not generated | ⬜ | untested |  |
-| 1 | `cloudflare.tv` | Not generated | ⬜ | untested |  |
-| 1 | `cmctv.ios.internapcdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `cnnlive.warnermediacdn` | Not generated | ⬜ | untested |  |
-| 1 | `contvanime.cinedigm` | Not generated | ⬜ | untested |  |
-| 1 | `cpdc101-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `crt-ext.rodeotv.net` | Not generated | ⬜ | untested |  |
-| 1 | `cyclingtv.playout.vju.tv` | Not generated | ⬜ | untested |  |
-| 1 | `czrb8vng.ottclub` | Not generated | ⬜ | untested |  |
-| 1 | `d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `daffodil.หวยดีดี1000` | Not generated | ⬜ | untested |  |
-| 1 | `dai2-xumo.fubo.tv` | Not generated | ⬜ | untested |  |
-| 1 | `dash2.antik.sk` | Not generated | ⬜ | untested |  |
-| 1 | `dcunilive30-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `dhx-degrassi-1-us.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `directes-tv-cat.3catdirectes.cat` | Not generated | ⬜ | untested |  |
-| 1 | `distributionsjustepourrire-justforlaughsgags-1-eu.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `dmr-midnightpulp-3-us.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `dms.redbull.tv` | Not generated | ⬜ | untested |  |
-| 1 | `dover-de.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `drybar-drybarcomedy-1-au.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `drybar-drybarcomedy-1-ca.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `ds.tvabierta.net` | Not generated | ⬜ | untested |  |
-| 1 | `dvr1.kablova.tv` | Not generated | ⬜ | untested |  |
-| 1 | `dvr3.kablova.tv` | Not generated | ⬜ | untested |  |
-| 1 | `e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `e85541db4ae943d9b5a09477d6b1d8ab.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `ec4a5bcc9d664b48985de6095931aaa7.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `edge.fstv-live-linear-channel.top.comcast.net` | Not generated | ⬜ | untested |  |
-| 1 | `edu-wcat.azureedge.net` | Not generated | ⬜ | untested |  |
-| 1 | `ekoltv-live.ercdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `elec-en-xumo.otteravision` | Not generated | ⬜ | untested |  |
-| 1 | `eleven-rebroadcast-samsung.roku.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `endemol-dealornodeal-1.sinclair.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `eyeonesports` | Not generated | ⬜ | untested |  |
-| 1 | `f-tx-edge-87.christianworldmedia` | Not generated | ⬜ | untested |  |
-| 1 | `failarmy-international-in.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws` | Not generated | ⬜ | untested |  |
-| 1 | `fffffff110156200.tvustream.com:8298` | Not generated | ⬜ | untested |  |
-| 1 | `food-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `food-us.xumo.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `FREE7` | Not generated | ⬜ | untested |  |
-| 1 | `freem3u` | Not generated | ⬜ | untested |  |
-| 1 | `gama-mx.com:8085` | Not generated | ⬜ | untested |  |
-| 1 | `go2thls.wns.live` | Not generated | ⬜ | untested |  |
-| 1 | `granicusliveus10-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `granicusliveus12-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `granicusliveus4-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `granicusliveus6-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `granicusliveus8-a.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `greenbeltacctv.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `hcintlinc.mmdlive.lldns.net` | Not generated | ⬜ | untested |  |
-| 1 | `hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev` | Not generated | ⬜ | untested |  |
-| 1 | `hls-cdn.tvstartup17.net` | Not generated | ⬜ | untested |  |
-| 1 | `hls-live-media-gc.cdn01.net` | Not generated | ⬜ | untested |  |
-| 1 | `hls.savoir.media` | Not generated | ⬜ | untested |  |
-| 1 | `hls1.livestreamingcdn.com:1935` | Not generated | ⬜ | untested |  |
-| 1 | `hollywire.samsung.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `icchls.wns.live` | Not generated | ⬜ | untested |  |
-| 1 | `iconfilmsdistribution-iconfilmchannelclassics-1-gb.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `indtv.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `inspnetworks-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `iptv.prosto.tv:7000` | Not generated | ⬜ | untested |  |
-| 1 | `iptv.sohailtv` | Not generated | ⬜ | untested |  |
-| 1 | `irctv.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `is.gd` | Not generated | ⬜ | untested |  |
-| 1 | `isntv.mmdlive.lldns.net` | Not generated | ⬜ | untested |  |
-| 1 | `itiswrittentv.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `jacksonenergy.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `janson-supersimplesongs-1-us.roku.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `janson-supersimplesongs-1.vizio.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `janson-todayshomeowner-1-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `jlt-jltv-stirr.otteravision` | Not generated | ⬜ | untested |  |
-| 1 | `jstre.am` | Not generated | ⬜ | untested |  |
-| 1 | `judge-faith-1.vizio.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `k20.usastreams.com:8081` | Not generated | ⬜ | untested |  |
-| 1 | `knoxville-tn.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `kwtspta.cdn.mangomolo` | Not generated | ⬜ | untested |  |
-| 1 | `langleyproductions-cops-2-eu.rakuten.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `latam-cache-sv2-cdn.latamlive.net` | Not generated | ⬜ | untested |  |
-| 1 | `lbgo.bozztv` | Not generated | ⬜ | untested |  |
-| 1 | `lin10.isilive.ca` | Not generated | ⬜ | untested |  |
-| 1 | `lin13.isilive.ca` | Not generated | ⬜ | untested |  |
-| 1 | `linear-10.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-1016.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-1066.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-12.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-120.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-128.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-144.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-165.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-188.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-458.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-46.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-492.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-493.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-59.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-593.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-600.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-64.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-68.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-73.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-738.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-76.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-799.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-80.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-82.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-860.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-897.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-900.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `linear-941.frequency.stream` | Not generated | ⬜ | untested |  |
-| 1 | `link.frontlayer` | Not generated | ⬜ | untested |  |
-| 1 | `live.btv.mx:2424` | Not generated | ⬜ | untested |  |
-| 1 | `live.enhdtv.com:8081` | Not generated | ⬜ | untested |  |
-| 1 | `live.gideo.video` | Not generated | ⬜ | untested |  |
-| 1 | `live.livestreamtv.ca` | Not generated | ⬜ | untested |  |
-| 1 | `live.pomonaca.gov` | Not generated | ⬜ | untested |  |
-| 1 | `live.relentlessinnovations.net:1936` | Not generated | ⬜ | untested |  |
-| 1 | `live.sportstv.com.tr` | Not generated | ⬜ | untested |  |
-| 1 | `live12.xiazhix1.top` | Not generated | ⬜ | untested |  |
-| 1 | `live8fd.lakewood` | Not generated | ⬜ | untested |  |
-| 1 | `livecdn.enlace.plus` | Not generated | ⬜ | untested |  |
-| 1 | `livecdn.live247stream` | Not generated | ⬜ | untested |  |
-| 1 | `livehub-voidnet.onrender` | Not generated | ⬜ | untested |  |
-| 1 | `liveovh011.cda.pl` | Not generated | ⬜ | untested |  |
-| 1 | `livestream.5centscdn` | Not generated | ⬜ | untested |  |
-| 1 | `livestream.chdrstatic` | Not generated | ⬜ | untested |  |
-| 1 | `livetr.teleromagna.it` | Not generated | ⬜ | untested |  |
-| 1 | `livetv.305streamhd.com:3504` | Not generated | ⬜ | untested |  |
-| 1 | `ln-zen.localnowlive` | Not generated | ⬜ | untested |  |
-| 1 | `lowa8026-cmyk.github.io` | Not generated | ⬜ | untested |  |
-| 1 | `lsqvc4us-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `magellan-space-science-now-1-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `magellantv-1.vizio.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `main.duckhunting.playout.vju.tv` | Not generated | ⬜ | untested |  |
-| 1 | `maverick-maverick-black-cinema-3-us.roku.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `mavtv-1.vizio.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `mdstrm` | Not generated | ⬜ | untested |  |
-| 1 | `media.smc-host.com:1935` | Not generated | ⬜ | untested |  |
-| 1 | `media3.smc-host.com:1935` | Not generated | ⬜ | untested |  |
-| 1 | `mediacp.us:8081` | Not generated | ⬜ | untested |  |
-| 1 | `mhz-samsung-linear-us.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `midstate.coxctv` | Not generated | ⬜ | untested |  |
-| 1 | `mmn.mypsx.net:1935` | Not generated | ⬜ | untested |  |
-| 1 | `motors.playout.vju.tv` | Not generated | ⬜ | untested |  |
-| 1 | `moviemix.samsung.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `multimedia.eitb.eus` | Not generated | ⬜ | untested |  |
-| 1 | `name-port.to` | Not generated | ⬜ | untested |  |
-| 1 | `netohls.wns.live` | Not generated | ⬜ | untested |  |
-| 1 | `newcastlecoutv.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `newidco-babysharktv-1-us.roku.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `newidco-newkid-1-eu.xiaomi.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `northcentral.coxctv` | Not generated | ⬜ | untested |  |
-| 1 | `nosey-2-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `nosey-realnosey-1-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `number27.playout.vju.tv` | Not generated | ⬜ | untested |  |
-| 1 | `origin-cae-m462953.toober` | Not generated | ⬜ | untested |  |
-| 1 | `ott.god.tv` | Not generated | ⬜ | untested |  |
-| 1 | `ov.ottera.tv` | Not generated | ⬜ | untested |  |
-| 1 | `oxygenmusic.hu:2443` | Not generated | ⬜ | untested |  |
-| 1 | `p1media-americasvoice-1.roku.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `panel.freedomflixtv.org:3948` | Not generated | ⬜ | untested |  |
-| 1 | `paraglidingtv.playout.vju.tv` | Not generated | ⬜ | untested |  |
-| 1 | `pb-ehs1glsha1juy.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `pb-jc9emctsujawo.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `pb-rhq7yj8tne4rm.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `pb-vt93jy06rfty1.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `playztv.pages.dev` | Not generated | ⬜ | untested |  |
-| 1 | `plextv.ott-channels.stingray` | Not generated | ⬜ | untested |  |
-| 1 | `previewchannel-previewchannel-1.vizio.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `pubgfc.teleosmedia` | Not generated | ⬜ | untested |  |
-| 1 | `rally-tv-live.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `raw.githubusercontent` | Not generated | ⬜ | untested |  |
-| 1 | `rebroadcast.mytvtogo.net` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-access-sacramento.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-applevalley.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-aurora.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-broadcast-psdschools.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-contra-costa.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-fairfield-ca.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-golden-co.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-gtv6-glendale.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-hktv.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-huntingtonbeach.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-kcat-live.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-live-lawndale.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-monroe-mi-ci.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-padnet-live.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-pinellas-park-fl.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-pomona.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-stream15-capsmedia.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-stream6-capsmedia.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-tacm.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-vsctv.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflect-watchkfon-fontana.cablecast.tv` | Not generated | ⬜ | untested |  |
-| 1 | `reflector.watchtstv` | Not generated | ⬜ | untested |  |
-| 1 | `rfdtv-jw.cdn.vustreams` | Not generated | ⬜ | untested |  |
-| 1 | `rifftrax.samsung.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `rmtv.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `rtatv.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `rtb.srfms.com:3333` | Not generated | ⬜ | untested |  |
-| 1 | `rtmp2.abnvideos` | Not generated | ⬜ | untested |  |
-| 1 | `rtv.cdn.mangomolo` | Not generated | ⬜ | untested |  |
-| 1 | `s5.mexside.net:1936` | Not generated | ⬜ | untested |  |
-| 1 | `scripps-defy-1-us.vizio.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `scripps-gritxtra-1-us.vizio.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `shls-fight-sports-ak.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `sramsburg-hls.secdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `ssai.castify.ai` | Not generated | ⬜ | untested |  |
-| 1 | `ssh101-fl.bozztv` | Not generated | ⬜ | untested |  |
-| 1 | `stadium-ringofhonor-1.sinclair.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `stitcher.pluto.tv` | Not generated | ⬜ | untested |  |
-| 1 | `stmv1.srvif` | Not generated | ⬜ | untested |  |
-| 1 | `storage.sardius.media` | Not generated | ⬜ | untested |  |
-| 1 | `stoughton-wi.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `stream-losangeles.scientology` | Not generated | ⬜ | untested |  |
-| 1 | `stream-tampa.scientology` | Not generated | ⬜ | untested |  |
-| 1 | `stream.decentdoubts.net` | Not generated | ⬜ | untested |  |
-| 1 | `stream.iphonewebtown.com:1935` | Not generated | ⬜ | untested |  |
-| 1 | `stream.krgv` | Not generated | ⬜ | untested |  |
-| 1 | `stream.livenewsplay.com:9443` | Not generated | ⬜ | untested |  |
-| 1 | `stream.missiontv.com:1935` | Not generated | ⬜ | untested |  |
-| 1 | `stream.mux` | Not generated | ⬜ | untested |  |
-| 1 | `stream.pardesitv.online` | Not generated | ⬜ | untested |  |
-| 1 | `stream.pivotalelements` | Not generated | ⬜ | untested |  |
-| 1 | `stream.qaztv.kz` | Not generated | ⬜ | untested |  |
-| 1 | `stream.rcncdn` | Not generated | ⬜ | untested |  |
-| 1 | `stream04.amp.csulb.edu:1935` | Not generated | ⬜ | untested |  |
-| 1 | `stream6.scientology` | Not generated | ⬜ | untested |  |
-| 1 | `streamdot.broadpeak.io` | Not generated | ⬜ | untested |  |
-| 1 | `streamer12.vdn.dstreamone.net` | Not generated | ⬜ | untested |  |
-| 1 | `streaming.grupomediosdelnorte.com:19360` | Not generated | ⬜ | untested |  |
-| 1 | `streaming.televizor-24-tochka.ru` | Not generated | ⬜ | untested |  |
-| 1 | `streamspace.live` | Not generated | ⬜ | untested |  |
-| 1 | `streamtv.intervenhosting.net:3582` | Not generated | ⬜ | untested |  |
-| 1 | `streannliveevtv.cachefly.net` | Not generated | ⬜ | untested |  |
-| 1 | `sy.wns.live` | Not generated | ⬜ | untested |  |
-| 1 | `sydandmacky.vju.tv` | Not generated | ⬜ | untested |  |
-| 1 | `t06243a-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `t07113a-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `t2hls.wns.live` | Not generated | ⬜ | untested |  |
-| 1 | `tastemadessai.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `templeuni.secure.footprint.net` | Not generated | ⬜ | untested |  |
-| 1 | `tgn2.bozztv` | Not generated | ⬜ | untested |  |
-| 1 | `the-pet-collective-international-nl.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `theblaze4.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `thedesignnetwork-tdn-6-ca.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `thedovetv.bozztv` | Not generated | ⬜ | untested |  |
-| 1 | `thisoldhouse-2-us.roku.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `thisoldhouse-samsung-us.samsung.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `tkx.mp.lura.live` | Not generated | ⬜ | untested |  |
-| 1 | `topic-crimeandthrillers-1-us.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `tstv-stream.tsm.utexas.edu` | Not generated | ⬜ | untested |  |
-| 1 | `tulixcdn.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `tv.cdn.xsg.ge` | Not generated | ⬜ | untested |  |
-| 1 | `tv.sikkylab.me` | Not generated | ⬜ | untested |  |
-| 1 | `tv.tuva.ru` | Not generated | ⬜ | untested |  |
-| 1 | `tv2.fastcast4u.com:3943` | Not generated | ⬜ | untested |  |
-| 1 | `tv91.hostingnuclear.com:19360` | Not generated | ⬜ | untested |  |
-| 1 | `tva.in.ua` | Not generated | ⬜ | untested |  |
-| 1 | `tve-live-lln.warnermediacdn` | Not generated | ⬜ | untested |  |
-| 1 | `tvsw2-hls.secdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `ua.online24.pm` | Not generated | ⬜ | untested |  |
-| 1 | `univision-live.cdn.vustreams` | Not generated | ⬜ | untested |  |
-| 1 | `unlimited6-cl.dps.live` | Not generated | ⬜ | untested |  |
-| 1 | `uplynkcontent.sinclairstoryline` | Not generated | ⬜ | untested |  |
-| 1 | `us170.jagobd.com:447` | Not generated | ⬜ | untested |  |
-| 1 | `v-px.theus6tv.tk` | Not generated | ⬜ | untested |  |
-| 1 | `v2.siar.us` | Not generated | ⬜ | untested |  |
-| 1 | `vcp11.myplaytv` | Not generated | ⬜ | untested |  |
-| 1 | `vdo1.streamgato.us:3986` | Not generated | ⬜ | untested |  |
-| 1 | `video.ejeserver` | Not generated | ⬜ | untested |  |
-| 1 | `videoelephant-limited-blackenterprisestreamingnetwork-1-us.ohlscdn.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `videoelephantlimited-beyondparanormal-1-us.ohlscdn.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `videostack1.cdnstream1.com:1936` | Not generated | ⬜ | untested |  |
-| 1 | `vitor-tvclassics-1.plex.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `vs-hls-push-ww-live.akamaized.net` | Not generated | ⬜ | untested |  |
-| 1 | `vse2-na-us-ne24.secdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `watch.collierschools` | Not generated | ⬜ | untested |  |
-| 1 | `watchmojo-1-eu.freemoviesplus.wurl.tv` | Not generated | ⬜ | untested |  |
-| 1 | `webstreaming-3.viewmedia.tv` | Not generated | ⬜ | untested |  |
-| 1 | `wescottcchls-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `wfcint.mediacdn.ru` | Not generated | ⬜ | untested |  |
-| 1 | `whistle-1.distrotv.wurl` | Not generated | ⬜ | untested |  |
-| 1 | `wpc.9ec1.edgecastcdn.net` | Not generated | ⬜ | untested |  |
-| 1 | `wsjlivehls-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
-| 1 | `wurlfubo.global.transmit.live` | Not generated | ⬜ | untested |  |
-| 1 | `www.cbsnews` | Not generated | ⬜ | untested |  |
-| 1 | `www.filmon` | Not generated | ⬜ | untested |  |
-| 1 | `y3fqd48g.megatv.fun` | Not generated | ⬜ | untested |  |
-| 1 | `yta.unitedteleports.tv` | Not generated | ⬜ | untested |  |
-| 1 | `ztnr.rtve.es` | Not generated | ⬜ | untested |  |
-| 1 | `zypelive-lh.akamaihd.net` | Not generated | ⬜ | untested |  |
+| 7 | `bozztv` | [Open](playlists/by-provider/bozztv.m3u) | ✅ | partial |  |
+| 5 | `41.205.93.154` | [Open](playlists/by-provider/41.205.93.154.m3u) | ✅ | partial |  |
+| 5 | `78.108.251.7` | [Open](playlists/by-provider/78.108.251.7.m3u) | ✅ | partial |  |
+| 5 | `stream.ads.ottera.tv` | [Open](playlists/by-provider/stream.ads.ottera.tv.m3u) | ✅ | partial |  |
+| 4 | `agp-nimble.streamguys1` | [Open](playlists/by-provider/agp-nimble.streamguys1.m3u) | ✅ | partial |  |
+| 4 | `fastly.live.brightcove` | [Open](playlists/by-provider/fastly.live.brightcove.m3u) | ✅ | partial |  |
+| 4 | `live20.bozztv` | [Open](playlists/by-provider/live20.bozztv.m3u) | ✅ | partial |  |
+| 4 | `unlimited1-us.dps.live` | [Open](playlists/by-provider/unlimited1-us.dps.live.m3u) | ✅ | partial |  |
+| 3 | `30a-tv` | [Open](playlists/by-provider/30a-tv.m3u) | ✅ | partial |  |
+| 3 | `cdn.jaybirdtv` | [Open](playlists/by-provider/cdn.jaybirdtv.m3u) | ✅ | partial |  |
+| 2 | `99.27.51.147:8080` | [Open](playlists/by-provider/99.27.51.147_8080.m3u) | ✅ | partial |  |
+| 2 | `cdnapisec.kaltura` | [Open](playlists/by-provider/cdnapisec.kaltura.m3u) | ✅ | partial |  |
+| 2 | `fl1002.bozztv` | [Open](playlists/by-provider/fl1002.bozztv.m3u) | ✅ | partial |  |
+| 2 | `live.seminolecountyfl.gov` | [Open](playlists/by-provider/live.seminolecountyfl.gov.m3u) | ✅ | partial |  |
+| 2 | `reflect-ccx.cablecast.tv` | [Open](playlists/by-provider/reflect-ccx.cablecast.tv.m3u) | ✅ | partial |  |
+| 2 | `reflect-temecula.cablecast.tv` | [Open](playlists/by-provider/reflect-temecula.cablecast.tv.m3u) | ✅ | partial |  |
+| 2 | `rgelive.akamaized.net` | [Open](playlists/by-provider/rgelive.akamaized.net.m3u) | ✅ | partial |  |
+| 2 | `thegateway.app` | [Open](playlists/by-provider/thegateway.app.m3u) | ✅ | partial |  |
 | 78 | `streams2.sofast.tv` | [Open](playlists/by-provider/streams2.sofast.tv.m3u) | ✅ | dead | Server for live sporting events. |
 | 62 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |
 | 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ✅ | dead | none of the channels played in VLC |
 | 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ✅ | dead | none of the channels played in VLC |
 | 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ✅ | dead | None of the channels played in VLC |
 | 29 | `169.150.223.25` | [Open](playlists/by-provider/169.150.223.25.m3u) | ✅ | dead | None of the channels played in VLC |
+| 28 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ✅ | dead |  |
 | 20 | `a.jsrdn` | [Open](playlists/by-provider/a.jsrdn.m3u) | ✅ | dead | None of the channels played in VLC |
 | 17 | `77.137.40.221:8000` | [Open](playlists/by-provider/77.137.40.221_8000.m3u) | ✅ | dead | no channels played in VLC |
 | 14 | `2k.tstvs` | [Open](playlists/by-provider/2k.tstvs.m3u) | ✅ | dead | no channels played in vlc |
 | 14 | `trxad.top:80` | [Open](playlists/by-provider/trxad.top_80.m3u) | ✅ | dead | no channels played in vlc |
 | 12 | `stream-us-east-1.getpublica` | [Open](playlists/by-provider/stream-us-east-1.getpublica.m3u) | ✅ | dead | No channels played in VLC |
 | 11 | `154.197.91.169:8000` | [Open](playlists/by-provider/154.197.91.169_8000.m3u) | ✅ | dead | No channels worked in VLC |
+| 11 | `cdn3.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn3.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 11 | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` | [Open](playlists/by-provider/still-mud-3642.nqanzvyuupxwcahtfq.workers.dev.m3u) | ✅ | dead | No channels worked in VLC |
 | 11 | `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` | [Open](playlists/by-provider/wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev.m3u) | ✅ | dead | No channels worked in VLC |
 | 11 | `wo0dyefk.dienalt` | [Open](playlists/by-provider/wo0dyefk.dienalt.m3u) | ✅ | dead | No channels worked in VLC |
 | 10 | `a-cdn.klowdtv` | [Open](playlists/by-provider/a-cdn.klowdtv.m3u) | ✅ | dead | All channels worked in VLC |
 | 10 | `abcnews-streams.akamaized.net` | [Open](playlists/by-provider/abcnews-streams.akamaized.net.m3u) | ✅ | dead | No channels work in VLC |
+| 10 | `cdn10.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn10.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 10 | `webcast-origin.b-cdn.net` | [Open](playlists/by-provider/webcast-origin.b-cdn.net.m3u) | ✅ | dead | Live sports server |
 | 9 | `free.fullspeed.tv` | [Open](playlists/by-provider/free.fullspeed.tv.m3u) | ✅ | dead | No channels work in VLC |
 | 9 | `mediaserver.abnvideos` | [Open](playlists/by-provider/mediaserver.abnvideos.m3u) | ✅ | dead | no channels work in VLC |
 | 8 | `185.132.134.159:80` | [Open](playlists/by-provider/185.132.134.159_80.m3u) | ✅ | dead | No channels work in VLC |
 | 8 | `212.102.60.231` | [Open](playlists/by-provider/212.102.60.231.m3u) | ✅ | dead | No channels work in VLC |
+| 8 | `a2lja3m.fubo18.com:443` | [Open](playlists/by-provider/a2lja3m.fubo18.com_443.m3u) | ✅ | dead |  |
 | 8 | `cdn.vegasplus.us` | [Open](playlists/by-provider/cdn.vegasplus.us.m3u) | ✅ | dead | No channels work in VLC |
 | 8 | `Spanish` | [Open](playlists/by-provider/Spanish.m3u) | ✅ | dead | No channels work in VLC |
+| 7 | `77.46.130.252:99` | [Open](playlists/by-provider/77.46.130.252_99.m3u) | ✅ | dead |  |
+| 7 | `rpn1.bozztv` | [Open](playlists/by-provider/rpn1.bozztv.m3u) | ✅ | dead |  |
+| 7 | `stitcheraws.unreel.me` | [Open](playlists/by-provider/stitcheraws.unreel.me.m3u) | ✅ | dead |  |
+| 6 | `193.47.62.46` | [Open](playlists/by-provider/193.47.62.46.m3u) | ✅ | dead |  |
+| 6 | `195.181.169.152:8080` | [Open](playlists/by-provider/195.181.169.152_8080.m3u) | ✅ | dead |  |
+| 6 | `65.108.239.207` | [Open](playlists/by-provider/65.108.239.207.m3u) | ✅ | dead |  |
+| 6 | `bcovlive-a.akamaihd.net` | [Open](playlists/by-provider/bcovlive-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 6 | `bmf0aw9u.fubo18.com:443` | [Open](playlists/by-provider/bmf0aw9u.fubo18.com_443.m3u) | ✅ | dead |  |
+| 6 | `ca1.buximedia` | [Open](playlists/by-provider/ca1.buximedia.m3u) | ✅ | dead |  |
+| 6 | `cdn.klowdtv.net` | [Open](playlists/by-provider/cdn.klowdtv.net.m3u) | ✅ | dead |  |
+| 6 | `cdn1.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn1.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 6 | `instreams.pro` | [Open](playlists/by-provider/instreams.pro.m3u) | ✅ | dead |  |
+| 6 | `reflect-npa.cablecast.tv` | [Open](playlists/by-provider/reflect-npa.cablecast.tv.m3u) | ✅ | dead |  |
+| 6 | `s2.domain156.xyz:443` | [Open](playlists/by-provider/s2.domain156.xyz_443.m3u) | ✅ | dead |  |
+| 6 | `v-ny.theus6tv.tk` | [Open](playlists/by-provider/v-ny.theus6tv.tk.m3u) | ✅ | dead |  |
+| 5 | `79.127.207.193` | [Open](playlists/by-provider/79.127.207.193.m3u) | ✅ | dead |  |
+| 5 | `broadcast.mytvtogo.net` | [Open](playlists/by-provider/broadcast.mytvtogo.net.m3u) | ✅ | dead |  |
+| 5 | `cdn2.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn2.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 5 | `nbcnews-lh.akamaihd.net` | [Open](playlists/by-provider/nbcnews-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 5 | `uvotv-aniview.global.ssl.fastly.net` | [Open](playlists/by-provider/uvotv-aniview.global.ssl.fastly.net.m3u) | ✅ | dead |  |
+| 5 | `v-pi.theus6tv.tk` | [Open](playlists/by-provider/v-pi.theus6tv.tk.m3u) | ✅ | dead |  |
+| 4 | `135.125.109.73:9000` | [Open](playlists/by-provider/135.125.109.73_9000.m3u) | ✅ | dead |  |
+| 4 | `178.23.88.55` | [Open](playlists/by-provider/178.23.88.55.m3u) | ✅ | dead |  |
+| 4 | `188.191.160.238:7780` | [Open](playlists/by-provider/188.191.160.238_7780.m3u) | ✅ | dead |  |
+| 4 | `84.54.128.52:9090` | [Open](playlists/by-provider/84.54.128.52_9090.m3u) | ✅ | dead |  |
+| 4 | `api.new.livestream` | [Open](playlists/by-provider/api.new.livestream.m3u) | ✅ | dead |  |
+| 4 | `cbsnewshd-lh.akamaihd.net` | [Open](playlists/by-provider/cbsnewshd-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 4 | `cdn4.skygo.mn` | [Open](playlists/by-provider/cdn4.skygo.mn.m3u) | ✅ | dead |  |
+| 4 | `cdn5.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn5.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 4 | `cdn6.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn6.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 4 | `cdn7.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn7.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 4 | `cdn8.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn8.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 4 | `cdnlivetv.tv` | [Open](playlists/by-provider/cdnlivetv.tv.m3u) | ✅ | dead |  |
 | 4 | `chatgpt.hereisman.net` | [Open](playlists/by-provider/chatgpt.hereisman.net.m3u) | ✅ | dead | Live sports server |
+| 4 | `cnngo1.akamaized.net` | [Open](playlists/by-provider/cnngo1.akamaized.net.m3u) | ✅ | dead |  |
 | 4 | `edgestream3.pro` | [Open](playlists/by-provider/edgestream3.pro.m3u) | ✅ | dead | Live sports STRMCNTR no links working |
+| 4 | `granicusliveus3-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus3-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 4 | `hls-cdn.tvstartup.net` | [Open](playlists/by-provider/hls-cdn.tvstartup.net.m3u) | ✅ | dead |  |
+| 4 | `instreams.live` | [Open](playlists/by-provider/instreams.live.m3u) | ✅ | dead |  |
+| 4 | `moiptvhls-i.akamaihd.net` | [Open](playlists/by-provider/moiptvhls-i.akamaihd.net.m3u) | ✅ | dead |  |
+| 4 | `reflect-jacksonville.cablecast.tv` | [Open](playlists/by-provider/reflect-jacksonville.cablecast.tv.m3u) | ✅ | dead |  |
+| 4 | `s3-us-west-2.amazonaws` | [Open](playlists/by-provider/s3-us-west-2.amazonaws.m3u) | ✅ | dead |  |
+| 4 | `shls-masr-ak.akamaized.net` | [Open](playlists/by-provider/shls-masr-ak.akamaized.net.m3u) | ✅ | dead |  |
+| 4 | `stvlive.net:8080` | [Open](playlists/by-provider/stvlive.net_8080.m3u) | ✅ | dead |  |
+| 3 | `167.250.223.26:8085` | [Open](playlists/by-provider/167.250.223.26_8085.m3u) | ✅ | dead |  |
+| 3 | `185.112.249.46:9981` | [Open](playlists/by-provider/185.112.249.46_9981.m3u) | ✅ | dead |  |
+| 3 | `23.88.66.93` | [Open](playlists/by-provider/23.88.66.93.m3u) | ✅ | dead |  |
+| 3 | `96.68.164.217` | [Open](playlists/by-provider/96.68.164.217.m3u) | ✅ | dead |  |
+| 3 | `ampmedia.secure.footprint.net` | [Open](playlists/by-provider/ampmedia.secure.footprint.net.m3u) | ✅ | dead |  |
+| 3 | `cdn9.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn9.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 3 | `ch8reflector.longmontpublicmedia` | [Open](playlists/by-provider/ch8reflector.longmontpublicmedia.m3u) | ✅ | dead |  |
+| 3 | `dvr2.kablova.tv` | [Open](playlists/by-provider/dvr2.kablova.tv.m3u) | ✅ | dead |  |
+| 3 | `dvrfl03.bozztv` | [Open](playlists/by-provider/dvrfl03.bozztv.m3u) | ✅ | dead |  |
+| 3 | `eventcdn02-nowe.akamaized.net` | [Open](playlists/by-provider/eventcdn02-nowe.akamaized.net.m3u) | ✅ | dead |  |
+| 3 | `frontdoor.wcat-tv` | [Open](playlists/by-provider/frontdoor.wcat-tv.m3u) | ✅ | dead |  |
+| 3 | `hartford-ct.secure.footprint.net` | [Open](playlists/by-provider/hartford-ct.secure.footprint.net.m3u) | ✅ | dead |  |
+| 3 | `hdtv.prod2.ioio.tv` | [Open](playlists/by-provider/hdtv.prod2.ioio.tv.m3u) | ✅ | dead |  |
+| 3 | `hwlive.streamingmediahosting` | [Open](playlists/by-provider/hwlive.streamingmediahosting.m3u) | ✅ | dead |  |
+| 3 | `lenz.splus.ir` | [Open](playlists/by-provider/lenz.splus.ir.m3u) | ✅ | dead |  |
+| 3 | `main.light-ott.net:80` | [Open](playlists/by-provider/main.light-ott.net_80.m3u) | ✅ | dead |  |
+| 3 | `pasadenamed.secure.footprint.net` | [Open](playlists/by-provider/pasadenamed.secure.footprint.net.m3u) | ✅ | dead |  |
+| 3 | `Pass` | [Open](playlists/by-provider/Pass.m3u) | ✅ | dead |  |
+| 3 | `reflect-falmouth.cablecast.tv` | [Open](playlists/by-provider/reflect-falmouth.cablecast.tv.m3u) | ✅ | dead |  |
+| 3 | `streams.helnix` | [Open](playlists/by-provider/streams.helnix.m3u) | ✅ | dead |  |
+| 2 | `0888934ec1a5.us-east-1.playback.live-video.net` | [Open](playlists/by-provider/0888934ec1a5.us-east-1.playback.live-video.net.m3u) | ✅ | dead |  |
+| 2 | `151.80.18.177:86` | [Open](playlists/by-provider/151.80.18.177_86.m3u) | ✅ | dead |  |
+| 2 | `190.0.247.38:8000` | [Open](playlists/by-provider/190.0.247.38_8000.m3u) | ✅ | dead |  |
+| 2 | `193.25.8.59:8000` | [Open](playlists/by-provider/193.25.8.59_8000.m3u) | ✅ | dead |  |
+| 2 | `32tech0steam0dp01` | [Open](playlists/by-provider/32tech0steam0dp01.m3u) | ✅ | dead |  |
+| 2 | `46.149.191.217:9010` | [Open](playlists/by-provider/46.149.191.217_9010.m3u) | ✅ | dead |  |
+| 2 | `94.43.1.138:8081` | [Open](playlists/by-provider/94.43.1.138_8081.m3u) | ✅ | dead |  |
+| 2 | `ad-playlistserver.aws.syncbak` | [Open](playlists/by-provider/ad-playlistserver.aws.syncbak.m3u) | ✅ | dead |  |
+| 2 | `app.viloud.tv` | [Open](playlists/by-provider/app.viloud.tv.m3u) | ✅ | dead |  |
+| 2 | `arizonawesterncol.secure.footprint.net` | [Open](playlists/by-provider/arizonawesterncol.secure.footprint.net.m3u) | ✅ | dead |  |
+| 2 | `b2ZmaWNpYWw.fubo18.com:443` | [Open](playlists/by-provider/b2ZmaWNpYWw.fubo18.com_443.m3u) | ✅ | dead |  |
+| 2 | `biblescreen.faithlifecdn` | [Open](playlists/by-provider/biblescreen.faithlifecdn.m3u) | ✅ | dead |  |
+| 2 | `brightonco.cablecast.tv` | [Open](playlists/by-provider/brightonco.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `c2f2zq.fubo18.com:443` | [Open](playlists/by-provider/c2f2zq.fubo18.com_443.m3u) | ✅ | dead |  |
+| 2 | `catchup.videoline.ru` | [Open](playlists/by-provider/catchup.videoline.ru.m3u) | ✅ | dead |  |
+| 2 | `cdn.appv.jagobd.com:444` | [Open](playlists/by-provider/cdn.appv.jagobd.com_444.m3u) | ✅ | dead |  |
+| 2 | `cdn1.karwan.tv` | [Open](playlists/by-provider/cdn1.karwan.tv.m3u) | ✅ | dead |  |
+| 2 | `cdn13.crtvnoc` | [Open](playlists/by-provider/cdn13.crtvnoc.m3u) | ✅ | dead |  |
+| 2 | `ch8.littletongov` | [Open](playlists/by-provider/ch8.littletongov.m3u) | ✅ | dead |  |
+| 2 | `cors-proxy.cooks.fyi` | [Open](playlists/by-provider/cors-proxy.cooks.fyi.m3u) | ✅ | dead |  |
+| 2 | `cs.ebmcdn.net` | [Open](playlists/by-provider/cs.ebmcdn.net.m3u) | ✅ | dead |  |
+| 2 | `ctntv.getstreamhosting.com:1936` | [Open](playlists/by-provider/ctntv.getstreamhosting.com_1936.m3u) | ✅ | dead |  |
+| 2 | `dglvz29s.fubo18.com:443` | [Open](playlists/by-provider/dglvz29s.fubo18.com_443.m3u) | ✅ | dead |  |
+| 2 | `eWVz.fubo18.com:443` | [Open](playlists/by-provider/eWVz.fubo18.com_443.m3u) | ✅ | dead |  |
+| 2 | `granicusliveus1-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus1-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 2 | `granicusliveus2-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus2-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 2 | `hls.youtb.workers.dev` | [Open](playlists/by-provider/hls.youtb.workers.dev.m3u) | ✅ | dead |  |
+| 2 | `lb6.wfty.st` | [Open](playlists/by-provider/lb6.wfty.st.m3u) | ✅ | dead |  |
+| 2 | `live-h1.frontlayer.net` | [Open](playlists/by-provider/live-h1.frontlayer.net.m3u) | ✅ | dead |  |
+| 2 | `live.chdrstatic` | [Open](playlists/by-provider/live.chdrstatic.m3u) | ✅ | dead |  |
+| 2 | `liveh34.vtvprime.vn` | [Open](playlists/by-provider/liveh34.vtvprime.vn.m3u) | ✅ | dead |  |
+| 2 | `newyorkstream.ddns.net:1935` | [Open](playlists/by-provider/newyorkstream.ddns.net_1935.m3u) | ✅ | dead |  |
+| 2 | `prod-fastly-eu-west-1.video.pscp.tv` | [Open](playlists/by-provider/prod-fastly-eu-west-1.video.pscp.tv.m3u) | ✅ | dead |  |
+| 2 | `reflect-cityofloveland-co.cablecast.tv` | [Open](playlists/by-provider/reflect-cityofloveland-co.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `reflect-collier-countyboc.cablecast.tv` | [Open](playlists/by-provider/reflect-collier-countyboc.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `reflect-lakefront-leesburgflorida.cablecast.tv` | [Open](playlists/by-provider/reflect-lakefront-leesburgflorida.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `reflect-losangeles.cablecast.tv` | [Open](playlists/by-provider/reflect-losangeles.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `reflect-mcsb-vod.cablecast.tv` | [Open](playlists/by-provider/reflect-mcsb-vod.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `reflect-tampa-bay-community.cablecast.tv` | [Open](playlists/by-provider/reflect-tampa-bay-community.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `reflect-thornton.cablecast.tv` | [Open](playlists/by-provider/reflect-thornton.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net` | [Open](playlists/by-provider/rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net.m3u) | ✅ | dead |  |
+| 2 | `rtmp1.abnsat` | [Open](playlists/by-provider/rtmp1.abnsat.m3u) | ✅ | dead |  |
+| 2 | `s1.domain156.xyz:443` | [Open](playlists/by-provider/s1.domain156.xyz_443.m3u) | ✅ | dead |  |
+| 2 | `sa.domain156.xyz:443` | [Open](playlists/by-provider/sa.domain156.xyz_443.m3u) | ✅ | dead |  |
+| 2 | `sc2022.stream-link` | [Open](playlists/by-provider/sc2022.stream-link.m3u) | ✅ | dead |  |
+| 2 | `securestream3.champds` | [Open](playlists/by-provider/securestream3.champds.m3u) | ✅ | dead |  |
+| 2 | `securestream9.champds` | [Open](playlists/by-provider/securestream9.champds.m3u) | ✅ | dead |  |
+| 2 | `siloh.pluto.tv` | [Open](playlists/by-provider/siloh.pluto.tv.m3u) | ✅ | dead |  |
+| 2 | `simultv.s.llnwi.net` | [Open](playlists/by-provider/simultv.s.llnwi.net.m3u) | ✅ | dead |  |
+| 2 | `str2.yodacdn.net` | [Open](playlists/by-provider/str2.yodacdn.net.m3u) | ✅ | dead |  |
+| 2 | `tbn-jw.cdn.vustreams` | [Open](playlists/by-provider/tbn-jw.cdn.vustreams.m3u) | ✅ | dead |  |
+| 2 | `vallejo.cablecast.tv` | [Open](playlists/by-provider/vallejo.cablecast.tv.m3u) | ✅ | dead |  |
+| 2 | `vbfast-c.viebit` | [Open](playlists/by-provider/vbfast-c.viebit.m3u) | ✅ | dead |  |
+| 2 | `videodelivery.net` | [Open](playlists/by-provider/videodelivery.net.m3u) | ✅ | dead |  |
+| 2 | `vod.slocoe` | [Open](playlists/by-provider/vod.slocoe.m3u) | ✅ | dead |  |
+| 2 | `y2fzdgxl.fubo18.com:443` | [Open](playlists/by-provider/y2fzdgxl.fubo18.com_443.m3u) | ✅ | dead |  |
+| 2 | `ythls.armelin.one` | [Open](playlists/by-provider/ythls.armelin.one.m3u) | ✅ | dead |  |
+| 2 | `ythls.onrender` | [Open](playlists/by-provider/ythls.onrender.m3u) | ✅ | dead |  |
+| 2 | `YXdlc29tZQ.fubo18.com:443` | [Open](playlists/by-provider/YXdlc29tZQ.fubo18.com_443.m3u) | ✅ | dead |  |
+| 1 | `1-fss29-s0.streamhoster` | [Open](playlists/by-provider/1-fss29-s0.streamhoster.m3u) | ✅ | dead |  |
+| 1 | `10380e91fda5e303.mediapackage.us-west-2.amazonaws` | [Open](playlists/by-provider/10380e91fda5e303.mediapackage.us-west-2.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `104.255.88.155` | [Open](playlists/by-provider/104.255.88.155.m3u) | ✅ | dead |  |
+| 1 | `10tv.lincoln.ne.gov` | [Open](playlists/by-provider/10tv.lincoln.ne.gov.m3u) | ✅ | dead |  |
+| 1 | `1111296894.rsc.cdn77` | [Open](playlists/by-provider/1111296894.rsc.cdn77.m3u) | ✅ | dead |  |
+| 1 | `1189614805.rsc.cdn77` | [Open](playlists/by-provider/1189614805.rsc.cdn77.m3u) | ✅ | dead |  |
+| 1 | `147.174.13.196` | [Open](playlists/by-provider/147.174.13.196.m3u) | ✅ | dead |  |
+| 1 | `149.71.34.166:8000` | [Open](playlists/by-provider/149.71.34.166_8000.m3u) | ✅ | dead |  |
+| 1 | `149.71.34.166:8002` | [Open](playlists/by-provider/149.71.34.166_8002.m3u) | ✅ | dead |  |
+| 1 | `157.143.44.195` | [Open](playlists/by-provider/157.143.44.195.m3u) | ✅ | dead |  |
+| 1 | `162.244.81.156:1935` | [Open](playlists/by-provider/162.244.81.156_1935.m3u) | ✅ | dead |  |
+| 1 | `170.178.189.66:1935` | [Open](playlists/by-provider/170.178.189.66_1935.m3u) | ✅ | dead |  |
+| 1 | `176.65.146.237:8401` | [Open](playlists/by-provider/176.65.146.237_8401.m3u) | ✅ | dead |  |
+| 1 | `178.33.11.6:8696` | [Open](playlists/by-provider/178.33.11.6_8696.m3u) | ✅ | dead |  |
+| 1 | `178.33.239.54:8080` | [Open](playlists/by-provider/178.33.239.54_8080.m3u) | ✅ | dead |  |
+| 1 | `18.191.91.130:1935` | [Open](playlists/by-provider/18.191.91.130_1935.m3u) | ✅ | dead |  |
+| 1 | `181.114.57.246:4000` | [Open](playlists/by-provider/181.114.57.246_4000.m3u) | ✅ | dead |  |
+| 1 | `181.205.205.173:8888` | [Open](playlists/by-provider/181.205.205.173_8888.m3u) | ✅ | dead |  |
+| 1 | `181.209.194.14:8001` | [Open](playlists/by-provider/181.209.194.14_8001.m3u) | ✅ | dead |  |
+| 1 | `181.78.109.48:9998` | [Open](playlists/by-provider/181.78.109.48_9998.m3u) | ✅ | dead |  |
+| 1 | `181.78.50.91:4000` | [Open](playlists/by-provider/181.78.50.91_4000.m3u) | ✅ | dead |  |
+| 1 | `1815337252.rsc.cdn77` | [Open](playlists/by-provider/1815337252.rsc.cdn77.m3u) | ✅ | dead |  |
+| 1 | `185.46.48.18:80` | [Open](playlists/by-provider/185.46.48.18_80.m3u) | ✅ | dead |  |
+| 1 | `185.98.211.8:81` | [Open](playlists/by-provider/185.98.211.8_81.m3u) | ✅ | dead |  |
+| 1 | `190.117.20.39:8000` | [Open](playlists/by-provider/190.117.20.39_8000.m3u) | ✅ | dead |  |
+| 1 | `190.14.10.19:16000` | [Open](playlists/by-provider/190.14.10.19_16000.m3u) | ✅ | dead |  |
+| 1 | `190.242.59.52:8000` | [Open](playlists/by-provider/190.242.59.52_8000.m3u) | ✅ | dead |  |
+| 1 | `190.92.10.66:4000` | [Open](playlists/by-provider/190.92.10.66_4000.m3u) | ✅ | dead |  |
+| 1 | `201.230.121.186:8000` | [Open](playlists/by-provider/201.230.121.186_8000.m3u) | ✅ | dead |  |
+| 1 | `201.230.121.85:8000` | [Open](playlists/by-provider/201.230.121.85_8000.m3u) | ✅ | dead |  |
+| 1 | `209.182.219.50:1935` | [Open](playlists/by-provider/209.182.219.50_1935.m3u) | ✅ | dead |  |
+| 1 | `2nbyjjx7y53k-hls-live.5centscdn` | [Open](playlists/by-provider/2nbyjjx7y53k-hls-live.5centscdn.m3u) | ✅ | dead |  |
+| 1 | `369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `3abn-live.akamaized.net` | [Open](playlists/by-provider/3abn-live.akamaized.net.m3u) | ✅ | dead |  |
+| 1 | `45.228.233.254:18000` | [Open](playlists/by-provider/45.228.233.254_18000.m3u) | ✅ | dead |  |
+| 1 | `45.5.119.43:4000` | [Open](playlists/by-provider/45.5.119.43_4000.m3u) | ✅ | dead |  |
+| 1 | `47.23.7.30:8080` | [Open](playlists/by-provider/47.23.7.30_8080.m3u) | ✅ | dead |  |
+| 1 | `4ea7abcc97144832b81dc50c6e8d6330.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/4ea7abcc97144832b81dc50c6e8d6330.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `5tv.lincoln.ne.gov` | [Open](playlists/by-provider/5tv.lincoln.ne.gov.m3u) | ✅ | dead |  |
+| 1 | `67.53.122.248` | [Open](playlists/by-provider/67.53.122.248.m3u) | ✅ | dead |  |
+| 1 | `7f4538d7.wurl` | [Open](playlists/by-provider/7f4538d7.wurl.m3u) | ✅ | dead |  |
+| 1 | `80tv.lincoln.ne.gov` | [Open](playlists/by-provider/80tv.lincoln.ne.gov.m3u) | ✅ | dead |  |
+| 1 | `81988.global.ssl.fastly.net` | [Open](playlists/by-provider/81988.global.ssl.fastly.net.m3u) | ✅ | dead |  |
+| 1 | `837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `95.47.156.60:8000` | [Open](playlists/by-provider/95.47.156.60_8000.m3u) | ✅ | dead |  |
+| 1 | `a7b60a6853d843dd9105acfa8d6e74c7.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/a7b60a6853d843dd9105acfa8d6e74c7.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `a8d3367c658948afb1901efdd9babe5b.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/a8d3367c658948afb1901efdd9babe5b.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `abie.009292` | [Open](playlists/by-provider/abie.009292.m3u) | ✅ | dead |  |
+| 1 | `acceso.radiosportstv.online:3259` | [Open](playlists/by-provider/acceso.radiosportstv.online_3259.m3u) | ✅ | dead |  |
+| 1 | `aenetworks-ae-1.samsung.wurl` | [Open](playlists/by-provider/aenetworks-ae-1.samsung.wurl.m3u) | ✅ | dead |  |
+| 1 | `alliantcontent-truecrimenow-1-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/alliantcontent-truecrimenow-1-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `alliantcontent-warandmilitarynow-1-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/alliantcontent-warandmilitarynow-1-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `amc-absolutereality-1.imdbtv.wurl` | [Open](playlists/by-provider/amc-absolutereality-1.imdbtv.wurl.m3u) | ✅ | dead |  |
+| 1 | `amc-allweddings-1.vizio.wurl` | [Open](playlists/by-provider/amc-allweddings-1.vizio.wurl.m3u) | ✅ | dead |  |
+| 1 | `amc-slightly-off-by-amc-1.imdbtv.wurl` | [Open](playlists/by-provider/amc-slightly-off-by-amc-1.imdbtv.wurl.m3u) | ✅ | dead |  |
+| 1 | `amhorstream` | [Open](playlists/by-provider/amhorstream.m3u) | ✅ | dead |  |
+| 1 | `angel.btbn.tv:5443` | [Open](playlists/by-provider/angel.btbn.tv_5443.m3u) | ✅ | dead |  |
+| 1 | `aos01-evine.secure.footprint.net` | [Open](playlists/by-provider/aos01-evine.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `api.abcotvs` | [Open](playlists/by-provider/api.abcotvs.m3u) | ✅ | dead |  |
+| 1 | `asermedia-lacrossesportsnetwork-1-eu.rakuten.wurl` | [Open](playlists/by-provider/asermedia-lacrossesportsnetwork-1-eu.rakuten.wurl.m3u) | ✅ | dead |  |
+| 1 | `ayassport.776740.ir.cdn.ir` | [Open](playlists/by-provider/ayassport.776740.ir.cdn.ir.m3u) | ✅ | dead |  |
+| 1 | `azroe0x-lh.akamaihd.net` | [Open](playlists/by-provider/azroe0x-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `b12eca572da7423284734ca3a6242ea2.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/b12eca572da7423284734ca3a6242ea2.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `b1570a6919f94bcfa2f061daee64c70f.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/b1570a6919f94bcfa2f061daee64c70f.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `b83608fe932143099bb8b25a66857730.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/b83608fe932143099bb8b25a66857730.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `babyfirst.akamaized.net` | [Open](playlists/by-provider/babyfirst.akamaized.net.m3u) | ✅ | dead |  |
+| 1 | `bcliveunivsecure-lh.akamaihd.net` | [Open](playlists/by-provider/bcliveunivsecure-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `bcsecurelivehls-i.akamaihd.net` | [Open](playlists/by-provider/bcsecurelivehls-i.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `bigcitytv.playout.vju.tv` | [Open](playlists/by-provider/bigcitytv.playout.vju.tv.m3u) | ✅ | dead |  |
+| 1 | `biglife.sinclair.wurl` | [Open](playlists/by-provider/biglife.sinclair.wurl.m3u) | ✅ | dead |  |
+| 1 | `bk7l2w4nlx53-hls-live.5centscdn` | [Open](playlists/by-provider/bk7l2w4nlx53-hls-live.5centscdn.m3u) | ✅ | dead |  |
+| 1 | `bloodydisgusting-ingest-roku-us.cinedigm` | [Open](playlists/by-provider/bloodydisgusting-ingest-roku-us.cinedigm.m3u) | ✅ | dead |  |
+| 1 | `bluesport.fun` | [Open](playlists/by-provider/bluesport.fun.m3u) | ✅ | dead |  |
+| 1 | `bonudiemsa-intipacha-2-eu.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/bonudiemsa-intipacha-2-eu.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `brightstar-sls.secure.footprint.net` | [Open](playlists/by-provider/brightstar-sls.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `bspoketv.s.llnwi.net` | [Open](playlists/by-provider/bspoketv.s.llnwi.net.m3u) | ✅ | dead |  |
+| 1 | `cb5273f195a147f2bcf23544e4495f66.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/cb5273f195a147f2bcf23544e4495f66.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `cbsn-bal1.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-bal1.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-bos.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-bos.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-chi.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-chi.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-den.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-den.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-det.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-det.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-la-cedexis.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-la-cedexis.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-la.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-la.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-min.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-min.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-ny.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-ny.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-phi.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-phi.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-pit.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-pit.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsn-sf.cbsnstream.cbsnews` | [Open](playlists/by-provider/cbsn-sf.cbsnstream.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `cbsnewshd-lh.akamaihd.net:80` | [Open](playlists/by-provider/cbsnewshd-lh.akamaihd.net_80.m3u) | ✅ | dead |  |
+| 1 | `cbsnhls-i.akamaihd.net` | [Open](playlists/by-provider/cbsnhls-i.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `cdn.media9.truegod.tv` | [Open](playlists/by-provider/cdn.media9.truegod.tv.m3u) | ✅ | dead |  |
+| 1 | `cdn.mycloudstream.io` | [Open](playlists/by-provider/cdn.mycloudstream.io.m3u) | ✅ | dead |  |
+| 1 | `cdn1-8p.teleuptv.net` | [Open](playlists/by-provider/cdn1-8p.teleuptv.net.m3u) | ✅ | dead |  |
+| 1 | `cdn20.liveonlineservices` | [Open](playlists/by-provider/cdn20.liveonlineservices.m3u) | ✅ | dead |  |
+| 1 | `cdn4.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn4.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 1 | `cdn61.liveonlineservices` | [Open](playlists/by-provider/cdn61.liveonlineservices.m3u) | ✅ | dead |  |
+| 1 | `cdnenmain.telesur.ultrabase.net` | [Open](playlists/by-provider/cdnenmain.telesur.ultrabase.net.m3u) | ✅ | dead |  |
+| 1 | `cf-live29e5f8c.lwcdn` | [Open](playlists/by-provider/cf-live29e5f8c.lwcdn.m3u) | ✅ | dead |  |
+| 1 | `ch.iptvmate.net` | [Open](playlists/by-provider/ch.iptvmate.net.m3u) | ✅ | dead |  |
+| 1 | `cinedigm.vo.llnwd.net` | [Open](playlists/by-provider/cinedigm.vo.llnwd.net.m3u) | ✅ | dead |  |
+| 1 | `cineverse-all3-soreal-1-us.ono.wurl.tv` | [Open](playlists/by-provider/cineverse-all3-soreal-1-us.ono.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `cloudflare.streamgato.us:3125` | [Open](playlists/by-provider/cloudflare.streamgato.us_3125.m3u) | ✅ | dead |  |
+| 1 | `cmctv.ios.internapcdn.net` | [Open](playlists/by-provider/cmctv.ios.internapcdn.net.m3u) | ✅ | dead |  |
+| 1 | `cnnlive.warnermediacdn` | [Open](playlists/by-provider/cnnlive.warnermediacdn.m3u) | ✅ | dead |  |
+| 1 | `contvanime.cinedigm` | [Open](playlists/by-provider/contvanime.cinedigm.m3u) | ✅ | dead |  |
+| 1 | `cpdc101-lh.akamaihd.net` | [Open](playlists/by-provider/cpdc101-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `crt-ext.rodeotv.net` | [Open](playlists/by-provider/crt-ext.rodeotv.net.m3u) | ✅ | dead |  |
+| 1 | `cyclingtv.playout.vju.tv` | [Open](playlists/by-provider/cyclingtv.playout.vju.tv.m3u) | ✅ | dead |  |
+| 1 | `czrb8vng.ottclub` | [Open](playlists/by-provider/czrb8vng.ottclub.m3u) | ✅ | dead |  |
+| 1 | `daffodil.หวยดีดี1000` | [Open](playlists/by-provider/daffodil._1000.m3u) | ✅ | dead |  |
+| 1 | `dai2-xumo.fubo.tv` | [Open](playlists/by-provider/dai2-xumo.fubo.tv.m3u) | ✅ | dead |  |
+| 1 | `dcunilive30-lh.akamaihd.net` | [Open](playlists/by-provider/dcunilive30-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `dhx-degrassi-1-us.samsung.wurl.tv` | [Open](playlists/by-provider/dhx-degrassi-1-us.samsung.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `directes-tv-cat.3catdirectes.cat` | [Open](playlists/by-provider/directes-tv-cat.3catdirectes.cat.m3u) | ✅ | dead |  |
+| 1 | `distributionsjustepourrire-justforlaughsgags-1-eu.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/distributionsjustepourrire-justforlaughsgags-1-eu.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `dmr-midnightpulp-3-us.samsung.wurl.tv` | [Open](playlists/by-provider/dmr-midnightpulp-3-us.samsung.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `dover-de.secure.footprint.net` | [Open](playlists/by-provider/dover-de.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `ds.tvabierta.net` | [Open](playlists/by-provider/ds.tvabierta.net.m3u) | ✅ | dead |  |
+| 1 | `dvr1.kablova.tv` | [Open](playlists/by-provider/dvr1.kablova.tv.m3u) | ✅ | dead |  |
+| 1 | `dvr3.kablova.tv` | [Open](playlists/by-provider/dvr3.kablova.tv.m3u) | ✅ | dead |  |
+| 1 | `ec4a5bcc9d664b48985de6095931aaa7.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/ec4a5bcc9d664b48985de6095931aaa7.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `edu-wcat.azureedge.net` | [Open](playlists/by-provider/edu-wcat.azureedge.net.m3u) | ✅ | dead |  |
+| 1 | `elec-en-xumo.otteravision` | [Open](playlists/by-provider/elec-en-xumo.otteravision.m3u) | ✅ | dead |  |
+| 1 | `eleven-rebroadcast-samsung.roku.wurl` | [Open](playlists/by-provider/eleven-rebroadcast-samsung.roku.wurl.m3u) | ✅ | dead |  |
+| 1 | `endemol-dealornodeal-1.sinclair.wurl` | [Open](playlists/by-provider/endemol-dealornodeal-1.sinclair.wurl.m3u) | ✅ | dead |  |
+| 1 | `eyeonesports` | [Open](playlists/by-provider/eyeonesports.m3u) | ✅ | dead |  |
+| 1 | `fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `food-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/food-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `food-us.xumo.wurl.tv` | [Open](playlists/by-provider/food-us.xumo.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `FREE7` | [Open](playlists/by-provider/FREE7.m3u) | ✅ | dead |  |
+| 1 | `freem3u` | [Open](playlists/by-provider/freem3u.m3u) | ✅ | dead |  |
+| 1 | `gama-mx.com:8085` | [Open](playlists/by-provider/gama-mx.com_8085.m3u) | ✅ | dead |  |
+| 1 | `go2thls.wns.live` | [Open](playlists/by-provider/go2thls.wns.live.m3u) | ✅ | dead |  |
+| 1 | `granicusliveus10-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus10-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `granicusliveus12-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus12-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `granicusliveus4-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus4-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `granicusliveus6-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus6-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `granicusliveus8-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus8-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `greenbeltacctv.secure.footprint.net` | [Open](playlists/by-provider/greenbeltacctv.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `hcintlinc.mmdlive.lldns.net` | [Open](playlists/by-provider/hcintlinc.mmdlive.lldns.net.m3u) | ✅ | dead |  |
+| 1 | `hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev` | [Open](playlists/by-provider/hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev.m3u) | ✅ | dead |  |
+| 1 | `hls-cdn.tvstartup17.net` | [Open](playlists/by-provider/hls-cdn.tvstartup17.net.m3u) | ✅ | dead |  |
+| 1 | `hls-live-media-gc.cdn01.net` | [Open](playlists/by-provider/hls-live-media-gc.cdn01.net.m3u) | ✅ | dead |  |
+| 1 | `hls1.livestreamingcdn.com:1935` | [Open](playlists/by-provider/hls1.livestreamingcdn.com_1935.m3u) | ✅ | dead |  |
+| 1 | `hollywire.samsung.wurl` | [Open](playlists/by-provider/hollywire.samsung.wurl.m3u) | ✅ | dead |  |
+| 1 | `indtv.secure.footprint.net` | [Open](playlists/by-provider/indtv.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `inspnetworks-lh.akamaihd.net` | [Open](playlists/by-provider/inspnetworks-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `is.gd` | [Open](playlists/by-provider/is.gd.m3u) | ✅ | dead |  |
+| 1 | `isntv.mmdlive.lldns.net` | [Open](playlists/by-provider/isntv.mmdlive.lldns.net.m3u) | ✅ | dead |  |
+| 1 | `jacksonenergy.secure.footprint.net` | [Open](playlists/by-provider/jacksonenergy.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `janson-supersimplesongs-1.vizio.wurl` | [Open](playlists/by-provider/janson-supersimplesongs-1.vizio.wurl.m3u) | ✅ | dead |  |
+| 1 | `janson-todayshomeowner-1-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/janson-todayshomeowner-1-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `judge-faith-1.vizio.wurl` | [Open](playlists/by-provider/judge-faith-1.vizio.wurl.m3u) | ✅ | dead |  |
+| 1 | `knoxville-tn.secure.footprint.net` | [Open](playlists/by-provider/knoxville-tn.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `latam-cache-sv2-cdn.latamlive.net` | [Open](playlists/by-provider/latam-cache-sv2-cdn.latamlive.net.m3u) | ✅ | dead |  |
+| 1 | `lbgo.bozztv` | [Open](playlists/by-provider/lbgo.bozztv.m3u) | ✅ | dead |  |
+| 1 | `linear-10.frequency.stream` | [Open](playlists/by-provider/linear-10.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-12.frequency.stream` | [Open](playlists/by-provider/linear-12.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-120.frequency.stream` | [Open](playlists/by-provider/linear-120.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-128.frequency.stream` | [Open](playlists/by-provider/linear-128.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-144.frequency.stream` | [Open](playlists/by-provider/linear-144.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-165.frequency.stream` | [Open](playlists/by-provider/linear-165.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-46.frequency.stream` | [Open](playlists/by-provider/linear-46.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-64.frequency.stream` | [Open](playlists/by-provider/linear-64.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-68.frequency.stream` | [Open](playlists/by-provider/linear-68.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-73.frequency.stream` | [Open](playlists/by-provider/linear-73.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-76.frequency.stream` | [Open](playlists/by-provider/linear-76.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `linear-941.frequency.stream` | [Open](playlists/by-provider/linear-941.frequency.stream.m3u) | ✅ | dead |  |
+| 1 | `link.frontlayer` | [Open](playlists/by-provider/link.frontlayer.m3u) | ✅ | dead |  |
+| 1 | `live.btv.mx:2424` | [Open](playlists/by-provider/live.btv.mx_2424.m3u) | ✅ | dead |  |
+| 1 | `live.pomonaca.gov` | [Open](playlists/by-provider/live.pomonaca.gov.m3u) | ✅ | dead |  |
+| 1 | `live.relentlessinnovations.net:1936` | [Open](playlists/by-provider/live.relentlessinnovations.net_1936.m3u) | ✅ | dead |  |
+| 1 | `live.sportstv.com.tr` | [Open](playlists/by-provider/live.sportstv.com.tr.m3u) | ✅ | dead |  |
+| 1 | `live12.xiazhix1.top` | [Open](playlists/by-provider/live12.xiazhix1.top.m3u) | ✅ | dead |  |
+| 1 | `live8fd.lakewood` | [Open](playlists/by-provider/live8fd.lakewood.m3u) | ✅ | dead |  |
+| 1 | `livecdn.live247stream` | [Open](playlists/by-provider/livecdn.live247stream.m3u) | ✅ | dead |  |
+| 1 | `liveovh011.cda.pl` | [Open](playlists/by-provider/liveovh011.cda.pl.m3u) | ✅ | dead |  |
+| 1 | `livestream.5centscdn` | [Open](playlists/by-provider/livestream.5centscdn.m3u) | ✅ | dead |  |
+| 1 | `livestream.chdrstatic` | [Open](playlists/by-provider/livestream.chdrstatic.m3u) | ✅ | dead |  |
+| 1 | `ln-zen.localnowlive` | [Open](playlists/by-provider/ln-zen.localnowlive.m3u) | ✅ | dead |  |
+| 1 | `lsqvc4us-lh.akamaihd.net` | [Open](playlists/by-provider/lsqvc4us-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `magellan-space-science-now-1-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/magellan-space-science-now-1-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `magellantv-1.vizio.wurl` | [Open](playlists/by-provider/magellantv-1.vizio.wurl.m3u) | ✅ | dead |  |
+| 1 | `mavtv-1.vizio.wurl` | [Open](playlists/by-provider/mavtv-1.vizio.wurl.m3u) | ✅ | dead |  |
+| 1 | `mediacp.us:8081` | [Open](playlists/by-provider/mediacp.us_8081.m3u) | ✅ | dead |  |
+| 1 | `midstate.coxctv` | [Open](playlists/by-provider/midstate.coxctv.m3u) | ✅ | dead |  |
+| 1 | `motors.playout.vju.tv` | [Open](playlists/by-provider/motors.playout.vju.tv.m3u) | ✅ | dead |  |
+| 1 | `moviemix.samsung.wurl` | [Open](playlists/by-provider/moviemix.samsung.wurl.m3u) | ✅ | dead |  |
+| 1 | `multimedia.eitb.eus` | [Open](playlists/by-provider/multimedia.eitb.eus.m3u) | ✅ | dead |  |
+| 1 | `name-port.to` | [Open](playlists/by-provider/name-port.to.m3u) | ✅ | dead |  |
+| 1 | `netohls.wns.live` | [Open](playlists/by-provider/netohls.wns.live.m3u) | ✅ | dead |  |
+| 1 | `newcastlecoutv.secure.footprint.net` | [Open](playlists/by-provider/newcastlecoutv.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `northcentral.coxctv` | [Open](playlists/by-provider/northcentral.coxctv.m3u) | ✅ | dead |  |
+| 1 | `nosey-2-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/nosey-2-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `nosey-realnosey-1-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/nosey-realnosey-1-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `number27.playout.vju.tv` | [Open](playlists/by-provider/number27.playout.vju.tv.m3u) | ✅ | dead |  |
+| 1 | `origin-cae-m462953.toober` | [Open](playlists/by-provider/origin-cae-m462953.toober.m3u) | ✅ | dead |  |
+| 1 | `ov.ottera.tv` | [Open](playlists/by-provider/ov.ottera.tv.m3u) | ✅ | dead |  |
+| 1 | `p1media-americasvoice-1.roku.wurl` | [Open](playlists/by-provider/p1media-americasvoice-1.roku.wurl.m3u) | ✅ | dead |  |
+| 1 | `panel.freedomflixtv.org:3948` | [Open](playlists/by-provider/panel.freedomflixtv.org_3948.m3u) | ✅ | dead |  |
+| 1 | `paraglidingtv.playout.vju.tv` | [Open](playlists/by-provider/paraglidingtv.playout.vju.tv.m3u) | ✅ | dead |  |
+| 1 | `previewchannel-previewchannel-1.vizio.wurl` | [Open](playlists/by-provider/previewchannel-previewchannel-1.vizio.wurl.m3u) | ✅ | dead |  |
+| 1 | `raw.githubusercontent` | [Open](playlists/by-provider/raw.githubusercontent.m3u) | ✅ | dead |  |
+| 1 | `rebroadcast.mytvtogo.net` | [Open](playlists/by-provider/rebroadcast.mytvtogo.net.m3u) | ✅ | dead |  |
+| 1 | `reflect-access-sacramento.cablecast.tv` | [Open](playlists/by-provider/reflect-access-sacramento.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-applevalley.cablecast.tv` | [Open](playlists/by-provider/reflect-applevalley.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-aurora.cablecast.tv` | [Open](playlists/by-provider/reflect-aurora.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-broadcast-psdschools.cablecast.tv` | [Open](playlists/by-provider/reflect-broadcast-psdschools.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-contra-costa.cablecast.tv` | [Open](playlists/by-provider/reflect-contra-costa.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-fairfield-ca.cablecast.tv` | [Open](playlists/by-provider/reflect-fairfield-ca.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-golden-co.cablecast.tv` | [Open](playlists/by-provider/reflect-golden-co.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-gtv6-glendale.cablecast.tv` | [Open](playlists/by-provider/reflect-gtv6-glendale.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-hktv.cablecast.tv` | [Open](playlists/by-provider/reflect-hktv.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-kcat-live.cablecast.tv` | [Open](playlists/by-provider/reflect-kcat-live.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-live-lawndale.cablecast.tv` | [Open](playlists/by-provider/reflect-live-lawndale.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-padnet-live.cablecast.tv` | [Open](playlists/by-provider/reflect-padnet-live.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-pinellas-park-fl.cablecast.tv` | [Open](playlists/by-provider/reflect-pinellas-park-fl.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-pomona.cablecast.tv` | [Open](playlists/by-provider/reflect-pomona.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-stream15-capsmedia.cablecast.tv` | [Open](playlists/by-provider/reflect-stream15-capsmedia.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-stream6-capsmedia.cablecast.tv` | [Open](playlists/by-provider/reflect-stream6-capsmedia.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-vsctv.cablecast.tv` | [Open](playlists/by-provider/reflect-vsctv.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `reflect-watchkfon-fontana.cablecast.tv` | [Open](playlists/by-provider/reflect-watchkfon-fontana.cablecast.tv.m3u) | ✅ | dead |  |
+| 1 | `rfdtv-jw.cdn.vustreams` | [Open](playlists/by-provider/rfdtv-jw.cdn.vustreams.m3u) | ✅ | dead |  |
+| 1 | `rifftrax.samsung.wurl` | [Open](playlists/by-provider/rifftrax.samsung.wurl.m3u) | ✅ | dead |  |
+| 1 | `rtatv.akamaized.net` | [Open](playlists/by-provider/rtatv.akamaized.net.m3u) | ✅ | dead |  |
+| 1 | `rtb.srfms.com:3333` | [Open](playlists/by-provider/rtb.srfms.com_3333.m3u) | ✅ | dead |  |
+| 1 | `rtmp2.abnvideos` | [Open](playlists/by-provider/rtmp2.abnvideos.m3u) | ✅ | dead |  |
+| 1 | `rtv.cdn.mangomolo` | [Open](playlists/by-provider/rtv.cdn.mangomolo.m3u) | ✅ | dead |  |
+| 1 | `scripps-defy-1-us.vizio.wurl.tv` | [Open](playlists/by-provider/scripps-defy-1-us.vizio.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `scripps-gritxtra-1-us.vizio.wurl.tv` | [Open](playlists/by-provider/scripps-gritxtra-1-us.vizio.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `shls-fight-sports-ak.akamaized.net` | [Open](playlists/by-provider/shls-fight-sports-ak.akamaized.net.m3u) | ✅ | dead |  |
+| 1 | `sramsburg-hls.secdn.net` | [Open](playlists/by-provider/sramsburg-hls.secdn.net.m3u) | ✅ | dead |  |
+| 1 | `ssai.castify.ai` | [Open](playlists/by-provider/ssai.castify.ai.m3u) | ✅ | dead |  |
+| 1 | `ssh101-fl.bozztv` | [Open](playlists/by-provider/ssh101-fl.bozztv.m3u) | ✅ | dead |  |
+| 1 | `stadium-ringofhonor-1.sinclair.wurl` | [Open](playlists/by-provider/stadium-ringofhonor-1.sinclair.wurl.m3u) | ✅ | dead |  |
+| 1 | `stmv1.srvif` | [Open](playlists/by-provider/stmv1.srvif.m3u) | ✅ | dead |  |
+| 1 | `storage.sardius.media` | [Open](playlists/by-provider/storage.sardius.media.m3u) | ✅ | dead |  |
+| 1 | `stoughton-wi.secure.footprint.net` | [Open](playlists/by-provider/stoughton-wi.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `stream.decentdoubts.net` | [Open](playlists/by-provider/stream.decentdoubts.net.m3u) | ✅ | dead |  |
+| 1 | `stream.iphonewebtown.com:1935` | [Open](playlists/by-provider/stream.iphonewebtown.com_1935.m3u) | ✅ | dead |  |
+| 1 | `stream.krgv` | [Open](playlists/by-provider/stream.krgv.m3u) | ✅ | dead |  |
+| 1 | `stream.livenewsplay.com:9443` | [Open](playlists/by-provider/stream.livenewsplay.com_9443.m3u) | ✅ | dead |  |
+| 1 | `stream.mux` | [Open](playlists/by-provider/stream.mux.m3u) | ✅ | dead |  |
+| 1 | `stream.pivotalelements` | [Open](playlists/by-provider/stream.pivotalelements.m3u) | ✅ | dead |  |
+| 1 | `stream.rcncdn` | [Open](playlists/by-provider/stream.rcncdn.m3u) | ✅ | dead |  |
+| 1 | `stream04.amp.csulb.edu:1935` | [Open](playlists/by-provider/stream04.amp.csulb.edu_1935.m3u) | ✅ | dead |  |
+| 1 | `streamdot.broadpeak.io` | [Open](playlists/by-provider/streamdot.broadpeak.io.m3u) | ✅ | dead |  |
+| 1 | `streaming.televizor-24-tochka.ru` | [Open](playlists/by-provider/streaming.televizor-24-tochka.ru.m3u) | ✅ | dead |  |
+| 1 | `streamspace.live` | [Open](playlists/by-provider/streamspace.live.m3u) | ✅ | dead |  |
+| 1 | `streamtv.intervenhosting.net:3582` | [Open](playlists/by-provider/streamtv.intervenhosting.net_3582.m3u) | ✅ | dead |  |
+| 1 | `streannliveevtv.cachefly.net` | [Open](playlists/by-provider/streannliveevtv.cachefly.net.m3u) | ✅ | dead |  |
+| 1 | `sydandmacky.vju.tv` | [Open](playlists/by-provider/sydandmacky.vju.tv.m3u) | ✅ | dead |  |
+| 1 | `t06243a-lh.akamaihd.net` | [Open](playlists/by-provider/t06243a-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `t07113a-lh.akamaihd.net` | [Open](playlists/by-provider/t07113a-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `tastemadessai.akamaized.net` | [Open](playlists/by-provider/tastemadessai.akamaized.net.m3u) | ✅ | dead |  |
+| 1 | `templeuni.secure.footprint.net` | [Open](playlists/by-provider/templeuni.secure.footprint.net.m3u) | ✅ | dead |  |
+| 1 | `theblaze4.akamaized.net` | [Open](playlists/by-provider/theblaze4.akamaized.net.m3u) | ✅ | dead |  |
+| 1 | `thedesignnetwork-tdn-6-ca.samsung.wurl.tv` | [Open](playlists/by-provider/thedesignnetwork-tdn-6-ca.samsung.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `thisoldhouse-samsung-us.samsung.wurl.tv` | [Open](playlists/by-provider/thisoldhouse-samsung-us.samsung.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `topic-crimeandthrillers-1-us.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/topic-crimeandthrillers-1-us.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `tstv-stream.tsm.utexas.edu` | [Open](playlists/by-provider/tstv-stream.tsm.utexas.edu.m3u) | ✅ | dead |  |
+| 1 | `tv.cdn.xsg.ge` | [Open](playlists/by-provider/tv.cdn.xsg.ge.m3u) | ✅ | dead |  |
+| 1 | `tv.sikkylab.me` | [Open](playlists/by-provider/tv.sikkylab.me.m3u) | ✅ | dead |  |
+| 1 | `tva.in.ua` | [Open](playlists/by-provider/tva.in.ua.m3u) | ✅ | dead |  |
+| 1 | `tve-live-lln.warnermediacdn` | [Open](playlists/by-provider/tve-live-lln.warnermediacdn.m3u) | ✅ | dead |  |
+| 1 | `tvsw2-hls.secdn.net` | [Open](playlists/by-provider/tvsw2-hls.secdn.net.m3u) | ✅ | dead |  |
+| 1 | `univision-live.cdn.vustreams` | [Open](playlists/by-provider/univision-live.cdn.vustreams.m3u) | ✅ | dead |  |
+| 1 | `uplynkcontent.sinclairstoryline` | [Open](playlists/by-provider/uplynkcontent.sinclairstoryline.m3u) | ✅ | dead |  |
+| 1 | `us170.jagobd.com:447` | [Open](playlists/by-provider/us170.jagobd.com_447.m3u) | ✅ | dead |  |
+| 1 | `v-px.theus6tv.tk` | [Open](playlists/by-provider/v-px.theus6tv.tk.m3u) | ✅ | dead |  |
+| 1 | `vdo1.streamgato.us:3986` | [Open](playlists/by-provider/vdo1.streamgato.us_3986.m3u) | ✅ | dead |  |
+| 1 | `video.ejeserver` | [Open](playlists/by-provider/video.ejeserver.m3u) | ✅ | dead |  |
+| 1 | `vitor-tvclassics-1.plex.wurl` | [Open](playlists/by-provider/vitor-tvclassics-1.plex.wurl.m3u) | ✅ | dead |  |
+| 1 | `vse2-na-us-ne24.secdn.net` | [Open](playlists/by-provider/vse2-na-us-ne24.secdn.net.m3u) | ✅ | dead |  |
+| 1 | `watchmojo-1-eu.freemoviesplus.wurl.tv` | [Open](playlists/by-provider/watchmojo-1-eu.freemoviesplus.wurl.tv.m3u) | ✅ | dead |  |
+| 1 | `webstreaming-3.viewmedia.tv` | [Open](playlists/by-provider/webstreaming-3.viewmedia.tv.m3u) | ✅ | dead |  |
+| 1 | `wescottcchls-lh.akamaihd.net` | [Open](playlists/by-provider/wescottcchls-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `wfcint.mediacdn.ru` | [Open](playlists/by-provider/wfcint.mediacdn.ru.m3u) | ✅ | dead |  |
+| 1 | `whistle-1.distrotv.wurl` | [Open](playlists/by-provider/whistle-1.distrotv.wurl.m3u) | ✅ | dead |  |
+| 1 | `wpc.9ec1.edgecastcdn.net` | [Open](playlists/by-provider/wpc.9ec1.edgecastcdn.net.m3u) | ✅ | dead |  |
+| 1 | `wsjlivehls-lh.akamaihd.net` | [Open](playlists/by-provider/wsjlivehls-lh.akamaihd.net.m3u) | ✅ | dead |  |
+| 1 | `www.cbsnews` | [Open](playlists/by-provider/www.cbsnews.m3u) | ✅ | dead |  |
+| 1 | `www.filmon` | [Open](playlists/by-provider/www.filmon.m3u) | ✅ | dead |  |
+| 1 | `zypelive-lh.akamaihd.net` | [Open](playlists/by-provider/zypelive-lh.akamaihd.net.m3u) | ✅ | dead |  |
