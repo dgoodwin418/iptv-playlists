@@ -1,8 +1,8 @@
 # EPG Matching Report
 
-- Total streams: **2390**
+- Total streams: **2078**
 - Matched: **276**
-- Unmatched: **2114**
+- Unmatched: **1802**
 
 ## Unmatched channels
 
@@ -102,10 +102,6 @@
 | Adult Swim Your Pretty Face Is Going To Hell | `adultswim-vodlive.cdn.turner` |
 | Adventure Sports Network | `dai2.xumo` |
 | Adventure Sports Network | `dai2.xumo` |
-| AEW Dynamite (FAWA) | `193.47.62.44` |
-| AEW Dynamite (FAWA) | `193.47.62.44` |
-| AEW Dynamite (iSTRMEAST) | `chatgpt.hereisman.net` |
-| AEW Dynamite (iSTRMEAST) | `chatgpt.hereisman.net` |
 | AFN Sports (#) | `technologycloud.eu:80` |
 | Africa 24 Sport 🇳🇬 | `africa24.vedge.infomaniak` |
 | AFV | `dai.google` |
@@ -180,6 +176,14 @@
 | Arena_Sport_3 HD 🇷🇸 | `78.108.251.7` |
 | Arena_Sport_4 HD 🇷🇸 | `78.108.251.7` |
 | Arena_Sport_5 HD 🇷🇸 | `78.108.251.7` |
+| Arizona Diamondbacks @ St. Louis Cardinals | English (STRMCNTR) | `edgestream3.pro` |
+| Arizona Diamondbacks @ St. Louis Cardinals | English (STRMCNTR) | `edgestream3.pro` |
+| Arizona Diamondbacks at St. Louis Cardinals | ARI Feed (XYZ) | `ftv.xyzstreams.st` |
+| Arizona Diamondbacks at St. Louis Cardinals | ARI Feed (XYZ) | `ftv.xyzstreams.st` |
+| Arizona Diamondbacks at St. Louis Cardinals | STL Feed (XYZ) | `ftv.xyzstreams.st` |
+| Arizona Diamondbacks at St. Louis Cardinals | STL Feed (XYZ) | `ftv.xyzstreams.st` |
+| Arizona Diamondbacks vs St. Louis Cardinals | EN (STRMSGATE) | `instreams.pro` |
+| Arizona Diamondbacks vs St. Louis Cardinals | EN (STRMSGATE) | `instreams.pro` |
 | Arroyo Grande Gov't Access TV Channel 20 | `agp-nimble.streamguys1` |
 | Arryadia HD1 🇲🇦 | `154.197.91.169:8000` |
 | Arryadia HD2 🇲🇦 | `154.197.91.169:8000` |
@@ -200,42 +204,18 @@
 | Asian Culture TV | `cdn.vegasplus.us` |
 | AsianCrush (#) | `linear-900.frequency.stream` |
 | Aspire | `206.212.244.63` |
-| Astro Cricket | `cdn6.zohanayaan.com:1686` |
+| Astro Cricket | `cdn3.zohanayaan.com:1686` |
 | Asylum | `dai2.xumo` |
 | At Home with Family Handyman | `linear-458.frequency.stream` |
-| Athletics @ Arizona Diamondbacks | English (STRMCNTR) | `edgestream3.pro` |
-| Athletics @ Arizona Diamondbacks | English (STRMCNTR) | `edgestream3.pro` |
-| Athletics at Arizona Diamondbacks (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| Athletics at Arizona Diamondbacks (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| Athletics Athletics at Arizona Diamondbacks | ARI Feed (XYZ) | `ftv.xyzstreams.st` |
-| Athletics Athletics at Arizona Diamondbacks | ARI Feed (XYZ) | `ftv.xyzstreams.st` |
-| Athletics Athletics at Arizona Diamondbacks | ATH Feed (XYZ) | `ftv.xyzstreams.st` |
-| Athletics Athletics at Arizona Diamondbacks | ATH Feed (XYZ) | `ftv.xyzstreams.st` |
-| Athletics vs Arizona Diamondbacks | EN (STRMSGATE) | `instreams.live` |
-| Athletics vs Arizona Diamondbacks | EN (STRMSGATE) | `instreams.live` |
-| Athletics vs Diamondbacks (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Athletics vs Diamondbacks (WEBCAST) | `webcast-origin.b-cdn.net` |
+| Athletic Club vs Sao Bernardo (FAWA) | `193.47.62.41` |
+| Athletic Club vs Sao Bernardo (FAWA) | `193.47.62.41` |
 | Atlanta 69 | `live20.bozztv` |
 | Atlanta 69 (#) | `dvrfl03.bozztv` |
-| Atlanta Braves vs San Diego Padres (FAWA) | `193.47.62.41` |
-| Atlanta Braves vs San Diego Padres (FAWA) | `193.47.62.41` |
-| Atlanta United FC vs Charlotte FC | EN (STRMSGATE) | `instreams.live` |
-| Atlanta United FC vs Charlotte FC | EN (STRMSGATE) | `instreams.live` |
 | Atlas | `cdn.whiplash.cc` |
 | ATXN 1 | `cdn-atxn-01.vos360.video` |
 | ATXN 2 | `cdn-atxn-01.vos360.video` |
 | ATXN 3 | `cdn-atxn-01.vos360.video` |
 | AuroraTV (Aurora CO) (720p) | `reflect-aurora.cablecast.tv` |
-| Austin FC vs Seattle Sounders FC (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Austin FC vs Seattle Sounders FC (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Austin FC vs Seattle Sounders Seattle (FAWA) | `193.47.62.59` |
-| Austin FC vs Seattle Sounders Seattle (FAWA) | `193.47.62.59` |
-| Austin vs Seattle Sounders FC | EN (PLYFST) | `cdn8.zohanayaan.com:1686` |
-| Austin vs Seattle Sounders FC | EN (PLYFST) | `cdn8.zohanayaan.com:1686` |
-| Austin vs Seattle Sounders | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Austin vs Seattle Sounders | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Austin vs Seattle Sounders | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Austin vs Seattle Sounders | Apple TV Español (STRMXHD) | `khala.skylivehd` |
 | Automotion | `streams2.sofast.tv` |
 | AWC TV | `arizonawesterncol.secure.footprint.net` |
 | AWE | `cdn.klowdtv.net` |
@@ -249,16 +229,6 @@
 | Baby Shark | `c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws` |
 | Baby Shark TV | `newidco-babysharktv-1-us.roku.wurl.tv` |
 | Baeble Music | `dai2.xumo` |
-| Baltimore Orioles @ Boston Red Sox (G1) | English (STRMCNTR) | `edgestream1.pro` |
-| Baltimore Orioles @ Boston Red Sox (G1) | English (STRMCNTR) | `edgestream1.pro` |
-| Baltimore Orioles @ Boston Red Sox (G2) | English (STRMCNTR) | `edgestream3.pro` |
-| Baltimore Orioles @ Boston Red Sox (G2) | English (STRMCNTR) | `edgestream3.pro` |
-| Baltimore Orioles at Boston Red Sox | BAL Feed (XYZ) | `ftv.xyzstreams.st` |
-| Baltimore Orioles at Boston Red Sox | BAL Feed (XYZ) | `ftv.xyzstreams.st` |
-| Baltimore Orioles at Boston Red Sox | BOS Feed (XYZ) | `ftv.xyzstreams.st` |
-| Baltimore Orioles at Boston Red Sox | BOS Feed (XYZ) | `ftv.xyzstreams.st` |
-| Baltimore Orioles vs Boston Red Sox | EN (STRMSGATE) | `instreams.live` |
-| Baltimore Orioles vs Boston Red Sox | EN (STRMSGATE) | `instreams.live` |
 | Bang Bang | `streams2.sofast.tv` |
 | Banning City TV | `vbfast-c.viebit` |
 | BBC World News | `vs-hls-push-ww-live.akamaized.net` |
@@ -273,6 +243,18 @@
 | BEIN MAX 1 🇶🇦 | `prod-fastly-eu-west-1.video.pscp.tv` |
 | BEIN MAX 2 🇶🇦 | `prod-fastly-eu-west-1.video.pscp.tv` |
 | bein_sd_1 🇶🇦 | `135.125.109.73:9000` |
+| Belgrano vs Rosario Central (FAWA) | `193.47.62.41` |
+| Belgrano vs Rosario Central (FAWA) | `193.47.62.41` |
+| Belgrano vs Rosario Central | ESPAÑOL 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Belgrano vs Rosario Central | ESPAÑOL 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Belgrano vs Rosario Central | ESPAÑOL 2 (PLIBRE) | `eWVz.fubo18.com:443` |
+| Belgrano vs Rosario Central | ESPAÑOL 2 (PLIBRE) | `eWVz.fubo18.com:443` |
+| Belgrano vs Rosario Central | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Belgrano vs Rosario Central | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Belgrano vs Rosario Central | FOX Deportes USA (STRMXHD) | `khala.skylivehd` |
+| Belgrano vs Rosario Central | FOX Deportes USA (STRMXHD) | `khala.skylivehd` |
+| Belgrano vs Rosario Central | TNT Sports (STRMXHD) | `khala.skylivehd` |
+| Belgrano vs Rosario Central | TNT Sports (STRMXHD) | `khala.skylivehd` |
 | Best Action | `streams2.sofast.tv` |
 | Best Drama | `streams2.sofast.tv` |
 | Best Thriller | `streams2.sofast.tv` |
@@ -280,6 +262,8 @@
 | Better Life Nature Channel | `tgn.bozztv` |
 | Better Life TV | `tgn.bozztv` |
 | Beyond Paranormal | `videoelephantlimited-beyondparanormal-1-us.ohlscdn.wurl.tv` |
+| Beşiktaş vs Midtjylland | Evento 3 (STRMXHD) | `khala.skylivehd` |
+| Beşiktaş vs Midtjylland | Evento 3 (STRMXHD) | `khala.skylivehd` |
 | Bible Explorations | `stream.iphonewebtown.com:1935` |
 | Bible Explorations (#) | `uvotv-aniview.global.ssl.fastly.net` |
 | Big City TV | `bigcitytv.playout.vju.tv` |
@@ -306,12 +290,56 @@
 | Bluegrass Music 4U | `rebroadcast.mytvtogo.net` |
 | Blues TV | `2-fss-2.streamhoster` |
 | BNT 3 HD SPORT 🇧🇬 | `84.54.128.52:9090` |
+| Boca Juniors vs O | `bmf0aw9u.fubo18.com:443` |
+| Boca Juniors vs O | `bmf0aw9u.fubo18.com:443` |
+| Boca Juniors vs O | `cdn1.zohanayaan.com:1686` |
+| Boca Juniors vs O | `cdn1.zohanayaan.com:1686` |
+| Boca Juniors vs O | `cdn10.zohanayaan.com:1686` |
+| Boca Juniors vs O | `cdn10.zohanayaan.com:1686` |
+| Boca Juniors vs O | `cdn2.zohanayaan.com:1686` |
+| Boca Juniors vs O | `cdn2.zohanayaan.com:1686` |
+| Boca Juniors vs O | `khala.skylivehd` |
+| Boca Juniors vs O | `khala.skylivehd` |
+| Boca Juniors vs O | `khala.skylivehd` |
+| Boca Juniors vs O | `khala.skylivehd` |
+| Boca Juniors vs O | `khala.skylivehd` |
+| Boca Juniors vs O | `khala.skylivehd` |
+| Boca Juniors vs O | `YXdlc29tZQ.fubo18.com:443` |
+| Boca Juniors vs O | `YXdlc29tZQ.fubo18.com:443` |
+| Boca Juniors vs OHiggins (FAWA) | `193.47.62.41` |
+| Boca Juniors vs OHiggins (FAWA) | `193.47.62.41` |
+| Bolivar vs Gremio (FAWA) | `193.47.62.41` |
+| Bolivar vs Gremio (FAWA) | `193.47.62.41` |
 | Bollywood 4U | `streams2.sofast.tv` |
 | Bollywood Masala | `streams2.sofast.tv` |
-| Boston Red Sox vs Baltimore Orioles (FAWA) | `193.47.62.41` |
-| Boston Red Sox vs Baltimore Orioles (FAWA) | `193.47.62.41` |
+| Bolívar vs Grêmio | Disney+ (STRMXHD) | `khala.skylivehd` |
+| Bolívar vs Grêmio | Disney+ (STRMXHD) | `khala.skylivehd` |
+| Bolívar vs Grêmio | DSports (STRMXHD) | `khala.skylivehd` |
+| Bolívar vs Grêmio | DSports (STRMXHD) | `khala.skylivehd` |
+| Bolívar vs Grêmio | ESPAÑOL 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
+| Bolívar vs Grêmio | ESPAÑOL 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
+| Bolívar vs Grêmio | ESPAÑOL 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Bolívar vs Grêmio | ESPAÑOL 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Bolívar vs Grêmio | ESPN (STRMXHD) | `khala.skylivehd` |
+| Bolívar vs Grêmio | ESPN (STRMXHD) | `khala.skylivehd` |
+| Bolívar vs Grêmio | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Bolívar vs Grêmio | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Botafogo SP vs Juventude (FAWA) | `193.47.62.41` |
+| Botafogo SP vs Juventude (FAWA) | `193.47.62.41` |
+| Botafogo SP vs Juventude (FAWA) | `193.47.62.41` |
+| Botafogo SP vs Juventude (FAWA) | `193.47.62.41` |
+| Botafogo vs Vitória | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Botafogo vs Vitória | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Botafogo vs Vitória | PORTUGUÉS 1 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
+| Botafogo vs Vitória | PORTUGUÉS 1 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
+| Botafogo vs Vitória | Premiere 2 (STRMXHD) | `khala.skylivehd` |
+| Botafogo vs Vitória | Premiere 2 (STRMXHD) | `khala.skylivehd` |
+| Botafogo-SP vs Juventude (WATCHFTY) | `lb6.wfty.st` |
+| Botafogo-SP vs Juventude (WATCHFTY) | `lb6.wfty.st` |
 | Bounce XL | `siloh.pluto.tv` |
 | Bowie TV | `granicusliveus3-a.akamaihd.net` |
+| Brampton Honey Badgers vs Saskatoon Mamba (CDNTV) | `cdnlivetv.tv` |
+| Brampton Honey Badgers vs Saskatoon Mamba (CDNTV) | `cdnlivetv.tv` |
 | Brat TV (#) | `streams2.sofast.tv` |
 | Brit Asia Live (US Pacific) | `a.jsrdn` |
 | Bspoketv | `bspoketv.s.llnwi.net` |
@@ -344,8 +372,6 @@
 | CAPS Media Channel 15 Ventura CA | `reflect-stream15-capsmedia.cablecast.tv` |
 | CAPS Media Channel 6 Ventura CA | `reflect-stream6-capsmedia.cablecast.tv` |
 | Car Magazine TV | `number27.playout.vju.tv` |
-| Cardinals vs Angels (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Cardinals vs Angels (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Carolina TV | `unlimited1-us.dps.live` |
 | Cartoon Classics | `streams2.sofast.tv` |
 | Catholic TV | `catholictvhd-lh.akamaized.net` |
@@ -401,73 +427,17 @@
 | CCX Media North Brooklyn Park | `reflect-ccx.cablecast.tv` |
 | Celebrity Scene TV | `rpn.bozztv` |
 | Cerritos TV3 | `granicusliveus4-a.akamaihd.net` |
-| CF Montréal vs Nashville SC | EN (STRMSGATE) | `instreams.pro` |
-| CF Montréal vs Nashville SC | EN (STRMSGATE) | `instreams.pro` |
 | Champaign Government Television (CGTV) (Champaign IL) | `champaign-cablecast.cablecast.tv` |
 | Champaign Government Television (CGTV) (Champaign IL) (720p) | `champaign-cablecast.cablecast.tv` |
-| Chapecoense vs Flamengo | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Chapecoense vs Flamengo | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Chapecoense vs Flamengo | PORTUGUÉS 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
-| Chapecoense vs Flamengo | PORTUGUÉS 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
-| Chapecoense vs Flamengo | Premiere 1 (STRMXHD) | `khala.skylivehd` |
-| Chapecoense vs Flamengo | Premiere 1 (STRMXHD) | `khala.skylivehd` |
-| Chapecoense vs Flamengo | PT (PLYFST) | `cdn4.zohanayaan.com:1686` |
-| Chapecoense vs Flamengo | PT (PLYFST) | `cdn4.zohanayaan.com:1686` |
-| Chapecoense vs Flamengo | Win Sports (STRMXHD) | `khala.skylivehd` |
-| Chapecoense vs Flamengo | Win Sports (STRMXHD) | `khala.skylivehd` |
-| Chapecoense-SC vs Flamengo RJ (FAWA) | `193.47.62.59` |
-| Chapecoense-SC vs Flamengo RJ (FAWA) | `193.47.62.59` |
-| Charlotte vs Atlanta United | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Charlotte vs Atlanta United | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Charlotte vs Atlanta United | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Charlotte vs Atlanta United | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Charlotte vs Atlanta United | EN (PLYFST) | `cdn9.zohanayaan.com:1686` |
-| Charlotte vs Atlanta United | EN (PLYFST) | `cdn9.zohanayaan.com:1686` |
-| Charlotte vs Atlanta United | ES (PLYFST) | `cdn8.zohanayaan.com:1686` |
-| Charlotte vs Atlanta United | ES (PLYFST) | `cdn8.zohanayaan.com:1686` |
-| Charlotte vs Atlanta United | Fox Deportes USA (STRMXHD) | `khala.skylivehd` |
-| Charlotte vs Atlanta United | Fox Deportes USA (STRMXHD) | `khala.skylivehd` |
-| Charlotte vs Atlanta Utd (FAWA) | `193.47.62.44` |
-| Charlotte vs Atlanta Utd (FAWA) | `193.47.62.44` |
 | Cheddar Business | `live.chdrstatic` |
 | Chef Champion | `rpn1.bozztv` |
 | Chef Roc Show | `rpn1.bozztv` |
-| Chicago Cubs vs Detroit Tigers (FAWA) | `193.47.62.44` |
-| Chicago Cubs vs Detroit Tigers (FAWA) | `193.47.62.44` |
-| Chicago Fire FC vs Inter Miami CF | EN (STRMSGATE) | `instreams.live` |
-| Chicago Fire FC vs Inter Miami CF | EN (STRMSGATE) | `instreams.live` |
-| Chicago Sky @ New York Liberty | English (STRMCNTR) | `edgestream3.pro` |
-| Chicago Sky @ New York Liberty | English (STRMCNTR) | `edgestream3.pro` |
-| Chicago Sky at New York Liberty | CHI Feed (XYZ) | `247v2.xyzstreams.st` |
-| Chicago Sky at New York Liberty | CHI Feed (XYZ) | `247v2.xyzstreams.st` |
-| Chicago Sky at New York Liberty | NY Feed (XYZ) | `247v2.xyzstreams.st` |
-| Chicago Sky at New York Liberty | NY Feed (XYZ) | `247v2.xyzstreams.st` |
-| Chicago White Sox @ Texas Rangers | English (STRMCNTR) | `edgestream3.pro` |
-| Chicago White Sox @ Texas Rangers | English (STRMCNTR) | `edgestream3.pro` |
-| Chicago White Sox at Texas Rangers | CHW Feed (XYZ) | `ftv.xyzstreams.st` |
-| Chicago White Sox at Texas Rangers | CHW Feed (XYZ) | `ftv.xyzstreams.st` |
-| Chicago White Sox at Texas Rangers | TEX Feed (XYZ) | `ftv.xyzstreams.st` |
-| Chicago White Sox at Texas Rangers | TEX Feed (XYZ) | `ftv.xyzstreams.st` |
-| Chicago White Sox vs Texas Rangers | EN (STRMSGATE) | `instreams.live` |
-| Chicago White Sox vs Texas Rangers | EN (STRMSGATE) | `instreams.live` |
 | Chive | `linear-941.frequency.stream` |
 | Choppertown | `linear-11.frequency.stream` |
 | Christian Youth Channel | `media3.smc-host.com:1935` |
 | Chrono | `streams2.sofast.tv` |
 | Chukker | `streams2.sofast.tv` |
 | Cigar TV | `streams2.sofast.tv` |
-| Cincinnati Reds @ Seattle Mariners | English (STRMCNTR) | `edgestream2.pro` |
-| Cincinnati Reds @ Seattle Mariners | English (STRMCNTR) | `edgestream2.pro` |
-| Cincinnati Reds at Seattle Mariners | CIN Feed (XYZ) | `ftv.xyzstreams.st` |
-| Cincinnati Reds at Seattle Mariners | CIN Feed (XYZ) | `ftv.xyzstreams.st` |
-| Cincinnati Reds at Seattle Mariners | SEA Feed (XYZ) | `ftv.xyzstreams.st` |
-| Cincinnati Reds at Seattle Mariners | SEA Feed (XYZ) | `ftv.xyzstreams.st` |
-| Cincinnati Reds vs Seattle Mariners | EN (STRMSGATE) | `instreams.pro` |
-| Cincinnati Reds vs Seattle Mariners | EN (STRMSGATE) | `instreams.pro` |
-| Cincinnati vs Vancouver Whitecaps | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Cincinnati vs Vancouver Whitecaps | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Cincinnati vs Vancouver Whitecaps | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Cincinnati vs Vancouver Whitecaps | Apple TV Español (STRMXHD) | `khala.skylivehd` |
 | Cinevault Classics | `gsn-cinevault-classics-1-us.roku.wurl.tv` |
 | Cinevault Murder and Mayhem | `gsn-cinevault-70s-2-us.roku.wurl.tv` |
 | City of Monroe Government Channel | `reflect-monroe-mi-ci.cablecast.tv` |
@@ -485,8 +455,6 @@
 | Classic Reels TV | `crt-ext.rodeotv.net` |
 | Classic Reruns TV | `dai.google` |
 | Classic TV 4U | `broadcast.mytvtogo.net` |
-| Cleveland Guardians vs Minnesota Twins (FAWA) | `193.47.62.41` |
-| Cleveland Guardians vs Minnesota Twins (FAWA) | `193.47.62.41` |
 | Cloudflare TV | `cloudflare.tv` |
 | CMC-USA | `cmctv.ios.internapcdn.net` |
 | CMC-USA (California Music Channel) | `hwlive.streamingmediahosting` |
@@ -502,22 +470,6 @@
 | Collier County Public Schools CCPS Education Channel Naples, Florida | `watch.collierschools` |
 | Collier Television CTV (Naples FL) | `reflect-collier-countyboc.cablecast.tv` |
 | Collier Television CTV (Naples FL) (720p) | `reflect-collier-countyboc.cablecast.tv` |
-| Colorado Rapids vs San Diego FC (FAWA) | `193.47.62.59` |
-| Colorado Rapids vs San Diego FC (FAWA) | `193.47.62.59` |
-| Colorado Rapids vs San Diego FC (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Colorado Rapids vs San Diego FC (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Colorado Rapids vs San Diego | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Colorado Rapids vs San Diego | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Colorado Rapids vs San Diego | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Colorado Rapids vs San Diego | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Colorado Rapids vs San Diego | EN (PLYFST) | `cdn3.zohanayaan.com:1686` |
-| Colorado Rapids vs San Diego | EN (PLYFST) | `cdn3.zohanayaan.com:1686` |
-| Columbus Crew vs New York City (FAWA) | `pul-tenm.gkykp` |
-| Columbus Crew vs New York City (FAWA) | `pul-tenm.gkykp` |
-| Columbus Crew vs New York City | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Columbus Crew vs New York City | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Columbus Crew vs New York City | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Columbus Crew vs New York City | Apple TV Español (STRMXHD) | `khala.skylivehd` |
 | Complex | `dai2.xumo` |
 | Complex 2 | `dai2.xumo` |
 | CON TV | `cinedigm.vo.llnwd.net` |
@@ -528,23 +480,25 @@
 | Connecticut Network | `video.ct-n` |
 | Connecticut Network (Court Feed) | `video.ct-n` |
 | Connecticut Network (Instant) | `video.ct-n` |
-| Connecticut Sun @ Indiana Fever | English (STRMCNTR) | `edgestream1.pro` |
-| Connecticut Sun @ Indiana Fever | English (STRMCNTR) | `edgestream1.pro` |
-| Connecticut Sun at Indiana Fever | CON Feed (XYZ) | `247v2.xyzstreams.st` |
-| Connecticut Sun at Indiana Fever | CON Feed (XYZ) | `247v2.xyzstreams.st` |
-| Connecticut Sun at Indiana Fever | IND Feed (XYZ) | `247v2.xyzstreams.st` |
-| Connecticut Sun at Indiana Fever | IND Feed (XYZ) | `247v2.xyzstreams.st` |
 | Contra Costa College TV | `reflect-contra-costa.cablecast.tv` |
 | Cooking Panda | `stream-us-east-1.getpublica` |
 | COPS | `langleyproductions-cops-2-eu.rakuten.wurl.tv` |
-| Coritiba vs Palmeiras | Amazon Prime (STRMXHD) | `khala.skylivehd` |
-| Coritiba vs Palmeiras | Amazon Prime (STRMXHD) | `khala.skylivehd` |
-| Coritiba vs Palmeiras | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Coritiba vs Palmeiras | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Coritiba vs Palmeiras | PORTUGUÉS 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
-| Coritiba vs Palmeiras | PORTUGUÉS 1 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
-| Coritiba vs Palmeiras | Win Sports (STRMXHD) | `khala.skylivehd` |
-| Coritiba vs Palmeiras | Win Sports (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo (FAWA) | `193.47.62.41` |
+| Corinthians vs Remo (FAWA) | `193.47.62.41` |
+| Corinthians vs Remo | ESPAÑOL 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Corinthians vs Remo | ESPAÑOL 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Corinthians vs Remo | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo | L1MAX (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo | L1MAX (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo | PORTUGUÉS 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Corinthians vs Remo | PORTUGUÉS 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
+| Corinthians vs Remo | PORTUGUÉS 2 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
+| Corinthians vs Remo | PORTUGUÉS 2 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
+| Corinthians vs Remo | Premiere 1 (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo | Premiere 1 (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo | SporTV BR 1 (STRMXHD) | `khala.skylivehd` |
+| Corinthians vs Remo | SporTV BR 1 (STRMXHD) | `khala.skylivehd` |
 | Cornerstone TV | `2-fss-1.themediacdn` |
 | Cornerstone TV | `cdn.media9.truegod.tv` |
 | COStv | `irctv.cablecast.tv` |
@@ -597,6 +551,8 @@
 | CTV Toronto | `technologycloud.eu:80` |
 | CTV Vancouver | `technologycloud.eu:80` |
 | CTV Winnipeg | `technologycloud.eu:80` |
+| Cuiaba vs Atletico GO (FAWA) | `193.47.62.41` |
+| Cuiaba vs Atletico GO (FAWA) | `193.47.62.41` |
 | Cuisine Culture | `streams2.sofast.tv` |
 | Cuisine Culture | `streams2.sofast.tv` |
 | Cuny TV | `v-ny.theus6tv.tk` |
@@ -605,15 +561,7 @@
 | CW 50 Detroit (WKBD) | `2k.tstvs` |
 | Cypress Public Access Channel 36 (Cypress CA) | `livestream-us-east-edge-2.granicusops` |
 | Cypress Public Access Channel 36 (Cypress CA) (360p) | `livestream-us-east-edge-2.granicusops` |
-| D.C. United vs Houston Dynamo FC | EN (STRMSGATE) | `instreams.pro` |
-| D.C. United vs Houston Dynamo FC | EN (STRMSGATE) | `instreams.pro` |
 | Da Vinci | `liveovh011.cda.pl` |
-| Dallas Wings @ Portland Fire | English (STRMCNTR) | `edgestream3.pro` |
-| Dallas Wings @ Portland Fire | English (STRMCNTR) | `edgestream3.pro` |
-| Dallas Wings at Portland Fire | DAL Feed (XYZ) | `247v2.xyzstreams.st` |
-| Dallas Wings at Portland Fire | DAL Feed (XYZ) | `247v2.xyzstreams.st` |
-| Dallas Wings at Portland Fire | POR Feed (XYZ) | `247v2.xyzstreams.st` |
-| Dallas Wings at Portland Fire | POR Feed (XYZ) | `247v2.xyzstreams.st` |
 | Danger Vision | `streams2.sofast.tv` |
 | Daystar Español | `live-mcl.cdn01.net` |
 | Daystar TV | `live-mcl.cdn01.net` |
@@ -628,17 +576,23 @@
 | DC.gov DKN Washington DC | `video.oct.dc.gov` |
 | Deal or No Deal | `endemol-dealornodeal-1.sinclair.wurl` |
 | Decentric Media | `linear-68.frequency.stream` |
+| Defensa y Justicia vs Aldosivi | ESPAÑOL 1 (PLIBRE) | `dglvz29s.fubo18.com:443` |
+| Defensa y Justicia vs Aldosivi | ESPAÑOL 1 (PLIBRE) | `dglvz29s.fubo18.com:443` |
+| Defensa y Justicia vs Aldosivi | ESPN Premium (STRMXHD) | `khala.skylivehd` |
+| Defensa y Justicia vs Aldosivi | ESPN Premium (STRMXHD) | `khala.skylivehd` |
+| Defensa y Justicia vs Aldosivi | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Defensa y Justicia vs Aldosivi | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Defensa y Justicia vs CA Aldosivi (FAWA) | `193.47.62.41` |
+| Defensa y Justicia vs CA Aldosivi (FAWA) | `193.47.62.41` |
 | Defy TV | `scripps-defy-1-us.vizio.wurl.tv` |
 | Degrassi The Next Generation | `dhx-degrassi-1-us.samsung.wurl.tv` |
 | Denver 8 TV | `granicusliveus8-a.akamaihd.net` |
-| Detroit Tigers @ Chicago Cubs | English (STRMCNTR) | `edgestream2.pro` |
-| Detroit Tigers @ Chicago Cubs | English (STRMCNTR) | `edgestream2.pro` |
-| Detroit Tigers at Chicago Cubs | CHC Feed (XYZ) | `ftv.xyzstreams.st` |
-| Detroit Tigers at Chicago Cubs | CHC Feed (XYZ) | `ftv.xyzstreams.st` |
-| Detroit Tigers at Chicago Cubs | DET Feed (XYZ) | `ftv.xyzstreams.st` |
-| Detroit Tigers at Chicago Cubs | DET Feed (XYZ) | `ftv.xyzstreams.st` |
-| Detroit Tigers vs Chicago Cubs | EN (STRMSGATE) | `instreams.live` |
-| Detroit Tigers vs Chicago Cubs | EN (STRMSGATE) | `instreams.live` |
+| Deportivo Cali vs América de Cali | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
+| Deportivo Cali vs América de Cali | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
+| Detroit Tigers vs Kansas City Royals (FAWA) | `193.47.62.41` |
+| Detroit Tigers vs Kansas City Royals (FAWA) | `193.47.62.41` |
+| Diamondbacks vs Cardinals (WEBCAST) | `webcast-origin.b-cdn.net` |
+| Diamondbacks vs Cardinals (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Disney International HD | `149.71.34.166:8002` |
 | District of Columbia Network | `video.oct.dc.gov` |
 | District of Columbia Network (DCN) (1080p) | `video.oct.dc.gov` |
@@ -646,8 +600,6 @@
 | DIY Art | `streams2.sofast.tv` |
 | DNews | `gama-mx.com:8085` |
 | Docu Vision | `streams2.sofast.tv` |
-| Dodgers vs Phillies (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Dodgers vs Phillies (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Dove Channel | `linear-896.frequency.stream` |
 | Dove Channel (#) | `linear-896.frequency.stream` |
 | Dover TV Dover Detroit | `dover-de.secure.footprint.net` |
@@ -664,16 +616,26 @@
 | DSPORTS 🇦🇷 | `201.230.121.186:8000` |
 | Duck Hunting TV | `main.duckhunting.playout.vju.tv` |
 | Dungeon (#) | `stream-us-east-1.getpublica` |
+| Dynamo Kyiv vs PAOK | Evento 2 (STRMXHD) | `khala.skylivehd` |
+| Dynamo Kyiv vs PAOK | Evento 2 (STRMXHD) | `khala.skylivehd` |
 | E+ TV 6 Jackson | `jacksonenergy.secure.footprint.net` |
 | Earthx TV | `ov.ottera.tv` |
 | EBS | `uvotv-aniview.global.ssl.fastly.net` |
 | ed TV Arizona | `arizonawesterncol.secure.footprint.net` |
 | Edgy TV | `streams2.sofast.tv` |
 | Edgy Urban | `streams2.sofast.tv` |
+| Edmonton Elks vs Saskatchewan Roughriders (CDNTV) | `cdnlivetv.tv` |
+| Edmonton Elks vs Saskatchewan Roughriders (CDNTV) | `cdnlivetv.tv` |
+| Edmonton Elks vs Saskatchewan Roughriders | EN (PLYFST) | `cdn10.zohanayaan.com:1686` |
+| Edmonton Elks vs Saskatchewan Roughriders | EN (PLYFST) | `cdn10.zohanayaan.com:1686` |
 | Educa TV | `avm.ecuamedia.net` |
 | EKOL SPORTS 🇹🇷 | `ekoltv-live.ercdn.net` |
 | Electric Now | `elec-en-xumo.otteravision` |
 | Elevation Church | `linear-1066.frequency.stream` |
+| Emelec vs Mushuc Runa (FAWA) | `193.47.62.41` |
+| Emelec vs Mushuc Runa (FAWA) | `193.47.62.41` |
+| Emelec vs Mushuc Runa | Zapping EC (STRMXHD) | `khala.skylivehd` |
+| Emelec vs Mushuc Runa | Zapping EC (STRMXHD) | `khala.skylivehd` |
 | EMT Media TV | `hls-cdn.tvstartup17.net` |
 | EMT Media TV Los Angeles | `hwlive.streamingmediahosting` |
 | Encore+ | `streams2.sofast.tv` |
@@ -708,10 +670,6 @@
 | Farscape | `a8d3367c658948afb1901efdd9babe5b.mediatailor.us-east-1.amazonaws` |
 | Fashion Finds | `qvc-amd-live.akamaized.net` |
 | Fayetteville Public Television (FPTV) | `ythls.onrender` |
-| FC Cincinnati vs Vancouver Whitecaps (FAWA) | `pul-tenm.gkykp` |
-| FC Cincinnati vs Vancouver Whitecaps (FAWA) | `pul-tenm.gkykp` |
-| FC Dallas vs Portland Timbers | EN (STRMSGATE) | `instreams.pro` |
-| FC Dallas vs Portland Timbers | EN (STRMSGATE) | `instreams.pro` |
 | FC Public Media (Fort Collins CO) | `reflect-fcpublicmedia.cablecast.tv` |
 | FC Public Media (Fort Collins CO) (1080p) | `reflect-fcpublicmedia.cablecast.tv` |
 | Fight Sports | `shls-fight-sports-ak.akamaized.net` |
@@ -746,7 +704,7 @@
 | Foursquare TV | `webstreaming-3.viewmedia.tv` |
 | FOX 11 Los Angeles (KTTV) | `2k.tstvs` |
 | FOX 5 New York (WNYW) | `2k.tstvs` |
-| Fox Cricket 501 HD | `cdn6.zohanayaan.com:1686` |
+| Fox Cricket 501 HD | `cdn3.zohanayaan.com:1686` |
 | Fox Weather | `247wlive.foxweather` |
 | Fresno CMAC 1 Public Channel | `reflect-vod-cmac.cablecast.tv` |
 | Fresno CMAC 1 Public Channel (720p) | `reflect-vod-cmac.cablecast.tv` |
@@ -791,8 +749,6 @@
 | GEM Series Plus | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` |
 | GEM TV | `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` |
 | getTV | `206.212.244.63` |
-| Giants vs Royals (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Giants vs Royals (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Glamour | `dai2.xumo` |
 | GLC TV God's Learning Channel | `2-fss-1.streamhoster` |
 | Glendale TV (720p) | `reflect-gtv6-glendale.cablecast.tv` |
@@ -821,8 +777,6 @@
 | GOD TV | `zypelive-lh.akamaihd.net` |
 | GOD TV (#) | `ott.god.tv` |
 | God's Learning Channel (480p) | `2-fss-1.streamhoster` |
-| Goias vs Sport Recife (FAWA) | `193.47.62.41` |
-| Goias vs Sport Recife (FAWA) | `193.47.62.41` |
 | Golden Community Television (GCO.tv) (Golden CO) (1080p) | `reflect-golden-co.cablecast.tv` |
 | Golden TV | `rpn.bozztv` |
 | GoodLife 45 | `1-fss29-s0.streamhoster` |
@@ -839,8 +793,6 @@
 | H20 TV | `linear-738.frequency.stream` |
 | H20 TV (#) | `a-cdn.klowdtv` |
 | Haddam Killingworth High School TV (HKTV) (1080p) | `reflect-hktv.cablecast.tv` |
-| Hamarkameratene vs Bodo/Glimt | EN (STRMSGATE) | `instreams.pro` |
-| Hamarkameratene vs Bodo/Glimt | EN (STRMSGATE) | `instreams.pro` |
 | Hard Knocks | `dai2.xumo` |
 | Harley Davidson Factory TV | `hdtv.prod2.ioio.tv` |
 | Harley Davidson Racing TV | `hdtv.prod2.ioio.tv` |
@@ -869,16 +821,6 @@
 | Horror TV | `streams2.sofast.tv` |
 | Horror TV USA | `170.178.189.66:1935` |
 | Horse Shopping Channel | `uplynkcontent.sinclairstoryline` |
-| Houston Astros vs Miami Marlins (FAWA) | `193.47.62.44` |
-| Houston Astros vs Miami Marlins (FAWA) | `193.47.62.44` |
-| Houston Dynamo vs DC United (FAWA) | `193.47.62.44` |
-| Houston Dynamo vs DC United (FAWA) | `193.47.62.44` |
-| Houston Dynamo vs DC United | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Houston Dynamo vs DC United | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Houston Dynamo vs DC United | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Houston Dynamo vs DC United | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Houston Dynamo vs DC United | EN (PLYFST) | `cdn7.zohanayaan.com:1686` |
-| Houston Dynamo vs DC United | EN (PLYFST) | `cdn7.zohanayaan.com:1686` |
 | HPATV Educational Channel 95 (Hartford CT) | `hartford-ct.secure.footprint.net` |
 | HPATV Government Channel 96 (Hartford CT) | `hartford-ct.secure.footprint.net` |
 | HPATV Public Channel 5 (Hartford CT) | `hartford-ct.secure.footprint.net` |
@@ -911,45 +853,23 @@
 | IDMANTV 🇹🇷 | `str2.yodacdn.net` |
 | In The Kitchen | `qvc-amd-live.akamaized.net` |
 | Ind TV USA | `indtv.secure.footprint.net` |
-| Independiente del Valle vs Técnico Universitario | Zapping EC (STRMXHD) | `khala.skylivehd` |
-| Independiente del Valle vs Técnico Universitario | Zapping EC (STRMXHD) | `khala.skylivehd` |
-| Indiana Fever vs Connecticut Sun | DE (PLYFST) | `cdn6.zohanayaan.com:1686` |
-| Indiana Fever vs Connecticut Sun | DE (PLYFST) | `cdn6.zohanayaan.com:1686` |
-| Indiana Fever vs Connecticut Sun | EN (PLYFST) | `cdn1.zohanayaan.com:1686` |
-| Indiana Fever vs Connecticut Sun | EN (PLYFST) | `cdn1.zohanayaan.com:1686` |
-| Indiana Fever W vs Connecticut Sun W (FAWA) | `pul-tenm.gkykp` |
-| Indiana Fever W vs Connecticut Sun W (FAWA) | `pul-tenm.gkykp` |
+| Independiente Santa Fe vs Caracas (FAWA) | `193.47.62.41` |
+| Independiente Santa Fe vs Caracas (FAWA) | `193.47.62.41` |
 | Info Wars | `wpc.9ec1.edgecastcdn.net` |
 | Info Wars (#) | `a-cdn.klowdtv` |
 | Informe TV | `vdo1.streamgato.us:3986` |
 | INFOSPORT 🇫🇷 | `212.102.60.80` |
-| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `s8.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `s8.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `sx.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `sx.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `si.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `si.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `se.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `se.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `sx.domain156.xyz:443` |
-| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `sx.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `s2.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 1 (STP) | `s2.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `s2.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 2 (STP) | `s2.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `s2.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 3 (STP) | `s2.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `s1.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 4 (STP) | `s1.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `sa.domain156.xyz:443` |
+| Inglaterra vs Argentina | ESPAÑOL 5 (STP) | `sa.domain156.xyz:443` |
 | Inspiration TV | `inspnetworks-lh.akamaihd.net` |
-| Inter Miami vs Chicago Fire (FAWA) | `193.47.62.41` |
-| Inter Miami vs Chicago Fire (FAWA) | `193.47.62.41` |
-| Inter Miami vs Chicago Fire | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Inter Miami vs Chicago Fire | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Inter Miami vs Chicago Fire | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Inter Miami vs Chicago Fire | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Internacional vs Cruzeiro (FAWA) | `193.47.62.59` |
-| Internacional vs Cruzeiro (FAWA) | `193.47.62.59` |
-| Internacional vs Cruzeiro | EN (PLYFST) | `cdn9.zohanayaan.com:1686` |
-| Internacional vs Cruzeiro | EN (PLYFST) | `cdn9.zohanayaan.com:1686` |
-| Internacional vs Cruzeiro | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Internacional vs Cruzeiro | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Internacional vs Cruzeiro | PORTUGUÉS 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
-| Internacional vs Cruzeiro | PORTUGUÉS 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
-| Internacional vs Cruzeiro | Premiere 3 (STRMXHD) | `khala.skylivehd` |
-| Internacional vs Cruzeiro | Premiere 3 (STRMXHD) | `khala.skylivehd` |
 | Intipacha | `bonudiemsa-intipacha-2-eu.freemoviesplus.wurl.tv` |
 | IRIB3 🇮🇷 | `lenz.splus.ir` |
 | Island Escape | `a.jsrdn` |
@@ -977,12 +897,6 @@
 | Journy | `dai2.xumo` |
 | Judge Faith | `judge-faith-1.vizio.wurl` |
 | Judge Karen's Court | `cb5273f195a147f2bcf23544e4495f66.mediatailor.us-east-1.amazonaws` |
-| Junior vs Barranquilla (FAWA) | `193.47.62.59` |
-| Junior vs Barranquilla (FAWA) | `193.47.62.59` |
-| Junior vs Barranquilla | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
-| Junior vs Barranquilla | ESPAÑOL 1 (PLIBRE) | `c2f2zq.fubo18.com:443` |
-| Junior vs Barranquilla | Win Sports + (STRMXHD) | `khala.skylivehd` |
-| Junior vs Barranquilla | Win Sports + (STRMXHD) | `khala.skylivehd` |
 | Jupiter TV | `streams2.sofast.tv` |
 | Just for Laughs Gags | `distributionsjustepourrire-justforlaughsgags-1-eu.freemoviesplus.wurl.tv` |
 | Just for Laughs Gags (#) | `streams2.sofast.tv` |
@@ -993,6 +907,14 @@
 | Kajou TV | `dvrfl03.bozztv` |
 | Kajou TV (#) | `video1.getstreamhosting.com:1936` |
 | KALO TV | `10380e91fda5e303.mediapackage.us-west-2.amazonaws` |
+| Kansas City Royals @ Detroit Tigers | English (STRMCNTR) | `edgestream1.pro` |
+| Kansas City Royals @ Detroit Tigers | English (STRMCNTR) | `edgestream1.pro` |
+| Kansas City Royals at Detroit Tigers | DET Feed (XYZ) | `ftv.xyzstreams.st` |
+| Kansas City Royals at Detroit Tigers | DET Feed (XYZ) | `ftv.xyzstreams.st` |
+| Kansas City Royals at Detroit Tigers | KC Feed (XYZ) | `ftv.xyzstreams.st` |
+| Kansas City Royals at Detroit Tigers | KC Feed (XYZ) | `ftv.xyzstreams.st` |
+| Kansas City Royals vs Detroit Tigers | EN (STRMSGATE) | `instreams.live` |
+| Kansas City Royals vs Detroit Tigers | EN (STRMSGATE) | `instreams.live` |
 | Kartoon Circus | `simultv.s.llnwi.net` |
 | KBEV Spectrum Channel 6 (1080p) | `s3-us-west-2.amazonaws` |
 | KBRI Brighton Channel 8 (Brighton CO) | `brightonco.cablecast.tv` |
@@ -1031,14 +953,6 @@
 | L`Equipe 🇫🇷 | `jmp2.uk` |
 | LA CityView 35 | `reflect-losangeles.cablecast.tv` |
 | LA CityView 35 (1080p) | `reflect-losangeles.cablecast.tv` |
-| LA Galaxy vs St. Louis City | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| LA Galaxy vs St. Louis City | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| LA Galaxy vs St. Louis City | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| LA Galaxy vs St. Louis City | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| LA Galaxy vs St. Louis City | EN (PLYFST) | `cdn4.zohanayaan.com:1686` |
-| LA Galaxy vs St. Louis City | EN (PLYFST) | `cdn4.zohanayaan.com:1686` |
-| LA Galaxy vs St.Louis City (iSTRMEAST) | `chatgpt.hereisman.net` |
-| LA Galaxy vs St.Louis City (iSTRMEAST) | `chatgpt.hereisman.net` |
 | La liga Inside 🇪🇸 | `is.gd` |
 | La Nación+ | `free.fullspeed.tv` |
 | Laff Philadelphia | `v-pi.theus6tv.tk` |
@@ -1046,26 +960,8 @@
 | Lakewood Channel 8 (Lakewood CO) (720p) | `live8fd.lakewood` |
 | Lakewood City TV | `s3-us-west-2.amazonaws` |
 | Laliga | `abie.009292` |
-| LaLiGA | `cdn10.zohanayaan.com:1686` |
-| Lanus vs Cienciano (FAWA) | `193.47.62.59` |
-| Lanus vs Cienciano (FAWA) | `193.47.62.59` |
-| Lanús vs Cienciano | Disney+ (STRMXHD) | `khala.skylivehd` |
-| Lanús vs Cienciano | Disney+ (STRMXHD) | `khala.skylivehd` |
-| Lanús vs Cienciano | Dsports AR (STRMXHD) | `khala.skylivehd` |
-| Lanús vs Cienciano | Dsports AR (STRMXHD) | `khala.skylivehd` |
-| Lanús vs Cienciano | ES (PLYFST) | `cdn3.zohanayaan.com:1686` |
-| Lanús vs Cienciano | ES (PLYFST) | `cdn3.zohanayaan.com:1686` |
-| Lanús vs Cienciano | ESPAÑOL 1 (PLIBRE) | `cgxheq.fubo18.com:443` |
-| Lanús vs Cienciano | ESPAÑOL 1 (PLIBRE) | `cgxheq.fubo18.com:443` |
-| Lanús vs Cienciano | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Lanús vs Cienciano | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| LaLiGA | `cdn9.zohanayaan.com:1686` |
 | Largo LTV | `securestream3.champds` |
-| Las Vegas Aces @ Washington Mystics | English (STRMCNTR) | `edgestream2.pro` |
-| Las Vegas Aces @ Washington Mystics | English (STRMCNTR) | `edgestream2.pro` |
-| Las Vegas Aces at Washington Mystics | LV Feed (XYZ) | `247v2.xyzstreams.st` |
-| Las Vegas Aces at Washington Mystics | LV Feed (XYZ) | `247v2.xyzstreams.st` |
-| Las Vegas Aces at Washington Mystics | WSH Feed (XYZ) | `247v2.xyzstreams.st` |
-| Las Vegas Aces at Washington Mystics | WSH Feed (XYZ) | `247v2.xyzstreams.st` |
 | Las Vegas Tonight with Dale Davidson | `cdn.vegasplus.us` |
 | Latino Channel TV | `cdn.vegasplus.us` |
 | Latino Classic TV | `streams2.sofast.tv` |
@@ -1082,6 +978,10 @@
 | Legislative Assembly of Ontario Committees (room 2) | `lin13.isilive.ca` |
 | Legislative Assembly of Ontario Parliamentary Network | `origin-http-delivery.isilive.ca` |
 | Legislative Assembly TV Nunavut | `temp2.isilive.ca` |
+| Leones del Norte vs Guayaquil City (FAWA) | `193.47.62.46` |
+| Leones del Norte vs Guayaquil City (FAWA) | `193.47.62.46` |
+| Leones del Norte vs Guayaquil City | Zapping EC (STRMXHD) | `khala.skylivehd` |
+| Leones del Norte vs Guayaquil City | Zapping EC (STRMXHD) | `khala.skylivehd` |
 | Let's Make A Deal | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |
 | Lex TV | `granicusliveus2-a.akamaihd.net` |
 | Life! Christian Broadcasting Network | `2-fss-2.streamhoster` |
@@ -1121,28 +1021,6 @@
 | Longmont Public Media Channel Channel 14 Longmont CO | `ch8reflector.longmontpublicmedia` |
 | Longmont Public Media Channel Channel 16 Longmont CO | `ch8reflector.longmontpublicmedia` |
 | Longmont Public Media Channel Channel 8 Longmont CO | `ch8reflector.longmontpublicmedia` |
-| Los Angeles Dodgers @ Philadelphia Phillies | English (STRMCNTR) | `edgestream3.pro` |
-| Los Angeles Dodgers @ Philadelphia Phillies | English (STRMCNTR) | `edgestream3.pro` |
-| Los Angeles Dodgers at Philadelphia Phillies | LAD Feed (XYZ) | `ftv.xyzstreams.st` |
-| Los Angeles Dodgers at Philadelphia Phillies | LAD Feed (XYZ) | `ftv.xyzstreams.st` |
-| Los Angeles Dodgers at Philadelphia Phillies | PHI Feed (XYZ) | `ftv.xyzstreams.st` |
-| Los Angeles Dodgers at Philadelphia Phillies | PHI Feed (XYZ) | `ftv.xyzstreams.st` |
-| Los Angeles Dodgers vs Philadelphia Phillies | EN (STRMSGATE) | `instreams.live` |
-| Los Angeles Dodgers vs Philadelphia Phillies | EN (STRMSGATE) | `instreams.live` |
-| Los Angeles FC vs Real Salt Lake (FAWA) | `pul-tenm.gkykp` |
-| Los Angeles FC vs Real Salt Lake (FAWA) | `pul-tenm.gkykp` |
-| Los Angeles FC vs Real Salt Lake (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Los Angeles FC vs Real Salt Lake (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Los Angeles FC vs Real Salt Lake | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Los Angeles FC vs Real Salt Lake | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Los Angeles FC vs Real Salt Lake | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Los Angeles FC vs Real Salt Lake | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Los Angeles FC vs Real Salt Lake | EN (PLYFST) | `cdn7.zohanayaan.com:1686` |
-| Los Angeles FC vs Real Salt Lake | EN (PLYFST) | `cdn7.zohanayaan.com:1686` |
-| Los Angeles FC vs Real Salt Lake | Fox Deportes USA (STRMXHD) | `khala.skylivehd` |
-| Los Angeles FC vs Real Salt Lake | Fox Deportes USA (STRMXHD) | `khala.skylivehd` |
-| Los Angeles Galaxy vs St Louis City (FAWA) | `193.47.62.59` |
-| Los Angeles Galaxy vs St Louis City (FAWA) | `193.47.62.59` |
 | Los Angeles Local Television Channel 36 | `reflect-channel36-la.cablecast.tv` |
 | Los Angeles Local Television Channel 36 (1080p) | `reflect-channel36-la.cablecast.tv` |
 | Los Angeles Scientology (KSCN) | `stream-losangeles.scientology` |
@@ -1154,21 +1032,15 @@
 | Loveland TV Colorado | `reflect-cityofloveland-co.cablecast.tv` |
 | LSN | `asermedia-lacrossesportsnetwork-1-eu.rakuten.wurl` |
 | Luxury Dreams | `streams2.sofast.tv` |
-| Macará vs Deportivo Cuenca | Zapping EC (STRMXHD) | `khala.skylivehd` |
-| Macará vs Deportivo Cuenca | Zapping EC (STRMXHD) | `khala.skylivehd` |
 | Mad Dog and Merrill | `rpn1.bozztv` |
 | Magellan TV | `magellantv-1.vizio.wurl` |
 | Mama Benz TV | `streams2.sofast.tv` |
 | Manatee Schools Television MSTV (Manatee County FL) | `reflect-mcsb-vod.cablecast.tv` |
 | Manatee Schools Television MSTV (Manatee County FL) (1080p) | `reflect-mcsb-vod.cablecast.tv` |
-| Manta vs LDU Quito | Zapping EC (STRMXHD) | `khala.skylivehd` |
-| Manta vs LDU Quito | Zapping EC (STRMXHD) | `khala.skylivehd` |
 | Marin TV Community Channel (San Rafael CA) | `96.68.164.217` |
 | Marin TV Educational Channel (San Rafael CA) | `96.68.164.217` |
 | Marin TV Government Channel (San Rafael CA) | `96.68.164.217` |
 | Marina TV (Marina CA) | `ampmedia.secure.footprint.net` |
-| Marlins vs Astros (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Marlins vs Astros (WEBCAST) | `webcast-origin.b-cdn.net` |
 | MASR 🇶🇦 | `shls-masr-ak.akamaized.net` |
 | MASR 🇶🇦 | `shls-masr-ak.akamaized.net` |
 | MASR 🇶🇦 | `shls-masr-ak.akamaized.net` |
@@ -1185,41 +1057,17 @@
 | MAXSPORT_1 🇭🇷 | `23.88.66.93` |
 | MAXSPORT_2 🇭🇷 | `23.88.66.93` |
 | MCAET TV | `free.fullspeed.tv` |
-| Medellín vs Vasco da Gama | Disney+ (STRMXHD) | `khala.skylivehd` |
-| Medellín vs Vasco da Gama | Disney+ (STRMXHD) | `khala.skylivehd` |
-| Medellín vs Vasco da Gama | DSports (STRMXHD) | `khala.skylivehd` |
-| Medellín vs Vasco da Gama | DSports (STRMXHD) | `khala.skylivehd` |
-| Medellín vs Vasco da Gama | ESPAÑOL 1 (PLIBRE) | `dw5pdgvk.fubo18.com:443` |
-| Medellín vs Vasco da Gama | ESPAÑOL 1 (PLIBRE) | `dw5pdgvk.fubo18.com:443` |
-| Medellín vs Vasco da Gama | ESPAÑOL 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
-| Medellín vs Vasco da Gama | ESPAÑOL 2 (PLIBRE) | `a2lja3m.fubo18.com:443` |
-| Medellín vs Vasco da Gama | ESPAÑOL 3 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
-| Medellín vs Vasco da Gama | ESPAÑOL 3 (PLIBRE) | `y2fzdgxl.fubo18.com:443` |
-| Medellín vs Vasco da Gama | ESPN (STRMXHD) | `khala.skylivehd` |
-| Medellín vs Vasco da Gama | ESPN (STRMXHD) | `khala.skylivehd` |
-| Medellín vs Vasco da Gama | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Medellín vs Vasco da Gama | Fanatiz (STRMXHD) | `khala.skylivehd` |
 | Mega TV Florida | `mdstrm` |
 | Memorias TV | `mediacp.us:8081` |
 | Mercury+ | `streams2.sofast.tv` |
 | Metaleitor TV | `vs20.live.opencaster` |
 | Metro Cable 14 Sacramento CA | `free.fullspeed.tv` |
 | Metro Nashville Network | `granicusliveus10-a.akamaihd.net` |
-| Mets vs Brewers (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Mets vs Brewers (WEBCAST) | `webcast-origin.b-cdn.net` |
 | MHz Mysteries | `mhz-samsung-linear-us.samsung.wurl.tv` |
 | Mi Miedo Canal | `streams2.sofast.tv` |
 | Mi Pueblo Tv | `ds.tvabierta.net` |
 | Mi Raza Canal | `streams2.sofast.tv` |
 | Mi Raza Canal Plus | `streams2.sofast.tv` |
-| Miami Marlins @ Houston Astros | English (STRMCNTR) | `edgestream1.pro` |
-| Miami Marlins @ Houston Astros | English (STRMCNTR) | `edgestream1.pro` |
-| Miami Marlins at Houston Astros | HOU Feed (XYZ) | `ftv.xyzstreams.st` |
-| Miami Marlins at Houston Astros | HOU Feed (XYZ) | `ftv.xyzstreams.st` |
-| Miami Marlins at Houston Astros | MIA Feed (XYZ) | `ftv.xyzstreams.st` |
-| Miami Marlins at Houston Astros | MIA Feed (XYZ) | `ftv.xyzstreams.st` |
-| Miami Marlins vs Houston Astros | EN (STRMSGATE) | `instreams.live` |
-| Miami Marlins vs Houston Astros | EN (STRMSGATE) | `instreams.live` |
 | Midnight Pulp | `369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws` |
 | Midnight Pulp (#) | `linear-897.frequency.stream` |
 | Midnight Pulp 2 | `dmr-midnightpulp-3-us.samsung.wurl.tv` |
@@ -1228,22 +1076,14 @@
 | Millennium TV USA | `cdn.appv.jagobd.com:444` |
 | Mindanow Network | `cdn.vegasplus.us` |
 | Ministerio La Voz De Un Remanente | `vs20.live.opencaster` |
-| Minnesota Lynx @ Seattle Storm | English (STRMCNTR) | `edgestream3.pro` |
-| Minnesota Lynx @ Seattle Storm | English (STRMCNTR) | `edgestream3.pro` |
-| Minnesota Lynx at Seattle Storm | MIN Feed (XYZ) | `247v2.xyzstreams.st` |
-| Minnesota Lynx at Seattle Storm | MIN Feed (XYZ) | `247v2.xyzstreams.st` |
-| Minnesota Lynx at Seattle Storm | SEA Feed (XYZ) | `247v2.xyzstreams.st` |
-| Minnesota Lynx at Seattle Storm | SEA Feed (XYZ) | `247v2.xyzstreams.st` |
-| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream3.pro` |
-| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream3.pro` |
+| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream1.pro` |
+| Minnesota Twins @ Cleveland Guardians | English (STRMCNTR) | `edgestream1.pro` |
 | Minnesota Twins at Cleveland Guardians | CLE Feed (XYZ) | `ftv.xyzstreams.st` |
 | Minnesota Twins at Cleveland Guardians | CLE Feed (XYZ) | `ftv.xyzstreams.st` |
 | Minnesota Twins at Cleveland Guardians | MIN Feed (XYZ) | `ftv.xyzstreams.st` |
 | Minnesota Twins at Cleveland Guardians | MIN Feed (XYZ) | `ftv.xyzstreams.st` |
 | Minnesota Twins vs Cleveland Guardians | EN (STRMSGATE) | `instreams.live` |
 | Minnesota Twins vs Cleveland Guardians | EN (STRMSGATE) | `instreams.live` |
-| Minnesota United FC vs Sporting Kansas City | EN (STRMSGATE) | `instreams.pro` |
-| Minnesota United FC vs Sporting Kansas City | EN (STRMSGATE) | `instreams.pro` |
 | Mission TV | `stream.missiontv.com:1935` |
 | MMA Junkie | `a.jsrdn` |
 | MMC TV USA | `live.relentlessinnovations.net:1936` |
@@ -1274,20 +1114,8 @@
 | Mythos | `rpn1.bozztv` |
 | NACTV | `stream.pivotalelements` |
 | Naija Gold Reels | `streams2.sofast.tv` |
-| Nashville SC vs CF Montreal (FAWA) | `193.47.62.44` |
-| Nashville SC vs CF Montreal (FAWA) | `193.47.62.44` |
-| Nashville SC vs CF Montréal | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Nashville SC vs CF Montréal | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Nashville SC vs CF Montréal | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Nashville SC vs CF Montréal | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Nashville SC vs CF Montréal | EN (PLYFST) | `cdn6.zohanayaan.com:1686` |
-| Nashville SC vs CF Montréal | EN (PLYFST) | `cdn6.zohanayaan.com:1686` |
-| Nationals vs Rockies (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Nationals vs Rockies (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Nautical Channel | `streams2.sofast.tv` |
 | Nautical Channel (#) | `a-cdn.klowdtv` |
-| Nautico vs Londrina (FAWA) | `193.47.62.59` |
-| Nautico vs Londrina (FAWA) | `193.47.62.59` |
 | Nautistyles Luxury Yachts | `ssai.castify.ai` |
 | NBC 15 Madison | `ad-playlistserver.aws.syncbak` |
 | NBC 4 Detroit (WDIV) | `2k.tstvs` |
@@ -1308,32 +1136,8 @@
 | NCM Main Channel | `reflect-npa.cablecast.tv` |
 | NET TV | `unlimited1-us.dps.live` |
 | NETO SPORTS 🇸🇦 | `netohls.wns.live` |
-| New England Revolution vs Toronto FC (FAWA) | `pul-tenm.gkykp` |
-| New England Revolution vs Toronto FC (FAWA) | `pul-tenm.gkykp` |
-| New England vs Toronto FC | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| New England vs Toronto FC | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| New England vs Toronto FC | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| New England vs Toronto FC | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| New England vs Toronto FC | ESPAÑOL 1 (PLIBRE) | `b2ZmaWNpYWw.fubo18.com:443` |
-| New England vs Toronto FC | ESPAÑOL 1 (PLIBRE) | `b2ZmaWNpYWw.fubo18.com:443` |
-| New England vs Toronto FC | INGLÉS 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
-| New England vs Toronto FC | INGLÉS 1 (PLIBRE) | `a2lja3m.fubo18.com:443` |
 | New K-Pop | `newidco-newkid-1-eu.xiaomi.wurl.tv` |
 | New Kid TV | `b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws` |
-| New York City FC vs Columbus Crew | EN (STRMSGATE) | `instreams.pro` |
-| New York City FC vs Columbus Crew | EN (STRMSGATE) | `instreams.pro` |
-| New York Liberty W vs Chicago Sky W (FAWA) | `193.47.62.41` |
-| New York Liberty W vs Chicago Sky W (FAWA) | `193.47.62.41` |
-| New York Mets @ Milwaukee Brewers | English (STRMCNTR) | `edgestream2.pro` |
-| New York Mets @ Milwaukee Brewers | English (STRMCNTR) | `edgestream2.pro` |
-| New York Mets at Milwaukee Brewers | MIL Feed (XYZ) | `ftv.xyzstreams.st` |
-| New York Mets at Milwaukee Brewers | MIL Feed (XYZ) | `ftv.xyzstreams.st` |
-| New York Mets at Milwaukee Brewers | NYM Feed (XYZ) | `ftv.xyzstreams.st` |
-| New York Mets at Milwaukee Brewers | NYM Feed (XYZ) | `ftv.xyzstreams.st` |
-| New York Mets vs Milwaukee Brewers | EN (STRMSGATE) | `instreams.pro` |
-| New York Mets vs Milwaukee Brewers | EN (STRMSGATE) | `instreams.pro` |
-| New York Yankees vs Pittsburgh Pirates (FAWA) | `193.47.62.41` |
-| New York Yankees vs Pittsburgh Pirates (FAWA) | `193.47.62.41` |
 | Newfoundland Television | `2-fss-1.streamhoster` |
 | Newington Community Television Channel 14 | `s3-us-west-2.amazonaws` |
 | Newington Community Television Channel 16 | `s3-us-west-2.amazonaws` |
@@ -1365,10 +1169,6 @@
 | NYC Life | `v-ny.theus6tv.tk` |
 | NYXT | `api.new.livestream` |
 | NYXT (#) | `reflect-stream-bronxnet.cablecast.tv` |
-| Náutico vs Londrina | PORTUGUÉS 1 (PLIBRE) | `dglvz29s.fubo18.com:443` |
-| Náutico vs Londrina | PORTUGUÉS 1 (PLIBRE) | `dglvz29s.fubo18.com:443` |
-| Náutico vs Londrina | PORTUGUÉS 2 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
-| Náutico vs Londrina | PORTUGUÉS 2 (PLIBRE) | `bmf0aw9u.fubo18.com:443` |
 | OAN Encore | `a-cdn.herringnetwork` |
 | OAN Plus | `cdn13.crtvnoc` |
 | Ocean Vibes | `pb-vt93jy06rfty1.akamaized.net` |
@@ -1384,11 +1184,11 @@
 | ONTV4U | `cdn13.crtvnoc` |
 | ONTV4U | `dai.google` |
 | Opportunities in Urban Renaissance Television | `hls-cdn.tvstartup.net` |
+| Orense vs Aucas (FAWA) | `193.47.62.46` |
+| Orense vs Aucas (FAWA) | `193.47.62.46` |
+| Orense vs Aucas | Eventos (STRMXHD) | `khala.skylivehd` |
+| Orense vs Aucas | Eventos (STRMXHD) | `khala.skylivehd` |
 | ORF+ 🇦🇹 | `212.186.45.34:9981` |
-| Orioles vs Red Sox (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Orioles vs Red Sox (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Orlando City SC vs San Jose Earthquakes | EN (STRMSGATE) | `instreams.live` |
-| Orlando City SC vs San Jose Earthquakes | EN (STRMSGATE) | `instreams.live` |
 | OTT CLUB 🇷🇺 | `czrb8vng.ottclub` |
 | OUR TV | `hls-cdn.tvstartup.net` |
 | Outdoor America | `linear-600.frequency.stream` |
@@ -1418,62 +1218,20 @@
 | PBS Kids | `2-fss-2.streamhoster` |
 | PBS San Diego, California | `2-fss-1.streamhoster` |
 | PCC-TV Pinellas County | `granicusliveus1-a.akamaihd.net` |
+| PDC World Matchplay 2026 (iSTRMEAST) | `chatgpt.hereisman.net` |
+| PDC World Matchplay 2026 (iSTRMEAST) | `chatgpt.hereisman.net` |
 | People are Awesome | `dai2.xumo` |
 | Peoria Channel 11 | `free.fullspeed.tv` |
 | PERSIANA SPORTS 🇮🇷 | `ayassport.776740.ir.cdn.ir` |
 | Phil 17 | `v-pi.theus6tv.tk` |
-| Philadelphia Phillies vs Los Angeles Dodgers (FAWA) | `193.47.62.41` |
-| Philadelphia Phillies vs Los Angeles Dodgers (FAWA) | `193.47.62.41` |
-| Philadelphia Union vs New York RB | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Philadelphia Union vs New York RB | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Philadelphia Union vs New York RB | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Philadelphia Union vs New York RB | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Philadelphia Union vs New York Red Bulls (FAWA) | `pul-tenm.gkykp` |
-| Philadelphia Union vs New York Red Bulls (FAWA) | `pul-tenm.gkykp` |
-| Phoenix Mercury @ Los Angeles Sparks | English (STRMCNTR) | `edgestream1.pro` |
-| Phoenix Mercury @ Los Angeles Sparks | English (STRMCNTR) | `edgestream1.pro` |
-| Phoenix Mercury at Los Angeles Sparks | LA Feed (XYZ) | `247v2.xyzstreams.st` |
-| Phoenix Mercury at Los Angeles Sparks | LA Feed (XYZ) | `247v2.xyzstreams.st` |
-| Phoenix Mercury at Los Angeles Sparks | PHX Feed (XYZ) | `247v2.xyzstreams.st` |
-| Phoenix Mercury at Los Angeles Sparks | PHX Feed (XYZ) | `247v2.xyzstreams.st` |
 | Pinellas Park City TV | `reflect-pinellas-park-fl.cablecast.tv` |
 | Pinkfong Baby Shark | `fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws` |
-| Pirates vs Yankees (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Pirates vs Yankees (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Pittsburgh Pirates @ New York Yankees (G1) | English (STRMCNTR) | `edgestream3.pro` |
-| Pittsburgh Pirates @ New York Yankees (G1) | English (STRMCNTR) | `edgestream3.pro` |
-| Pittsburgh Pirates @ New York Yankees (G2) | English (STRMCNTR) | `edgestream1.pro` |
-| Pittsburgh Pirates @ New York Yankees (G2) | English (STRMCNTR) | `edgestream1.pro` |
-| Pittsburgh Pirates at New York Yankees | NYY Feed (XYZ) | `ftv.xyzstreams.st` |
-| Pittsburgh Pirates at New York Yankees | NYY Feed (XYZ) | `ftv.xyzstreams.st` |
-| Pittsburgh Pirates at New York Yankees | PIT Feed (XYZ) | `ftv.xyzstreams.st` |
-| Pittsburgh Pirates at New York Yankees | PIT Feed (XYZ) | `ftv.xyzstreams.st` |
-| Pittsburgh Pirates vs New York Yankees | EN (STRMSGATE) | `instreams.live` |
-| Pittsburgh Pirates vs New York Yankees | EN (STRMSGATE) | `instreams.live` |
 | Plant-Based Network HD | `hls-cdn.tvstartup.net` |
 | Play.Works | `b12eca572da7423284734ca3a6242ea2.mediatailor.us-east-1.amazonaws` |
 | Plymouth Rock TV | `hls-cdn.tvstartup.net` |
 | Pomona Internet Streaming Channel | `live.pomonaca.gov` |
 | Pomona Internet Streaming Channel (Pomona CA) (720p) | `reflect-pomona.cablecast.tv` |
 | Popstar! | `linear-10.frequency.stream` |
-| Portland Fire vs Dallas Wings (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Portland Fire vs Dallas Wings (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Portland Fire vs Dallas Wings | DE (PLYFST) | `cdn6.zohanayaan.com:1686` |
-| Portland Fire vs Dallas Wings | DE (PLYFST) | `cdn6.zohanayaan.com:1686` |
-| Portland Fire vs Dallas Wings | EN (PLYFST) | `cdn3.zohanayaan.com:1686` |
-| Portland Fire vs Dallas Wings | EN (PLYFST) | `cdn3.zohanayaan.com:1686` |
-| Portland Fire W vs Dallas Wings W (FAWA) | `193.47.62.59` |
-| Portland Fire W vs Dallas Wings W (FAWA) | `193.47.62.59` |
-| Portland Timbers vs Dallas | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Portland Timbers vs Dallas | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Portland Timbers vs Dallas | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Portland Timbers vs Dallas | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Portland Timbers vs Dallas | EN (PLYFST) | `cdn8.zohanayaan.com:1686` |
-| Portland Timbers vs Dallas | EN (PLYFST) | `cdn8.zohanayaan.com:1686` |
-| Portland Timbers vs FC Dallas (FAWA) | `193.47.62.59` |
-| Portland Timbers vs FC Dallas (FAWA) | `193.47.62.59` |
-| Portland Timbers vs FC Dallas (iSTRMEAST) | `chatgpt.hereisman.net` |
-| Portland Timbers vs FC Dallas (iSTRMEAST) | `chatgpt.hereisman.net` |
 | Positiv TV | `livecdn.use1-0004.jwplive` |
 | Poudre School District TV (PSD TV) (Fort Collins CO) (720p) | `reflect-broadcast-psdschools.cablecast.tv` |
 | Power 101.7 FM | `vcp11.myplaytv` |
@@ -1486,7 +1244,7 @@
 | PSN 4 Sports 🇺🇸 | `cdn4.skygo.mn` |
 | PSN 5 Sports 🇺🇸 | `cdn4.skygo.mn` |
 | PTL Television Network | `storage.sardius.media` |
-| PTV Sports | `cdn9.zohanayaan.com:1686` |
+| PTV Sports | `cdn10.zohanayaan.com:1686` |
 | Qazaqstan Sport SD 🇰🇿 | `stream.qaztv.kz` |
 | Qello Concerts | `dai.google` |
 | Qello Concerts by Stingray | `lotus.stingray` |
@@ -1507,20 +1265,12 @@
 | RDS 2 | `technologycloud.eu:80` |
 | RDS Info | `technologycloud.eu:80` |
 | Real Nosey | `nosey-realnosey-1-us.freemoviesplus.wurl.tv` |
-| Real Salt Lake vs LAFC | EN (STRMSGATE) | `instreams.live` |
-| Real Salt Lake vs LAFC | EN (STRMSGATE) | `instreams.live` |
-| Real Salt Lake vs Los Angeles FC (CDNTV) | `cdnlivetv.tv` |
-| Real Salt Lake vs Los Angeles FC (CDNTV) | `cdnlivetv.tv` |
 | Real Vision | `a.jsrdn` |
-| Red Bull New York vs Philadelphia Union | EN (STRMSGATE) | `instreams.live` |
-| Red Bull New York vs Philadelphia Union | EN (STRMSGATE) | `instreams.live` |
 | Red Bull TV | `dms.redbull.tv` |
 | RedBox Battery Pop | `dai2.xumo` |
 | RedBox Film Hub | `dai2.xumo` |
 | RedBox Hi-Yah! | `dai2.xumo` |
 | RedBox Kabillion | `dai2.xumo` |
-| Reds vs Mariners (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Reds vs Mariners (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Relaxing Rain | `a.jsrdn` |
 | Retro Crush | `cineverse.g-mana.live` |
 | Retro TV | `bcovlive-a.akamaihd.net` |
@@ -1534,38 +1284,42 @@
 | RING 🇧🇬 | `84.54.128.52:9090` |
 | Rocky Hill Government Access Channel 16 | `securestream9.champds` |
 | Rocky Hill Government Access Channel 16 (480p) | `securestream9.champds` |
+| Royals vs Tigers (WEBCAST) | `webcast-origin.b-cdn.net` |
+| Royals vs Tigers (WEBCAST) | `webcast-origin.b-cdn.net` |
 | RSUTV Public Television | `2-fss-2.streamhoster` |
 | RTA SPORT 🇸🇦 | `rtatv.akamaized.net` |
 | RTSH Sport 🇦🇱 | `178.33.11.6:8696` |
 | RTSH Sport 🇦🇱 | `217.73.139.200:5443` |
 | RVTV | `sramsburg-hls.secdn.net` |
 | Safe TV | `18.191.91.130:1935` |
-| San Diego FC vs Colorado Rapids | EN (STRMSGATE) | `instreams.live` |
-| San Diego FC vs Colorado Rapids | EN (STRMSGATE) | `instreams.live` |
-| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream2.pro` |
-| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream2.pro` |
+| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream3.pro` |
+| San Diego Padres @ Atlanta Braves | English (STRMCNTR) | `edgestream3.pro` |
 | San Diego Padres at Atlanta Braves | ATL Feed (XYZ) | `ftv.xyzstreams.st` |
 | San Diego Padres at Atlanta Braves | ATL Feed (XYZ) | `ftv.xyzstreams.st` |
 | San Diego Padres at Atlanta Braves | SD Feed (XYZ) | `ftv.xyzstreams.st` |
 | San Diego Padres at Atlanta Braves | SD Feed (XYZ) | `ftv.xyzstreams.st` |
-| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.live` |
-| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.live` |
-| San Francisco Giants @ Kansas City Royals | English (STRMCNTR) | `edgestream1.pro` |
-| San Francisco Giants @ Kansas City Royals | English (STRMCNTR) | `edgestream1.pro` |
-| San Francisco Giants at Kansas City Royals | KC Feed (XYZ) | `ftv.xyzstreams.st` |
-| San Francisco Giants at Kansas City Royals | KC Feed (XYZ) | `ftv.xyzstreams.st` |
-| San Francisco Giants at Kansas City Royals | SF Feed (XYZ) | `ftv.xyzstreams.st` |
-| San Francisco Giants at Kansas City Royals | SF Feed (XYZ) | `ftv.xyzstreams.st` |
-| San Francisco Giants vs Kansas City Royals | EN (STRMSGATE) | `instreams.live` |
-| San Francisco Giants vs Kansas City Royals | EN (STRMSGATE) | `instreams.live` |
-| San Jose Earthquakes vs Orlando City (FAWA) | `193.47.62.59` |
-| San Jose Earthquakes vs Orlando City (FAWA) | `193.47.62.59` |
-| San Jose Earthquakes vs Orlando City SC (iSTRMEAST) | `chatgpt.hereisman.net` |
-| San Jose Earthquakes vs Orlando City SC (iSTRMEAST) | `chatgpt.hereisman.net` |
+| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.pro` |
+| San Diego Padres vs Atlanta Braves | EN (STRMSGATE) | `instreams.pro` |
 | San Luis Obispo County Office of Education COE-TV Channel 19 | `vod.slocoe` |
 | San Luis Obispo County Office of Education COE-TV Channel 2 | `vod.slocoe` |
-| Sao Paulo vs Athletico-PR (FAWA) | `193.47.62.59` |
-| Sao Paulo vs Athletico-PR (FAWA) | `193.47.62.59` |
+| Santa Fe vs Caracas | AU (PLYFST) | `cdn3.zohanayaan.com:1686` |
+| Santa Fe vs Caracas | AU (PLYFST) | `cdn3.zohanayaan.com:1686` |
+| Santa Fe vs Caracas | Disney+ (STRMXHD) | `khala.skylivehd` |
+| Santa Fe vs Caracas | Disney+ (STRMXHD) | `khala.skylivehd` |
+| Santa Fe vs Caracas | Dsports Eventos (STRMXHD) | `khala.skylivehd` |
+| Santa Fe vs Caracas | Dsports Eventos (STRMXHD) | `khala.skylivehd` |
+| Santa Fe vs Caracas | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Santa Fe vs Caracas | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Sarmiento Junin vs Argentinos Jrs (FAWA) | `193.47.62.41` |
+| Sarmiento Junin vs Argentinos Jrs (FAWA) | `193.47.62.41` |
+| Sarmiento vs Argentinos Juniors | ESPAÑOL 1 (PLIBRE) | `b2ZmaWNpYWw.fubo18.com:443` |
+| Sarmiento vs Argentinos Juniors | ESPAÑOL 1 (PLIBRE) | `b2ZmaWNpYWw.fubo18.com:443` |
+| Sarmiento vs Argentinos Juniors | ESPN Premium (STRMXHD) | `khala.skylivehd` |
+| Sarmiento vs Argentinos Juniors | ESPN Premium (STRMXHD) | `khala.skylivehd` |
+| Sarmiento vs Argentinos Juniors | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Sarmiento vs Argentinos Juniors | Fanatiz (STRMXHD) | `khala.skylivehd` |
+| Saskatchewan Roughriders vs Edmonton Elks (iSTRMEAST) | `chatgpt.hereisman.net` |
+| Saskatchewan Roughriders vs Edmonton Elks (iSTRMEAST) | `chatgpt.hereisman.net` |
 | SBN TV | `live20.bozztv` |
 | SBTN | `live20.bozztv` |
 | SC Currents | `reflect-communitytv.cablecast.tv` |
@@ -1578,8 +1332,6 @@
 | SCTV 22 - SSPORT 1 🇻🇳 | `liveh34.vtvprime.vn` |
 | SCTV 22 - SSPORT 1 🇻🇳 | `liveh34.vtvprime.vn` |
 | Seaside CA The Peninsula Channel | `ampmedia.secure.footprint.net` |
-| Seattle Sounders FC vs Austin FC | EN (STRMSGATE) | `instreams.pro` |
-| Seattle Sounders FC vs Austin FC | EN (STRMSGATE) | `instreams.pro` |
 | Sent TV Global Network | `rpn1.bozztv` |
 | Sent TV Global Network Atlanta (SGTN-49) | `rpn.bozztv` |
 | Sent TV Global Network Atlanta (SGTN-49) (720p) | `rpn.bozztv` |
@@ -1600,33 +1352,27 @@
 | Shop LC | `cdn-shop-lc-01.akamaized.net` |
 | Shout! Cult | `837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws` |
 | Sightline | `linear-64.frequency.stream` |
-| SJ Earthquakes vs Orlando City SC | EN (PLYFST) | `cdn10.zohanayaan.com:1686` |
-| SJ Earthquakes vs Orlando City SC | EN (PLYFST) | `cdn10.zohanayaan.com:1686` |
-| SJ Earthquakes vs Orlando City | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| SJ Earthquakes vs Orlando City | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| SJ Earthquakes vs Orlando City | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| SJ Earthquakes vs Orlando City | Apple TV Español (STRMXHD) | `khala.skylivehd` |
 | SKWAD | `stream-us-east-1.getpublica` |
-| Sky Sport 6 Nz | `cdn1.zohanayaan.com:1686` |
+| Sky Sport 6 Nz | `cdn7.zohanayaan.com:1686` |
 | SKY SPORT LALIGA 🇲🇽 | `167.250.223.26:8085` |
 | SKY SPORT LALIGA 🇲🇽 | `179.60.224.196:8000` |
 | SKY SPORT LALIGA 🇲🇽 | `181.78.109.48:9998` |
 | SKY SPORT LALIGA 🇲🇽 | `190.14.10.19:16000` |
 | SKY SPORT LALIGA 🇲🇽 | `190.92.10.66:4000` |
 | SKY SPORT LALIGA 🇲🇽 | `45.5.117.57:8200` |
-| Sky Sport Nz 2 | `cdn10.zohanayaan.com:1686` |
-| Sky Sport Nz 3 | `cdn8.zohanayaan.com:1686` |
-| Sky Sport Nz 4 | `cdn9.zohanayaan.com:1686` |
-| Sky Sport Nz 5 | `cdn6.zohanayaan.com:1686` |
-| Sky Sport Nz 7 | `cdn1.zohanayaan.com:1686` |
-| Sky Sport Nz 8 | `cdn4.zohanayaan.com:1686` |
-| Sky Sport Nz 9 | `cdn6.zohanayaan.com:1686` |
-| Sky Sports Arena | `cdn5.zohanayaan.com:1686` |
-| Sky Sports Main Event | `cdn9.zohanayaan.com:1686` |
-| Sky Sports Plus | `cdn5.zohanayaan.com:1686` |
-| Sky Sports Premier League | `cdn2.zohanayaan.com:1686` |
+| Sky Sport Nz 2 | `cdn2.zohanayaan.com:1686` |
+| Sky Sport Nz 3 | `cdn7.zohanayaan.com:1686` |
+| Sky Sport Nz 4 | `cdn8.zohanayaan.com:1686` |
+| Sky Sport Nz 5 | `cdn5.zohanayaan.com:1686` |
+| Sky Sport Nz 7 | `cdn5.zohanayaan.com:1686` |
+| Sky Sport Nz 8 | `cdn7.zohanayaan.com:1686` |
+| Sky Sport Nz 9 | `cdn1.zohanayaan.com:1686` |
+| Sky Sports Arena | `cdn10.zohanayaan.com:1686` |
+| Sky Sports Main Event | `cdn6.zohanayaan.com:1686` |
+| Sky Sports Plus | `cdn10.zohanayaan.com:1686` |
+| Sky Sports Premier League | `cdn8.zohanayaan.com:1686` |
 | Sky Sports Premier League | `s.rocketdns.info:8080` |
-| Sky Sports Tennis | `cdn8.zohanayaan.com:1686` |
+| Sky Sports Tennis | `cdn2.zohanayaan.com:1686` |
 | Sky TV New York | `tvsw2-hls.secdn.net` |
 | Skye Community Media Center 13 (Waterbury CT) | `stream.mux` |
 | Slightly Off by IFC | `amc-slightly-off-by-amc-1.imdbtv.wurl` |
@@ -1640,7 +1386,7 @@
 | So... Real (720p) | `cineverse-all3-soreal-1-us.ono.wurl.tv` |
 | Sohail TV | `iptv.sohailtv` |
 | SoloCalcioᴴᴰ 🇮🇹 | `bit.ly` |
-| Sony Sports3 | `cdn6.zohanayaan.com:1686` |
+| Sony Sports3 | `cdn3.zohanayaan.com:1686` |
 | Sony Ten 1 🇮🇳 | `stvlive.net:8080` |
 | Sony Ten 2 🇮🇳 | `stvlive.net:8080` |
 | Sony Ten 5 🇮🇳 | `stvlive.net:8080` |
@@ -1657,48 +1403,16 @@
 | SPORT5LIVEHD 🇮🇱 | `77.137.40.221:8000` |
 | SPORT5PLUSHD 🇮🇱 | `77.137.40.221:8000` |
 | Sportdigital 🇩🇪 | `jmp2.uk` |
-| Sporting Cristal vs Bragantino (FAWA) | `193.47.62.59` |
-| Sporting Cristal vs Bragantino (FAWA) | `193.47.62.59` |
-| Sporting Cristal vs RB Bragantino | Disney+ (STRMXHD) | `khala.skylivehd` |
-| Sporting Cristal vs RB Bragantino | Disney+ (STRMXHD) | `khala.skylivehd` |
-| Sporting Cristal vs RB Bragantino | EN (PLYFST) | `cdn5.zohanayaan.com:1686` |
-| Sporting Cristal vs RB Bragantino | EN (PLYFST) | `cdn5.zohanayaan.com:1686` |
-| Sporting Cristal vs RB Bragantino | ESPAÑOL 1 (PLIBRE) | `dglvz29s.fubo18.com:443` |
-| Sporting Cristal vs RB Bragantino | ESPAÑOL 1 (PLIBRE) | `dglvz29s.fubo18.com:443` |
-| Sporting Cristal vs RB Bragantino | ESPAÑOL 2 (PLIBRE) | `dglvz29s.fubo18.com:443` |
-| Sporting Cristal vs RB Bragantino | ESPAÑOL 2 (PLIBRE) | `dglvz29s.fubo18.com:443` |
-| Sporting Cristal vs RB Bragantino | ESPN (STRMXHD) | `khala.skylivehd` |
-| Sporting Cristal vs RB Bragantino | ESPN (STRMXHD) | `khala.skylivehd` |
-| Sporting Cristal vs RB Bragantino | ESPN 2 AR (STRMXHD) | `khala.skylivehd` |
-| Sporting Cristal vs RB Bragantino | ESPN 2 AR (STRMXHD) | `khala.skylivehd` |
-| Sporting Cristal vs RB Bragantino | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Sporting Cristal vs RB Bragantino | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| Sporting Kansas City vs Minnesota United (FAWA) | `193.47.62.59` |
-| Sporting Kansas City vs Minnesota United (FAWA) | `193.47.62.59` |
-| Sporting KC vs Minnesota United | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Sporting KC vs Minnesota United | Apple TV English (STRMXHD) | `khala.skylivehd` |
-| Sporting KC vs Minnesota United | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Sporting KC vs Minnesota United | Apple TV Español (STRMXHD) | `khala.skylivehd` |
-| Sporting KC vs Minnesota United | EN (PLYFST) | `cdn6.zohanayaan.com:1686` |
-| Sporting KC vs Minnesota United | EN (PLYFST) | `cdn6.zohanayaan.com:1686` |
 | Sports Connect | `streamdot.broadpeak.io` |
 | SportsGrid | `dai2.xumo` |
 | Sportskool TV | `a.jsrdn` |
 | Spydar TV | `simultv.s.llnwi.net` |
-| St. Louis Cardinals @ Los Angeles Angels | English (STRMCNTR) | `edgestream2.pro` |
-| St. Louis Cardinals @ Los Angeles Angels | English (STRMCNTR) | `edgestream2.pro` |
-| St. Louis Cardinals at Los Angeles Angels (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| St. Louis Cardinals at Los Angeles Angels (SPRTSPASS) | `pellmanlab.s3.us-east-1.amazonaws` |
-| St. Louis Cardinals at Los Angeles Angels | LAA Feed (XYZ) | `ftv.xyzstreams.st` |
-| St. Louis Cardinals at Los Angeles Angels | LAA Feed (XYZ) | `ftv.xyzstreams.st` |
-| St. Louis Cardinals at Los Angeles Angels | STL Feed (XYZ) | `ftv.xyzstreams.st` |
-| St. Louis Cardinals at Los Angeles Angels | STL Feed (XYZ) | `ftv.xyzstreams.st` |
-| St. Louis Cardinals vs Los Angeles Angels | EN (STRMSGATE) | `instreams.pro` |
-| St. Louis Cardinals vs Los Angeles Angels | EN (STRMSGATE) | `instreams.pro` |
-| St. Louis CITY SC vs LA Galaxy | EN (STRMSGATE) | `instreams.pro` |
-| St. Louis CITY SC vs LA Galaxy | EN (STRMSGATE) | `instreams.pro` |
-| Star Sports 1 | `cdn5.zohanayaan.com:1686` |
-| Star Sports 1 Hindi | `cdn4.zohanayaan.com:1686` |
+| St Louis Cardinals vs Arizona Diamondbacks (FAWA) | `193.47.62.46` |
+| St Louis Cardinals vs Arizona Diamondbacks (FAWA) | `193.47.62.46` |
+| St. Gallen vs Benfica | Evento 1 (STRMXHD) | `khala.skylivehd` |
+| St. Gallen vs Benfica | Evento 1 (STRMXHD) | `khala.skylivehd` |
+| Star Sports 1 | `cdn3.zohanayaan.com:1686` |
+| Star Sports 1 Hindi | `cdn9.zohanayaan.com:1686` |
 | Star Trek | `service-stitcher.clusters.pluto.tv` |
 | Stingray CMusic | `lotus.stingray` |
 | Stingray DJazz | `lotus.stingray` |
@@ -1716,9 +1430,9 @@
 | SubRang TV | `cdn61.liveonlineservices` |
 | SUMtv English | `bozztv` |
 | SUMtv Latino | `bozztv` |
-| Super Football | `cdn10.zohanayaan.com:1686` |
+| Super Football | `cdn3.zohanayaan.com:1686` |
 | Super Nice Online | `video.ejeserver` |
-| Super Premier League | `cdn5.zohanayaan.com:1686` |
+| Super Premier League | `cdn7.zohanayaan.com:1686` |
 | Super Simple Songs | `janson-supersimplesongs-1.vizio.wurl` |
 | Super Simple Songs (#) | `janson-supersimplesongs-1-us.roku.wurl.tv` |
 | Super Sport 1 🇦🇱 | `169.150.223.25` |
@@ -1751,18 +1465,12 @@
 | Swerve Combat | `linear-253.frequency.stream` |
 | Swerve Combat | `linear-253.frequency.stream` |
 | Sword and Shield | `a.jsrdn` |
-| São Paulo vs Athletico-PR | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| São Paulo vs Athletico-PR | Fanatiz (STRMXHD) | `khala.skylivehd` |
-| São Paulo vs Athletico-PR | PORTUGUÉS 1 (PLIBRE) | `c2nvdxq.fubo18.com:443` |
-| São Paulo vs Athletico-PR | PORTUGUÉS 1 (PLIBRE) | `c2nvdxq.fubo18.com:443` |
-| São Paulo vs Athletico-PR | Premiere 2 (STRMXHD) | `khala.skylivehd` |
-| São Paulo vs Athletico-PR | Premiere 2 (STRMXHD) | `khala.skylivehd` |
 | T-Vinet | `unlimited1-us.dps.live` |
 | Talkin Live Classics TV | `2-fss-1.streamhoster` |
 | Tampa Bay Communnity Network TBCN | `reflect-tampa-bay-community.cablecast.tv` |
 | Tampa Bay Communnity Network TBCN (Tampa Bay FL) (480p) | `reflect-tampa-bay-community.cablecast.tv` |
-| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream3.pro` |
-| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream3.pro` |
+| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream1.pro` |
+| Tampa Bay Rays @ Toronto Blue Jays | English (STRMCNTR) | `edgestream1.pro` |
 | Tampa Bay Rays at Toronto Blue Jays | TB Feed (XYZ) | `ftv.xyzstreams.st` |
 | Tampa Bay Rays at Toronto Blue Jays | TB Feed (XYZ) | `ftv.xyzstreams.st` |
 | Tampa Bay Rays at Toronto Blue Jays | TOR Feed (XYZ) | `ftv.xyzstreams.st` |
@@ -1801,11 +1509,9 @@
 | Tempe 11 | `granicusliveus1-a.akamaihd.net` |
 | Temple University TV | `templeuni.secure.footprint.net` |
 | Tempo Afric TV | `streamspace.live` |
-| Ten Sports | `cdn6.zohanayaan.com:1686` |
+| Ten Sports | `cdn10.zohanayaan.com:1686` |
 | Tensions TV | `streams2.sofast.tv` |
 | Test My Ride | `streams2.sofast.tv` |
-| Texas Rangers vs Chicago White Sox (FAWA) | `193.47.62.44` |
-| Texas Rangers vs Chicago White Sox (FAWA) | `193.47.62.44` |
 | Texas Student TV | `tstv-stream.tsm.utexas.edu` |
 | TG Junior | `stream-us-east-1.getpublica` |
 | The 360 Channel | `www.filmon` |
@@ -1854,8 +1560,6 @@
 | Thmanyah 3 🇲🇦 | `154.197.91.169:8000` |
 | Thornton Government Access Channel 17 | `reflect-thornton.cablecast.tv` |
 | Thornton Government Access Channel 17 (Thornton CO) (1080p) | `reflect-thornton.cablecast.tv` |
-| Tigers vs Cubs (WEBCAST) | `webcast-origin.b-cdn.net` |
-| Tigers vs Cubs (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Tigo Sports 🇦🇷 | `181.78.50.91:4000` |
 | Tigo Sports 🇬🇹 | `181.209.194.14:8001` |
 | Timeless | `v-pi.theus6tv.tk` |
@@ -1865,10 +1569,12 @@
 | Tivibu Spor 2 🇹🇷 | `65.108.239.207` |
 | Tivibu Spor 3 🇹🇷 | `65.108.239.207` |
 | Tivibu Spor 4 🇹🇷 | `65.108.239.207` |
-| TNT 1 | `cdn3.zohanayaan.com:1686` |
-| TNT 2 | `cdn4.zohanayaan.com:1686` |
-| TNT 3 | `cdn8.zohanayaan.com:1686` |
-| TNT 4 | `cdn9.zohanayaan.com:1686` |
+| TNA Impact Wrestling (FAWA) | `193.47.62.41` |
+| TNA Impact Wrestling (FAWA) | `193.47.62.41` |
+| TNT 1 | `cdn6.zohanayaan.com:1686` |
+| TNT 2 | `cdn3.zohanayaan.com:1686` |
+| TNT 3 | `cdn2.zohanayaan.com:1686` |
+| TNT 4 | `cdn3.zohanayaan.com:1686` |
 | TNT SPORTS PREMIUM 🇬🇧 | `200.115.120.1:8000` |
 | Todays Homeowner | `janson-todayshomeowner-1-us.freemoviesplus.wurl.tv` |
 | Toon Goggles | `stream-us-east-1.getpublica` |
@@ -1877,12 +1583,8 @@
 | Toonami Aftermath Movies | `api.toonamiaftermath.com:3000` |
 | Toonami Aftermath West | `api.toonamiaftermath.com:3000` |
 | Toronto 360 TV | `cdn3.toronto360.tv:8081` |
-| Toronto Blue Jays vs Tampa Bay Rays (FAWA) | `193.47.62.41` |
-| Toronto Blue Jays vs Tampa Bay Rays (FAWA) | `193.47.62.41` |
-| Toronto FC vs New England Revolution | EN (STRMSGATE) | `instreams.live` |
-| Toronto FC vs New England Revolution | EN (STRMSGATE) | `instreams.live` |
-| Tour de France - Etapa #17 | ESPN2 (STRMXHD) | `khala.skylivehd` |
-| Tour de France - Etapa #17 | ESPN2 (STRMXHD) | `khala.skylivehd` |
+| Tour de France - Etapa #18 | ESPN2 (STRMXHD) | `khala.skylivehd` |
+| Tour de France - Etapa #18 | ESPN2 (STRMXHD) | `khala.skylivehd` |
 | Town of Vienna Community Network | `granicusliveus2-a.akamaihd.net` |
 | TPT Now KTCA-DT5 | `api.new.livestream` |
 | TR Sport (480p) 🇮🇹 | `livetr.teleromagna.it` |
@@ -1957,8 +1659,6 @@
 | Vallejo Community Access Television | `vallejo.cablecast.tv` |
 | Vallejo Community Access Television (V-CAT) (Vallejo CA) (480p) | `vallejo.cablecast.tv` |
 | Valley Shore Community Television (VSCTV) (Clinton CT) (1080p) | `reflect-vsctv.cablecast.tv` |
-| Vancouver Whitecaps vs FC Cincinnati | EN (STRMSGATE) | `instreams.pro` |
-| Vancouver Whitecaps vs FC Cincinnati | EN (STRMSGATE) | `instreams.pro` |
 | Vanity Fair | `dai2.xumo` |
 | Varzesh TV 🇮🇷 | `lenz.splus.ir` |
 | Varzesh TV 🇸🇦 | `lenz.splus.ir` |
@@ -1966,13 +1666,13 @@
 | Vegas Life TV (#) | `cdn.vegasplus.us` |
 | Victor Valley TV-3 Movies | `2-fss-1.streamhoster` |
 | Vida Mejor TV | `tgn.bozztv` |
-| Viking FK vs Lillestrom | EN (STRMSGATE) | `instreams.live` |
-| Viking FK vs Lillestrom | EN (STRMSGATE) | `instreams.live` |
 | Village of Hastings-On-Hudson | `stream.swagit` |
 | Vivo TV | `unlimited1-us.dps.live` |
 | VoA TV Africa | `voa-ingest.akamaized.net` |
 | VoA TV Persian | `voa-ingest.akamaized.net` |
 | Vogue | `dai2.xumo` |
+| Vojvodina vs Ajax | Evento 4 (STRMXHD) | `khala.skylivehd` |
+| Vojvodina vs Ajax | Evento 4 (STRMXHD) | `khala.skylivehd` |
 | Voyages+ | `streams2.sofast.tv` |
 | VPOD-TV 59.3 Chicago | `81988.global.ssl.fastly.net` |
 | VSiN | `stream.rcncdn` |
@@ -1992,16 +1692,6 @@
 | W14DK-D 14.5 All Sports Television Network | `2-fss-2.streamhoster` |
 | W14DK-D 14.7 Heartland Channel | `2-fss-2.streamhoster` |
 | War and Military Now | `alliantcontent-warandmilitarynow-1-us.freemoviesplus.wurl.tv` |
-| Washington Mystics W vs Las Vegas Aces W (FAWA) | `193.47.62.41` |
-| Washington Mystics W vs Las Vegas Aces W (FAWA) | `193.47.62.41` |
-| Washington Nationals @ Colorado Rockies | English (STRMCNTR) | `edgestream3.pro` |
-| Washington Nationals @ Colorado Rockies | English (STRMCNTR) | `edgestream3.pro` |
-| Washington Nationals at Colorado Rockies | COL Feed (XYZ) | `ftv.xyzstreams.st` |
-| Washington Nationals at Colorado Rockies | COL Feed (XYZ) | `ftv.xyzstreams.st` |
-| Washington Nationals at Colorado Rockies | WSH Feed (XYZ) | `ftv.xyzstreams.st` |
-| Washington Nationals at Colorado Rockies | WSH Feed (XYZ) | `ftv.xyzstreams.st` |
-| Washington Nationals vs Colorado Rockies | EN (STRMSGATE) | `instreams.pro` |
-| Washington Nationals vs Colorado Rockies | EN (STRMSGATE) | `instreams.pro` |
 | Watch it KID! | `stream-us-east-1.getpublica` |
 | WatchMojo | `watchmojo-1-eu.freemoviesplus.wurl.tv` |
 | WBBJ (Jackson TN) (432p) | `dai.google` |
@@ -2034,15 +1724,13 @@
 | Whistle TV | `whistle-1.distrotv.wurl` |
 | White Plains Community Media | `stream.swagit` |
 | White Plains Community Media (360p) | `stream.swagit` |
-| White Sox vs Rangers (WEBCAST) | `webcast-origin.b-cdn.net` |
-| White Sox vs Rangers (WEBCAST) | `webcast-origin.b-cdn.net` |
 | Whittier City TV (Whittier CA) | `whittier.cablecast.tv` |
 | Whittier CityTV (Whittier CA) (720p) | `whittier.cablecast.tv` |
 | WHPS Detroit | `f-tx-edge-87.christianworldmedia` |
 | WHSG Monroe, Georgia | `dvrfl03.bozztv` |
 | Wild West TV | `linear-799.frequency.stream` |
-| Willow HD | `cdn10.zohanayaan.com:1686` |
-| Willow HD 2 | `cdn4.zohanayaan.com:1686` |
+| Willow HD | `cdn1.zohanayaan.com:1686` |
+| Willow HD 2 | `cdn10.zohanayaan.com:1686` |
 | WIN SPORT 🇨🇴 | `181.205.205.173:8888` |
 | WIN SPORT 🇨🇴 | `190.0.247.38:8000` |
 | Win Sports + 🇨🇴 | `live.btv.mx:2424` |
