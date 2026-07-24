@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repository
@@ -27,7 +27,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run playlist generator
+      - name: Test providers automatically
+        run: python test_providers.py
+
+      - name: Generate playlists and reports
         run: python update.py
 
       - name: Show update summary
@@ -38,6 +41,14 @@ jobs:
           echo "Generated reports:"
           find reports -type f | sort
 
+          echo "Automated provider statuses:"
+          python - <<'PY'
+          import json
+          from collections import Counter
+          data = json.load(open("provider-health.json", encoding="utf-8"))
+          print(Counter(item["auto_status"] for item in data.values()))
+          PY
+
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
@@ -47,11 +58,13 @@ jobs:
             playlists \
             reports \
             provider-notes.json \
+            provider-health.json \
+            stream-failures.json \
             provider-report.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update IPTV playlists and provider reports"
+            git commit -m "Auto-test providers and update IPTV playlists"
             git push
           fi
