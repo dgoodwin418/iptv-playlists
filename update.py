@@ -44,7 +44,7 @@ REPORTS_DIR.mkdir(exist_ok=True)
 
 # Providers with fewer than this number of streams remain in the
 # provider reports, but do not receive an individual provider playlist.
-MIN_PROVIDER_CHANNELS = 3
+MIN_PROVIDER_CHANNELS = 1
 
 # These providers are used for Combined_Selected.m3u and
 # Priority_Clean.m3u.
@@ -219,10 +219,34 @@ def provider_status(
     domain,
     provider_notes,
 ):
+    """Return manual status first, then automated status, then legacy status."""
     note = provider_notes.get(
         domain,
         {},
     )
+
+    manual_status = str(
+        note.get(
+            "manual_status",
+            "",
+        )
+    ).strip().lower()
+
+    if (
+        manual_status in VALID_STATUSES
+        and manual_status != "untested"
+    ):
+        return manual_status
+
+    auto_status = str(
+        note.get(
+            "auto_status",
+            "",
+        )
+    ).strip().lower()
+
+    if auto_status in VALID_STATUSES:
+        return auto_status
 
     status = str(
         note.get(
@@ -251,18 +275,7 @@ def update_provider_notes(
     domain_map,
     existing_notes,
 ):
-    """
-    Adds every current provider to provider-notes.json while preserving
-    statuses, tested values and notes already entered by the user.
-
-    Providers are sorted by:
-      1. Working
-      2. Partial
-      3. Untested
-      4. Dead
-
-    Within each status, providers with the most channels appear first.
-    """
+    """Add current providers while preserving manual and automated health data."""
 
     providers = list(
         domain_map.keys()
@@ -302,31 +315,22 @@ def update_provider_notes(
             {},
         )
 
-        status = str(
-            existing.get(
-                "status",
-                "untested",
-            )
-        ).strip().lower()
+        updated = dict(existing)
+        updated.setdefault("tested", False)
+        updated.setdefault("status", "untested")
+        updated.setdefault("manual_status", "")
+        updated.setdefault("auto_status", "untested")
+        updated.setdefault("notes", "")
 
-        if status not in VALID_STATUSES:
-            status = "untested"
+        updated["status"] = provider_status(
+            domain,
+            {domain: updated},
+        )
+        updated["notes"] = str(
+            updated.get("notes", "")
+        )
 
-        updated_notes[domain] = {
-            "tested": bool(
-                existing.get(
-                    "tested",
-                    False,
-                )
-            ),
-            "status": status,
-            "notes": str(
-                existing.get(
-                    "notes",
-                    "",
-                )
-            ),
-        }
+        updated_notes[domain] = updated
 
     NOTES_FILE.write_text(
         json.dumps(
