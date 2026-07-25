@@ -2,12 +2,14 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
+| 60 | `ftv.xyzstreams.st` |  |
 | 51 | `FREE3` | Works well |
 | 45 | `s.rocketdns.info:8080` | Works in Kodi |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 34 | `206.212.244.63` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 20 | `ftv.xyzstreams.st` |  |
+| 18 | `pannyockman.s3.us-east-1.amazonaws` |  |
+| 14 | `edgestream1.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
@@ -22,7 +24,6 @@
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
-| 6 | `edgestream1.pro` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -64,6 +65,7 @@
 | 2 | `cdn.telecloud.tv` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
 | 2 | `concordca.cablecast.tv` |  |
+| 2 | `edgestream2.pro` |  |
 | 2 | `install.akctvcontrol` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
 | 2 | `lin12.isilive.ca` |  |
