@@ -8,10 +8,9 @@
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 34 | `206.212.244.63` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 14 | `edgestream2.pro` |  |
+| 16 | `edgestream2.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `edgestream1.pro` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
@@ -19,12 +18,12 @@
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
 | 9 | `turnerlive.warnermediacdn` | All channels work in VLC |
+| 8 | `edgestream1.pro` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
-| 6 | `pannyockman.s3.us-east-1.amazonaws` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -78,6 +77,7 @@
 | 2 | `live.ntdtv` |  |
 | 2 | `livestream-us-east-edge-2.granicusops` |  |
 | 2 | `na.linear.zype` |  |
+| 2 | `norvillesouth.s3.us-east-1.amazonaws` |  |
 | 2 | `origin-http-delivery.isilive.ca` |  |
 | 2 | `rcavlive.akamaized.net` |  |
 | 2 | `reflect-brookline-interactive-group.cablecast.tv` |  |
@@ -234,7 +234,6 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
