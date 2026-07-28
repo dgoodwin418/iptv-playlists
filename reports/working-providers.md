@@ -2,23 +2,26 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 60 | `ftv.xyzstreams.st` |  |
-| 51 | `FREE3` | Works well |
-| 45 | `s.rocketdns.info:8080` | Works in Kodi |
+| 53 | `FREE3` | Works well |
+| 48 | `ftv.xyzstreams.st` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 34 | `206.212.244.63` | All of the tested channels worked in VLC |
+| 37 | `206.212.244.63` | All of the tested channels worked in VLC |
+| 27 | `s.rocketdns.info:8080` | Works in Kodi |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 16 | `edgestream2.pro` |  |
+| 18 | `norvillesouth.s3.us-east-1.amazonaws` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
+| 11 | `40.160.24.55` |  |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
+| 10 | `edgestream2.pro` |  |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
 | 9 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 8 | `edgestream1.pro` |  |
+| 8 | `gpuserver3.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
@@ -45,6 +48,7 @@
 | 4 | `www.bloomberg` |  |
 | 3 | `200.115.120.1:8000` |  |
 | 3 | `217.174.225.146` |  |
+| 3 | `40.160.24.53` |  |
 | 3 | `cdn-atxn-01.vos360.video` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
@@ -54,7 +58,6 @@
 | 2 | `145.239.5.177:80` |  |
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
-| 2 | `40.160.24.53` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
 | 2 | `api.v3.invintus` |  |
@@ -77,7 +80,6 @@
 | 2 | `live.ntdtv` |  |
 | 2 | `livestream-us-east-edge-2.granicusops` |  |
 | 2 | `na.linear.zype` |  |
-| 2 | `norvillesouth.s3.us-east-1.amazonaws` |  |
 | 2 | `origin-http-delivery.isilive.ca` |  |
 | 2 | `rcavlive.akamaized.net` |  |
 | 2 | `reflect-brookline-interactive-group.cablecast.tv` |  |
@@ -116,7 +118,9 @@
 | 1 | `23.239.31.26:8989` |  |
 | 1 | `247preview.foxnews` |  |
 | 1 | `247wlive.foxweather` |  |
-| 1 | `40.160.24.55` |  |
+| 1 | `40.160.24.52` |  |
+| 1 | `40.160.24.56` |  |
+| 1 | `40.160.24.58` |  |
 | 1 | `45.5.117.57:8200` |  |
 | 1 | `5.188.221.43:8080` |  |
 | 1 | `61ce5915.amazzin.pw` |  |
