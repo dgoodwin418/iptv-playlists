@@ -11,10 +11,14 @@ http://23.237.104.106:8080/USA_WGN/index.m3u8
 http://23.237.104.106:8080/USA_ACCN/mpegts
 #EXTINF:-1 tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s58321_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks",Big Ten Network HD
 http://23.237.104.106:8080/USA_BTN/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.Deportes.HD.us2" tvg-name="ESPN Deportes HD" tvg-logo="http://dtil.tmsimg.com/assets/s71914_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",ESPN Deportes HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2578.ts
 #EXTINF:-1 tvg-id="ESPN2.HD.us2" tvg-name="ESPN2 HD" tvg-logo="http://dtil.tmsimg.com/assets/s45507_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",ESPN2 HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21590.ts
 #EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPNU HD" tvg-logo="http://dtil.tmsimg.com/assets/s60696_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",ESPNU HD
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+#EXTINF:-1 tvg-id="Fox.Deportes.HD.us2" tvg-name="Fox Deportes HD" tvg-logo="http://dtil.tmsimg.com/assets/s15377_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",Fox Deportes HD
+http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV HD" tvg-logo="http://dtil.tmsimg.com/assets/s45526_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",NBA TV HD
 http://23.237.104.106:8080/USA_NBA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="NFL.Network.HD.us2" tvg-name="NFL Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s45399_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",NFL Network HD
@@ -37,8 +41,14 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3073.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3072.ts
 #EXTINF:-1 tvg-id="Sportsnet.One.ca2" tvg-name="Sportsnet One" tvg-logo="http://dtil.tmsimg.com/assets/s68858_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",Sportsnet One
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3071.ts
+#EXTINF:-1 tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1 HD" tvg-logo="https://tv.assets.pressassociation.io/f55b110f-8046-5273-a249-badfe915e918.png" group-title="Sports Networks",TNT Sports 1 HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2337.ts
 #EXTINF:-1 tvg-id="Willow.Cricket.HD.us2" tvg-name="Willow Cricket HD" tvg-logo="http://dtil.tmsimg.com/assets/s80621_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",Willow Cricket HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3972.ts
+#EXTINF:-1 tvg-id="beINSports1.au" tvg-name="beIN Sports 1" tvg-logo="https://www.fetchtv.com.au/v2/epg/channels/1004/image" group-title="Sports Networks  beIN",beIN Sports 1
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
+#EXTINF:-1 tvg-id="beIN.Sports.En.Español.HD.us2" tvg-name="beIN Sports En Español HD" tvg-logo="http://dtil.tmsimg.com/assets/s76955_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks  beIN",beIN Sports En Español HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21586.ts
 #EXTINF:-1 tvg-id="MSG.National.us2" tvg-name="MSG National" tvg-logo="http://dtil.tmsimg.com/assets/s10979_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks Regional",MSG National
 http://23.237.104.106:8080/USA_MSG/index.m3u8
 #EXTINF:-1 tvg-id="NBC.Sports.Boston.HD.us2" tvg-name="NBC Sports Boston HD" tvg-logo="http://dtil.tmsimg.com/assets/s49198_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks Regional",NBC Sports Boston HD
@@ -57,6 +67,8 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/512561.ts
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="CW.us2" tvg-name="CW" tvg-logo="http://dtil.tmsimg.com/assets/s145484_ll_h15_ab.png?w=360&amp;h=270" group-title="TV",CW
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3115.ts
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports Main Event" tvg-logo="https://images.open-epg.com/x468.png" group-title="TV",Sky Sports Main Event
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2185.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sports Premier League" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png" group-title="TV",Sky Sports Premier League
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2182.ts
 #EXTINF:-1 tvg-id="Sony.Movie.Channel.HD.us2" tvg-name="Sony Movie Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s69130_ll_h15_ab.png?w=360&amp;h=270" group-title="TV",Sony Movie Channel HD

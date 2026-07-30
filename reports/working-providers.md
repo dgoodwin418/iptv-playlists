@@ -3,15 +3,15 @@
 | Channels | Provider | Notes |
 |---:|---|---|
 | 60 | `ftv2.xyzstreams.st` |  |
-| 53 | `FREE3` | Works well |
+| 55 | `FREE3` | Works well |
+| 41 | `206.212.244.63` | All of the tested channels worked in VLC |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 38 | `206.212.244.63` | All of the tested channels worked in VLC |
-| 27 | `s.rocketdns.info:8080` | Works in Kodi |
+| 31 | `s.rocketdns.info:8080` | Works in Kodi |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 20 | `247v2.xyzstreams.st` |  |
-| 16 | `edgestream1.pro` |  |
+| 16 | `edgestream2.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
+| 12 | `edgestream1.pro` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `40.160.24.55` |  |
 | 11 | `cdntv.online` | All channels worked in VLC |
@@ -19,7 +19,6 @@
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
-| 8 | `edgestream2.pro` |  |
 | 8 | `gpuserver3.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `ponciothepe.s3.us-east-1.amazonaws` |  |
@@ -38,6 +37,7 @@
 | 5 | `fast-channels.sinclairstoryline` |  |
 | 5 | `PBS` |  |
 | 5 | `stream.cammonitorplus.net` |  |
+| 4 | `40.160.24.53` |  |
 | 4 | `api.toonamiaftermath.com:3000` |  |
 | 4 | `bloomberg` |  |
 | 4 | `cantv.streamguys1` |  |
@@ -49,7 +49,6 @@
 | 4 | `www.bloomberg` |  |
 | 3 | `200.115.120.1:8000` |  |
 | 3 | `217.174.225.146` |  |
-| 3 | `40.160.24.53` |  |
 | 3 | `cdn-atxn-01.vos360.video` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
@@ -106,6 +105,7 @@
 | 1 | `158.69.24.53:8080` |  |
 | 1 | `1657061170.rsc.cdn77` |  |
 | 1 | `179.60.224.196:8000` |  |
+| 1 | `181.119.108.43:9001` |  |
 | 1 | `1840769862.rsc.cdn77` |  |
 | 1 | `185.57.68.33` |  |
 | 1 | `185.57.68.33:80` |  |
@@ -239,7 +239,6 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
