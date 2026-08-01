@@ -2,25 +2,25 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
+| 58 | `ftv2.xyzstreams.st` |  |
 | 55 | `FREE3` | Works well |
 | 41 | `206.212.244.63` | All of the tested channels worked in VLC |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 38 | `ftv2.xyzstreams.st` |  |
-| 31 | `s.rocketdns.info:8080` | Works in Kodi |
+| 30 | `s.rocketdns.info:8080` | Works in Kodi |
+| 24 | `edgestream2.pro` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `balmy87.s3.us-east-1.amazonaws` |  |
-| 12 | `edgestream2.pro` |  |
+| 12 | `edgestream1.pro` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `40.160.24.55` |  |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
-| 10 | `edgestream1.pro` |  |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
-| 8 | `gpuserver3.tier1streams` |  |
+| 9 | `gpuserver3.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
@@ -239,7 +239,6 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
