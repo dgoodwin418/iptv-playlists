@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="BBC.News.(North.America).HD.us2" tvg-name="BBC News (North America) HD" tvg-logo="http://dtil.tmsimg.com/assets/s101449_ll_h15_ac.png?w=360&amp;h=270" group-title="News",BBC News (North America) HD
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="CNN.HD.us2" tvg-name="CNN HD" tvg-logo="http://dtil.tmsimg.com/assets/s58646_ll_h15_ac.png?w=360&amp;h=270" group-title="News",CNN HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2608.ts
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="HLN HD" tvg-logo="http://dtil.tmsimg.com/assets/s64549_ll_h15_ac.png?w=360&amp;h=270" group-title="News",HLN HD
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="The.Weather.Channel.HD.us2" tvg-name="The Weather Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s58812_ll_h15_aa.png?w=360&amp;h=270" group-title="News",The Weather Channel HD
@@ -46,7 +48,7 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2337.ts
 #EXTINF:-1 tvg-id="Willow.Cricket.HD.us2" tvg-name="Willow Cricket HD" tvg-logo="http://dtil.tmsimg.com/assets/s80621_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",Willow Cricket HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3972.ts
 #EXTINF:-1 tvg-id="beINSports1.au" tvg-name="beIN Sports 1" tvg-logo="https://www.fetchtv.com.au/v2/epg/channels/1004/image" group-title="Sports Networks  beIN",beIN Sports 1
-http://23.237.104.106:8080/USA_BEIN/index.m3u8
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21585.ts
 #EXTINF:-1 tvg-id="beIN.Sports.En.Español.HD.us2" tvg-name="beIN Sports En Español HD" tvg-logo="http://dtil.tmsimg.com/assets/s76955_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks  beIN",beIN Sports En Español HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21586.ts
 #EXTINF:-1 tvg-id="MSG.National.us2" tvg-name="MSG National" tvg-logo="http://dtil.tmsimg.com/assets/s10979_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks Regional",MSG National
@@ -79,6 +81,8 @@ http://23.237.104.106:8080/USA_WE_TV/index.m3u8
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2359.ts
 #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="ITV1 HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6504.png" group-title="UK Entertainment",ITV1 HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/527497.ts
+#EXTINF:-1 tvg-id="A.and.E.HD.East.us2" tvg-name="A and E HD East" tvg-logo="http://dtil.tmsimg.com/assets/s51529_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",A and E HD East
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3607.ts
 #EXTINF:-1 tvg-id="Animal.Planet.HD.us2" tvg-name="Animal Planet HD" tvg-logo="http://dtil.tmsimg.com/assets/s57394_ll_h9_ad.png?w=360&amp;h=270" group-title="US Entertainment",Animal Planet HD
 http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
 #EXTINF:-1 tvg-id="BBC.America.HD.us2" tvg-name="BBC America HD" tvg-logo="http://dtil.tmsimg.com/assets/s64492_ll_h15_aa.png?w=360&amp;h=270" group-title="US Entertainment",BBC America HD
@@ -117,6 +121,8 @@ http://23.237.104.106:8080/USA_FUSE/index.m3u8
 http://23.237.104.106:8080/USA_FX/index.m3u8
 #EXTINF:-1 tvg-id="FXX.HD.us2" tvg-name="FXX HD" tvg-logo="http://dtil.tmsimg.com/assets/s66379_ll_h9_aa.png?w=360&amp;h=270" group-title="US Entertainment",FXX HD
 http://23.237.104.106:8080/USA_FXX/index.m3u8
+#EXTINF:-1 tvg-id="Game.Show.Network.HD.us2" tvg-name="Game Show Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s68827_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Game Show Network HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648975.ts
 #EXTINF:-1 tvg-id="Hallmark.Channel.HD.us2" tvg-name="Hallmark Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s66268_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Hallmark Channel HD
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-name="LMN HD" tvg-logo="http://dtil.tmsimg.com/assets/s55887_ll_h15_ag.png?w=360&amp;h=270" group-title="US Entertainment",LMN HD

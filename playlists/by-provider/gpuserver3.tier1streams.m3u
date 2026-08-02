@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="BET.HD.us2" tvg-name="BET HD" tvg-logo="http://dtil.tmsimg.com/assets/s63236_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",BET HD
+https://gpuserver3.tier1streams.com/BET_EAST/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="TV",C-SPAN
 https://gpuserver3.tier1streams.com/C-SPAN_HD/index.m3u8
 #EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s59250_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks",CBS Sports Network HD
