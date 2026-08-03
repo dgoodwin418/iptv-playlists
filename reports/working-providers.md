@@ -8,15 +8,14 @@
 | 34 | `206.212.244.63` | All of the tested channels worked in VLC |
 | 34 | `s.rocketdns.info:8080` | Works in Kodi |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 22 | `carolevans.s3.us-east-1.amazonaws` |  |
-| 18 | `edgestream2.pro` |  |
-| 16 | `edgestream1.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `40.160.24.55` |  |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
+| 10 | `edgestream1.pro` |  |
+| 10 | `edgestream2.pro` |  |
 | 10 | `gpuserver3.tier1streams` |  |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
@@ -52,7 +51,6 @@
 | 3 | `cdn-atxn-01.vos360.video` |  |
 | 3 | `cdn.telecloud.tv` |  |
 | 3 | `cineverse.g-mana.live` |  |
-| 3 | `dms.redbull.tv` |  |
 | 3 | `edge1.lifestreamcdn` |  |
 | 3 | `livecdn.use1-0004.jwplive` |  |
 | 3 | `temp2.isilive.ca` |  |
@@ -67,6 +65,7 @@
 | 2 | `bit.ly` |  |
 | 2 | `bl.video.matchtv.ru` |  |
 | 2 | `buenapark.cablecast.tv` |  |
+| 2 | `carolevans.s3.us-east-1.amazonaws` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
 | 2 | `concordca.cablecast.tv` |  |
 | 2 | `install.akctvcontrol` |  |
@@ -175,6 +174,7 @@
 | 1 | `cloudflare.tv` |  |
 | 1 | `d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws` |  |
 | 1 | `dash2.antik.sk` |  |
+| 1 | `dms.redbull.tv` |  |
 | 1 | `drybar-drybarcomedy-1-au.samsung.wurl.tv` |  |
 | 1 | `drybar-drybarcomedy-1-ca.samsung.wurl.tv` |  |
 | 1 | `e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws` |  |
@@ -240,6 +240,7 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
+| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
