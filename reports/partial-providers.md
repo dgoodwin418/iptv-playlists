@@ -4,8 +4,8 @@
 |---:|---|---|
 | 24 | `dai.google` | Some of the chanels did not play in VLC |
 | 21 | `2-fss-2.streamhoster` | Some channels did not play in VLC |
+| 7 | `41.205.93.154` |  |
 | 7 | `bozztv` |  |
-| 5 | `41.205.93.154` |  |
 | 5 | `78.108.251.7` |  |
 | 5 | `stream.ads.ottera.tv` |  |
 | 4 | `agp-nimble.streamguys1` |  |

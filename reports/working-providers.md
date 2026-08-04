@@ -2,36 +2,36 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 58 | `ftv2.xyzstreams.st` |  |
 | 54 | `FREE3` | Works well |
+| 50 | `s.rocketdns.info:8080` | Works in Kodi |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 34 | `206.212.244.63` | All of the tested channels worked in VLC |
-| 34 | `s.rocketdns.info:8080` | Works in Kodi |
+| 32 | `ftv2.xyzstreams.st` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
+| 17 | `40.160.24.55` |  |
+| 17 | `gpuserver3.tier1streams` |  |
+| 14 | `carolevans.s3.us-east-1.amazonaws` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
+| 12 | `edgestream2.pro` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
-| 11 | `40.160.24.55` |  |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
-| 10 | `edgestream1.pro` |  |
-| 10 | `edgestream2.pro` |  |
-| 10 | `gpuserver3.tier1streams` |  |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
+| 7 | `40.160.24.53` |  |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
+| 6 | `edgestream1.pro` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
 | 6 | `tgn.bozztv` |  |
 | 5 | `3abn.bozztv` |  |
-| 5 | `40.160.24.53` |  |
 | 5 | `88.212.15.19` |  |
 | 5 | `cdn.whiplash.cc` |  |
 | 5 | `fast-channels.sinclairstoryline` |  |
@@ -48,8 +48,8 @@
 | 4 | `www.bloomberg` |  |
 | 3 | `200.115.120.1:8000` |  |
 | 3 | `217.174.225.146` |  |
+| 3 | `23.239.31.26:8989` |  |
 | 3 | `cdn-atxn-01.vos360.video` |  |
-| 3 | `cdn.telecloud.tv` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
 | 3 | `livecdn.use1-0004.jwplive` |  |
@@ -65,7 +65,7 @@
 | 2 | `bit.ly` |  |
 | 2 | `bl.video.matchtv.ru` |  |
 | 2 | `buenapark.cablecast.tv` |  |
-| 2 | `carolevans.s3.us-east-1.amazonaws` |  |
+| 2 | `cdn.telecloud.tv` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
 | 2 | `concordca.cablecast.tv` |  |
 | 2 | `install.akctvcontrol` |  |
@@ -116,7 +116,6 @@
 | 1 | `212.186.45.34:9981` |  |
 | 1 | `217.73.139.200:5443` |  |
 | 1 | `23.133.220.149` |  |
-| 1 | `23.239.31.26:8989` |  |
 | 1 | `247preview.foxnews` |  |
 | 1 | `247wlive.foxweather` |  |
 | 1 | `40.160.24.52` |  |
