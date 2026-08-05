@@ -131,6 +131,10 @@ https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
 https://3abn.bozztv.com/3abn2/Pro_live/smil:Pro_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FX.Movie.Channel.HD.us2" tvg-name="FX Movie Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s70253_ll_h15_aa.png?w=360&amp;h=270" group-title="40.160.24.52",FX Movie Channel HD
 http://40.160.24.52/FXM/index.m3u8
+#EXTINF:-1 tvg-id="Hallmark.Family.us2" tvg-name="Hallmark Family" tvg-logo="http://dtil.tmsimg.com/assets/s105723_ll_h15_ab.png?w=360&amp;h=270" group-title="40.160.24.53",Hallmark Family
+http://40.160.24.53/HALLMARK_DRAMA/index.m3u8
+#EXTINF:-1 tvg-id="Hallmark.Mystery.HD.us2" tvg-name="Hallmark Mystery HD" tvg-logo="http://dtil.tmsimg.com/assets/s46710_ll_h15_ab.png?w=360&amp;h=270" group-title="40.160.24.53",Hallmark Mystery HD
+http://40.160.24.53/HALLMARK_MOVIES_AND_MYSTERIES/index.m3u8
 #EXTINF:-1 tvg-id="HBO.East.us2" tvg-name="HBO East" tvg-logo="http://dtil.tmsimg.com/assets/s19548_ll_h15_aa.png?w=360&amp;h=270" group-title="40.160.24.53",HBO East
 http://40.160.24.53/HBO_HD/index.m3u8
 #EXTINF:-1 tvg-id="History.HD.us2" tvg-name="History HD" tvg-logo="http://dtil.tmsimg.com/assets/s57708_h3_ba.png?w=360&amp;h=270" group-title="40.160.24.53",History HD
@@ -173,6 +177,8 @@ http://40.160.24.55/STARZ_ENCORE/index.m3u8
 http://40.160.24.55/SUNDANCE/index.m3u8
 #EXTINF:-1 tvg-id="TSN.1.ca2" tvg-name="TSN 1" tvg-logo="http://dtil.tmsimg.com/assets/s11182_ll_h15_aa.png?w=360&amp;h=270" group-title="40.160.24.55",TSN 1
 http://40.160.24.55/TSN_1/index.m3u8
+#EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="TSN 2" tvg-logo="http://dtil.tmsimg.com/assets/s18990_ll_h15_ab.png?w=360&amp;h=270" group-title="40.160.24.55",TSN 2
+http://40.160.24.55/TSN_2/index.m3u8
 #EXTINF:-1 tvg-id="TV.Land.HD.us2" tvg-name="TV Land HD" tvg-logo="http://dtil.tmsimg.com/assets/s73541_ll_h15_aa.png?w=360&amp;h=270" group-title="40.160.24.55",TV Land HD
 http://40.160.24.55/TV_LAND/index.m3u8
 #EXTINF:-1 tvg-id="TV.ONE.HD.us2" tvg-name="TV ONE HD" tvg-logo="http://dtil.tmsimg.com/assets/s61960_ll_h15_ab.png?w=360&amp;h=270" group-title="40.160.24.55",TV ONE HD
@@ -181,6 +187,8 @@ http://40.160.24.55/TV_ONE/index.m3u8
 http://40.160.24.55/USA_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Dabl.us2" tvg-name="Dabl" tvg-logo="http://dtil.tmsimg.com/assets/s112157_ll_h15_ab.png?w=360&amp;h=270" group-title="40.160.24.56",Dabl
 http://40.160.24.56/DABL/index.m3u8
+#EXTINF:-1 tvg-id="Fox.Business.HD.us2" tvg-name="Fox Business HD" tvg-logo="http://dtil.tmsimg.com/assets/s58718_ll_h15_ac.png?w=360&amp;h=270" group-title="40.160.24.58",Fox Business HD
+http://40.160.24.58/FOX_BUSINESS_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="NBC.Sports.Bay.Area.HD.us2" tvg-name="NBC Sports Bay Area HD" tvg-logo="http://dtil.tmsimg.com/assets/s63138_ll_h15_ad.png?w=360&amp;h=270" group-title="40.160.24.58",NBC Sports Bay Area HD
 http://40.160.24.58/NBC_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ABC News Live" tvg-logo="" group-title="41.205.93.154",ABC News Live
@@ -227,6 +235,8 @@ http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
 http://88.212.15.19/live/test_sport1_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="SPORT.TV1.HD.pt" tvg-name="SPORT TV1 HD" tvg-logo="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FSPTV_1HD.png&amp;profile=ott_16_220x64&amp;client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&amp;format=image/png.pt" group-title="88.212.15.19",SPORT TV1 HD
 http://88.212.15.19/live/test_sport_2/playlist.m3u8
+#EXTINF:-1 tvg-id="Newsmax.TV.HD.us2" tvg-name="Newsmax TV HD" tvg-logo="http://dtil.tmsimg.com/assets/s97163_ll_h15_ab.png?w=360&amp;h=270" group-title="88.212.15.35:80",Newsmax TV HD
+http://88.212.15.35:80/newsmax/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Digi.Sport.2.HD.ro" tvg-name="Digi Sport 2 HD" tvg-logo="https://static.cinemagia.ro/img/tv/stations_logo/40/digi-sport-2-hd.jpg" group-title="91.201.172.14:35006",Digi Sport 2 HD
 http://91.201.172.14:35006/
 #EXTINF:-1 tvg-id="" tvg-name="Super Sport 1 🇦🇱" tvg-logo="" group-title="93.93.113.95:25461",Super Sport 1 🇦🇱
@@ -237,8 +247,6 @@ http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
 http://95.47.155.244:8001/play/a003
 #EXTINF:-1 tvg-id="beINSports1.au" tvg-name="beIN Sports 1" tvg-logo="https://www.fetchtv.com.au/v2/epg/channels/1004/image" group-title="99.27.51.147:8080",beIN Sports 1
 http://99.27.51.147:8080/BeinSport/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 1 France" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89738_dark_360w_270h.png" group-title="99.27.51.147:8080",beIN Sports 1 France
-http://99.27.51.147:8080/BeinSport/mpegts
 #EXTINF:-1 tvg-id="beINSports3.au" tvg-name="beIN Sports 3" tvg-logo="https://www.fetchtv.com.au/v2/epg/channels/1850/image" group-title="99.27.51.147:8080",beIN Sports 3
 http://99.27.51.147:8080/BeinSport3/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AWE Encore (#)" tvg-logo="" group-title="a-cdn.herringnetwork",AWE Encore (#)
@@ -397,20 +405,6 @@ https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8
 https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="City TV Capital City Connection" tvg-logo="" group-title="capitalcityconnection.cablecast.tv",City TV Capital City Connection
 https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Pittsburgh Pirates at Milwaukee Brewers (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="carolevans.s3.us-east-1.amazonaws",Pittsburgh Pirates at Milwaukee Brewers (SPRTSPASS)
-https://carolevans.s3.us-east-1.amazonaws.com/brewers.m3u8|referer=https://sportspass.site/mlb/brewers.html&origin=https://sportspass.site/mlb/brewers.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="San Diego Padres at Arizona Diamondbacks (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="carolevans.s3.us-east-1.amazonaws",San Diego Padres at Arizona Diamondbacks (SPRTSPASS)
-https://carolevans.s3.us-east-1.amazonaws.com/padres.m3u8|referer=https://sportspass.site/mlb/padres.html&origin=https://sportspass.site/mlb/padres.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="San Francisco Giants at Texas Rangers (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="carolevans.s3.us-east-1.amazonaws",San Francisco Giants at Texas Rangers (SPRTSPASS)
-https://carolevans.s3.us-east-1.amazonaws.com/rangers.m3u8|referer=https://sportspass.site/mlb/rangers.html&origin=https://sportspass.site/mlb/rangers.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="St. Louis Cardinals at New York Yankees (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="carolevans.s3.us-east-1.amazonaws",St. Louis Cardinals at New York Yankees (SPRTSPASS)
-https://carolevans.s3.us-east-1.amazonaws.com/yankees.m3u8|referer=https://sportspass.site/mlb/yankees.html&origin=https://sportspass.site/mlb/yankees.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Tampa Bay Rays at Colorado Rockies (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="carolevans.s3.us-east-1.amazonaws",Tampa Bay Rays at Colorado Rockies (SPRTSPASS)
-https://carolevans.s3.us-east-1.amazonaws.com/espn.m3u8|referer=https://sportspass.site/mlb/rays.html&origin=https://sportspass.site/mlb/rays.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Toronto Blue Jays at Houston Astros (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="carolevans.s3.us-east-1.amazonaws",Toronto Blue Jays at Houston Astros (SPRTSPASS)
-https://carolevans.s3.us-east-1.amazonaws.com/bluejays.m3u8|referer=https://sportspass.site/mlb/bluejays.html&origin=https://sportspass.site/mlb/bluejays.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Washington Nationals at Philadelphia Phillies (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="carolevans.s3.us-east-1.amazonaws",Washington Nationals at Philadelphia Phillies (SPRTSPASS)
-https://carolevans.s3.us-east-1.amazonaws.com/phillies.m3u8|referer=https://sportspass.site/mlb/phillies.html&origin=https://sportspass.site/mlb/phillies.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="ACTV" tvg-logo="" group-title="castus-vod-dev.s3.amazonaws",ACTV
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Akaku 53 Hawaii" tvg-logo="" group-title="castus-vod-dev.s3.amazonaws",Akaku 53 Hawaii
@@ -609,24 +603,32 @@ https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/cha
 https://edge1.lifestreamcdn.com/live/geb/playlist.m3u8
 #EXTINF:-1 tvg-id="Impact.Network.us2" tvg-name="Impact Network" tvg-logo="http://dtil.tmsimg.com/assets/s71798_ll_h15_ab.png?w=360&amp;h=270" group-title="edge1.lifestreamcdn",Impact Network
 https://edge1.lifestreamcdn.com/live/impactroku1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Pittsburgh Pirates @ Milwaukee Brewers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",Pittsburgh Pirates @ Milwaukee Brewers | English (STRMCNTR)
-https://edgestream1.pro/hls/ihfazugfyjcazich17.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="San Francisco Giants @ Texas Rangers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",San Francisco Giants @ Texas Rangers | English (STRMCNTR)
-https://edgestream1.pro/hls/Czajafjihafch18.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Toronto Blue Jays @ Houston Astros | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",Toronto Blue Jays @ Houston Astros | English (STRMCNTR)
+#EXTINF:-1 tvg-id="" tvg-name="Chicago White Sox @ Boston Red Sox | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",Chicago White Sox @ Boston Red Sox | English (STRMCNTR)
 https://edgestream1.pro/hls/jkzahzadach20.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Los Angeles Dodgers @ Chicago Cubs | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",Los Angeles Dodgers @ Chicago Cubs | English (STRMCNTR)
-https://edgestream2.pro/hls/bzagLHzach19.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Monday Night Raw | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="edgestream2.pro",Monday Night Raw | English (STRMCNTR)
-https://edgestream2.pro/hls/zeuryuegn48.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Phoenix Mercury @ Chicago Sky | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="edgestream2.pro",Phoenix Mercury @ Chicago Sky | English (STRMCNTR)
-https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="San Diego Padres @ Arizona Diamondbacks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",San Diego Padres @ Arizona Diamondbacks | English (STRMCNTR)
-https://edgestream2.pro/hls/ijfnakfidch22.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Seattle Storm @ New York Liberty | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="edgestream2.pro",Seattle Storm @ New York Liberty | English (STRMCNTR)
-https://edgestream2.pro/hls/ztyarueaghj71.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTINF:-1 tvg-id="" tvg-name="Tampa Bay Rays @ Colorado Rockies | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",Tampa Bay Rays @ Colorado Rockies | English (STRMCNTR)
+#EXTINF:-1 tvg-id="" tvg-name="Los Angeles Angels @ Baltimore Orioles | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",Los Angeles Angels @ Baltimore Orioles | English (STRMCNTR)
+https://edgestream1.pro/hls/dazhfiach15.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Los Angeles Dodgers @ Chicago Cubs | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",Los Angeles Dodgers @ Chicago Cubs | English (STRMCNTR)
+https://edgestream1.pro/hls/kjhfzua25.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Minnesota Twins @ Kansas City Royals | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",Minnesota Twins @ Kansas City Royals | English (STRMCNTR)
+https://edgestream1.pro/hls/jnzkdzjfanch23.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="St. Louis Cardinals @ New York Yankees | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",St. Louis Cardinals @ New York Yankees | English (STRMCNTR)
+https://edgestream1.pro/hls/bzagLHzach19.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Washington Nationals @ Philadelphia Phillies | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream1.pro",Washington Nationals @ Philadelphia Phillies | English (STRMCNTR)
+https://edgestream1.pro/hls/16yuitzaerghbhc16.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Detroit Tigers @ Seattle Mariners | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",Detroit Tigers @ Seattle Mariners | English (STRMCNTR)
+https://edgestream2.pro/hls/hefbafbakx28.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Jeju United vs Bayern Mnchen (Audi Summer Tour, Korea) | English (STRMCNTR)" tvg-logo="https://i.gyazo.com/1c4aa937f5ea01b0f29bb27adb59884c.png" group-title="edgestream2.pro",Jeju United vs Bayern Mnchen (Audi Summer Tour, Korea) | English (STRMCNTR)
+https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Miami Marlins @ Atlanta Braves | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",Miami Marlins @ Atlanta Braves | English (STRMCNTR)
 https://edgestream2.pro/hls/ojzkajnach21.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="New York Mets @ Cleveland Guardians | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",New York Mets @ Cleveland Guardians | English (STRMCNTR)
+https://edgestream2.pro/hls/Czajafjihafch18.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="San Diego Padres @ Arizona Diamondbacks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",San Diego Padres @ Arizona Diamondbacks | English (STRMCNTR)
+https://edgestream2.pro/hls/hfzljfahzcax29.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Tampa Bay Rays @ Colorado Rockies | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",Tampa Bay Rays @ Colorado Rockies | English (STRMCNTR)
+https://edgestream2.pro/hls/jzabfazkbf27.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Toronto Blue Jays @ Houston Astros | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="edgestream2.pro",Toronto Blue Jays @ Houston Astros | English (STRMCNTR)
+https://edgestream2.pro/hls/dzjhkfazbka26.m3u8|referer=https://streame.center&origin=https://streame.center&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="EKOL SPORTS 🇹🇷" tvg-logo="" group-title="ekoltv-live.ercdn.net",EKOL SPORTS 🇹🇷
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WHPS Detroit" tvg-logo="" group-title="f-tx-edge-87.christianworldmedia",WHPS Detroit
@@ -755,10 +757,36 @@ http://23.237.104.106:8080/USA_WE_TV/index.m3u8
 http://23.237.104.106:8080/USA_WGN/index.m3u8
 #EXTINF:-1 tvg-id="Yes.Network.us2" tvg-name="Yes Network" tvg-logo="http://dtil.tmsimg.com/assets/s30017_ll_h15_aa.png?w=360&amp;h=270" group-title="FREE3",Yes Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Athletics Athletics at Cincinnati Reds | CIN Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Athletics Athletics at Cincinnati Reds | CIN Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVCIN/B0008/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Chicago White Sox at Boston Red Sox | BOS Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Chicago White Sox at Boston Red Sox | BOS Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVBOS/B0005/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Chicago White Sox at Boston Red Sox | CHW Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Chicago White Sox at Boston Red Sox | CHW Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVCHW/B0007/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Detroit Tigers at Seattle Mariners | DET Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Detroit Tigers at Seattle Mariners | DET Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVDET/B0011/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Detroit Tigers at Seattle Mariners | SEA Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Detroit Tigers at Seattle Mariners | SEA Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVSEA/B0026/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Los Angeles Angels at Baltimore Orioles | BAL Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Los Angeles Angels at Baltimore Orioles | BAL Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVBAL/B0004/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Los Angeles Angels at Baltimore Orioles | LAA Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Los Angeles Angels at Baltimore Orioles | LAA Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVLAA/B0001/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="Los Angeles Dodgers at Chicago Cubs | CHC Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Los Angeles Dodgers at Chicago Cubs | CHC Feed (XYZ)
 https://ftv2.xyzstreams.st/MLBTVCHC/B0006/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="Los Angeles Dodgers at Chicago Cubs | LAD Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Los Angeles Dodgers at Chicago Cubs | LAD Feed (XYZ)
 https://ftv2.xyzstreams.st/MLBTVLAD/B0015/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Miami Marlins at Atlanta Braves | ATL Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Miami Marlins at Atlanta Braves | ATL Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVATL/B0003/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Miami Marlins at Atlanta Braves | MIA Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Miami Marlins at Atlanta Braves | MIA Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVMIA/B0012/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Minnesota Twins at Kansas City Royals | KC Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Minnesota Twins at Kansas City Royals | KC Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVKCR/B0014/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Minnesota Twins at Kansas City Royals | MIN Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Minnesota Twins at Kansas City Royals | MIN Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVMIN/B0017/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="New York Mets at Cleveland Guardians | CLE Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",New York Mets at Cleveland Guardians | CLE Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVCLE/B0009/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="New York Mets at Cleveland Guardians | NYM Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",New York Mets at Cleveland Guardians | NYM Feed (XYZ)
+https://ftv2.xyzstreams.st/MLBTVNYM/B0019/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="Pittsburgh Pirates at Milwaukee Brewers | MIL Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Pittsburgh Pirates at Milwaukee Brewers | MIL Feed (XYZ)
 https://ftv2.xyzstreams.st/MLBTVMIL/B0016/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="Pittsburgh Pirates at Milwaukee Brewers | PIT Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Pittsburgh Pirates at Milwaukee Brewers | PIT Feed (XYZ)
@@ -787,6 +815,8 @@ https://ftv2.xyzstreams.st/MLBTVTOR/B0030/master.m3u8|referer=https://xyzstreams
 https://ftv2.xyzstreams.st/MLBTVPHI/B0022/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="Washington Nationals at Philadelphia Phillies | WSH Feed (XYZ)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="ftv2.xyzstreams.st",Washington Nationals at Philadelphia Phillies | WSH Feed (XYZ)
 https://ftv2.xyzstreams.st/MLBTVWAS/B0018/master.m3u8|referer=https://xyzstreams.st/&origin=https://xyzstreams.st/&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Aspire" tvg-logo="https://i.gyazo.com/0dec42cc5ef48c489cc10db906dc5b9b.png" group-title="gpuserver3.tier1streams",Aspire
+https://gpuserver3.tier1streams.com/ASPIRE/index.m3u8
 #EXTINF:-1 tvg-id="BET.HD.us2" tvg-name="BET HD" tvg-logo="http://dtil.tmsimg.com/assets/s63236_ll_h15_ac.png?w=360&amp;h=270" group-title="gpuserver3.tier1streams",BET HD
 https://gpuserver3.tier1streams.com/BET_EAST/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="gpuserver3.tier1streams",C-SPAN
@@ -809,6 +839,8 @@ https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8
 https://gpuserver3.tier1streams.com/FLIX/index.m3u8
 #EXTINF:-1 tvg-id="Fox.Soccer.Plus.HD.us2" tvg-name="Fox Soccer Plus HD" tvg-logo="http://dtil.tmsimg.com/assets/s66880_ll_h15_aa.png?w=360&amp;h=270" group-title="gpuserver3.tier1streams",Fox Soccer Plus HD
 https://gpuserver3.tier1streams.com/FOX_SOCCER_PLUS/index.m3u8
+#EXTINF:-1 tvg-id="Game.Show.Network.HD.us2" tvg-name="Game Show Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s68827_ll_h15_ab.png?w=360&amp;h=270" group-title="gpuserver3.tier1streams",Game Show Network HD
+https://gpuserver3.tier1streams.com/GSN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="getTV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82563_dark_360w_270h.png" group-title="gpuserver3.tier1streams",getTV
 https://gpuserver3.tier1streams.com/GetTV/index.m3u8
 #EXTINF:-1 tvg-id="Golf.Channel.HD.us2" tvg-name="Golf Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG002RFQBE.png?w=360&amp;h=270" group-title="gpuserver3.tier1streams",Golf Channel HD
@@ -1019,6 +1051,34 @@ https://lotus.stingray.com/manifest/ose-237ads-montreal/samsungtvplus/master.m3u
 https://lotus.stingray.com/manifest/zenlife-zen001-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WGAL-DT3" tvg-logo="" group-title="lowa8026-cmyk.github.io",WGAL-DT3
 https://lowa8026-cmyk.github.io/iptv/WGAL-DT3/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Athletics at Cincinnati Reds (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Athletics at Cincinnati Reds (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/reds.m3u8|referer=https://sportspass.site/mlb/reds.html&origin=https://sportspass.site/mlb/reds.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Chicago White Sox at Boston Red Sox (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Chicago White Sox at Boston Red Sox (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/redsox.m3u8|referer=https://sportspass.site/mlb/redsox.html&origin=https://sportspass.site/mlb/redsox.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Detroit Tigers at Seattle Mariners (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Detroit Tigers at Seattle Mariners (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/tigers.m3u8|referer=https://sportspass.site/mlb/tigers.html&origin=https://sportspass.site/mlb/tigers.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Los Angeles Dodgers at Chicago Cubs (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Los Angeles Dodgers at Chicago Cubs (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/dodgers.m3u8|referer=https://sportspass.site/mlb/dodgers.html&origin=https://sportspass.site/mlb/dodgers.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Miami Marlins at Atlanta Braves (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Miami Marlins at Atlanta Braves (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/braves.m3u8|referer=https://sportspass.site/mlb/braves.html&origin=https://sportspass.site/mlb/braves.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Minnesota Twins at Kansas City Royals (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Minnesota Twins at Kansas City Royals (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/twins.m3u8|referer=https://sportspass.site/mlb/twins.html&origin=https://sportspass.site/mlb/twins.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="New York Mets at Cleveland Guardians (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",New York Mets at Cleveland Guardians (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/mets.m3u8|referer=https://sportspass.site/mlb/mets.html&origin=https://sportspass.site/mlb/mets.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Pittsburgh Pirates at Milwaukee Brewers (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Pittsburgh Pirates at Milwaukee Brewers (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/brewers.m3u8|referer=https://sportspass.site/mlb/brewers.html&origin=https://sportspass.site/mlb/brewers.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="San Diego Padres at Arizona Diamondbacks (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",San Diego Padres at Arizona Diamondbacks (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/padres.m3u8|referer=https://sportspass.site/mlb/padres.html&origin=https://sportspass.site/mlb/padres.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="San Francisco Giants at Texas Rangers (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",San Francisco Giants at Texas Rangers (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/rangers.m3u8|referer=https://sportspass.site/mlb/rangers.html&origin=https://sportspass.site/mlb/rangers.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="St. Louis Cardinals at New York Yankees (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",St. Louis Cardinals at New York Yankees (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/phillies.m3u8|referer=https://sportspass.site/mlb/yankees.html&origin=https://sportspass.site/mlb/yankees.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Tampa Bay Rays at Colorado Rockies (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Tampa Bay Rays at Colorado Rockies (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/rays.m3u8|referer=https://sportspass.site/mlb/rays.html&origin=https://sportspass.site/mlb/rays.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Toronto Blue Jays at Houston Astros (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Toronto Blue Jays at Houston Astros (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/bluejays.m3u8|referer=https://sportspass.site/mlb/bluejays.html&origin=https://sportspass.site/mlb/bluejays.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTINF:-1 tvg-id="" tvg-name="Washington Nationals at Philadelphia Phillies (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="mahioplan.s3.us-east-1.amazonaws",Washington Nationals at Philadelphia Phillies (SPRTSPASS)
+https://mahioplan.s3.us-east-1.amazonaws.com/phillies.m3u8|referer=https://sportspass.site/mlb/phillies.html&origin=https://sportspass.site/mlb/phillies.html&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTINF:-1 tvg-id="" tvg-name="Duck Hunting TV" tvg-logo="" group-title="main.duckhunting.playout.vju.tv",Duck Hunting TV
 https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Maverick Black Cinema" tvg-logo="" group-title="maverick-maverick-black-cinema-3-us.roku.wurl.tv",Maverick Black Cinema
@@ -1065,8 +1125,6 @@ https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
 https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kids Pacific" tvg-logo="" group-title="PBS",Kids Pacific
 https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Welcome to PlayZ TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyniKyW9pUz1OKx5bgzLASwGVSuP0e7hX9FxVMTJMHxhu8X0tpucgSplBZgM8pCYrJJH0P2_dTC1-wzp4mMUU4sKnOzghGPCwWdbYOOa4jTyhpr7ydNj-UK-bc56IMsk2H3WZJ-SzSZIk0dTpyABCFR2_zjC2_c86W1pv7odFBT_Y-hyJs62g-3zCJkPGd/s1024/1000398131.png" group-title="playztv.pages.dev",Welcome to PlayZ TV
-https://playztv.pages.dev/promo/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Holidayscapes" tvg-logo="" group-title="plextv.ott-channels.stingray",Holidayscapes
 https://plextv.ott-channels.stingray.com/holidayscapes/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Global Fashion Channel" tvg-logo="" group-title="pubgfc.teleosmedia",Global Fashion Channel
@@ -1251,8 +1309,6 @@ https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 https://rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8
 #EXTINF:-1 tvg-id="Altitude.Sports.us2" tvg-name="Altitude Sports" tvg-logo="http://dtil.tmsimg.com/assets/s44263_ll_h15_ab.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",Altitude Sports
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/332892.ts
-#EXTINF:-1 tvg-id="" tvg-name="Aspire" tvg-logo="https://i.gyazo.com/0dec42cc5ef48c489cc10db906dc5b9b.png" group-title="s.rocketdns.info:8080",Aspire
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21630.ts
 #EXTINF:-1 tvg-id="BBC.One.Lon.HD.uk" tvg-name="BBC One Lon HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3000.png" group-title="s.rocketdns.info:8080",BBC One Lon HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2359.ts
 #EXTINF:-1 tvg-id="beINSports1.au" tvg-name="beIN Sports 1" tvg-logo="https://www.fetchtv.com.au/v2/epg/channels/1004/image" group-title="s.rocketdns.info:8080",beIN Sports 1
@@ -1279,12 +1335,6 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21590.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2502.ts
 #EXTINF:-1 tvg-id="FYI.Channel.HD.us2" tvg-name="FYI Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s58988_ll_h15_aa.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",FYI Channel HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/30924.ts
-#EXTINF:-1 tvg-id="Game.Show.Network.HD.us2" tvg-name="Game Show Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s68827_ll_h15_ab.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",Game Show Network HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648975.ts
-#EXTINF:-1 tvg-id="Hallmark.Family.us2" tvg-name="Hallmark Family" tvg-logo="http://dtil.tmsimg.com/assets/s105723_ll_h15_ab.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",Hallmark Family
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/660922.ts
-#EXTINF:-1 tvg-id="Hallmark.Mystery.HD.us2" tvg-name="Hallmark Mystery HD" tvg-logo="http://dtil.tmsimg.com/assets/s46710_ll_h15_ab.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",Hallmark Mystery HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3653.ts
 #EXTINF:-1 tvg-id="HBO.Comedy.HD.us2" tvg-name="HBO Comedy HD" tvg-logo="http://dtil.tmsimg.com/assets/s59839_ll_h15_aa.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",HBO Comedy HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648977.ts
 #EXTINF:-1 tvg-id="ION.Television.HD.us2" tvg-name="ION Television HD" tvg-logo="http://dtil.tmsimg.com/assets/s18633_ll_h15_ad.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",ION Television HD
@@ -1301,8 +1351,6 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2435.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3769.ts
 #EXTINF:-1 tvg-id="New.England.Sports.Network.HD.us2" tvg-name="New England Sports Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s35038_ll_h15_ac.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",New England Sports Network HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/149310.ts
-#EXTINF:-1 tvg-id="Newsmax.TV.HD.us2" tvg-name="Newsmax TV HD" tvg-logo="http://dtil.tmsimg.com/assets/s97163_ll_h15_ab.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",Newsmax TV HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/647424.ts
 #EXTINF:-1 tvg-id="NewsNation.us2" tvg-name="NewsNation" tvg-logo="http://dtil.tmsimg.com/assets/s91096_ll_h15_af.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",NewsNation
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/647784.ts
 #EXTINF:-1 tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s58690_ll_h15_ac.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",NHL Network HD
@@ -1345,8 +1393,6 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/42308.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2594.ts
 #EXTINF:-1 tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1 HD" tvg-logo="https://tv.assets.pressassociation.io/f55b110f-8046-5273-a249-badfe915e918.png" group-title="s.rocketdns.info:8080",TNT Sports 1 HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2337.ts
-#EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="TSN 2" tvg-logo="http://dtil.tmsimg.com/assets/s18990_ll_h15_ab.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",TSN 2
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3145.ts
 #EXTINF:-1 tvg-id="Willow.Cricket.HD.us2" tvg-name="Willow Cricket HD" tvg-logo="http://dtil.tmsimg.com/assets/s80621_ll_h15_aa.png?w=360&amp;h=270" group-title="s.rocketdns.info:8080",Willow Cricket HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3972.ts
 #EXTINF:-1 tvg-id="" tvg-name="California Medios TV" tvg-logo="" group-title="s5.mexside.net:1936",California Medios TV
@@ -1503,6 +1549,8 @@ https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_356
 https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="Turner.Classic.Movies.HD.us2" tvg-name="Turner Classic Movies HD" tvg-logo="http://dtil.tmsimg.com/assets/s64312_ll_h15_ab.png?w=360&amp;h=270" group-title="turnerlive.warnermediacdn",Turner Classic Movies HD
 https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 1 France" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89738_dark_360w_270h.png" group-title="tv.streamboxtv.cc:443",beIN Sports 1 France
+https://tv.streamboxtv.cc:443/testlivestream/testlivestream/4194
 #EXTINF:-1 tvg-id="" tvg-name="Матч! 🇷🇺" tvg-logo="" group-title="tv.tuva.ru",Матч! 🇷🇺
 http://tv.tuva.ru/machtv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WWON TV CH 48" tvg-logo="" group-title="tv2.fastcast4u.com:3943",WWON TV CH 48

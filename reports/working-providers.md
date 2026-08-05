@@ -2,31 +2,31 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
+| 58 | `ftv2.xyzstreams.st` |  |
 | 54 | `FREE3` | Works well |
-| 50 | `s.rocketdns.info:8080` | Works in Kodi |
+| 44 | `s.rocketdns.info:8080` | Works in Kodi |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 32 | `ftv2.xyzstreams.st` |  |
+| 28 | `mahioplan.s3.us-east-1.amazonaws` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 17 | `40.160.24.55` |  |
-| 17 | `gpuserver3.tier1streams` |  |
-| 14 | `carolevans.s3.us-east-1.amazonaws` |  |
+| 19 | `gpuserver3.tier1streams` |  |
+| 18 | `40.160.24.55` |  |
+| 14 | `edgestream2.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `edgestream2.pro` |  |
+| 12 | `edgestream1.pro` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
+| 9 | `40.160.24.53` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
-| 7 | `40.160.24.53` |  |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
-| 6 | `edgestream1.pro` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -58,6 +58,7 @@
 | 2 | `145.239.5.177:80` |  |
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
+| 2 | `40.160.24.58` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
 | 2 | `api.v3.invintus` |  |
@@ -120,13 +121,13 @@
 | 1 | `247wlive.foxweather` |  |
 | 1 | `40.160.24.52` |  |
 | 1 | `40.160.24.56` |  |
-| 1 | `40.160.24.58` |  |
 | 1 | `45.190.28.50` |  |
 | 1 | `45.5.117.57:8200` |  |
 | 1 | `5.188.221.43:8080` |  |
 | 1 | `61ce5915.amazzin.pw` |  |
 | 1 | `65.36.6.216:1935` |  |
 | 1 | `82934cf9c8696bd2.mediapackage.us-east-1.amazonaws` |  |
+| 1 | `88.212.15.35:80` |  |
 | 1 | `91.201.172.14:35006` |  |
 | 1 | `95.47.155.244:8001` |  |
 | 1 | `africa24.vedge.infomaniak` |  |
@@ -239,7 +240,6 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
@@ -266,6 +266,7 @@
 | 1 | `thisoldhouse-2-us.roku.wurl.tv` |  |
 | 1 | `tkx.mp.lura.live` |  |
 | 1 | `tulixcdn.akamaized.net` |  |
+| 1 | `tv.streamboxtv.cc:443` |  |
 | 1 | `tv.tuva.ru` |  |
 | 1 | `tv2.fastcast4u.com:3943` |  |
 | 1 | `tv91.hostingnuclear.com:19360` |  |
