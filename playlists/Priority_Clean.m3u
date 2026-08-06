@@ -5,18 +5,12 @@ http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2608.ts
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="HLN HD" tvg-logo="http://dtil.tmsimg.com/assets/s64549_ll_h15_ac.png?w=360&amp;h=270" group-title="News",HLN HD
 http://23.237.104.106:8080/USA_HLN/index.m3u8
-#EXTINF:-1 tvg-id="NewsNation.us2" tvg-name="NewsNation" tvg-logo="http://dtil.tmsimg.com/assets/s91096_ll_h15_af.png?w=360&amp;h=270" group-title="News",NewsNation
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/647784.ts
-#EXTINF:-1 tvg-id="The.Weather.Channel.HD.us2" tvg-name="The Weather Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s58812_ll_h15_aa.png?w=360&amp;h=270" group-title="News",The Weather Channel HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/42308.ts
 #EXTINF:-1 tvg-id="" tvg-name="WGN 9 Chicago (#)" tvg-logo="" group-title="Other",WGN 9 Chicago (#)
 http://23.237.104.106:8080/USA_WGN/index.m3u8
 #EXTINF:-1 tvg-id="ACC.Network.us2" tvg-name="ACC Network" tvg-logo="http://dtil.tmsimg.com/assets/s111871_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks",ACC Network
 http://23.237.104.106:8080/USA_ACCN/mpegts
 #EXTINF:-1 tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s58321_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks",Big Ten Network HD
 http://23.237.104.106:8080/USA_BTN/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.Deportes.HD.us2" tvg-name="ESPN Deportes HD" tvg-logo="http://dtil.tmsimg.com/assets/s71914_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",ESPN Deportes HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2578.ts
 #EXTINF:-1 tvg-id="ESPN.HD.us2" tvg-name="ESPN HD" tvg-logo="http://dtil.tmsimg.com/assets/s32645_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",ESPN HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3636.ts
 #EXTINF:-1 tvg-id="ESPN2.HD.us2" tvg-name="ESPN2 HD" tvg-logo="http://dtil.tmsimg.com/assets/s45507_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",ESPN2 HD
@@ -25,12 +19,12 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21590.ts
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 #EXTINF:-1 tvg-id="Fox.Deportes.HD.us2" tvg-name="Fox Deportes HD" tvg-logo="http://dtil.tmsimg.com/assets/s15377_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",Fox Deportes HD
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
+#EXTINF:-1 tvg-id="MLB.Network.Strike.Zone.HD.us2" tvg-name="MLB Network Strike Zone HD" tvg-logo="http://dtil.tmsimg.com/assets/s75220_ll_h6_aa.png?w=360&amp;h=270" group-title="Sports Networks",MLB Network Strike Zone HD
+http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV HD" tvg-logo="http://dtil.tmsimg.com/assets/s45526_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",NBA TV HD
 http://23.237.104.106:8080/USA_NBA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="NFL.Network.HD.us2" tvg-name="NFL Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s45399_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",NFL Network HD
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s58690_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks",NHL Network HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3672.ts
 #EXTINF:-1 tvg-id="Premier.Sports.1.HD.uk" tvg-name="Premier Sports 1 HD" tvg-logo="https://cdn.tv-guide.future.sensi.link/images/channel/02fe4bd6-cea9-5696-8025-d81cdb571639/logo.png" group-title="Sports Networks",Premier Sports 1 HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/89089.ts
 #EXTINF:-1 tvg-id="Premier.Sports.2.HD.uk" tvg-name="Premier Sports 2 HD" tvg-logo="https://cdn.tv-guide.future.sensi.link/images/channel/3ea27dc2-561b-5932-8aad-cc26b53ae3f8/logo.png" group-title="Sports Networks",Premier Sports 2 HD
@@ -63,8 +57,6 @@ http://23.237.104.106:8080/USA_MSG/index.m3u8
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2435.ts
 #EXTINF:-1 tvg-id="NBC.Sports.Philadelphia.HD.us2" tvg-name="NBC Sports Philadelphia HD" tvg-logo="http://dtil.tmsimg.com/assets/s32571_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks Regional",NBC Sports Philadelphia HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3769.ts
-#EXTINF:-1 tvg-id="New.England.Sports.Network.HD.us2" tvg-name="New England Sports Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s35038_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks Regional",New England Sports Network HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/149310.ts
 #EXTINF:-1 tvg-id="Space.City.Home.Network.HD.us2" tvg-name="Space City Home Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s77744_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks Regional",Space City Home Network HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/663927.ts
 #EXTINF:-1 tvg-id="Spectrum.SportsNet.LA.Dodgers.HD.us2" tvg-name="Spectrum SportsNet LA Dodgers HD" tvg-logo="http://dtil.tmsimg.com/assets/s87024_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks Regional",Spectrum SportsNet LA Dodgers HD
@@ -74,15 +66,11 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/512561.ts
 #EXTINF:-1 tvg-id="Yes.Network.us2" tvg-name="Yes Network" tvg-logo="http://dtil.tmsimg.com/assets/s30017_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks Regional",Yes Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="ION.Television.HD.us2" tvg-name="ION Television HD" tvg-logo="http://dtil.tmsimg.com/assets/s18633_ll_h15_ad.png?w=360&amp;h=270" group-title="TV",ION Television HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/555699.ts
-#EXTINF:-1 tvg-id="" tvg-name="NBC News NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114174_light_360w_270h.png" group-title="TV",NBC News NOW
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/638808.ts
+http://23.237.104.106:8080/USA_ION/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sports Main Event" tvg-logo="https://images.open-epg.com/x468.png" group-title="TV",Sky Sports Main Event
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2185.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sports Premier League" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png" group-title="TV",Sky Sports Premier League
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2182.ts
-#EXTINF:-1 tvg-id="Sony.Movie.Channel.HD.us2" tvg-name="Sony Movie Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s69130_ll_h15_ab.png?w=360&amp;h=270" group-title="TV",Sony Movie Channel HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2412.ts
 #EXTINF:-1 tvg-id="" tvg-name="STV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117217_dark_360w_270h.png" group-title="TV",STV
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2168.ts
 #EXTINF:-1 tvg-id="WE.tv.HD.us2" tvg-name="WE tv HD" tvg-logo="http://dtil.tmsimg.com/assets/s59296_ll_h15_ab.png?w=360&amp;h=270" group-title="TV",WE tv HD
@@ -115,8 +103,6 @@ http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2598.ts
 #EXTINF:-1 tvg-id="Discovery.Life.Channel.us2" tvg-name="Discovery Life Channel" tvg-logo="http://dtil.tmsimg.com/assets/s16125_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",Discovery Life Channel
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2597.ts
-#EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="Disney Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s59684_ll_h15_ae.png?w=360&amp;h=270" group-title="US Entertainment",Disney Channel HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3630.ts
 #EXTINF:-1 tvg-id="Disney.Junior.HD.us2" tvg-name="Disney Junior HD" tvg-logo="http://dtil.tmsimg.com/assets/s74885_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",Disney Junior HD
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1 tvg-id="Disney.XD.HD.us2" tvg-name="Disney XD HD" tvg-logo="http://dtil.tmsimg.com/assets/s60006_ll_h15_aa.png?w=360&amp;h=270" group-title="US Entertainment",Disney XD HD
@@ -125,8 +111,6 @@ http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:-1 tvg-id="Food.Network.HD.us2" tvg-name="Food Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s50747_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Food Network HD
 http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="Freeform.HD.us2" tvg-name="Freeform HD" tvg-logo="http://dtil.tmsimg.com/assets/s59615_ll_h15_ae.png?w=360&amp;h=270" group-title="US Entertainment",Freeform HD
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2502.ts
 #EXTINF:-1 tvg-id="Fuse.HD.us2" tvg-name="Fuse HD" tvg-logo="http://dtil.tmsimg.com/assets/s59116_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",Fuse HD
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 tvg-id="FX.HD.us2" tvg-name="FX HD" tvg-logo="http://dtil.tmsimg.com/assets/s58574_h3_aa.png?w=360&amp;h=270" group-title="US Entertainment",FX HD
@@ -145,8 +129,6 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/721378.ts
 http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.HD.us2" tvg-name="Nickelodeon HD" tvg-logo="http://dtil.tmsimg.com/assets/s59432_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",Nickelodeon HD
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.us2" tvg-name="Nicktoons" tvg-logo="http://dtil.tmsimg.com/assets/s30420_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Nicktoons
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3674.ts
 #EXTINF:-1 tvg-id="Outdoor.Channel.HD.us2" tvg-name="Outdoor Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s46737_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Outdoor Channel HD
 http://23.237.104.106:8080/USA_OUTDOOR/mpegts
 #EXTINF:-1 tvg-id="Paramount.Network.HD.us2" tvg-name="Paramount Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s59186_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",Paramount Network HD

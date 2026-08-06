@@ -2,31 +2,31 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 58 | `ftv2.xyzstreams.st` |  |
-| 54 | `FREE3` | Works well |
-| 44 | `s.rocketdns.info:8080` | Works in Kodi |
+| 58 | `ftv.xyzstreams.st` |  |
+| 57 | `FREE3` | Works well |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 28 | `mahioplan.s3.us-east-1.amazonaws` |  |
+| 32 | `s.rocketdns.info:8080` | Works in Kodi |
+| 26 | `gpuserver3.tier1streams` |  |
+| 23 | `40.160.24.55` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 19 | `gpuserver3.tier1streams` |  |
-| 18 | `40.160.24.55` |  |
-| 14 | `edgestream2.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `edgestream1.pro` |  |
+| 12 | `edgestream2.pro` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
+| 10 | `40.160.24.53` |  |
+| 10 | `edgestream1.pro` |  |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
-| 9 | `40.160.24.53` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
+| 6 | `mahioplan.s3.us-east-1.amazonaws` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -49,6 +49,7 @@
 | 3 | `200.115.120.1:8000` |  |
 | 3 | `217.174.225.146` |  |
 | 3 | `23.239.31.26:8989` |  |
+| 3 | `40.160.24.58` |  |
 | 3 | `cdn-atxn-01.vos360.video` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
@@ -58,7 +59,6 @@
 | 2 | `145.239.5.177:80` |  |
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
-| 2 | `40.160.24.58` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
 | 2 | `api.v3.invintus` |  |
@@ -184,6 +184,7 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
+| 1 | `gpuserver7.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
 | 1 | `hls.savoir.media` |  |
@@ -240,6 +241,7 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
+| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |

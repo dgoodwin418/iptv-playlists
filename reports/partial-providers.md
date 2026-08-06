@@ -21,4 +21,5 @@
 | 2 | `reflect-ccx.cablecast.tv` |  |
 | 2 | `reflect-temecula.cablecast.tv` |  |
 | 2 | `rgelive.akamaized.net` |  |
+| 2 | `sra72yz.s.gy` |  |
 | 2 | `thegateway.app` |  |
