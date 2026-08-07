@@ -2,31 +2,32 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 58 | `ftv.xyzstreams.st` |  |
-| 57 | `FREE3` | Works well |
+| 59 | `FREE3` | Works well |
+| 42 | `ftv.xyzstreams.st` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 32 | `s.rocketdns.info:8080` | Works in Kodi |
-| 26 | `gpuserver3.tier1streams` |  |
-| 23 | `40.160.24.55` |  |
+| 33 | `s.rocketdns.info:8080` | Works in Kodi |
+| 28 | `gpuserver3.tier1streams` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
+| 17 | `gpuserver5.tier1streams` |  |
+| 14 | `edgestream2.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `edgestream2.pro` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 11 | `jmp2.uk` | All channels worked in VLC |
-| 10 | `40.160.24.53` |  |
-| 10 | `edgestream1.pro` |  |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
+| 9 | `ftv.itscwd273.workers.dev` |  |
+| 8 | `edgestream1.pro` |  |
+| 8 | `gpuserver4.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
+| 8 | `mahioplan.s3.us-east-1.amazonaws` |  |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
-| 6 | `mahioplan.s3.us-east-1.amazonaws` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -43,13 +44,12 @@
 | 4 | `cdn-unified-hls.streamspot` |  |
 | 4 | `cdn.igocast` |  |
 | 4 | `citynewsregional.akamaized.net` |  |
+| 4 | `gpuserver7.tier1streams` |  |
 | 4 | `reflect-bayarea.cablecast.tv` |  |
 | 4 | `reflect-creatv.cablecast.tv` |  |
 | 4 | `www.bloomberg` |  |
 | 3 | `200.115.120.1:8000` |  |
 | 3 | `217.174.225.146` |  |
-| 3 | `23.239.31.26:8989` |  |
-| 3 | `40.160.24.58` |  |
 | 3 | `cdn-atxn-01.vos360.video` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
@@ -117,17 +117,14 @@
 | 1 | `212.186.45.34:9981` |  |
 | 1 | `217.73.139.200:5443` |  |
 | 1 | `23.133.220.149` |  |
+| 1 | `23.239.31.26:8989` |  |
 | 1 | `247preview.foxnews` |  |
 | 1 | `247wlive.foxweather` |  |
-| 1 | `40.160.24.52` |  |
-| 1 | `40.160.24.56` |  |
-| 1 | `45.190.28.50` |  |
 | 1 | `45.5.117.57:8200` |  |
 | 1 | `5.188.221.43:8080` |  |
 | 1 | `61ce5915.amazzin.pw` |  |
 | 1 | `65.36.6.216:1935` |  |
 | 1 | `82934cf9c8696bd2.mediapackage.us-east-1.amazonaws` |  |
-| 1 | `88.212.15.35:80` |  |
 | 1 | `91.201.172.14:35006` |  |
 | 1 | `95.47.155.244:8001` |  |
 | 1 | `africa24.vedge.infomaniak` |  |
@@ -145,6 +142,7 @@
 | 1 | `amogonetworx-grjngo-3-dk.samsung.wurl.tv` |  |
 | 1 | `avm.ecuamedia.net` |  |
 | 1 | `aym-as.otteravision` |  |
+| 1 | `bigboss.bemtv.cn` |  |
 | 1 | `brightstar-arabic-pull-secure.akamaized.net` |  |
 | 1 | `brightstar-chinese-pull-secure.akamaized.net` |  |
 | 1 | `brightstar-hislight-pull-secure.akamaized.net` |  |
@@ -184,7 +182,6 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
-| 1 | `gpuserver7.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
 | 1 | `hls.savoir.media` |  |
@@ -241,7 +238,6 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
@@ -250,6 +246,7 @@
 | 1 | `reflect-tacm.cablecast.tv` |  |
 | 1 | `reflector.watchtstv` |  |
 | 1 | `rmtv.akamaized.net` |  |
+| 1 | `rtmp.antik.sk` |  |
 | 1 | `s5.mexside.net:1936` |  |
 | 1 | `stitcher.pluto.tv` |  |
 | 1 | `stream-losangeles.scientology` |  |
@@ -268,7 +265,6 @@
 | 1 | `thisoldhouse-2-us.roku.wurl.tv` |  |
 | 1 | `tkx.mp.lura.live` |  |
 | 1 | `tulixcdn.akamaized.net` |  |
-| 1 | `tv.streamboxtv.cc:443` |  |
 | 1 | `tv.tuva.ru` |  |
 | 1 | `tv2.fastcast4u.com:3943` |  |
 | 1 | `tv91.hostingnuclear.com:19360` |  |
