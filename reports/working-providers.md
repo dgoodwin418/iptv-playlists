@@ -3,13 +3,15 @@
 | Channels | Provider | Notes |
 |---:|---|---|
 | 59 | `FREE3` | Works well |
-| 42 | `ftv.xyzstreams.st` |  |
+| 58 | `ftv.xyzstreams.st` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 33 | `s.rocketdns.info:8080` | Works in Kodi |
-| 28 | `gpuserver3.tier1streams` |  |
+| 32 | `s.rocketdns.info:8080` | Works in Kodi |
+| 30 | `hardwickasx.s3.us-east-1.amazonaws` |  |
+| 26 | `gpuserver3.tier1streams` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
 | 17 | `gpuserver5.tier1streams` |  |
-| 14 | `edgestream2.pro` |  |
+| 16 | `edgestream1.pro` |  |
+| 16 | `edgestream2.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
@@ -18,11 +20,8 @@
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
-| 9 | `ftv.itscwd273.workers.dev` |  |
-| 8 | `edgestream1.pro` |  |
 | 8 | `gpuserver4.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
-| 8 | `mahioplan.s3.us-east-1.amazonaws` |  |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
@@ -59,6 +58,7 @@
 | 2 | `145.239.5.177:80` |  |
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
+| 2 | `23.239.31.26:8989` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
 | 2 | `api.v3.invintus` |  |
@@ -117,7 +117,6 @@
 | 1 | `212.186.45.34:9981` |  |
 | 1 | `217.73.139.200:5443` |  |
 | 1 | `23.133.220.149` |  |
-| 1 | `23.239.31.26:8989` |  |
 | 1 | `247preview.foxnews` |  |
 | 1 | `247wlive.foxweather` |  |
 | 1 | `45.5.117.57:8200` |  |
@@ -158,6 +157,7 @@
 | 1 | `catholictvhd-lh.akamaized.net` |  |
 | 1 | `cbsn-mia.cbsnstream.cbsnews` |  |
 | 1 | `cdn-shop-lc-01.akamaized.net` |  |
+| 1 | `cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net` |  |
 | 1 | `cdn.jwplayer` |  |
 | 1 | `cdn3.toronto360.tv:8081` |  |
 | 1 | `cdn6.163189` |  |
@@ -182,6 +182,7 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
+| 1 | `gpuserver6.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
 | 1 | `hls.savoir.media` |  |
@@ -197,6 +198,7 @@
 | 1 | `k20.usastreams.com:8081` |  |
 | 1 | `kwtspta.cdn.mangomolo` |  |
 | 1 | `langleyproductions-cops-2-eu.rakuten.wurl.tv` |  |
+| 1 | `lecteur.iconetv.bj` |  |
 | 1 | `lin10.isilive.ca` |  |
 | 1 | `lin13.isilive.ca` |  |
 | 1 | `linear-1016.frequency.stream` |  |
@@ -222,6 +224,7 @@
 | 1 | `livehub-voidnet.onrender` |  |
 | 1 | `livetr.teleromagna.it` |  |
 | 1 | `livetv.305streamhd.com:3504` |  |
+| 1 | `lnmlive` |  |
 | 1 | `lowa8026-cmyk.github.io` |  |
 | 1 | `main.duckhunting.playout.vju.tv` |  |
 | 1 | `maverick-maverick-black-cinema-3-us.roku.wurl.tv` |  |
@@ -238,6 +241,7 @@
 | 1 | `pb-jc9emctsujawo.akamaized.net` |  |
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
+| 1 | `playtv4k.live` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
@@ -248,9 +252,11 @@
 | 1 | `rmtv.akamaized.net` |  |
 | 1 | `rtmp.antik.sk` |  |
 | 1 | `s5.mexside.net:1936` |  |
+| 1 | `spoo.me` |  |
 | 1 | `stitcher.pluto.tv` |  |
 | 1 | `stream-losangeles.scientology` |  |
 | 1 | `stream-tampa.scientology` |  |
+| 1 | `stream.hc2tv.bj` |  |
 | 1 | `stream.missiontv.com:1935` |  |
 | 1 | `stream.pardesitv.online` |  |
 | 1 | `stream.qaztv.kz` |  |
@@ -268,6 +274,8 @@
 | 1 | `tv.tuva.ru` |  |
 | 1 | `tv2.fastcast4u.com:3943` |  |
 | 1 | `tv91.hostingnuclear.com:19360` |  |
+| 1 | `tvsen5.aynascope.net` |  |
+| 1 | `tvsen6.aynaott` |  |
 | 1 | `ua.online24.pm` |  |
 | 1 | `unlimited6-cl.dps.live` |  |
 | 1 | `v2.siar.us` |  |
