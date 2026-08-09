@@ -2,16 +2,16 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 59 | `FREE3` | Works well |
-| 58 | `ftv.xyzstreams.st` |  |
+| 60 | `FREE3` | Works well |
+| 60 | `ftv.xyzstreams.st` |  |
+| 45 | `s.rocketdns.info:8080` | Works in Kodi |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 32 | `s.rocketdns.info:8080` | Works in Kodi |
-| 30 | `hardwickasx.s3.us-east-1.amazonaws` |  |
-| 26 | `gpuserver3.tier1streams` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
+| 22 | `edgestream2.pro` |  |
+| 20 | `hardwickasx.s3.us-east-1.amazonaws` |  |
+| 19 | `gpuserver3.tier1streams` |  |
+| 18 | `edgestream1.pro` |  |
 | 17 | `gpuserver5.tier1streams` |  |
-| 16 | `edgestream1.pro` |  |
-| 16 | `edgestream2.pro` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
@@ -141,7 +141,6 @@
 | 1 | `amogonetworx-grjngo-3-dk.samsung.wurl.tv` |  |
 | 1 | `avm.ecuamedia.net` |  |
 | 1 | `aym-as.otteravision` |  |
-| 1 | `bigboss.bemtv.cn` |  |
 | 1 | `brightstar-arabic-pull-secure.akamaized.net` |  |
 | 1 | `brightstar-chinese-pull-secure.akamaized.net` |  |
 | 1 | `brightstar-hislight-pull-secure.akamaized.net` |  |
@@ -242,6 +241,7 @@
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
 | 1 | `playtv4k.live` |  |
+| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |

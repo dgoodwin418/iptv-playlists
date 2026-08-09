@@ -13,8 +13,8 @@
 | 4 | `live20.bozztv` |  |
 | 4 | `unlimited1-us.dps.live` |  |
 | 3 | `30a-tv` |  |
+| 3 | `99.27.51.147:8080` |  |
 | 3 | `cdn.jaybirdtv` |  |
-| 2 | `99.27.51.147:8080` |  |
 | 2 | `cdnapisec.kaltura` |  |
 | 2 | `fl1002.bozztv` |  |
 | 2 | `live.seminolecountyfl.gov` |  |

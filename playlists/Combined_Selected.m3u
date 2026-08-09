@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="BBC.News.(North.America).HD.us2" tvg-name="BBC News (North America) HD" tvg-logo="http://dtil.tmsimg.com/assets/s101449_ll_h15_ac.png?w=360&amp;h=270" group-title="News",BBC News (North America) HD
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="Cheddar.us2" tvg-name="Cheddar" tvg-logo="http://dtil.tmsimg.com/assets/s109333_ll_h15_ae.png?w=360&amp;h=270" group-title="News",Cheddar
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2616.ts
+#EXTINF:-1 tvg-id="CNBC.World.us2" tvg-name="CNBC World" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG002NF46H.png?w=360&amp;h=270" group-title="News",CNBC World
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3716.ts
 #EXTINF:-1 tvg-id="HLN.HD.us2" tvg-name="HLN HD" tvg-logo="http://dtil.tmsimg.com/assets/s64549_ll_h15_ac.png?w=360&amp;h=270" group-title="News",HLN HD
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WGN 9 Chicago (#)" tvg-logo="" group-title="Other",WGN 9 Chicago (#)
@@ -13,6 +17,8 @@ http://23.237.104.106:8080/USA_BTN/index.m3u8
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21590.ts
 #EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPNU HD" tvg-logo="http://dtil.tmsimg.com/assets/s60696_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",ESPNU HD
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+#EXTINF:-1 tvg-id="Fox.Deportes.HD.us2" tvg-name="Fox Deportes HD" tvg-logo="http://dtil.tmsimg.com/assets/s15377_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",Fox Deportes HD
+http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 tvg-id="MLB.Network.Strike.Zone.HD.us2" tvg-name="MLB Network Strike Zone HD" tvg-logo="http://dtil.tmsimg.com/assets/s75220_ll_h6_aa.png?w=360&amp;h=270" group-title="Sports Networks",MLB Network Strike Zone HD
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV HD" tvg-logo="http://dtil.tmsimg.com/assets/s45526_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",NBA TV HD
@@ -21,10 +27,14 @@ http://23.237.104.106:8080/USA_NBA/tracks-v1a1/mono.m3u8
 http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s58690_ll_h15_ac.png?w=360&amp;h=270" group-title="Sports Networks",NHL Network HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3672.ts
+#EXTINF:-1 tvg-id="Premier.Sports.1.HD.uk" tvg-name="Premier Sports 1 HD" tvg-logo="https://cdn.tv-guide.future.sensi.link/images/channel/02fe4bd6-cea9-5696-8025-d81cdb571639/logo.png" group-title="Sports Networks",Premier Sports 1 HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/89089.ts
 #EXTINF:-1 tvg-id="Premier.Sports.2.HD.uk" tvg-name="Premier Sports 2 HD" tvg-logo="https://cdn.tv-guide.future.sensi.link/images/channel/3ea27dc2-561b-5932-8aad-cc26b53ae3f8/logo.png" group-title="Sports Networks",Premier Sports 2 HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/89090.ts
 #EXTINF:-1 tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network HD" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s89714_h15_aa.png" group-title="Sports Networks",SEC Network HD
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="Sky Sports Football HD" tvg-logo="https://tv.assets.pressassociation.io/9ba334ca-b048-5119-9dfb-716b2b67ae8d.png" group-title="Sports Networks",Sky Sports Football HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2188.ts
 #EXTINF:-1 tvg-id="SkySp.News.HD.uk" tvg-name="SkySp News HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4049.png" group-title="Sports Networks",SkySp News HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2179.ts
 #EXTINF:-1 tvg-id="Sportsnet.360.HD.ca2" tvg-name="Sportsnet 360 HD" tvg-logo="http://dtil.tmsimg.com/assets/s49952_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",Sportsnet 360 HD
@@ -67,26 +77,44 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/74683.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/512561.ts
 #EXTINF:-1 tvg-id="Yes.Network.us2" tvg-name="Yes Network" tvg-logo="http://dtil.tmsimg.com/assets/s30017_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks Regional",Yes Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Aspire" tvg-logo="https://i.gyazo.com/0dec42cc5ef48c489cc10db906dc5b9b.png" group-title="TV",Aspire
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/21630.ts
+#EXTINF:-1 tvg-id="" tvg-name="C-SPAN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10161_dark_360w_270h.png" group-title="TV",C-SPAN
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/92792.ts
 #EXTINF:-1 tvg-id="CW.us2" tvg-name="CW" tvg-logo="http://dtil.tmsimg.com/assets/s145484_ll_h15_ab.png?w=360&amp;h=270" group-title="TV",CW
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/90546.ts
 #EXTINF:-1 tvg-id="ION.Television.HD.us2" tvg-name="ION Television HD" tvg-logo="http://dtil.tmsimg.com/assets/s18633_ll_h15_ad.png?w=360&amp;h=270" group-title="TV",ION Television HD
 http://23.237.104.106:8080/USA_ION/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MGM Plus" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65669_dark_360w_270h.png" group-title="TV",MGM Plus
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/333485.ts
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports Main Event" tvg-logo="https://images.open-epg.com/x468.png" group-title="TV",Sky Sports Main Event
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2184.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sports Premier League" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png" group-title="TV",Sky Sports Premier League
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2181.ts
 #EXTINF:-1 tvg-id="Sony.Movie.Channel.HD.us2" tvg-name="Sony Movie Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s69130_ll_h15_ab.png?w=360&amp;h=270" group-title="TV",Sony Movie Channel HD
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2412.ts
+#EXTINF:-1 tvg-id="" tvg-name="STV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117217_dark_360w_270h.png" group-title="TV",STV
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2168.ts
 #EXTINF:-1 tvg-id="WE.tv.HD.us2" tvg-name="WE tv HD" tvg-logo="http://dtil.tmsimg.com/assets/s59296_ll_h15_ab.png?w=360&amp;h=270" group-title="TV",WE tv HD
 http://23.237.104.106:8080/USA_WE_TV/index.m3u8
+#EXTINF:-1 tvg-id="BBC.One.Lon.HD.uk" tvg-name="BBC One Lon HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3000.png" group-title="UK Entertainment",BBC One Lon HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2359.ts
+#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="ITV1 HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6504.png" group-title="UK Entertainment",ITV1 HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/527497.ts
 #EXTINF:-1 tvg-id="Animal.Planet.HD.us2" tvg-name="Animal Planet HD" tvg-logo="http://dtil.tmsimg.com/assets/s57394_ll_h9_ad.png?w=360&amp;h=270" group-title="US Entertainment",Animal Planet HD
 http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
+#EXTINF:-1 tvg-id="AXS.TV.us2" tvg-name="AXS TV" tvg-logo="http://dtil.tmsimg.com/assets/s28506_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",AXS TV
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/42309.ts
 #EXTINF:-1 tvg-id="BBC.America.HD.us2" tvg-name="BBC America HD" tvg-logo="http://dtil.tmsimg.com/assets/s64492_ll_h15_aa.png?w=360&amp;h=270" group-title="US Entertainment",BBC America HD
 http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8
+#EXTINF:-1 tvg-id="BET.HD.us2" tvg-name="BET HD" tvg-logo="http://dtil.tmsimg.com/assets/s63236_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",BET HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/647385.ts
 #EXTINF:-1 tvg-id="Boomerang.us2" tvg-name="Boomerang" tvg-logo="http://dtil.tmsimg.com/assets/s21883_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Boomerang
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="Bounce.TV.us2" tvg-name="Bounce TV" tvg-logo="http://dtil.tmsimg.com/assets/s73067_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Bounce TV
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
+#EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="Bravo HD" tvg-logo="http://dtil.tmsimg.com/assets/s58625_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Bravo HD
+http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2655.ts
 #EXTINF:-1 tvg-id="Cartoon.Network.HD.us2" tvg-name="Cartoon Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s60048_ll_h15_ac.png?w=360&amp;h=270" group-title="US Entertainment",Cartoon Network HD
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="CMT.HD.us2" tvg-name="CMT HD" tvg-logo="http://dtil.tmsimg.com/assets/s59440_ll_h15_ad.png?w=360&amp;h=270" group-title="US Entertainment",CMT HD
@@ -96,7 +124,7 @@ http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="Cooking.Channel.HD.us2" tvg-name="Cooking Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s68065_ll_h15_aa.png?w=360&amp;h=270" group-title="US Entertainment",Cooking Channel HD
 http://23.237.104.106:8080/USA_COOKING/index.m3u8
 #EXTINF:-1 tvg-id="Crime.and.Investigation.Network.HD.us2" tvg-name="Crime and Investigation Network HD" tvg-logo="http://dtil.tmsimg.com/assets/s61469_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Crime and Investigation Network HD
-http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/mpegts
+http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
 #EXTINF:-1 tvg-id="Discovery.Channel.HD.us2" tvg-name="Discovery Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s56905_h3_ba.png?w=360&amp;h=270" group-title="US Entertainment",Discovery Channel HD
 http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 #EXTINF:-1 tvg-id="Discovery.Family.Channel.HD.us2" tvg-name="Discovery Family Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s67749_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Discovery Family Channel HD
