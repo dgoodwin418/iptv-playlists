@@ -3,25 +3,27 @@
 | Channels | Provider | Notes |
 |---:|---|---|
 | 60 | `FREE3` | Works well |
-| 60 | `ftv.xyzstreams.st` |  |
+| 48 | `primexclusive.day` |  |
+| 40 | `ftv.xyzstreams.st` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
 | 17 | `gpuserver5.tier1streams` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `edgestream1.pro` |  |
-| 12 | `edgestream2.pro` |  |
+| 12 | `jmp2.uk` | All channels worked in VLC |
+| 12 | `popwellfox.s3.us-east-1.amazonaws` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
-| 11 | `jmp2.uk` | All channels worked in VLC |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
+| 8 | `79.143.16.38:80` |  |
 | 8 | `gpuserver4.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
+| 7 | `gpuserver7.tier1streams` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
@@ -40,8 +42,6 @@
 | 4 | `cdn-unified-hls.streamspot` |  |
 | 4 | `cdn.igocast` |  |
 | 4 | `citynewsregional.akamaized.net` |  |
-| 4 | `gpuserver7.tier1streams` |  |
-| 4 | `hardwickasx.s3.us-east-1.amazonaws` |  |
 | 4 | `reflect-bayarea.cablecast.tv` |  |
 | 4 | `reflect-creatv.cablecast.tv` |  |
 | 4 | `www.bloomberg` |  |
@@ -58,6 +58,7 @@
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
 | 2 | `23.239.31.26:8989` |  |
+| 2 | `45.90.106.117:80` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
 | 2 | `api.v3.invintus` |  |
@@ -67,6 +68,7 @@
 | 2 | `buenapark.cablecast.tv` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
 | 2 | `concordca.cablecast.tv` |  |
+| 2 | `edgestream2.pro` |  |
 | 2 | `install.akctvcontrol` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
 | 2 | `lin12.isilive.ca` |  |
@@ -80,6 +82,7 @@
 | 2 | `livestream-us-east-edge-2.granicusops` |  |
 | 2 | `na.linear.zype` |  |
 | 2 | `origin-http-delivery.isilive.ca` |  |
+| 2 | `primexclusive.day:443` |  |
 | 2 | `rcavlive.akamaized.net` |  |
 | 2 | `reflect-brookline-interactive-group.cablecast.tv` |  |
 | 2 | `reflect-channel36-la.cablecast.tv` |  |
@@ -179,6 +182,7 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
+| 1 | `gpuserver3.tier1streams` |  |
 | 1 | `gpuserver6.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
@@ -239,7 +243,6 @@
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
 | 1 | `playtv4k.live` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
@@ -272,8 +275,6 @@
 | 1 | `tv.tuva.ru` |  |
 | 1 | `tv2.fastcast4u.com:3943` |  |
 | 1 | `tv91.hostingnuclear.com:19360` |  |
-| 1 | `tvsen5.aynascope.net` |  |
-| 1 | `tvsen6.aynaott` |  |
 | 1 | `ua.online24.pm` |  |
 | 1 | `unlimited6-cl.dps.live` |  |
 | 1 | `v2.siar.us` |  |

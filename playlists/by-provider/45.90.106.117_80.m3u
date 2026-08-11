@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="ITV1 HD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6504.png" group-title="UK Entertainment",ITV1 HD
+http://45.90.106.117:80/stream/94/itv1wal.ts
+#EXTINF:-1 tvg-id="" tvg-name="STV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117217_dark_360w_270h.png" group-title="TV",STV
+http://45.90.106.117:80/stream/100/stvhd.ts
