@@ -3,21 +3,23 @@
 | Channels | Provider | Notes |
 |---:|---|---|
 | 60 | `FREE3` | Works well |
-| 48 | `primexclusive.day` |  |
-| 40 | `ftv.xyzstreams.st` |  |
+| 60 | `ftv.xyzstreams.st` |  |
+| 49 | `restream-live.realiptv.to` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
+| 20 | `popwellfox.s3.us-east-1.amazonaws` |  |
 | 17 | `gpuserver5.tier1streams` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
+| 12 | `247v2.xyzstreams.st` |  |
 | 12 | `jmp2.uk` | All channels worked in VLC |
-| 12 | `popwellfox.s3.us-east-1.amazonaws` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
 | 8 | `79.143.16.38:80` |  |
+| 8 | `edgestream2.pro` |  |
 | 8 | `gpuserver4.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
@@ -68,7 +70,6 @@
 | 2 | `buenapark.cablecast.tv` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
 | 2 | `concordca.cablecast.tv` |  |
-| 2 | `edgestream2.pro` |  |
 | 2 | `install.akctvcontrol` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
 | 2 | `lin12.isilive.ca` |  |
@@ -82,7 +83,6 @@
 | 2 | `livestream-us-east-edge-2.granicusops` |  |
 | 2 | `na.linear.zype` |  |
 | 2 | `origin-http-delivery.isilive.ca` |  |
-| 2 | `primexclusive.day:443` |  |
 | 2 | `rcavlive.akamaized.net` |  |
 | 2 | `reflect-brookline-interactive-group.cablecast.tv` |  |
 | 2 | `reflect-channel36-la.cablecast.tv` |  |
@@ -243,7 +243,9 @@
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
 | 1 | `playtv4k.live` |  |
+| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
+| 1 | `primexclusive.day:443` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
 | 1 | `reflect-huntingtonbeach.cablecast.tv` |  |
