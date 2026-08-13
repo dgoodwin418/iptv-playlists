@@ -7,8 +7,8 @@
 | 49 | `restream-live.realiptv.to` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 20 | `popwellfox.s3.us-east-1.amazonaws` |  |
 | 17 | `gpuserver5.tier1streams` |  |
+| 14 | `popwellfox.s3.us-east-1.amazonaws` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `247v2.xyzstreams.st` |  |
