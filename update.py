@@ -1,5 +1,6 @@
 import json
 import re
+import shutil
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -1178,6 +1179,88 @@ def write_epg_report(
 
 
 # ---------------------------------------------------------------------
+# GitHub Pages aliases and dashboard data
+# ---------------------------------------------------------------------
+
+def write_pages_files(
+    enriched_items,
+    working_entries,
+    working_and_partial_entries,
+    priority_entries,
+    domain_map,
+    provider_notes,
+):
+    """Create stable root-level files for GitHub Pages and dashboard data."""
+
+    aliases = {
+        OUTPUT_DIR / "Verified_Working_and_Partial.m3u": Path("tv.m3u"),
+        OUTPUT_DIR / "Verified_Working.m3u": Path("working.m3u"),
+        OUTPUT_DIR / "Priority_Clean.m3u": Path("priority.m3u"),
+    }
+
+    for source, destination in aliases.items():
+        if source.exists():
+            shutil.copyfile(source, destination)
+
+    status_counts = get_status_counts(domain_map, provider_notes)
+    matched_count = sum(1 for entry in enriched_items if entry["tvg_id"])
+
+    provider_rows = []
+    for domain, entries in domain_map.items():
+        note = provider_notes.get(domain, {})
+        provider_rows.append({
+            "provider": domain,
+            "channels": len(entries),
+            "status": provider_status(domain, provider_notes),
+            "manual_status": str(note.get("manual_status", "")),
+            "auto_status": str(note.get("auto_status", "untested")),
+            "health": note.get("health", note.get("success_rate", None)),
+            "latency": note.get("latency", note.get("average_latency_seconds", None)),
+            "last_tested": note.get("last_tested", ""),
+            "notes": str(note.get("notes", "")),
+            "playlist": f"playlists/by-provider/{safe_filename(domain)}.m3u",
+        })
+
+    provider_rows.sort(key=lambda row: (
+        STATUS_ORDER.get(row["status"], 2),
+        -row["channels"],
+        row["provider"].lower(),
+    ))
+
+    payload = {
+        "generated": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "epg_url": EPG_URL,
+        "files": {
+            "tv": "tv.m3u",
+            "working": "working.m3u",
+            "priority": "priority.m3u",
+            "provider_report": "provider-report.md",
+            "health_report": "reports/provider-health.md",
+            "epg_report": "reports/epg-report.md",
+        },
+        "summary": {
+            "source_streams": len(enriched_items),
+            "tv_streams": len(working_and_partial_entries),
+            "working_streams": len(working_entries),
+            "priority_streams": len(priority_entries),
+            "providers": len(domain_map),
+            "working_providers": status_counts["working"],
+            "partial_providers": status_counts["partial"],
+            "untested_providers": status_counts["untested"],
+            "dead_providers": status_counts["dead"],
+            "epg_matched": matched_count,
+            "epg_unmatched": len(enriched_items) - matched_count,
+        },
+        "providers": provider_rows,
+    }
+
+    Path("dashboard-data.json").write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+# ---------------------------------------------------------------------
 # Remove old individual provider playlists
 # ---------------------------------------------------------------------
 
@@ -1474,6 +1557,16 @@ def main():
 
     write_epg_report(
         enriched_items
+    )
+
+
+    write_pages_files(
+        enriched_items,
+        working_entries,
+        working_and_partial_entries,
+        priority_entries,
+        domain_map,
+        provider_notes,
     )
 
     # -------------------------------------------------------------
