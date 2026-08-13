@@ -4,11 +4,11 @@
 |---:|---|---|
 | 60 | `FREE3` | Works well |
 | 60 | `ftv.xyzstreams.st` |  |
-| 49 | `restream-live.realiptv.to` |  |
+| 51 | `ccctv.xyz:2096` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
+| 18 | `cileynasi.s3.us-east-1.amazonaws` |  |
 | 17 | `gpuserver5.tier1streams` |  |
-| 14 | `popwellfox.s3.us-east-1.amazonaws` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `247v2.xyzstreams.st` |  |
@@ -182,7 +182,6 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
-| 1 | `gpuserver3.tier1streams` |  |
 | 1 | `gpuserver6.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
@@ -243,9 +242,7 @@
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
 | 1 | `playtv4k.live` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
-| 1 | `primexclusive.day:443` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
 | 1 | `reflect-huntingtonbeach.cablecast.tv` |  |
