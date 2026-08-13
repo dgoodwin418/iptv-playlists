@@ -60,7 +60,12 @@ jobs:
             provider-notes.json \
             provider-health.json \
             stream-failures.json \
-            provider-report.md
+            provider-report.md \
+            tv.m3u \
+            working.m3u \
+            priority.m3u \
+            dashboard-data.json \
+            index.html
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
