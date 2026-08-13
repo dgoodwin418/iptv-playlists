@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>IPTV Dashboard</title>
+  <style>
+    :root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;--bg:#0b1020;--card:#151c30;--text:#edf2ff;--muted:#9eabc7;--accent:#6ea8fe;--border:#29334f}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text)}
+    main{max-width:1100px;margin:auto;padding:28px 18px 60px} h1{margin:0 0 6px;font-size:clamp(28px,5vw,46px)}
+    .muted{color:var(--muted)} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px;margin:22px 0}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px}.value{font-size:28px;font-weight:750;margin-top:6px}
+    .buttons{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.button{display:inline-block;padding:11px 14px;border-radius:10px;background:var(--accent);color:#08101f;text-decoration:none;font-weight:700}.secondary{background:var(--card);color:var(--text);border:1px solid var(--border)}
+    input{width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:16px;margin:8px 0 14px}
+    table{width:100%;border-collapse:collapse;background:var(--card);border-radius:14px;overflow:hidden}th,td{text-align:left;padding:11px;border-bottom:1px solid var(--border);font-size:14px}th{position:sticky;top:0;background:#1b2440}.status{font-weight:700;text-transform:capitalize}.working{color:#63d49b}.partial{color:#ffd166}.dead{color:#ff6b6b}.untested{color:#aab4cc}
+    code{word-break:break-all}.table-wrap{overflow:auto;max-height:620px;border-radius:14px}.small{font-size:13px}
+  </style>
+</head>
+<body><main>
+  <h1>IPTV Dashboard</h1>
+  <div class="muted" id="updated">Loading latest data…</div>
+  <section class="grid" id="summary"></section>
+  <div class="buttons">
+    <a class="button" href="tv.m3u">TV playlist</a>
+    <a class="button secondary" href="working.m3u">Working only</a>
+    <a class="button secondary" href="priority.m3u">Priority playlist</a>
+    <a class="button secondary" id="epg" href="#">EPG guide</a>
+    <a class="button secondary" href="reports/provider-health.md">Health report</a>
+  </div>
+  <div class="card small"><strong>Kodi playlist URL:</strong><br><code id="kodi-url"></code></div>
+  <h2>Providers</h2>
+  <input id="search" placeholder="Search provider, status, or notes…">
+  <div class="table-wrap"><table><thead><tr><th>Provider</th><th>Channels</th><th>Status</th><th>Health</th><th>Latency</th><th>Playlist</th></tr></thead><tbody id="providers"></tbody></table></div>
+</main>
+<script>
+const fmt=n=>Number.isFinite(Number(n))?Number(n).toLocaleString():"—";
+fetch('dashboard-data.json?ts='+Date.now()).then(r=>r.json()).then(data=>{
+  document.getElementById('updated').textContent='Last generated: '+new Date(data.generated).toLocaleString();
+  document.getElementById('epg').href=data.epg_url;
+  document.getElementById('kodi-url').textContent=new URL('tv.m3u',location.href).href;
+  const s=data.summary;
+  const cards=[['TV channels',s.tv_streams],['Working providers',s.working_providers],['Partial providers',s.partial_providers],['Untested providers',s.untested_providers],['EPG matched',s.epg_matched],['EPG unmatched',s.epg_unmatched]];
+  document.getElementById('summary').innerHTML=cards.map(([a,b])=>`<div class="card"><div class="muted">${a}</div><div class="value">${fmt(b)}</div></div>`).join('');
+  const tbody=document.getElementById('providers');
+  function draw(q=''){
+    q=q.toLowerCase();
+    tbody.innerHTML=data.providers.filter(p=>JSON.stringify(p).toLowerCase().includes(q)).map(p=>`<tr><td>${p.provider}</td><td>${fmt(p.channels)}</td><td class="status ${p.status}">${p.status}</td><td>${p.health==null?'—':fmt(p.health)+'%'}</td><td>${p.latency==null?'—':p.latency+'s'}</td><td><a href="${p.playlist}">Open</a></td></tr>`).join('');
+  }
+  draw(); document.getElementById('search').addEventListener('input',e=>draw(e.target.value));
+}).catch(err=>document.getElementById('updated').textContent='Dashboard data has not been generated yet: '+err);
+</script></body></html>
