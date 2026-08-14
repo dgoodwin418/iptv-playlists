@@ -3,12 +3,13 @@
 | Channels | Provider | Notes |
 |---:|---|---|
 | 60 | `FREE3` | Works well |
-| 60 | `ftv.xyzstreams.st` |  |
-| 51 | `ccctv.xyz:2096` |  |
+| 55 | `ccctv.xyz:2096` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
+| 36 | `ftv.xyzstreams.st` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
 | 18 | `cileynasi.s3.us-east-1.amazonaws` |  |
-| 17 | `gpuserver5.tier1streams` |  |
+| 14 | `gpuserver5.tier1streams` |  |
+| 14 | `gpuserver7.tier1streams` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `247v2.xyzstreams.st` |  |
@@ -18,16 +19,14 @@
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
-| 8 | `79.143.16.38:80` |  |
-| 8 | `edgestream2.pro` |  |
-| 8 | `gpuserver4.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
-| 7 | `gpuserver7.tier1streams` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
+| 6 | `79.143.16.38:80` |  |
+| 6 | `edgestream2.pro` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -53,6 +52,7 @@
 | 3 | `cdn.telecloud.tv` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
+| 3 | `gpuserver6.tier1streams` |  |
 | 3 | `livecdn.use1-0004.jwplive` |  |
 | 3 | `temp2.isilive.ca` |  |
 | 3 | `video.ct-n` |  |
@@ -182,7 +182,7 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
-| 1 | `gpuserver6.tier1streams` |  |
+| 1 | `gpuserver4.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
 | 1 | `hls.savoir.media` |  |
@@ -242,6 +242,7 @@
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
 | 1 | `playtv4k.live` |  |
+| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
