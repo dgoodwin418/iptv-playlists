@@ -1,7 +1,17 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ActionMAX.HD.us2" tvg-name="ActionMAX HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG0029BC3L.png?w=360&amp;h=270" group-title="US Movies",ActionMAX HD
 https://gpuserver6.tier1streams.com/ACTIONMAX_SD/index.m3u8
+#EXTINF:-1 tvg-id="COZI.TV.us2" tvg-name="COZI TV" tvg-logo="http://dtil.tmsimg.com/assets/s78851_h3_aa.png?w=360&amp;h=270" group-title="US Entertainment",COZI TV
+https://gpuserver6.tier1streams.com/COZI_TV_SD/index.m3u8
 #EXTINF:-1 tvg-id="Dabl.us2" tvg-name="Dabl" tvg-logo="http://dtil.tmsimg.com/assets/s112157_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Dabl
 https://gpuserver6.tier1streams.com/DABL/index.m3u8
 #EXTINF:-1 tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s60179_ll_h15_ab.png?w=360&amp;h=270" group-title="News",Fox News Channel HD
 https://gpuserver6.tier1streams.com/FOX_NEWS_SD/index.m3u8
+#EXTINF:-1 tvg-id="Freeform.HD.us2" tvg-name="Freeform HD" tvg-logo="http://dtil.tmsimg.com/assets/s59615_ll_h15_ae.png?w=360&amp;h=270" group-title="US Entertainment",Freeform HD
+https://gpuserver6.tier1streams.com/FREEFORM_SD/index.m3u8
+#EXTINF:-1 tvg-id="FX.Movie.Channel.HD.us2" tvg-name="FX Movie Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s70253_ll_h15_aa.png?w=360&amp;h=270" group-title="US Entertainment",FX Movie Channel HD
+https://gpuserver6.tier1streams.com/FXM_SD/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MGM Plus" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65669_dark_360w_270h.png" group-title="TV",MGM Plus
+https://gpuserver6.tier1streams.com/EPIX_SD/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MGM Plus Drive-In" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68409_dark_360w_270h.png" group-title="TV",MGM Plus Drive-In
+https://gpuserver6.tier1streams.com/EPIX_DRIVE-IN_SD/index.m3u8

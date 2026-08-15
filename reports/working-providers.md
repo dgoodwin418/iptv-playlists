@@ -2,23 +2,23 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 60 | `FREE3` | Works well |
-| 55 | `ccctv.xyz:2096` |  |
+| 63 | `restream-live.realiptv.to` |  |
+| 59 | `FREE3` | Works well |
+| 56 | `ftv.xyzstreams.st` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 36 | `ftv.xyzstreams.st` |  |
+| 30 | `cherisetrevisone.s3.us-east-1.amazonaws` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 18 | `cileynasi.s3.us-east-1.amazonaws` |  |
-| 14 | `gpuserver5.tier1streams` |  |
-| 14 | `gpuserver7.tier1streams` |  |
+| 18 | `gpuserver7.tier1streams` |  |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `247v2.xyzstreams.st` |  |
 | 12 | `jmp2.uk` | All channels worked in VLC |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
+| 8 | `247v2.xyzstreams.st` |  |
+| 8 | `gpuserver6.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
@@ -26,7 +26,6 @@
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
 | 6 | `79.143.16.38:80` |  |
-| 6 | `edgestream2.pro` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -52,7 +51,6 @@
 | 3 | `cdn.telecloud.tv` |  |
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
-| 3 | `gpuserver6.tier1streams` |  |
 | 3 | `livecdn.use1-0004.jwplive` |  |
 | 3 | `temp2.isilive.ca` |  |
 | 3 | `video.ct-n` |  |
@@ -182,7 +180,6 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
-| 1 | `gpuserver4.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
 | 1 | `hls.savoir.media` |  |
@@ -253,7 +250,6 @@
 | 1 | `rmtv.akamaized.net` |  |
 | 1 | `rtmp.antik.sk` |  |
 | 1 | `s5.mexside.net:1936` |  |
-| 1 | `spoo.me` |  |
 | 1 | `stitcher.pluto.tv` |  |
 | 1 | `stream-losangeles.scientology` |  |
 | 1 | `stream-tampa.scientology` |  |
