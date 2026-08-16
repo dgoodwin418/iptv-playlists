@@ -2,23 +2,21 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 63 | `restream-live.realiptv.to` |  |
-| 59 | `FREE3` | Works well |
-| 56 | `ftv.xyzstreams.st` |  |
+| 87 | `ccctv.xyz:2096` |  |
+| 60 | `ftv.xyzstreams.st` |  |
+| 58 | `FREE3` | Works well |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
-| 30 | `cherisetrevisone.s3.us-east-1.amazonaws` |  |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
-| 18 | `gpuserver7.tier1streams` |  |
+| 13 | `jmp2.uk` | All channels worked in VLC |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `jmp2.uk` | All channels worked in VLC |
+| 12 | `247v2.xyzstreams.st` |  |
+| 12 | `cherisetrevisone.s3.us-east-1.amazonaws` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
-| 8 | `247v2.xyzstreams.st` |  |
-| 8 | `gpuserver6.tier1streams` |  |
 | 8 | `lotus.stingray` | All channels work in VLC |
 | 8 | `turnerlive.warnermediacdn` | All channels work in VLC |
 | 7 | `castus-vod-dev.s3.amazonaws` |  |
@@ -35,7 +33,7 @@
 | 5 | `cdn.whiplash.cc` |  |
 | 5 | `fast-channels.sinclairstoryline` |  |
 | 5 | `PBS` |  |
-| 5 | `stream.cammonitorplus.net` |  |
+| 4 | `23.239.31.26:8989` |  |
 | 4 | `api.toonamiaftermath.com:3000` |  |
 | 4 | `bloomberg` |  |
 | 4 | `cantv.streamguys1` |  |
@@ -44,6 +42,7 @@
 | 4 | `citynewsregional.akamaized.net` |  |
 | 4 | `reflect-bayarea.cablecast.tv` |  |
 | 4 | `reflect-creatv.cablecast.tv` |  |
+| 4 | `stream.cammonitorplus.net` |  |
 | 4 | `www.bloomberg` |  |
 | 3 | `200.115.120.1:8000` |  |
 | 3 | `217.174.225.146` |  |
@@ -57,7 +56,6 @@
 | 2 | `145.239.5.177:80` |  |
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
-| 2 | `23.239.31.26:8989` |  |
 | 2 | `45.90.106.117:80` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
@@ -111,6 +109,7 @@
 | 1 | `185.57.68.33:80` |  |
 | 1 | `185.57.68.33:8091` |  |
 | 1 | `190.11.225.124:5000` |  |
+| 1 | `1nyaler.streamhostingcdn.top` |  |
 | 1 | `2-fss-1.themediacdn` |  |
 | 1 | `212.102.60.80` |  |
 | 1 | `212.186.45.34:9981` |  |
@@ -168,6 +167,7 @@
 | 1 | `cineverse-entrepreneurtv-entrepreneurtv-1-us.ono.wurl.tv` |  |
 | 1 | `classicarts.akamaized.net` |  |
 | 1 | `cloudflare.tv` |  |
+| 1 | `cp11.adabmedia` |  |
 | 1 | `d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws` |  |
 | 1 | `dash2.antik.sk` |  |
 | 1 | `dms.redbull.tv` |  |
@@ -180,6 +180,7 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
+| 1 | `gpuserver7.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
 | 1 | `hls.savoir.media` |  |
@@ -217,6 +218,7 @@
 | 1 | `live.enhdtv.com:8081` |  |
 | 1 | `live.gideo.video` |  |
 | 1 | `live.livestreamtv.ca` |  |
+| 1 | `live12.ir` |  |
 | 1 | `livecdn.enlace.plus` |  |
 | 1 | `livehub-voidnet.onrender` |  |
 | 1 | `livetr.teleromagna.it` |  |
@@ -239,7 +241,6 @@
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
 | 1 | `playtv4k.live` |  |
-| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
@@ -248,7 +249,6 @@
 | 1 | `reflect-tacm.cablecast.tv` |  |
 | 1 | `reflector.watchtstv` |  |
 | 1 | `rmtv.akamaized.net` |  |
-| 1 | `rtmp.antik.sk` |  |
 | 1 | `s5.mexside.net:1936` |  |
 | 1 | `stitcher.pluto.tv` |  |
 | 1 | `stream-losangeles.scientology` |  |
