@@ -1,20 +1,20 @@
 # Provider Testing Report
 
-**Last updated:** 2026-08-16 10:34 UTC
+**Last updated:** 2026-08-17 10:40 UTC
 
-- Providers found: **752**
-- Provider playlists generated: **752**
-- Working: **282**
-- Partial: **20**
+- Providers found: **750**
+- Provider playlists generated: **750**
+- Working: **281**
+- Partial: **23**
 - Untested: **0**
-- Dead: **450**
+- Dead: **446**
 
 Edit `provider-notes.json` after testing each provider.
 
 | Channels | Provider | Playlist | Tested | Status | Notes |
 |---:|---|---|:---:|---|---|
-| 87 | `ccctv.xyz:2096` | [Open](playlists/by-provider/ccctv.xyz_2096.m3u) | ✅ | working |  |
-| 60 | `ftv.xyzstreams.st` | [Open](playlists/by-provider/ftv.xyzstreams.st.m3u) | ✅ | working |  |
+| 88 | `ccctv.xyz:2096` | [Open](playlists/by-provider/ccctv.xyz_2096.m3u) | ✅ | working |  |
+| 60 | `ftv.dlhd.net` | [Open](playlists/by-provider/ftv.dlhd.net.m3u) | ✅ | working |  |
 | 58 | `FREE3` | [Open](playlists/by-provider/FREE3.m3u) | ✅ | working | Works well |
 | 39 | `rpn.bozztv` | [Open](playlists/by-provider/rpn.bozztv.m3u) | ✅ | working | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | [Open](playlists/by-provider/adultswim-vodlive.cdn.turner.m3u) | ✅ | working | All channels played in VLC |
@@ -22,7 +22,6 @@ Edit `provider-notes.json` after testing each provider.
 | 13 | `live.corusdigitaldev` | [Open](playlists/by-provider/live.corusdigitaldev.m3u) | ✅ | working | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | [Open](playlists/by-provider/2-fss-1.streamhoster.m3u) | ✅ | working | Channels play in VLC |
 | 12 | `247v2.xyzstreams.st` | [Open](playlists/by-provider/247v2.xyzstreams.st.m3u) | ✅ | working |  |
-| 12 | `cherisetrevisone.s3.us-east-1.amazonaws` | [Open](playlists/by-provider/cherisetrevisone.s3.us-east-1.amazonaws.m3u) | ✅ | working |  |
 | 12 | `townnews.g-mana.live` | [Open](playlists/by-provider/townnews.g-mana.live.m3u) | ✅ | working | All channels played in VLC |
 | 11 | `cdntv.online` | [Open](playlists/by-provider/cdntv.online.m3u) | ✅ | working | All channels worked in VLC |
 | 10 | `qvc-amd-live.akamaized.net` | [Open](playlists/by-provider/qvc-amd-live.akamaized.net.m3u) | ✅ | working | All channels work in VLC |
@@ -34,7 +33,6 @@ Edit `provider-notes.json` after testing each provider.
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` | [Open](playlists/by-provider/cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv.m3u) | ✅ | working |  |
 | 7 | `reflect-communitytv.cablecast.tv` | [Open](playlists/by-provider/reflect-communitytv.cablecast.tv.m3u) | ✅ | working |  |
 | 7 | `stream.swagit` | [Open](playlists/by-provider/stream.swagit.m3u) | ✅ | working |  |
-| 6 | `79.143.16.38:80` | [Open](playlists/by-provider/79.143.16.38_80.m3u) | ✅ | working |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` | [Open](playlists/by-provider/reflect-stream-bronxnet.cablecast.tv.m3u) | ✅ | working |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` | [Open](playlists/by-provider/reflect-vod-cmac.cablecast.tv.m3u) | ✅ | working |  |
 | 6 | `securestream10.champds` | [Open](playlists/by-provider/securestream10.champds.m3u) | ✅ | working |  |
@@ -68,6 +66,7 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `158.101.222.193:88` | [Open](playlists/by-provider/158.101.222.193_88.m3u) | ✅ | working |  |
 | 2 | `190.117.20.37:8000` | [Open](playlists/by-provider/190.117.20.37_8000.m3u) | ✅ | working |  |
 | 2 | `45.90.106.117:80` | [Open](playlists/by-provider/45.90.106.117_80.m3u) | ✅ | working |  |
+| 2 | `79.143.16.38:80` | [Open](playlists/by-provider/79.143.16.38_80.m3u) | ✅ | working |  |
 | 2 | `93.93.113.95:25461` | [Open](playlists/by-provider/93.93.113.95_25461.m3u) | ✅ | working |  |
 | 2 | `a-cdn.herringnetwork` | [Open](playlists/by-provider/a-cdn.herringnetwork.m3u) | ✅ | working |  |
 | 2 | `api.v3.invintus` | [Open](playlists/by-provider/api.v3.invintus.m3u) | ✅ | working |  |
@@ -76,6 +75,7 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `bl.video.matchtv.ru` | [Open](playlists/by-provider/bl.video.matchtv.ru.m3u) | ✅ | working |  |
 | 2 | `buenapark.cablecast.tv` | [Open](playlists/by-provider/buenapark.cablecast.tv.m3u) | ✅ | working |  |
 | 2 | `champaign-cablecast.cablecast.tv` | [Open](playlists/by-provider/champaign-cablecast.cablecast.tv.m3u) | ✅ | working |  |
+| 2 | `cherisetrevisone.s3.us-east-1.amazonaws` | [Open](playlists/by-provider/cherisetrevisone.s3.us-east-1.amazonaws.m3u) | ✅ | working |  |
 | 2 | `concordca.cablecast.tv` | [Open](playlists/by-provider/concordca.cablecast.tv.m3u) | ✅ | working |  |
 | 2 | `install.akctvcontrol` | [Open](playlists/by-provider/install.akctvcontrol.m3u) | ✅ | working |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` | [Open](playlists/by-provider/jk3lzkn4lw79-hls-live.5centscdn.m3u) | ✅ | working |  |
@@ -191,7 +191,6 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `f-tx-edge-87.christianworldmedia` | [Open](playlists/by-provider/f-tx-edge-87.christianworldmedia.m3u) | ✅ | working |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` | [Open](playlists/by-provider/failarmy-international-in.samsung.wurl.tv.m3u) | ✅ | working |  |
 | 1 | `fffffff110156200.tvustream.com:8298` | [Open](playlists/by-provider/fffffff110156200.tvustream.com_8298.m3u) | ✅ | working |  |
-| 1 | `gpuserver7.tier1streams` | [Open](playlists/by-provider/gpuserver7.tier1streams.m3u) | ✅ | working |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` | [Open](playlists/by-provider/gsn-cinevault-70s-2-us.roku.wurl.tv.m3u) | ✅ | working |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` | [Open](playlists/by-provider/gsn-cinevault-classics-1-us.roku.wurl.tv.m3u) | ✅ | working |  |
 | 1 | `hls.savoir.media` | [Open](playlists/by-provider/hls.savoir.media.m3u) | ✅ | working |  |
@@ -300,6 +299,9 @@ Edit `provider-notes.json` after testing each provider.
 | 8 | `41.205.93.154` | [Open](playlists/by-provider/41.205.93.154.m3u) | ✅ | partial |  |
 | 7 | `bozztv` | [Open](playlists/by-provider/bozztv.m3u) | ✅ | partial |  |
 | 5 | `78.108.251.7` | [Open](playlists/by-provider/78.108.251.7.m3u) | ✅ | partial |  |
+| 5 | `cdn2.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn2.zohanayaan.com_1686.m3u) | ✅ | partial |  |
+| 5 | `cdn6.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn6.zohanayaan.com_1686.m3u) | ✅ | partial |  |
+| 5 | `cdn8.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn8.zohanayaan.com_1686.m3u) | ✅ | partial |  |
 | 5 | `stream.ads.ottera.tv` | [Open](playlists/by-provider/stream.ads.ottera.tv.m3u) | ✅ | partial |  |
 | 4 | `agp-nimble.streamguys1` | [Open](playlists/by-provider/agp-nimble.streamguys1.m3u) | ✅ | partial |  |
 | 4 | `fastly.live.brightcove` | [Open](playlists/by-provider/fastly.live.brightcove.m3u) | ✅ | partial |  |
@@ -315,100 +317,93 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `reflect-temecula.cablecast.tv` | [Open](playlists/by-provider/reflect-temecula.cablecast.tv.m3u) | ✅ | partial |  |
 | 2 | `rgelive.akamaized.net` | [Open](playlists/by-provider/rgelive.akamaized.net.m3u) | ✅ | partial |  |
 | 2 | `thegateway.app` | [Open](playlists/by-provider/thegateway.app.m3u) | ✅ | partial |  |
-| 192 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |
-| 120 | `193.47.62.190` | [Open](playlists/by-provider/193.47.62.190.m3u) | ✅ | dead |  |
+| 104 | `khala.skylivehd` | [Open](playlists/by-provider/khala.skylivehd.m3u) | ✅ | dead | Server for live sporting events. |
 | 78 | `streams2.sofast.tv` | [Open](playlists/by-provider/streams2.sofast.tv.m3u) | ✅ | dead | Server for live sporting events. |
 | 51 | `dai2.xumo` | [Open](playlists/by-provider/dai2.xumo.m3u) | ✅ | dead | none of the channels played in VLC |
 | 49 | `technologycloud.eu:80` | [Open](playlists/by-provider/technologycloud.eu_80.m3u) | ✅ | dead | none of the channels played in VLC |
-| 46 | `streamfree.top` | [Open](playlists/by-provider/streamfree.top.m3u) | ✅ | dead |  |
 | 34 | `webcast-origin.b-cdn.net` | [Open](playlists/by-provider/webcast-origin.b-cdn.net.m3u) | ✅ | dead |  |
 | 32 | `79.127.207.193:80` | [Open](playlists/by-provider/79.127.207.193_80.m3u) | ✅ | dead | None of the channels played in VLC |
+| 30 | `193.47.62.41` | [Open](playlists/by-provider/193.47.62.41.m3u) | ✅ | dead |  |
 | 29 | `169.150.223.25` | [Open](playlists/by-provider/169.150.223.25.m3u) | ✅ | dead | None of the channels played in VLC |
 | 20 | `a.jsrdn` | [Open](playlists/by-provider/a.jsrdn.m3u) | ✅ | dead | None of the channels played in VLC |
-| 20 | `chatgpt.hereisman.net` | [Open](playlists/by-provider/chatgpt.hereisman.net.m3u) | ✅ | dead | Live sports server |
 | 17 | `77.137.40.221:8000` | [Open](playlists/by-provider/77.137.40.221_8000.m3u) | ✅ | dead | no channels played in VLC |
-| 16 | `po.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/po.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
-| 16 | `se.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/se.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
 | 15 | `a-cdn.klowdtv` | [Open](playlists/by-provider/a-cdn.klowdtv.m3u) | ✅ | dead | All channels worked in VLC |
 | 14 | `2k.tstvs` | [Open](playlists/by-provider/2k.tstvs.m3u) | ✅ | dead | no channels played in vlc |
-| 14 | `live2.jxa76` | [Open](playlists/by-provider/live2.jxa76.m3u) | ✅ | dead |  |
-| 14 | `so.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/so.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
 | 14 | `trxad.top:80` | [Open](playlists/by-provider/trxad.top_80.m3u) | ✅ | dead | no channels played in vlc |
-| 12 | `bgvnzw5k.fubo18.com:443` | [Open](playlists/by-provider/bgvnzw5k.fubo18.com_443.m3u) | ✅ | dead |  |
-| 12 | `instreams.pro` | [Open](playlists/by-provider/instreams.pro.m3u) | ✅ | dead |  |
-| 12 | `s2.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/s2.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
-| 12 | `sa.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/sa.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
+| 12 | `se.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/se.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
 | 12 | `stream-us-east-1.getpublica` | [Open](playlists/by-provider/stream-us-east-1.getpublica.m3u) | ✅ | dead | No channels played in VLC |
 | 11 | `154.197.91.169:8000` | [Open](playlists/by-provider/154.197.91.169_8000.m3u) | ✅ | dead | No channels worked in VLC |
+| 11 | `89.46.123.7:80` | [Open](playlists/by-provider/89.46.123.7_80.m3u) | ✅ | dead |  |
 | 11 | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` | [Open](playlists/by-provider/still-mud-3642.nqanzvyuupxwcahtfq.workers.dev.m3u) | ✅ | dead | No channels worked in VLC |
 | 11 | `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` | [Open](playlists/by-provider/wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev.m3u) | ✅ | dead | No channels worked in VLC |
 | 11 | `wo0dyefk.dienalt` | [Open](playlists/by-provider/wo0dyefk.dienalt.m3u) | ✅ | dead | No channels worked in VLC |
 | 10 | `abcnews-streams.akamaized.net` | [Open](playlists/by-provider/abcnews-streams.akamaized.net.m3u) | ✅ | dead | No channels work in VLC |
-| 10 | `am91cm5leQ.fubo18.com:443` | [Open](playlists/by-provider/am91cm5leQ.fubo18.com_443.m3u) | ✅ | dead |  |
-| 10 | `bmf0aw9u.fubo18.com:443` | [Open](playlists/by-provider/bmf0aw9u.fubo18.com_443.m3u) | ✅ | dead |  |
-| 10 | `dglvz29s.fubo18.com:443` | [Open](playlists/by-provider/dglvz29s.fubo18.com_443.m3u) | ✅ | dead |  |
-| 10 | `instreams.live` | [Open](playlists/by-provider/instreams.live.m3u) | ✅ | dead |  |
-| 10 | `si.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/si.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
-| 10 | `Ym9yZQ.fubo18.com:443` | [Open](playlists/by-provider/Ym9yZQ.fubo18.com_443.m3u) | ✅ | dead |  |
+| 9 | `cdn10.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn10.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 9 | `free.fullspeed.tv` | [Open](playlists/by-provider/free.fullspeed.tv.m3u) | ✅ | dead | No channels work in VLC |
 | 9 | `mediaserver.abnvideos` | [Open](playlists/by-provider/mediaserver.abnvideos.m3u) | ✅ | dead | no channels work in VLC |
 | 8 | `185.132.134.159:80` | [Open](playlists/by-provider/185.132.134.159_80.m3u) | ✅ | dead | No channels work in VLC |
 | 8 | `212.102.60.231` | [Open](playlists/by-provider/212.102.60.231.m3u) | ✅ | dead | No channels work in VLC |
-| 8 | `a2lja3m.fubo18.com:443` | [Open](playlists/by-provider/a2lja3m.fubo18.com_443.m3u) | ✅ | dead |  |
-| 8 | `b2ZmaWNpYWw.fubo18.com:443` | [Open](playlists/by-provider/b2ZmaWNpYWw.fubo18.com_443.m3u) | ✅ | dead |  |
-| 8 | `c2f2zq.fubo18.com:443` | [Open](playlists/by-provider/c2f2zq.fubo18.com_443.m3u) | ✅ | dead |  |
 | 8 | `cdn.vegasplus.us` | [Open](playlists/by-provider/cdn.vegasplus.us.m3u) | ✅ | dead | No channels work in VLC |
+| 8 | `eWVz.fubo18.com:443` | [Open](playlists/by-provider/eWVz.fubo18.com_443.m3u) | ✅ | dead |  |
+| 8 | `po.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/po.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
+| 8 | `s1.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/s1.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
+| 8 | `sa.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/sa.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
+| 8 | `si.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/si.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
 | 8 | `Spanish` | [Open](playlists/by-provider/Spanish.m3u) | ✅ | dead | No channels work in VLC |
 | 7 | `77.46.130.252:99` | [Open](playlists/by-provider/77.46.130.252_99.m3u) | ✅ | dead |  |
+| 7 | `cdn1.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn1.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 7 | `rpn1.bozztv` | [Open](playlists/by-provider/rpn1.bozztv.m3u) | ✅ | dead |  |
 | 7 | `stitcheraws.unreel.me` | [Open](playlists/by-provider/stitcheraws.unreel.me.m3u) | ✅ | dead |  |
+| 6 | `193.47.62.44` | [Open](playlists/by-provider/193.47.62.44.m3u) | ✅ | dead |  |
 | 6 | `195.181.169.152:8080` | [Open](playlists/by-provider/195.181.169.152_8080.m3u) | ✅ | dead |  |
 | 6 | `65.108.239.207` | [Open](playlists/by-provider/65.108.239.207.m3u) | ✅ | dead |  |
+| 6 | `a2lja3m.fubo18.com:443` | [Open](playlists/by-provider/a2lja3m.fubo18.com_443.m3u) | ✅ | dead |  |
+| 6 | `b2ZmaWNpYWw.fubo18.com:443` | [Open](playlists/by-provider/b2ZmaWNpYWw.fubo18.com_443.m3u) | ✅ | dead |  |
 | 6 | `bcovlive-a.akamaihd.net` | [Open](playlists/by-provider/bcovlive-a.akamaihd.net.m3u) | ✅ | dead |  |
+| 6 | `bmf0aw9u.fubo18.com:443` | [Open](playlists/by-provider/bmf0aw9u.fubo18.com_443.m3u) | ✅ | dead |  |
+| 6 | `c2f2zq.fubo18.com:443` | [Open](playlists/by-provider/c2f2zq.fubo18.com_443.m3u) | ✅ | dead |  |
 | 6 | `ca1.buximedia` | [Open](playlists/by-provider/ca1.buximedia.m3u) | ✅ | dead |  |
 | 6 | `cdn.klowdtv.net` | [Open](playlists/by-provider/cdn.klowdtv.net.m3u) | ✅ | dead |  |
 | 6 | `cdn3.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn3.zohanayaan.com_1686.m3u) | ✅ | dead |  |
-| 6 | `cdn4.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn4.zohanayaan.com_1686.m3u) | ✅ | dead |  |
-| 6 | `cdn5.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn5.zohanayaan.com_1686.m3u) | ✅ | dead |  |
-| 6 | `cdn7.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn7.zohanayaan.com_1686.m3u) | ✅ | dead |  |
-| 6 | `eWVz.fubo18.com:443` | [Open](playlists/by-provider/eWVz.fubo18.com_443.m3u) | ✅ | dead |  |
-| 6 | `fiveo4.diffevixed.uk` | [Open](playlists/by-provider/fiveo4.diffevixed.uk.m3u) | ✅ | dead |  |
+| 6 | `dglvz29s.fubo18.com:443` | [Open](playlists/by-provider/dglvz29s.fubo18.com_443.m3u) | ✅ | dead |  |
+| 6 | `live2.jxa76` | [Open](playlists/by-provider/live2.jxa76.m3u) | ✅ | dead |  |
 | 6 | `reflect-npa.cablecast.tv` | [Open](playlists/by-provider/reflect-npa.cablecast.tv.m3u) | ✅ | dead |  |
+| 6 | `so.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/so.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
 | 6 | `v-ny.theus6tv.tk` | [Open](playlists/by-provider/v-ny.theus6tv.tk.m3u) | ✅ | dead |  |
+| 6 | `Ym9yZQ.fubo18.com:443` | [Open](playlists/by-provider/Ym9yZQ.fubo18.com_443.m3u) | ✅ | dead |  |
 | 5 | `79.127.207.193` | [Open](playlists/by-provider/79.127.207.193.m3u) | ✅ | dead |  |
 | 5 | `broadcast.mytvtogo.net` | [Open](playlists/by-provider/broadcast.mytvtogo.net.m3u) | ✅ | dead |  |
+| 5 | `cdn9.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn9.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 5 | `nbcnews-lh.akamaihd.net` | [Open](playlists/by-provider/nbcnews-lh.akamaihd.net.m3u) | ✅ | dead |  |
 | 5 | `uvotv-aniview.global.ssl.fastly.net` | [Open](playlists/by-provider/uvotv-aniview.global.ssl.fastly.net.m3u) | ✅ | dead |  |
 | 5 | `v-pi.theus6tv.tk` | [Open](playlists/by-provider/v-pi.theus6tv.tk.m3u) | ✅ | dead |  |
 | 4 | `135.125.109.73:9000` | [Open](playlists/by-provider/135.125.109.73_9000.m3u) | ✅ | dead |  |
 | 4 | `178.23.88.55` | [Open](playlists/by-provider/178.23.88.55.m3u) | ✅ | dead |  |
 | 4 | `188.191.160.238:7780` | [Open](playlists/by-provider/188.191.160.238_7780.m3u) | ✅ | dead |  |
+| 4 | `193.47.62.190` | [Open](playlists/by-provider/193.47.62.190.m3u) | ✅ | dead |  |
 | 4 | `84.54.128.52:9090` | [Open](playlists/by-provider/84.54.128.52_9090.m3u) | ✅ | dead |  |
 | 4 | `api.new.livestream` | [Open](playlists/by-provider/api.new.livestream.m3u) | ✅ | dead |  |
+| 4 | `bgvnzw5k.fubo18.com:443` | [Open](playlists/by-provider/bgvnzw5k.fubo18.com_443.m3u) | ✅ | dead |  |
 | 4 | `cbsnewshd-lh.akamaihd.net` | [Open](playlists/by-provider/cbsnewshd-lh.akamaihd.net.m3u) | ✅ | dead |  |
-| 4 | `cdn14.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn14.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 4 | `cdn4.skygo.mn` | [Open](playlists/by-provider/cdn4.skygo.mn.m3u) | ✅ | dead |  |
-| 4 | `cdnlivetv.tv` | [Open](playlists/by-provider/cdnlivetv.tv.m3u) | ✅ | dead |  |
+| 4 | `cdn4.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn4.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 4 | `chatgpt.hereisman.net` | [Open](playlists/by-provider/chatgpt.hereisman.net.m3u) | ✅ | dead | Live sports server |
 | 4 | `cnngo1.akamaized.net` | [Open](playlists/by-provider/cnngo1.akamaized.net.m3u) | ✅ | dead |  |
 | 4 | `granicusliveus3-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus3-a.akamaihd.net.m3u) | ✅ | dead |  |
 | 4 | `hls-cdn.tvstartup.net` | [Open](playlists/by-provider/hls-cdn.tvstartup.net.m3u) | ✅ | dead |  |
-| 4 | `lb1.wfty.st` | [Open](playlists/by-provider/lb1.wfty.st.m3u) | ✅ | dead |  |
-| 4 | `lb3.wfty.st` | [Open](playlists/by-provider/lb3.wfty.st.m3u) | ✅ | dead |  |
-| 4 | `lb5.wfty.st` | [Open](playlists/by-provider/lb5.wfty.st.m3u) | ✅ | dead |  |
-| 4 | `lb6.wfty.st` | [Open](playlists/by-provider/lb6.wfty.st.m3u) | ✅ | dead |  |
 | 4 | `moiptvhls-i.akamaihd.net` | [Open](playlists/by-provider/moiptvhls-i.akamaihd.net.m3u) | ✅ | dead |  |
-| 4 | `node-5d763f4c.4587.website` | [Open](playlists/by-provider/node-5d763f4c.4587.website.m3u) | ✅ | dead |  |
 | 4 | `reflect-jacksonville.cablecast.tv` | [Open](playlists/by-provider/reflect-jacksonville.cablecast.tv.m3u) | ✅ | dead |  |
-| 4 | `s1.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/s1.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
 | 4 | `s3-us-west-2.amazonaws` | [Open](playlists/by-provider/s3-us-west-2.amazonaws.m3u) | ✅ | dead |  |
 | 4 | `shls-masr-ak.akamaized.net` | [Open](playlists/by-provider/shls-masr-ak.akamaized.net.m3u) | ✅ | dead |  |
+| 4 | `streamfree.top` | [Open](playlists/by-provider/streamfree.top.m3u) | ✅ | dead |  |
 | 4 | `stvlive.net:8080` | [Open](playlists/by-provider/stvlive.net_8080.m3u) | ✅ | dead |  |
-| 4 | `y2fzdgxl.fubo18.com:443` | [Open](playlists/by-provider/y2fzdgxl.fubo18.com_443.m3u) | ✅ | dead |  |
+| 4 | `YXdlc29tZQ.fubo18.com:443` | [Open](playlists/by-provider/YXdlc29tZQ.fubo18.com_443.m3u) | ✅ | dead |  |
 | 3 | `167.250.223.26:8085` | [Open](playlists/by-provider/167.250.223.26_8085.m3u) | ✅ | dead |  |
 | 3 | `185.112.249.46:9981` | [Open](playlists/by-provider/185.112.249.46_9981.m3u) | ✅ | dead |  |
 | 3 | `23.88.66.93` | [Open](playlists/by-provider/23.88.66.93.m3u) | ✅ | dead |  |
 | 3 | `96.68.164.217` | [Open](playlists/by-provider/96.68.164.217.m3u) | ✅ | dead |  |
 | 3 | `ampmedia.secure.footprint.net` | [Open](playlists/by-provider/ampmedia.secure.footprint.net.m3u) | ✅ | dead |  |
+| 3 | `cdn5.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn5.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 3 | `ch8reflector.longmontpublicmedia` | [Open](playlists/by-provider/ch8reflector.longmontpublicmedia.m3u) | ✅ | dead |  |
 | 3 | `dvr2.kablova.tv` | [Open](playlists/by-provider/dvr2.kablova.tv.m3u) | ✅ | dead |  |
 | 3 | `dvrfl03.bozztv` | [Open](playlists/by-provider/dvrfl03.bozztv.m3u) | ✅ | dead |  |
@@ -426,7 +421,7 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `151.80.18.177:86` | [Open](playlists/by-provider/151.80.18.177_86.m3u) | ✅ | dead |  |
 | 2 | `190.0.247.38:8000` | [Open](playlists/by-provider/190.0.247.38_8000.m3u) | ✅ | dead |  |
 | 2 | `193.25.8.59:8000` | [Open](playlists/by-provider/193.25.8.59_8000.m3u) | ✅ | dead |  |
-| 2 | `193.47.62.192` | [Open](playlists/by-provider/193.47.62.192.m3u) | ✅ | dead |  |
+| 2 | `193.47.62.49` | [Open](playlists/by-provider/193.47.62.49.m3u) | ✅ | dead |  |
 | 2 | `32tech0steam0dp01` | [Open](playlists/by-provider/32tech0steam0dp01.m3u) | ✅ | dead |  |
 | 2 | `46.149.191.217:9010` | [Open](playlists/by-provider/46.149.191.217_9010.m3u) | ✅ | dead |  |
 | 2 | `94.43.1.138:8081` | [Open](playlists/by-provider/94.43.1.138_8081.m3u) | ✅ | dead |  |
@@ -438,12 +433,8 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `catchup.videoline.ru` | [Open](playlists/by-provider/catchup.videoline.ru.m3u) | ✅ | dead |  |
 | 2 | `cdn.appv.jagobd.com:444` | [Open](playlists/by-provider/cdn.appv.jagobd.com_444.m3u) | ✅ | dead |  |
 | 2 | `cdn1.karwan.tv` | [Open](playlists/by-provider/cdn1.karwan.tv.m3u) | ✅ | dead |  |
-| 2 | `cdn1.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn1.zohanayaan.com_1686.m3u) | ✅ | dead |  |
-| 2 | `cdn10.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn10.zohanayaan.com_1686.m3u) | ✅ | dead |  |
-| 2 | `cdn11.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn11.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 2 | `cdn13.crtvnoc` | [Open](playlists/by-provider/cdn13.crtvnoc.m3u) | ✅ | dead |  |
-| 2 | `cdn13.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn13.zohanayaan.com_1686.m3u) | ✅ | dead |  |
-| 2 | `cdn9.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn9.zohanayaan.com_1686.m3u) | ✅ | dead |  |
+| 2 | `cdnlivetv.tv` | [Open](playlists/by-provider/cdnlivetv.tv.m3u) | ✅ | dead |  |
 | 2 | `ch8.littletongov` | [Open](playlists/by-provider/ch8.littletongov.m3u) | ✅ | dead |  |
 | 2 | `cors-proxy.cooks.fyi` | [Open](playlists/by-provider/cors-proxy.cooks.fyi.m3u) | ✅ | dead |  |
 | 2 | `cs.ebmcdn.net` | [Open](playlists/by-provider/cs.ebmcdn.net.m3u) | ✅ | dead |  |
@@ -451,13 +442,14 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `granicusliveus1-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus1-a.akamaihd.net.m3u) | ✅ | dead |  |
 | 2 | `granicusliveus2-a.akamaihd.net` | [Open](playlists/by-provider/granicusliveus2-a.akamaihd.net.m3u) | ✅ | dead |  |
 | 2 | `hls.youtb.workers.dev` | [Open](playlists/by-provider/hls.youtb.workers.dev.m3u) | ✅ | dead |  |
-| 2 | `lb2.wfty.st` | [Open](playlists/by-provider/lb2.wfty.st.m3u) | ✅ | dead |  |
+| 2 | `lb3.wfty.st` | [Open](playlists/by-provider/lb3.wfty.st.m3u) | ✅ | dead |  |
+| 2 | `lb4.wfty.st` | [Open](playlists/by-provider/lb4.wfty.st.m3u) | ✅ | dead |  |
+| 2 | `lb5.wfty.st` | [Open](playlists/by-provider/lb5.wfty.st.m3u) | ✅ | dead |  |
 | 2 | `live-h1.frontlayer.net` | [Open](playlists/by-provider/live-h1.frontlayer.net.m3u) | ✅ | dead |  |
 | 2 | `live.chdrstatic` | [Open](playlists/by-provider/live.chdrstatic.m3u) | ✅ | dead |  |
 | 2 | `liveh34.vtvprime.vn` | [Open](playlists/by-provider/liveh34.vtvprime.vn.m3u) | ✅ | dead |  |
 | 2 | `newyorkstream.ddns.net:1935` | [Open](playlists/by-provider/newyorkstream.ddns.net_1935.m3u) | ✅ | dead |  |
 | 2 | `prod-fastly-eu-west-1.video.pscp.tv` | [Open](playlists/by-provider/prod-fastly-eu-west-1.video.pscp.tv.m3u) | ✅ | dead |  |
-| 2 | `raw.githubusercontent` | [Open](playlists/by-provider/raw.githubusercontent.m3u) | ✅ | dead |  |
 | 2 | `reflect-cityofloveland-co.cablecast.tv` | [Open](playlists/by-provider/reflect-cityofloveland-co.cablecast.tv.m3u) | ✅ | dead |  |
 | 2 | `reflect-collier-countyboc.cablecast.tv` | [Open](playlists/by-provider/reflect-collier-countyboc.cablecast.tv.m3u) | ✅ | dead |  |
 | 2 | `reflect-lakefront-leesburgflorida.cablecast.tv` | [Open](playlists/by-provider/reflect-lakefront-leesburgflorida.cablecast.tv.m3u) | ✅ | dead |  |
@@ -467,6 +459,7 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `reflect-thornton.cablecast.tv` | [Open](playlists/by-provider/reflect-thornton.cablecast.tv.m3u) | ✅ | dead |  |
 | 2 | `rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net` | [Open](playlists/by-provider/rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net.m3u) | ✅ | dead |  |
 | 2 | `rtmp1.abnsat` | [Open](playlists/by-provider/rtmp1.abnsat.m3u) | ✅ | dead |  |
+| 2 | `s2.tudeporteshoy.xyz:443` | [Open](playlists/by-provider/s2.tudeporteshoy.xyz_443.m3u) | ✅ | dead |  |
 | 2 | `sc2022.stream-link` | [Open](playlists/by-provider/sc2022.stream-link.m3u) | ✅ | dead |  |
 | 2 | `securestream3.champds` | [Open](playlists/by-provider/securestream3.champds.m3u) | ✅ | dead |  |
 | 2 | `securestream9.champds` | [Open](playlists/by-provider/securestream9.champds.m3u) | ✅ | dead |  |
@@ -478,6 +471,8 @@ Edit `provider-notes.json` after testing each provider.
 | 2 | `vbfast-c.viebit` | [Open](playlists/by-provider/vbfast-c.viebit.m3u) | ✅ | dead |  |
 | 2 | `videodelivery.net` | [Open](playlists/by-provider/videodelivery.net.m3u) | ✅ | dead |  |
 | 2 | `vod.slocoe` | [Open](playlists/by-provider/vod.slocoe.m3u) | ✅ | dead |  |
+| 2 | `volder.timst.cfd` | [Open](playlists/by-provider/volder.timst.cfd.m3u) | ✅ | dead |  |
+| 2 | `y2fzdgxl.fubo18.com:443` | [Open](playlists/by-provider/y2fzdgxl.fubo18.com_443.m3u) | ✅ | dead |  |
 | 2 | `ythls.armelin.one` | [Open](playlists/by-provider/ythls.armelin.one.m3u) | ✅ | dead |  |
 | 2 | `ythls.onrender` | [Open](playlists/by-provider/ythls.onrender.m3u) | ✅ | dead |  |
 | 1 | `0888934ec1a5.us-east-1.playback.live-video.net` | [Open](playlists/by-provider/0888934ec1a5.us-east-1.playback.live-video.net.m3u) | ✅ | dead |  |
@@ -525,6 +520,7 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `80tv.lincoln.ne.gov` | [Open](playlists/by-provider/80tv.lincoln.ne.gov.m3u) | ✅ | dead |  |
 | 1 | `81988.global.ssl.fastly.net` | [Open](playlists/by-provider/81988.global.ssl.fastly.net.m3u) | ✅ | dead |  |
 | 1 | `837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
+| 1 | `89.46.123.6:80` | [Open](playlists/by-provider/89.46.123.6_80.m3u) | ✅ | dead |  |
 | 1 | `95.47.156.60:8000` | [Open](playlists/by-provider/95.47.156.60_8000.m3u) | ✅ | dead |  |
 | 1 | `a7b60a6853d843dd9105acfa8d6e74c7.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/a7b60a6853d843dd9105acfa8d6e74c7.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
 | 1 | `a8d3367c658948afb1901efdd9babe5b.mediatailor.us-east-1.amazonaws` | [Open](playlists/by-provider/a8d3367c658948afb1901efdd9babe5b.mediatailor.us-east-1.amazonaws.m3u) | ✅ | dead |  |
@@ -578,6 +574,7 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `cdn1-8p.teleuptv.net` | [Open](playlists/by-provider/cdn1-8p.teleuptv.net.m3u) | ✅ | dead |  |
 | 1 | `cdn20.liveonlineservices` | [Open](playlists/by-provider/cdn20.liveonlineservices.m3u) | ✅ | dead |  |
 | 1 | `cdn61.liveonlineservices` | [Open](playlists/by-provider/cdn61.liveonlineservices.m3u) | ✅ | dead |  |
+| 1 | `cdn7.zohanayaan.com:1686` | [Open](playlists/by-provider/cdn7.zohanayaan.com_1686.m3u) | ✅ | dead |  |
 | 1 | `cdnenmain.telesur.ultrabase.net` | [Open](playlists/by-provider/cdnenmain.telesur.ultrabase.net.m3u) | ✅ | dead |  |
 | 1 | `cf-live29e5f8c.lwcdn` | [Open](playlists/by-provider/cf-live29e5f8c.lwcdn.m3u) | ✅ | dead |  |
 | 1 | `ch.iptvmate.net` | [Open](playlists/by-provider/ch.iptvmate.net.m3u) | ✅ | dead |  |
@@ -684,6 +681,7 @@ Edit `provider-notes.json` after testing each provider.
 | 1 | `panel.freedomflixtv.org:3948` | [Open](playlists/by-provider/panel.freedomflixtv.org_3948.m3u) | ✅ | dead |  |
 | 1 | `paraglidingtv.playout.vju.tv` | [Open](playlists/by-provider/paraglidingtv.playout.vju.tv.m3u) | ✅ | dead |  |
 | 1 | `previewchannel-previewchannel-1.vizio.wurl` | [Open](playlists/by-provider/previewchannel-previewchannel-1.vizio.wurl.m3u) | ✅ | dead |  |
+| 1 | `raw.githubusercontent` | [Open](playlists/by-provider/raw.githubusercontent.m3u) | ✅ | dead |  |
 | 1 | `rebroadcast.mytvtogo.net` | [Open](playlists/by-provider/rebroadcast.mytvtogo.net.m3u) | ✅ | dead |  |
 | 1 | `reflect-access-sacramento.cablecast.tv` | [Open](playlists/by-provider/reflect-access-sacramento.cablecast.tv.m3u) | ✅ | dead |  |
 | 1 | `reflect-applevalley.cablecast.tv` | [Open](playlists/by-provider/reflect-applevalley.cablecast.tv.m3u) | ✅ | dead |  |

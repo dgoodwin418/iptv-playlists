@@ -7,6 +7,9 @@
 | 8 | `41.205.93.154` |  |
 | 7 | `bozztv` |  |
 | 5 | `78.108.251.7` |  |
+| 5 | `cdn2.zohanayaan.com:1686` |  |
+| 5 | `cdn6.zohanayaan.com:1686` |  |
+| 5 | `cdn8.zohanayaan.com:1686` |  |
 | 5 | `stream.ads.ottera.tv` |  |
 | 4 | `agp-nimble.streamguys1` |  |
 | 4 | `fastly.live.brightcove` |  |

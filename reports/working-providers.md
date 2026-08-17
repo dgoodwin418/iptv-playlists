@@ -2,8 +2,8 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 87 | `ccctv.xyz:2096` |  |
-| 60 | `ftv.xyzstreams.st` |  |
+| 88 | `ccctv.xyz:2096` |  |
+| 60 | `ftv.dlhd.net` |  |
 | 58 | `FREE3` | Works well |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
@@ -11,7 +11,6 @@
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
 | 12 | `247v2.xyzstreams.st` |  |
-| 12 | `cherisetrevisone.s3.us-east-1.amazonaws` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
@@ -23,7 +22,6 @@
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
-| 6 | `79.143.16.38:80` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -57,6 +55,7 @@
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
 | 2 | `45.90.106.117:80` |  |
+| 2 | `79.143.16.38:80` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
 | 2 | `api.v3.invintus` |  |
@@ -65,6 +64,7 @@
 | 2 | `bl.video.matchtv.ru` |  |
 | 2 | `buenapark.cablecast.tv` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
+| 2 | `cherisetrevisone.s3.us-east-1.amazonaws` |  |
 | 2 | `concordca.cablecast.tv` |  |
 | 2 | `install.akctvcontrol` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
@@ -180,7 +180,6 @@
 | 1 | `f-tx-edge-87.christianworldmedia` |  |
 | 1 | `failarmy-international-in.samsung.wurl.tv` |  |
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
-| 1 | `gpuserver7.tier1streams` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
 | 1 | `hls.savoir.media` |  |
