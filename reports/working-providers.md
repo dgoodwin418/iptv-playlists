@@ -2,17 +2,17 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 88 | `ccctv.xyz:2096` |  |
-| 60 | `ftv.dlhd.net` |  |
+| 93 | `ccctv.xyz:2096` |  |
 | 58 | `FREE3` | Works well |
+| 40 | `ftv.dlhd.net` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
 | 13 | `jmp2.uk` | All channels worked in VLC |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
-| 12 | `247v2.xyzstreams.st` |  |
 | 12 | `townnews.g-mana.live` | All channels played in VLC |
 | 11 | `cdntv.online` | All channels worked in VLC |
+| 10 | `25princess.s3.us-east-1.amazonaws` |  |
 | 10 | `qvc-amd-live.akamaized.net` | All channels work in VLC |
 | 10 | `service-stitcher.clusters.pluto.tv` | All channels work in VLC but the commercial screen is not in English |
 | 10 | `video.oct.dc.gov` | All channels work in VLC |
@@ -22,6 +22,7 @@
 | 7 | `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` |  |
 | 7 | `reflect-communitytv.cablecast.tv` |  |
 | 7 | `stream.swagit` |  |
+| 6 | `origin.mycdn.video` |  |
 | 6 | `reflect-stream-bronxnet.cablecast.tv` |  |
 | 6 | `reflect-vod-cmac.cablecast.tv` |  |
 | 6 | `securestream10.champds` |  |
@@ -32,6 +33,7 @@
 | 5 | `fast-channels.sinclairstoryline` |  |
 | 5 | `PBS` |  |
 | 4 | `23.239.31.26:8989` |  |
+| 4 | `247v2.xyzstreams.st` |  |
 | 4 | `api.toonamiaftermath.com:3000` |  |
 | 4 | `bloomberg` |  |
 | 4 | `cantv.streamguys1` |  |
@@ -49,13 +51,12 @@
 | 3 | `cineverse.g-mana.live` |  |
 | 3 | `edge1.lifestreamcdn` |  |
 | 3 | `livecdn.use1-0004.jwplive` |  |
+| 3 | `stream.bottledesk.net` |  |
 | 3 | `temp2.isilive.ca` |  |
 | 3 | `video.ct-n` |  |
 | 2 | `145.239.5.177:80` |  |
 | 2 | `158.101.222.193:88` |  |
 | 2 | `190.117.20.37:8000` |  |
-| 2 | `45.90.106.117:80` |  |
-| 2 | `79.143.16.38:80` |  |
 | 2 | `93.93.113.95:25461` |  |
 | 2 | `a-cdn.herringnetwork` |  |
 | 2 | `api.v3.invintus` |  |
@@ -64,7 +65,6 @@
 | 2 | `bl.video.matchtv.ru` |  |
 | 2 | `buenapark.cablecast.tv` |  |
 | 2 | `champaign-cablecast.cablecast.tv` |  |
-| 2 | `cherisetrevisone.s3.us-east-1.amazonaws` |  |
 | 2 | `concordca.cablecast.tv` |  |
 | 2 | `install.akctvcontrol` |  |
 | 2 | `jk3lzkn4lw79-hls-live.5centscdn` |  |
@@ -117,6 +117,7 @@
 | 1 | `23.133.220.149` |  |
 | 1 | `247preview.foxnews` |  |
 | 1 | `247wlive.foxweather` |  |
+| 1 | `45.14.84.37` |  |
 | 1 | `45.5.117.57:8200` |  |
 | 1 | `5.188.221.43:8080` |  |
 | 1 | `61ce5915.amazzin.pw` |  |
@@ -193,6 +194,7 @@
 | 1 | `jlt-jltv-stirr.otteravision` |  |
 | 1 | `jstre.am` |  |
 | 1 | `k20.usastreams.com:8081` |  |
+| 1 | `kinowatch` |  |
 | 1 | `kwtspta.cdn.mangomolo` |  |
 | 1 | `langleyproductions-cops-2-eu.rakuten.wurl.tv` |  |
 | 1 | `lecteur.iconetv.bj` |  |
@@ -233,6 +235,7 @@
 | 1 | `mmn.mypsx.net:1935` |  |
 | 1 | `newidco-babysharktv-1-us.roku.wurl.tv` |  |
 | 1 | `newidco-newkid-1-eu.xiaomi.wurl.tv` |  |
+| 1 | `nmx1ota.akamaized.net` |  |
 | 1 | `ott.god.tv` |  |
 | 1 | `oxygenmusic.hu:2443` |  |
 | 1 | `pb-ehs1glsha1juy.akamaized.net` |  |
@@ -240,6 +243,7 @@
 | 1 | `pb-rhq7yj8tne4rm.akamaized.net` |  |
 | 1 | `pb-vt93jy06rfty1.akamaized.net` |  |
 | 1 | `playtv4k.live` |  |
+| 1 | `playztv.pages.dev` |  |
 | 1 | `plextv.ott-channels.stingray` |  |
 | 1 | `pubgfc.teleosmedia` |  |
 | 1 | `rally-tv-live.akamaized.net` |  |
@@ -249,6 +253,7 @@
 | 1 | `reflector.watchtstv` |  |
 | 1 | `rmtv.akamaized.net` |  |
 | 1 | `s5.mexside.net:1936` |  |
+| 1 | `sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw` |  |
 | 1 | `stitcher.pluto.tv` |  |
 | 1 | `stream-losangeles.scientology` |  |
 | 1 | `stream-tampa.scientology` |  |
