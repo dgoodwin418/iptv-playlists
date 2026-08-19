@@ -2,11 +2,12 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 93 | `ccctv.xyz:2096` |  |
+| 89 | `restream-live.realiptv.to` |  |
+| 60 | `ftv.dlhd.net` |  |
 | 58 | `FREE3` | Works well |
-| 40 | `ftv.dlhd.net` |  |
 | 39 | `rpn.bozztv` | All of the tested channels worked in VLC |
 | 22 | `adultswim-vodlive.cdn.turner` | All channels played in VLC |
+| 16 | `247v2.xyzstreams.st` |  |
 | 13 | `jmp2.uk` | All channels worked in VLC |
 | 13 | `live.corusdigitaldev` | Channels play in VLC |
 | 12 | `2-fss-1.streamhoster` | Channels play in VLC |
@@ -33,7 +34,6 @@
 | 5 | `fast-channels.sinclairstoryline` |  |
 | 5 | `PBS` |  |
 | 4 | `23.239.31.26:8989` |  |
-| 4 | `247v2.xyzstreams.st` |  |
 | 4 | `api.toonamiaftermath.com:3000` |  |
 | 4 | `bloomberg` |  |
 | 4 | `cantv.streamguys1` |  |
@@ -183,6 +183,7 @@
 | 1 | `fffffff110156200.tvustream.com:8298` |  |
 | 1 | `gsn-cinevault-70s-2-us.roku.wurl.tv` |  |
 | 1 | `gsn-cinevault-classics-1-us.roku.wurl.tv` |  |
+| 1 | `hls.livecdn.io` |  |
 | 1 | `hls.savoir.media` |  |
 | 1 | `icchls.wns.live` |  |
 | 1 | `iconfilmsdistribution-iconfilmchannelclassics-1-gb.samsung.wurl.tv` |  |
