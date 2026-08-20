@@ -2,63 +2,69 @@
 
 | Channels | Provider | Notes |
 |---:|---|---|
-| 102 | `khala.skylivehd` | Server for live sporting events. |
+| 132 | `khala.skylivehd` | Server for live sporting events. |
 | 78 | `streams2.sofast.tv` | Server for live sporting events. |
 | 51 | `dai2.xumo` | none of the channels played in VLC |
+| 50 | `193.47.62.59` |  |
 | 49 | `technologycloud.eu:80` | none of the channels played in VLC |
-| 44 | `193.47.62.41` |  |
+| 40 | `193.47.62.41` |  |
 | 34 | `webcast-origin.b-cdn.net` |  |
 | 32 | `79.127.207.193:80` | None of the channels played in VLC |
 | 29 | `169.150.223.25` | None of the channels played in VLC |
+| 24 | `po.tudeporteshoy.xyz:443` |  |
+| 22 | `chatgpt.hereisman.net` | Live sports server |
+| 22 | `streamfree.top` |  |
 | 20 | `a.jsrdn` | None of the channels played in VLC |
 | 17 | `77.137.40.221:8000` | no channels played in VLC |
-| 16 | `193.47.62.40` |  |
-| 16 | `193.47.62.44` |  |
 | 14 | `2k.tstvs` | no channels played in vlc |
 | 14 | `a-cdn.klowdtv` | All channels worked in VLC |
-| 14 | `chatgpt.hereisman.net` | Live sports server |
+| 14 | `s2.tudeporteshoy.xyz:443` |  |
+| 14 | `so.tudeporteshoy.xyz:443` |  |
 | 14 | `trxad.top:80` | no channels played in vlc |
+| 12 | `a2lja3m.fubo18.com:443` |  |
+| 12 | `se.tudeporteshoy.xyz:443` |  |
 | 12 | `stream-us-east-1.getpublica` | No channels played in VLC |
-| 12 | `streamfree.top` |  |
-| 12 | `volder.timst.cfd` |  |
+| 12 | `y2fzdgxl.fubo18.com:443` |  |
 | 11 | `154.197.91.169:8000` | No channels worked in VLC |
+| 11 | `cdn5.zohanayaan.com:1686` |  |
 | 11 | `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` | No channels worked in VLC |
 | 11 | `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` | No channels worked in VLC |
 | 11 | `wo0dyefk.dienalt` | No channels worked in VLC |
 | 10 | `abcnews-streams.akamaized.net` | No channels work in VLC |
-| 10 | `s2.tudeporteshoy.xyz:443` |  |
-| 10 | `si.tudeporteshoy.xyz:443` |  |
-| 10 | `so.tudeporteshoy.xyz:443` |  |
+| 10 | `bgvnzw5k.fubo18.com:443` |  |
+| 10 | `cdn1.zohanayaan.com:1686` |  |
+| 10 | `eWVz.fubo18.com:443` |  |
+| 10 | `s1.tudeporteshoy.xyz:443` |  |
+| 10 | `sa.tudeporteshoy.xyz:443` |  |
 | 10 | `Ym9yZQ.fubo18.com:443` |  |
-| 9 | `cdn9.zohanayaan.com:1686` |  |
 | 9 | `free.fullspeed.tv` | No channels work in VLC |
 | 9 | `mediaserver.abnvideos` | no channels work in VLC |
 | 8 | `185.132.134.159:80` | No channels work in VLC |
 | 8 | `212.102.60.231` | No channels work in VLC |
-| 8 | `c2f2zq.fubo18.com:443` |  |
+| 8 | `am91cm5leQ.fubo18.com:443` |  |
+| 8 | `b2ZmaWNpYWw.fubo18.com:443` |  |
+| 8 | `bmf0aw9u.fubo18.com:443` |  |
 | 8 | `cdn.vegasplus.us` | No channels work in VLC |
+| 8 | `cdnlivetv.tv` |  |
+| 8 | `instreams.live` |  |
+| 8 | `lb5.wfty.st` |  |
 | 8 | `Spanish` | No channels work in VLC |
+| 8 | `volder.timst.cfd` |  |
 | 7 | `77.46.130.252:99` |  |
-| 7 | `cdn4.zohanayaan.com:1686` |  |
-| 7 | `cdn5.zohanayaan.com:1686` |  |
 | 7 | `rpn1.bozztv` |  |
 | 7 | `stitcheraws.unreel.me` |  |
 | 6 | `195.181.169.152:8080` |  |
 | 6 | `65.108.239.207` |  |
-| 6 | `a2lja3m.fubo18.com:443` |  |
 | 6 | `bcovlive-a.akamaihd.net` |  |
-| 6 | `bgvnzw5k.fubo18.com:443` |  |
 | 6 | `ca1.buximedia` |  |
 | 6 | `cdn.klowdtv.net` |  |
-| 6 | `cdn13.zohanayaan.com:1686` |  |
-| 6 | `cdn3.zohanayaan.com:1686` |  |
-| 6 | `cdnlivetv.tv` |  |
-| 6 | `lb1.wfty.st` |  |
 | 6 | `reflect-npa.cablecast.tv` |  |
-| 6 | `sa.tudeporteshoy.xyz:443` |  |
+| 6 | `si.tudeporteshoy.xyz:443` |  |
 | 6 | `v-ny.theus6tv.tk` |  |
 | 5 | `79.127.207.193` |  |
 | 5 | `broadcast.mytvtogo.net` |  |
+| 5 | `cdn4.zohanayaan.com:1686` |  |
+| 5 | `cdn9.zohanayaan.com:1686` |  |
 | 5 | `nbcnews-lh.akamaihd.net` |  |
 | 5 | `uvotv-aniview.global.ssl.fastly.net` |  |
 | 5 | `v-pi.theus6tv.tk` |  |
@@ -66,26 +72,22 @@
 | 4 | `178.23.88.55` |  |
 | 4 | `188.191.160.238:7780` |  |
 | 4 | `193.47.62.190` |  |
+| 4 | `193.47.62.44` |  |
 | 4 | `84.54.128.52:9090` |  |
-| 4 | `am91cm5leQ.fubo18.com:443` |  |
 | 4 | `api.new.livestream` |  |
-| 4 | `b2ZmaWNpYWw.fubo18.com:443` |  |
-| 4 | `bmf0aw9u.fubo18.com:443` |  |
 | 4 | `cbsnewshd-lh.akamaihd.net` |  |
-| 4 | `cdn1.zohanayaan.com:1686` |  |
-| 4 | `cdn15.zohanayaan.com:1686` |  |
+| 4 | `cdn3.zohanayaan.com:1686` |  |
 | 4 | `cdn4.skygo.mn` |  |
 | 4 | `cnngo1.akamaized.net` |  |
-| 4 | `eWVz.fubo18.com:443` |  |
 | 4 | `granicusliveus3-a.akamaihd.net` |  |
 | 4 | `hls-cdn.tvstartup.net` |  |
+| 4 | `lb1.wfty.st` |  |
 | 4 | `lb3.wfty.st` |  |
-| 4 | `lb5.wfty.st` |  |
+| 4 | `lb4.wfty.st` |  |
+| 4 | `lb6.wfty.st` |  |
 | 4 | `moiptvhls-i.akamaihd.net` |  |
-| 4 | `po.tudeporteshoy.xyz:443` |  |
 | 4 | `reflect-jacksonville.cablecast.tv` |  |
 | 4 | `s3-us-west-2.amazonaws` |  |
-| 4 | `se.tudeporteshoy.xyz:443` |  |
 | 4 | `shls-masr-ak.akamaized.net` |  |
 | 4 | `stvlive.net:8080` |  |
 | 3 | `167.250.223.26:8085` |  |
@@ -124,18 +126,18 @@
 | 2 | `cdn1.karwan.tv` |  |
 | 2 | `cdn10.zohanayaan.com:1686` |  |
 | 2 | `cdn11.zohanayaan.com:1686` |  |
-| 2 | `cdn12.zohanayaan.com:1686` |  |
 | 2 | `cdn13.crtvnoc` |  |
-| 2 | `cdn14.zohanayaan.com:1686` |  |
+| 2 | `cdn13.zohanayaan.com:1686` |  |
+| 2 | `cdn15.zohanayaan.com:1686` |  |
 | 2 | `ch8.littletongov` |  |
 | 2 | `cors-proxy.cooks.fyi` |  |
 | 2 | `cs.ebmcdn.net` |  |
 | 2 | `ctntv.getstreamhosting.com:1936` |  |
-| 2 | `edgestream2.pro` |  |
 | 2 | `granicusliveus1-a.akamaihd.net` |  |
 | 2 | `granicusliveus2-a.akamaihd.net` |  |
 | 2 | `hls.youtb.workers.dev` |  |
-| 2 | `lb4.wfty.st` |  |
+| 2 | `instreams.pro` |  |
+| 2 | `lb2.wfty.st` |  |
 | 2 | `live-h1.frontlayer.net` |  |
 | 2 | `live.chdrstatic` |  |
 | 2 | `liveh34.vtvprime.vn` |  |
@@ -151,7 +153,6 @@
 | 2 | `reflect-thornton.cablecast.tv` |  |
 | 2 | `rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net` |  |
 | 2 | `rtmp1.abnsat` |  |
-| 2 | `s1.tudeporteshoy.xyz:443` |  |
 | 2 | `sc2022.stream-link` |  |
 | 2 | `securestream3.champds` |  |
 | 2 | `securestream9.champds` |  |
