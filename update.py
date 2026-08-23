@@ -17,7 +17,7 @@ from pathlib import Path
 
 EPLAYLIST_URL = (
     "https://magnetic.website/"
-    "MAD_TITAN_SPORTS/Keep_m3u_json/eplaylist.json"
+    "MAD_TITAN_SPORTS/Keep_m3u_json/channel_test/eplaylist.json"
 )
 
 EPG_URL = "https://magnetic.website/jet/epg/merged_epg.xml"
