@@ -1,5 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Fox.Deportes.HD.us2" tvg-name="Fox Deportes HD" tvg-logo="http://dtil.tmsimg.com/assets/s15377_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",Fox Deportes HD
-https://cors-proxy.cooks.fyi/http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
-#EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="FS1 Fox Sports 1 HD" tvg-logo="http://dtil.tmsimg.com/assets/s82547_ll_h15_aa.png?w=360&amp;h=270" group-title="Sports Networks",FS1 Fox Sports 1 HD
-https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Cinecanal Este" tvg-logo="" group-title="Other",Cinecanal Este
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="National Geographic Latin America" tvg-logo="" group-title="Other",National Geographic Latin America
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/NAT_GEO/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Studio Universal Latin America" tvg-logo="" group-title="Other",Studio Universal Latin America
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA Network Latin America" tvg-logo="" group-title="Other",USA Network Latin America
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/SYFY/index.m3u8

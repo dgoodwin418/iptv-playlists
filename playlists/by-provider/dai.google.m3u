@@ -1,10 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="48 Hours" tvg-logo="" group-title="Other",48 Hours
-https://dai.google.com/linear/hls/event/JUr94WL2QAiVpGNHY5n5dA/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AFV" tvg-logo="" group-title="Other",AFV
 https://dai.google.com/linear/hls/event/18_lZXPySFa5_GRVEbOX_A/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Bloomberg Originals" tvg-logo="" group-title="Other",Bloomberg Originals
-https://dai.google.com/linear/hls/event/jKwfd4apQcuxQtyRI9Q6-Q/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CBS News Boston (#)" tvg-logo="" group-title="Other",CBS News Boston (#)
 https://dai.google.com/linear/hls/event/26FJK7wRSo6RhPsK70XS_w/master.m3u8?iu=/4128/CBS.BOSTON.OTT
 #EXTINF:-1 tvg-id="" tvg-name="CBS News Los Angeles (#)" tvg-logo="" group-title="Other",CBS News Los Angeles (#)
@@ -13,11 +9,9 @@ https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8?iu=/4
 https://dai.google.com/linear/hls/event/o5J3g4U9T16CvYnS7Qd86Q/master.m3u8?iu=/4128/CBS.DALLAS.OTT
 #EXTINF:-1 tvg-id="" tvg-name="CBS News Texas (#)" tvg-logo="" group-title="Other",CBS News Texas (#)
 https://dai.google.com/linear/hls/event/ogzLhRCkRbG3lFHHJwqaNw/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CBS Sports Golazo Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s133691_dark_360w_270h.png" group-title="TV",CBS Sports Golazo Network
-https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Classic Reruns TV" tvg-logo="" group-title="Other",Classic Reruns TV
 https://dai.google.com/linear/hls/event/wnQPvAN9QBODw9hP-H0rZA/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Entertainment Tonight (#)" tvg-logo="" group-title="Other",Entertainment Tonight (#)
+#EXTINF:-1 tvg-id="" tvg-name="ET Live feed" tvg-logo="" group-title="Other",ET Live feed
 https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fail Army" tvg-logo="" group-title="Other",Fail Army
 https://dai.google.com/linear/hls/event/7tuuoX1wSsCTaki1HqJFYw/master.m3u8
@@ -33,13 +27,43 @@ https://dai.google.com/linear/hls/event/xC8SDBfbTKCTCa20kFJQXQ/master.m3u8
 https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ONTV4U" tvg-logo="" group-title="Other",ONTV4U
 https://dai.google.com/linear/hls/event/571lW-W1Th6Go5EV3Qa19Q/master.m3u8
-#EXTINF:-1 tvg-id="Outdoor.Channel.HD.us2" tvg-name="Outdoor Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s46737_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Outdoor Channel HD
+#EXTINF:-1 tvg-id="" tvg-name="Outdoor America" tvg-logo="" group-title="Other",Outdoor America
 https://dai.google.com/linear/hls/event/WB-7LjdsRVm0wVoLZjR8mA/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Qello Concerts" tvg-logo="" group-title="Other",Qello Concerts
 https://dai.google.com/linear/hls/event/BakMHO8xRSmGKYeiyhsq3A/master.m3u8
+#EXTINF:-1 tvg-id="Real.Americas.Voice.us2" tvg-name="Real Americas Voice" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s117378_h15_aa.png" group-title="Other",Real Americas Voice
+https://dai.google.com/linear/hls/event/c-oMNcDLTeuszRKPugMj9Q/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Stingray Karaoke" tvg-logo="" group-title="Other",Stingray Karaoke
 https://dai.google.com/linear/hls/event/5bqbG8j7T_6_qMONC1SDsg/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Stingray Naturescape" tvg-logo="" group-title="Other",Stingray Naturescape
 https://dai.google.com/linear/hls/event/6RPZlzksTCyB1euPqLcBZQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR City Albany" tvg-logo="" group-title="Other",STIRR City Albany
+https://dai.google.com/linear/hls/event/LT14Y2LdQSWx9OQCmgVfuA/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR City Charleston" tvg-logo="" group-title="Other",STIRR City Charleston
+https://dai.google.com/linear/hls/event/kMNMCCQsQYyyk2n2h_4cNw/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR City Columbia" tvg-logo="" group-title="Other",STIRR City Columbia
+https://dai.google.com/linear/hls/event/btXotLiMRvmsa5J5AetBGQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR City Grand Rapids" tvg-logo="" group-title="Other",STIRR City Grand Rapids
+https://dai.google.com/linear/hls/event/leOKmL9fQ6eZyhdoROSh5Q/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR City Las Vegas" tvg-logo="" group-title="Other",STIRR City Las Vegas
+https://dai.google.com/linear/hls/event/yDGZP35hTsqdf2rwaP1BGQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR City Minneapolis" tvg-logo="" group-title="Other",STIRR City Minneapolis
+https://dai.google.com/linear/hls/event/0P8RZiJkSBWfVDtjy-IiIQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR City Portland" tvg-logo="" group-title="Other",STIRR City Portland
+https://dai.google.com/linear/hls/event/npdISdLWSIa1E_j7NCUDBg/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR Electric Now" tvg-logo="" group-title="Other",STIRR Electric Now
+https://dai.google.com/linear/hls/event/KsvJAc81Qoewj6opYso6Fw/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR Evergreen" tvg-logo="" group-title="Other",STIRR Evergreen
+https://dai.google.com/linear/hls/event/TDUiZE57Q3-CS7Its4kLDQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR PursuitUp" tvg-logo="" group-title="Other",STIRR PursuitUp
+https://dai.google.com/linear/hls/event/NpkpFaFVRqaQwSkpPdramg/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR Revry" tvg-logo="" group-title="Other",STIRR Revry
+https://dai.google.com/linear/hls/event/gvO6-Y6TTjCxRf1QALU4VQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR Stadium" tvg-logo="" group-title="Other",STIRR Stadium
+https://dai.google.com/linear/hls/event/0jRU1DBXSW6a_TFheLfAUQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STIRR The Archive" tvg-logo="" group-title="Other",STIRR The Archive
+https://dai.google.com/linear/hls/event/MdbYPXWRStmMq1DaQhsBUw/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TD Ameritrade Network" tvg-logo="" group-title="Other",TD Ameritrade Network
+https://dai.google.com/linear/hls/event/oQS2LgwIScKmhvKfySHSuA/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WBBJ (Jackson TN) (432p)" tvg-logo="" group-title="Other",WBBJ (Jackson TN) (432p)
 https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8

@@ -1,17 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Bounce.TV.us2" tvg-name="Bounce TV" tvg-logo="http://dtil.tmsimg.com/assets/s73067_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Bounce TV
-http://212.102.60.231/BOUNCE_TV/index.m3u8
+#EXTINF:-1 tvg-id="HBO.East.us2" tvg-name="HBO East" tvg-logo="http://dtil.tmsimg.com/assets/s19548_ll_h15_aa.png?w=360&amp;h=270" group-title="US Movies",HBO East
+http://212.102.60.231/HBO/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="HBO Family East" tvg-logo="" group-title="Other",HBO Family East
+http://212.102.60.231/HBO_FAMILY/index.m3u8
+#EXTINF:-1 tvg-id="Home.and.Garden.Television.HD.us2" tvg-name="Home and Garden Television HD" tvg-logo="http://dtil.tmsimg.com/assets/s49788_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Home and Garden Television HD
+http://212.102.60.231/HGTV/index.m3u8
+#EXTINF:-1 tvg-id="MSNBC.HD.us2" tvg-name="MSNBC HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG002H5PTL.png?w=360&amp;h=270" group-title="News",MSNBC HD
+http://212.102.60.231/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV HD" tvg-logo="http://dtil.tmsimg.com/assets/s45526_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",NBA TV HD
 http://212.102.60.231/NBA_TV/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.us2" tvg-name="Nicktoons" tvg-logo="http://dtil.tmsimg.com/assets/s30420_ll_h15_ab.png?w=360&amp;h=270" group-title="US Entertainment",Nicktoons
-http://212.102.60.231/NICKTOONS/index.m3u8
-#EXTINF:-1 tvg-id="ReelzChannel.HD.us2" tvg-name="ReelzChannel HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG002HWGLE.png?w=360&amp;h=270" group-title="US Entertainment",ReelzChannel HD
-http://212.102.60.231/REELZ/index.m3u8
-#EXTINF:-1 tvg-id="Sportsman.Channel.us2" tvg-name="Sportsman Channel" tvg-logo="http://dtil.tmsimg.com/assets/s33930_ll_h15_ad.png?w=360&amp;h=270" group-title="Other",Sportsman Channel
-http://212.102.60.231/SPORTSMAN_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="Starz.Encore.Classic.us2" tvg-name="Starz Encore Classic" tvg-logo="http://dtil.tmsimg.com/assets/s14764_ll_h15_ac.png?w=360&amp;h=270" group-title="US Movies",Starz Encore Classic
-http://212.102.60.231/STARZ_ENCORE_CLASSIC/index.m3u8
-#EXTINF:-1 tvg-id="Starz.HD.us2" tvg-name="Starz HD" tvg-logo="http://dtil.tmsimg.com/assets/s34941_ll_h15_ac.png?w=360&amp;h=270" group-title="US Movies",Starz HD
-http://212.102.60.231/STARZ/index.m3u8
-#EXTINF:-1 tvg-id="Starz.HD.us2" tvg-name="Starz HD" tvg-logo="http://dtil.tmsimg.com/assets/s34941_ll_h15_ac.png?w=360&amp;h=270" group-title="US Movies",Starz HD
-http://212.102.60.231/STARZ_WEST/index.m3u8
+#EXTINF:-1 tvg-id="NewsNation.us2" tvg-name="NewsNation" tvg-logo="http://dtil.tmsimg.com/assets/s91096_ll_h15_af.png?w=360&amp;h=270" group-title="News",NewsNation
+http://212.102.60.231/NEWS_NATION/index.m3u8
+#EXTINF:-1 tvg-id="Tennis.Channel.HD.us2" tvg-name="Tennis Channel HD" tvg-logo="http://dtil.tmsimg.com/assets/s60316_ll_h15_ab.png?w=360&amp;h=270" group-title="Sports Networks",Tennis Channel HD
+http://212.102.60.231/TENNIS_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1 HD" tvg-logo="https://tv.assets.pressassociation.io/f55b110f-8046-5273-a249-badfe915e918.png" group-title="Sports Networks",TNT Sports 1 HD
+http://212.102.60.231/TSN_1/index.m3u8
+#EXTINF:-1 tvg-id="TNT.Sports.2.HD.uk" tvg-name="TNT Sports 2 HD" tvg-logo="https://tv.assets.pressassociation.io/77f422fa-d4a2-5687-953c-34f4da7d8b91.png" group-title="Sports Networks",TNT Sports 2 HD
+http://212.102.60.231/TSN_2/index.m3u8
+#EXTINF:-1 tvg-id="TNT.Sports.3.HD.uk" tvg-name="TNT Sports 3 HD" tvg-logo="https://tv.assets.pressassociation.io/75c9df5d-d2d8-5d04-92ac-d9973c082c72.png" group-title="Sports Networks",TNT Sports 3 HD
+http://212.102.60.231/TSN_3/index.m3u8
+#EXTINF:-1 tvg-id="TNT.Sports.4.HD.uk" tvg-name="TNT Sports 4 HD" tvg-logo="https://tv.assets.pressassociation.io/056d00c0-1629-5388-857c-f1a9ebdec5b8.png" group-title="Sports Networks",TNT Sports 4 HD
+http://212.102.60.231/TSN_4/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TSN SPORTS 5 🇨🇦" tvg-logo="" group-title="Other",TSN SPORTS 5 🇨🇦
+http://212.102.60.231/TSN_5/index.m3u8
