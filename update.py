@@ -45,7 +45,7 @@ REPORTS_DIR.mkdir(exist_ok=True)
 
 # Providers with fewer than this number of streams remain in the
 # provider reports, but do not receive an individual provider playlist.
-MIN_PROVIDER_CHANNELS = 1
+MIN_PROVIDER_CHANNELS = 3
 
 # These providers are used for Combined_Selected.m3u and
 # Priority_Clean.m3u.
@@ -65,7 +65,7 @@ VALID_STATUSES = {
     "untested",
     "dead",
 }
-
+3
 STATUS_ORDER = {
     "working": 0,
     "partial": 1,
