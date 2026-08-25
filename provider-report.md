@@ -1,6 +1,6 @@
 # Provider Testing Report
 
-**Last updated:** 2026-08-24 10:57 UTC
+**Last updated:** 2026-08-25 10:54 UTC
 
 - Providers found: **1147**
 - Provider playlists generated: **204**
