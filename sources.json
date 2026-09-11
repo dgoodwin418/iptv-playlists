@@ -1,0 +1,26 @@
+{
+  "playlist_sources": [
+    {
+      "id": "doms9-combined",
+      "name": "doms9 IPTV - Combined",
+      "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8",
+      "enabled": true,
+      "priority": 10
+    },
+    {
+      "id": "iptv-org-us",
+      "name": "iptv-org - United States",
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "enabled": true,
+      "priority": 20
+    }
+  ],
+  "epg_sources": [
+    {
+      "id": "doms9-epg",
+      "name": "doms9 EPG",
+      "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.xml",
+      "enabled": true
+    }
+  ]
+}
