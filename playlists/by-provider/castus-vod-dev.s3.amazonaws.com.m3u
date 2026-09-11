@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ACTV.us@SD" tvg-name="ACTV" tvg-logo="https://i.imgur.com/Z6lB0Ww.png" group-title="Legislative",ACTV
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8
+#EXTINF:-1 tvg-id="Akaku53.us@SD" tvg-name="Akaku 53 (Hawaii) (1080p)" tvg-logo="https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel53-147x150-square.png" group-title="General",Akaku 53 (Hawaii) (1080p)
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8
+#EXTINF:-1 tvg-id="Akaku54.us@SD" tvg-name="Akaku 54 (Hawaii) (1080p)" tvg-logo="https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel54-147x150-square.png" group-title="General",Akaku 54 (Hawaii) (1080p)
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8
+#EXTINF:-1 tvg-id="Akaku55.us@SD" tvg-name="Akaku 55 (Hawaii) (1080p)" tvg-logo="https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel55-147x150-square.png" group-title="General",Akaku 55 (Hawaii) (1080p)
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8
+#EXTINF:-1 tvg-id="FNX.us@KVCRDT" tvg-name="FNX [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png" group-title="Culture",FNX [Geo-blocked]
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/live/ch1/video.m3u8
+#EXTINF:-1 tvg-id="MonroeCountyTV.us@SD" tvg-name="Monroe County Television MCTV (Monroe County FL) (1080p)" tvg-logo="https://i.imgur.com/YJfzdSu.png" group-title="Legislative",Monroe County Television MCTV (Monroe County FL) (1080p)
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/monroe/live/ch1/video.m3u8

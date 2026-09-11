@@ -1,25 +1,43 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="Bloody Disgusting (#)" tvg-logo="" group-title="Other",Bloody Disgusting (#)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bloodydisgus-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Comedy Dynamics" tvg-logo="" group-title="Other",Comedy Dynamics
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-comedydynamics-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Docurama" tvg-logo="" group-title="Other",Docurama
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-docurama-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="El Rey Network" tvg-logo="" group-title="Other",El Rey Network
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-elrey-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="FOX 13 Memphis" tvg-logo="" group-title="Other",FOX 13 Memphis
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="FOX 23 Tulsa (#)" tvg-logo="" group-title="Other",FOX 23 Tulsa (#)
+#EXTINF:-1 tvg-id="Court.TV.us2" tvg-name="Court TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117160_dark_360w_270h.png" group-title="TV",Court TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="BounceXL.us@SD" tvg-name="Bounce XL (1080p)" tvg-logo="https://i.imgur.com/GzxgSkc.png" group-title="Entertainment",Bounce XL (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="GritXtra.us@SD" tvg-name="Grit Xtra (1080p)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/dbbb9bca-0b08-43b5-a0e7-715df9a6dbfd/_ChannelLogo_1500x1000.png" group-title="Entertainment",Grit Xtra (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="IONPlus.us@East" tvg-name="ION Plus (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bf/Court_TV_2019.png" group-title="Entertainment",ION Plus (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KDFW" tvg-name="KDFW-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",KDFW-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Roar.us@KOKITV" tvg-name="KOKI-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="Entertainment",KOKI-DT1 (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-kokibreaking-ono/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="So...Real" tvg-logo="" group-title="Other",So...Real
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-soreal-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="The Bob Ross Channel" tvg-logo="" group-title="Other",The Bob Ross Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bobross-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="The Bob Ross Channel Spanish" tvg-logo="" group-title="Other",The Bob Ross Channel Spanish
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-bobrossspanish-lgus/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="The Country Network" tvg-logo="" group-title="Other",The Country Network
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-countrynetwork-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="The Elvis Channel" tvg-logo="" group-title="Other",The Elvis Channel
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-elvis-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="The Film Detective" tvg-logo="" group-title="Other",The Film Detective
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-filmdetective-cineverse/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KRIV" tvg-name="KRIV-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",KRIV-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KSAZTV" tvg-name="KSAZ-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",KSAZ-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KTBC" tvg-name="KTBC-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",KTBC-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ktbc-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@KTTV" tvg-name="KTTV-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",KTTV-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="ShemarooBollywood.us@SD" tvg-name="Shemaroo Bollywood (1080p)" tvg-logo="https://i.imgur.com/TFxLj80.png" group-title="Undefined",Shemaroo Bollywood (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="MNT.us@WFLD" tvg-name="WFLD-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WFLD-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieSphereGold.us@WFXT" tvg-name="WFXT-DT2 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png" group-title="Movies",WFXT-DT2 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WHBQTV" tvg-name="WHBQ-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WHBQ-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WITI" tvg-name="WITI-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WITI-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-witi-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WJBK" tvg-name="WJBK-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WJBK-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox2detroitwjbk-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WNYW" tvg-name="WNYW-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WNYW-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTTG" tvg-name="WTTG-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WTTG-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTVT" tvg-name="WTVT-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WTVT-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTXFTV" tvg-name="WTXF-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",WTXF-DT1 (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="XploreTV.us@SD" tvg-name="Xplore (1080p)" tvg-logo="https://i.imgur.com/WaGRlFO.png" group-title="Entertainment",Xplore (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8

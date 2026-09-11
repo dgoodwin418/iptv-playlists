@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="Nat Geo" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="TV",Nat Geo
+http://198.58.104.90:8989/natgeo/index.m3u8
+#EXTINF:-1 tvg-id="MTV2.us@East" tvg-name="MTV2 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/960px-MTV2_logo_2013.svg.png" group-title="Entertainment",MTV2 (720p)
+http://198.58.104.90:8989/mtv2/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.us@HDEast" tvg-name="National Geographic Wild HD East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild HD East (720p)
+http://198.58.104.90:8989/natgeowild/index.m3u8
+#EXTINF:-1 tvg-id="Oxygen.us@East" tvg-name="Oxygen (720p)" tvg-logo="https://i.imgur.com/GPoucaV.png" group-title="Entertainment",Oxygen (720p)
+http://198.58.104.90:8989/oxygen/index.m3u8

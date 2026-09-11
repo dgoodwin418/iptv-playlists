@@ -1,1155 +1,742 @@
-# Automated Provider Health Report
+# Provider Health
 
-**Last tested:** 2026-09-11T14:09:01Z
+Updated: **2026-09-11T23:42:42.189596+00:00**
 
-Manual status remains authoritative when present. Otherwise, playlists use the automated status.
-
-| Provider | Channels | Tested | Passed | Health | Auto status | Latency |
-|---|---:|---:|---:|---|---|---:|
-| `1.222.207.80:1935` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.909s |
-| `107.167.7.162:8081` | 1 | 1 | 1 | ██████████ 100.0% | working | 12.191s |
-| `141.95.55.143` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.743s |
-| `158.69.124.9:1935` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.155s |
-| `181.205.130.194:4000` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.031s |
-| `1840769862.rsc.cdn77` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.105s |
-| `185.57.68.33:80` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.188s |
-| `185.57.68.33:8091` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.180s |
-| `190.11.225.124:5000` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.402s |
-| `190.117.20.37:8000` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.260s |
-| `194.158.222.36:6104` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.984s |
-| `194.158.222.36:6106` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.374s |
-| `194.158.222.36:6107` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.985s |
-| `2-fss-1.streamhoster` | 15 | 5 | 5 | ██████████ 100.0% | working | 0.311s |
-| `200.115.120.1:8000` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.410s |
-| `213.169.39.30:5102` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.568s |
-| `213.169.39.30:5130` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.121s |
-| `213.169.39.30:5134` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.871s |
-| `213.169.39.30:5136` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.750s |
-| `213.169.39.30:5138` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.988s |
-| `213.169.39.30:5140` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.878s |
-| `213.169.39.30:5142` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.808s |
-| `213.169.39.30:5210` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.919s |
-| `213.169.39.30:5216` | 1 | 1 | 1 | ██████████ 100.0% | working | 2.247s |
-| `217.174.225.146` | 4 | 4 | 4 | ██████████ 100.0% | working | 1.238s |
-| `247wlive.foxweather` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.090s |
-| `3abn.bozztv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.453s |
-| `4aafa23ec0a6477ca31466bd83a115a4.mediatailor.us-west-2.amazonaws` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.889s |
-| `597865f6e4114.streamlock.net` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.732s |
-| `59e8e1c60a2b2.streamlock.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.019s |
-| `5aafcc5de91f1.streamlock.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.293s |
-| `5bf8041cb3fed.streamlock.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.180s |
-| `5c2974786200d.streamlock.net` | 5 | 5 | 5 | ██████████ 100.0% | working | 1.377s |
-| `5c3639aa99149.streamlock.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 4.433s |
-| `5d12bc59c4748.streamlock.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.397s |
-| `5ed325193d4e1.streamlock.net:444` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.621s |
-| `627bb251f23c7.streamlock.net:444` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.728s |
-| `65.36.6.216:1935` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.413s |
-| `82934cf9c8696bd2.mediapackage.us-east-1.amazonaws` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.354s |
-| `88.212.15.19` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.739s |
-| `89.218.30.37` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.702s |
-| `a-cdn.herringnetwork` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.655s |
-| `absp-live.akamaized.net` | 3 | 3 | 3 | ██████████ 100.0% | working | 1.148s |
-| `adultswim-vodlive.cdn.turner` | 22 | 5 | 5 | ██████████ 100.0% | working | 0.308s |
-| `all3media-gardening-with-monty-don-us.xumo.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.194s |
-| `alpha.tv.online.tm` | 9 | 5 | 5 | ██████████ 100.0% | working | 2.568s |
-| `amc-absolutereality-1-us.plex.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.201s |
-| `amc-allweddings-1-us.plex.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.265s |
-| `amc-amcpresents-1-us.plex.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.205s |
-| `amdici.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.131s |
-| `amg00090-blueantllc-homefull-xumo-rn9cd.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.282s |
-| `amg00145-amg00145c3-xumo-us-3802.playouts.now.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.224s |
-| `amg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.602s |
-| `amg00315-sportsgrid-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.386s |
-| `amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.334s |
-| `amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.117s |
-| `amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.230s |
-| `amg00437-amg00437c3-firetv-us-5409.playouts.now.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.350s |
-| `amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.127s |
-| `amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.356s |
-| `amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.269s |
-| `amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.289s |
-| `amg01077-gusto-gustous-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.393s |
-| `amg01258-raycom-amg01258c7-xumo-us-5514.playouts.now.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.214s |
-| `amg17596-ntdtv-amg17596c1-stirr-us-4738.playouts.now.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.313s |
-| `angel.btbn.tv:5443` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.807s |
-| `api.toonamiaftermath.com:3000` | 7 | 5 | 5 | ██████████ 100.0% | working | 0.645s |
-| `api.v3.invintus` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.727s |
-| `applevalley.coxctv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.655s |
-| `aweencore-vizio.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.294s |
-| `aym-as.otteravision` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.095s |
-| `balapantv-stream.qazcdn` | 1 | 1 | 1 | ██████████ 100.0% | working | 14.986s |
-| `bein-beinxtrasports-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.357s |
-| `bein-esp-xumo.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.129s |
-| `bit.ly` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.651s |
-| `bl.video.matchtv.ru` | 2 | 2 | 2 | ██████████ 100.0% | working | 3.428s |
-| `blacknewschannel-vizio.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.430s |
-| `bloomberg` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.176s |
-| `bonappetit-samsung.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.364s |
-| `brat-samsung-us.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.343s |
-| `brightstar-arabic-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.247s |
-| `brightstar-chinese-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.180s |
-| `brightstar-hislight-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.364s |
-| `brightstar-hisword-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.266s |
-| `brightstar-korean-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.202s |
-| `brightstar-latino-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.300s |
-| `brightstar-romanian-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.648s |
-| `brightstar-sls-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.227s |
-| `brightstar-southasia-pull-secure.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.483s |
-| `broadcast.tbnpacific.org.au:4430` | 1 | 1 | 1 | ██████████ 100.0% | working | 4.658s |
-| `buenapark.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.457s |
-| `capitalcityconnection.cablecast.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.788s |
-| `castus-vod-dev.s3.amazonaws` | 7 | 5 | 5 | ██████████ 100.0% | working | 0.151s |
-| `catholictvhd-lh.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.302s |
-| `cbsn-mia.cbsnstream.cbsnews` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.183s |
-| `cdn-live.dltv.ac.th` | 15 | 5 | 5 | ██████████ 100.0% | working | 3.689s |
-| `cdn-shop-lc-01.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.398s |
-| `cdn-ue1-prod.tsv2.amagi.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.408s |
-| `cdn-unified-hls.streamspot` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.308s |
-| `cdn.163189` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.287s |
-| `cdn.igocast` | 4 | 4 | 4 | ██████████ 100.0% | working | 0.586s |
-| `cdn3.skygo.mn` | 13 | 5 | 5 | ██████████ 100.0% | working | 3.692s |
-| `cdn3.toronto360.tv:8081` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.336s |
-| `cdn6.163189` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.080s |
-| `cdn6.live247stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.224s |
-| `cdn8.live247stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.201s |
-| `cdnapi.kaltura` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.279s |
-| `cdnlive.myspirit.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.174s |
-| `cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv` | 8 | 5 | 5 | ██████████ 100.0% | working | 0.179s |
-| `champaign-cablecast.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.454s |
-| `ciner-live.ercdn.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.137s |
-| `circle-roku.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.525s |
-| `circle-xumo.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.664s |
-| `citynewsregional.akamaized.net` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.188s |
-| `classicarts.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.678s |
-| `cloudflare.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.825s |
-| `cmc-ono.amagi.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.416s |
-| `concordca.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.265s |
-| `content.jwplatform` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.553s |
-| `d15wqvt0xm15k4.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.459s |
-| `d18fcxaqfnwjhj.cloudfront.net` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.236s |
-| `d1facupi3cod3q.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.184s |
-| `d1j2u714xk898n.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.254s |
-| `d1too6m5v9oyet.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.526s |
-| `d1vwakhda3vp6p.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.401s |
-| `d1wal6k3d7ssin.cloudfront.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.123s |
-| `d29rvfbwwm1vce.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.630s |
-| `d2a6g6zgxepbwi.cloudfront.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.189s |
-| `d2e1asnsl7br7b.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.729s |
-| `d2gwqf8gdwq1zs.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.520s |
-| `d2xg1g9o5vns8m.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.525s |
-| `d2y0xw9ugf4if7.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.581s |
-| `d3bqd6nz14unwy.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.454s |
-| `d3c1w351ahk83d.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.194s |
-| `d3cjss68xc4sia.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.167s |
-| `d3svnrf3rmq619.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.586s |
-| `d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.756s |
-| `d4ddgdmj1cvnm.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.253s |
-| `d4whmvwm0rdvi.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.449s |
-| `d7x8z4yuq42qn.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.249s |
-| `dash2.antik.sk` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.937s |
-| `dbrb49pjoymg4.cloudfront.net` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.335s |
-| `derste247liveint.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.378s |
-| `dfhsahpa45kk2.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.629s |
-| `dgx2snzx175pa.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.286s |
-| `dlttx48mxf9m3.cloudfront.net` | 17 | 5 | 5 | ██████████ 100.0% | working | 0.287s |
-| `dms.redbull.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.502s |
-| `dodge.eu5` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.529s |
-| `dr4jwhk0sty71.cloudfront.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.162s |
-| `drybar-drybarcomedy-1-ca.samsung.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.210s |
-| `dwamdstream102.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.163s |
-| `e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.208s |
-| `ebsonair.ebs.co.kr` | 6 | 5 | 5 | ██████████ 100.0% | working | 4.033s |
-| `EDEM` | 2443 | 10 | 10 | ██████████ 100.0% | working | 1.665s |
-| `edge.fstv-live-linear-channel.top.comcast.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.299s |
-| `edge1.lifestreamcdn` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.199s |
-| `estrellanews-glewed.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.426s |
-| `estrellatv-oando.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.357s |
-| `f-tx-edge-87.christianworldmedia` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.374s |
-| `failarmy-international-in.samsung.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.254s |
-| `fffffff110156200.tvustream.com:8298` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.274s |
-| `fox-foxnewsnow-vizio.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.294s |
-| `FREE7` | 13 | 5 | 5 | ██████████ 100.0% | working | 2.199s |
-| `freem3u` | 1 | 1 | 1 | ██████████ 100.0% | working | 3.515s |
-| `grow.dwot.io` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.496s |
-| `gsn-cinevault-70s-2-us.roku.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.207s |
-| `gsn-cinevault-classics-1-us.roku.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.315s |
-| `gusto-xumo.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.320s |
-| `hls-kmosdt.lls.cdn.pbs` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.315s |
-| `hls.mirtv.cdnvideo.ru` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.685s |
-| `hncfree-samsungau.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.450s |
-| `icchls.wns.live` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.761s |
-| `insighttv-samsung-canada.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.748s |
-| `install.akctvcontrol` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.531s |
-| `iptv.catvod` | 56 | 8 | 8 | ██████████ 100.0% | working | 0.312s |
-| `iptv.prosto.tv:7000` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.929s |
-| `iptv.sohailtv` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.120s |
-| `janson-supersimplesongs-1-us.roku.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.263s |
-| `jk3lzkn4lw79-hls-live.5centscdn` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.959s |
-| `jlt-jltv-xumo.otteravision` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.405s |
-| `jukin-weatherspy-2-in.samsung.wurl.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.132s |
-| `k20.usastreams.com:8081` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.354s |
-| `kbs-dokdo.gscdn` | 1 | 1 | 1 | ██████████ 100.0% | working | 5.979s |
-| `lds-timeline-plex.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.504s |
-| `lds-wonder-samsungau.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.428s |
-| `lin10.isilive.ca` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.266s |
-| `linear-11.frequency.stream` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.294s |
-| `linear-205.frequency.stream` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.072s |
-| `linear-458.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.493s |
-| `linear-492.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.248s |
-| `linear-59.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.169s |
-| `linear-593.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 2.784s |
-| `linear-600.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.235s |
-| `linear-799.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.347s |
-| `linear-80.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.179s |
-| `linear-82.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.394s |
-| `linear-860.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.308s |
-| `linear-888.frequency.stream` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.574s |
-| `lineup.cbsivideo` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.202s |
-| `live.corusdigitaldev` | 13 | 5 | 5 | ██████████ 100.0% | working | 0.142s |
-| `live.feed.thepalmbeaches.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.261s |
-| `live.france24` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.158s |
-| `live.gideo.video` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.188s |
-| `live.kh.malimarcdn` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.973s |
-| `live.livestreamtv.ca` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.253s |
-| `live.retrostrange` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.161s |
-| `livecdn.enlace.plus` | 1 | 1 | 1 | ██████████ 100.0% | working | 8.793s |
-| `livestream-us-east-edge-2.granicusops` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.350s |
-| `livestream.telvue` | 52 | 8 | 8 | ██████████ 100.0% | working | 1.559s |
-| `livetv.305streamhd.com:3504` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.064s |
-| `lonestar-rakuten.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.258s |
-| `main.duckhunting.playout.vju.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.838s |
-| `maverick-maverick-black-cinema-3-us.roku.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.147s |
-| `mblenmain01.telesur.ultrabase.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.284s |
-| `media.smc-host.com:1935` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.320s |
-| `media3.smc-host.com:1935` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.215s |
-| `media4.tripsmarter.com:1935` | 11 | 5 | 5 | ██████████ 100.0% | working | 0.199s |
-| `mediaserver.abnvideos` | 9 | 5 | 5 | ██████████ 100.0% | working | 0.193s |
-| `mst3k-localnow.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.331s |
-| `mst3k-vizio.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.619s |
-| `mytime-tcl.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.332s |
-| `mytimeuk-rakuten-samsung.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.398s |
-| `na.linear.zype` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.386s |
-| `nbculocallive.akamaized.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.234s |
-| `netlink.netlinkbroadcaster` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.723s |
-| `nhl-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.494s |
-| `nmx1ota.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.569s |
-| `oan-plus-tcl.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.323s |
-| `oneamericanews-roku-us.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.702s |
-| `origin-http-delivery.isilive.ca` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.267s |
-| `ott-balancer.tvri.go.id` | 1 | 1 | 1 | ██████████ 100.0% | working | 5.056s |
-| `otv.wotom.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 2.015s |
-| `otv3.ocfl.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.067s |
-| `outsidetv-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.442s |
-| `pac12-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.326s |
-| `pac12-roku-us.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.527s |
-| `PBS` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.171s |
-| `pbs.lls.cdn.pbs` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.140s |
-| `photocall.site` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.402s |
-| `php.jdshipin` | 6 | 5 | 5 | ██████████ 100.0% | working | 0.857s |
-| `player.smotrim.ru` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.513s |
-| `plextv.ott-channels.stingray` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.231s |
-| `ptvlive.kordia.net.nz` | 1 | 1 | 1 | ██████████ 100.0% | working | 2.037s |
-| `pubgfc.teleosmedia` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.029s |
-| `qp-pldt-live-grp-11-prod.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.170s |
-| `qp-pldt-live-grp-12-prod.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.348s |
-| `qvc-amd-live.akamaized.net` | 17 | 5 | 5 | ██████████ 100.0% | working | 0.153s |
-| `qwestjazz-rakuten.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.622s |
-| `r.jdshipin` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.297s |
-| `rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.079s |
-| `raycom-accdn-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.260s |
-| `rcavlive.akamaized.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.127s |
-| `redbox-blacknewschannel-xumo.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.163s |
-| `reflect-channel36-la.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.963s |
-| `reflect-fcpublicmedia.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.478s |
-| `reflect-huntingtonbeach.cablecast.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.342s |
-| `reflect-scvtv.cablecast.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.479s |
-| `reflect-tacm.cablecast.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.252s |
-| `reflect-tuolumne.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.021s |
-| `reflect-vod-cmac.cablecast.tv` | 6 | 5 | 5 | ██████████ 100.0% | working | 0.832s |
-| `reflect-vod-fcgov.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.666s |
-| `reflector.watchtstv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.674s |
-| `retroblast.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.634s |
-| `rmtv.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.062s |
-| `rpn.bozztv` | 39 | 8 | 8 | ██████████ 100.0% | working | 3.522s |
-| `rt-glb.rttv` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.855s |
-| `s2host5.localnow.api.cms.amdvids` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.953s |
-| `s4host2.localnow.api.cms.amdvids` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.838s |
-| `s5.mexside.net:1936` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.080s |
-| `s8.sky4k.top` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.923s |
-| `seatv.netlinkbroadcaster` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.592s |
-| `securestream10.champds` | 6 | 5 | 5 | ██████████ 100.0% | working | 1.341s |
-| `serv25.vintera.tv:8081` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.592s |
-| `service-stitcher.clusters.pluto.tv` | 10 | 5 | 5 | ██████████ 100.0% | working | 0.307s |
-| `sgchill.io.vn` | 2 | 2 | 2 | ██████████ 100.0% | working | 2.458s |
-| `sportsgrid-klowdtv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.386s |
-| `stream.langsontv.vn` | 1 | 1 | 1 | ██████████ 100.0% | working | 4.387s |
-| `stream.missiontv.com:1935` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.331s |
-| `stream.swagit` | 7 | 5 | 5 | ██████████ 100.0% | working | 0.070s |
-| `stream.talgov.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.744s |
-| `stream.unusualart.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.763s |
-| `stream6.scientology` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.869s |
-| `streamer12.vdn.dstreamone.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.209s |
-| `streaming.grupomediosdelnorte.com:19360` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.838s |
-| `swimrewind` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.197s |
-| `sy.wns.live` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.757s |
-| `t2hls.wns.live` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.743s |
-| `tdameritrade-vizio.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.260s |
-| `tgn.bozztv` | 4 | 4 | 4 | ██████████ 100.0% | working | 0.577s |
-| `tgn2.bozztv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.412s |
-| `the-pet-collective-international-nl.samsung.wurl.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.160s |
-| `theupperleft.thesprawl.online` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.771s |
-| `tinyurl` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.793s |
-| `townnews.g-mana.live` | 12 | 5 | 5 | ██████████ 100.0% | working | 0.974s |
-| `turnerlive.warnermediacdn` | 17 | 5 | 5 | ██████████ 100.0% | working | 0.330s |
-| `tv.cdn.xsg.ge` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.955s |
-| `tv123.vvvv.ee` | 87 | 10 | 10 | ██████████ 100.0% | working | 1.291s |
-| `tv2.fastcast4u.com:3943` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.216s |
-| `tv91.hostingnuclear.com:19360` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.201s |
-| `tvcdn01.oktv.kz` | 1 | 1 | 1 | ██████████ 100.0% | working | 3.640s |
-| `tvsnhlslivetest.akamaized.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.523s |
-| `tyt-samsungus.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.324s |
-| `uni01rtmp.tulix.tv` | 6 | 5 | 5 | ██████████ 100.0% | working | 0.687s |
-| `uni6rtmp.tulix.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.209s |
-| `uni8rtmp.tulix.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.728s |
-| `uni8rtmp.tulix.tv:1935` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.391s |
-| `unlimited6-cl.dps.live` | 1 | 1 | 1 | ██████████ 100.0% | working | 2.146s |
-| `uptv-aspiretvlife-klowdtv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.245s |
-| `vcp11.myplaytv` | 1 | 1 | 1 | ██████████ 100.0% | working | 1.599s |
-| `vicetv-vicefast1-firetv.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.327s |
-| `video.ct-n` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.706s |
-| `video.oct.dc.gov` | 10 | 5 | 5 | ██████████ 100.0% | working | 0.174s |
-| `video1.getstreamhosting.com:1936` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.281s |
-| `videostack1.cdnstream1.com:1936` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.865s |
-| `vng-live-cdn.seenow.vn` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.931s |
-| `voa-ingest.akamaized.net` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.195s |
-| `vod.cityofrc.us` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.075s |
-| `vs-hls-push-ww-live.akamaized.net` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.349s |
-| `watch.collierschools` | 2 | 2 | 2 | ██████████ 100.0% | working | 1.542s |
-| `whittier.cablecast.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.363s |
-| `wildearth-xumo.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.248s |
-| `wo0dyefk.dienalt` | 15 | 5 | 5 | ██████████ 100.0% | working | 0.752s |
-| `worcester.vod.castus.tv` | 2 | 2 | 2 | ██████████ 100.0% | working | 0.798s |
-| `www.bloomberg` | 3 | 3 | 3 | ██████████ 100.0% | working | 0.111s |
-| `xumo-drct-ch812-n4996.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.115s |
-| `xumo-drct-ch835-ekq0p.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.067s |
-| `xumo-drct-ch836-57aiq.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.139s |
-| `xumo-xumoent-ch824-d4q5c.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.083s |
-| `xumo-xumoent-ch825-ku23q.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.084s |
-| `xumo-xumoent-ch827-uj0ch.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.116s |
-| `xumo-xumoent-ch828-w6val.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.053s |
-| `xumo-xumoent-ch834-iwtka.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.087s |
-| `xumo-xumoent-vc-105-z0vpm.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.077s |
-| `xumo-xumoent-vc-107-xmuvk.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.114s |
-| `xumo-xumoent-vc-113-at8kn.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.264s |
-| `xumo-xumoent-vc-114-x0p7i.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.436s |
-| `xumo-xumoent-vc-117-a3ga4.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.167s |
-| `xumo-xumoent-vc-118-jed5p.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.216s |
-| `xumo-xumoent-vc-122-sjv70.fast.nbcuni` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.107s |
-| `yahoo-vizio.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.378s |
-| `younghollywood-rakuten-samsung.amagi.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.328s |
-| `yta.unitedteleports.tv` | 1 | 1 | 1 | ██████████ 100.0% | working | 0.357s |
-| `fast-channels.sinclairstoryline` | 5 | 5 | 4 | ████████░░ 80.0% | working | 0.199s |
-| `live.mnb.mn` | 5 | 5 | 4 | ████████░░ 80.0% | working | 2.467s |
-| `raw.githubusercontent` | 11 | 5 | 4 | ████████░░ 80.0% | working | 0.188s |
-| `reflect-communitytv.cablecast.tv` | 7 | 5 | 4 | ████████░░ 80.0% | working | 0.985s |
-| `30a-tv` | 4 | 4 | 3 | ████████░░ 75.0% | partial | 1.795s |
-| `41.205.93.154` | 4 | 4 | 3 | ████████░░ 75.0% | partial | 1.619s |
-| `a-cdn.klowdtv` | 4 | 4 | 3 | ████████░░ 75.0% | partial | 0.643s |
-| `bozztv` | 4 | 4 | 3 | ████████░░ 75.0% | partial | 0.198s |
-| `streams2.sofast.tv` | 66 | 8 | 6 | ████████░░ 75.0% | partial | 0.970s |
-| `cdn3.wowza` | 117 | 10 | 7 | ███████░░░ 70.0% | partial | 0.836s |
-| `cdn.jaybirdtv` | 3 | 3 | 2 | ███████░░░ 66.7% | partial | 1.453s |
-| `22fdd620.kazaktelekom` | 11 | 5 | 3 | ██████░░░░ 60.0% | partial | 0.942s |
-| `edge-f.swagit` | 17 | 5 | 3 | ██████░░░░ 60.0% | partial | 0.075s |
-| `FREE3` | 18 | 5 | 3 | ██████░░░░ 60.0% | partial | 0.379s |
-| `pubads.g.doubleclick.net` | 5 | 5 | 3 | ██████░░░░ 60.0% | partial | 0.499s |
-| `cdn.jwplayer` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 0.443s |
-| `cord-cutter.net:8080` | 155 | 10 | 5 | █████░░░░░ 50.0% | partial | 0.424s |
-| `fl1002.bozztv` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 0.337s |
-| `ngtrk.dc.beltelecom.by` | 4 | 4 | 2 | █████░░░░░ 50.0% | partial | 2.731s |
-| `ott.tv5monde` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 1.610s |
-| `otv3.ocfl.net:1936` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 0.494s |
-| `qazaqstantv-stream.qazcdn` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 1.677s |
-| `reflect-temecula.cablecast.tv` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 0.530s |
-| `streamer1.connectto` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 0.842s |
-| `thegateway.app` | 2 | 2 | 1 | █████░░░░░ 50.0% | partial | 0.796s |
-| `unlimited1-us.dps.live` | 4 | 4 | 2 | █████░░░░░ 50.0% | partial | 1.339s |
-| `agp-nimble.streamguys1` | 6 | 5 | 2 | ████░░░░░░ 40.0% | partial | 0.522s |
-| `cdnapisec.kaltura` | 3 | 3 | 1 | ███░░░░░░░ 33.3% | partial | 0.281s |
-| `hwlive.streamingmediahosting` | 3 | 3 | 1 | ███░░░░░░░ 33.3% | partial | 0.424s |
-| `tglmp03.akamaized.net` | 3 | 3 | 1 | ███░░░░░░░ 33.3% | partial | 0.979s |
-| `live.field59` | 4 | 4 | 1 | ██░░░░░░░░ 25.0% | partial | 0.148s |
-| `2-fss-2.streamhoster` | 25 | 5 | 1 | ██░░░░░░░░ 20.0% | partial | 0.557s |
-| `cdn-uw2-prod.tsv2.amagi.tv` | 12 | 5 | 1 | ██░░░░░░░░ 20.0% | partial | 0.260s |
-| `mdc.ott.alticeusa.net` | 12 | 5 | 1 | ██░░░░░░░░ 20.0% | partial | 0.343s |
-| `stream-us-east-1.getpublica` | 11 | 5 | 1 | ██░░░░░░░░ 20.0% | partial | 0.376s |
-| `stream.ads.ottera.tv` | 6 | 5 | 1 | ██░░░░░░░░ 20.0% | partial | 0.293s |
-| `jmp2.uk` | 27 | 8 | 1 | █░░░░░░░░░ 12.5% | dead | 1.218s |
-| `0888934ec1a5.us-east-1.playback.live-video.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `1-fss29-s0.streamhoster` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `103.175.242.10:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `10380e91fda5e303.mediapackage.us-west-2.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `104.255.88.155` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `108.14.66.42:5004` | 26 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `10st.vcast.im` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `10tv.lincoln.ne.gov` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `110.235.82.60:8001` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `1111296894.rsc.cdn77` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `113.95.141.191:8891` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `116.202.237.33:8080` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `116.90.120.149:8000` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `1189614805.rsc.cdn77` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `121.143.97.131:9981` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `123.212.201.54:9981` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `124.248.165.18:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `125hvt.ddns.net:21585` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `128.230.54.128:5004` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `132.145.84.42:9981` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `142.132.133.190:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `143.244.60.30` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `143.44.136.110:6910` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `147.174.13.196` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `158.101.222.193:88` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `162.244.81.156:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `170.178.189.66:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `172.93.102.112:8989` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `176.65.146.237:8401` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `178.212.71.253:8000` | 138 | 10 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `178.33.239.54:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `18.191.91.130:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `181.119.103.113:12500` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `181.78.106.127:9000` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `181.78.117.219:8000` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `1815337252.rsc.cdn77` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `185.189.225.157` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `185.221.213.254:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `185.236.230.212:9982` | 9 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `190.102.246.93:9005` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `190.60.56.41:8000` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `190.92.10.66:4000` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `193.237.220.135:55555` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `1a-1791` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `1TV41` | 7 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `200.12.41.194:8000` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `206.189.93.160:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `209.182.219.50:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `210.126.10.17:5004` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `212.102.60.231` | 12 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `212.102.60.231:80` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `212.102.60.80` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `212.42.111.152:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `217.15.167.95:5080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `2nbyjjx7y53k-hls-live.5centscdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `31.127.61.186:9981` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `32tech0steam0dp01` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `3abn-live.akamaized.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `43.252.18.195:5080` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `44.32.200.212:5004` | 24 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `45.143.108.110:4200` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `45.167.255.254:8010` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `45.195.15.240:8000` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `45.228.233.254:18000` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `45.228.234.30:16000` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `45.71.254.1:8000` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `47.23.7.30:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `4ea7abcc97144832b81dc50c6e8d6330.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `50.7.234.10:8278` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `51.75.94.167` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `51.89.148.37:8080` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5790d294af2dc.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `584b0aa350b92.streamlock.net:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `586a9edea75f1.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5940924978228.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `59514edd5dd8e.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `59a564764e2b6.streamlock.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `59d39900ebfb8.streamlock.net` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `59ec5453559f0.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `59ef525c24caa.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5a5c57d042315.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5b0f5374bdf0c.streamlock.net:444` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5b200f5268ceb.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5b622f07944df.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5fd5567570c0e.streamlock.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `5tv.lincoln.ne.gov` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `6.cdn.loc.cc` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `60.246.171.122:8889` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `60.246.171.122:8891` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `6305c8676ce84.streamlock.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `67.53.122.248` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `685c08ed6d81a.streamlock.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `78.130.250.2:8023` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `7pal.short.gy` | 93 | 10 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `80tv.lincoln.ne.gov` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `81988.global.ssl.fastly.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `837dd61e3fed471fbbe33391a57920d4.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `86.180.115.121:1990` | 26 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `87.246.60.6:11021` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `88.99.64.228` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `94.43.1.138:8081` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `95.85.109.219:7000` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `96.68.164.217` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `a.jsrdn` | 20 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `a7b60a6853d843dd9105acfa8d6e74c7.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `a8d3367c658948afb1901efdd9babe5b.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `abaitv-stream.qazcdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `abclive.malisresidences.com:1935` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `abcnews-streams.akamaized.net` | 10 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `acceso.radiosportstv.online:3259` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ad-playlistserver.aws.syncbak` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `aegis-cloudfront-1.tubi.video` | 18 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `aenetworks-ae-1.samsung.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `alliantcontent-truecrimenow-1-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `alliantcontent-warandmilitarynow-1-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amc-absolutereality-1.imdbtv.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amc-allweddings-1.vizio.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amc-slightly-off-by-amc-1.imdbtv.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00163-shoutfactory-carolburnett-dmr-cpk9r.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00163-shoutfactory-johnnycarson-dmr-xydqu.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00163-shoutfactory-mst3k-dmr-gdk46.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00163-shoutfactory-tokushoutsu-dmr-c1irg.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00346-vizioono-forkandfligt-xumo-us.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00346-vizioono-investigation-xumo-us.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00562-amg00562c1-kwelitv-worldwide-3293.playouts.now.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00884-nbcuniversal-nbctelemundoflorida-xumo-atn0m.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00884-nbcuniversal-nbctelemundonortheast-xumo-ok3ha.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00884-nbcuniversal-nbctelemundotexas-xumo-eeb56.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg00884-nbcuniversal-nbctelemundowest-xumo-xc0n5.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01201-amg01201c35-cineverse-us-3139.playouts.now.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01201-cinedigmenterta-crimehunters-cineverse-cnqvb.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01201-cinedigmenterta-retrocrush-cineverse-nrfll.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01416-amg01416c4-firetv-us-4522.playouts.now.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01468-lifeminutetv-lifeminute-klowdtv-r4hhz.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amg01717-qvc-amg01717c1-stirr-us-2651.playouts.now.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `amhorstream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ammoruntime-plex.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ampmedia.secure.footprint.net` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `aos01-evine.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ap02.iqplay.tv:8082` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `api.abcotvs` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `api.new.livestream` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `app.hughag.store` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `app.viloud.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `arizonawesterncol.secure.footprint.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `asermedia-lacrossesportsnetwork-1-eu.rakuten.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `atemecdnbalancer-voe.sysln.id` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `atemeshield1-voe.sysln.id` | 7 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `azroe0x-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `b12eca572da7423284734ca3a6242ea2.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `b1570a6919f94bcfa2f061daee64c70f.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `b83608fe932143099bb8b25a66857730.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `babyfirst.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `balance.footballii.ir` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bcliveunivsecure-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bcovlive-a.akamaihd.net` | 9 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bcsecurelivehls-i.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `biblescreen.faithlifecdn` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bigcitytv.playout.vju.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `biglife.sinclair.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bk7l2w4nlx53-hls-live.5centscdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bloodydisgusting-ingest-roku-us.cinedigm` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bonudiemsa-intipacha-2-eu.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `brightonco.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `brightstar-sls.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `broadcast.mytvtogo.net` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `bspoketv.s.llnwi.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `byvn.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ca01.utako.moe` | 28 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ca1.buximedia` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `catchup.videoline.ru` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cb5273f195a147f2bcf23544e4495f66.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-bal1.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-bos.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-chi.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-den.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-det.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-la-cedexis.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-la.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-min.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-ny.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-phi.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-pit.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsn-sf.cbsnstream.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsnewshd-lh.akamaihd.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsnewshd-lh.akamaihd.net:80` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cbsnhls-i.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn.appv.jagobd.com:444` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn.klowdtv.net` | 7 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn.media9.truegod.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn.ntv.ru` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn.sonlatv.vn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn.teveo.cu` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn01.oplay.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn1-8p.teleuptv.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn1.karwan.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn1.skygo.mn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn2.skygo.mn` | 11 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn20.liveonlineservices` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn6.goprimetime.info` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdn61.liveonlineservices` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cdnenmain.telesur.ultrabase.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cf-live29e5f8c.lwcdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ch.iptvmate.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ch8.littletongov` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ch8reflector.longmontpublicmedia` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cheddar-cheddar-3-us.vizio.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cheddar-us.samsung.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cinedigm-barney-xumo.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cinedigm.vo.llnwd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `circle-vizio.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `clive.malisresidences.com:1935` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cloudflare.streamgato.us:3125` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cloudstreamhntv.tek4tv.vn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cmctv.ios.internapcdn.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cms-wowza.lunabyte.io` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cnngo1.akamaized.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cnnlive.warnermediacdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `comedy-redbox.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `condenast-bonappetit-vizio.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `contact.gostreaming.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `contvanime.cinedigm` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cors-proxy.cooks.fyi` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cors.tundracast.com:2000` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cpcdn.azureedge.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cpdc101-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `crackle-plex.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `crimetimebamca-roku.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `crt-ext.rodeotv.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cs.ebmcdn.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `csm-e-eb.csm.tubi.video` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ctntv.getstreamhosting.com:1936` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cvtv.cvalley.net` | 81 | 10 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `cyclingtv.playout.vju.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d1211whpimeups.cloudfront.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d15.epicquesthero.com:999` | 42 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d18b0e6mopany4.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d18dyiwu97wm6q.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d1wdgbxqfhyvfu.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d25ykpi2vxhoyc.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d26pp4b7ojtlyn.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d28soor02c80fr.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2dw21aq0j0l5c.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2jni005khp8n7.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2klx6wjx7p5vm.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2njbreu8qyfxo.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2nt5wxzqbe1ad.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2p372oxiwmcn1.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2up1hmow19bcd.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2v42hnvh68zz7.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d2vnbkvjbims7j.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d35j504z0x2vu2.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d36tuf8zz9b2bm.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d39jokgb64z0et.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d3htp73xsa9p15.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d3kddmbw1dqgzz.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d3nzocdfkx2ybv.cloudfront.net` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d3p1dbb9xrkmd5.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d3p8ecnk6t4t73.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d3rl6ns7c3ilda.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d3vv5zgkcssg5m.cloudfront.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d47743dknc7xq.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d5svgrvrc65ed.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `d80z5qf1qyhbf.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dai.google` | 37 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dai2-playlistserver.aws.syncbak` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dai2-xumo.fubo.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dai2.xumo` | 58 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dcunilive30-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dd7oxfzdj1tsm.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `debate-elections-2019.akamaized.net` | 8 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `demandafrica-klowdtv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dfecjp0pnemzw.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dhx-degrassi-1-us.samsung.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `distributionsjustepourrire-justforlaughsgags-1-eu.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `divineplayout-us2.tulix.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dmi3y-tv.ru` | 8 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dmr-midnightpulp-3-us.samsung.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dmtv-plex.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dovenow-tcl.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dover-de.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `drewlive24.duckdns` | 344 | 10 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `drewlive24.duckdns.org:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ds.tvabierta.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dtc192m1s5jen.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `du1gyxfing4ke.cloudfront.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `dvrfl03.bozztv` | 13 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ec4a5bcc9d664b48985de6095931aaa7.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `edge2a.v2h-cdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `edge55.dc.beltelecom.by` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `edge59.dc.beltelecom.by` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `edgesport-samsungus.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `edu-wcat.azureedge.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `elec-en-stirr.otteravision` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `eleven-rebroadcast-samsung.roku.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `endemol-dealornodeal-1.sinclair.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `es1-p1-netcdn.metfone.com.kh` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `estrella-games-oando.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `estv-rakuten-samsung.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `everylive.space` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ext.cdn.nashnet.tv` | 26 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `eyeonesports` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `fidotv-roku.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `fireside.localnowlive` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `fitzonehub.click` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `food-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `food-us.xumo.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `free.fullspeed.tv` | 9 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `FREE38` | 60 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `freespeech.akamaized.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `frontdoor.wcat-tv` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `gg.poocloud.in` | 7 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `globallive.tdm.com.mo` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `go2thls.wns.live` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus1-a.akamaihd.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus10-a.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus12-a.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus2-a.akamaihd.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus3-a.akamaihd.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus4-a.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus6-a.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `granicusliveus8-a.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `gravitas-movies.sinclair.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `greenbeltacctv.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `happykids-roku.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `happykidsjunior-vizio.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hartford-ct.secure.footprint.net` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `haunttv-roku.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hcintlinc.mmdlive.lldns.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hdtv.prod2.ioio.tv` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `het104a.4rouwanda-shop.store` | 9 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `het104a.4rouwanda-shop.store:80` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `het119a.4rouwanda-shop.store` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hidden-mud-9dcf.nhhwkiszzzvcuojxdo.workers.dev` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls-cdn.tvstartup.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls-cdn.tvstartup17.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls-live-media.cdn01.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls.168.us.kg` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls.live.31kz.adapto.kz` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls.mskycdn.online` | 15 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls.pokertvfa.live` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls.youtb.workers.dev` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hls1.livestreamingcdn.com:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hncfree-vizio.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hoiquan.click` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `hollywire.samsung.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ifood-vizio.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ign-plex.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `indtv.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `inspnetworks-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `iptv.4666888` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `is.gd` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `isntv.mmdlive.lldns.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `jabawalkies.club:8080` | 35 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `jacksonenergy.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `janson-supersimplesongs-1.vizio.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `janson-todayshomeowner-1-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `JOY` | 555 | 10 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `judge-faith-1.vizio.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `judy.diver.eu` | 12 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `kan11.media.kan.org.il` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `kan11w.media.kan.org.il` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `kan23.media.kan.org.il` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `kkk.888.3116598` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `knoxville-tn.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `KS` | 8 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lb1-live-mv.v2h-cdn` | 35 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lds-realfamilies-plex.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lds-realstories-plex.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `legochannel-roku.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lenz.splus.ir` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lin12.isilive.ca` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lin13.isilive.ca` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-10.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-119.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-12.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-120.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-122.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-125.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-128.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-133.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-134.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-135.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-136.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-137.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-141.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-143.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-144.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-145.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-152.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-153.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-154.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-163.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-165.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-167.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-168.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-169.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-170.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-171.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-172.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-182.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-201.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-202.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-203.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-204.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-207.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-208.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-209.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-210.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-211.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-214.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-218.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-253.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-44.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-46.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-493.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-64.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-68.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-73.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-76.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-81.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-86.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-88.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-89.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-90.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear-941.frequency.stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linear417-gb-hls3-prd-ak.cdn.skycdp` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `linearjitp-playback.astro.com.my` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `link.frontlayer` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-edge-th136.myjktv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-evg13.tv360.metfone.com.kh` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-evg2.tv360.metfone.com.kh` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-evg6.tv360.metfone.com.kh` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-h1.frontlayer.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-news-manifest.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-talktv-ssai.simplestreamcdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live-us-cdn-1.tvstartupengine` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.ams.com.kh` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.baoquangninh.vn` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.chdrstatic` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.fptplay53.net` | 38 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.happywatch99` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.mediatech.vn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.pomonaca.gov` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.presstv.ir` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.relentlessinnovations.net:1936` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.seminolecountyfl.gov` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.sportstv.com.tr` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live.trt.com.vn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live2.mediacdn.ru` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live20.bozztv` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `live8fd.lakewood` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `livecdn.live247stream` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `livecdn.use1-0004.jwplive` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `liveh12.seenow.vn` | 20 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `livestream.chdrstatic` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `livetv-fa.tubi.video` | 14 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ln-zen.localnowlive` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-americas-dumbest-criminals.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-antiques-road-trip.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-biggest-loser.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-caught-in-providence.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-dr-g-filmrise.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-dragrace.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-fear-factor.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-filmrise-western.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-hunter-filmrise.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-jack-hannah.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-kare.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-kcci.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-kcra.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-kgw.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-khbs.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-kmbc.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-koat.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-kris.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-ksbw.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-localish.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-masked-singer.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-mr-beast.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-nashville.tubi.video` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-news12.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-people-tv.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-property-brothers.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-reelz.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-top-rank.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-tubi-originals.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-tv-one.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wanted-dead-or-alive.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wapt.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-waypoint.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wbal.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wcvb.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wesh.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wgal.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wipeout-xtra.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wisn.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wjcl.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wlky.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wmtw.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wpbf.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wptz.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wvtm.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lnc-wxyz2.tubi.video` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lotus.stingray` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lsqvc1uscln-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lsqvc2us-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lsqvc3us-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `lsqvc4us-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `m3ufilter.media4u.top` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `magellan-space-science-now-1-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `magellantv-1.vizio.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `magselect-stirr.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `makan.media.kan.org.il` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `master.nhkworld.jp` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mavtv-1.sinclair.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mavtv-1.vizio.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mediacp.us:8081` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `midstate.coxctv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mifntechnology.github.io` | 15 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `moiptvhls-i.akamaihd.net` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `motors.playout.vju.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `moviemix.samsung.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mt01.utako.moe` | 73 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mt02.utako.moe` | 27 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mthrbord.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mutant.arrox.top:80` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `mytv.dothome.co.kr` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `n1.klowdtv.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcnews-lh.akamaihd.net` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcbostonnews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcchicagonews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcconnecticutnews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcdallasfortworthnews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbclosangelesnews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcnewyorknews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcphiladelphianews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcsandiegonews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcsanfrancisconews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcsouthfloridanews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-nbcwashingtonnews-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-telemundoflorida-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-telemundonortheast-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-telemundotexas-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nbcu-telemundowest-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ncdn.telewebion` | 7 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `netohls.wns.live` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `newcastlecoutv.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `newidco-newkid-1-eu.xiaomi.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `newsmax-samsungus.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `newyorkstream.ddns.net:1935` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nhkworld-tv.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nlziet-live.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `northcentral.coxctv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nosey-2-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `nosey-realnosey-1-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `now14.g-mana.live` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `number27.playout.vju.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `origi-JW-1.netvil43.store:80` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `outsidetv-roku-us.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `outsidetvplus-xumo.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ov.ottera.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `p1media-americasvoice-1.roku.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `panel.freedomflixtv.org:3948` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `paraglidingtv.playout.vju.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `pasadenamed.secure.footprint.net` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `pbc.furrera.ps` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `pbcvideostreams1.pbc.gov` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `pfsv.io` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `pkvc-hls.cdnvideo.ru` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `playerstv-roku-us.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `pocketwatch-vizio.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `PORTAL` | 49 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `previewchannel-previewchannel-1.vizio.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `proxy.utako.moe` | 74 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `pursuitup.samsung.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `qp-pldt-live-grp-2-prod.akamaized.net` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `qp-pldt-live-grp-3-prod.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `qp-pldt-live-grp-6-prod.akamaized.net` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `racingvic-i.akamaized.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rebroadcast.mytvtogo.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-access-sacramento.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-applevalley.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-aurora.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-bayarea.cablecast.tv` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-broadcast-psdschools.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-ccx.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-cityofloveland-co.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-collier-countyboc.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-contra-costa.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-creatv.cablecast.tv` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-fairfield-ca.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-falmouth.cablecast.tv` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-golden-co.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-gtv6-glendale.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-hktv.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-jacksonville.cablecast.tv` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-kcat-live.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-lakefront-leesburgflorida.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-live-lawndale.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-losangeles.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-mcsb-vod.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-npa.cablecast.tv` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-padnet-live.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-pinellas-park-fl.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-pomona.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-stream-bronxnet.cablecast.tv` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-stream15-capsmedia.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-stream6-capsmedia.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-tampa-bay-community.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-thornton.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-vsctv.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `reflect-watchkfon-fontana.cablecast.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rfdtv-jw.cdn.vustreams` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rg.hducanh.site` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rgelive.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rhine.webchnl.live` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rifftrax.samsung.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rpn1.bozztv` | 7 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rtatv.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rtb.srfms.com:3333` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rtmp1.abnsat` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rtmp2.abnvideos` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rtv.cdn.mangomolo` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rumble` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `rush-redbox.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `s3-us-west-2.amazonaws` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `s3host5.localnow.api.cms.amdvids` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `s6.hopslan` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `s@calciomania.digital` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `s@saz.blitzen.store` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `sc.id-tv.kz` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `sc2022.stream-link` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `SCALE` | 19 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `scripps-ctvlegendary-1-us.xumo.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `scripps-defy-1-us.vizio.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `scripps-gritxtra-1-us.vizio.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `scripps-laffmore-1-us.xumo.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `securestream3.champds` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `securestream9.champds` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `sfo3.digitaloceanspaces` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `shls-fight-sports-ak.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `shls-masr-ak.akamaized.net` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `shoutfactory-xumo.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `siloh.pluto.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `simultv.s.llnwi.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `smart.pendy.dpdns` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `speccy.pw:8080` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `sportstvnow` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `spotlight-redbox.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `spotlight-vizio.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `sramsburg-hls.secdn.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ssai.castify.ai` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ssh101-fl.bozztv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stadium-ringofhonor-1.sinclair.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `still-mud-3642.nqanzvyuupxwcahtfq.workers.dev` | 11 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stitcheraws.unreel.me` | 7 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stmv1.srvif` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `storage.sardius.media` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stoughton-wi.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.iphonewebtown.com:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.kaztrk.kz` | 13 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.krgv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.livenewsplay.com:9443` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.mux` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.pivotalelements` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.rcncdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.ultimate-tvservice.com:8080` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream.wikitv.asia` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stream04.amp.csulb.edu:1935` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streamer1.nexgen.bz` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streaming-live.rtp.pt` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streaming.freshnewsasia` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streaming.skynetconnect.online` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streams.helnix` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streamspace.live` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streamtv.intervenhosting.net:3582` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `streannliveevtv.cachefly.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `studio71-craftistry-roku.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `stvlive.net:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `sydandmacky.vju.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `t.061899` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `t06243a-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `t07113a-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tastemade-intl-vizioca.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tastemadessai.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tbn-jw.cdn.vustreams` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `temp2.isilive.ca` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `temp3.isilive.ca` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `temp4.isilive.ca` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `templeuni.secure.footprint.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tglmp02.akamaized.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tglmp04.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `theblaze4.akamaized.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `thedesignnetwork-tdn-6-ca.samsung.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `thefirst-distroscale.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `thisoldhouse-samsung-us.samsung.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tiger-hub.vercel.app` | 12 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `topic-crimeandthrillers-1-us.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tr.redatvgold` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tstv-stream.tsm.utexas.edu` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tv.kgtv.vn` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tv.nknews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tv.nstvlatino.com:8080` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tv.sikkylab.me` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tv.wyatts-server` | 8 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tva.in.ua` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tvb.860775` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tve-live-lln.warnermediacdn` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tvsw2-hls.secdn.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `txc4-swbb-mn.fibernet-tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `tyt-xumo-us.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `unbeaten-roku.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `unifi-live01.secureswiftcontent` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `unifi-live27.secureswiftcontent` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `univision-live.cdn.vustreams` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `uplynkcontent.sinclairstoryline` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `us170.jagobd.com:447` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `v-ny.theus6tv.tk` | 6 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `v-pi.theus6tv.tk` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `v-px.theus6tv.tk` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `v2h.946985.qzz.io` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vallejo.cablecast.tv` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vbfast-c.viebit` | 3 | 3 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vdo1.streamgato.us:3986` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vgtrkregion-reg.cdnvideo.ru` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `viamotionhsi.netplus.ch` | 75 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vicetv-vicefast2-firetv.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `video.ejeserver` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `videodelivery.net` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `VIP` | 369 | 10 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vitor-tvclassics-1.plex.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vod.slocoe` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vod.splay.uz` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vs1759.vcdn.biz` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `vse2-na-us-ne24.secdn.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `warlock0.synology.me:9999` | 4 | 4 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `watchmojo-1-eu.freemoviesplus.wurl.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `webstreaming-3.viewmedia.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wescottcchls-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wfcint.mediacdn.ru` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `whistle-1.distrotv.wurl` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev` | 11 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wo.cma.footballii.ir` | 5 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `world-proxifier` | 248 | 10 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wowzastream.westmancom` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wpc.9ec1.edgecastcdn.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wsjlivehls-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `www.cbsnews` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `www.filmon` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `wz-kt.ktk.kz` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `xem.hoiquan.Click` | 59 | 8 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `xem.hoiquan.click` | 24 | 5 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `xem.TruyenHin.Click` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `xplore-plex.amagi.tv` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ythls.armelin.one` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ythls.onrender` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `z215ymcm4tliv.vcdn.cloud` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `zoom-f.swagit` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `zorrohunter.com:80` | 2 | 2 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `ztnr.rtve.es` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
-| `zypelive-lh.akamaihd.net` | 1 | 1 | 0 | ░░░░░░░░░░ 0.0% | dead | — |
+| Provider | Channels | Tested | Passed | Health | Status | Latency |
+|---|---:|---:|---:|---:|---|---:|
+| `23.237.104.106:8080` | 86 | 10 | 10 | 100.0% | working | 0.659s |
+| `livestream.telvue.com` | 50 | 8 | 8 | 100.0% | working | 0.820s |
+| `rpn.bozztv.com` | 44 | 8 | 8 | 100.0% | working | 1.147s |
+| `cdn3.wowza.com` | 42 | 8 | 8 | 100.0% | working | 0.516s |
+| `fingersoon.st` | 26 | 8 | 8 | 100.0% | working | 1.083s |
+| `cdn-uw2-prod.tsv2.amagi.tv` | 22 | 5 | 5 | 100.0% | working | 0.562s |
+| `stream-us-east-1.getpublica.com` | 18 | 5 | 5 | 100.0% | working | 0.999s |
+| `content.uplynk.com` | 16 | 5 | 5 | 100.0% | working | 0.361s |
+| `30a-tv.com` | 14 | 5 | 5 | 100.0% | working | 2.242s |
+| `a-cdn.klowdtv.com` | 14 | 5 | 5 | 100.0% | working | 0.417s |
+| `2-fss-1.streamhoster.com` | 12 | 5 | 5 | 100.0% | working | 0.437s |
+| `tgn.bozztv.com` | 10 | 5 | 5 | 100.0% | working | 1.248s |
+| `190.11.225.124:5000` | 9 | 5 | 5 | 100.0% | working | 1.403s |
+| `dlttx48mxf9m3.cloudfront.net` | 9 | 5 | 5 | 100.0% | working | 0.822s |
+| `41.205.93.154` | 8 | 5 | 5 | 100.0% | working | 2.426s |
+| `broadcastly.s3.us-east-1.amazonaws.com` | 8 | 5 | 5 | 100.0% | working | 0.824s |
+| `cdn-ue1-prod.tsv2.amagi.tv` | 8 | 5 | 5 | 100.0% | working | 0.775s |
+| `dbrb49pjoymg4.cloudfront.net` | 8 | 5 | 5 | 100.0% | working | 0.641s |
+| `i1.ut770.freelocaltv.org` | 8 | 5 | 5 | 100.0% | working | 0.743s |
+| `qvc-amd-live.akamaized.net` | 8 | 5 | 5 | 100.0% | working | 0.419s |
+| `turnerlive.warnermediacdn.com` | 8 | 5 | 5 | 100.0% | working | 0.276s |
+| `23.239.31.26:8989` | 7 | 5 | 5 | 100.0% | working | 0.341s |
+| `3abn.bozztv.com` | 7 | 5 | 5 | 100.0% | working | 1.324s |
+| `d368vp0qqzvkid.cloudfront.net` | 7 | 5 | 5 | 100.0% | working | 0.570s |
+| `instreams.live` | 7 | 5 | 5 | 100.0% | working | 1.679s |
+| `instreams.pro` | 7 | 5 | 5 | 100.0% | working | 1.638s |
+| `castus-vod-dev.s3.amazonaws.com` | 6 | 5 | 5 | 100.0% | working | 0.828s |
+| `cdn.vegasplus.us` | 6 | 5 | 5 | 100.0% | working | 1.294s |
+| `mediaserver.abnvideos.com` | 6 | 5 | 5 | 100.0% | working | 0.851s |
+| `reflect-stream-bronxnet.cablecast.tv` | 6 | 5 | 5 | 100.0% | working | 0.391s |
+| `townnews.g-mana.live` | 6 | 5 | 5 | 100.0% | working | 1.283s |
+| `video1.getstreamhosting.com:1936` | 6 | 5 | 5 | 100.0% | working | 1.219s |
+| `198.58.104.90:8989` | 5 | 5 | 5 | 100.0% | working | 0.337s |
+| `5c2974786200d.streamlock.net` | 5 | 5 | 5 | 100.0% | working | 0.604s |
+| `cdn.whiplash.cc` | 5 | 5 | 5 | 100.0% | working | 0.319s |
+| `livestream.pbskids.org` | 5 | 5 | 5 | 100.0% | working | 0.395s |
+| `media4.tripsmarter.com:1935` | 5 | 5 | 5 | 100.0% | working | 0.752s |
+| `securestream11.champds.com` | 5 | 5 | 5 | 100.0% | working | 0.939s |
+| `streaming-live-fcdn.api.prd.univisionnow.com` | 5 | 5 | 5 | 100.0% | working | 0.281s |
+| `tvsen7.aynascope.net` | 5 | 5 | 5 | 100.0% | working | 1.998s |
+| `168.228.44.241:9997` | 4 | 4 | 4 | 100.0% | working | 0.929s |
+| `58cc65c534c67.streamlock.net` | 4 | 4 | 4 | 100.0% | working | 0.958s |
+| `5aafcc5de91f1.streamlock.net` | 4 | 4 | 4 | 100.0% | working | 2.055s |
+| `cantv.streamguys1.com` | 4 | 4 | 4 | 100.0% | working | 1.089s |
+| `fuel-streaming-prod01.fuelmedia.io` | 4 | 4 | 4 | 100.0% | working | 2.294s |
+| `jstre.am` | 4 | 4 | 4 | 100.0% | working | 0.697s |
+| `reflect-detroit-vod.cablecast.tv` | 4 | 4 | 4 | 100.0% | working | 0.652s |
+| `shd-gcp-live.edgenextcdn.net` | 4 | 4 | 4 | 100.0% | working | 1.195s |
+| `stream.swagit.com` | 4 | 4 | 4 | 100.0% | working | 0.273s |
+| `video.oct.dc.gov` | 4 | 4 | 4 | 100.0% | working | 0.514s |
+| `4.30.180.36:8420` | 3 | 3 | 3 | 100.0% | working | 0.730s |
+| `45.70.201.81:8000` | 3 | 3 | 3 | 100.0% | working | 1.008s |
+| `bloomberg.com` | 3 | 3 | 3 | 100.0% | working | 0.441s |
+| `cdn-atxn-01.vos360.video` | 3 | 3 | 3 | 100.0% | working | 0.987s |
+| `d18fcxaqfnwjhj.cloudfront.net` | 3 | 3 | 3 | 100.0% | working | 0.513s |
+| `d1si3n1st4nkgb.cloudfront.net` | 3 | 3 | 3 | 100.0% | working | 0.590s |
+| `d4whmvwm0rdvi.cloudfront.net` | 3 | 3 | 3 | 100.0% | working | 0.498s |
+| `fastly.live.brightcove.com` | 3 | 3 | 3 | 100.0% | working | 0.322s |
+| `live.nowtelly.com` | 3 | 3 | 3 | 100.0% | working | 0.588s |
+| `live20.bozztv.com` | 3 | 3 | 3 | 100.0% | working | 0.918s |
+| `livefta.malimarcdn.com` | 3 | 3 | 3 | 100.0% | working | 1.197s |
+| `na.linear.zype.com` | 3 | 3 | 3 | 100.0% | working | 0.476s |
+| `node-9b5feb01.4587.website` | 3 | 3 | 3 | 100.0% | working | 0.536s |
+| `reflect-communitytv.cablecast.tv` | 3 | 3 | 3 | 100.0% | working | 0.409s |
+| `reflect-hudsonctv.cablecast.tv` | 3 | 3 | 3 | 100.0% | working | 0.530s |
+| `reflect-npa.cablecast.tv` | 3 | 3 | 3 | 100.0% | working | 0.239s |
+| `reflect-vod-cmac.cablecast.tv` | 3 | 3 | 3 | 100.0% | working | 0.511s |
+| `securestream10.champds.com` | 3 | 3 | 3 | 100.0% | working | 1.859s |
+| `tvsen6.aynaott.com` | 3 | 3 | 3 | 100.0% | working | 2.417s |
+| `uni01rtmp.tulix.tv` | 3 | 3 | 3 | 100.0% | working | 1.656s |
+| `video.ct-n.com` | 3 | 3 | 3 | 100.0% | working | 1.476s |
+| `vodcdn.bamboo-cloud.com` | 3 | 3 | 3 | 100.0% | working | 0.674s |
+| `wggstv16.ddns.net:9953` | 3 | 3 | 3 | 100.0% | working | 0.911s |
+| `138.121.15.230:9002` | 2 | 2 | 2 | 100.0% | working | 1.043s |
+| `190.197.41.183` | 2 | 2 | 2 | 100.0% | working | 0.772s |
+| `247wlive.foxweather.com` | 2 | 2 | 2 | 100.0% | working | 0.570s |
+| `5a8308add0b31.streamlock.net` | 2 | 2 | 2 | 100.0% | working | 0.291s |
+| `amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv` | 2 | 2 | 2 | 100.0% | working | 0.786s |
+| `bantel-cdn1.iptvperu.tv:1935` | 2 | 2 | 2 | 100.0% | working | 2.188s |
+| `cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com` | 2 | 2 | 2 | 100.0% | working | 0.340s |
+| `cdn.jwplayer.com` | 2 | 2 | 2 | 100.0% | working | 0.649s |
+| `d1ewctnvcwvvvu.cloudfront.net` | 2 | 2 | 2 | 100.0% | working | 0.648s |
+| `d2ferbiwcx1539.cloudfront.net` | 2 | 2 | 2 | 100.0% | working | 0.657s |
+| `d3k8wzt41aflvx.cloudfront.net` | 2 | 2 | 2 | 100.0% | working | 1.269s |
+| `edge1.lifestreamcdn.com` | 2 | 2 | 2 | 100.0% | working | 0.789s |
+| `fox-foxnewsnow-vizio.amagi.tv` | 2 | 2 | 2 | 100.0% | working | 1.048s |
+| `freecast-lukentvlive.vgcdn.net` | 2 | 2 | 2 | 100.0% | working | 0.499s |
+| `h5cul1yar48um3t.wcetv.com` | 2 | 2 | 2 | 100.0% | working | 0.388s |
+| `hls.livecdn.io` | 2 | 2 | 2 | 100.0% | working | 1.289s |
+| `install.akctvcontrol.com` | 2 | 2 | 2 | 100.0% | working | 0.507s |
+| `linear-43.frequency.stream` | 2 | 2 | 2 | 100.0% | working | 0.407s |
+| `lineup.cbsivideo.com` | 2 | 2 | 2 | 100.0% | working | 0.529s |
+| `live-manifest.production-public.tubi.io` | 2 | 2 | 2 | 100.0% | working | 0.600s |
+| `live-mcl.cdn01.net` | 2 | 2 | 2 | 100.0% | working | 1.963s |
+| `lukentvlive.vgcdn.net` | 2 | 2 | 2 | 100.0% | working | 1.231s |
+| `media.smc-host.com:1935` | 2 | 2 | 2 | 100.0% | working | 0.859s |
+| `media.streambrothers.com:1936` | 2 | 2 | 2 | 100.0% | working | 1.597s |
+| `media3.smc-host.com:1935` | 2 | 2 | 2 | 100.0% | working | 0.885s |
+| `nmx1ota.akamaized.net` | 2 | 2 | 2 | 100.0% | working | 0.291s |
+| `node-025d151e.4587.website` | 2 | 2 | 2 | 100.0% | working | 0.496s |
+| `ntd02.akamaized.net` | 2 | 2 | 2 | 100.0% | working | 1.368s |
+| `reflect-batv.cablecast.tv` | 2 | 2 | 2 | 100.0% | working | 0.291s |
+| `reflect-bayarea.cablecast.tv` | 2 | 2 | 2 | 100.0% | working | 0.450s |
+| `reflect-brookline-interactive-group.cablecast.tv` | 2 | 2 | 2 | 100.0% | working | 0.515s |
+| `reflect-channel18vod-springfield-il-us.cablecast.tv` | 2 | 2 | 2 | 100.0% | working | 0.415s |
+| `reflect-monroe-public-access.cablecast.tv` | 2 | 2 | 2 | 100.0% | working | 0.753s |
+| `reflect-montgomerycommunitymedia.cablecast.tv` | 2 | 2 | 2 | 100.0% | working | 0.435s |
+| `stream.bottledesk.net` | 2 | 2 | 2 | 100.0% | working | 3.116s |
+| `streams2.sofast.tv` | 2 | 2 | 2 | 100.0% | working | 2.604s |
+| `voa-ingest.akamaized.net` | 2 | 2 | 2 | 100.0% | working | 0.669s |
+| `vs20.live.opencaster.com` | 2 | 2 | 2 | 100.0% | working | 1.227s |
+| `0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com` | 1 | 1 | 1 | 100.0% | working | 0.434s |
+| `107.167.7.162:8081` | 1 | 1 | 1 | 100.0% | working | 0.254s |
+| `1593604785.rsc.cdn77.org` | 1 | 1 | 1 | 100.0% | working | 0.569s |
+| `1601580044.rsc.cdn77.org` | 1 | 1 | 1 | 100.0% | working | 0.325s |
+| `164475.gvideo.io` | 1 | 1 | 1 | 100.0% | working | 0.596s |
+| `170.254.17.2` | 1 | 1 | 1 | 100.0% | working | 0.698s |
+| `181.224.255.210:8001` | 1 | 1 | 1 | 100.0% | working | 0.962s |
+| `186.33.0.57:8000` | 1 | 1 | 1 | 100.0% | working | 0.775s |
+| `2-fss-1.themediacdn.com` | 1 | 1 | 1 | 100.0% | working | 0.405s |
+| `212.5.144.156` | 1 | 1 | 1 | 100.0% | working | 1.399s |
+| `37c18028.akadatel.com` | 1 | 1 | 1 | 100.0% | working | 1.605s |
+| `4.59.210.197:8815` | 1 | 1 | 1 | 100.0% | working | 0.835s |
+| `45.170.130.224:8000` | 1 | 1 | 1 | 100.0% | working | 2.113s |
+| `45.5.117.99:8000` | 1 | 1 | 1 | 100.0% | working | 0.854s |
+| `547f72e6652371c3.mediapackage.us-east-1.amazonaws.com` | 1 | 1 | 1 | 100.0% | working | 1.091s |
+| `597865f6e4114.streamlock.net` | 1 | 1 | 1 | 100.0% | working | 1.302s |
+| `597f64b67707a.streamlock.net` | 1 | 1 | 1 | 100.0% | working | 0.951s |
+| `59e8e1c60a2b2.streamlock.net` | 1 | 1 | 1 | 100.0% | working | 0.535s |
+| `5bf8041cb3fed.streamlock.net` | 1 | 1 | 1 | 100.0% | working | 1.252s |
+| `5d12bc59c4748.streamlock.net` | 1 | 1 | 1 | 100.0% | working | 0.834s |
+| `5d23269b3ec0c.streamlock.net` | 1 | 1 | 1 | 100.0% | working | 3.607s |
+| `5ed325193d4e1.streamlock.net:444` | 1 | 1 | 1 | 100.0% | working | 1.554s |
+| `6096a9cf11ae5.streamlock.net:1943` | 1 | 1 | 1 | 100.0% | working | 0.913s |
+| `627bb251f23c7.streamlock.net:444` | 1 | 1 | 1 | 100.0% | working | 2.294s |
+| `65.36.6.216:1935` | 1 | 1 | 1 | 100.0% | working | 0.451s |
+| `66.242.170.53` | 1 | 1 | 1 | 100.0% | working | 0.217s |
+| `7mbd4ogkr3gx-hls-live.wmncdn.net` | 1 | 1 | 1 | 100.0% | working | 2.100s |
+| `86fdc85a.wurl.com` | 1 | 1 | 1 | 100.0% | working | 0.727s |
+| `9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com` | 1 | 1 | 1 | 100.0% | working | 0.730s |
+| `a-cdn.herringnetwork.com` | 1 | 1 | 1 | 100.0% | working | 0.704s |
+| `afghantv.app` | 1 | 1 | 1 | 100.0% | working | 1.880s |
+| `agp-nimble.streamguys1.com` | 1 | 1 | 1 | 100.0% | working | 0.943s |
+| `all3media-midsomer-1-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.596s |
+| `alt-al.otteravision.com` | 1 | 1 | 1 | 100.0% | working | 0.329s |
+| `amc-absolutereality-1-us.plex.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.790s |
+| `amc-allweddings-1-us.xumo.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.781s |
+| `amc-amcespanol-1-us.lg.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.732s |
+| `amc-amcpresents-1-us.xumo.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.657s |
+| `amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 2.010s |
+| `amg00090-blueantcanada-amg00090c4-samsung-au-819.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.615s |
+| `amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.894s |
+| `amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.540s |
+| `amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.473s |
+| `amg00353-amg00353c19-xumo-us-2608.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.615s |
+| `amg00353-amg00353c40-xumo-us-4839.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.612s |
+| `amg00353-lionsgatestudio-angermgmt-samsungau-o9jg9.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.198s |
+| `amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.021s |
+| `amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.235s |
+| `amg00376-magellan-amg00376c12-samsung-au-1725.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.464s |
+| `amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.285s |
+| `amg00426-lds-amg00426c15-samsung-au-3684.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.774s |
+| `amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.119s |
+| `amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.716s |
+| `amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.296s |
+| `amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.802s |
+| `amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.617s |
+| `amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.449s |
+| `amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.793s |
+| `amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.235s |
+| `amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.141s |
+| `amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.222s |
+| `amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.706s |
+| `amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.704s |
+| `amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.948s |
+| `amg00732-salemmediagroup-snc-ono-ekp8j.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.569s |
+| `amg00779-latv-amg00779c1-cineverse-us-1746.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.619s |
+| `amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.341s |
+| `amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.587s |
+| `amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.428s |
+| `amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.678s |
+| `amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.792s |
+| `amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.296s |
+| `amg01258-raycomsports-powernationau-samsungau-18bwc.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.019s |
+| `amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.754s |
+| `amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.842s |
+| `amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.093s |
+| `amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.523s |
+| `amg01515-amg01515c17-xumo-us-2489.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.891s |
+| `amg01540-amg01540c1-amgplt0095.playout.now3.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.399s |
+| `amg01576-blueskyeenterta-lovepetsemea-samsungse-ctamh.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.876s |
+| `amg01705-amg01705c1-amgplt0095.playout.now3.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.557s |
+| `amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.015s |
+| `amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.957s |
+| `amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.734s |
+| `amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.507s |
+| `amg01942-amg01942c2-stirr-us-10173.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.549s |
+| `amg01942-amg01942c3-stirr-us-10196.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.496s |
+| `amg01942-amg01942c4-stirr-us-10190.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.693s |
+| `amg01942-amg01942c5-stirr-us-10184.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.365s |
+| `amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.361s |
+| `amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.366s |
+| `amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.446s |
+| `amg02507-giantpictures-tribeca-xumo-ey2b7.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.786s |
+| `amg02713-amg02713c11-amgplt0852.playout.now3.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.941s |
+| `amg09501-amg09501c1-klowdtv-us-2398.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.531s |
+| `amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.765s |
+| `amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.844s |
+| `amg17596-ntdtv-amg17596c1-rakuten-gb-6741.playouts.now.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.615s |
+| `amogonetworx-artflix-1-nl.samsung.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.885s |
+| `amogonetworx-grjngo-3-dk.samsung.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.770s |
+| `amtvusdvr.tulix.tv` | 1 | 1 | 1 | 100.0% | working | 1.317s |
+| `api.toonamiaftermath.com:3000` | 1 | 1 | 1 | 100.0% | working | 0.787s |
+| `api.v3.invintus.com` | 1 | 1 | 1 | 100.0% | working | 0.349s |
+| `appletree-mytimeau-samsung.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.669s |
+| `bbb-barkt-streamstak.otteravision.com` | 1 | 1 | 1 | 100.0% | working | 0.311s |
+| `bbc-antiquesroadshowuk-1-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.610s |
+| `bbc-classicdrwho-1-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.552s |
+| `bbc-impossible-1-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.696s |
+| `bein-xtra-bein.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.659s |
+| `blacknewschannel-xumo-us.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.559s |
+| `bonappetit-samsung.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.725s |
+| `brightstar-arabic-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 1.147s |
+| `brightstar-chinese-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.591s |
+| `brightstar-hislight-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.832s |
+| `brightstar-hisword-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.799s |
+| `brightstar-korean-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.740s |
+| `brightstar-latino-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.794s |
+| `brightstar-romanian-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.771s |
+| `brightstar-sls-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.814s |
+| `brightstar-southasia-pull-secure.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 1.776s |
+| `broadcast.blivenyc.com` | 1 | 1 | 1 | 100.0% | working | 0.589s |
+| `broadcast.tbnpacific.org.au:4430` | 1 | 1 | 1 | 100.0% | working | 3.197s |
+| `buenapark.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.987s |
+| `buzzrota-web.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.926s |
+| `c.streamhoster.com` | 1 | 1 | 1 | 100.0% | working | 0.738s |
+| `cafetradehls.wns.live` | 1 | 1 | 1 | 100.0% | working | 1.562s |
+| `capitalcityconnection.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.920s |
+| `catholictvhd-lh.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.766s |
+| `cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com` | 1 | 1 | 1 | 100.0% | working | 1.034s |
+| `cbsn-mia.cbsnstream.cbsnews.com` | 1 | 1 | 1 | 100.0% | working | 0.263s |
+| `cbsn-us.cbsnstream.cbsnews.com` | 1 | 1 | 1 | 100.0% | working | 0.303s |
+| `cdn-shop-lc-01.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.212s |
+| `cdn-unified-hls.streamspot.com` | 1 | 1 | 1 | 100.0% | working | 0.527s |
+| `cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.379s |
+| `cdn.fast.jwp.services` | 1 | 1 | 1 | 100.0% | working | 0.765s |
+| `cdn1.ayitistream.com` | 1 | 1 | 1 | 100.0% | working | 1.121s |
+| `cdnapisec.kaltura.com` | 1 | 1 | 1 | 100.0% | working | 0.664s |
+| `cdnlive.myspirit.tv` | 1 | 1 | 1 | 100.0% | working | 0.305s |
+| `champaign-cablecast.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.964s |
+| `cinedigm-entertainment-corp-thefilmdetective-1-us.ono.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.339s |
+| `circle-klowdtv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.087s |
+| `circle-roku.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.142s |
+| `cloud5.livescast.com:19360` | 1 | 1 | 1 | 100.0% | working | 0.996s |
+| `cloudflare.tv` | 1 | 1 | 1 | 100.0% | working | 0.340s |
+| `clouditize.piksel.tech` | 1 | 1 | 1 | 100.0% | working | 0.329s |
+| `cmc-cmctv-cineverse.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.900s |
+| `concordca.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.984s |
+| `connection3-ent-nz.samsung.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.619s |
+| `content.jwplatform.com` | 1 | 1 | 1 | 100.0% | working | 0.699s |
+| `create.lls.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.241s |
+| `cs.ebmcdn.net` | 1 | 1 | 1 | 100.0% | working | 1.854s |
+| `customer-6itfaqopbksp5p0q.cloudflarestream.com` | 1 | 1 | 1 | 100.0% | working | 0.322s |
+| `d029dcec.kazmazpaz.ru` | 1 | 1 | 1 | 100.0% | working | 1.751s |
+| `d11k1mnrgfposz.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.719s |
+| `d11r33s5i066xh.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.348s |
+| `d12gab6t5iutxf.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.411s |
+| `d13j8jpstr8iqz.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.546s |
+| `d198ro05q94rc4.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.415s |
+| `d1a8aq6t30gkqj.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.652s |
+| `d1b16tvvxk3tnu.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.449s |
+| `d1c73nj8qxp55a.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.457s |
+| `d1e354daam8g5r.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.511s |
+| `d1e9r0b71zfwk7.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.262s |
+| `d1i3g4v4xlfhad.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.545s |
+| `d1ik2p49apxqjf.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.360s |
+| `d1j2u714xk898n.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.270s |
+| `d1p1siomv3cm7b.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.335s |
+| `d1s1wrpgemt9re.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.470s |
+| `d1uvnirn6lhs2f.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.632s |
+| `d1xc25jm9e0l4b.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.643s |
+| `d21vn5eki5qsdi.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.622s |
+| `d24l3uppudokci.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.475s |
+| `d265y4sk8257lt.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.315s |
+| `d284aawtm5vi48.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.635s |
+| `d2a6g6zgxepbwi.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.468s |
+| `d2ah48mnofquik.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.466s |
+| `d2e00kr7m9coe4.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.201s |
+| `d2netiedy8cz3x.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 2.832s |
+| `d2q0mzb9bm4w5z.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.682s |
+| `d2tv4k5moji5m7.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.694s |
+| `d2ugl2g2gz1giy.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.396s |
+| `d2w9q46ikgrcwx.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.709s |
+| `d31z96rdrmwfsp.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.421s |
+| `d3537vnymvfque.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.542s |
+| `d36r8jifhgsk5j.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.543s |
+| `d37kx062o4ii0p.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.349s |
+| `d3868b4ny0rgdf.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.381s |
+| `d39accvx65hq9o.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.427s |
+| `d39g1vxj2ef6in.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.427s |
+| `d39nqr4d4h6cv6.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.613s |
+| `d3bsgqzbpkrvbb.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.602s |
+| `d3cx6yargdnl7q.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.202s |
+| `d3d85c7qkywguj.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.285s |
+| `d3ehq1uaxory6w.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.163s |
+| `d3f4oii5n0oeqi.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.572s |
+| `d3hqevbyoxtkoi.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.542s |
+| `d3i68hpvh19xjd.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.747s |
+| `d3i6upqaqzosi1.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.359s |
+| `d3ify425qsio2d.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.458s |
+| `d3j95sejv6mybj.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.358s |
+| `d3k5y954fiztgy.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.688s |
+| `d3mr43kyql7wgk.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.437s |
+| `d3o593mz1glx8d.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.552s |
+| `d3s3a5c7f101eb.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.635s |
+| `d6dg3ebeih71x.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.524s |
+| `d6ef3usc6d9cl.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.568s |
+| `d9069ugodwkju.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.614s |
+| `db691j6te7mt4.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.709s |
+| `df1zke3zj042m.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.717s |
+| `dfoiz3dv1euv7.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.896s |
+| `dil9xdvretp0f.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.322s |
+| `dk0n7jh428tzj.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.786s |
+| `dl74gpgmnb7i8.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.599s |
+| `dltiqboxjw21d.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.901s |
+| `dms.redbull.tv` | 1 | 1 | 1 | 100.0% | working | 1.271s |
+| `dnf08l6u6uxnz.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.345s |
+| `dnmfq3sh1jipj.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.354s |
+| `dos35knl8v49a.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 1.269s |
+| `drybar-drybarcomedy-1-au.samsung.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.347s |
+| `dt9mwqwe98q7o.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.414s |
+| `dvnftgdlbnemm.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.488s |
+| `dvu7aia8rjlfm.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.387s |
+| `dw2m7yrngfg8c.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.547s |
+| `dz05z8iljgvbe.cloudfront.net` | 1 | 1 | 1 | 100.0% | working | 0.344s |
+| `edge.essastream.com` | 1 | 1 | 1 | 100.0% | working | 0.572s |
+| `ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com` | 1 | 1 | 1 | 100.0% | working | 0.301s |
+| `enterbcef94b.airspace-cdn.cbsivideo.com` | 1 | 1 | 1 | 100.0% | working | 0.311s |
+| `estrella-news-oando.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.803s |
+| `estrellatv-oando.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.475s |
+| `eu1.servers10.com:8081` | 1 | 1 | 1 | 100.0% | working | 2.584s |
+| `f-tx-edge-87.christianworldmedia.com` | 1 | 1 | 1 | 100.0% | working | 0.697s |
+| `failarmy-international-au.samsung.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.336s |
+| `faithnow-hls.secdn.net` | 1 | 1 | 1 | 100.0% | working | 3.207s |
+| `fffffff110156200.tvustream.com:8298` | 1 | 1 | 1 | 100.0% | working | 1.017s |
+| `fl1002.bozztv.com` | 1 | 1 | 1 | 100.0% | working | 0.925s |
+| `fnx.lls.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.422s |
+| `foxsoul-vizio.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.863s |
+| `g5nl6xx5lpq6-hls-live.5centscdn.com` | 1 | 1 | 1 | 100.0% | working | 0.577s |
+| `github.com` | 1 | 1 | 1 | 100.0% | working | 2.086s |
+| `glorystartv.live` | 1 | 1 | 1 | 100.0% | working | 0.536s |
+| `gsn-cinevault-westerns-2-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.799s |
+| `hls-kmosdt.lls.cdn.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.918s |
+| `hls.avang.live` | 1 | 1 | 1 | 100.0% | working | 1.522s |
+| `hls.keshishhamid.live` | 1 | 1 | 1 | 100.0% | working | 0.764s |
+| `hls127.freeott.top:8080` | 1 | 1 | 1 | 100.0% | working | 1.615s |
+| `hlspackager.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 1.828s |
+| `hwlive.streamingmediahosting.com` | 1 | 1 | 1 | 100.0% | working | 0.199s |
+| `iptv.almahditv.com` | 1 | 1 | 1 | 100.0% | working | 0.743s |
+| `iptv.tapesh.tv` | 1 | 1 | 1 | 100.0% | working | 0.691s |
+| `irctv.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 1.003s |
+| `itiswrittentv.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 1.312s |
+| `janson-supersimplesongs-1-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.644s |
+| `jk3lzkn4lw79-hls-live.5centscdn.com` | 1 | 1 | 1 | 100.0% | working | 0.401s |
+| `jlt-jltv-strimm.otteravision.com` | 1 | 1 | 1 | 100.0% | working | 0.302s |
+| `jmc-live.ercdn.net` | 1 | 1 | 1 | 100.0% | working | 2.776s |
+| `jukin-peopleareawesome-2-au.samsung.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.762s |
+| `kqeddt2.lls.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.171s |
+| `kviedt2.lls.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.170s |
+| `langleyproductions-cops-2-eu.rakuten.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.399s |
+| `lds-realwild-samsungau.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.643s |
+| `lds-timeline-rakuten.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.324s |
+| `lightning-fnf-samsungaus.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.808s |
+| `lin10.isilive.ca` | 1 | 1 | 1 | 100.0% | working | 0.797s |
+| `linear-1066.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.212s |
+| `linear-1080.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.260s |
+| `linear-11.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.419s |
+| `linear-12.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 1.189s |
+| `linear-142.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.445s |
+| `linear-188.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.340s |
+| `linear-253.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.214s |
+| `linear-59.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.461s |
+| `linear-681.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.507s |
+| `linear-688.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.209s |
+| `linear-689.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.683s |
+| `linear-690.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.340s |
+| `linear-691.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.228s |
+| `linear-692.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.546s |
+| `linear-693.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.245s |
+| `linear-695.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.251s |
+| `linear-696.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.530s |
+| `linear-698.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.206s |
+| `linear-699.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.263s |
+| `linear-700.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.245s |
+| `linear-701.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.226s |
+| `linear-702.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.203s |
+| `linear-703.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.133s |
+| `linear-707.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.201s |
+| `linear-708.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.213s |
+| `linear-709.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.231s |
+| `linear-860.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.247s |
+| `linear-896.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.134s |
+| `linear-897.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.261s |
+| `linear-899.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.255s |
+| `linear-900.frequency.stream` | 1 | 1 | 1 | 100.0% | working | 0.259s |
+| `live.feed.thepalmbeaches.tv` | 1 | 1 | 1 | 100.0% | working | 0.966s |
+| `liveen24-manminglobal3.ktcdn.co.kr` | 1 | 1 | 1 | 100.0% | working | 3.253s |
+| `livestar.siliconweb.com` | 1 | 1 | 1 | 100.0% | working | 2.104s |
+| `livestream-us-east-edge-2.granicusops.com` | 1 | 1 | 1 | 100.0% | working | 1.129s |
+| `livestream.liveone.com` | 1 | 1 | 1 | 100.0% | working | 0.550s |
+| `livestream.usatv.com` | 1 | 1 | 1 | 100.0% | working | 0.421s |
+| `livestreamcdn.net:1935` | 1 | 1 | 1 | 100.0% | working | 1.476s |
+| `livetv.305streamhd.com:3504` | 1 | 1 | 1 | 100.0% | working | 0.389s |
+| `livetv.305streamhd.com:3667` | 1 | 1 | 1 | 100.0% | working | 0.438s |
+| `lonestar-rakuten.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.406s |
+| `main.duckhunting.playout.vju.tv` | 1 | 1 | 1 | 100.0% | working | 1.301s |
+| `maverick-maverick-black-cinema-3-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.633s |
+| `mdstrm.com` | 1 | 1 | 1 | 100.0% | working | 1.042s |
+| `media.mohabat.tv:1935` | 1 | 1 | 1 | 100.0% | working | 0.315s |
+| `media.parvizshahbazi.com` | 1 | 1 | 1 | 100.0% | working | 0.369s |
+| `mediaprod1.nowcast.cc:5443` | 1 | 1 | 1 | 100.0% | working | 1.019s |
+| `mmn1-301f.kxcdn.com` | 1 | 1 | 1 | 100.0% | working | 0.690s |
+| `mst3k-roku.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.772s |
+| `mtchls.wns.live` | 1 | 1 | 1 | 100.0% | working | 1.563s |
+| `n1ottesorkatv.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.727s |
+| `newidco-babysharktv-1-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.314s |
+| `nhl-firetv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.533s |
+| `nl.livekadeh.com` | 1 | 1 | 1 | 100.0% | working | 2.005s |
+| `node-88894cb5.4587.website` | 1 | 1 | 1 | 100.0% | working | 0.559s |
+| `node-8bba18be.4587.website` | 1 | 1 | 1 | 100.0% | working | 0.592s |
+| `norcast-weather.streamology.live` | 1 | 1 | 1 | 100.0% | working | 0.576s |
+| `nosey-intl-1-samsungau.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.938s |
+| `oan-plus-tcl.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.617s |
+| `ocb-ingest.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.989s |
+| `oitnhls.wns.live` | 1 | 1 | 1 | 100.0% | working | 1.594s |
+| `outsidetv-firetv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.876s |
+| `pac12-firetv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.014s |
+| `parshls.wns.live` | 1 | 1 | 1 | 100.0% | working | 1.550s |
+| `pb-ioe9d0fpkd6pp.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.708s |
+| `pb-olm46bexcljjf.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.699s |
+| `pb-qyrvophnifz47.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 1.078s |
+| `pb-wm04vonaerv0k.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.809s |
+| `pb-x9qsxrudiq9d2.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.644s |
+| `pbs.lls.cdn.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.323s |
+| `playout7multirtmp.tulix.tv` | 1 | 1 | 1 | 100.0% | working | 1.741s |
+| `plex-xumoent-ch485-e7l5l.fast.nbcuni.com` | 1 | 1 | 1 | 100.0% | working | 0.329s |
+| `pubgfc.teleosmedia.com` | 1 | 1 | 1 | 100.0% | working | 0.409s |
+| `radiovid.foxnews.com` | 1 | 1 | 1 | 100.0% | working | 0.523s |
+| `rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.965s |
+| `rally-tv-live.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.918s |
+| `raycom-accdn-firetv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.353s |
+| `reflect-access-sacramento.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.508s |
+| `reflect-aurora.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.552s |
+| `reflect-broadcast-psdschools.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.384s |
+| `reflect-channel36-la.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.989s |
+| `reflect-cityofloveland-co.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.327s |
+| `reflect-contra-costa.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.441s |
+| `reflect-fairfield-ca.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.454s |
+| `reflect-fcpublicmedia.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.716s |
+| `reflect-golden-co.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.378s |
+| `reflect-gtv6-glendale.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.519s |
+| `reflect-hktv.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.193s |
+| `reflect-huntingtonbeach.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 2.057s |
+| `reflect-jacksonville.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.189s |
+| `reflect-kcat-live.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.503s |
+| `reflect-lakefront-leesburgflorida.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.537s |
+| `reflect-mcsb-vod.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.294s |
+| `reflect-monroe-mi-ci.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.615s |
+| `reflect-pomona.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.185s |
+| `reflect-scvtv.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.244s |
+| `reflect-stlucie-ps-fl.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.524s |
+| `reflect-tacm.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.535s |
+| `reflect-tampa-bay-community.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.324s |
+| `reflect-temecula.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.309s |
+| `reflect-thornton.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.357s |
+| `reflect-tuolumne.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.478s |
+| `reflect-vod-fcgov.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.452s |
+| `reflect-vsctv.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.260s |
+| `reflect-watchkfon-fontana.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.171s |
+| `reflector.watchtstv.com` | 1 | 1 | 1 | 100.0% | working | 0.705s |
+| `rpn3.bozztv.com` | 1 | 1 | 1 | 100.0% | working | 1.367s |
+| `rtvelivestream-rtveplayplus.rtve.es` | 1 | 1 | 1 | 100.0% | working | 2.181s |
+| `run-rt-uh-roku.otteravision.com` | 1 | 1 | 1 | 100.0% | working | 0.335s |
+| `rvtv-on-freecast.b-cdn.net` | 1 | 1 | 1 | 100.0% | working | 1.313s |
+| `ryanandfriends-samsungau.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.918s |
+| `sh7hls.wns.live` | 1 | 1 | 1 | 100.0% | working | 1.600s |
+| `sportsgrid-tribal.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.013s |
+| `stirr.b-cdn.net` | 1 | 1 | 1 | 100.0% | working | 1.263s |
+| `stream-losangeles.scientology.org` | 1 | 1 | 1 | 100.0% | working | 0.908s |
+| `stream-tampa.scientology.org` | 1 | 1 | 1 | 100.0% | working | 0.532s |
+| `stream.diyatvinc.com` | 1 | 1 | 1 | 100.0% | working | 0.869s |
+| `stream.smotrim.ru` | 1 | 1 | 1 | 100.0% | working | 2.093s |
+| `stream.swamiji.tv` | 1 | 1 | 1 | 100.0% | working | 2.277s |
+| `stream.talgov.net` | 1 | 1 | 1 | 100.0% | working | 1.438s |
+| `stream6.scientology.org` | 1 | 1 | 1 | 100.0% | working | 0.643s |
+| `streamer1.nexgen.bz` | 1 | 1 | 1 | 100.0% | working | 1.122s |
+| `streamingserver000.viewtv.cloud` | 1 | 1 | 1 | 100.0% | working | 0.903s |
+| `streamyes.alsolnet.com` | 1 | 1 | 1 | 100.0% | working | 1.055s |
+| `tdameritrade-vizio.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.798s |
+| `tgn2.bozztv.com` | 1 | 1 | 1 | 100.0% | working | 2.224s |
+| `the-pet-collective-international-dk.samsung.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.740s |
+| `thedovetv.bozztv.com` | 1 | 1 | 1 | 100.0% | working | 2.179s |
+| `thefirst-oando.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.619s |
+| `thisoldhouse-2-us.roku.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.423s |
+| `timelesstv1-301f.kxcdn.com` | 1 | 1 | 1 | 100.0% | working | 0.653s |
+| `tkx.mp.lura.live` | 1 | 1 | 1 | 100.0% | working | 0.114s |
+| `toy.vcdn.fyi` | 1 | 1 | 1 | 100.0% | working | 1.062s |
+| `tricoast-tv-dark-matter-01-us.ono.wurl.tv` | 1 | 1 | 1 | 100.0% | working | 0.662s |
+| `tulixcdn.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 2.279s |
+| `tv.gunaz.tv` | 1 | 1 | 1 | 100.0% | working | 1.652s |
+| `tv2.fastcast4u.com:3238` | 1 | 1 | 1 | 100.0% | working | 0.810s |
+| `tvpanoucom.srfms.com:1935` | 1 | 1 | 1 | 100.0% | working | 1.294s |
+| `tvsen3.aynaott.com` | 1 | 1 | 1 | 100.0% | working | 2.400s |
+| `tvsen5.aynascope.net` | 1 | 1 | 1 | 100.0% | working | 1.871s |
+| `tyt-samsungus.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 1.007s |
+| `uni8rtmp.tulix.tv` | 1 | 1 | 1 | 100.0% | working | 1.769s |
+| `uptv-aspiretvlife-klowdtv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.711s |
+| `videostack1.cdnstream1.com:1936` | 1 | 1 | 1 | 100.0% | working | 1.065s |
+| `vietprocast.app` | 1 | 1 | 1 | 100.0% | working | 2.091s |
+| `vod.cityofrc.us` | 1 | 1 | 1 | 100.0% | working | 0.800s |
+| `vod2live.univtec.com` | 1 | 1 | 1 | 100.0% | working | 0.822s |
+| `vs-hls-push-ww-live.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.480s |
+| `vsin-sgrewind.streamguys1.com` | 1 | 1 | 1 | 100.0% | working | 0.548s |
+| `watch.haitilive.net` | 1 | 1 | 1 | 100.0% | working | 0.373s |
+| `watch.sardius.media` | 1 | 1 | 1 | 100.0% | working | 0.869s |
+| `waypoint-waypointtv-firetv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.807s |
+| `wedqdt4.lls.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.147s |
+| `wescottcc.piksel.tech` | 1 | 1 | 1 | 100.0% | working | 0.380s |
+| `wgtvdt3.lls.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.173s |
+| `whittier.cablecast.tv` | 1 | 1 | 1 | 100.0% | working | 0.654s |
+| `wire2fish-klowdtv.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.403s |
+| `wlngstudiowebcam.srfms.com:1935` | 1 | 1 | 1 | 100.0% | working | 1.534s |
+| `world.lls.pbs.org` | 1 | 1 | 1 | 100.0% | working | 0.250s |
+| `wurl120sports.global.transmit.live` | 1 | 1 | 1 | 100.0% | working | 0.419s |
+| `wurlgameshownetwork.global.transmit.live` | 1 | 1 | 1 | 100.0% | working | 0.475s |
+| `wurlrifftrax.global.transmit.live` | 1 | 1 | 1 | 100.0% | working | 0.379s |
+| `wurlsonypicturestv.global.transmit.live` | 1 | 1 | 1 | 100.0% | working | 0.754s |
+| `www-on-freecast.b-cdn.net` | 1 | 1 | 1 | 100.0% | working | 1.640s |
+| `www.bloomberg.com` | 1 | 1 | 1 | 100.0% | working | 0.339s |
+| `xumo-drct-nbcnn-ir8ze.fast.nbcuni.com` | 1 | 1 | 1 | 100.0% | working | 0.213s |
+| `xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com` | 1 | 1 | 1 | 100.0% | working | 0.592s |
+| `xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com` | 1 | 1 | 1 | 100.0% | working | 0.560s |
+| `younghollywood-rakuten-samsung.amagi.tv` | 1 | 1 | 1 | 100.0% | working | 0.837s |
+| `yuppmedtaorire.akamaized.net` | 1 | 1 | 1 | 100.0% | working | 0.748s |
+| `jmp2.uk` | 217 | 10 | 9 | 90.0% | working | 1.031s |
+| `aegis-cloudfront-1.tubi.video` | 36 | 8 | 7 | 87.5% | working | 0.296s |
+| `edge-f.swagit.com` | 9 | 5 | 4 | 80.0% | working | 0.268s |
+| `fast-channels.sinclairstoryline.com` | 6 | 5 | 4 | 80.0% | working | 0.368s |
+| `212.5.144.156:8080` | 5 | 5 | 4 | 80.0% | working | 1.401s |
+| `dai.google.com` | 5 | 5 | 4 | 80.0% | working | 0.754s |
+| `bozztv.com` | 4 | 4 | 3 | 75.0% | partial | 0.723s |
+| `nbculocallive.akamaized.net` | 3 | 3 | 2 | 66.7% | partial | 1.309s |
+| `pubads.g.doubleclick.net` | 3 | 3 | 2 | 66.7% | partial | 0.474s |
+| `cdnlivetv.tv` | 51 | 8 | 5 | 62.5% | partial | 1.924s |
+| `2-fss-2.streamhoster.com` | 22 | 5 | 3 | 60.0% | partial | 0.535s |
+| `messi.damitv.st` | 14 | 5 | 3 | 60.0% | partial | 6.732s |
+| `india.futtv.nx.kg` | 4 | 4 | 2 | 50.0% | partial | 4.492s |
+| `stream.ads.ottera.tv` | 4 | 4 | 2 | 50.0% | partial | 0.769s |
+| `streamer1.streamhost.org` | 4 | 4 | 2 | 50.0% | partial | 3.649s |
+| `15.204.246.24:8080` | 2 | 2 | 1 | 50.0% | partial | 0.522s |
+| `d3svnrf3rmq619.cloudfront.net` | 2 | 2 | 1 | 50.0% | partial | 0.569s |
+| `sweden.futtv.nx.kg` | 11 | 5 | 2 | 40.0% | partial | 3.055s |
+| `168.228.44.241:9998` | 3 | 3 | 1 | 33.3% | partial | 0.750s |
+| `live.field59.com` | 3 | 3 | 1 | 33.3% | partial | 0.501s |
+| `livecdn.use1-0004.jwplive.com` | 3 | 3 | 1 | 33.3% | partial | 0.347s |
+| `59d39900ebfb8.streamlock.net` | 4 | 4 | 1 | 25.0% | partial | 1.294s |
+| `streamer1.connectto.com` | 4 | 4 | 1 | 25.0% | partial | 0.354s |
+| `webcast-origin.b-cdn.net` | 28 | 8 | 1 | 12.5% | dead | 2.434s |
+| `xameleon.phantemlis.top` | 94 | 10 | 0 | 0.0% | dead | — |
+| `khala.futlivehd.com` | 64 | 8 | 0 | 0.0% | dead | — |
+| `xyzstreams.blog` | 31 | 8 | 0 | 0.0% | dead | — |
+| `dlhd.net` | 30 | 8 | 0 | 0.0% | dead | — |
+| `epidd.hundxvision.co.uk` | 27 | 8 | 0 | 0.0% | dead | — |
+| `193.47.62.41` | 20 | 5 | 0 | 0.0% | dead | — |
+| `edgestream2.pro` | 15 | 5 | 0 | 0.0% | dead | — |
+| `chatgpt.hereisman.net` | 14 | 5 | 0 | 0.0% | dead | — |
+| `193.47.62.49` | 12 | 5 | 0 | 0.0% | dead | — |
+| `193.47.62.50` | 12 | 5 | 0 | 0.0% | dead | — |
+| `embedsport.site` | 12 | 5 | 0 | 0.0% | dead | — |
+| `mdc.ott.alticeusa.net` | 12 | 5 | 0 | 0.0% | dead | — |
+| `abcnews-streams.akamaized.net` | 10 | 5 | 0 | 0.0% | dead | — |
+| `193.47.62.53` | 8 | 5 | 0 | 0.0% | dead | — |
+| `y2fzdgxl.fubo18.com:443` | 8 | 5 | 0 | 0.0% | dead | — |
+| `193.47.62.57` | 7 | 5 | 0 | 0.0% | dead | — |
+| `am91cm5leQ.fubo18.com:443` | 7 | 5 | 0 | 0.0% | dead | — |
+| `b2ZmaWNpYWw.fubo18.com:443` | 7 | 5 | 0 | 0.0% | dead | — |
+| `dglvz29s.fubo18.com:443` | 6 | 5 | 0 | 0.0% | dead | — |
+| `stream.cammonitorplus.net` | 6 | 5 | 0 | 0.0% | dead | — |
+| `193.47.62.44` | 5 | 5 | 0 | 0.0% | dead | — |
+| `193.47.62.59` | 5 | 5 | 0 | 0.0% | dead | — |
+| `lb12.strmd.st` | 5 | 5 | 0 | 0.0% | dead | — |
+| `YXdlc29tZQ.fubo18.com:443` | 5 | 5 | 0 | 0.0% | dead | — |
+| `cdn1tlinkgo.tlink.cl` | 4 | 4 | 0 | 0.0% | dead | — |
+| `reflect-creatv.cablecast.tv` | 4 | 4 | 0 | 0.0% | dead | — |
+| `www.rtmpcdn.com` | 4 | 4 | 0 | 0.0% | dead | — |
+| `Ym9yZQ.fubo18.com:443` | 4 | 4 | 0 | 0.0% | dead | — |
+| `103.154.3.101:5001` | 3 | 3 | 0 | 0.0% | dead | — |
+| `14.domhsd.com:443` | 3 | 3 | 0 | 0.0% | dead | — |
+| `193.domhsd.com:443` | 3 | 3 | 0 | 0.0% | dead | — |
+| `7.domhsd.com:443` | 3 | 3 | 0 | 0.0% | dead | — |
+| `a2lja3m.fubo18.com:443` | 3 | 3 | 0 | 0.0% | dead | — |
+| `eWVz.fubo18.com:443` | 3 | 3 | 0 | 0.0% | dead | — |
+| `lb9.strmd.st` | 3 | 3 | 0 | 0.0% | dead | — |
+| `p5.usnlive.com` | 3 | 3 | 0 | 0.0% | dead | — |
+| `sra72yz.s.gy` | 3 | 3 | 0 | 0.0% | dead | — |
+| `17.domhsd.com:443` | 2 | 2 | 0 | 0.0% | dead | — |
+| `177.234.249.178:8888` | 2 | 2 | 0 | 0.0% | dead | — |
+| `45.190.13.8` | 2 | 2 | 0 | 0.0% | dead | — |
+| `5.254.89.106` | 2 | 2 | 0 | 0.0% | dead | — |
+| `85.237.89.160:9590` | 2 | 2 | 0 | 0.0% | dead | — |
+| `98.domhsd.com:443` | 2 | 2 | 0 | 0.0% | dead | — |
+| `ads.its-newid.net` | 2 | 2 | 0 | 0.0% | dead | — |
+| `bmf0aw9u.fubo18.com:443` | 2 | 2 | 0 | 0.0% | dead | — |
+| `c2f2zq.fubo18.com:443` | 2 | 2 | 0 | 0.0% | dead | — |
+| `cpcdn.azureedge.net` | 2 | 2 | 0 | 0.0% | dead | — |
+| `lb1.wfty.st` | 2 | 2 | 0 | 0.0% | dead | — |
+| `lb13.strmd.st` | 2 | 2 | 0 | 0.0% | dead | — |
+| `lb6.strmd.st` | 2 | 2 | 0 | 0.0% | dead | — |
+| `lb7.strmd.st` | 2 | 2 | 0 | 0.0% | dead | — |
+| `lb8.strmd.st` | 2 | 2 | 0 | 0.0% | dead | — |
+| `w5pdgvk.fubo18.com:443` | 2 | 2 | 0 | 0.0% | dead | — |
+| `144.217.14.88` | 1 | 1 | 0 | 0.0% | dead | — |
+| `145.239.5.177` | 1 | 1 | 0 | 0.0% | dead | — |
+| `185.9.2.18` | 1 | 1 | 0 | 0.0% | dead | — |
+| `190.61.90.17:40000` | 1 | 1 | 0 | 0.0% | dead | — |
+| `193.47.62.42` | 1 | 1 | 0 | 0.0% | dead | — |
+| `193.47.62.43` | 1 | 1 | 0 | 0.0% | dead | — |
+| `193.47.62.45` | 1 | 1 | 0 | 0.0% | dead | — |
+| `201.190.41.246:9060` | 1 | 1 | 0 | 0.0% | dead | — |
+| `31.148.48.15` | 1 | 1 | 0 | 0.0% | dead | — |
+| `45.6.4.35` | 1 | 1 | 0 | 0.0% | dead | — |
+| `47.domhsd.com:443` | 1 | 1 | 0 | 0.0% | dead | — |
+| `59a564764e2b6.streamlock.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `5b200f5268ceb.streamlock.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `5d658d7e9f562.streamlock.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `6305c8676ce84.streamlock.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `85.domhsd.com:443` | 1 | 1 | 0 | 0.0% | dead | — |
+| `99.domhsd.com:443` | 1 | 1 | 0 | 0.0% | dead | — |
+| `a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `alwxnet-ott-proxy.cloud9streaming.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `bcovlive-a.akamaihd.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `brandusa-gousa-1-be.samsung.wurl.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `brightonco.cablecast.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `carolburnett-vizio.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-bos.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-chi.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-den.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-det.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-la.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-min.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-ny.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-phi.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-pit.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cbsn-sf.cbsnstream.cbsnews.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cdn.haititivi.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cdn4.skygo.mn` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cdn5.zohanayaan.com:1686` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cdn7.zohanayaan.com:1686` | 1 | 1 | 0 | 0.0% | dead | — |
+| `cdn9.zohanayaan.com:1686` | 1 | 1 | 0 | 0.0% | dead | — |
+| `ch8.littletongov.org` | 1 | 1 | 0 | 0.0% | dead | — |
+| `comedydynamics-plex-ingest.cinedigm.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d128y56w6v2kax.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d1h1d6qoy9vnra.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d1hf773q57zx9s.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d1kt53vrikzr5o.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d1s6jz7jeei17.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d24p9tv2w5yorn.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d2lyea6if8kkz9.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `d3vgs3ro3x6v8a.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `damkf751d85s1.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `dmr1h4skdal9h.cloudfront.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `docurama-plex-ingest.cinedigm.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `estrella-games-oando.amagi.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `freespeech.akamaized.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `frndlymsl.akamaized.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `haititivi.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `iranefardalive.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `jk3lz82elw79-hls-live.5centscdn.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `ketsdt.lls.pbs.org` | 1 | 1 | 0 | 0.0% | dead | — |
+| `khetdt.lls.pbs.org` | 1 | 1 | 0 | 0.0% | dead | — |
+| `kuondt.lls.pbs.org` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lb10.strmd.st` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lb15.strmd.st` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lb2.strmd.st` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lb2.wfty.st` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lb4.wfty.st` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lb5.wfty.st` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lb6.wfty.st` | 1 | 1 | 0 | 0.0% | dead | — |
+| `lin12.isilive.ca` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-10.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-44.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-46.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-704.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-705.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-706.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-710.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `linear-711.frequency.stream` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live.dyrur1.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live.relentlessinnovations.net:1936` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live.seminolecountyfl.gov` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live.zoomnews.info` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live2.dyrur1.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live4.dyrur1.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live5.dyrur1.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `live8fd.lakewood.org` | 1 | 1 | 0 | 0.0% | dead | — |
+| `livechannel.mdc.akamaized.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `livestreamcdn.net:444` | 1 | 1 | 0 | 0.0% | dead | — |
+| `maxtvhls.wns.live` | 1 | 1 | 0 | 0.0% | dead | — |
+| `mbn-ingest-worldsafe.akamaized.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `pbcvideostreams1.pbc.gov` | 1 | 1 | 0 | 0.0% | dead | — |
+| `pemirateshls.persiana.live` | 1 | 1 | 0 | 0.0% | dead | — |
+| `reflect-ccx.cablecast.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `reflect-collier-countyboc.cablecast.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `reflect-losangeles.cablecast.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `rfdtv-jw.cdn.vustreams.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `rumble.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `s3-us-west-2.amazonaws.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `securestream9.champds.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `storage.sardius.media` | 1 | 1 | 0 | 0.0% | dead | — |
+| `stream.livenewsplay.com:9555` | 1 | 1 | 0 | 0.0% | dead | — |
+| `stream.weathernationtv.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `streamer.metronethn.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `tv2.fastcast4u.com:3943` | 1 | 1 | 0 | 0.0% | dead | — |
+| `tvsen7.aynaott.com` | 1 | 1 | 0 | 0.0% | dead | — |
+| `unidfp-nlds154.global.ssl.fastly.net` | 1 | 1 | 0 | 0.0% | dead | — |
+| `vallejo.cablecast.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `witn.cablecast.tv` | 1 | 1 | 0 | 0.0% | dead | — |
+| `wnjtdt.lls.pbs.org` | 1 | 1 | 0 | 0.0% | dead | — |

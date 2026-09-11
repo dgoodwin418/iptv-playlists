@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="FS1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="TV",Fox Sports 1
+http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Freeform.HD.us2" tvg-name="Freeform TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10093_dark_360w_270h.png" group-title="TV",Freeform TV
+http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us@East" tvg-name="ABC (1080p)" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC (1080p)
+http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="AMC.us@East" tvg-name="AMC East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Movies",AMC East (720p)
+http://190.11.225.124:5000/live/amc_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@East" tvg-name="NBC (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="General",NBC (1080p)
+http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCUniverso.us@West" tvg-name="NBC Universo West (720p)" tvg-logo="https://i.imgur.com/RZ8pIKe.png" group-title="Entertainment",NBC Universo West (720p)
+http://190.11.225.124:5000/live/universo_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@East" tvg-name="Telemundo (720p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="General",Telemundo (720p)
+http://190.11.225.124:5000/live/telemundo_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="USANetwork.us@East" tvg-name="USA Network (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png" group-title="Comedy;Movies;Series;Sports",USA Network (1080p)
+http://190.11.225.124:5000/live/usa_hd/playlist.m3u8

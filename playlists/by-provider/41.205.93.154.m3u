@@ -1,9 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="ABC News Live (#)" tvg-logo="" group-title="Other",ABC News Live (#)
-http://41.205.93.154/ABC/index.m3u8
-#EXTINF:-1 tvg-id="Fox.Business.HD.us2" tvg-name="Fox Business HD" tvg-logo="http://dtil.tmsimg.com/assets/s58718_ll_h15_ac.png?w=360&amp;h=270" group-title="News",Fox Business HD
-http://41.205.93.154/FOXBUSINESS/index.m3u8
-#EXTINF:-1 tvg-id="MSNBC.HD.us2" tvg-name="MSNBC HD" tvg-logo="http://dtil.tmsimg.com/assets/GNLZZGG002H5PTL.png?w=360&amp;h=270" group-title="News",MSNBC HD
-http://41.205.93.154/MSNBC/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="STAR SPORTS 1 🇮🇳" tvg-logo="" group-title="Other",STAR SPORTS 1 🇮🇳
-http://41.205.93.154/STARSPORTS1/index.m3u8
+#EXTINF:-1 tvg-id="BBC.One.Lon.HD.uk" tvg-name="BBC One" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67081_dark_360w_270h.png" group-title="TV",BBC One
+http://41.205.93.154/BBCONE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Bravo.(Pacific).us2" tvg-name="Bravo TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10057_dark_360w_270h.png" group-title="TV",Bravo TV
+http://41.205.93.154/BRAVO/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPN News" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16485_dark_360w_270h.png" group-title="TV",ESPN News
+http://41.205.93.154/ESPNNEWS/index.m3u8
+#EXTINF:-1 tvg-id="Lifetime.HD.us2" tvg-name="Lifetime" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_dark_360w_270h.png" group-title="TV",Lifetime
+http://41.205.93.154/LIFETIME/index.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.us2" tvg-name="Nicktoons" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30420_dark_360w_270h.png" group-title="TV",Nicktoons
+http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="Bravo.us@East" tvg-name="Bravo (720p)" tvg-logo="https://i.imgur.com/JmTIRLF.png" group-title="Undefined",Bravo (720p)
+http://41.205.93.154/BRAVO/index.m3u8
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="Business",CNBC (720p) [Geo-blocked]
+http://41.205.93.154/CNBC/index.m3u8
