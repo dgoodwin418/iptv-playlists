@@ -849,6 +849,8 @@ https://dlttx48mxf9m3.cloudfront.net/vod_clients/lakewood/live/ch1/video.m3u8
 https://cdn.vegasplus.us/vegas/lasvegastonight/playlist.m3u8
 #EXTINF:-1 tvg-id="LatinoChannelTV.us@HD" tvg-name="Latino Channel TV (1080p)" tvg-logo="https://i.imgur.com/FcLIOGp.png" group-title="General",Latino Channel TV (1080p)
 https://cdn.vegasplus.us/vegas/latch/playlist.m3u8
+#EXTINF:-1 tvg-id="LBCInternational.lb@SD" tvg-name="LBC International (1080p)" tvg-logo="https://i.imgur.com/h26xtUv.png" group-title="General",LBC International (1080p)
+http://185.9.2.18/chid_521/index.m3u8
 #EXTINF:-1 tvg-id="LeominsterTVPublic.us@SD" tvg-name="Leominster TV Public (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/lTzoshf.png" group-title="General",Leominster TV Public (720p) [Not 24/7]
 https://livestream.telvue.com/leominster1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MediasetItalia.it@USA" tvg-name="like Gecko) Chrome/149.0.0.0 Safari/537.36&quot; group-title=&quot;General&quot;,Mediaset Italia USA (1080p)" tvg-logo="https://i.imgur.com/F4gyqhw.png" group-title="General",like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General",Mediaset Italia USA (1080p)
@@ -1351,10 +1353,10 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
 https://messi.damitv.st/live-hls/channel/cfb/2026-09-11/vill-lou/playlist.m3u8?tk=b-v_cJoATAD6i5O-oBpNgg&e=1789209014
 #EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[Live Event] 1 (GOZO)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Live Event] 1 (GOZO)
 https://fingersoon.st/scripts/application1
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels vs Washington Nationals (MP66)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Angels vs Washington Nationals (MP66)
-https://node-025d151e.4587.website/6aa4f87e.10570b7ci5c3b601d.e558.ff0f7ebe/free.live.espn/master.m3u8
-#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA - Football] Missouri Tigers vs Kansas Jayhawks | EN (STRMGATE)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA - Football] Missouri Tigers vs Kansas Jayhawks | EN (STRMGATE)
-https://instreams.pro/live/tv401856678/index.m3u8?st=jvPTNosoZtl4nkkXfg8uBw&e=1789180214
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles at Toronto Blue Jays (SPRTSPASS)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Baltimore Orioles at Toronto Blue Jays (SPRTSPASS)
+https://broadcastly.s3.us-east-1.amazonaws.com/bluejays.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA - Football] Norfolk State Spartans vs Virginia Cavaliers | EN (STRMGATE)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA - Football] Norfolk State Spartans vs Virginia Cavaliers | EN (STRMGATE)
+https://instreams.live/live/tv401858220/index.m3u8?st=iR8U4X1cY-jZW1_YJUPOPw&e=1789176616
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers @ Los Angeles Rams | Main Feed (FUTBOLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] San Francisco 49ers @ Los Angeles Rams | Main Feed (FUTBOLX)
 https://sweden.futtv.nx.kg/49ers-ram/index.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Saudi League] Al-Faisaly vs Al Ittihad | Thmanyah (FUTBOLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi League] Al-Faisaly vs Al Ittihad | Thmanyah (FUTBOLX)
@@ -2217,8 +2219,6 @@ https://messi.damitv.st/papi/ts/mlbnetwork-usa/playlist.m3u8
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="MSG.us@SD" tvg-name="MSG (720p)" tvg-logo="https://i.imgur.com/SEQFh0P.png" group-title="Sports",MSG (720p)
 http://23.237.104.106:8080/USA_MSG/index.m3u8
-#EXTINF:-1 tvg-id="NBATV.us@SD" tvg-name="NBA TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="Sports",NBA TV (1080p)
-https://cdn1.ayitistream.com/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="NBCSportsBayArea.us@SD" tvg-name="NBC Sports Bay Area (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/MTgUVKx.png" group-title="Sports",NBC Sports Bay Area (1080p) [Geo-blocked]
 https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-name="NBC Sports NOW (1080p)" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports",NBC Sports NOW (1080p)
