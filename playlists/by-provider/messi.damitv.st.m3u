@@ -1,7 +1,23 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLBNetwork.us@SD" tvg-name="MLB Network (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/sA5V39D.png" group-title="Sports",MLB Network (1080p) [Geo-blocked]
-https://messi.damitv.st/papi/ts/mlbnetwork-usa/playlist.m3u8
-#EXTINF:-1 tvg-id="NBCSportsBayArea.us@SD" tvg-name="NBC Sports Bay Area (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/MTgUVKx.png" group-title="Sports",NBC Sports Bay Area (1080p) [Geo-blocked]
-https://messi.damitv.st/papi/ts/nbc-sports-bayarea/playlist.m3u8
-#EXTINF:-1 tvg-id="NBCSportsPhiladelphia.us@SD" tvg-name="NBC Sports Philadelphia (1080p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/NBC_Sports_Philadelphia.png/960px-NBC_Sports_Philadelphia.png" group-title="Sports",NBC Sports Philadelphia (1080p) [Geo-blocked]
-https://messi.damitv.st/papi/ts/nbc-sports-philly/playlist.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Ararat-Armenia vs. Sparta Prague (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/f09fd2f7df341f1fdc3bbd124f5abc4e-thumbnail.jpg" group-title="Live Events",[Europa League] Ararat-Armenia vs. Sparta Prague (DAMITV)
+https://messi.damitv.st/live-hls/channel/uel/2026-09-16/ara-spp/playlist.m3u8?tk=lD52OK03OlnMwuQoyIOifg&e=1789621253
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Omonia Nicosia vs. Celta Vigo (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/54dd64a834a4c005ed8db5ae927c0a85-thumbnail.jpg" group-title="Live Events",[Europa League] Omonia Nicosia vs. Celta Vigo (DAMITV)
+https://messi.damitv.st/live-hls/channel/uel/2026-09-16/omon-cel/playlist.m3u8?tk=lD52OK03OlnMwuQoyIOifg&e=1789621253
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Football] AIK vs. Mjällby AIF (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/73aaa16ea2f82048bc691e1830b23f3d-thumbnail.jpg" group-title="Live Events",[Football] AIK vs. Mjällby AIF (DAMITV)
+https://messi.damitv.st/live-hls/channel/allsvenskan/2026-09-16/aik-mja/playlist.m3u8?tk=lD52OK03OlnMwuQoyIOifg&e=1789621253
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[La Liga] Atlético Madrid vs. Osasuna (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/135119f1072dded015e4090d67f22a13-thumbnail.jpg" group-title="Live Events",[La Liga] Atlético Madrid vs. Osasuna (DAMITV)
+https://messi.damitv.st/live-hls/channel/laliga/2026-09-16/atm-osa/playlist.m3u8?tk=lD52OK03OlnMwuQoyIOifg&e=1789621253
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[La Liga] Deportivo vs. Sevilla (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/566ec4e62c97facc5524e17c13f6ecba-thumbnail.jpg" group-title="Live Events",[La Liga] Deportivo vs. Sevilla (DAMITV)
+https://messi.damitv.st/live-hls/channel/laliga/2026-09-16/dep-sev/playlist.m3u8?tk=lD52OK03OlnMwuQoyIOifg&e=1789621253
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs. Cleveland Guardians (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/d508ecf6e7a4ce01370c6d1a5df71412-thumbnail.jpg" group-title="Live Events",[MLB] Chicago White Sox vs. Cleveland Guardians (DAMITV)
+https://messi.damitv.st/live-hls/channel/mlb/2026-09-16/chw-cle/playlist.m3u8?tk=z5XORz7fx7sZyz0rj3kHnA&e=1789621252
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees vs. Minnesota Twins (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/53af4d3639ad4487bbae972e24189c47-thumbnail.jpg" group-title="Live Events",[MLB] New York Yankees vs. Minnesota Twins (DAMITV)
+https://messi.damitv.st/live-hls/channel/mlb/2026-09-16/nyy-min/playlist.m3u8?tk=ICKcNnkpJZQlvvOSw48L_A&e=1789623051
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs. St. Louis Cardinals (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/41528d1d1a4c4f5f2ee616901f2ced95-thumbnail.jpg" group-title="Live Events",[MLB] San Francisco Giants vs. St. Louis Cardinals (DAMITV)
+https://messi.damitv.st/live-hls/channel/mlb/2026-09-16/sf-stl/playlist.m3u8?tk=z5XORz7fx7sZyz0rj3kHnA&e=1789621252
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="[Motorsports] Max vs 100 (DAMITV)" tvg-logo="https://static.ppvservices.st/assets/thumb/d002690e6d7f3c29b33937c395258e87-thumbnail.jpg" group-title="Live Events",[Motorsports] Max vs 100 (DAMITV)
+https://messi.damitv.st/live-hls/channel/max-vs-100-28844/playlist.m3u8?tk=eS6tspWOc6Atllcb5LfI4w&e=1789617651
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[football] AIK vs Mjällby (DAMITV)" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VMihBwYIEMxDcQUkHxAkjukIksgFTJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[football] AIK vs Mjällby (DAMITV)
+https://messi.damitv.st/live-sd/streamed/admin/ppv-aik-vs-mj-llby-aif/playlist.m3u8?tk=lD52OK03OlnMwuQoyIOifg&e=1789621253
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[motor-sports] Max vs 100 (DAMITV)" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE5MEEDAkhhIKiBQTSs4OIDGwOfGCIZKESESIFidYfkgS0iyBBKbqvfzCCRTbPTCFgSXA6HluTghXMj0CbXJnFVIVIA.webp" group-title="Live Events",[motor-sports] Max vs 100 (DAMITV)
+https://messi.damitv.st/live-sd/streamed/admin/ppv-max-vs-100/playlist.m3u8?tk=eS6tspWOc6Atllcb5LfI4w&e=1789617651
