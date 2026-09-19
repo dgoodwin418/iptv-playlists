@@ -1,9 +1,9 @@
 # Remote Source Report
 
-Updated: **2026-09-19T01:35:36.388208+00:00**
+Updated: **2026-09-19T01:38:33.183690+00:00**
 
 - Downloaded records: **2,028**
-- Production channels: **1,327**
+- Production channels: **1,319**
 - Duplicate alternatives removed: **328**
 - Failed stream alternatives removed (3+ consecutive failures): **0**
 - Channels removed because every alternative failed 3+ times: **0**
