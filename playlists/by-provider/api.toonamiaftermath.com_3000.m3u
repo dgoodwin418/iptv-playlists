@@ -1,7 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="Toonami Aftermath East" tvg-logo="" group-title="Other",Toonami Aftermath East
+#EXTINF:-1 tvg-id="ToonamiAftermath.us@East" tvg-name="Toonami Aftermath (480p)" tvg-logo="https://i.imgur.com/aSjhZK7.png" group-title="Animation",Toonami Aftermath (480p)
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Toonami Aftermath Movies" tvg-logo="" group-title="Other",Toonami Aftermath Movies
-http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Toonami Aftermath West" tvg-logo="" group-title="Other",Toonami Aftermath West
-http://api.toonamiaftermath.com:3000/pst/playlist.m3u8

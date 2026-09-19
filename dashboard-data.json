@@ -1,11 +1,9 @@
 {
-  "generated_utc": "2026-09-19T02:26:54.941828+00:00",
+  "generated_utc": "2026-09-19T03:16:48.265149+00:00",
   "source_records": 2028,
-  "unique_channels": 1696,
-  "production_channels": 1305,
+  "unique_channels": 1700,
+  "production_channels": 1312,
   "duplicate_alternatives_removed": 328,
-  "failed_stream_alternatives_removed": 252,
-  "channels_removed_all_alternatives_failed": 4,
   "providers": 710,
   "sources": [
     {
@@ -27,11 +25,11 @@
     {
       "id": "doms9-epg",
       "ok": true,
-      "channels": 164,
-      "programmes": 16821,
+      "channels": 169,
+      "programmes": 17270,
       "error": ""
     }
   ],
-  "epg_channels": 164,
-  "epg_programmes": 16821
+  "epg_channels": 169,
+  "epg_programmes": 17270
 }
