@@ -1,9 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="Business",CNBC (720p)
 http://4.30.180.36:8420/cnbc/index.m3u8?token=test
-#EXTINF:-1 tvg-id="ComedyCentral.us@East" tvg-name="Comedy Central (720p)" tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png" group-title="Comedy",Comedy Central (720p)
+#EXTINF:-1 tvg-id="ComedyCentral.us@East" tvg-name="Comedy Central (United States) (720p)" tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png" group-title="Comedy",Comedy Central (United States) (720p)
 http://4.30.180.36:8420/comedycentral/index.m3u8?token=test
-#EXTINF:-1 tvg-id="DisneyChannel.us@HDEast" tvg-name="Disney Channel HD East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png" group-title="Kids",Disney Channel HD East (720p)
+#EXTINF:-1 tvg-id="DisneyChannel.us@HDEast" tvg-name="Disney Channel (United States) HD East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png" group-title="Kids",Disney Channel (United States) HD East (720p)
 http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 #EXTINF:-1 tvg-id="HBOHits.us@EastHD" tvg-name="HBO Hits East HD (720p)" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/HBO_Hits_Logo.svg/960px-HBO_Hits_Logo.svg.png" group-title="Movies;Series",HBO Hits East HD (720p)
 http://4.30.180.36:8420/hbo2/index.m3u8?token=test
