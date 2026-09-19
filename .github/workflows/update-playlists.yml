@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tv.m3u guide.xml dashboard-data.json provider-health.json stream-failures.json playlists reports
+          git add tv.m3u guide.xml dashboard-data.json provider-health.json stream-health.json stream-failures.json playlists reports
           git diff --cached --quiet && exit 0
           git commit -m "Auto-update IPTV playlists from remote sources"
           git push
