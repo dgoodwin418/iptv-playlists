@@ -3,55 +3,39 @@
     "provider": "cdnlivetv.tv",
     "ok": false,
     "reason": "HTTP Error 503: Service Unavailable",
-    "latency": 0.372,
-    "name": "TSN 3",
-    "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc176/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc2OjE3OTAwOTQ2MjMwNTE6Y2RubGl2ZXR2LnR2OmQ3MzI0NzZjMjMzMDQ1YWUuOTE0NzdlZGMxNDhiNzI5MjI5MTNlOTJjYjdlZTVjNjMyZjc3M2MyNGEzOTk3YzQxZjI4NmQ1YmU1ZWFjOWUyNA"
-  },
-  {
-    "provider": "cdnlivetv.tv",
-    "ok": false,
-    "reason": "HTTP Error 503: Service Unavailable",
-    "latency": 0.39,
-    "name": "Fox",
-    "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cabac/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYmFjOjE3OTAwOTQ2MDk0MzI6Y2RubGl2ZXR2LnR2OmNlYWFjZDM0MTM0ZjcwNGMuYjdiY2YzMmE4YmJmOWY3YWRjOWI0MjIzZWI0YTE0YTg0Njc4NDM4MWI1ODg0NmY4NTljY2I3NDIxODE5NTUzOQ"
+    "latency": 0.573,
+    "name": "NHL Network",
+    "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb30a/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzBhOjE3OTAxODEwMTQ1MDc6Y2RubGl2ZXR2LnR2OjFiOWRhMjc3NjAxNjBmY2UuMTc0NjdhYzgyODNjNTQwZmI1MzMyZDJjY2Q3MDJkYjZlNGYzNTU0MDM2NWIxOTY5YmRkZDg4MDBjZTVhODdiZQ"
   },
   {
     "provider": "cdnlivetv.tv",
     "ok": false,
     "reason": "HTTP Error 503: Service Temporarily Unavailable",
-    "latency": 0.716,
-    "name": "Investigation Discovery",
-    "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6bb/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmJiOjE3OTAwOTQ2MTIxMDA6Y2RubGl2ZXR2LnR2OjU0OWJjNWFhYjFiYjUyMWUuODJiNzBiZDljMDc0NWE2NDk1NDYxZWFhNDJiOTBjYzAzY2VhOGNhM2Y3ZTI5ZGM2MmI4NjMyMjA5MzQwMGJiYw"
+    "latency": 1.114,
+    "name": "USA Network",
+    "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzRlOjE3OTAxODEwMjM3MjM6Y2RubGl2ZXR2LnR2OmYyYWMyYmYzYTZjYzYxZDQuMmFiZThiMWUwYTUwMmUzMDFiNzVhZGRjYzY0MzRjNDlhNjcyZmMyZTY5MTEyMmZkYWJlZmFjMDJhOThmNDRhYQ"
   },
   {
     "provider": "cdnlivetv.tv",
     "ok": false,
     "reason": "HTTP Error 503: Service Temporarily Unavailable",
-    "latency": 0.719,
-    "name": "Comedy Central",
-    "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb213/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjEzOjE3OTAwOTQ2MDgzMDg6Y2RubGl2ZXR2LnR2OjU1ODAxMWYzNDllZDM3ZDEuMTUzODdmNGNlMTdjODJkYWNhZGM4NDg2YmVmYjQ0M2Q0M2NkODM0MzVlMjM1ZjUxZTY3OGNlYmQ0YWZlNjA0Ng"
+    "latency": 1.126,
+    "name": "CBS",
+    "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb205/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjA1OjE3OTAxODEwMDc1NTY6Y2RubGl2ZXR2LnR2Ojk4NDJiZmVjZDI5NDk3MGMuOWNlOTY5YWU5ZTA0Y2NmM2M4OTA4OTYyOWZiMTkyYjUzNGI3ZjQ4ZTQzZmE0MDU4NjdiOTgyZGMwMTI1OTM4MA"
   },
   {
-    "provider": "23.237.104.106:8080",
+    "provider": "aegis-cloudfront-1.tubi.video",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.125,
-    "name": "FX (United States) (1080p)",
-    "url": "http://23.237.104.106:8080/USA_FX/index.m3u8"
-  },
-  {
-    "provider": "23.237.104.106:8080",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.095,
-    "name": "Hallmark Channel (1080p)",
-    "url": "http://23.237.104.106:8080/USA_HALLMARK/index.m3u8"
+    "latency": 0.082,
+    "name": "The Bob Ross Channel (720p)",
+    "url": "https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8"
   },
   {
     "provider": "dai.google.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.503,
+    "latency": 1.311,
     "name": "ABC WBBJ-TV (432p)",
     "url": "https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8"
   },
@@ -59,135 +43,63 @@
     "provider": "fast-channels.sinclairstoryline.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.245,
+    "latency": 0.522,
     "name": "Roar (1080p)",
     "url": "https://fast-channels.sinclairstoryline.com/TBD/index.m3u8"
   },
   {
-    "provider": "p5.usnlive.com",
+    "provider": "p7.usnlive.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.095,
-    "name": "Fox News",
-    "url": "https://p5.usnlive.com/stream/foxnews.m3u8"
-  },
-  {
-    "provider": "p5.usnlive.com",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.066,
+    "latency": 0.472,
     "name": "CNN",
-    "url": "https://p5.usnlive.com/stream/cnn.m3u8"
+    "url": "https://p7.usnlive.com/stream/cnn.m3u8"
   },
   {
-    "provider": "p5.usnlive.com",
+    "provider": "p7.usnlive.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.073,
+    "latency": 0.508,
     "name": "MS NOW",
-    "url": "https://p5.usnlive.com/stream/msnbc.m3u8"
+    "url": "https://p7.usnlive.com/stream/msnbc.m3u8"
   },
   {
-    "provider": "jmp2.uk",
+    "provider": "p7.usnlive.com",
     "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.149,
-    "name": "Matlock (United States)",
-    "url": "https://jmp2.uk/plu-60f754f98185580007eb0754.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.182,
-    "name": "90s Throwback",
-    "url": "https://jmp2.uk/plu-5f4d86f519358a00072b978e.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.2,
-    "name": "More TV Sitcoms",
-    "url": "https://jmp2.uk/plu-6132619f9ddaa50007e7dd86.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.175,
-    "name": "Blue Bloods (United States)",
-    "url": "https://jmp2.uk/plu-61b3b8c645b45d0007a9bb8d.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.161,
-    "name": "Naruto en espanol",
-    "url": "https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.211,
-    "name": "Pluto TV Science (United States)",
-    "url": "https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.086,
-    "name": "Black Ink Crew",
-    "url": "https://jmp2.uk/plu-5d51e2bceca5b4b2c0e06c50.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.815,
-    "name": "Dynasty (United States)",
-    "url": "https://jmp2.uk/plu-64d1606b4c5ed80008e3b8b9.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.847,
-    "name": "Weeds & Nurse Jackie (720p)",
-    "url": "https://jmp2.uk/plu-688a44cf5d73ec0a3f49718b.m3u8"
-  },
-  {
-    "provider": "jmp2.uk",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.858,
-    "name": "Classica (720p)",
-    "url": "https://jmp2.uk/plu-5f779951372da90007fd45e8.m3u8"
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.459,
+    "name": "Fox News",
+    "url": "https://p7.usnlive.com/stream/foxnews.m3u8"
   },
   {
     "provider": "cache0.wonvt.st",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.57,
-    "name": "Nickelodeon",
-    "url": "https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8"
+    "latency": 0.971,
+    "name": "Showtime",
+    "url": "https://cache0.wonvt.st/live/1az2pv01wqk8zi11yns1c/master.m3u8"
   },
   {
     "provider": "cache0.wonvt.st",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.512,
-    "name": "Starz",
-    "url": "https://cache0.wonvt.st/live/16fgsju1pnic1t0n4pa9a/master.m3u8"
+    "latency": 0.972,
+    "name": "NBC",
+    "url": "https://cache0.wonvt.st/live/0vbsvzw1x1ldxx1921sbe/master.m3u8"
   },
   {
     "provider": "cache0.wonvt.st",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.603,
+    "latency": 1.042,
+    "name": "FETV",
+    "url": "https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8"
+  },
+  {
+    "provider": "cache0.wonvt.st",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 1.033,
     "name": "CW",
     "url": "https://cache0.wonvt.st/live/0tkibjo1hz7cv00phrm41/master.m3u8"
   },
@@ -195,335 +107,271 @@
     "provider": "cache0.wonvt.st",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.559,
-    "name": "MeTV",
-    "url": "https://cache0.wonvt.st/live/0lmxu4h1n7licd169kp82/master.m3u8"
-  },
-  {
-    "provider": "cache0.wonvt.st",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.491,
-    "name": "Reelz Channel",
-    "url": "https://cache0.wonvt.st/live/0k8zpg50jakid00dp8vqm/master.m3u8"
-  },
-  {
-    "provider": "212.5.144.156:8080",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.24,
-    "name": "History Channel",
-    "url": "http://212.5.144.156:8080/history/index.m3u8"
-  },
-  {
-    "provider": "212.5.144.156:8080",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.224,
-    "name": "Nick Jr",
-    "url": "http://212.5.144.156:8080/nickjr/index.m3u8"
-  },
-  {
-    "provider": "212.5.144.156:8080",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.229,
-    "name": "Disney Channel",
-    "url": "http://212.5.144.156:8080/disney/index.m3u8"
-  },
-  {
-    "provider": "212.5.144.156:8080",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.223,
-    "name": "National Geographic (United States) (720p)",
-    "url": "http://212.5.144.156:8080/natgeo/index.m3u8"
-  },
-  {
-    "provider": "212.5.144.156:8080",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.234,
-    "name": "History (United States) (720p)",
-    "url": "http://212.5.144.156:8080/history/index.m3u8"
+    "latency": 0.95,
+    "name": "FX",
+    "url": "https://cache0.wonvt.st/live/00l0xp41smdo1b07fldzv/master.m3u8"
   },
   {
     "provider": "168.228.44.241:9998",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.1,
+    "latency": 0.137,
     "name": "Starz Edge (720p)",
     "url": "http://168.228.44.241:9998/play/a0e0/index.m3u8"
   },
   {
-    "provider": "190.11.225.124:5000",
-    "ok": false,
-    "reason": "empty media segment",
-    "latency": 0.249,
-    "name": "AMC (United States) East (720p)",
-    "url": "http://190.11.225.124:5000/live/amc_hd/playlist.m3u8"
-  },
-  {
-    "provider": "2-fss-2.streamhoster.com",
+    "provider": "168.228.44.241:9998",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.24,
-    "name": "Youtoo America KVVB-LD (1080p) [Not 24/7]",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1309230/playlist.m3u8"
+    "latency": 0.148,
+    "name": "Starz Encore Spanish (720p)",
+    "url": "http://168.228.44.241:9998/play/a0e1/index.m3u8"
+  },
+  {
+    "provider": "lb5.wfty.st",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.764,
+    "name": "[Asian Games Grp. A] Kyrgyzstan U23 vs Hong Kong U23 (WATCHFTY)",
+    "url": "https://lb5.wfty.st/secure/-uyJh3fiPCh3ZYT83X1mnw/sigma/kyrgyzstan-u23-hong-kong-u23/1/6052480/1790186418/playlist.m3u8"
   },
   {
     "provider": "193.47.62.59",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.167,
-    "name": "[UEFA Women Champions League] Bayern Munchen W vs Manchester City W (FAWA)",
-    "url": "http://193.47.62.59/hls/diiiAAAAQQQQ.m3u8"
+    "latency": 0.263,
+    "name": "[COSAFA Championship U20] South Africa U20 vs Eswatini U20 (FAWA)",
+    "url": "http://193.47.62.59/hls/FOOOQA.m3u8"
   },
   {
     "provider": "193.47.62.59",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.17,
-    "name": "[Basketball Australia NBL] Brisbane Bullets vs New Zealand Breakers (FAWA)",
-    "url": "http://193.47.62.59/hls/TTTTa.m3u8"
+    "latency": 0.263,
+    "name": "[Darts] Darts Players Championship 30 (FAWA)",
+    "url": "http://193.47.62.59/hls/diii.m3u8"
   },
   {
     "provider": "193.47.62.59",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.17,
-    "name": "[Romania Liga 2] CSC Dumbravita vs CSM Resita (FAWA)",
-    "url": "http://193.47.62.59/hls/diiiAAAA.m3u8"
-  },
-  {
-    "provider": "193.47.62.59",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.186,
-    "name": "[Basketball Asian Games] Mongolia W vs Malaysia W (FAWA)",
-    "url": "http://193.47.62.59/hls/IHHH.m3u8"
-  },
-  {
-    "provider": "193.47.62.59",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.167,
-    "name": "[UEFA Women Champions League] Inter W vs Hacken W (FAWA)",
-    "url": "http://193.47.62.59/hls/diiiAAAAQQQQQ.m3u8"
-  },
-  {
-    "provider": "lb2.wfty.st",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.799,
-    "name": "[Asian Games] South Korea U23 vs Saudi Arabia U23 (WATCHFTY)",
-    "url": "https://lb2.wfty.st/secure/ziX5UO7EXsiET6PDWR1voA/sigma/south-korea-u23-saudi-arabia-u23/1/4802177/1790100017/playlist.m3u8"
-  },
-  {
-    "provider": "edgestream2.pro",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.264,
-    "name": "[Baseball] Houston Astros vs. Seattle Mariners | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/hefbafbakx28.m3u8"
-  },
-  {
-    "provider": "edgestream2.pro",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.28,
-    "name": "[Basketball] Toronto Tempo vs. Chicago Sky | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8"
-  },
-  {
-    "provider": "edgestream2.pro",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.294,
-    "name": "[Baseball] Cleveland Guardians vs. Boston Red Sox | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/jkzahzadach20.m3u8"
-  },
-  {
-    "provider": "edgestream2.pro",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.291,
-    "name": "[Baseball] San Diego Padres vs. Los Angeles Dodgers | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/JHDAJBDnjdna30.m3u8"
-  },
-  {
-    "provider": "edgestream2.pro",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.271,
-    "name": "[Hockey] Vegas Golden Knights vs. San Jose Sharks | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8"
-  },
-  {
-    "provider": "edgestream2.pro",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
     "latency": 0.273,
-    "name": "[Hockey] Edmonton Oilers vs. Winnipeg Jets | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/mlkijfezag65.m3u8"
+    "name": "[Asian Games] Japan U23 vs Thailand U23 (FAWA)",
+    "url": "http://193.47.62.59/hls/FOOO.m3u8"
+  },
+  {
+    "provider": "193.47.62.59",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.273,
+    "name": "[COSAFA Championship U20] Lesotho U20 vs Angola U20 (FAWA)",
+    "url": "http://193.47.62.59/hls/FOOOQAA.m3u8"
+  },
+  {
+    "provider": "193.47.62.59",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.272,
+    "name": "[Asian Games] Kyrgyzstan U23 vs Hong Kong U23 (FAWA)",
+    "url": "http://193.47.62.59/hls/FOOOQ.m3u8"
+  },
+  {
+    "provider": "lb1.wfty.st",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.786,
+    "name": "[Asian Games] Kyrgyzstan U23 vs Hong Kong U23 (WATCHFTY)",
+    "url": "https://lb1.wfty.st/secure/2_KPyE-az8x_7JkK6YJmiA/sigma/kyrgyzstan-u23-hong-kong-u23/1/4802178/1790186421/playlist.m3u8"
   },
   {
     "provider": "edgestream2.pro",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.269,
-    "name": "[Basketball] Golden State Valkyries vs. Portland Fire | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/yjtzafghvjza74.m3u8"
+    "latency": 0.432,
+    "name": "[Baseball] St. Louis Cardinals vs. Pittsburgh Pirates | English (STRMCNTR)",
+    "url": "https://edgestream2.pro/hls/bzagLHzach19.m3u8"
   },
   {
     "provider": "edgestream2.pro",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.269,
-    "name": "[Hockey] Florida Panthers vs. Carolina Hurricanes | English (STRMCNTR)",
-    "url": "https://edgestream2.pro/hls/gfsqdqsjhdaiu64.m3u8"
+    "latency": 0.415,
+    "name": "[Baseball] Chicago White Sox vs. Kansas City Royals | English (STRMCNTR)",
+    "url": "https://edgestream2.pro/hls/jnzkdzjfanch23.m3u8"
+  },
+  {
+    "provider": "edgestream2.pro",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.415,
+    "name": "[Baseball] Tampa Bay Rays vs. New York Yankees | English (STRMCNTR)",
+    "url": "https://edgestream2.pro/hls/ojzkajnach21.m3u8"
+  },
+  {
+    "provider": "edgestream2.pro",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.401,
+    "name": "[Baseball] Washington Nationals vs. Detroit Tigers | English (STRMCNTR)",
+    "url": "https://edgestream2.pro/hls/dazhfiach15.m3u8"
+  },
+  {
+    "provider": "edgestream2.pro",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.442,
+    "name": "[Baseball] Toronto Blue Jays vs. Baltimore Orioles | English (STRMCNTR)",
+    "url": "https://edgestream2.pro/hls/ihfazugfyjcazich17.m3u8"
+  },
+  {
+    "provider": "193.47.62.50",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.263,
+    "name": "[COSAFA Championship U20] Zambia U20 vs Botswana U20 (FAWA)",
+    "url": "http://193.47.62.50/hls/ssssaA.m3u8"
+  },
+  {
+    "provider": "193.47.62.50",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.262,
+    "name": "[Czech MOL Cup] SK Kladno vs Ostrava (FAWA)",
+    "url": "http://193.47.62.50/hls/ssssaAAaa.m3u8"
+  },
+  {
+    "provider": "193.47.62.50",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.262,
+    "name": "[World Cup Women U20] Italy U20 W vs Spain U20 W (FAWA)",
+    "url": "http://193.47.62.50/hls/ssssaAA.m3u8"
+  },
+  {
+    "provider": "193.47.62.50",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.273,
+    "name": "[COSAFA Championship U20] Malawi U20 vs Comoros U20 (FAWA)",
+    "url": "http://193.47.62.50/hls/ssssa.m3u8"
+  },
+  {
+    "provider": "193.47.62.50",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.274,
+    "name": "[UEFA Europa Cup Women] PAOK W vs Myjava W (FAWA)",
+    "url": "http://193.47.62.50/hls/ssssaAAa.m3u8"
   },
   {
     "provider": "khala.futlivehd.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.824,
-    "name": "[Liga Colombia] Santa Fe vs Deportivo Cali | Win Sports + (STRMXHD)",
-    "url": "https://khala.futlivehd.com/global/winplus/index.m3u8?token=60ed0e2541fb69a68a2ab6023f6d83c0cb85628e-2a-1790123415-1790069415"
+    "latency": 1.139,
+    "name": "[MLS] Seattle Sounders FC vs Real Salt Lake | Apple TV Espa\u00f1ol (STRMXHD)",
+    "url": "https://khala.futlivehd.com/global/appletv1/index.m3u8?token=0dee5c6f3e961e82e5bd2cee887ebdd1cf5f3337-c8-1790209817-1790155817"
   },
   {
     "provider": "khala.futlivehd.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.885,
-    "name": "[UEFA Champions League Femenina] Juventus vs SL Benfica | Disney + (STRMXHD)",
-    "url": "https://khala.futlivehd.com/global/disney4/index.m3u8?token=53d1ead6306c182026372b9300cc63a4517a5b72-85-1790123416-1790069416"
+    "latency": 1.14,
+    "name": "[ESPN Knockout] Kyonosuke Kameda vs Sebastian Hernandez Reyes | ESPN 2 (STRMXHD)",
+    "url": "https://khala.futlivehd.com/global/espn2/index.m3u8?token=ba4cdf7f7ce27fe0133f412e3daa6ca9e5effe90-3c-1790209814-1790155814"
   },
   {
     "provider": "khala.futlivehd.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.766,
-    "name": "[Copa Chile] Cobreloa vs Coquimbo Unido | TNT Sports Chile (STRMXHD)",
-    "url": "https://khala.futlivehd.com/global/tntsportschile/index.m3u8?token=6b03cfcf11e2a959a078f74658a67fdcdeb8a4ae-6d-1790123416-1790069416"
+    "latency": 1.184,
+    "name": "[MLB] Detroit Tigers vs Washington Nationals | ESPN 5 (STRMXHD)",
+    "url": "https://khala.futlivehd.com/global/espn5/index.m3u8?token=413680f2a8406ef065a9888c6713f4367f99a04d-48-1790209814-1790155814"
   },
   {
     "provider": "khala.futlivehd.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.834,
-    "name": "[UEFA Champions League Femenina] Arsenal vs K\u00f8ge | Disney + (STRMXHD)",
-    "url": "https://khala.futlivehd.com/global/disney3/index.m3u8?token=985eabbfe6e4be9cc5fa82e96c1a47151a4318cd-ab-1790123415-1790069415"
+    "latency": 1.141,
+    "name": "[Copa Mundial Sub-20 (F)] Corea del Norte vs Colombia | TUDN MX (STRMXHD)",
+    "url": "https://khala.futlivehd.com/global/tudnmx/index.m3u8?token=7b6cc303677f7bf06430b1a2eb6d10c4eb5f3c90-f4-1790209816-1790155816"
   },
   {
     "provider": "khala.futlivehd.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.868,
-    "name": "[UEFA Champions League Femenina] Real Madrid vs PSG | Disney + (STRMXHD)",
-    "url": "https://khala.futlivehd.com/global/disney5/index.m3u8?token=7fa258951f2268da7983c3d0f1c6bd2176239549-e9-1790123416-1790069416"
+    "latency": 1.138,
+    "name": "[UEFA Champions League Femenina] Servette Ch\u00eanois F\u00e9minin vs OL Lyonnes | ESPN 2 (STRMXHD)",
+    "url": "https://khala.futlivehd.com/global/espn2/index.m3u8?token=a9aca0852ae9b92ca3d6f4cf57212acc18458dd7-e7-1790209814-1790155814"
   },
   {
-    "provider": "17.domhsd.com:443",
+    "provider": "messi.damitv.st",
     "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.843,
-    "name": "[Copa Chile] Cobreloa vs Coquimbo Unido 1 (STP)",
-    "url": "https://17.domhsd.com:443/global/tntsportschile/index.m3u8?token=e607669487d8c50e94d3ecd42b0651bb4426340e-b0-1790123413-1790069413"
-  },
-  {
-    "provider": "93.domhsd.com:443",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.848,
-    "name": "[Copa Chile] Puerto Montt vs \u00d1ublense 1 (STP)",
-    "url": "https://93.domhsd.com:443/global/tntsportschile/index.m3u8?token=2fa4406178e7cd17571ba6ad01d864627a1beca4-08-1790123413-1790069413"
-  },
-  {
-    "provider": "vip.streamapi.cc",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.313,
-    "name": "[Darts] Players Championship 29 - Den Bosch (EMBEDSPRT)",
-    "url": "https://vip.streamapi.cc/vip8/playlist.m3u8?playlist=Bj9DMAVrHQ4dIVtGFDtaQB41Fi0ZdVRLASNSBTgfOEoLOURtFTlTTAglVk0DOl1UWmYBc0B3VUMNa1RFOxAxHlxyBXJB&expires=1790089500&token=7c603b7eb1fef677cde40d5de0562357917c9cb9bb9d96af18007792cc513e93"
+    "reason": "HTTP Error 502: Bad Gateway",
+    "latency": 3.797,
+    "name": "[Golf] Sky Sports Golf (DAMITV)",
+    "url": "https://messi.damitv.st/live-hls/channel/sky-sports-golf-29059/playlist.m3u8?tk=9ap2YkUKFQylexCSE2TJPQ&e=1790208013"
   },
   {
     "provider": "193.47.62.194",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.184,
-    "name": "[Horse Racing] Horse Racing 2 (FAWA)",
-    "url": "http://193.47.62.194/hls/vavavavaq.m3u8"
-  },
-  {
-    "provider": "193.47.62.194",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.185,
+    "latency": 0.263,
     "name": "[Horse Racing] Horse Racing 1 (FAWA)",
     "url": "http://193.47.62.194/hls/vavavava.m3u8"
   },
   {
-    "provider": "85.domhsd.com:443",
+    "provider": "193.47.62.194",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.732,
-    "name": "[Liga BetPlay] Medell\u00edn vs Jaguares de C\u00f3rdoba 1 (STP)",
-    "url": "https://85.domhsd.com:443/global/winplus/index.m3u8?token=8aa407d9e747b4f94d9cfaf05e7956a4732a4ed3-6c-1790123413-1790069413"
-  },
-  {
-    "provider": "99.domhsd.com:443",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.801,
-    "name": "[Liga BetPlay] Santa Fe vs Deportivo Cali 1 (STP)",
-    "url": "https://99.domhsd.com:443/global/winplus/index.m3u8?token=70a09aedc71775ee6a53b9132db7aa6419938ec8-2e-1790123414-1790069414"
+    "latency": 0.273,
+    "name": "[Horse Racing] Horse Racing 2 (FAWA)",
+    "url": "http://193.47.62.194/hls/vavavavaq.m3u8"
   },
   {
     "provider": "webcast-origin.b-cdn.net",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.082,
-    "name": "[MLB] Reds vs Braves (WEBCAST)",
-    "url": "https://webcast-origin.b-cdn.net/bcdn_token=WT92__uUjRzfgyo2jDWwug2YXs0Uqu5cnUBJAIXSMYU&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHhPK4eaZswKqByclRPxZJv%2F&expires=1790078536/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHhPK4eaZswKqByclRPxZJv/129.m3u8"
+    "latency": 0.038,
+    "name": "[MLB] Padres vs Dodgers (WEBCAST)",
+    "url": "https://webcast-origin.b-cdn.net/bcdn_token=rydAe6zKxVcFBqohDJodI0QVwhYiUSTMzkbQOVah0RE&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhElkJJ36sE5m_ABEhUzYefj%2F&expires=1790164937/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhElkJJ36sE5m_ABEhUzYefj/133.m3u8"
   },
   {
     "provider": "webcast-origin.b-cdn.net",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.057,
-    "name": "[MLB] Jays vs Orioles (WEBCAST)",
-    "url": "https://webcast-origin.b-cdn.net/bcdn_token=JO-MFA82jJQy1yWY0eTBk_GsPnMm9_cbfiliA1zzIRY&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHhj5yKZgmNmrid0VdU6z9z%2F&expires=1790078534/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHhj5yKZgmNmrid0VdU6z9z/237.m3u8"
-  },
-  {
-    "provider": "webcast-origin.b-cdn.net",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.058,
-    "name": "[MLB] Brewers vs Phillies (WEBCAST)",
-    "url": "https://webcast-origin.b-cdn.net/bcdn_token=dl_k6oAtZ0lwsb0VK6raKRl0kPW5ENm9dAp8lyVHzzc&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFHXyGMsexAg3zeyZCxQh37%2F&expires=1790078535/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFHXyGMsexAg3zeyZCxQh37/114.m3u8"
-  },
-  {
-    "provider": "webcast-origin.b-cdn.net",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.058,
-    "name": "[MLB] Astros vs Mariners (WEBCAST)",
-    "url": "https://webcast-origin.b-cdn.net/bcdn_token=mK0dIB6c2x4Q4M7U6mCgJJdKZfcsv5fXfSbr8inwfxE&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHvOAX_FTWG0wP5IkKbIXQq%2F&expires=1790078538/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHvOAX_FTWG0wP5IkKbIXQq/110.m3u8"
-  },
-  {
-    "provider": "webcast-origin.b-cdn.net",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.06,
+    "latency": 0.041,
     "name": "[MLB] Mets vs Rangers (WEBCAST)",
-    "url": "https://webcast-origin.b-cdn.net/bcdn_token=-gLRKT2TlvoOWyJOLeV9XvTEmLQt-zg8-rw68LsDT_M&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGR1oN0jL8cTYEJOIzY0nUn%2F&expires=1790078537/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGR1oN0jL8cTYEJOIzY0nUn/118.m3u8"
+    "url": "https://webcast-origin.b-cdn.net/bcdn_token=Yb_Rfu8vVXHiFtXJ_QWoCKvXq5sFSBK-87b5b6DEX2Y&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGR1oN0jL8cTYEJOIzY0nUn%2F&expires=1790164936/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGR1oN0jL8cTYEJOIzY0nUn/118.m3u8"
+  },
+  {
+    "provider": "webcast-origin.b-cdn.net",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.044,
+    "name": "[MLB] Jays vs Orioles (WEBCAST)",
+    "url": "https://webcast-origin.b-cdn.net/bcdn_token=GWUZ_PdUeaoUjcYs76Wnhi32PH0x5Fq2VLBgXYPPGJE&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHhj5yKZgmNmrid0VdU6z9z%2F&expires=1790164934/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHhj5yKZgmNmrid0VdU6z9z/237.m3u8"
+  },
+  {
+    "provider": "webcast-origin.b-cdn.net",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.041,
+    "name": "[NFL] Falcons vs Packers (WEBCAST)",
+    "url": "https://webcast-origin.b-cdn.net/bcdn_token=ZLac1mB-3Sh5-GTVhKXSvC-TFNRhFuMaFHJYGjcuCig&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGwy6KsgV7UytYr9vH_mmMU%2F&expires=1790164939/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGwy6KsgV7UytYr9vH_mmMU/69.m3u8"
+  },
+  {
+    "provider": "webcast-origin.b-cdn.net",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.03,
+    "name": "[MLB] Twins vs Giants (WEBCAST)",
+    "url": "https://webcast-origin.b-cdn.net/bcdn_token=J3f6cxkPcbK9odDjYuBpIpql5RM6n_S128vVDsnCPW8&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHBC3RER0zO2Cgo16E4YHUq%2F&expires=1790164933/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHBC3RER0zO2Cgo16E4YHUq/107.m3u8"
   },
   {
     "provider": "193.47.62.44",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.172,
+    "latency": 0.262,
     "name": "[Snooker] Snooker Scottish Opene 2 (FAWA)",
     "url": "http://193.47.62.44/hls/grrrAA.m3u8"
   },
@@ -531,15 +379,15 @@
     "provider": "193.47.62.44",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.167,
-    "name": "[Snooker] Snooker Scottish Opene 4 (FAWA)",
-    "url": "http://193.47.62.44/hls/grrr.m3u8"
+    "latency": 0.262,
+    "name": "[Snooker] Snooker Scottish Opene 1 (FAWA)",
+    "url": "http://193.47.62.44/hls/grrrAAA.m3u8"
   },
   {
     "provider": "193.47.62.44",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.17,
+    "latency": 0.272,
     "name": "[Snooker] Snooker Scottish Opene 3 (FAWA)",
     "url": "http://193.47.62.44/hls/grrrA.m3u8"
   },
@@ -547,47 +395,23 @@
     "provider": "193.47.62.44",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.186,
-    "name": "[Snooker] Snooker Scottish Opene 1 (FAWA)",
-    "url": "http://193.47.62.44/hls/grrrAAA.m3u8"
-  },
-  {
-    "provider": "a2lja3m.fubo18.com:443",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.472,
-    "name": "[UEFA Women's Champions League] Bayern vs Manchester City | Espa\u00f1ol 1 (PLIBRE)",
-    "url": "https://a2lja3m.fubo18.com:443/espn2/mono.m3u8?token=1ffddbd93f45c82d03ff41d2d0fcc0ca7ad47686-6a-1790095513-1790077513"
-  },
-  {
-    "provider": "eWVz.fubo18.com:443",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.408,
-    "name": "[UEFA Women's Champions League] Bayern vs Manchester City | Espa\u00f1ol 2 (PLIBRE)",
-    "url": "https://eWVz.fubo18.com:443/disney1/mono.m3u8?token=b29d5bdc4eee2862a80ba4a5d0cf6cce1dc96379-99-1790095513-1790077513"
-  },
-  {
-    "provider": "c2f2zq.fubo18.com:443",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.446,
-    "name": "[UEFA Women's Champions League] Bayern vs Manchester City | Espa\u00f1ol 3 (PLIBRE)",
-    "url": "https://c2f2zq.fubo18.com:443/espndeportes/mono.m3u8?token=d0779eb06188a49faaf152d189307ccfa234efec-af-1790095513-1790077513"
+    "latency": 0.273,
+    "name": "[Snooker] Snooker Scottish Opene 4 (FAWA)",
+    "url": "http://193.47.62.44/hls/grrr.m3u8"
   },
   {
     "provider": "30a-tv.com",
     "ok": false,
     "reason": "Remote end closed connection without response",
-    "latency": 1.105,
-    "name": "30A Music (720p)",
-    "url": "https://30a-tv.com/music.m3u8"
+    "latency": 1.246,
+    "name": "30A Golf Kingdom (720p)",
+    "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8"
   },
   {
     "provider": "30a-tv.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 1.455,
+    "latency": 1.25,
     "name": "30A Lionel Nation",
     "url": "https://30a-tv.com/ln.m3u8"
   },
@@ -595,31 +419,7 @@
     "provider": "stream.cammonitorplus.net",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 20.139,
-    "name": "NBC West (720p)",
-    "url": "http://stream.cammonitorplus.net/1800/index.m3u8"
-  },
-  {
-    "provider": "stream.cammonitorplus.net",
-    "ok": false,
-    "reason": "<urlopen error timed out>",
-    "latency": 20.13,
-    "name": "Fox (United States) (720p)",
-    "url": "http://stream.cammonitorplus.net/1752/index.m3u8"
-  },
-  {
-    "provider": "stream.cammonitorplus.net",
-    "ok": false,
-    "reason": "<urlopen error timed out>",
-    "latency": 20.047,
-    "name": "Fox (United States) West (720p)",
-    "url": "http://stream.cammonitorplus.net/1799/index.m3u8"
-  },
-  {
-    "provider": "stream.cammonitorplus.net",
-    "ok": false,
-    "reason": "<urlopen error timed out>",
-    "latency": 20.064,
+    "latency": 20.037,
     "name": "ABC KATC (1080p)",
     "url": "http://stream.cammonitorplus.net/1753/index.m3u8"
   },
@@ -627,15 +427,39 @@
     "provider": "stream.cammonitorplus.net",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 20.048,
+    "latency": 20.624,
+    "name": "NBC West (720p)",
+    "url": "http://stream.cammonitorplus.net/1800/index.m3u8"
+  },
+  {
+    "provider": "stream.cammonitorplus.net",
+    "ok": false,
+    "reason": "<urlopen error timed out>",
+    "latency": 20.047,
     "name": "CBS (1080p)",
     "url": "http://stream.cammonitorplus.net/1783/index.m3u8"
+  },
+  {
+    "provider": "stream.cammonitorplus.net",
+    "ok": false,
+    "reason": "<urlopen error timed out>",
+    "latency": 20.573,
+    "name": "Fox (United States) West (720p)",
+    "url": "http://stream.cammonitorplus.net/1799/index.m3u8"
+  },
+  {
+    "provider": "stream.cammonitorplus.net",
+    "ok": false,
+    "reason": "<urlopen error timed out>",
+    "latency": 20.047,
+    "name": "Fox (United States) (720p)",
+    "url": "http://stream.cammonitorplus.net/1752/index.m3u8"
   },
   {
     "provider": "d3svnrf3rmq619.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.269,
+    "latency": 0.31,
     "name": "KRGV-TV 5.2 [Geo-blocked]",
     "url": "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-somos.smil/playlist.m3u8"
   },
@@ -643,7 +467,7 @@
     "provider": "linear-681.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.315,
+    "latency": 0.151,
     "name": "ABC WJLA-TV (1080p)",
     "url": "https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8"
   },
@@ -651,7 +475,7 @@
     "provider": "linear-695.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.578,
+    "latency": 0.1,
     "name": "ABC WLOS (1080p)",
     "url": "https://linear-695.frequency.stream/dist/stirr/695/hls/master/playlist.m3u8"
   },
@@ -659,7 +483,7 @@
     "provider": "linear-696.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.086,
+    "latency": 0.302,
     "name": "ABC WPDE-TV (1080p)",
     "url": "https://linear-696.frequency.stream/dist/stirr/696/hls/master/playlist.m3u8"
   },
@@ -667,7 +491,7 @@
     "provider": "linear-689.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.366,
+    "latency": 0.292,
     "name": "ABC WSYX (1080p)",
     "url": "https://linear-689.frequency.stream/dist/stirr/689/hls/master/playlist.m3u8"
   },
@@ -675,31 +499,23 @@
     "provider": "abcnews-streams.akamaized.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.183,
-    "name": "ABC News Live 10 (720p)",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8"
+    "latency": 0.108,
+    "name": "ABC News Live 2 (720p)",
+    "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8"
   },
   {
     "provider": "abcnews-streams.akamaized.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.319,
-    "name": "ABC News Live 3 (720p)",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8"
+    "latency": 0.251,
+    "name": "ABC News Live 6 (720p)",
+    "url": "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8"
   },
   {
     "provider": "abcnews-streams.akamaized.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.252,
-    "name": "ABC News Live 5 (720p)",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8"
-  },
-  {
-    "provider": "abcnews-streams.akamaized.net",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.318,
+    "latency": 0.213,
     "name": "ABC News Live 4 (720p)",
     "url": "https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8"
   },
@@ -707,15 +523,39 @@
     "provider": "abcnews-streams.akamaized.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.532,
-    "name": "ABC News Live 8 (720p)",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8"
+    "latency": 0.288,
+    "name": "ABC News Live 7 (720p)",
+    "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8"
+  },
+  {
+    "provider": "abcnews-streams.akamaized.net",
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 0.379,
+    "name": "ABC News Live 3 (720p)",
+    "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8"
+  },
+  {
+    "provider": "reflect-channel18vod-springfield-il-us.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.074,
+    "name": "Access 4 PAC",
+    "url": "https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8"
+  },
+  {
+    "provider": "reflect-channel18vod-springfield-il-us.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.01,
+    "name": "Channel 18 GAC",
+    "url": "https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-13/live/stream-1/live.m3u8"
   },
   {
     "provider": "reflect-montgomerycommunitymedia.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.061,
+    "latency": 0.058,
     "name": "Access 19",
     "url": "https://reflect-montgomerycommunitymedia.cablecast.tv/live-8/live/stream-3/live.m3u8"
   },
@@ -723,7 +563,7 @@
     "provider": "reflect-montgomerycommunitymedia.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.029,
+    "latency": 0.014,
     "name": "Montgomery Channel",
     "url": "https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8"
   },
@@ -731,7 +571,7 @@
     "provider": "rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net",
     "ok": false,
     "reason": "HTTP Error 503: Service Unavailable",
-    "latency": 1.577,
+    "latency": 2.336,
     "name": "Access Humboldt (1080p)",
     "url": "https://rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net/transmuxv1/streams/f08fcd45-1d04-9a8c-39ca-f56091820e5c.m3u8"
   },
@@ -739,15 +579,15 @@
     "provider": "livestream.telvue.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.629,
-    "name": "RVTV Civic (720p)",
-    "url": "https://livestream.telvue.com/roguevalleycmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+    "latency": 0.642,
+    "name": "RVTV Voices (720p)",
+    "url": "https://livestream.telvue.com/roguevalleycmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
   },
   {
     "provider": "reflect-access-sacramento.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.162,
+    "latency": 0.058,
     "name": "Access Sacramento Channel 17",
     "url": "https://reflect-access-sacramento.cablecast.tv/live-7/live/live.m3u8"
   },
@@ -755,7 +595,7 @@
     "provider": "reflect-tuolumne.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.11,
+    "latency": 0.062,
     "name": "Access Tuolumne (720p)",
     "url": "https://reflect-tuolumne.cablecast.tv/live-3/live/stream-1/live.m3u8"
   },
@@ -763,7 +603,7 @@
     "provider": "linear-46.frequency.stream",
     "ok": false,
     "reason": "<urlopen error [Errno -5] No address associated with hostname>",
-    "latency": 0.141,
+    "latency": 0.222,
     "name": "AFV Espanol (720p) [Not 24/7]",
     "url": "https://linear-46.frequency.stream/dist/plex/46/hls/master/playlist.m3u8"
   },
@@ -771,7 +611,7 @@
     "provider": "5d658d7e9f562.streamlock.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 8.469,
+    "latency": 8.522,
     "name": "Al-Fady TV (1080p) [Not 24/7]",
     "url": "https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8"
   },
@@ -779,7 +619,7 @@
     "provider": "alwxnet-ott-proxy.cloud9streaming.com",
     "ok": false,
     "reason": "HTTP Error 523: <none>",
-    "latency": 0.367,
+    "latency": 0.688,
     "name": "Alabama Weather Network (720p)",
     "url": "https://alwxnet-ott-proxy.cloud9streaming.com/alwxnet/live/playlist.m3u8"
   },
@@ -787,7 +627,7 @@
     "provider": "5.254.89.106",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.176,
+    "latency": 0.266,
     "name": "Fox Business Network (720p)",
     "url": "http://5.254.89.106/6187/index.m3u8"
   },
@@ -795,7 +635,7 @@
     "provider": "5.254.89.106",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.186,
+    "latency": 0.276,
     "name": "Albanian TV America (1080p)",
     "url": "http://5.254.89.106/8711/index.m3u8"
   },
@@ -803,7 +643,7 @@
     "provider": "mbn-ingest-worldsafe.akamaized.net",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.017,
+    "latency": 0.021,
     "name": "Alhurra Iraq (720p)",
     "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8"
   },
@@ -811,15 +651,31 @@
     "provider": "amc-amcespanol-1-us.lg.wurl.tv",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.082,
+    "latency": 0.039,
     "name": "AMC en Espanol",
     "url": "https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8"
+  },
+  {
+    "provider": "streamer1.connectto.com",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.036,
+    "name": "ARTN TV (1080p) [Not 24/7]",
+    "url": "https://streamer1.connectto.com/ARTN_mobile/index.m3u8"
+  },
+  {
+    "provider": "cdn.whiplash.cc",
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 0.668,
+    "name": "Whiplash (720p)",
+    "url": "https://cdn.whiplash.cc/whiplash/index.m3u8"
   },
   {
     "provider": "reflect-aurora.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.048,
+    "latency": 0.046,
     "name": "AuroraTV (720p)",
     "url": "https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8"
   },
@@ -827,15 +683,7 @@
     "provider": "cdn1tlinkgo.tlink.cl",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 10.102,
-    "name": "BabyTV Latin America (1080p)",
-    "url": "https://cdn1tlinkgo.tlink.cl/babytv/index.m3u8"
-  },
-  {
-    "provider": "cdn1tlinkgo.tlink.cl",
-    "ok": false,
-    "reason": "<urlopen error timed out>",
-    "latency": 10.12,
+    "latency": 10.092,
     "name": "FMH Movies (1080p)",
     "url": "https://cdn1tlinkgo.tlink.cl/fmhmovies/index.m3u8"
   },
@@ -843,7 +691,15 @@
     "provider": "cdn1tlinkgo.tlink.cl",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 10.046,
+    "latency": 10.152,
+    "name": "FMH Kids (1080p)",
+    "url": "https://cdn1tlinkgo.tlink.cl/fmhkidshd/index.m3u8"
+  },
+  {
+    "provider": "cdn1tlinkgo.tlink.cl",
+    "ok": false,
+    "reason": "<urlopen error timed out>",
+    "latency": 10.08,
     "name": "TVE Internacional America (1080p)",
     "url": "https://cdn1tlinkgo.tlink.cl/tve/index.m3u8"
   },
@@ -851,15 +707,15 @@
     "provider": "cdn1tlinkgo.tlink.cl",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 10.121,
-    "name": "FMH Kids (1080p)",
-    "url": "https://cdn1tlinkgo.tlink.cl/fmhkidshd/index.m3u8"
+    "latency": 10.149,
+    "name": "BabyTV Latin America (1080p)",
+    "url": "https://cdn1tlinkgo.tlink.cl/babytv/index.m3u8"
   },
   {
     "provider": "reflect-batv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.11,
+    "latency": 0.071,
     "name": "BATV Government TV (480p)",
     "url": "https://reflect-batv.cablecast.tv/live-3/live/live.m3u8"
   },
@@ -867,7 +723,7 @@
     "provider": "reflect-batv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.118,
+    "latency": 0.014,
     "name": "BATV (480p)",
     "url": "https://reflect-batv.cablecast.tv/live-5/live/live.m3u8"
   },
@@ -875,7 +731,7 @@
     "provider": "amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.149,
+    "latency": 0.04,
     "name": "Baywatch (1080p)",
     "url": "https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8"
   },
@@ -883,7 +739,7 @@
     "provider": "dmr1h4skdal9h.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 502: Bad Gateway",
-    "latency": 0.46,
+    "latency": 0.374,
     "name": "BBC Kids (720p)",
     "url": "https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8"
   },
@@ -891,7 +747,7 @@
     "provider": "201.190.41.246:9060",
     "ok": false,
     "reason": "<urlopen error [Errno 111] Connection refused>",
-    "latency": 0.07,
+    "latency": 0.084,
     "name": "beIN SPORTS XTRA en Espanol (1080p)",
     "url": "http://201.190.41.246:9060/play/a03y/index.m3u8"
   },
@@ -899,7 +755,7 @@
     "provider": "cdn3.wowza.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.297,
+    "latency": 0.139,
     "name": "Stockton Gov TV (720p)",
     "url": "https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8"
   },
@@ -907,23 +763,23 @@
     "provider": "reflect-brookline-interactive-group.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.178,
-    "name": "BIG Civic Channel",
-    "url": "https://reflect-brookline-interactive-group.cablecast.tv/live-5/live/stream-2/live.m3u8"
+    "latency": 0.052,
+    "name": "BIG Community Channel",
+    "url": "https://reflect-brookline-interactive-group.cablecast.tv/live-4/live/stream-1/live.m3u8"
   },
   {
     "provider": "reflect-brookline-interactive-group.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.14,
-    "name": "BIG Community Channel",
-    "url": "https://reflect-brookline-interactive-group.cablecast.tv/live-4/live/stream-1/live.m3u8"
+    "latency": 0.011,
+    "name": "BIG Civic Channel",
+    "url": "https://reflect-brookline-interactive-group.cablecast.tv/live-5/live/stream-2/live.m3u8"
   },
   {
     "provider": "buenapark.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.074,
+    "latency": 0.052,
     "name": "BPTV (360p)",
     "url": "https://buenapark.cablecast.tv/live/stream-1/live.m3u8"
   },
@@ -931,15 +787,15 @@
     "provider": "reflect-stream-bronxnet.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.059,
-    "name": "BX Inspire (720p)",
-    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-18/live/stream-7/live.m3u8"
+    "latency": 0.068,
+    "name": "NYXT (1080p)",
+    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8"
   },
   {
     "provider": "reflect-stream-bronxnet.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.155,
+    "latency": 0.068,
     "name": "BX Arts (720p)",
     "url": "https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8"
   },
@@ -947,31 +803,31 @@
     "provider": "reflect-stream-bronxnet.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.023,
+    "latency": 0.009,
+    "name": "BX Inspire (720p)",
+    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-18/live/stream-7/live.m3u8"
+  },
+  {
+    "provider": "reflect-stream-bronxnet.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.014,
+    "name": "BX Culture (720p)",
+    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8"
+  },
+  {
+    "provider": "reflect-stream-bronxnet.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.014,
     "name": "BX Omni (720p)",
     "url": "https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8"
-  },
-  {
-    "provider": "reflect-stream-bronxnet.cablecast.tv",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.048,
-    "name": "BX Inform (1080p)",
-    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-8/live/stream-4/live.m3u8"
-  },
-  {
-    "provider": "reflect-stream-bronxnet.cablecast.tv",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.046,
-    "name": "NYXT (1080p)",
-    "url": "https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8"
   },
   {
     "provider": "cafetradehls.wns.live",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'cafetradehls.wns.live'. (_ssl.c:1010)>",
-    "latency": 0.191,
+    "latency": 0.317,
     "name": "Cafe Trade TV",
     "url": "https://cafetradehls.wns.live/hls/stream.m3u8"
   },
@@ -979,7 +835,7 @@
     "provider": "stream.ads.ottera.tv",
     "ok": false,
     "reason": "HTTP Error 400: Bad Request",
-    "latency": 0.08,
+    "latency": 0.244,
     "name": "Novelisima",
     "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2380"
   },
@@ -987,7 +843,7 @@
     "provider": "stream.ads.ottera.tv",
     "ok": false,
     "reason": "HTTP Error 400: Bad Request",
-    "latency": 0.089,
+    "latency": 0.226,
     "name": "El Rey",
     "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=1544"
   },
@@ -995,7 +851,7 @@
     "provider": "capitalcityconnection.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.154,
+    "latency": 0.056,
     "name": "Capital City Connection Montgomery [Not 24/7]",
     "url": "https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8"
   },
@@ -1003,7 +859,7 @@
     "provider": "linear-706.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.115,
+    "latency": 0.096,
     "name": "CBS KDBC-TV (1080p)",
     "url": "https://linear-706.frequency.stream/dist/stirr/706/hls/master/playlist.m3u8"
   },
@@ -1011,15 +867,23 @@
     "provider": "linear-704.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.307,
+    "latency": 0.117,
     "name": "CBS KEYE-TV (1080p)",
     "url": "https://linear-704.frequency.stream/dist/stirr/704/hls/master/playlist.m3u8"
+  },
+  {
+    "provider": "best.happytv.xyz:2082",
+    "ok": false,
+    "reason": "<urlopen error timed out>",
+    "latency": 10.06,
+    "name": "CBS KMOV (1080p)",
+    "url": "http://best.happytv.xyz:2082/live/JThibodeau0923/gcEyG7W3/2193473.m3u8"
   },
   {
     "provider": "linear-707.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.138,
+    "latency": 0.076,
     "name": "CBS KUTV (1080p)",
     "url": "https://linear-707.frequency.stream/dist/stirr/707/hls/master/playlist.m3u8"
   },
@@ -1027,7 +891,7 @@
     "provider": "linear-691.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.337,
+    "latency": 0.1,
     "name": "CBS WKRC-TV (1080p)",
     "url": "https://linear-691.frequency.stream/dist/stirr/691/hls/master/playlist.m3u8"
   },
@@ -1035,7 +899,7 @@
     "provider": "linear-692.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.086,
+    "latency": 0.079,
     "name": "CBS WPEC (1080p)",
     "url": "https://linear-692.frequency.stream/dist/stirr/692/hls/master/playlist.m3u8"
   },
@@ -1043,7 +907,7 @@
     "provider": "linear-701.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.317,
+    "latency": 0.078,
     "name": "CBS WWMT (1080p)",
     "url": "https://linear-701.frequency.stream/dist/stirr/701/hls/master/playlist.m3u8"
   },
@@ -1051,7 +915,7 @@
     "provider": "cbsn-sf.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.928,
+    "latency": 0.332,
     "name": "CBS News Bay Area (720p)",
     "url": "https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8"
   },
@@ -1059,7 +923,7 @@
     "provider": "cbsn-bos.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.259,
+    "latency": 0.34,
     "name": "CBS News Boston (720p)",
     "url": "https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8"
   },
@@ -1067,7 +931,7 @@
     "provider": "cbsn-chi.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.235,
+    "latency": 0.436,
     "name": "CBS News Chicago (720p)",
     "url": "https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8"
   },
@@ -1075,7 +939,7 @@
     "provider": "cbsn-den.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.406,
+    "latency": 0.417,
     "name": "CBS News Colorado (720p)",
     "url": "https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8"
   },
@@ -1083,7 +947,7 @@
     "provider": "cbsn-det.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.212,
+    "latency": 0.522,
     "name": "CBS News Detroit (720p)",
     "url": "https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8"
   },
@@ -1091,7 +955,7 @@
     "provider": "cbsn-la.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.354,
+    "latency": 0.226,
     "name": "CBS News Los Angeles (720p)",
     "url": "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8"
   },
@@ -1099,7 +963,7 @@
     "provider": "cbsn-min.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.337,
+    "latency": 0.251,
     "name": "CBS News Minnesota (720p)",
     "url": "https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8"
   },
@@ -1107,7 +971,7 @@
     "provider": "cbsn-ny.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.121,
+    "latency": 0.332,
     "name": "CBS News New York (720p)",
     "url": "https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8"
   },
@@ -1115,7 +979,7 @@
     "provider": "cbsn-phi.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.176,
+    "latency": 0.48,
     "name": "CBS News Philly (720p)",
     "url": "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8"
   },
@@ -1123,7 +987,7 @@
     "provider": "cbsn-pit.cbsnstream.cbsnews.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.242,
+    "latency": 0.584,
     "name": "CBS News Pittsburgh (720p)",
     "url": "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8"
   },
@@ -1131,7 +995,7 @@
     "provider": "reflect-ccx.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.077,
+    "latency": 0.027,
     "name": "CCX1 (1080p)",
     "url": "http://reflect-ccx.cablecast.tv/live-9/live/stream-1/live.m3u8"
   },
@@ -1139,7 +1003,7 @@
     "provider": "champaign-cablecast.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.057,
+    "latency": 0.035,
     "name": "CGTV (720p)",
     "url": "https://champaign-cablecast.cablecast.tv/live/stream-2/live.m3u8"
   },
@@ -1147,7 +1011,7 @@
     "provider": "pemirateshls.persiana.live",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pemirateshls.persiana.live'. (_ssl.c:1010)>",
-    "latency": 0.183,
+    "latency": 0.337,
     "name": "Channel One (United States)",
     "url": "https://pemirateshls.persiana.live/hls/stream.m3u8"
   },
@@ -1155,7 +1019,7 @@
     "provider": "reflect-fairfield-ca.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.044,
+    "latency": 0.067,
     "name": "City of Fairfield Channel 26 (720p) [Geo-blocked]",
     "url": "https://reflect-fairfield-ca.cablecast.tv/live-8/live/live.m3u8"
   },
@@ -1163,15 +1027,23 @@
     "provider": "edge-f.swagit.com",
     "ok": false,
     "reason": "The read operation timed out",
-    "latency": 10.054,
+    "latency": 10.049,
     "name": "Galveston County TV (720p) [Not 24/7]",
     "url": "https://edge-f.swagit.com/live/galvestontx/smil:hd-16x9-1-a/playlist.m3u8"
+  },
+  {
+    "provider": "reflect-cityofloveland-co.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.067,
+    "name": "City of Loveland TV (1080p)",
+    "url": "https://reflect-cityofloveland-co.cablecast.tv/live-3/live/live.m3u8"
   },
   {
     "provider": "reflect-monroe-mi-ci.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.046,
+    "latency": 0.068,
     "name": "City of Monroe Government Channel",
     "url": "https://reflect-monroe-mi-ci.cablecast.tv/live-1/live/live.m3u8"
   },
@@ -1179,7 +1051,7 @@
     "provider": "whittier.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.158,
+    "latency": 0.053,
     "name": "CityTV Whittier (720p)",
     "url": "https://whittier.cablecast.tv/live/stream-1/live.m3u8"
   },
@@ -1187,15 +1059,15 @@
     "provider": "reflect-vod-cmac.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.104,
-    "name": "CMAC 2 (720p)",
-    "url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8"
+    "latency": 0.076,
+    "name": "CMAC 3 (720p)",
+    "url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-3/live.m3u8"
   },
   {
     "provider": "reflect-vod-cmac.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.114,
+    "latency": 0.072,
     "name": "CMAC 1 (720p)",
     "url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-1/live.m3u8"
   },
@@ -1203,15 +1075,15 @@
     "provider": "reflect-vod-cmac.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.097,
-    "name": "CMAC 3 (720p)",
-    "url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-3/live.m3u8"
+    "latency": 0.079,
+    "name": "CMAC 2 (720p)",
+    "url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8"
   },
   {
     "provider": "reflect-collier-countyboc.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.149,
+    "latency": 0.066,
     "name": "Collier TV (720p)",
     "url": "https://reflect-collier-countyboc.cablecast.tv/live-4/live/stream-1/live.m3u8"
   },
@@ -1219,7 +1091,7 @@
     "provider": "tvsen3.aynaott.com",
     "ok": false,
     "reason": "The read operation timed out",
-    "latency": 10.56,
+    "latency": 10.601,
     "name": "Comedy Central (United States) (576p)",
     "url": "https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8"
   },
@@ -1227,15 +1099,31 @@
     "provider": "comedydynamics-plex-ingest.cinedigm.com",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
-    "latency": 0.105,
+    "latency": 0.098,
     "name": "Comedy Dynamics (1080p)",
     "url": "https://comedydynamics-plex-ingest.cinedigm.com/playlist.m3u8"
+  },
+  {
+    "provider": "lin10.isilive.ca",
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 0.25,
+    "name": "Community 12TV (720p)",
+    "url": "https://lin10.isilive.ca/live/gainesville/live/index.m3u8"
+  },
+  {
+    "provider": "reflect-tacm.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.047,
+    "name": "CommunityTV Channel 189 (1080p) [Geo-blocked]",
+    "url": "https://reflect-tacm.cablecast.tv/live-3/live/live.m3u8"
   },
   {
     "provider": "concordca.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.118,
+    "latency": 0.027,
     "name": "Concord TV (720p)",
     "url": "https://concordca.cablecast.tv/live/stream-2/live.m3u8"
   },
@@ -1243,7 +1131,7 @@
     "provider": "reflect-contra-costa.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.066,
+    "latency": 0.05,
     "name": "Contra Costa TV [Geo-blocked]",
     "url": "https://reflect-contra-costa.cablecast.tv/live-7/live/live.m3u8"
   },
@@ -1251,7 +1139,7 @@
     "provider": "irctv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.113,
+    "latency": 0.05,
     "name": "COStv",
     "url": "https://irctv.cablecast.tv/live/stream-1/live.m3u8"
   },
@@ -1259,15 +1147,7 @@
     "provider": "reflect-creatv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.03,
-    "name": "CreaTV Channel 27 (720p)",
-    "url": "https://reflect-creatv.cablecast.tv/live-19/live/live.m3u8"
-  },
-  {
-    "provider": "reflect-creatv.cablecast.tv",
-    "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.074,
+    "latency": 0.047,
     "name": "CreaTV Channel 28 (720p)",
     "url": "https://reflect-creatv.cablecast.tv/live-14/live/live.m3u8"
   },
@@ -1275,7 +1155,15 @@
     "provider": "reflect-creatv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.09,
+    "latency": 0.05,
+    "name": "CreaTV Channel 15 (720p)",
+    "url": "https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8"
+  },
+  {
+    "provider": "reflect-creatv.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.051,
     "name": "CreaTV Channel 30 (720p)",
     "url": "https://reflect-creatv.cablecast.tv/live-16/live/live.m3u8"
   },
@@ -1283,15 +1171,15 @@
     "provider": "reflect-creatv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.011,
-    "name": "CreaTV Channel 15 (720p)",
-    "url": "https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8"
+    "latency": 0.01,
+    "name": "CreaTV Channel 27 (720p)",
+    "url": "https://reflect-creatv.cablecast.tv/live-19/live/live.m3u8"
   },
   {
     "provider": "linear-710.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.086,
+    "latency": 0.081,
     "name": "CW KATU (1080p)",
     "url": "https://linear-710.frequency.stream/dist/stirr/710/hls/master/playlist.m3u8"
   },
@@ -1299,7 +1187,7 @@
     "provider": "linear-709.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.193,
+    "latency": 0.105,
     "name": "CW KOMO-TV (1080p)",
     "url": "https://linear-709.frequency.stream/dist/stirr/709/hls/master/playlist.m3u8"
   },
@@ -1307,15 +1195,23 @@
     "provider": "linear-702.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.113,
+    "latency": 0.09,
     "name": "CW WLUK-TV (1080p)",
     "url": "https://linear-702.frequency.stream/dist/stirr/702/hls/master/playlist.m3u8"
+  },
+  {
+    "provider": "138.121.15.230:9002",
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 0.651,
+    "name": "De Pelicula US (720p)",
+    "url": "http://138.121.15.230:9002/DEPELICULA/index.m3u8"
   },
   {
     "provider": "59d39900ebfb8.streamlock.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.099,
+    "latency": 0.3,
     "name": "Radio Tele Kajou (480p) [Not 24/7]",
     "url": "https://59d39900ebfb8.streamlock.net/RadioTelekAJOU/RadioTelekAJOU/playlist.m3u8"
   },
@@ -1323,31 +1219,55 @@
     "provider": "59d39900ebfb8.streamlock.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.071,
-    "name": "Radio Tele Wisdom (360p) [Not 24/7]",
-    "url": "https://59d39900ebfb8.streamlock.net/daniel/daniel/playlist.m3u8"
+    "latency": 0.314,
+    "name": "Dega TV (720p) [Not 24/7]",
+    "url": "https://59d39900ebfb8.streamlock.net/saintlouisltv/saintlouisltv/playlist.m3u8"
   },
   {
     "provider": "59d39900ebfb8.streamlock.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.106,
-    "name": "Dega TV (720p) [Not 24/7]",
-    "url": "https://59d39900ebfb8.streamlock.net/saintlouisltv/saintlouisltv/playlist.m3u8"
+    "latency": 0.297,
+    "name": "Radio Tele Wisdom (360p) [Not 24/7]",
+    "url": "https://59d39900ebfb8.streamlock.net/daniel/daniel/playlist.m3u8"
   },
   {
-    "provider": "212.5.144.156",
+    "provider": "reflect-detroit-vod.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.233,
-    "name": "Disney Channel (United States) (720p) [Geo-blocked]",
-    "url": "http://212.5.144.156/disney/index.m3u8"
+    "latency": 0.077,
+    "name": "Detroit Channel 10",
+    "url": "https://reflect-detroit-vod.cablecast.tv/live-2/live/stream-6/live.m3u8"
+  },
+  {
+    "provider": "reflect-detroit-vod.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.136,
+    "name": "Detroit Channel 68",
+    "url": "https://reflect-detroit-vod.cablecast.tv/live-10/live/stream-5/live.m3u8"
+  },
+  {
+    "provider": "reflect-detroit-vod.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.1,
+    "name": "Detroit Channel 22",
+    "url": "https://reflect-detroit-vod.cablecast.tv/live-3/live/stream-3/live.m3u8"
+  },
+  {
+    "provider": "reflect-detroit-vod.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.091,
+    "name": "Detroit Channel 21",
+    "url": "https://reflect-detroit-vod.cablecast.tv/live-9/live/stream-4/live.m3u8"
   },
   {
     "provider": "docurama-plex-ingest.cinedigm.com",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
-    "latency": 0.045,
+    "latency": 0.072,
     "name": "Docurama (1080p)",
     "url": "https://docurama-plex-ingest.cinedigm.com/playlist.m3u8"
   },
@@ -1355,7 +1275,7 @@
     "provider": "cpcdn.azureedge.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.156,
+    "latency": 0.038,
     "name": "Escambia County TV (720p)",
     "url": "https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8"
   },
@@ -1363,7 +1283,7 @@
     "provider": "estrella-games-oando.amagi.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.353,
+    "latency": 0.812,
     "name": "Estrella Games (1080p)",
     "url": "https://estrella-games-oando.amagi.tv/playlist.m3u8"
   },
@@ -1371,7 +1291,7 @@
     "provider": "reflect-fcpublicmedia.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.096,
+    "latency": 0.053,
     "name": "FC Public Media (1080p)",
     "url": "https://reflect-fcpublicmedia.cablecast.tv/live-5/live/stream-1/live.m3u8"
   },
@@ -1379,7 +1299,7 @@
     "provider": "reflect-vod-fcgov.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.066,
+    "latency": 1.827,
     "name": "FCTV (1080p)",
     "url": "https://reflect-vod-fcgov.cablecast.tv/live-9/live/stream-1/live.m3u8"
   },
@@ -1387,23 +1307,23 @@
     "provider": "live.field59.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.03,
-    "name": "NBC WLIO (720p) [Not 24/7]",
-    "url": "https://live.field59.com/wlio/wlio1/playlist.m3u8"
+    "latency": 0.299,
+    "name": "NBC WRDE-LD (720p) [Not 24/7]",
+    "url": "https://live.field59.com/wrde/wrde1/playlist.m3u8"
   },
   {
     "provider": "live.field59.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.07,
-    "name": "NBC WRDE-LD (720p) [Not 24/7]",
-    "url": "https://live.field59.com/wrde/wrde1/playlist.m3u8"
+    "latency": 0.431,
+    "name": "NBC WLIO (720p) [Not 24/7]",
+    "url": "https://live.field59.com/wlio/wlio1/playlist.m3u8"
   },
   {
     "provider": "linear-711.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.317,
+    "latency": 0.115,
     "name": "Fox (United States) KMPH-TV (1080p)",
     "url": "https://linear-711.frequency.stream/dist/stirr/711/hls/master/playlist.m3u8"
   },
@@ -1411,7 +1331,7 @@
     "provider": "linear-705.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.635,
+    "latency": 0.11,
     "name": "Fox (United States) KOKH-TV (1080p)",
     "url": "https://linear-705.frequency.stream/dist/stirr/705/hls/master/playlist.m3u8"
   },
@@ -1419,7 +1339,7 @@
     "provider": "pubads.g.doubleclick.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.411,
+    "latency": 1.439,
     "name": "WPLG 10.1 (720p)",
     "url": "https://pubads.g.doubleclick.net/ssai/event/tQD6w9OJQVOobcyV3Dammw/master.m3u8"
   },
@@ -1427,7 +1347,7 @@
     "provider": "d1h1d6qoy9vnra.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 504: Gateway Time-out",
-    "latency": 0.508,
+    "latency": 0.197,
     "name": "Freebie TV (720p) [Not 24/7]",
     "url": "https://d1h1d6qoy9vnra.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Freebie-Plex/187.m3u8"
   },
@@ -1435,7 +1355,7 @@
     "provider": "reflect-jacksonville.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.107,
+    "latency": 0.051,
     "name": "G10TV (1080p)",
     "url": "https://reflect-jacksonville.cablecast.tv/live-8/live/live.m3u8"
   },
@@ -1443,7 +1363,7 @@
     "provider": "hls127.freeott.top:8080",
     "ok": false,
     "reason": "timed out",
-    "latency": 10.275,
+    "latency": 10.169,
     "name": "Gagsnetwork (576p)",
     "url": "http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8"
   },
@@ -1451,7 +1371,7 @@
     "provider": "reflect-golden-co.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.047,
+    "latency": 0.053,
     "name": "GCO.tv (1080p)",
     "url": "https://reflect-golden-co.cablecast.tv/live-3/live/live.m3u8"
   },
@@ -1459,7 +1379,7 @@
     "provider": "tvsen6.aynaott.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.91,
+    "latency": 0.797,
     "name": "Giggle Mug (576p)",
     "url": "https://tvsen6.aynaott.com/ytv/index.m3u8"
   },
@@ -1467,7 +1387,7 @@
     "provider": "reflect-gtv6-glendale.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.125,
+    "latency": 0.057,
     "name": "Glendale TV (720p) [Geo-blocked]",
     "url": "https://reflect-gtv6-glendale.cablecast.tv/live-2/live/live.m3u8"
   },
@@ -1475,7 +1395,7 @@
     "provider": "livechannel.mdc.akamaized.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.441,
+    "latency": 0.569,
     "name": "GMTV (1080p)",
     "url": "https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341"
   },
@@ -1491,7 +1411,7 @@
     "provider": "lin12.isilive.ca",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.03,
+    "latency": 0.377,
     "name": "Greensboro TV (720p)",
     "url": "https://lin12.isilive.ca/live/greensboro/GTN/index.m3u8"
   },
@@ -1499,23 +1419,23 @@
     "provider": "jk3lz82elw79-hls-live.5centscdn.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.058,
+    "latency": 0.032,
     "name": "HarPal Geo (360p)",
     "url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8"
-  },
-  {
-    "provider": "7mbd4ogkr3gx-hls-live.wmncdn.net",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 2.883,
-    "name": "Harvest USA (576p)",
-    "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8"
   },
   {
     "provider": "tvsen7.aynascope.net",
     "ok": false,
     "reason": "timed out",
-    "latency": 10.314,
+    "latency": 10.279,
+    "name": "TeenNick (United States) (576p)",
+    "url": "http://tvsen7.aynascope.net/teennick/index.m3u8"
+  },
+  {
+    "provider": "tvsen7.aynascope.net",
+    "ok": false,
+    "reason": "timed out",
+    "latency": 10.246,
     "name": "HBO Hits (720p)",
     "url": "http://tvsen7.aynascope.net/hbo2/index.m3u8"
   },
@@ -1523,23 +1443,15 @@
     "provider": "tvsen7.aynascope.net",
     "ok": false,
     "reason": "timed out",
-    "latency": 10.373,
+    "latency": 10.316,
     "name": "Laff (576p)",
     "url": "http://tvsen7.aynascope.net/laff/index.m3u8"
-  },
-  {
-    "provider": "tvsen7.aynascope.net",
-    "ok": false,
-    "reason": "timed out",
-    "latency": 10.288,
-    "name": "TeenNick (United States) (576p)",
-    "url": "http://tvsen7.aynascope.net/teennick/index.m3u8"
   },
   {
     "provider": "reflect-huntingtonbeach.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.109,
+    "latency": 0.168,
     "name": "HBTV (720p)",
     "url": "https://reflect-huntingtonbeach.cablecast.tv/live-4/live/stream-1/live.m3u8"
   },
@@ -1547,7 +1459,7 @@
     "provider": "reflect-hudsonctv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.109,
+    "latency": 0.044,
     "name": "HCTV Public Access Channel",
     "url": "https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-5/live.m3u8"
   },
@@ -1555,7 +1467,7 @@
     "provider": "reflect-hudsonctv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.034,
+    "latency": 0.03,
     "name": "HCTV Government Channel",
     "url": "https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-2/live.m3u8"
   },
@@ -1563,7 +1475,7 @@
     "provider": "reflect-hudsonctv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.015,
+    "latency": 0.046,
     "name": "HCTV Educational Access Channel",
     "url": "https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8"
   },
@@ -1571,7 +1483,7 @@
     "provider": "reflect-hktv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.089,
+    "latency": 0.046,
     "name": "HKTV (1080p) [Geo-blocked]",
     "url": "https://reflect-hktv.cablecast.tv/live-3/live/live.m3u8"
   },
@@ -1579,7 +1491,7 @@
     "provider": "bozztv.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.153,
+    "latency": 0.126,
     "name": "Movies! (480p)",
     "url": "https://bozztv.com/dvrfl03/hdirect/hdirect-ovair1-movies!/index.m3u8"
   },
@@ -1587,7 +1499,7 @@
     "provider": "144.217.14.88",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '144.217.14.88'. (_ssl.c:1010)>",
-    "latency": 0.06,
+    "latency": 0.282,
     "name": "Hope4Life TV (720p)",
     "url": "http://144.217.14.88/hls/hope4life.m3u8"
   },
@@ -1595,7 +1507,7 @@
     "provider": "damkf751d85s1.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.333,
+    "latency": 0.156,
     "name": "like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Comedy\",Humor Mill (1080p)",
     "url": "https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-DistroTV/152.m3u8?ads.vf=3I7CXmxz7vK"
   },
@@ -1603,7 +1515,7 @@
     "provider": "live.relentlessinnovations.net:1936",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 15.373,
+    "latency": 10.127,
     "name": "Iman TV (480p)",
     "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8"
   },
@@ -1611,9 +1523,25 @@
     "provider": "freespeech.akamaized.net",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.014,
+    "latency": 0.024,
     "name": "InfoWars (1080p)",
     "url": "https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8"
+  },
+  {
+    "provider": "iranefardalive.com",
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 0.926,
+    "name": "IraneFarda TV",
+    "url": "https://iranefardalive.com/stream/live.m3u8"
+  },
+  {
+    "provider": "103.154.3.101:5001",
+    "ok": false,
+    "reason": "<urlopen error timed out>",
+    "latency": 10.002,
+    "name": "Jus One (1080p)",
+    "url": "http://103.154.3.101:5001/live/961.m3u8"
   },
   {
     "provider": "103.154.3.101:5001",
@@ -1632,18 +1560,10 @@
     "url": "http://103.154.3.101:5001/live/959.m3u8"
   },
   {
-    "provider": "103.154.3.101:5001",
-    "ok": false,
-    "reason": "<urlopen error timed out>",
-    "latency": 10.01,
-    "name": "Jus One (1080p)",
-    "url": "http://103.154.3.101:5001/live/961.m3u8"
-  },
-  {
     "provider": "s3-us-west-2.amazonaws.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.323,
+    "latency": 0.148,
     "name": "KBEV (1080p)",
     "url": "https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8"
   },
@@ -1651,7 +1571,7 @@
     "provider": "brightonco.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.107,
+    "latency": 0.05,
     "name": "KBRI-8 (720p)",
     "url": "https://brightonco.cablecast.tv/live-4/live/live.m3u8"
   },
@@ -1659,7 +1579,7 @@
     "provider": "reflect-kcat-live.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.045,
+    "latency": 0.077,
     "name": "KCAT (1080p)",
     "url": "https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8"
   },
@@ -1667,7 +1587,7 @@
     "provider": "d24p9tv2w5yorn.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 502: Bad Gateway",
-    "latency": 0.542,
+    "latency": 0.513,
     "name": "Ketchup TV (720p)",
     "url": "https://d24p9tv2w5yorn.cloudfront.net/vod.m3u8"
   },
@@ -1675,7 +1595,7 @@
     "provider": "d1kt53vrikzr5o.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 502: Bad Gateway",
-    "latency": 0.456,
+    "latency": 0.382,
     "name": "Kevin Hart's LOL! Network (720p)",
     "url": "https://d1kt53vrikzr5o.cloudfront.net/v1/lol_lolnetwork_5/samsungheadend_us/latest/main/hls/playlist.m3u8"
   },
@@ -1683,23 +1603,23 @@
     "provider": "reflect-watchkfon-fontana.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.086,
+    "latency": 0.067,
     "name": "KFON TV (720p) [Geo-blocked]",
     "url": "https://reflect-watchkfon-fontana.cablecast.tv/live-3/live/live.m3u8"
   },
   {
     "provider": "15.204.246.24:8080",
     "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.007,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 0.122,
     "name": "RT en Espanol (1080p)",
     "url": "http://15.204.246.24:8080/RTHD/index.m3u8"
   },
   {
     "provider": "15.204.246.24:8080",
     "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.008,
+    "reason": "timed out",
+    "latency": 10.075,
     "name": "KidOO (1080p) [Geo-blocked]",
     "url": "http://15.204.246.24:8080/KidooHD/index.m3u8"
   },
@@ -1707,7 +1627,7 @@
     "provider": "reflect-channel36-la.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.11,
+    "latency": 0.052,
     "name": "LA36 (1080p)",
     "url": "https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8"
   },
@@ -1715,7 +1635,7 @@
     "provider": "reflect-losangeles.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.176,
+    "latency": 0.064,
     "name": "LA CityView 35 (1080p)",
     "url": "https://reflect-losangeles.cablecast.tv/live-3/live/live.m3u8"
   },
@@ -1723,7 +1643,7 @@
     "provider": "reflect-lakefront-leesburgflorida.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.131,
+    "latency": 0.049,
     "name": "LakeFront TV (720p)",
     "url": "https://reflect-lakefront-leesburgflorida.cablecast.tv/live-6/live/live.m3u8"
   },
@@ -1731,7 +1651,7 @@
     "provider": "live8fd.lakewood.org",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.232,
+    "latency": 0.275,
     "name": "Lakewood Channel 8 (720p)",
     "url": "https://live8fd.lakewood.org/live-2/live/live.m3u8"
   },
@@ -1739,7 +1659,7 @@
     "provider": "rumble.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.479,
+    "latency": 0.398,
     "name": "Lindell TV (720p)",
     "url": "https://rumble.com/live-hls/6v67mu/playlist.m3u8"
   },
@@ -1747,7 +1667,7 @@
     "provider": "ch8.littletongov.org",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.371,
+    "latency": 0.216,
     "name": "Littleton 8 TV (1080p)",
     "url": "https://ch8.littletongov.org/live-2/live/live.m3u8"
   },
@@ -1755,23 +1675,23 @@
     "provider": "streamer1.streamhost.org",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.856,
-    "name": "Logos TV Salud (720p) [Not 24/7]",
-    "url": "https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8"
+    "latency": 1.306,
+    "name": "Logos TV Estudio (720p) [Not 24/7]",
+    "url": "https://streamer1.streamhost.org/salive/logosdirectaH/playlist.m3u8"
   },
   {
     "provider": "streamer1.streamhost.org",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.82,
-    "name": "Logos TV Estudio (720p) [Not 24/7]",
-    "url": "https://streamer1.streamhost.org/salive/logosdirectaH/playlist.m3u8"
+    "latency": 1.108,
+    "name": "Logos TV Salud (720p) [Not 24/7]",
+    "url": "https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8"
   },
   {
     "provider": "mmn1-301f.kxcdn.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.032,
+    "latency": 0.141,
     "name": "Magnificent Movies Network",
     "url": "https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8"
   },
@@ -1779,7 +1699,7 @@
     "provider": "5b200f5268ceb.streamlock.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.336,
+    "latency": 0.681,
     "name": "MCPSS TV",
     "url": "https://5b200f5268ceb.streamlock.net/MCPSS/MCPSS247.smil/playlist.m3u8"
   },
@@ -1787,7 +1707,7 @@
     "provider": "82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.095,
+    "latency": 0.243,
     "name": "MeTV (720p)",
     "url": "https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/23685237ffbb4047a8143ac2166ead44/index.m3u8"
   },
@@ -1803,7 +1723,7 @@
     "provider": "reflect-monroe-public-access.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.026,
+    "latency": 0.068,
     "name": "Monroe Community Media Education Channel",
     "url": "https://reflect-monroe-public-access.cablecast.tv/live-4/live/live.m3u8"
   },
@@ -1811,7 +1731,7 @@
     "provider": "reflect-monroe-public-access.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.123,
+    "latency": 0.017,
     "name": "Monroe Community Media Public Access Channel",
     "url": "https://reflect-monroe-public-access.cablecast.tv/live-3/live/live.m3u8"
   },
@@ -1819,7 +1739,7 @@
     "provider": "cdn.haititivi.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.186,
+    "latency": 0.093,
     "name": "MS NOW (720p)",
     "url": "http://cdn.haititivi.com/MSNBC/index.m3u8"
   },
@@ -1827,7 +1747,7 @@
     "provider": "reflect-mcsb-vod.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.098,
+    "latency": 0.057,
     "name": "MSTV (1080p)",
     "url": "https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8"
   },
@@ -1835,7 +1755,7 @@
     "provider": "linear-708.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.185,
+    "latency": 0.095,
     "name": "NBC KSNV (1080p)",
     "url": "https://linear-708.frequency.stream/dist/stirr/708/hls/master/playlist.m3u8"
   },
@@ -1843,7 +1763,7 @@
     "provider": "linear-698.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.555,
+    "latency": 0.099,
     "name": "NBC WJAC-TV (1080p)",
     "url": "https://linear-698.frequency.stream/dist/stirr/698/hls/master/playlist.m3u8"
   },
@@ -1851,23 +1771,15 @@
     "provider": "linear-703.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.116,
+    "latency": 0.256,
     "name": "NBC WOAI-TV (1080p)",
     "url": "https://linear-703.frequency.stream/dist/stirr/703/hls/master/playlist.m3u8"
-  },
-  {
-    "provider": "nbculocallive.akamaized.net",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.378,
-    "name": "NBC WTVJ (1080p)",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8"
   },
   {
     "provider": "reflect-npa.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.103,
+    "latency": 0.031,
     "name": "NCM Government & Politics Channel",
     "url": "https://reflect-npa.cablecast.tv/live-8/live/live.m3u8"
   },
@@ -1875,7 +1787,7 @@
     "provider": "reflect-npa.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.155,
+    "latency": 0.066,
     "name": "NCM Educational & Kids Channel",
     "url": "https://reflect-npa.cablecast.tv/live-9/live/live.m3u8"
   },
@@ -1883,7 +1795,7 @@
     "provider": "reflect-npa.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.118,
+    "latency": 0.008,
     "name": "NCM Main Channel",
     "url": "https://reflect-npa.cablecast.tv/live-6/live/live.m3u8"
   },
@@ -1891,71 +1803,63 @@
     "provider": "ads.its-newid.net",
     "ok": false,
     "reason": "HTTP Error 400: Bad Request",
-    "latency": 2.531,
-    "name": "NEW K-POP (1080p)",
-    "url": "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus"
+    "latency": 1.589,
+    "name": "NEW K.MOVIES (1080p)",
+    "url": "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus"
   },
   {
     "provider": "ads.its-newid.net",
     "ok": false,
     "reason": "HTTP Error 400: Bad Request",
-    "latency": 2.534,
-    "name": "NEW K.MOVIES (1080p)",
-    "url": "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus"
+    "latency": 2.364,
+    "name": "NEW K-POP (1080p)",
+    "url": "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus"
   },
   {
     "provider": "mdc.ott.alticeusa.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.282,
-    "name": "News12+ Connecticut (1080p) [Geo-blocked]",
-    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8"
+    "latency": 0.567,
+    "name": "News12+ Long Island (1080p) [Geo-blocked]",
+    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8"
   },
   {
     "provider": "mdc.ott.alticeusa.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.264,
-    "name": "News12 Brooklyn [Geo-blocked]",
-    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https"
+    "latency": 0.603,
+    "name": "News12 New Jersey [Geo-blocked]",
+    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12JH_CENT_A1/index_new.m3u8?omap=https"
   },
   {
     "provider": "mdc.ott.alticeusa.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.294,
-    "name": "News12+ New York (1080p) [Geo-blocked]",
-    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NYC_A1/index_new.m3u8"
+    "latency": 0.613,
+    "name": "News12 Long Island (1080p) [Geo-blocked]",
+    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https"
   },
   {
     "provider": "mdc.ott.alticeusa.net",
     "ok": false,
     "reason": "HTTP Error 408: Request Timeout",
-    "latency": 6.107,
-    "name": "News12+ Long Island (1080p) [Geo-blocked]",
-    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8"
+    "latency": 6.739,
+    "name": "News12 Bronx [Geo-blocked]",
+    "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8?omap=https"
   },
   {
     "provider": "145.239.5.177",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.212,
+    "latency": 0.386,
     "name": "NRBTV (720p)",
     "url": "http://145.239.5.177/215/index.m3u8"
-  },
-  {
-    "provider": "ntd02.akamaized.net",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.135,
-    "name": "NTD TV (1080p)",
-    "url": "https://ntd02.akamaized.net/HD-NY/index.m3u8"
   },
   {
     "provider": "iptv.tapesh.tv",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.215,
+    "latency": 0.166,
     "name": "PBC Tapesh TV (720p)",
     "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8"
   },
@@ -1963,7 +1867,7 @@
     "provider": "ketsdt.lls.pbs.org",
     "ok": false,
     "reason": "empty response",
-    "latency": 0.154,
+    "latency": 0.211,
     "name": "PBS KETS [Geo-blocked]",
     "url": "https://ketsdt.lls.pbs.org/out/v1/03c094dbd7874a4a8c3fe9fb10081bdb/index.m3u8"
   },
@@ -1971,7 +1875,7 @@
     "provider": "khetdt.lls.pbs.org",
     "ok": false,
     "reason": "empty response",
-    "latency": 0.15,
+    "latency": 0.109,
     "name": "PBS KHET (1080p) [Not 24/7]",
     "url": "https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8"
   },
@@ -1979,7 +1883,7 @@
     "provider": "kuondt.lls.pbs.org",
     "ok": false,
     "reason": "empty response",
-    "latency": 0.19,
+    "latency": 0.059,
     "name": "PBS KUON-TV (1080p) [Geo-blocked]",
     "url": "https://kuondt.lls.pbs.org/out/v1/91d8b5ffc5c1453c8a621508a07749a6/index.m3u8"
   },
@@ -1987,15 +1891,23 @@
     "provider": "wnjtdt.lls.pbs.org",
     "ok": false,
     "reason": "empty response",
-    "latency": 0.148,
+    "latency": 0.074,
     "name": "PBS WNJT (1080p) [Not 24/7]",
     "url": "https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8"
+  },
+  {
+    "provider": "mumbai-edge.smartplaytv.in",
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 3.042,
+    "name": "People Are Awesome (1080p)",
+    "url": "https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8"
   },
   {
     "provider": "frndlymsl.akamaized.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.225,
+    "latency": 0.36,
     "name": "PixL TV",
     "url": "https://frndlymsl.akamaized.net/hls/live/2006426/pixlmsl/pixlmsl/playlist.m3u8?hdnts=st=1606053234~exp=3216054041~acl=*~hmac=208d261d9f98d76a5ac30aa2ce51751f88ee50cfc24812b7cbea8b0397489a07"
   },
@@ -2003,7 +1915,7 @@
     "provider": "reflect-pomona.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.13,
+    "latency": 0.058,
     "name": "Pomona Internet Streaming Channel (720p)",
     "url": "https://reflect-pomona.cablecast.tv/live-1/live/live.m3u8"
   },
@@ -2011,7 +1923,7 @@
     "provider": "linear-10.frequency.stream",
     "ok": false,
     "reason": "<urlopen error [Errno -5] No address associated with hostname>",
-    "latency": 0.033,
+    "latency": 0.027,
     "name": "Popstar! TV (1080p) [Not 24/7]",
     "url": "https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8"
   },
@@ -2019,7 +1931,7 @@
     "provider": "livecdn.use1-0004.jwplive.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.012,
+    "latency": 0.093,
     "name": "TBN (1080p)",
     "url": "https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/fCGf6ROk/live.isml/.m3u8"
   },
@@ -2027,7 +1939,7 @@
     "provider": "livecdn.use1-0004.jwplive.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.02,
+    "latency": 0.098,
     "name": "TBN Inspire (1080p)",
     "url": "https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8"
   },
@@ -2035,7 +1947,7 @@
     "provider": "reflect-broadcast-psdschools.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.153,
+    "latency": 0.041,
     "name": "PSD TV (720p)",
     "url": "https://reflect-broadcast-psdschools.cablecast.tv/live-6/live/live.m3u8"
   },
@@ -2043,15 +1955,23 @@
     "provider": "storage.sardius.media",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.199,
+    "latency": 0.089,
     "name": "PTL TV Network (1080p)",
     "url": "https://storage.sardius.media/archives/-KyMV-J0vDqnClcSXs8p/events/site_1a4721d3BA/playlist.m3u8"
+  },
+  {
+    "provider": "eu1.servers10.com:8081",
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 2.243,
+    "name": "RadioMensaje TV (720p)",
+    "url": "https://eu1.servers10.com:8081/8230/index.m3u8"
   },
   {
     "provider": "stream.weathernationtv.com",
     "ok": false,
     "reason": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)>",
-    "latency": 0.256,
+    "latency": 0.25,
     "name": "Real America's Voice (1080p)",
     "url": "https://stream.weathernationtv.com/RAVStirr_poekxujeisurekugzezyg/O1/playlistSCTE35.m3u8"
   },
@@ -2059,7 +1979,7 @@
     "provider": "linear-44.frequency.stream",
     "ok": false,
     "reason": "<urlopen error [Errno -5] No address associated with hostname>",
-    "latency": 0.028,
+    "latency": 0.021,
     "name": "Revry News (720p) [Not 24/7]",
     "url": "https://linear-44.frequency.stream/dist/plex/44/hls/master/playlist.m3u8"
   },
@@ -2067,7 +1987,7 @@
     "provider": "rfdtv-jw.cdn.vustreams.com",
     "ok": false,
     "reason": "HTTP Error 503: Service Unavailable",
-    "latency": 0.296,
+    "latency": 0.129,
     "name": "RFD-TV",
     "url": "https://rfdtv-jw.cdn.vustreams.com/live/7cba1a3b-318a-4097-8492-374478370b91/live.isml/7cba1a3b-318a-4097-8492-374478370b91.m3u8"
   },
@@ -2075,7 +1995,7 @@
     "provider": "linear-690.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.128,
+    "latency": 0.102,
     "name": "Roar WKEF (1080p)",
     "url": "https://linear-690.frequency.stream/dist/stirr/690/hls/master/playlist.m3u8"
   },
@@ -2083,7 +2003,7 @@
     "provider": "linear-693.frequency.stream",
     "ok": false,
     "reason": "HTTP Error 503: No healthy IP available for the backend",
-    "latency": 0.19,
+    "latency": 0.107,
     "name": "Roar WSBT-TV (1080p)",
     "url": "https://linear-693.frequency.stream/dist/stirr/693/hls/master/playlist.m3u8"
   },
@@ -2091,7 +2011,7 @@
     "provider": "securestream9.champds.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.3,
+    "latency": 0.35,
     "name": "Rocky Hill Channel 16 (480p)",
     "url": "https://securestream9.champds.com/LIVE/RockyHillCTLIVE/RockyHillCTLIVE.m3u8"
   },
@@ -2099,7 +2019,7 @@
     "provider": "reflect-scvtv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.089,
+    "latency": 0.054,
     "name": "SCVTV (1080p)",
     "url": "https://reflect-scvtv.cablecast.tv/live-2/live/live.m3u8"
   },
@@ -2107,7 +2027,7 @@
     "provider": "reflect-bayarea.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.107,
+    "latency": 0.05,
     "name": "SF Commons 76 (480p)",
     "url": "https://reflect-bayarea.cablecast.tv/live-6/live/live.m3u8"
   },
@@ -2115,7 +2035,7 @@
     "provider": "reflect-bayarea.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.076,
+    "latency": 0.012,
     "name": "SF Commons 29 (480p)",
     "url": "https://reflect-bayarea.cablecast.tv/live-5/live/live.m3u8"
   },
@@ -2123,7 +2043,7 @@
     "provider": "live.seminolecountyfl.gov",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.202,
+    "latency": 0.279,
     "name": "SGTV (1080p)",
     "url": "https://live.seminolecountyfl.gov/live-2/live/stream-1/live.m3u8"
   },
@@ -2131,7 +2051,7 @@
     "provider": "livestreamcdn.net:444",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'livestreamcdn.net'. (_ssl.c:1010)>",
-    "latency": 0.472,
+    "latency": 0.489,
     "name": "Shalom America (720p) [Not 24/7]",
     "url": "https://livestreamcdn.net:444/ShalomTV/ShalomTV/playlist.m3u8"
   },
@@ -2139,15 +2059,23 @@
     "provider": "a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com",
     "ok": false,
     "reason": "HTTP Error 504: Gateway Timeout",
-    "latency": 0.047,
+    "latency": 0.188,
     "name": "Sony Canal Novelas",
     "url": "https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8"
+  },
+  {
+    "provider": "reflect-stlucie-ps-fl.cablecast.tv",
+    "ok": false,
+    "reason": "HTTP Error 403: Forbidden",
+    "latency": 0.075,
+    "name": "St Lucie Public Schools",
+    "url": "https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8"
   },
   {
     "provider": "bcovlive-a.akamaihd.net",
     "ok": false,
     "reason": "HTTP Error 503: Service Unavailable",
-    "latency": 0.062,
+    "latency": 0.104,
     "name": "Taiwan Plus TV (1080p)",
     "url": "https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8"
   },
@@ -2155,7 +2083,7 @@
     "provider": "maxtvhls.wns.live",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'maxtvhls.wns.live'. (_ssl.c:1010)>",
-    "latency": 0.364,
+    "latency": 0.311,
     "name": "Tapesh 2",
     "url": "https://maxtvhls.wns.live/hls/stream.m3u8"
   },
@@ -2163,15 +2091,15 @@
     "provider": "reflect-tampa-bay-community.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.124,
+    "latency": 0.036,
     "name": "TBCN (480p)",
     "url": "https://reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8"
   },
   {
     "provider": "watch.haitilive.net",
     "ok": false,
-    "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.151,
+    "reason": "HTTP Error 404: Not Found",
+    "latency": 1.673,
     "name": "Tele Pam (1080p)",
     "url": "https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8"
   },
@@ -2179,7 +2107,7 @@
     "provider": "haititivi.com",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'haititivi.com'. (_ssl.c:1010)>",
-    "latency": 0.145,
+    "latency": 0.106,
     "name": "TeleMIX (720p)",
     "url": "https://haititivi.com/haiti/telemix1/index.m3u8"
   },
@@ -2187,7 +2115,7 @@
     "provider": "reflect-temecula.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.079,
+    "latency": 0.052,
     "name": "Temecula TV (1080p)",
     "url": "https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8"
   },
@@ -2195,7 +2123,7 @@
     "provider": "carolburnett-vizio.amagi.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.269,
+    "latency": 0.628,
     "name": "The Carol Burnett Show (1080p)",
     "url": "https://carolburnett-vizio.amagi.tv/playlist.m3u8"
   },
@@ -2203,7 +2131,7 @@
     "provider": "amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.081,
+    "latency": 0.023,
     "name": "The Hill TV (1080p) [Geo-blocked]",
     "url": "https://amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv/playlist.m3u8"
   },
@@ -2211,7 +2139,7 @@
     "provider": "reflect-thornton.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.107,
+    "latency": 0.066,
     "name": "Thornton 8 (1080p)",
     "url": "https://reflect-thornton.cablecast.tv/live-4/live/live.m3u8"
   },
@@ -2219,7 +2147,7 @@
     "provider": "timelesstv1-301f.kxcdn.com",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.079,
+    "latency": 0.064,
     "name": "Timeless TV",
     "url": "https://timelesstv1-301f.kxcdn.com/hls/TimelessTV.m3u8"
   },
@@ -2227,7 +2155,7 @@
     "provider": "cdn4.skygo.mn",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 1.301,
+    "latency": 1.444,
     "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Entertainment\",TNT International (480p)",
     "url": "https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8"
   },
@@ -2235,7 +2163,7 @@
     "provider": "45.190.13.8",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 10.01,
+    "latency": 10.003,
     "name": "TUDN (United States) (1080p)",
     "url": "http://45.190.13.8/TUDNHD/index.m3u8"
   },
@@ -2248,18 +2176,10 @@
     "url": "http://45.190.13.8/UnivisionHD/index.m3u8"
   },
   {
-    "provider": "45.170.130.224:8000",
-    "ok": false,
-    "reason": "HTTP Error 404: Not Found",
-    "latency": 0.28,
-    "name": "TyC Sports USA",
-    "url": "http://45.170.130.224:8000/play/a020/index.m3u8"
-  },
-  {
     "provider": "unidfp-nlds154.global.ssl.fastly.net",
     "ok": false,
     "reason": "HTTP Error 403: Unauthorized",
-    "latency": 0.248,
+    "latency": 0.165,
     "name": "Univision WGBO-DT (2160p)",
     "url": "https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null"
   },
@@ -2275,7 +2195,7 @@
     "provider": "59a564764e2b6.streamlock.net",
     "ok": false,
     "reason": "<urlopen error [Errno 111] Connection refused>",
-    "latency": 0.151,
+    "latency": 0.066,
     "name": "Vallenato Internacional (720p) [Not 24/7]",
     "url": "https://59a564764e2b6.streamlock.net/vallenato/vallenatom/playlist.m3u8"
   },
@@ -2283,7 +2203,7 @@
     "provider": "vallejo.cablecast.tv",
     "ok": false,
     "reason": "<urlopen error timed out>",
-    "latency": 10.037,
+    "latency": 10.017,
     "name": "VCAT (480p)",
     "url": "https://vallejo.cablecast.tv/live-3/live/live.m3u8"
   },
@@ -2299,7 +2219,7 @@
     "provider": "amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.097,
+    "latency": 0.045,
     "name": "Vevo '70s (1080p)",
     "url": "https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8"
   },
@@ -2307,7 +2227,7 @@
     "provider": "amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.079,
+    "latency": 0.042,
     "name": "Vevo '80s (1080p)",
     "url": "https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8"
   },
@@ -2315,7 +2235,7 @@
     "provider": "amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.209,
+    "latency": 0.043,
     "name": "Vevo '90s (1080p)",
     "url": "https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8"
   },
@@ -2323,7 +2243,7 @@
     "provider": "amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv",
     "ok": false,
     "reason": "<urlopen error [Errno -2] Name or service not known>",
-    "latency": 0.102,
+    "latency": 0.025,
     "name": "Vevo Country (1080p)",
     "url": "https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8"
   },
@@ -2331,7 +2251,7 @@
     "provider": "d3vgs3ro3x6v8a.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.241,
+    "latency": 0.452,
     "name": "Vevo Hip Hop (1080p)",
     "url": "https://d3vgs3ro3x6v8a.cloudfront.net/Vevo_Hip_Hop.m3u8"
   },
@@ -2339,7 +2259,7 @@
     "provider": "d128y56w6v2kax.cloudfront.net",
     "ok": false,
     "reason": "<urlopen error [Errno -5] No address associated with hostname>",
-    "latency": 0.063,
+    "latency": 0.01,
     "name": "Vevo Pop (1080p)",
     "url": "https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8"
   },
@@ -2347,7 +2267,7 @@
     "provider": "d1hf773q57zx9s.cloudfront.net",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.296,
+    "latency": 0.446,
     "name": "Vevo R&B (1080p)",
     "url": "https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8"
   },
@@ -2355,7 +2275,7 @@
     "provider": "d2lyea6if8kkz9.cloudfront.net",
     "ok": false,
     "reason": "<urlopen error [Errno -5] No address associated with hostname>",
-    "latency": 0.027,
+    "latency": 0.028,
     "name": "Vevo Retro Rock (1080p)",
     "url": "https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8"
   },
@@ -2363,7 +2283,7 @@
     "provider": "reflect-vsctv.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.089,
+    "latency": 0.065,
     "name": "VSCTV (1080p)",
     "url": "https://reflect-vsctv.cablecast.tv/live-3/live/live.m3u8"
   },
@@ -2371,7 +2291,7 @@
     "provider": "6305c8676ce84.streamlock.net",
     "ok": false,
     "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for '6305c8676ce84.streamlock.net'. (_ssl.c:1010)>",
-    "latency": 0.174,
+    "latency": 0.275,
     "name": "WACX 55.1 (720p)",
     "url": "https://6305c8676ce84.streamlock.net/live/live/playlist.m3u8"
   },
@@ -2379,7 +2299,7 @@
     "provider": "170.254.17.2",
     "ok": false,
     "reason": "HTTP Error 403: Forbidden",
-    "latency": 0.112,
+    "latency": 0.151,
     "name": "We TV (720p)",
     "url": "http://170.254.17.2/WE_TV/index.m3u8"
   },
@@ -2387,7 +2307,7 @@
     "provider": "tvsen5.aynascope.net",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.647,
+    "latency": 0.588,
     "name": "Willow (720p)",
     "url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
   },
@@ -2395,7 +2315,7 @@
     "provider": "witn.cablecast.tv",
     "ok": false,
     "reason": "HTTP Error 404: Not Found",
-    "latency": 0.189,
+    "latency": 0.3,
     "name": "WITN22 (1080p) [Not 24/7]",
     "url": "https://witn.cablecast.tv/live-4/live/live.m3u8"
   },
@@ -2403,7 +2323,7 @@
     "provider": "live.zoomnews.info",
     "ok": false,
     "reason": "The read operation timed out",
-    "latency": 10.099,
+    "latency": 10.082,
     "name": "Zoom News (720p)",
     "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8"
   }
