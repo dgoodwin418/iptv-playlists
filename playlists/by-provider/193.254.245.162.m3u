@@ -1,5 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ParamountNetwork.us@East" tvg-name="Paramount Network (432p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png" group-title="Movies;Series",Paramount Network (432p)
 http://193.254.245.162/PARAMOUNT-CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="TBS.us@East" tvg-name="TBS (720p)" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="General",TBS (720p)
+http://193.254.245.162/TBS/index.m3u8
+#EXTINF:-1 tvg-id="TNT.us@East" tvg-name="TNT (United States) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="General",TNT (United States) (720p)
+http://193.254.245.162/TNT-HD/index.m3u8
 #EXTINF:-1 tvg-id="VH1.us@East" tvg-name="VH1 (432p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="Music",VH1 (432p)
 http://193.254.245.162/VH1/index.m3u8
