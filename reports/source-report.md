@@ -1,12 +1,12 @@
 # Remote Source Report
 
-Updated: **2026-10-10T15:27:10.545710+00:00**
+Updated: **2026-10-11T15:47:38.443095+00:00**
 
-- Downloaded records: **2,628**
-- Production channels: **1,332**
-- Duplicate alternatives removed: **922**
+- Downloaded records: **2,432**
+- Production channels: **1,345**
+- Duplicate alternatives removed: **720**
 
 | Source | Result | Channels |
 |---|---|---:|
-| doms9 IPTV - Combined | OK | 1,161 |
-| iptv-org - United States | OK | 1,467 |
+| doms9 IPTV - Combined | OK | 956 |
+| iptv-org - United States | OK | 1,476 |
