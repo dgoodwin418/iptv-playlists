@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="WLTV-DT.us_locals1" tvg-name="Univision Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11118_dark_360w_270h.png" group-title="TV",Univision Network
+http://168.228.44.241:9997/play/a01n/index.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us@West" tvg-name="Telemundo West (2160p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="General",Telemundo West (2160p)
 http://168.228.44.241:9997/play/a07g/index.m3u8
 #EXTINF:-1 tvg-id="UniMas.us@Mountain" tvg-name="UniMas Mountain (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/960px-Logo_UniM%C3%A1s_2021.svg.png" group-title="Undefined",UniMas Mountain (1080p)
