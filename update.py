@@ -1,3 +1,5 @@
+import copy
+import gzip
 import json
 import os
 import re
@@ -277,44 +279,157 @@ def write_provider_report(by_provider, notes, health):
         )
     (REPORTS_DIR / "provider-table.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-def merge_remote_epg(cfg, allowed_ids):
+
+PLUTO_EPG_URL = "https://i.mjh.nz/PlutoTV/us.xml.gz"
+PLUTO_FALLBACK_URL = "https://nzxmltv.com/iptv/plutotv-static.xml.gz"
+PLUTO_ID_RE = re.compile(r"(?<![a-fA-F0-9])([a-fA-F0-9]{24})(?![a-fA-F0-9])")
+
+
+def pluto_id_from_entry(entry):
+    # The stream ID is more reliable than the logo ID: some logos are stale.
+    stream = entry.get("url", "").split("|", 1)[0]
+    match = re.search(r"plu-([a-fA-F0-9]{24})", stream, re.I)
+    if match:
+        return match.group(1).lower()
+    for value in (entry.get("url", ""), entry.get("logo", "")):
+        if "pluto" in value.lower():
+            match = PLUTO_ID_RE.search(value)
+            if match:
+                return match.group(1).lower()
+    return None
+
+
+def fetch_xml_root(url):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*"})
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+        payload = response.read()
+    if payload[:2] == b"\\x1f\\x8b":
+        payload = gzip.decompress(payload)
+    return ET.fromstring(payload)
+
+
+def merge_remote_epg(cfg, production):
+    """Merge configured EPGs, then map Pluto programmes onto existing playlist tvg-ids."""
+    allowed_ids = {e["tvg_id"] for e in production if e.get("tvg_id")}
     channels, programmes = {}, {}
     statuses = []
+
     for src in cfg.get("epg_sources", []):
         if not src.get("enabled", True) or not src.get("url"):
             continue
         try:
-            xml_text = fetch_text(src["url"])
-            root = ET.fromstring(xml_text)
+            root = fetch_xml_root(src["url"])
             ch_count = pr_count = 0
             for ch in root.findall("channel"):
                 cid = ch.attrib.get("id", "")
-                if cid and (not allowed_ids or cid in allowed_ids) and cid not in channels:
-                    channels[cid] = ch
+                if cid and cid in allowed_ids and cid not in channels:
+                    channels[cid] = copy.deepcopy(ch)
                     ch_count += 1
             for pr in root.findall("programme"):
                 cid = pr.attrib.get("channel", "")
-                if not cid or (allowed_ids and cid not in allowed_ids):
+                if not cid or cid not in allowed_ids:
                     continue
-                key = (cid, pr.attrib.get("start", ""), pr.attrib.get("stop", ""), pr.findtext("title", ""))
+                key = (cid, pr.attrib.get("start", ""), pr.attrib.get("stop", ""))
                 if key not in programmes:
-                    programmes[key] = pr
+                    programmes[key] = copy.deepcopy(pr)
                     pr_count += 1
-            statuses.append({"id": src.get("id", "epg"), "ok": True, "channels": ch_count, "programmes": pr_count, "error": ""})
+            statuses.append({"id": src.get("id", "epg"), "ok": True,
+                             "channels": ch_count, "programmes": pr_count, "error": ""})
         except Exception as exc:
-            statuses.append({"id": src.get("id", "epg"), "ok": False, "channels": 0, "programmes": 0, "error": str(exc)[:300]})
+            statuses.append({"id": src.get("id", "epg"), "ok": False,
+                             "channels": 0, "programmes": 0, "error": str(exc)[:300]})
             print(f"WARNING: EPG source {src.get('name', src.get('id', 'epg'))} failed: {exc}")
+
+    # Map Pluto's opaque channel IDs to the IDs that Kodi already sees in tv.m3u.
+    pluto_entries = {}
+    for entry in production:
+        pid = pluto_id_from_entry(entry)
+        tid = entry.get("tvg_id", "")
+        if pid and tid:
+            pluto_entries.setdefault(pid, []).append(entry)
+
+    pluto_root = None
+    pluto_source = ""
+    pluto_errors = []
+    for url in (PLUTO_EPG_URL, PLUTO_FALLBACK_URL):
+        try:
+            pluto_root = fetch_xml_root(url)
+            pluto_source = url
+            break
+        except Exception as exc:
+            pluto_errors.append(f"{url}: {str(exc)[:180]}")
+            print(f"WARNING: Pluto EPG download failed: {url}: {exc}")
+
+    matched = {}
+    pluto_added = 0
+    if pluto_root is not None:
+        guide_channels = {}
+        for ch in pluto_root.findall("channel"):
+            cid = ch.get("id", "")
+            match = PLUTO_ID_RE.search(cid)
+            if match:
+                guide_channels.setdefault(match.group(1).lower(), ch)
+
+        # Some guides use names as channel IDs; only opaque-ID matches are automatic.
+        guide_programmes = defaultdict(list)
+        for pr in pluto_root.findall("programme"):
+            match = PLUTO_ID_RE.search(pr.get("channel", ""))
+            if match:
+                guide_programmes[match.group(1).lower()].append(pr)
+
+        for pid, entries in pluto_entries.items():
+            ch = guide_channels.get(pid)
+            schedules = guide_programmes.get(pid, [])
+            if ch is None or not schedules:
+                continue
+            for entry in entries:
+                tid = entry["tvg_id"]
+                matched[tid] = {"name": entry["name"], "pluto_id": pid,
+                                "programmes": len(schedules)}
+                if tid not in channels:
+                    mapped = copy.deepcopy(ch)
+                    mapped.set("id", tid)
+                    channels[tid] = mapped
+                for pr in schedules:
+                    key = (tid, pr.get("start", ""), pr.get("stop", ""))
+                    if key not in programmes:
+                        mapped = copy.deepcopy(pr)
+                        mapped.set("channel", tid)
+                        programmes[key] = mapped
+                        pluto_added += 1
+
+    statuses.append({"id": "pluto-tv", "ok": pluto_root is not None,
+                     "channels": len(matched), "programmes": pluto_added,
+                     "error": "; ".join(pluto_errors) if pluto_root is None else "",
+                     "url": pluto_source})
+
+    report = ["# Pluto TV EPG Matching Report", "",
+              f"Generated: {datetime.now(timezone.utc).isoformat()}", "",
+              f"- Pluto-related production entries with IDs: **{sum(len(v) for v in pluto_entries.values())}**",
+              f"- Matched production TVG IDs: **{len(matched)}**",
+              f"- Pluto programmes added: **{pluto_added}**",
+              f"- Guide source: `{pluto_source or 'unavailable'}`", "",
+              "| Channel | Pluto ID | Result | Programmes in Pluto guide |",
+              "|---|---|---|---:|"]
+    for pid, entries in sorted(pluto_entries.items()):
+        for entry in entries:
+            tid = entry["tvg_id"]
+            name = entry["name"].replace("|", r"\\|")
+            result = "Matched" if tid in matched else "Unmatched"
+            count = matched.get(tid, {}).get("programmes", 0)
+            report.append(f"| {name} | `{pid}` | {result} | {count} |")
+    (REPORTS_DIR / "pluto-epg-matches.md").write_text("\n".join(report) + "\n", encoding="utf-8")
+
     if channels or programmes:
         out = ET.Element("tv")
         for cid in sorted(channels):
             out.append(channels[cid])
-        for key in sorted(programmes, key=lambda k: (k[1], k[0], k[3])):
+        for key in sorted(programmes, key=lambda k: (k[1], k[0], k[2])):
             out.append(programmes[key])
         ET.ElementTree(out).write("guide.xml", encoding="utf-8", xml_declaration=True)
     elif not Path("guide.xml").exists():
         ET.ElementTree(ET.Element("tv")).write("guide.xml", encoding="utf-8", xml_declaration=True)
     return len(channels), len(programmes), statuses
-
 
 def main():
     cfg = load_config()
@@ -341,7 +456,7 @@ def main():
     shutil.copyfile(OUTPUT_DIR / "Verified_Working_and_Partial.m3u", "tv.m3u")
 
     allowed_ids = {e["tvg_id"] for e in production if e.get("tvg_id")}
-    epg_channels, epg_programmes, epg_statuses = merge_remote_epg(cfg, allowed_ids)
+    epg_channels, epg_programmes, epg_statuses = merge_remote_epg(cfg, production)
 
     duplicate_alternatives = len(entries) - len({channel_key(e) for e in entries})
     report = {
