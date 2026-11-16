@@ -26,6 +26,9 @@ jobs:
       IPTV_PRIVATE_SOURCE_107: ${{ secrets.IPTV_PRIVATE_SOURCE_107 }}
       IPTV_PRIVATE_SOURCE_109: ${{ secrets.IPTV_PRIVATE_SOURCE_109 }}
 
+concurrency:
+  group: iptv-update
+  cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
