@@ -1,62 +1,69 @@
+
 name: Update IPTV Playlists
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 9 * * *'
+    - cron: '22 11 * * *'
   push:
-    branches: [main]
     paths:
       - 'sources.json'
+      - 'provider-notes.json'
       - 'update.py'
       - 'test_providers.py'
-      - 'provider-notes.json'
       - '.github/workflows/update-playlists.yml'
 
 permissions:
   contents: write
+
+concurrency:
+  group: iptv-update
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      # Optional private/candidate playlist URLs. Leave the GitHub Secrets unset
-      # if you only want the public sources from sources.json.
       IPTV_PRIVATE_SOURCE_107: ${{ secrets.IPTV_PRIVATE_SOURCE_107 }}
       IPTV_PRIVATE_SOURCE_109: ${{ secrets.IPTV_PRIVATE_SOURCE_109 }}
 
-concurrency:
-  group: iptv-update
-  cancel-in-progress: false
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.11'
 
-      - name: Test providers automatically
+      - name: Test providers
         run: python test_providers.py
 
-      - name: Download sources and generate playlists
+      - name: Generate playlists and EPG
         run: python update.py
 
       - name: Commit generated files
-  run: |
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        shell: bash
+        run: |
+          set -e
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-    git add tv.m3u guide.xml dashboard-data.json provider-health.json stream-failures.json playlists reports
-    git add -f stream-health.json 2>/dev/null || true
+          git add -A -- tv.m3u guide.xml dashboard-data.json provider-health.json stream-failures.json playlists reports
 
-    if git diff --cached --quiet; then
-      echo "No changes to commit."
-      exit 0
-    fi
+          if [ -f stream-health.json ]; then
+            git add -- stream-health.json
+          fi
 
-    git commit -m "Auto-update IPTV playlists from remote sources"
-    git pull --rebase origin main
-    git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit.'
+            exit 0
+          fi
+
+          git commit -m 'Auto-update IPTV playlists and EPG'
+          git pull --rebase origin main
+          git push origin HEAD:main
