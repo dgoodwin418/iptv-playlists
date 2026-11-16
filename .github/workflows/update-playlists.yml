@@ -41,7 +41,7 @@ jobs:
       - name: Download sources and generate playlists
         run: python update.py
 
-       - name: Commit generated files
+      - name: Commit generated files
   run: |
     git config user.name "github-actions[bot]"
     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
