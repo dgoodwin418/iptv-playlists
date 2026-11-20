@@ -1,23 +1,23 @@
 {
-  "generated_utc": "2026-11-19T19:32:39.610252+00:00",
-  "source_records": 1926,
-  "unique_channels": 1690,
-  "production_channels": 1327,
-  "duplicate_alternatives_removed": 236,
-  "providers": 706,
+  "generated_utc": "2026-11-20T19:10:58.355975+00:00",
+  "source_records": 2175,
+  "unique_channels": 1742,
+  "production_channels": 1398,
+  "duplicate_alternatives_removed": 433,
+  "providers": 807,
   "sources": [
     {
       "id": "doms9-combined",
       "name": "doms9 IPTV - Combined",
       "ok": true,
-      "channels": 425,
+      "channels": 613,
       "error": ""
     },
     {
       "id": "iptv-org-us",
       "name": "iptv-org - United States",
       "ok": true,
-      "channels": 1501,
+      "channels": 1562,
       "error": ""
     }
   ],
@@ -25,8 +25,8 @@
     {
       "id": "doms9-epg",
       "ok": true,
-      "channels": 172,
-      "programmes": 18312,
+      "channels": 156,
+      "programmes": 16138,
       "error": ""
     },
     {
@@ -38,6 +38,6 @@
       "url": ""
     }
   ],
-  "epg_channels": 172,
-  "epg_programmes": 18312
+  "epg_channels": 156,
+  "epg_programmes": 16138
 }

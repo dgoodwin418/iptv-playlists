@@ -1,8 +1,8 @@
 # Pluto TV EPG Matching Report
 
-Generated: 2026-11-19T19:32:38.845810+00:00
+Generated: 2026-11-20T19:10:57.676126+00:00
 
-- Pluto-related production entries with IDs: **217**
+- Pluto-related production entries with IDs: **211**
 - Matched production TVG IDs: **0**
 - Pluto programmes added: **0**
 - Guide source: `unavailable`
@@ -74,14 +74,11 @@ Generated: 2026-11-19T19:32:38.845810+00:00
 | Cine Terror | `5d8d180092e97a5e107638d3` | Unmatched | 0 |
 | Tosh.0 (United States) | `5dae084727c8af0009fe40a4` | Unmatched | 0 |
 | Kids Movie Club | `5db0ad56edc89300090d2ebb` | Unmatched | 0 |
-| Home.Made.Nation (720p) | `5dc1cb279c91420009db261d` | Unmatched | 0 |
 | America's Voice News (720p) | `5e1f7da4bc7d740009831259` | Unmatched | 0 |
 | Pluto TV Minuto Para Ganar | `5e46e64dc73db400094b5f0b` | Unmatched | 0 |
 | Blaze Live (720p) | `5e46fba0c43b0d00096e5ac1` | Unmatched | 0 |
-| Game Show Central (720p) | `5e54187aae660e00093561d6` | Unmatched | 0 |
 | MLB (720p) | `5e66968a70f34c0007d050be` | Unmatched | 0 |
 | Red Bull TV US (1080p) | `5e7cb84a172a0f0007da69e4` | Unmatched | 0 |
-| All Reality by WE tv (720p) | `5e82530945600e0007ca076c` | Unmatched | 0 |
 | The Rifleman | `5e825550e758c700077b0aef` | Unmatched | 0 |
 | The Walking Dead en Espanol (720p) | `5e82bb378601b80007b4bd78` | Unmatched | 0 |
 | America's Test Kitchen (720p) | `5e84f54a82f05300080e6746` | Unmatched | 0 |
@@ -180,11 +177,9 @@ Generated: 2026-11-19T19:32:38.845810+00:00
 | Pluto TV El Reino Infantil | `6523f672a6c38300088cb807` | Unmatched | 0 |
 | Car Chase (United States) (720p) | `65244c403fd33c0008ffff31` | Unmatched | 0 |
 | More True Crime | `6532e6a9bdf3cf000887ab29` | Unmatched | 0 |
-| Tiny House Nation (720p) | `6540ff4f7312a40008297b59` | Unmatched | 0 |
 | Nicktoons (United States) (720p) | `654ca7f92c1d3300086b608c` | Unmatched | 0 |
 | Crunchyroll (720p) | `65652f7fc0fc88000883537a` | Unmatched | 0 |
 | Feel Good Drama | `65775af3b3801200084a3aa4` | Unmatched | 0 |
-| Crime 360 (720p) | `657880c46e4f6a00087404d0` | Unmatched | 0 |
 | Iron Chef | `6582f8dadfed030008e5a93d` | Unmatched | 0 |
 | Star Trek: Deep Space Nine | `65c69bbfd77d450008c7ffee` | Unmatched | 0 |
 | Tough Jobs | `65c69bf23ef47d0008583967` | Unmatched | 0 |
@@ -192,7 +187,6 @@ Generated: 2026-11-19T19:32:38.845810+00:00
 | The Wild Wild West (United States) | `664e640a0120f40008be4582` | Unmatched | 0 |
 | Nash Bridges (720p) | `666021cccb3ea10008406866` | Unmatched | 0 |
 | Big Brother | `6661f11a41af6400080e90d8` | Unmatched | 0 |
-| Best of Dr Phil | `666815f24b9fb400083f7e31` | Unmatched | 0 |
 | CBS en espanol | `668c5cb4f01dbe0008dd4082` | Unmatched | 0 |
 | VH1 Queens of Reality | `66abefe5d2d50d00082c7d12` | Unmatched | 0 |
 | Girlfriends Films | `66ba1e4446762a000855cd87` | Unmatched | 0 |
