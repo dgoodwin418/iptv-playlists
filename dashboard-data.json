@@ -1,16 +1,16 @@
 {
-  "generated_utc": "2026-11-20T19:10:58.355975+00:00",
-  "source_records": 2175,
-  "unique_channels": 1742,
-  "production_channels": 1398,
-  "duplicate_alternatives_removed": 433,
-  "providers": 807,
+  "generated_utc": "2026-11-21T01:55:48.963418+00:00",
+  "source_records": 2210,
+  "unique_channels": 1751,
+  "production_channels": 1420,
+  "duplicate_alternatives_removed": 459,
+  "providers": 810,
   "sources": [
     {
       "id": "doms9-combined",
       "name": "doms9 IPTV - Combined",
       "ok": true,
-      "channels": 613,
+      "channels": 648,
       "error": ""
     },
     {
@@ -25,19 +25,19 @@
     {
       "id": "doms9-epg",
       "ok": true,
-      "channels": 156,
-      "programmes": 16138,
+      "channels": 168,
+      "programmes": 17557,
       "error": ""
     },
     {
       "id": "pluto-tv",
-      "ok": false,
-      "channels": 0,
-      "programmes": 0,
-      "error": "https://i.mjh.nz/PlutoTV/us.xml.gz: not well-formed (invalid token): line 1, column 0; https://nzxmltv.com/iptv/plutotv-static.xml.gz: not well-formed (invalid token): line 1, column 0",
-      "url": ""
+      "ok": true,
+      "channels": 181,
+      "programmes": 3508,
+      "error": "",
+      "url": "https://i.mjh.nz/PlutoTV/us.xml.gz"
     }
   ],
-  "epg_channels": 156,
-  "epg_programmes": 16138
+  "epg_channels": 349,
+  "epg_programmes": 21065
 }
