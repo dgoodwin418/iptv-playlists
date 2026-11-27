@@ -1,23 +1,23 @@
 {
-  "generated_utc": "2026-11-26T20:16:52.681400+00:00",
-  "source_records": 2171,
-  "unique_channels": 1710,
-  "production_channels": 1372,
-  "duplicate_alternatives_removed": 461,
+  "generated_utc": "2026-11-27T20:03:34.182328+00:00",
+  "source_records": 2146,
+  "unique_channels": 1692,
+  "production_channels": 1386,
+  "duplicate_alternatives_removed": 454,
   "providers": 794,
   "sources": [
     {
       "id": "doms9-combined",
       "name": "doms9 IPTV - Combined",
       "ok": true,
-      "channels": 640,
+      "channels": 636,
       "error": ""
     },
     {
       "id": "iptv-org-us",
       "name": "iptv-org - United States",
       "ok": true,
-      "channels": 1531,
+      "channels": 1510,
       "error": ""
     }
   ],
@@ -25,19 +25,19 @@
     {
       "id": "doms9-epg",
       "ok": true,
-      "channels": 164,
-      "programmes": 17060,
+      "channels": 163,
+      "programmes": 16522,
       "error": ""
     },
     {
       "id": "pluto-tv",
       "ok": true,
       "channels": 180,
-      "programmes": 3510,
+      "programmes": 3487,
       "error": "",
       "url": "https://i.mjh.nz/PlutoTV/us.xml.gz"
     }
   ],
-  "epg_channels": 344,
-  "epg_programmes": 20570
+  "epg_channels": 343,
+  "epg_programmes": 20009
 }
